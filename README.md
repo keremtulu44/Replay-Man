@@ -151,7 +151,7 @@ Varsayılan korumalar:
 - İstek başına zaman aşımı: **en fazla 15 sn** (bağlantı/okuma zaman aşımları, toplam işlem süresi garantisi değildir).
 - Geçici hatalarda üstel yeniden deneme: **10 sn → 20 sn → … → en fazla 120 sn**; diğer hazır görevler önce işlenebilir.
 - Görev başına en fazla **3 ağ denemesi**.
-- HTTP **429**: ilk yanıtın ardından işlem beklemede tutulmaz, `blocked` durumuyla durur. `Retry-After` ve en az **30 dk cooldown** kaydedilir; süre dolmadan yeniden çalıştırmak istek göndermeden durur. Süre dolunca komutu tekrar çalıştırın. Eski `rate_limit_strike_limit` ayarı geriye dönük yüklenebilir ama artık kullanılmaz.
+- HTTP **429**: gerçek HTTP yanıtı alındığında rapor sunucu, uç türü (cookie/crumb/chart) ve okunabilen `Retry-After` bilgisini gösterir; query/cookie/yanıt gövdesi kaydedilmez. yfinance yalnızca hız sınırı istisnası bildirirse HTTP kodu doğrulanmış sayılmaz. İlk hız sınırı bildiriminde işlem beklemede tutulmaz, `blocked` durumuyla durur. `Retry-After` ve en az **30 dk cooldown** kaydedilir; süre dolmadan yeniden çalıştırmak istek göndermeden durur. Süre dolunca komutu tekrar çalıştırın. Eski `rate_limit_strike_limit` ayarı geriye dönük yüklenebilir ama artık kullanılmaz.
 - HTTP **401/403**: mevcut çalıştırma erişim reddedildi olarak durdurulur; CAPTCHA/proxy/kimlik taklidi denenmez. Yeni çalıştırmalar arası kalıcı erişim engeli henüz yoktur (E08); reddedilme sonrası tekrar zorlamayın.
 - Art arda **6 geçici hata**: devre kesici açılır.
 - Aynı anda ikinci indiriciyi engellemeyi amaçlayan kilit dosyası; eşzamanlı başlatma yarışı henüz giderilmedi (E09). İki indirici başlatmayın.

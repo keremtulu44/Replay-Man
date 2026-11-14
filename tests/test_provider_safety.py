@@ -62,3 +62,26 @@ def test_timeout_is_capped_for_yfinance_internal_requests(monkeypatch):
     session.get("https://example.invalid", timeout=5)
     session.get("https://example.invalid")
     assert timeouts == [15, 5, 15]
+
+
+def test_429_diagnostics_distinguish_endpoint_and_omit_query(monkeypatch):
+    monkeypatch.setattr(requests.Session, "request", lambda self, *a, **k: Response(429, {"Retry-After": "12"}))
+    session = PoliteSession()
+    with pytest.raises(RateLimited) as exc:
+        session.get("https://query1.finance.yahoo.com/v8/finance/chart/ASELS.IS?crumb=secret")
+    assert exc.value.status == 429
+    assert exc.value.retry_after == 12
+    assert "sunucu=query1.finance.yahoo.com" in str(exc.value)
+    assert "uç=chart" in str(exc.value)
+    assert "Retry-After=12 sn" in str(exc.value)
+    assert "secret" not in str(exc.value)
+
+
+def test_yfinance_rate_limit_is_not_claimed_as_observed_http_429():
+    from yfinance.exceptions import YFRateLimitError
+    from replayman.errors import classify_error
+
+    failure = classify_error(YFRateLimitError())
+    assert failure.kind == "rate_limit"
+    assert failure.status is None
+    assert "doğrulanmadı" in failure.message

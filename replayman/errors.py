@@ -21,8 +21,8 @@ class AccessDenied(FetchFailure):
 
 
 class RateLimited(FetchFailure):
-    def __init__(self, message: str = "HTTP 429: hız sınırı", retry_after: float | None = None) -> None:
-        super().__init__("rate_limit", message, 429, retry_after)
+    def __init__(self, message: str = "HTTP 429: hız sınırı", retry_after: float | None = None, status: int | None = 429) -> None:
+        super().__init__("rate_limit", message, status, retry_after)
 
 
 class TransientHTTP(FetchFailure):
@@ -68,7 +68,9 @@ def classify_error(exc: BaseException) -> FetchFailure:
         YFInvalidPeriodError = YFPricesMissingError = YFRateLimitError = ()
         YFTickerMissingError = YFTzMissingError = ()
     if isinstance(exc, YFRateLimitError):
-        return RateLimited(str(exc))
+        # yfinance 429 görmeden de "Too Many Requests" içerikli yanıt için
+        # bu hatayı verebilir; doğrudan HTTP 429 diye raporlamayalım.
+        return RateLimited(f"yfinance hız sınırı bildirdi (HTTP kodu doğrulanmadı): {exc}", status=None)
     if isinstance(exc, YFPricesMissingError):
         message = str(exc)
         lower = message.lower()

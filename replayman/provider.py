@@ -56,7 +56,26 @@ class PoliteSession(requests.Session):
         if status in (401, 403):
             raise AccessDenied(status, f"HTTP {status}: Yahoo erişimi reddetti; istekler durdurulacak")
         if status == 429:
-            raise RateLimited(retry_after=_retry_after_seconds(response.headers.get("Retry-After")))
+            # Yönlendirmelerden sonraki gerçek adresi kullan; query, cookie ve
+            # yanıt gövdesi rapora yazılmaz. Bilinmeyen yollar da gizli kalır.
+            parsed = urlparse(getattr(response, "url", None) or url)
+            host = parsed.hostname or "bilinmiyor"
+            if not (host == "yahoo.com" or host.endswith(".yahoo.com")):
+                host = "yahoo-dışı/bilinmiyor"
+            if host == "fc.yahoo.com":
+                endpoint = "cookie"
+            elif parsed.path == "/v1/test/getcrumb":
+                endpoint = "crumb"
+            elif parsed.path.startswith("/v8/finance/chart/"):
+                endpoint = "chart"
+            else:
+                endpoint = "diğer"
+            retry_after = _retry_after_seconds(response.headers.get("Retry-After"))
+            retry_info = f"{retry_after:.0f} sn" if retry_after is not None else "yok/okunamadı"
+            raise RateLimited(
+                f"HTTP 429: hız sınırı | sunucu={host} | uç={endpoint} | Retry-After={retry_info}",
+                retry_after=retry_after,
+            )
         if 500 <= status < 600:
             raise TransientHTTP(status)
         # Yahoo çerez başlangıç adresi 404 ile de geçerli cookie döndürebilir.

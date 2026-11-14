@@ -194,7 +194,7 @@ class Downloader:
                                 state.mark_failed(task, failure.kind, failure.message)
                             else:
                                 state.mark_retry(task, failure.kind, failure.message, cooldown)
-                            status, stop_reason, stop = "blocked", f"Yahoo hız sınırı; {cooldown:.0f} sn sonra tekrar deneyin", True
+                            status, stop_reason, stop = "blocked", f"{failure.message}; {cooldown:.0f} sn sonra tekrar deneyin", True
                             logger.warning("%s", stop_reason)
                             break
                         if failure.kind in RETRYABLE_KINDS:
