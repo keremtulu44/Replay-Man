@@ -92,7 +92,9 @@ def main(argv: list[str] | None = None) -> int:
 
     if args.check:
         try:
-            print(json.dumps(check_plan(settings, args.catalog), ensure_ascii=False, indent=2))
+            symbols = [s.strip() for s in args.symbols.split(",")] if args.symbols else None
+            selected = settings.with_overrides(intervals=("1h", "1d") if args.interval == "both" else (args.interval,))
+            print(json.dumps(check_plan(selected, args.catalog, symbols=symbols, limit=args.limit), ensure_ascii=False, indent=2))
             return 0
         except Exception as exc:
             print(f"Kontrol hatası: {exc}", file=sys.stderr)

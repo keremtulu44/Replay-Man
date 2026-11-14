@@ -1,26 +1,27 @@
 import random
 
 from replayman.ratelimit import RequestGate
-from replayman.state import State
+from replayman.state import State, TaskScope
 
 
 def test_state_retry_and_resume(settings):
     now = [100.0]
+    scope = TaskScope((("A", "series-a"),), ("1h",))
     with State(settings.state_path, clock=lambda: now[0]) as state:
-        state.plan_tasks([("A", "1h", "s", "e")])
-        task = state.due_tasks(now[0], 3)[0]
+        state.plan_tasks([("A", "series-a", "1h", "s", "e")])
+        task = state.due_tasks(now[0], 3, scope=scope)[0]
         state.mark_running(task)
-        state.reset_running()
-        task = state.due_tasks(now[0], 3)[0]
+        state.reset_running(scope=scope)
+        task = state.due_tasks(now[0], 3, scope=scope)[0]
         state.mark_retry(task, "transient", "boom", 10)
         now[0] = 105.0
-        assert state.due_tasks(now[0], 3) == []
+        assert state.due_tasks(now[0], 3, scope=scope) == []
         now[0] = 111.0
-        due = state.due_tasks(now[0], 3)
+        due = state.due_tasks(now[0], 3, scope=scope)
         assert len(due) == 1
         assert due[0].attempts == 1
         state.mark_complete(due[0], 5, False)
-        assert state.task_counts() == {"complete": 1}
+        assert state.task_counts(scope=scope) == {"complete": 1}
 
 
 def test_gate_min_interval_and_hourly_budget(settings):

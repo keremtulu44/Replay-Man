@@ -104,9 +104,13 @@ def _bist_daily(df: pd.DataFrame, asset: Asset) -> pd.DataFrame:
     return out.reset_index(drop=True)
 
 
-def derive_timeframes(hourly: pd.DataFrame, asset: Asset) -> dict[str, pd.DataFrame]:
+def derive_timeframes(hourly: pd.DataFrame, asset: Asset, *, series_id: str) -> dict[str, pd.DataFrame]:
+    if not series_id:
+        raise ValueError("Türetilmiş seri için kaynak series_id gerekli")
     if hourly.empty:
         return {}
+    if "series_id" in hourly.columns and set(hourly["series_id"].astype(str)) != {series_id}:
+        raise ValueError("Türetim kaynağı farklı seri kimlikleri içeriyor")
     df = hourly.copy()
     df["ts_utc"] = pd.to_datetime(df["ts_utc"], utc=True)
     df = df.set_index("ts_utc").sort_index()
@@ -122,6 +126,8 @@ def derive_timeframes(hourly: pd.DataFrame, asset: Asset) -> dict[str, pd.DataFr
             grouped = df.resample(rule, origin="start_day")
             counts = grouped.size()
             result[label] = _finish(grouped, counts, hours, asset, label, tz)
+    for frame in result.values():
+        frame["series_id"] = series_id
     return {key: value for key, value in result.items() if not value.empty}
 
 

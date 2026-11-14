@@ -6,16 +6,16 @@ import json
 from pathlib import Path
 
 from .config import Settings
-from .state import State
+from .state import State, TaskScope
 
 
-def write_reports(settings: Settings, state: State, summary: dict) -> None:
+def write_reports(settings: Settings, state: State, summary: dict, *, scope: TaskScope) -> None:
     directory = Path(settings.report_dir)
     directory.mkdir(parents=True, exist_ok=True)
     (directory / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
 
-    tasks = state.all_tasks()
-    task_fields = ["asset_id", "interval", "start", "end", "status", "attempts", "next_retry_at", "error_kind", "last_error", "rows", "from_cache", "updated_at"]
+    tasks = state.all_tasks(scope=scope)
+    task_fields = ["asset_id", "series_id", "interval", "start", "end", "status", "attempts", "next_retry_at", "error_kind", "last_error", "rows", "from_cache", "updated_at"]
     with (directory / "tasks.csv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=task_fields)
         writer.writeheader()
@@ -27,11 +27,11 @@ def write_reports(settings: Settings, state: State, summary: dict) -> None:
         for row in tasks:
             if row["status"] == "failed" or row["last_error"]:
                 writer.writerow({key: row[key] for key in task_fields})
-    coverage_fields = ["asset_id", "interval", "complete", "failed", "pending", "rows"]
+    coverage_fields = ["asset_id", "series_id", "interval", "complete", "failed", "pending", "task_rows"]
     with (directory / "coverage.csv").open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=coverage_fields)
         writer.writeheader()
-        for row in state.coverage():
+        for row in state.coverage(scope=scope):
             writer.writerow({key: row[key] for key in coverage_fields})
 
     counts = summary.get("task_counts", {})
@@ -42,7 +42,8 @@ def write_reports(settings: Settings, state: State, summary: dict) -> None:
         f"- Varlık: {summary.get('assets')}",
         f"- Bu çalıştırmadaki ağ isteği: {summary.get('network_requests')}",
         f"- Önbellekten gelen görev: {summary.get('cache_hits')}",
-        f"- Görevler: {counts}",
+        f"- Seçili kapsamdaki görevler: {counts}",
+        f"- Tüm veritabanındaki görevler: {summary.get('queue_task_counts', {})}",
         f"- Türetilen varlık: {summary.get('derived', {}).get('assets', 0)}",
         f"- Günlük karşılaştırma uyuşmazlığı: {summary.get('derived', {}).get('daily_mismatches', 0)}",
     ]
@@ -51,9 +52,9 @@ def write_reports(settings: Settings, state: State, summary: dict) -> None:
     lines += [
         "",
         "Dosyalar:",
-        "- `tasks.csv`: tüm görevler ve yeniden deneme zamanları",
-        "- `errors.csv`: başarısız/hatalı görevler",
-        "- `coverage.csv`: varlık ve periyot kapsama özeti",
+        "- `tasks.csv`: seçili varlık/seri/periyot görevleri ve yeniden deneme zamanları",
+        "- `errors.csv`: seçili kapsamdaki başarısız/hatalı görevler",
+        "- `coverage.csv`: seçili kapsamdaki varlık/seri/periyot özeti; task_rows benzersiz CSV satır sayısı değildir",
         "",
         "Aynı komutu tekrar çalıştırmak tamamlanan görevleri atlar, bekleyen görevleri sürdürür.",
     ]

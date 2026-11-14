@@ -47,18 +47,19 @@ python run.py --install
 python run.py
 ```
 
-İlk gerçek indirme için önce küçük test önerilir:
+İlk gerçek uygunluk testi için önerilen sekiz sembol:
 
-```bash
-python run.py --symbols ASELS,THYAO,XU100,GC=F,BZ=F --interval 1d
-python run.py --symbols ASELS,THYAO,XU100,GC=F,BZ=F --interval 1h
+```text
+ASELS,THYAO,XU100,TRY=X,^GSPC,DX-Y.NYB,GC=F,BZ=F
 ```
 
-Sonra tüm havuz:
+Bu test canlı ağ erişimi gerektirir ve **henüz yapılmadı/ayrı onay bekliyor**. Tam havuzdan ayrı `--config` dosyasında `cache_dir`, `output_dir`, `derived_dir`, `report_dir`, `state_path`, `lock_path` ve `log_dir` yollarını izole edin; göreli yollar depo köküne göre çözülür. Önce yalnızca `1d`, düşük `--max-requests` bütçesiyle; günlük sonuçlar uygunsa aynı izole ortamda `1h` denenmelidir. Örnek seçimi ağa çıkmadan doğrulamak için:
 
 ```bash
-python run.py
+python run.py --check --symbols 'ASELS,THYAO,XU100,TRY=X,^GSPC,DX-Y.NYB,GC=F,BZ=F' --interval 1d
 ```
+
+E03–E06 veri sözleşmesi bulguları ve canlı uygunluk kontrolleri tamamlanmadan tam havuzu araştırma için onaylanmış kabul etmeyin. `python run.py` tüm etkin varlıkların indirmesini başlatır; yukarıdaki kurulum örneği bir veri kalitesi onayı değildir.
 
 ---
 
@@ -101,17 +102,18 @@ python run.py --force-unlock
 
 | Yol | İçerik |
 |---|---|
-| `data/prices/<asset_id>/1h.csv` | Saatlik OHLCV + temettü/bölünme kolonları |
-| `data/prices/<asset_id>/1d.csv` | Günlük OHLCV + temettü/bölünme kolonları |
-| `data/derived/<asset_id>/2h.csv` | 1s veriden türetilmiş 2s |
-| `data/derived/<asset_id>/4h.csv` | 1s veriden türetilmiş 4s |
-| `data/derived/<asset_id>/1d_from_1h.csv` | 1s veriden türetilmiş günlük |
-| `data/derived/<asset_id>/daily_comparison.csv` | Native günlük ile türetilmiş günlük karşılaştırması |
+| `data/prices/<asset_id>/<series_id>/series.json` | Enstrüman ve fiyat politikası manifesti |
+| `data/prices/<asset_id>/<series_id>/1h.csv` | Saatlik OHLCV + temettü/bölünme kolonları |
+| `data/prices/<asset_id>/<series_id>/1d.csv` | Günlük OHLCV + temettü/bölünme kolonları |
+| `data/derived/<asset_id>/<series_id>/2h.csv` | 1s veriden türetilmiş 2s |
+| `data/derived/<asset_id>/<series_id>/4h.csv` | 1s veriden türetilmiş 4s |
+| `data/derived/<asset_id>/<series_id>/1d_from_1h.csv` | 1s veriden türetilmiş günlük |
+| `data/derived/<asset_id>/<series_id>/daily_comparison.csv` | Native günlük ile türetilmiş günlük karşılaştırması |
 | `data/reports/latest.md` | İnsan-okunur son rapor |
 | `data/reports/summary.json` | Makine-okunur özet |
-| `data/reports/tasks.csv` | Tüm görevler, deneme sayıları, sonraki deneme zamanları |
-| `data/reports/errors.csv` | Hatalı/başarısız görevler |
-| `data/reports/coverage.csv` | Varlık/periyot kapsama özeti |
+| `data/reports/tasks.csv` | Seçili varlık/seri/periyot görevleri, deneme sayıları, sonraki deneme zamanları |
+| `data/reports/errors.csv` | Seçili kapsamdaki hatalı/başarısız görevler |
+| `data/reports/coverage.csv` | Seçili varlık/seri/periyot kapsama özeti |
 | `data/state.sqlite3` | Görev kuyruğu ve kaldığı yerden devam durumu |
 | `data/cache/` | Yahoo yanıt önbelleği |
 | `logs/replayman.log` | Çalıştırma günlüğü |
@@ -121,10 +123,18 @@ CSV fiyat kolonları:
 ```text
 ts_utc, session_date, open, high, low, close, adj_close, volume,
 dividends, stock_splits, capital_gains,
-asset_id, symbol, interval, currency, source, auto_adjust, fetched_at
+asset_id, series_id, symbol, interval, currency, source,
+auto_adjust, back_adjust, repair, adj_close_source, exchange_timezone,
+timestamp_basis, session_date_basis, fetched_at
 ```
 
-Varsayılan olarak `auto_adjust=false`: ham OHLC korunur, `adj_close` ayrı tutulur.
+Varsayılan olarak `auto_adjust=false`: ham OHLC korunur, sağlayıcının verdiği `adj_close` ayrı tutulur. Sağlayıcı `adj_close` vermezse veya NaN/sonsuz değer verirse `close` kopyalanmaz; değer boş kalır ve `adj_close_source=missing` yazılır. Sağlayıcının ilettiği sembol/para birimi/enstrüman türü uyuşmazlığı reddedilir; eksik metadata doğrulanmış sayılmaz. `POINTS` katalog biriminin para birimi/birim anlamı ayrıca doğrulanacaktır. Naive timestamp ancak sağlayıcı borsa zaman dilimi varsa yorumlanır; yoksa reddedilir.
+
+`series_id`; sembol, varlık sınıfı, katalog para birimi ve fiyat politikasının SHA-256 kimliğidir. Sembol veya `auto_adjust/back_adjust/repair/keepna/actions/prepost` değişirse yeni dizin ve yeni görev kuyruğu oluşur; eski seri silinmez. Seri kimliği olmayan eski SQLite görevleri `tasks_legacy_v1` tablosunda korunur ve yeni seriye otomatik `complete` olarak taşınmaz. Eski `/data/prices/<asset_id>/1h.csv` düzenindeki dosyalar da yerinde bırakılır; yeni düzen sürümlü dizindir.
+
+`--symbols`, `--limit`, `--interval` ve `--retry-failed` yalnızca seçili varlık/seri/periyot görevlerini etkiler. `task_counts` seçili koşuyu, `queue_task_counts` tüm veritabanını gösterir. `coverage.csv` yalnızca seçili kapsamı içerir; `task_rows` görev satırları toplamıdır, benzersiz fiziksel CSV satır sayısı değildir.
+
+**Henüz açık olan veri sözleşmesi riskleri:** Seans takvimi ve öğle arası varsayımı doğrulanmadı; `session_date` şimdilik takvim günü etiketidir. 2s/4s `complete` alanı yalnızca mevcut saat sayısı varsayımını kontrol eder; seans takvimiyle doğrulanmış kabul edilmemeli. Açık bar/refresh (E05), vadeli işlem günü (E04), günlük karşılaştırma kapsamı (E06), kalıcı erişim engeli (E08), atomik kilit (E09), önbellek çifti (E10) ve kesinti/rapor garantileri (E12) henüz tamamlanmadı. Bu nedenle tam havuz araştırma verisi olarak onaylanmış değildir.
 
 ---
 
@@ -142,12 +152,12 @@ Varsayılan korumalar:
 - Geçici hatalarda üstel bekleme: **30 sn → 60 sn → … → en fazla 900 sn**.
 - Görev başına en fazla **3 ağ denemesi**.
 - HTTP **429**: `Retry-After` varsa dikkate alınır; yoksa en az **30 dk cooldown**.
-- HTTP **429 tekrar sınırı**: 2 kez hız sınırı görülürse çalıştırma `blocked` olur.
-- HTTP **401/403**: erişim reddedildi olarak durdurulur; CAPTCHA/proxy/kimlik taklidi denenmez.
+- HTTP **429 tekrar sınırı**: mevcut çalıştırmada 2 kez hız sınırı görülürse `blocked` olur. Sayaç başarılı bir ağ yanıtında sıfırlanır; kalıcı strike politikası E08 kapsamında henüz değişmedi.
+- HTTP **401/403**: mevcut çalıştırma erişim reddedildi olarak durdurulur; CAPTCHA/proxy/kimlik taklidi denenmez. Yeni çalıştırmalar arası kalıcı erişim engeli henüz yoktur (E08); reddedilme sonrası tekrar zorlamayın.
 - Art arda **6 geçici hata**: devre kesici açılır.
-- Aynı anda ikinci indiriciyi engellemek için kilit dosyası.
+- Aynı anda ikinci indiriciyi engellemeyi amaçlayan kilit dosyası; eşzamanlı başlatma yarışı henüz giderilmedi (E09). İki indirici başlatmayın.
 - Atomik CSV yazımı ve SQLite görev durumu.
-- Tamamlanan görevler tekrar indirilmez; disk önbelleği kullanılır.
+- Tamamlanan görevler tekrar indirilmez; disk önbelleği kullanılır. Önbellek çifti atomik değildir (E10). Pickle dosyaları yalnızca güvenilir yerel dosya olmalıdır; dışarıdan alınan önbelleği yüklemeyin.
 
 Ayarlar: `config/settings.json`.
 
@@ -173,9 +183,9 @@ Bu değerler erişim garantisi vermez. Yahoo hız sınırı/erişim politikası 
 - BIST için 2s/4s türetimi `Europe/Istanbul` seansına göre yapılır:
   - 2s sınırları: 10:00, 12:00, 14:00, 16:00.
   - 4s sınırları: 10:00, 14:00.
-  - Öğle arası nedeniyle 12:00–14:00 ve 10:00–14:00 barları eksik saat içerebilir; `bar_count`, `expected_bars`, `complete` kolonları bunu gösterir.
-- BIST olmayan varlıklarda UTC tabanlı genel birleştirme kullanılır.
-- Türetilmiş günlük ile native günlük `daily_comparison.csv` içinde karşılaştırılır. Uyuşmazlık varsa rapora yazılır; sessizce düzeltilmez.
+  - Mevcut, **doğrulanmamış** öğle arası varsayımı 12:00–14:00 arasıdır. `bar_count` ve `expected_bars` yalnızca sayı karşılaştırır; `complete` yanlış/eksik saat kimliklerini veya yarım günü güvenilir biçimde ayırt etmez (E03/E04).
+- BIST olmayan varlıklarda UTC tabanlı genel birleştirme kullanılır; bu, doğrulanmış borsa işlem günü değildir.
+- Türetilmiş günlük ile native günlük `daily_comparison.csv` içinde karşılaştırılır. Şimdilik yalnızca ortak günlerde close/hacim karşılaştırılır; eksik günler ve OHLC farkları için E06 açıktır. Bu rapor tam doğrulama yerine geçmez.
 
 Önemli: **Günlük veriden saatlik/dakikalık veri üretilmez.** Bu sürüm dakikalık veri indirmez.
 
@@ -208,7 +218,7 @@ python -m pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-Testler ağa çıkmaz. Katalog, ayarlar, OHLC doğrulama, BIST seans türetimi, SQLite retry/resume, istek bütçesi, cooldown, 401/403/429 davranışı ve önbellek kontrol edilir.
+Testler ağa çıkmaz. Katalog, ayarlar, OHLC doğrulama, mevcut BIST seans varsayımı, SQLite retry/resume, istek bütçesi, cooldown, 401/403/429 davranışı ve önbellek kontrol edilir. E01/E02/E07 için seçili kuyruk izolasyonu, sembol/politika seri ayrımı, sürümlü türetim, eski görevlerin korunması ve metadata regresyonları da vardır. Bu testler canlı Yahoo uygunluğunu veya henüz doğrulanmamış seans takvimini kanıtlamaz.
 
 ---
 
@@ -255,4 +265,4 @@ python run.py --retry-failed
 - Otomatik strateji keşfi/backtest.
 - CAPTCHA çözme, proxy rotasyonu veya cihaz kimliği taklidi.
 
-Sonraki doğal adım: küçük sembol grubuyla gerçek Yahoo uygunluk testi, ardından tüm havuzun indirilmesi ve replay arayüzüne bağlanması.
+Sonraki veri katmanı adımı: E03–E12 arasında kalan sözleşme/dayanıklılık düzeltmeleri ve ayrı onaylı küçük canlı uygunluk testi. Replay/strateji motoru bu paketin kapsamında değildir ve ayrıca kullanıcı onayı gerektirir.
