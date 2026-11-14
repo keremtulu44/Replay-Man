@@ -95,12 +95,26 @@ def test_runner_access_denied_stops(settings, catalog_path):
     assert provider.calls == 1
 
 
-def test_runner_rate_limit_strike_limit(settings, catalog_path):
-    clock, sleep = make_clock()
-    provider = BlockingProvider(RateLimited())
-    settings = settings.with_overrides(rate_limit_strike_limit=2)
-    summary = Downloader(settings, catalog_path, provider=provider, sleep=sleep, clock=clock).run(limit=2, intervals=("1d",))
+def test_runner_stops_on_rate_limit_without_sleep_and_respects_cooldown(settings, catalog_path):
+    now = [1_000_000.0]
+    sleeps = []
+
+    def sleep(seconds):
+        sleeps.append(seconds)
+        now[0] += seconds
+
+    provider = BlockingProvider(RateLimited(retry_after=20))
+    downloader = Downloader(settings, catalog_path, provider=provider, sleep=sleep, clock=lambda: now[0])
+    summary = downloader.run(limit=2, intervals=("1d",))
     assert summary["status"] == "blocked"
+    assert provider.calls == 1
+    assert not sleeps
+    summary = downloader.run(limit=2, intervals=("1d",))
+    assert summary["status"] == "blocked"
+    assert provider.calls == 1
+    assert not sleeps
+    now[0] += 21
+    downloader.run(limit=2, intervals=("1d",))
     assert provider.calls == 2
 
 

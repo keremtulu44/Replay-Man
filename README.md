@@ -53,7 +53,7 @@ python run.py
 ASELS,THYAO,XU100,TRY=X,^GSPC,DX-Y.NYB,GC=F,BZ=F
 ```
 
-Bu test canlı ağ erişimi gerektirir ve **henüz yapılmadı/ayrı onay bekliyor**. Tam havuzdan ayrı `--config` dosyasında `cache_dir`, `output_dir`, `derived_dir`, `report_dir`, `state_path`, `lock_path` ve `log_dir` yollarını izole edin; göreli yollar depo köküne göre çözülür. Önce yalnızca `1d`, düşük `--max-requests` bütçesiyle; günlük sonuçlar uygunsa aynı izole ortamda `1h` denenmelidir. Örnek seçimi ağa çıkmadan doğrulamak için:
+Bu test canlı ağ erişimi gerektirir ve **henüz yapılmadı**. Tam havuzdan ayrı `--config` dosyasında `cache_dir`, `output_dir`, `derived_dir`, `report_dir`, `state_path`, `lock_path` ve `log_dir` yollarını izole edin; göreli yollar depo köküne göre çözülür. Önce yalnızca `1d`, düşük `--max-requests` bütçesiyle; günlük sonuçlar uygunsa aynı izole ortamda `1h` denenmelidir. Örnek seçimi ağa çıkmadan doğrulamak için:
 
 ```bash
 python run.py --check --symbols 'ASELS,THYAO,XU100,TRY=X,^GSPC,DX-Y.NYB,GC=F,BZ=F' --interval 1d
@@ -145,14 +145,13 @@ Sistem **engeli aşmaya çalışmaz**; istekleri sınırlar ve erişim engeliği
 Varsayılan korumalar:
 
 - Tek iş parçacığı / sıralı indirme.
-- Her ağ isteği arasında en az **5 sn + 0–1.5 sn jitter**.
-- Saatlik ağ isteği bütçesi: **200 istek/saat**.
-- Çalıştırma başına ağ isteği bütçesi: **1500 istek**.
-- İstek zaman aşımı: **25 sn**.
-- Geçici hatalarda üstel bekleme: **30 sn → 60 sn → … → en fazla 900 sn**.
+- Her ağ isteği arasında **2,5 sn + 0–0,5 sn jitter**.
+- Saatlik ağ isteği bütçesi: **1200 istek/saat**; bu sınır dolarsa boşluk açılana kadar beklenir.
+- Çalıştırma başına ağ isteği bütçesi: **2500 istek**.
+- İstek başına zaman aşımı: **en fazla 15 sn** (bağlantı/okuma zaman aşımları, toplam işlem süresi garantisi değildir).
+- Geçici hatalarda üstel yeniden deneme: **10 sn → 20 sn → … → en fazla 120 sn**; diğer hazır görevler önce işlenebilir.
 - Görev başına en fazla **3 ağ denemesi**.
-- HTTP **429**: `Retry-After` varsa dikkate alınır; yoksa en az **30 dk cooldown**.
-- HTTP **429 tekrar sınırı**: mevcut çalıştırmada 2 kez hız sınırı görülürse `blocked` olur. Sayaç başarılı bir ağ yanıtında sıfırlanır; kalıcı strike politikası E08 kapsamında henüz değişmedi.
+- HTTP **429**: ilk yanıtın ardından işlem beklemede tutulmaz, `blocked` durumuyla durur. `Retry-After` ve en az **30 dk cooldown** kaydedilir; süre dolmadan yeniden çalıştırmak istek göndermeden durur. Süre dolunca komutu tekrar çalıştırın. Eski `rate_limit_strike_limit` ayarı geriye dönük yüklenebilir ama artık kullanılmaz.
 - HTTP **401/403**: mevcut çalıştırma erişim reddedildi olarak durdurulur; CAPTCHA/proxy/kimlik taklidi denenmez. Yeni çalıştırmalar arası kalıcı erişim engeli henüz yoktur (E08); reddedilme sonrası tekrar zorlamayın.
 - Art arda **6 geçici hata**: devre kesici açılır.
 - Aynı anda ikinci indiriciyi engellemeyi amaçlayan kilit dosyası; eşzamanlı başlatma yarışı henüz giderilmedi (E09). İki indirici başlatmayın.
@@ -218,7 +217,7 @@ python -m pip install -r requirements-dev.txt
 python -m pytest -q
 ```
 
-Testler ağa çıkmaz. Katalog, ayarlar, OHLC doğrulama, mevcut BIST seans varsayımı, SQLite retry/resume, istek bütçesi, cooldown, 401/403/429 davranışı ve önbellek kontrol edilir. E01/E02/E07 için seçili kuyruk izolasyonu, sembol/politika seri ayrımı, sürümlü türetim, eski görevlerin korunması ve metadata regresyonları da vardır. Bu testler canlı Yahoo uygunluğunu veya henüz doğrulanmamış seans takvimini kanıtlamaz.
+Testler ağa çıkmaz. Katalog, ayarlar, OHLC doğrulama, mevcut BIST seans varsayımı, SQLite retry/resume, istek bütçesi, cooldown, 401/403/429 davranışı ve önbellek kontrol edilir. Gerçek yfinance akışı sahte HTTP yanıtlarıyla ayrıca sınanır; canlı Yahoo bağlantısı ve Termux uyumluluğu kanıtlanmış değildir. E01/E02/E07 için seçili kuyruk izolasyonu, sembol/politika seri ayrımı, sürümlü türetim, eski görevlerin korunması ve metadata regresyonları da vardır. Bu testler canlı Yahoo uygunluğunu veya henüz doğrulanmamış seans takvimini kanıtlamaz.
 
 ---
 
@@ -234,7 +233,7 @@ python run.py
 
 ### `blocked`
 
-Yahoo 401/403 veya tekrarlayan 429 döndürdü. Raporu inceleyin:
+Yahoo 401/403 veya 429 döndürdü. Raporu inceleyin:
 
 ```bash
 python run.py --status
@@ -265,4 +264,4 @@ python run.py --retry-failed
 - Otomatik strateji keşfi/backtest.
 - CAPTCHA çözme, proxy rotasyonu veya cihaz kimliği taklidi.
 
-Sonraki veri katmanı adımı: E03–E12 arasında kalan sözleşme/dayanıklılık düzeltmeleri ve ayrı onaylı küçük canlı uygunluk testi. Replay/strateji motoru bu paketin kapsamında değildir ve ayrıca kullanıcı onayı gerektirir.
+Sonraki veri katmanı adımı: E03–E12 arasında kalan sözleşme/dayanıklılık düzeltmeleri ve küçük canlı uygunluk testi. Replay/strateji motoru bu paketin kapsamında değildir ve ayrıca kullanıcı onayı gerektirir.

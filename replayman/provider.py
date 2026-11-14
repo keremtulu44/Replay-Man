@@ -10,6 +10,7 @@ from dataclasses import dataclass
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Callable
+from urllib.parse import urlparse
 
 import pandas as pd
 import requests
@@ -38,13 +39,18 @@ def _retry_after_seconds(header: str | None) -> float | None:
 class PoliteSession(requests.Session):
     """requests oturumu; varsayılan Python user-agent korunur, kimlik taklidi eklenmez."""
 
-    def __init__(self) -> None:
+    def __init__(self, timeout: float | None = None) -> None:
         super().__init__()
+        self.timeout = timeout
         self.before_request: Callable[[], None] | None = None
 
     def request(self, method, url, *args, **kwargs):
         if self.before_request is not None:
             self.before_request()
+        if self.timeout is not None:
+            timeout = kwargs.get("timeout")
+            if timeout is None or (isinstance(timeout, (int, float)) and timeout > self.timeout):
+                kwargs["timeout"] = self.timeout
         response = super().request(method, url, *args, **kwargs)
         status = response.status_code
         if status in (401, 403):
@@ -53,7 +59,10 @@ class PoliteSession(requests.Session):
             raise RateLimited(retry_after=_retry_after_seconds(response.headers.get("Retry-After")))
         if 500 <= status < 600:
             raise TransientHTTP(status)
-        if status >= 400:
+        # Yahoo çerez başlangıç adresi 404 ile de geçerli cookie döndürebilir.
+        # yfinance bu yanıtı okur; veri endpointlerindeki 404 hâlâ hatadır.
+        cookie_404 = status == 404 and urlparse(url).hostname == "fc.yahoo.com"
+        if status >= 400 and not cookie_404:
             raise PermanentHTTP(status, f"HTTP {status}: {response.text[:200]}")
         return response
 
@@ -75,7 +84,7 @@ class YahooProvider:
         yf.config.debug.hide_exceptions = False
         yf.config.network.retries = 0
         yf.config.network.proxy = None
-        self.session = session or PoliteSession()
+        self.session = session or PoliteSession(settings.request_timeout_seconds)
         self.cache_dir = Path(settings.cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
@@ -161,10 +170,16 @@ class YahooProvider:
         )
         if frame is None or frame.empty:
             raise NoData(f"{asset.yahoo_symbol} {interval} {start.date()}->{end.date()}: boş yanıt")
-        try:
-            metadata = dict(ticker.history_metadata or {})
-        except Exception:
-            metadata = {}
+        # HistoryMetadata bir lazy Mapping: dict(...) ek intraday isteği yapar ve
+        # Timestamp/DataFrame değerleri JSON önbelleğini bozabilir. Yalnızca
+        # normalizasyonun ihtiyaç duyduğu, scalar alanları al.
+        history_metadata = ticker.history_metadata
+        metadata = {}
+        if history_metadata is not None:
+            for field in ("symbol", "currency", "instrumentType", "exchangeTimezoneName"):
+                value = history_metadata.get(field)
+                if value is not None:
+                    metadata[field] = str(value)
         metadata.setdefault("fetchedAt", pd.Timestamp.now(tz='UTC').isoformat())
         self._save_cache(key, frame, metadata)
         return FetchResult(frame, False, metadata, key)

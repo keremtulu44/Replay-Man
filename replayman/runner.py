@@ -131,6 +131,11 @@ class Downloader:
 
         try:
             for sweep in range(settings.max_sweeps):
+                cooldown_until = state.get_float("cooldown_until", 0.0)
+                if self.clock() < cooldown_until:
+                    status = "blocked"
+                    stop_reason = f"Yahoo hız sınırı bekleme süresi devam ediyor: {cooldown_until - self.clock():.0f} sn"
+                    break
                 due = state.due_tasks(self.clock(), settings.max_attempts_per_task, scope=scope)
                 if not due:
                     next_retry = state.next_retry_time(settings.max_attempts_per_task, scope=scope)
@@ -162,8 +167,6 @@ class Downloader:
                         cache_hits += int(result.from_cache)
                         saved_rows += len(normalized)
                         consecutive_errors = 0
-                        if not result.from_cache:
-                            state.set_float("rate_limit_strikes", 0.0)
                         logger.info("OK %s | %s satır | toplam %s | %s | kalite=%s", label, len(normalized), total_rows,
                                     "önbellek" if result.from_cache else "ağ", quality)
                     except RunLimitReached as exc:
@@ -182,17 +185,15 @@ class Downloader:
                             status, stop_reason, stop = "blocked", failure.message, True
                             break
                         if failure.kind == "rate_limit":
-                            strikes = state.get_float("rate_limit_strikes", 0.0) + 1
-                            state.set_float("rate_limit_strikes", strikes)
                             cooldown = max(failure.retry_after or 0.0, settings.rate_limit_cooldown_seconds)
                             state.set_float("cooldown_until", self.clock() + cooldown)
-                            if strikes >= settings.rate_limit_strike_limit:
+                            if task.attempts + 1 >= settings.max_attempts_per_task:
                                 state.mark_failed(task, failure.kind, failure.message)
-                                status, stop_reason, stop = "blocked", f"Yahoo hız sınırı tekrarlandı; {cooldown:.0f} sn cooldown kaydedildi", True
-                                break
-                            state.mark_retry(task, failure.kind, failure.message, cooldown)
-                            logger.warning("Hız sınırı: %.0f sn beklenip tekrar denenecek", cooldown)
-                            continue
+                            else:
+                                state.mark_retry(task, failure.kind, failure.message, cooldown)
+                            status, stop_reason, stop = "blocked", f"Yahoo hız sınırı; {cooldown:.0f} sn sonra tekrar deneyin", True
+                            logger.warning("%s", stop_reason)
+                            break
                         if failure.kind in RETRYABLE_KINDS:
                             consecutive_errors += 1
                             attempts = task.attempts + 1

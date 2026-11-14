@@ -37,3 +37,28 @@ def test_polite_session_status_mapping(monkeypatch, status, cls):
 def test_retry_after_parser():
     assert _retry_after_seconds("30") == 30
     assert _retry_after_seconds(None) is None
+
+
+def test_yahoo_cookie_404_is_allowed_but_chart_404_is_not(monkeypatch):
+    monkeypatch.setattr(requests.Session, "request", lambda self, *a, **k: Response(404))
+    session = PoliteSession()
+    assert session.get("https://fc.yahoo.com/").status_code == 404
+    with pytest.raises(PermanentHTTP):
+        session.get("https://query1.finance.yahoo.com/v8/finance/chart/INVALID")
+    with pytest.raises(PermanentHTTP):
+        session.get("https://fc.yahoo.com.evil.example/")
+
+
+def test_timeout_is_capped_for_yfinance_internal_requests(monkeypatch):
+    timeouts = []
+
+    def fake_request(self, method, url, *args, **kwargs):
+        timeouts.append(kwargs.get("timeout"))
+        return Response(200)
+
+    monkeypatch.setattr(requests.Session, "request", fake_request)
+    session = PoliteSession(timeout=15)
+    session.get("https://example.invalid", timeout=30)
+    session.get("https://example.invalid", timeout=5)
+    session.get("https://example.invalid")
+    assert timeouts == [15, 5, 15]
