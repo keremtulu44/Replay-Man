@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+data/cache/
+data/prices/
+data/derived/
+data/state.sqlite3*
+data/state.lock
+data/reports/
+logs/
+*.log
+.env
