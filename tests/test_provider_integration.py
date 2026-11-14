@@ -10,7 +10,7 @@ from yfinance.data import SingletonMeta, YfData
 
 from replayman.catalog import Asset
 from replayman.errors import AccessDenied, RateLimited
-from replayman.provider import YahooProvider
+from replayman.provider import PoliteSession, YahooProvider
 
 
 @pytest.fixture
@@ -54,7 +54,10 @@ def test_real_yfinance_path_cookie_404_and_chart_success(settings, isolated_yfin
         return response(200, json.dumps(data), url)
 
     monkeypatch.setattr(requests.Session, "request", fake_request)
-    provider = YahooProvider(settings.with_overrides(request_timeout_seconds=15))
+    provider = YahooProvider(
+        settings.with_overrides(request_timeout_seconds=15),
+        session=PoliteSession(timeout=15),
+    )
     asset = Asset("TEST", "bist100_equity", "Test", "TESTFAKE", "TESTFAKE.IS", "equity", "TRY", "true")
     gated = []
     try:
@@ -78,7 +81,7 @@ def test_real_yfinance_path_stops_at_first_block(settings, isolated_yfinance, mo
         return response(status, "blocked", url)
 
     monkeypatch.setattr(requests.Session, "request", fake_request)
-    provider = YahooProvider(settings)
+    provider = YahooProvider(settings, session=PoliteSession(timeout=settings.request_timeout_seconds))
     asset = Asset("TEST", "bist100_equity", "Test", "BLOCKTEST", "BLOCKTEST.IS", "equity", "TRY", "true")
     try:
         with pytest.raises(error):

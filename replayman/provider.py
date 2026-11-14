@@ -103,12 +103,18 @@ class YahooProvider:
         yf.config.debug.hide_exceptions = False
         yf.config.network.retries = 0
         yf.config.network.proxy = None
-        self.session = session or PoliteSession(settings.request_timeout_seconds)
+        # Varsayılan olarak yfinance'ın kendi ağ oturumunu kullan. Güncel
+        # yfinance curl_cffi tabanlı oturum, Yahoo'nun beklediği cookie/crumb
+        # akışını yönetir. requests.Session enjekte etmek (önceki varsayılan)
+        # aynı cihazda yf.download çalışırken crumb isteğinin 429 almasına yol
+        # açabiliyordu. Enjekte edilen oturum yalnızca test/özel kullanım içindir.
+        self.session = session
         self.cache_dir = Path(settings.cache_dir)
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def close(self) -> None:
-        self.session.close()
+        if self.session is not None:
+            self.session.close()
 
     def cache_key(self, asset: Asset, interval: str, start: pd.Timestamp, end: pd.Timestamp) -> str:
         payload = {
@@ -201,8 +207,14 @@ class YahooProvider:
             return FetchResult(frame, True, metadata, key)
 
         if isinstance(self.session, PoliteSession):
+            # Enjekte edilmiş requests oturumunda her alt HTTP çağrısı sayılır.
             self.session.before_request = before_request
-        ticker = self.yf.Ticker(asset.yahoo_symbol, session=self.session)
+        elif before_request is not None:
+            # yfinance'ın yerel curl_cffi oturumuna müdahale etmeden bir mantıksal
+            # veri çağrısını bütçele. Cookie/crumb yönetimi yfinance'a bırakılır.
+            before_request()
+        ticker_kwargs = {"session": self.session} if self.session is not None else {}
+        ticker = self.yf.Ticker(asset.yahoo_symbol, **ticker_kwargs)
         frame = ticker.history(
             start=start.to_pydatetime(),
             end=end.to_pydatetime(),
