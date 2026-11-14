@@ -135,9 +135,19 @@ class YahooProvider:
         if not data_path.exists() or not meta_path.exists():
             return None
         try:
-            with data_path.open("rb") as handle:
-                frame = pickle.load(handle)
-            metadata = json.loads(meta_path.read_text(encoding="utf-8"))
+            payload = data_path.read_bytes()
+            envelope = json.loads(meta_path.read_text(encoding="utf-8"))
+            # Eski önbellekler okunabilir kalır. Yeni biçimde iki dosyanın aynı
+            # yazıma ait olduğu hash ile doğrulanır; yarım kalmış çift kullanılmaz.
+            if "metadata" in envelope:
+                if envelope.get("cacheKey") != key:
+                    raise InvalidData("Önbellek anahtarı uyuşmuyor")
+                if envelope.get("dataSha256") != hashlib.sha256(payload).hexdigest():
+                    raise InvalidData("Önbellek veri/metadata çifti uyuşmuyor")
+                metadata = envelope["metadata"]
+            else:
+                metadata = envelope
+            frame = pickle.loads(payload)
             if not isinstance(frame, pd.DataFrame):
                 raise InvalidData("Önbellek DataFrame değil")
             return frame, metadata
@@ -147,15 +157,34 @@ class YahooProvider:
 
     def _save_cache(self, key: str, frame: pd.DataFrame, metadata: dict) -> None:
         data_path, meta_path = self._cache_paths(key)
-        with tempfile.NamedTemporaryFile(dir=self.cache_dir, delete=False, suffix=".tmp") as handle:
-            tmp = Path(handle.name)
+        payload = pickle.dumps(frame, protocol=pickle.HIGHEST_PROTOCOL)
+        envelope = {
+            "cacheKey": key,
+            "dataSha256": hashlib.sha256(payload).hexdigest(),
+            "metadata": metadata,
+        }
+        data_tmp: Path | None = None
+        meta_tmp: Path | None = None
         try:
-            with tmp.open("wb") as handle:
-                pickle.dump(frame, handle, protocol=pickle.HIGHEST_PROTOCOL)
-            tmp.replace(data_path)
-            meta_path.write_text(json.dumps(metadata, ensure_ascii=False, indent=2), encoding="utf-8")
+            with tempfile.NamedTemporaryFile(dir=self.cache_dir, delete=False, suffix=".tmp") as handle:
+                data_tmp = Path(handle.name)
+                handle.write(payload)
+                handle.flush()
+            with tempfile.NamedTemporaryFile(
+                dir=self.cache_dir, delete=False, suffix=".tmp", mode="w", encoding="utf-8"
+            ) as handle:
+                meta_tmp = Path(handle.name)
+                json.dump(envelope, handle, ensure_ascii=False, indent=2)
+                handle.flush()
+            # Veri son yayımlanır. İşlem arada kesilirse hash doğrulaması eski/yeni
+            # dosya karışımını reddeder ve ağdan güvenli biçimde tekrar indirir.
+            meta_tmp.replace(meta_path)
+            data_tmp.replace(data_path)
         finally:
-            tmp.unlink(missing_ok=True)
+            if data_tmp is not None:
+                data_tmp.unlink(missing_ok=True)
+            if meta_tmp is not None:
+                meta_tmp.unlink(missing_ok=True)
 
     def fetch(
         self,

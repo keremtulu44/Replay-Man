@@ -41,6 +41,17 @@ def test_normalize_rejects_missing_columns(settings):
         normalize_prices(pd.DataFrame({"Close": [1]}), asset(), "1h", "now", settings=settings, series_id="series-test")
 
 
+def test_normalize_clears_impossible_volume_without_losing_price_bar(settings):
+    frame = raw_frame()
+    frame["Volume"] = frame["Volume"].astype(float)
+    frame.iloc[0, frame.columns.get_loc("Volume")] = -1
+    frame.iloc[1, frame.columns.get_loc("Volume")] = float("inf")
+    df, stats = normalize_prices(frame, asset(), "1h", "now", settings=settings, series_id="series-test")
+    assert len(df) == 3
+    assert stats["invalid_volume"] == 2
+    assert df["volume"].isna().sum() == 2
+
+
 def test_bist_session_derive_complete_flags():
     local = pd.to_datetime(
         ["2026-01-05 10:00", "2026-01-05 11:00", "2026-01-05 12:00", "2026-01-05 14:00", "2026-01-05 15:00", "2026-01-05 16:00", "2026-01-05 17:00"]

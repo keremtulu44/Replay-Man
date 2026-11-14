@@ -40,6 +40,10 @@ python3 -m venv .venv
 .venv/bin/python run.py
 ```
 
+### Android / Termux
+
+Termux'ta Google Play'deki eski paketi değil, **F-Droid veya GitHub sürümünü** kullanın. Ayrıntılı, kopyala-yapıştır kurulum ve çalıştırma adımları için [`TERMUX.md`](TERMUX.md) dosyasına bakın. Önerilen sıra: önce günlük üç sembollük test, sonra saatlik test, en son tam havuzdur.
+
 Sanal ortam oluşturmadan da kurabilirsiniz:
 
 ```bash
@@ -134,7 +138,7 @@ Varsayılan olarak `auto_adjust=false`: ham OHLC korunur, sağlayıcının verdi
 
 `--symbols`, `--limit`, `--interval` ve `--retry-failed` yalnızca seçili varlık/seri/periyot görevlerini etkiler. `task_counts` seçili koşuyu, `queue_task_counts` tüm veritabanını gösterir. `coverage.csv` yalnızca seçili kapsamı içerir; `task_rows` görev satırları toplamıdır, benzersiz fiziksel CSV satır sayısı değildir.
 
-**Henüz açık olan veri sözleşmesi riskleri:** Seans takvimi ve öğle arası varsayımı doğrulanmadı; `session_date` şimdilik takvim günü etiketidir. 2s/4s `complete` alanı yalnızca mevcut saat sayısı varsayımını kontrol eder; seans takvimiyle doğrulanmış kabul edilmemeli. Açık bar/refresh (E05), vadeli işlem günü (E04), günlük karşılaştırma kapsamı (E06), kalıcı erişim engeli (E08), atomik kilit (E09), önbellek çifti (E10) ve kesinti/rapor garantileri (E12) henüz tamamlanmadı. Bu nedenle tam havuz araştırma verisi olarak onaylanmış değildir.
+**Henüz açık olan veri sözleşmesi riskleri:** Seans takvimi ve öğle arası varsayımı doğrulanmadı; `session_date` şimdilik takvim günü etiketidir. 2s/4s `complete` alanı yalnızca mevcut saat sayısı varsayımını kontrol eder; seans takvimiyle doğrulanmış kabul edilmemeli. Açık bar/refresh (E05), vadeli işlem günü (E04), günlük karşılaştırma kapsamı (E06), kalıcı erişim engeli (E08) ve kesinti/rapor garantileri (E12) henüz tamamlanmadı. Bu nedenle tam havuz araştırma verisi olarak onaylanmış değildir.
 
 ---
 
@@ -154,9 +158,9 @@ Varsayılan korumalar:
 - HTTP **429**: gerçek HTTP yanıtı alındığında rapor sunucu, uç türü (cookie/crumb/chart) ve okunabilen `Retry-After` bilgisini gösterir; query/cookie/yanıt gövdesi kaydedilmez. yfinance yalnızca hız sınırı istisnası bildirirse HTTP kodu doğrulanmış sayılmaz. İlk hız sınırı bildiriminde işlem beklemede tutulmaz, `blocked` durumuyla durur. `Retry-After` ve en az **30 dk cooldown** kaydedilir; süre dolmadan yeniden çalıştırmak istek göndermeden durur. Süre dolunca komutu tekrar çalıştırın. Eski `rate_limit_strike_limit` ayarı geriye dönük yüklenebilir ama artık kullanılmaz.
 - HTTP **401/403**: mevcut çalıştırma erişim reddedildi olarak durdurulur; CAPTCHA/proxy/kimlik taklidi denenmez. Yeni çalıştırmalar arası kalıcı erişim engeli henüz yoktur (E08); reddedilme sonrası tekrar zorlamayın.
 - Art arda **6 geçici hata**: devre kesici açılır.
-- Aynı anda ikinci indiriciyi engellemeyi amaçlayan kilit dosyası; eşzamanlı başlatma yarışı henüz giderilmedi (E09). İki indirici başlatmayın.
+- Aynı anda ikinci indiriciyi engelleyen atomik (`O_EXCL`) kilit dosyası. Yine de iki indirici başlatmayın.
 - Atomik CSV yazımı ve SQLite görev durumu.
-- Tamamlanan görevler tekrar indirilmez; disk önbelleği kullanılır. Önbellek çifti atomik değildir (E10). Pickle dosyaları yalnızca güvenilir yerel dosya olmalıdır; dışarıdan alınan önbelleği yüklemeyin.
+- Tamamlanan görevler tekrar indirilmez; disk önbelleği kullanılır. Önbellek veri/metadata çifti SHA-256 ile doğrulanır; yarım veya karışmış çift ağdan yeniden alınır. Pickle dosyaları yalnızca güvenilir yerel dosya olmalıdır; dışarıdan alınan önbelleği yüklemeyin.
 
 Ayarlar: `config/settings.json`.
 

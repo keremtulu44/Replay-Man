@@ -100,6 +100,12 @@ def normalize_prices(
         if column not in df.columns:
             df[column] = np.nan
         df[column] = pd.to_numeric(df[column], errors="coerce")
+    # Hacim bazı endekslerde sağlayıcı tarafından verilmez; bu geçerli bir
+    # "eksik" değerdir. Sonsuz veya negatif hacim ise geçerli OHLCV değildir:
+    # fiyat barını kaybetmeden hacmi boşalt ve kalite sayacında görünür kıl.
+    invalid_volume = df["volume"].notna() & (~np.isfinite(df["volume"]) | (df["volume"] < 0))
+    stats["invalid_volume"] = int(invalid_volume.sum())
+    df.loc[invalid_volume, "volume"] = np.nan
     all_nan = df[["open", "high", "low", "close"]].isna().all(axis=1)
     stats["dropped_all_nan"] = int(all_nan.sum())
     df = df[~all_nan]

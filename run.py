@@ -25,16 +25,26 @@ def install_dependencies() -> int:
 
 
 def acquire_lock(path: Path, force: bool = False):
+    """Kilit dosyasını atomik oluştur; iki sürecin aynı anda geçmesini önle."""
     path.parent.mkdir(parents=True, exist_ok=True)
-    if path.exists():
-        if force:
-            path.unlink()
-        else:
-            raise FileExistsError(
-                f"Kilit dosyası var: {path}. Başka indirici çalışıyor olabilir. "
-                "Eminseniz --force-unlock kullanın."
-            )
-    path.write_text(str(os.getpid()), encoding="utf-8")
+    if force:
+        path.unlink(missing_ok=True)
+    flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL
+    try:
+        fd = os.open(path, flags, 0o600)
+    except FileExistsError:
+        raise FileExistsError(
+            f"Kilit dosyası var: {path}. Başka indirici çalışıyor olabilir. "
+            "Eminseniz --force-unlock kullanın."
+        ) from None
+    try:
+        os.write(fd, str(os.getpid()).encode("ascii"))
+        os.fsync(fd)
+    except Exception:
+        path.unlink(missing_ok=True)
+        raise
+    finally:
+        os.close(fd)
     return path
 
 
