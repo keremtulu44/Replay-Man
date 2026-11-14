@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "OIL_BRENT",
+  "symbol": "BZ=F",
+  "category": "oil",
+  "asset_type": "future",
+  "catalog_currency": "USD",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "9a27310c1f8584cf6f7adce51f667d83667a7c7beca28e810bffac76460c40b9"
+}

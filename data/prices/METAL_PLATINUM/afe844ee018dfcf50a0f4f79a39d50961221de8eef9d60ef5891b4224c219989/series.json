@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "METAL_PLATINUM",
+  "symbol": "PL=F",
+  "category": "metals",
+  "asset_type": "future",
+  "catalog_currency": "USD",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "afe844ee018dfcf50a0f4f79a39d50961221de8eef9d60ef5891b4224c219989"
+}

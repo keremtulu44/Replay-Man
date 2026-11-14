@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "METAL_PALLADIUM",
+  "symbol": "PA=F",
+  "category": "metals",
+  "asset_type": "future",
+  "catalog_currency": "USD",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "5839706c8ca655b1fa161bc265105c74f6194e92cbb1aeae23626ec0f0633da7"
+}

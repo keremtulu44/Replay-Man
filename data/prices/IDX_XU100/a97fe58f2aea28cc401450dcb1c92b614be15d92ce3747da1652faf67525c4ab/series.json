@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "IDX_XU100",
+  "symbol": "XU100.IS",
+  "category": "bist_index",
+  "asset_type": "index",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "a97fe58f2aea28cc401450dcb1c92b614be15d92ce3747da1652faf67525c4ab"
+}

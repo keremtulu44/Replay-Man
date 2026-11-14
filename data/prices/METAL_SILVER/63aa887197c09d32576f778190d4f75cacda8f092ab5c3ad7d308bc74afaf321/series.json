@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "METAL_SILVER",
+  "symbol": "SI=F",
+  "category": "metals",
+  "asset_type": "future",
+  "catalog_currency": "USD",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "63aa887197c09d32576f778190d4f75cacda8f092ab5c3ad7d308bc74afaf321"
+}
