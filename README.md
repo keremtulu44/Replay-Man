@@ -145,8 +145,8 @@ Sistem **engeli aşmaya çalışmaz**; istekleri sınırlar ve erişim engeliği
 Varsayılan korumalar:
 
 - Tek iş parçacığı / sıralı indirme.
-- Her ağ isteği arasında **2,5 sn + 0–0,5 sn jitter**.
-- Saatlik ağ isteği bütçesi: **1200 istek/saat**; bu sınır dolarsa boşluk açılana kadar beklenir.
+- Ağ istekleri arasında en az **1 sn + 0–0,5 sn jitter**; her **10 ağ isteğinden sonra 15 sn ara** (10. istek ile 11. istek arasında). Sayaç yeniden başlatma sonrasında da korunur. Bu sayı sembol veya görev değil, indiricinin saydığı HTTP istekleridir.
+- Saatlik ağ isteği bütçesi: **1500 istek/saat**; bu sınır dolarsa boşluk açılana kadar beklenir.
 - Çalıştırma başına ağ isteği bütçesi: **2500 istek**.
 - İstek başına zaman aşımı: **en fazla 15 sn** (bağlantı/okuma zaman aşımları, toplam işlem süresi garantisi değildir).
 - Geçici hatalarda üstel yeniden deneme: **10 sn → 20 sn → … → en fazla 120 sn**; diğer hazır görevler önce işlenebilir.

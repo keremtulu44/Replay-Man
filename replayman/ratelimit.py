@@ -1,12 +1,15 @@
 """İstek aralığı, saatlik bütçe ve kalıcı cooldown."""
 from __future__ import annotations
 
+import logging
 import random
 import time
 from typing import Callable
 
 from .config import Settings
 from .state import State
+
+logger = logging.getLogger(__name__)
 
 
 class RequestGate:
@@ -36,12 +39,18 @@ class RequestGate:
             self._sleep_until(cooldown)
             now = self.clock()
 
-        last = self.state.last_request_time()
+        last = self.state.last_request()
         interval = self.settings.min_request_interval_seconds
         if self.settings.jitter_seconds > 0:
             interval += self.rng.uniform(0, self.settings.jitter_seconds)
-        if last is not None and now - last < interval:
-            self._sleep_until(last + interval)
+        if last is not None:
+            request_id, last_time = last
+            deadline = last_time + interval
+            if request_id % self.settings.batch_request_count == 0:
+                deadline = max(deadline, last_time + self.settings.batch_pause_seconds)
+                if deadline > now:
+                    logger.info("%s istek tamamlandı; %.1f sn grup arası", self.settings.batch_request_count, deadline - now)
+            self._sleep_until(deadline)
             now = self.clock()
 
         window_start = now - 3600.0

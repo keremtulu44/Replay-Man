@@ -67,6 +67,9 @@ def check_plan(
         "series_ids": {asset_id: value.id for asset_id, value in series.items()},
         "network_requests": 0,
         "min_request_interval_seconds": settings.min_request_interval_seconds,
+        "jitter_seconds": settings.jitter_seconds,
+        "batch_request_count": settings.batch_request_count,
+        "batch_pause_seconds": settings.batch_pause_seconds,
         "max_requests_per_hour": settings.max_requests_per_hour,
     }
 

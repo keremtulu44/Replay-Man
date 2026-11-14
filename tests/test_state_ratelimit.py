@@ -59,3 +59,47 @@ def test_gate_respects_persistent_cooldown(settings):
         gate = RequestGate(settings, state, sleep=sleep, clock=lambda: now[0])
         gate.before_request()
         assert now[0] >= 150.0
+
+
+def test_tenth_request_triggers_15_second_break_even_after_restart(settings):
+    now = [1000.0]
+    slept = []
+
+    def sleep(seconds):
+        slept.append(seconds)
+        now[0] += seconds
+
+    settings = settings.with_overrides(min_request_interval_seconds=1, jitter_seconds=0,
+                                       batch_request_count=10, batch_pause_seconds=15)
+    with State(settings.state_path) as state:
+        gate = RequestGate(settings, state, sleep=sleep, clock=lambda: now[0])
+        for _ in range(10):
+            gate.before_request()
+        assert slept == [1] * 9
+        last = now[0]
+    # Yeni bir çalıştırma grup sayacını sıfırlamaz.
+    with State(settings.state_path) as state:
+        gate = RequestGate(settings, state, sleep=sleep, clock=lambda: now[0])
+        gate.before_request()
+        assert now[0] - last == 15
+        assert slept[-1] == 15
+        gate.before_request()
+        assert slept[-1] == 1
+        for _ in range(8):
+            gate.before_request()
+        last = now[0]
+        gate.before_request()
+        assert now[0] - last == 15
+
+
+def test_no_extra_batch_delay_if_already_waited(settings):
+    now = [1000.0]
+    slept = []
+    settings = settings.with_overrides(min_request_interval_seconds=0, jitter_seconds=0)
+    with State(settings.state_path) as state:
+        gate = RequestGate(settings, state, sleep=slept.append, clock=lambda: now[0])
+        for _ in range(10):
+            gate.before_request()
+        now[0] += 20
+        gate.before_request()
+        assert not slept

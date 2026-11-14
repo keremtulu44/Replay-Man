@@ -249,6 +249,11 @@ class State:
         row = self.conn.execute("SELECT MIN(ts) FROM requests WHERE ts>=?", (ts,)).fetchone()
         return row[0] if row and row[0] is not None else None
 
+    def last_request(self) -> tuple[int, float] | None:
+        """Kalıcı sıra numarası; eski istekler temizlense de grup sınırı korunur."""
+        row = self.conn.execute("SELECT id, ts FROM requests ORDER BY id DESC LIMIT 1").fetchone()
+        return (row["id"], row["ts"]) if row else None
+
     def last_request_time(self) -> float | None:
         row = self.conn.execute("SELECT MAX(ts) FROM requests").fetchone()
         return row[0] if row and row[0] is not None else None

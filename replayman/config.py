@@ -19,9 +19,11 @@ class Settings:
     hourly_chunk_days: int = 55
     daily_chunk_days: int = 366
     request_timeout_seconds: float = 15.0
-    min_request_interval_seconds: float = 2.5
+    min_request_interval_seconds: float = 1.0
     jitter_seconds: float = 0.5
-    max_requests_per_hour: int = 1200
+    batch_request_count: int = 10
+    batch_pause_seconds: float = 15.0
+    max_requests_per_hour: int = 1500
     max_requests_per_run: int = 2500
     max_attempts_per_task: int = 3
     retry_base_seconds: float = 10.0
@@ -87,6 +89,10 @@ class Settings:
         ]
         if any(v <= 0 for v in positives):
             raise ValueError("Sayaç/süre ayarları pozitif olmalı")
+        if not isinstance(self.batch_request_count, int) or isinstance(self.batch_request_count, bool) or self.batch_request_count <= 0:
+            raise ValueError("batch_request_count pozitif tam sayı olmalı")
+        if self.batch_pause_seconds < 0:
+            raise ValueError("batch_pause_seconds negatif olamaz")
         if self.min_request_interval_seconds < 0 or self.jitter_seconds < 0:
             raise ValueError("Bekleme süreleri negatif olamaz")
         if self.retry_max_seconds < self.retry_base_seconds:
