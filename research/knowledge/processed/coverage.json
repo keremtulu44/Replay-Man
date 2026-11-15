@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "ATK-TR-D1.0-2026-08",
+      "pages": 530,
+      "cards": 530,
+      "output": "research/knowledge/processed/ATK-TR-D1.0-2026-08-cards.jsonl"
+    },
+    {
+      "source_id": "PTA-C1-2026",
+      "pages": 139,
+      "cards": 139,
+      "output": "research/knowledge/processed/PTA-C1-2026-cards.jsonl"
+    },
+    {
+      "source_id": "PTA-C2-2026",
+      "pages": 109,
+      "cards": 109,
+      "output": "research/knowledge/processed/PTA-C2-2026-cards.jsonl"
+    }
+  ],
+  "topic_counts": {
+    "automation_ai": 58,
+    "breakout_failure": 182,
+    "candle_behavior": 131,
+    "fundamental_derivatives": 144,
+    "geometry_tools": 55,
+    "liquidity_imbalance": 102,
+    "market_basics": 379,
+    "market_structure": 636,
+    "momentum": 198,
+    "multi_timeframe": 41,
+    "ohlcv_data": 388,
+    "patterns": 49,
+    "psychology_process": 77,
+    "pullback": 83,
+    "relative_cross_market": 45,
+    "risk_management": 258,
+    "strategy_design": 174,
+    "support_resistance": 111,
+    "trend_regime": 281,
+    "validation_replay": 37,
+    "volatility": 98,
+    "volume_flow": 104
+  },
+  "total_pages": 778,
+  "processed_pages": 778,
+  "coverage_percent": 100.0
+}

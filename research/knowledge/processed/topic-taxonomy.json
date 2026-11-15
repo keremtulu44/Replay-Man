@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "topics": [
+    {
+      "id": "market_basics",
+      "keywords": [
+        "piyasa",
+        "borsa",
+        "broker",
+        "ürün",
+        "long",
+        "short",
+        "emir",
+        "bid",
+        "ask"
+      ],
+      "use": "Referans ve işlem simülasyonu varsayımları"
+    },
+    {
+      "id": "ohlcv_data",
+      "keywords": [
+        "ohlc",
+        "veri kaynağı",
+        "mum",
+        "açılış",
+        "kapanış",
+        "yüksek",
+        "düşük"
+      ],
+      "use": "Veri sözleşmesi ve mum özellikleri"
+    },
+    {
+      "id": "candle_behavior",
+      "keywords": [
+        "gövde",
+        "fitil",
+        "mum diz",
+        "kapanış konumu",
+        "örtüşme",
+        "inside bar",
+        "engulf"
+      ],
+      "use": "Mum geometrisi ve davranış özellikleri"
+    },
+    {
+      "id": "market_structure",
+      "keywords": [
+        "piyasa yapısı",
+        "swing",
+        "bos",
+        "choch",
+        "tepe",
+        "dip",
+        "hh",
+        "hl",
+        "lh",
+        "ll"
+      ],
+      "use": "Gelecek sızıntısız yapı ve swing motoru"
+    },
+    {
+      "id": "trend_regime",
+      "keywords": [
+        "trend",
+        "yatay piyasa",
+        "range",
+        "rejim",
+        "kanal",
+        "hareketli ortalama"
+      ],
+      "use": "Bağlam ve piyasa rejimi sınıflaması"
+    },
+    {
+      "id": "support_resistance",
+      "keywords": [
+        "destek",
+        "direnç",
+        "yatay seviye",
+        "arz",
+        "talep",
+        "supply",
+        "demand",
+        "zone"
+      ],
+      "use": "Konum ve seviye yaşam döngüsü"
+    },
+    {
+      "id": "liquidity_imbalance",
+      "keywords": [
+        "likidite",
+        "sweep",
+        "fvg",
+        "fair value gap",
+        "order block",
+        "dengesizlik",
+        "gap"
+      ],
+      "use": "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    },
+    {
+      "id": "patterns",
+      "keywords": [
+        "formasyon",
+        "üçgen",
+        "bayrak",
+        "flama",
+        "omuz",
+        "çift dip",
+        "çift tepe",
+        "takoz"
+      ],
+      "use": "Şekil yerine ölçülebilir davranış dizileri"
+    },
+    {
+      "id": "breakout_failure",
+      "keywords": [
+        "kırılım",
+        "breakout",
+        "fakeout",
+        "sahte kırılım",
+        "failure",
+        "retest",
+        "geri test",
+        "takip davranışı"
+      ],
+      "use": "Kırılım/kabul/başarısızlık durum makinesi"
+    },
+    {
+      "id": "pullback",
+      "keywords": [
+        "pullback",
+        "geri çekilme",
+        "ikinci deneme",
+        "iki bacak",
+        "yeni uç"
+      ],
+      "use": "Pullback, ikinci deneme ve devam kalitesi"
+    },
+    {
+      "id": "momentum",
+      "keywords": [
+        "momentum",
+        "rsi",
+        "stochastic",
+        "macd",
+        "cci",
+        "uyumsuzluk",
+        "divergence"
+      ],
+      "use": "Hareket gücü özellik ailesi"
+    },
+    {
+      "id": "volatility",
+      "keywords": [
+        "volatilite",
+        "fiyat hareketliliği",
+        "atr",
+        "true range",
+        "bollinger",
+        "sıkışma",
+        "genişleme"
+      ],
+      "use": "Risk normalizasyonu ve volatilite rejimi"
+    },
+    {
+      "id": "volume_flow",
+      "keywords": [
+        "hacim",
+        "volume",
+        "obv",
+        "vwap",
+        "footprint",
+        "delta",
+        "order flow",
+        "profile"
+      ],
+      "use": "Göreceli katılım ve hacim özellikleri"
+    },
+    {
+      "id": "geometry_tools",
+      "keywords": [
+        "fibonacci",
+        "pitchfork",
+        "gann",
+        "regresyon",
+        "trend çizgi",
+        "pivot point"
+      ],
+      "use": "Kuralı önceden tanımlanmış konum/geometri adayları"
+    },
+    {
+      "id": "multi_timeframe",
+      "keywords": [
+        "çoklu zaman",
+        "üst zaman",
+        "alt zaman",
+        "htf",
+        "mtf",
+        "ltf"
+      ],
+      "use": "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    },
+    {
+      "id": "relative_cross_market",
+      "keywords": [
+        "göreceli güç",
+        "korelasyon",
+        "vix",
+        "dolar",
+        "faiz",
+        "makro",
+        "endeks",
+        "emtia"
+      ],
+      "use": "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    },
+    {
+      "id": "strategy_design",
+      "keywords": [
+        "strateji",
+        "setup",
+        "tetik",
+        "trigger",
+        "invalidation",
+        "işlem yok",
+        "no-trade",
+        "kural tabanlı"
+      ],
+      "use": "Deney ve strateji kartı"
+    },
+    {
+      "id": "risk_management",
+      "keywords": [
+        "risk",
+        "stop",
+        "pozisyon büyüklüğü",
+        "sermaye",
+        "drawdown",
+        "r:r",
+        "beklenen değer"
+      ],
+      "use": "Sonuç ve daha sonraki yürütme simülasyonu"
+    },
+    {
+      "id": "validation_replay",
+      "keywords": [
+        "backtest",
+        "replay",
+        "forward test",
+        "paper",
+        "aşırı uyum",
+        "overfit",
+        "lookahead",
+        "repaint",
+        "test dönemi"
+      ],
+      "use": "Araştırma doğrulama ve future-leak denetimi"
+    },
+    {
+      "id": "psychology_process",
+      "keywords": [
+        "psikoloji",
+        "disiplin",
+        "günlük",
+        "fomo",
+        "bilişsel",
+        "duygu"
+      ],
+      "use": "İnsan uygulama ve süreç değerlendirmesi"
+    },
+    {
+      "id": "automation_ai",
+      "keywords": [
+        "yapay zekâ",
+        " ai ",
+        "pine script",
+        "otomasyon",
+        "alarm",
+        "debug",
+        "kod"
+      ],
+      "use": "Gereksinim, semantik test ve sürümleme"
+    },
+    {
+      "id": "fundamental_derivatives",
+      "keywords": [
+        "temel analiz",
+        "bilanço",
+        "opsiyon",
+        "vadeli",
+        "hedge",
+        "arbitraj",
+        "kripto"
+      ],
+      "use": "İkinci seviye referans ve gelecekteki genişleme"
+    }
+  ]
+}
