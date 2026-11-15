@@ -404,6 +404,23 @@
       "decision": "912.810 varyant olayı ölçüldü; pin, marubozu, uzun kapanış ve fitil reddi eğitim/test arasında işaret değiştirdi.",
       "source_link": "research/experiments/book-rule-results/BR-024-single-candle-geometry/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-024-single-candle-geometry"
+    },
+    {
+      "id": "BR-025-multi-candle-sequences",
+      "title": "İki üç ve çok mumlu davranış dizileri",
+      "sources": [
+        "PTA-C2-2026.p0023",
+        "PTA-C2-2026.p0026",
+        "PTA-C2-2026.p0027",
+        "PTA-C2-2026.p0029",
+        "PTA-C2-2026.p0030",
+        "PTA-C2-2026.p0034"
+      ],
+      "events": [],
+      "status": "cogu_rejime_bagli",
+      "decision": "343.617 dizi ölçüldü; three crows üç zaman bölümünde pozitif, diğer çoğu dizi işaret değiştirdi.",
+      "source_link": "research/experiments/book-rule-results/BR-025-multi-candle-sequences/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-025-multi-candle-sequences"
     }
   ]
 }

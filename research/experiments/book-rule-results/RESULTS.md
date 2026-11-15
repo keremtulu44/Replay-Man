@@ -276,6 +276,12 @@ XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün o
 
 **Karar:** `tek_basina_kararsiz`; parametre varyantları ayrı avantaj sayılmayacak.
 
+## BR-025 — İki, üç ve çok mumlu diziler
+
+343.617 engulfing, harami, iki mumluk geri alma, star, üç asker/karga, devam ve inside-break olayı ölçüldü. Çoğu eğitim/test arasında işaret değiştirdi. Three crows aşağı hipotezi 4h/60 barda eğitim/doğrulama/testte %3,66 / %0,56 / %3,76 XU100-aşırı medyan verdi; testte 84 olay ve %61,90 pozitif. Three soldiers ve diğer diziler kararlı değil.
+
+**Karar:** Three crows `devam_et_ornek_sinirli`; diğer çoğu dizi `rejime_bagli/kararsiz`.
+
 # Sonraki kitap kuralları
 
-Cilt 2 P3 çok mumlu diziler ve ortak baskı→geri alma→takip iskeletiyle devam edecektir.
+Cilt 2 P4 baskı, zayıflama ve hareket kalitesi bileşenlerinin tekil ve birleşik katkısıyla devam edecektir.

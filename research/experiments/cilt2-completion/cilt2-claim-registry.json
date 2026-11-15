@@ -606,7 +606,8 @@
         "swing_geometry"
       ],
       "linked_rules": [
-        "BR-016-candle-geometry"
+        "BR-016-candle-geometry",
+        "BR-025-multi-candle-sequences"
       ],
       "target_package": "C2-P3-multi-candle",
       "disposition": "tested_initial",
@@ -676,10 +677,12 @@
         "swing_geometry",
         "breakout_failure"
       ],
-      "linked_rules": [],
+      "linked_rules": [
+        "BR-025-multi-candle-sequences"
+      ],
       "target_package": "C2-P3-multi-candle",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "disposition": "tested_initial",
+      "coverage_state": "linked_needs_exhaustive_review"
     },
     {
       "claim_id": "C2-P027-C01",
@@ -702,7 +705,8 @@
         "swing_geometry"
       ],
       "linked_rules": [
-        "BR-016-candle-geometry"
+        "BR-016-candle-geometry",
+        "BR-025-multi-candle-sequences"
       ],
       "target_package": "C2-P3-multi-candle",
       "disposition": "tested_initial",
@@ -755,10 +759,12 @@
         "swing_geometry",
         "volatility"
       ],
-      "linked_rules": [],
+      "linked_rules": [
+        "BR-025-multi-candle-sequences"
+      ],
       "target_package": "C2-P3-multi-candle",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "disposition": "tested_initial",
+      "coverage_state": "linked_needs_exhaustive_review"
     },
     {
       "claim_id": "C2-P030-C01",
@@ -781,7 +787,8 @@
         "pullback"
       ],
       "linked_rules": [
-        "BR-016-candle-geometry"
+        "BR-016-candle-geometry",
+        "BR-025-multi-candle-sequences"
       ],
       "target_package": "C2-P3-multi-candle",
       "disposition": "tested_initial",
@@ -896,7 +903,8 @@
         "swing_geometry"
       ],
       "linked_rules": [
-        "BR-017-trend-range-regime"
+        "BR-017-trend-range-regime",
+        "BR-025-multi-candle-sequences"
       ],
       "target_package": "C2-P3-multi-candle",
       "disposition": "tested_initial",
