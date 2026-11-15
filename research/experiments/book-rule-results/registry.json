@@ -325,6 +325,69 @@
       "decision": "1h güçlü aşağı kapanış + tamamlanmış 4h düşüş hizası eğitim/doğrulama/testte pozitif XU100-aşırı 20 bar medyan verdi.",
       "source_link": "research/experiments/book-rule-results/BR-018-multi-timeframe/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-018-multi-timeframe"
+    },
+    {
+      "id": "BR-019-cross-market",
+      "title": "Göreceli güç ve çapraz piyasa bağlamı",
+      "sources": [
+        "ATK-TR-D1.0-2026-08.p0213",
+        "ATK-TR-D1.0-2026-08.p0425"
+      ],
+      "events": [],
+      "status": "olay_bazinda_gerekli",
+      "decision": "XU100/GSPC/USDTRY/altın/Brent bağlandı; bütün sinyalleri havuzlayan evrensel yön yok.",
+      "source_link": "research/experiments/book-rule-results/BR-019-cross-market/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-019-cross-market"
+    },
+    {
+      "id": "BR-020-indicator-families",
+      "title": "RSI MACD Bollinger ADX rollerinin bağımsız katkısı",
+      "sources": [
+        "PTA-C1-2026.p0028",
+        "PTA-C1-2026.p0055"
+      ],
+      "events": [],
+      "status": "tek_basina_kararsiz",
+      "decision": "Çıplak indikatör olayları eğitim/test arasında işaret değiştiriyor.",
+      "source_link": "research/experiments/book-rule-results/BR-020-indicator-families/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-020-indicator-families"
+    },
+    {
+      "id": "BR-021-formations",
+      "title": "İkili tepe ve dip geometrisi",
+      "sources": [
+        "PTA-C2-2026.p0066",
+        "PTA-C2-2026.p0068"
+      ],
+      "events": [],
+      "status": "baglam_gerekli",
+      "decision": "Yalnız eşit iki uç avantaj değil; boyun kırılımı ve yerleşim gerekli.",
+      "source_link": "research/experiments/book-rule-results/BR-021-formations/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-021-formations"
+    },
+    {
+      "id": "BR-022-session-timing",
+      "title": "Seans ve gün içi zaman bağlamı",
+      "sources": [
+        "ATK-TR-D1.0-2026-08.p0107"
+      ],
+      "events": [],
+      "status": "olay_bazinda_gerekli",
+      "decision": "Tek seans bütün olaylarda üstün değil.",
+      "source_link": "research/experiments/book-rule-results/BR-022-session-timing/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-022-session-timing"
+    },
+    {
+      "id": "BR-023-risk-management",
+      "title": "MFE MAE hedef stop ve bar içi belirsizlik",
+      "sources": [
+        "ATK-TR-D1.0-2026-08.p0001"
+      ],
+      "events": [],
+      "status": "yazi_tura",
+      "decision": "1 ATR hedef/stop sayıları yaklaşık eşit; 2.037 aynı-bar sonucu belirsiz tutuldu.",
+      "source_link": "research/experiments/book-rule-results/BR-023-risk-management/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-023-risk-management"
     }
   ]
 }

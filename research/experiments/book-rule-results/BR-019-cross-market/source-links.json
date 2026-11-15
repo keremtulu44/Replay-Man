@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0213",
+    "source_id": "ATK-TR-D1.0-2026-08",
+    "page": 213,
+    "chapter": 10,
+    "section": "10.15 — Tam Top-Down İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  198\nTerim Aksiyon tanımı\nCounter-trend Ana zaman dilimi yönüne karşı sınırlı tepki veya \nişlem.\nProtected swing Ana yapının devamı için korunması gereken \nmajor tepe/dip.\nAcceptance Fiyatın yeni alanın ötesinde kapanış ve takip \nüretmesi.\nFollow-through İlk sinyalden sonra aynı yönde alan kazanılması.\nDual-chart confirmation Yumuşatılmış/üst grafik fikrini gerçek fiyat veya \nalt grafikle doğrulama.\nTablo 10.15 – Bölüm 10 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Multi-timeframe analiz tek grafik analizine hangi üç katkıyı sağlar?\n2. Fractal yapı neden üst zaman uptrend içinde alt zaman downtrend görülmesini normal kılar?\n3. HTF, MTF ve LTF’nin temel görevleri nelerdir?\n4. Bias ile trigger arasındaki fark nedir?\n5. İşlem stili zaman dilimi seçimini nasıl etkiler?\n6. İki zaman dilimi modeli ne zaman daha uygundur?\n7. Üçüncü zaman dilimi hangi gerçek görevi üstlenmelidir?\n8. 4:1–8:1 oranı neden evrensel kural değildir?\n9. Üst zaman bağlam cümlesinde hangi beş bilgi bulunmalıdır?\n10. Orta zaman setup’ında hangi kalite ölçütleri aranır?\n11. Alt zaman trigger bağımsız trade fikri neden değildir?\n12. Fitil aşımı ile kabul edilmiş breakout nasıl ayrılır?\n13. Timeframe alignment neden bütün trendlerin aynı yönde olması demek değildir?\n14. HTF uptrend ve MTF downtrend hangi iki ana olasılığı gösterir?\n15. HTF range içinde LTF trend hedefi neden sınırlı tutulmalıdır?\n16. Minor CHoCH ile major trend reversal arasındaki fark nedir?\n17. Pullback’ten reversal’a beş aşamalı kanıt zinciri nasıldır?\n18. Üst zaman downtrend’de alt zaman bullish divergence nasıl sınıflandırılır?\n19. İndikatörleri zaman dilimlerine dağıtırken kanıt tekrarı nasıl önlenir?\n20. Çok küçük zaman dilimine inmenin riskleri nelerdir?\n21. XAGTRYG günlük–4H–1H continuation senaryosunda her grafik hangi görevi yapar?\n22. Top-down not şablonunda HTF, MTF ve LTF için hangi cümleler yazılır?\n23. Tetik doğru olsa bile hangi koşullarda işlem yapılmamalıdır?24. İşlem sonrası günlükte üç zaman dilimi ayrı ayrı neden değerlendirilmelidir?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Counter-trend Ana zaman dilimi yönüne karşı sınırlı tepki veya işlem.",
+      "Protected swing Ana yapının devamı için korunması gereken major tepe/dip.",
+      "Acceptance Fiyatın yeni alanın ötesinde kapanış ve takip üretmesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0425",
+    "source_id": "ATK-TR-D1.0-2026-08",
+    "page": 425,
+    "chapter": 20,
+    "section": "20.6 — Faiz Değişimi, Maturity ve Duration",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  410\naçıklandığı anda tahvilin mutlaka düşmesi gerekmez; karar önceden fiyatlanmış veya beklenenden \ndaha yumuşak algılanmış olabilir.\nDuration (faiz duyarlılığı süresi), tahvil cash flow’larının zamanlamasını tek ölçüde özetleyerek yield \ndeğişimine karşı yaklaşık price hassasiyetini anlatır. Maturity uzadıkça duration çoğu sabit couponlu \ntahvilde artma eğilimindedir; ancak coupon oranı ve ödeme yapısı da önemlidir.\nŞekil 20.4 – Maturity ve duration ile faiz duyarlılığı\nKoşul Faiz duyarlılığı eğilimi Neden\nDaha uzun maturity Genellikle daha yüksek Cash flow’lar daha uzakta ve iskonto \noranına hassas.\nDaha düşük coupon Genellikle daha yüksek Nakit akışının daha büyük kısmı vade \nsonunda.\nDaha yüksek yield Aynı diğer koşullarda duration görece \ndüşebilir\nUzak cash flow’ların bugünkü ağırlığı azalır.\nFloating-rate yapı Görece daha düşük olabilir Coupon piyasa oranına yeniden \nayarlanabilir.\nTablo 20.5 – Duration’ı değiştiren temel koşullar\nDOĞRU BİLİNEN YANLIŞ\n“Faiz %1 yükselirse bütün tahviller %1 düşer.” Fiyat tepkisi duration, convexity, credit spread, \ncoupon, currency ve likiditeye göre değişir.",
+    "source_extract_summary": [
+      "açıklandığı anda tahvilin mutlaka düşmesi gerekmez; karar önceden fiyatlanmış veya beklenenden daha yumuşak algılanmış olabilir.",
+      "Duration (faiz duyarlılığı süresi), tahvil cash flow’larının zamanlamasını tek ölçüde özetleyerek yield değişimine karşı yaklaşık price hassasiyetini anlatır.",
+      "Maturity uzadıkça duration çoğu sabit couponlu tahvilde artma eğilimindedir; ancak coupon oranı ve ödeme yapısı da önemlidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  }
+]

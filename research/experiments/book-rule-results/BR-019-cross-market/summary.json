@@ -1,0 +1,21 @@
+{
+  "events": 156386,
+  "assets": 125,
+  "event_counts": {
+    "double_top": 23136,
+    "double_bottom": 22435,
+    "macd_bull_cross": 21754,
+    "macd_bear_cross": 21724,
+    "rsi_oversold_exit": 18666,
+    "rsi_overbought_exit": 18354,
+    "bollinger_upper_reentry": 15650,
+    "bollinger_lower_reentry": 14667
+  },
+  "risk_counts": {
+    "target": 75054,
+    "stop": 74662,
+    "insufficient": 2609,
+    "ambiguous": 2037,
+    "timeout": 2024
+  }
+}

@@ -266,6 +266,10 @@ EMA20/EMA50, ATR-normalize eğim ve yol verimliliğiyle trend_up, trend_down, ra
 
 **Karar:** `olumlu_baglam`, fakat avantaj küçük ve maliyet testi gerekli.
 
+## BR-019–023 — Çapraz piyasa, indikatör, formasyon, seans ve risk
+
+XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün olayları havuzlayan evrensel çapraz piyasa yönü bulunmadı. RSI/MACD/Bollinger olayları eğitim ve test arasında işaret değiştirdi; çıplak indikatör avantajı yok. 23.136 ikili tepe ve 22.435 ikili dip yalnız eşit uç geometrisiyle kararlı sonuç vermedi. Tek seans bütün olaylarda üstün çıkmadı. 1 ATR hedef/stop testinde 75.054 hedef, 74.662 stop ve 2.037 aynı-bar belirsiz sonuç oluştu; çıplak 1:1 yönetim yazı-turaya yakındır.
+
 # Sonraki kitap kuralları
 
-Sıradaki paket göreceli güç/çapraz piyasa ve ardından Cilt 1 indikatör aileleridir. Sonrasında formasyon, seans ve risk/pozisyon yönetimi gelir.
+İlk on paket için başlangıç ölçüm katmanı tamamlandı. Bundan sonraki tur, olumlu adayların kombinasyon ve maliyet/parametre dayanıklılığı ile indikatörlerin fiyat davranışı çekirdeğine marjinal katkısını ayrıştıracaktır.

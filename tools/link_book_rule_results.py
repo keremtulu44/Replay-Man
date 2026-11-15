@@ -27,6 +27,11 @@ RULES = {
  "BR-016-candle-geometry": {"title":"Mum adı yerine gövde, kapanış ve engulfing geometrisi", "sources":["PTA-C2-2026.p0008","PTA-C2-2026.p0010","PTA-C2-2026.p0023","PTA-C2-2026.p0027","PTA-C2-2026.p0030"], "events":[], "batch_events":["strong_bull_close","strong_bear_close","bullish_engulfing","bearish_engulfing"], "status":"tek_basina_kararsiz", "decision":"4h mum olayları eğitim ve test arasında işaret değiştiriyor; tek mum/dizi bağımsız avantaj değil."},
  "BR-017-trend-range-regime": {"title":"Trend, range ve geçiş bağlamı", "sources":["PTA-C2-2026.p0033","PTA-C2-2026.p0034","PTA-C2-2026.p0082","PTA-C2-2026.p0095"], "events":[], "batch_events":["pullback_confirmed","strong_bull_close","strong_bear_close","bullish_engulfing","bearish_engulfing"], "status":"baglam_gerekli", "decision":"Rejim olay sonuçlarını değiştiriyor fakat tek rejim bütün olay ve dönemlerde üstün değil."},
  "BR-018-multi-timeframe": {"title":"Alt zaman olayı tamamlanmış üst zaman bağlamıyla okunur", "sources":["PTA-C2-2026.p0089","PTA-C2-2026.p0090","PTA-C2-2026.p0099"], "events":[], "batch_events":["pullback_confirmed","strong_bull_close","strong_bear_close","bullish_engulfing","bearish_engulfing"], "status":"olumlu_baglam", "decision":"1h güçlü aşağı kapanış + tamamlanmış 4h düşüş hizası eğitim/doğrulama/testte pozitif XU100-aşırı 20 bar medyan verdi."},
+ "BR-019-cross-market": {"title":"Göreceli güç ve çapraz piyasa bağlamı", "sources":["ATK-TR-D1.0-2026-08.p0213","ATK-TR-D1.0-2026-08.p0425"], "events":[], "status":"olay_bazinda_gerekli", "decision":"XU100/GSPC/USDTRY/altın/Brent bağlandı; bütün sinyalleri havuzlayan evrensel yön yok."},
+ "BR-020-indicator-families": {"title":"RSI MACD Bollinger ADX rollerinin bağımsız katkısı", "sources":["PTA-C1-2026.p0028","PTA-C1-2026.p0055"], "events":[], "status":"tek_basina_kararsiz", "decision":"Çıplak indikatör olayları eğitim/test arasında işaret değiştiriyor."},
+ "BR-021-formations": {"title":"İkili tepe ve dip geometrisi", "sources":["PTA-C2-2026.p0066","PTA-C2-2026.p0068"], "events":[], "status":"baglam_gerekli", "decision":"Yalnız eşit iki uç avantaj değil; boyun kırılımı ve yerleşim gerekli."},
+ "BR-022-session-timing": {"title":"Seans ve gün içi zaman bağlamı", "sources":["ATK-TR-D1.0-2026-08.p0107"], "events":[], "status":"olay_bazinda_gerekli", "decision":"Tek seans bütün olaylarda üstün değil."},
+ "BR-023-risk-management": {"title":"MFE MAE hedef stop ve bar içi belirsizlik", "sources":["ATK-TR-D1.0-2026-08.p0001"], "events":[], "status":"yazi_tura", "decision":"1 ATR hedef/stop sayıları yaklaşık eşit; 2.037 aynı-bar sonucu belirsiz tutuldu."},
 }
 
 def cards():
@@ -43,6 +48,8 @@ def main():
  attempt_tables={name:pd.read_csv(attempt_base/name) for name in ["attempt_time_split_study.csv","attempt_symbol_results.csv","attempt_context_study.csv"]} if attempt_base.exists() else {}
  batch_base=ROOT/"measurements/book-batch1"
  batch_tables={name:pd.read_csv(batch_base/name) for name in ["time_regime_mtf_study.csv","pullback_depth_study.csv"]} if batch_base.exists() else {}
+ advanced_base=ROOT/"measurements/book-batch2"
+ advanced_files=["event_study.csv","cross_market_study.csv","risk_study.csv","summary.json"]
  registry=[]
  for slug,rule in RULES.items():
   folder=OUT/slug; folder.mkdir(parents=True,exist_ok=True)
@@ -65,6 +72,9 @@ def main():
   if rule.get("batch_events"):
    for filename,table in batch_tables.items():
     table[table.event.isin(rule["batch_events"])].to_csv(folder/filename,index=False)
+  if slug.startswith(("BR-019","BR-020","BR-021","BR-022","BR-023")) and advanced_base.exists():
+   for filename in advanced_files:
+    (folder/filename).write_bytes((advanced_base/filename).read_bytes())
   record={"id":slug,**rule,"source_link":str(folder/"source-links.json"),"result_directory":str(folder)}
   registry.append(record)
  (OUT/"registry.json").write_text(json.dumps({"schema_version":1,"rules":registry},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

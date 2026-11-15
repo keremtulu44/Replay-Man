@@ -1,0 +1,43 @@
+[
+  {
+    "id": "PTA-C2-2026.p0066",
+    "source_id": "PTA-C2-2026",
+    "page": 66,
+    "chapter": 9,
+    "section": "9.6 — İki bacak, küçük çift dip ve daha yüksek dip aynı bölgede birleşirse",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n66 \n \nŞekil 9.5 — İkinci aşağı deneme kısa süre yeni alan açıyor fakat takip davranışı üretmiyor. Fiyatın hızla \nyukarı dönmesi, ikinci denemenin başarısızlığını önceki tek bir dipten daha anlamlı hale getiriyor. \nAşama Satıcıların beklediği Gerçekte olan \nYeni dip sonrası Aşağı yönün sürmesi İlk tepki geliyor \n1. satış denemesi Yeni dip / devam İlerleme sınırlı kalıyor \n2. satış denemesi Kırılımın devam etmesi Kısa kırılım sonrası hızlı geri dönüş \nSonuç Aşağı takip davranışı Beklenti bozuluyor; tuzak riski artıyor \n \nKRITIK AYRIM \nİkinci denemenin “oluşması” güç kanıtı değildir. Asıl soru, ikinci denemenin yeni yönde kalıcı mesafe üretip \nüretemediğidir. \n \n9.6 — İki bacak, küçük çift dip ve daha yüksek dip aynı bölgede birleşirse \nBir sonraki kaynak örneği tek bir işarete değil, birkaç küçük geometrik bilginin aynı bölgede \nbirleşmesine odaklanır. Fiyat iki bacak halinde aşağı gelir. İkinci bacak önceki dip bölgesini \ntemiz biçimde genişletemez; küçük bir çift dip benzeri yapı oluşur. Sonraki test ise daha yüksek \ndipte (higher low / HL) kalır. Böylece yalnız “iki bacak tamamlandı” demek yerine, ikinci \nbacağın kalitesi ve sonraki testin seviyesi birlikte okunur. \nBu kombinasyonun gücü, her parçanın aynı soruya cevap vermesinden gelir: Satıcılar hâlâ aşağı \nyönde alan kazanabiliyor mu? İkinci bacağın zayıflaması, aynı bölgede çift dip oluşması ve \nsonraki testin daha yukarıda kalması, farklı şekillerde aynı ilerleme kaybını gösterir. Yine de \nbunlar tek başına yeni bir yükselişin ne kadar süreceğini garanti etmez; yeni yönün sonraki \nmumlarda gerçekten devam edip etmediği ayrıca izlenir.",
+    "source_extract_summary": [
+      "Fiyatın hızla yukarı dönmesi, ikinci denemenin başarısızlığını önceki tek bir dipten daha anlamlı hale getiriyor.",
+      "Aşama Satıcıların beklediği Gerçekte olan Yeni dip sonrası Aşağı yönün sürmesi İlk tepki geliyor 1.",
+      "satış denemesi Yeni dip / devam İlerleme sınırlı kalıyor 2."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0068",
+    "source_id": "PTA-C2-2026",
+    "page": 68,
+    "chapter": 9,
+    "section": "9.8 — Üç itiş, mikro çift dip ve daha yüksek dip aynı zincirde birleşirse",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n68 \n \nŞekil 9.7 — Solda ilk sert satışın ardından beklenen ikinci aşağı bacak geliyor. Sağda ise aynı beklenti \ngerçekleşmiyor; güçlü yukarı kapanışlar ikinci bacağın yerini alıyor. “Olmayan hareket” de bilgidir. \nBEKLENTI ILE GERÇEKLEŞENI KARŞILAŞTIRIN \nGüçlü ilk hareket tek başına geleceği belirlemez. İlk hareketin normalde üretmesi beklenen ikinci bacak \ngelmiyorsa, bu fark önceki momentumun devam edemediğini gösteren önemli bir uyarıdır. \n \n9.8 — Üç itiş, mikro çift dip ve daha yüksek dip aynı zincirde birleşirse \nKaynaktaki daha gelişmiş örnekte birkaç yapı aynı düşüşün son bölümünde birleşir: fiyat üç kez \naşağı doğru iter, mikro çift dip benzeri bir alan oluşur, güçlü bir yükseliş dönüş mumu ve iki \nmumluk dönüş görülür; ardından geri test daha yüksek dipte kalır. Bu yapıların her birini ayrı \nformasyon gibi ezberlemek yerine, hepsinin ortak mesajını okumak daha yararlıdır: aşağı \ndenemeler artıyor fakat her yeni deneme daha az sonuç üretiyor, ardından alıcılar daha güçlü \nkarşılık vermeye başlıyor. \nBurada “üç itiş = kesin dip” gibi bir kural yoktur. Üçüncü itiş hâlâ güçlü biçimde yeni dip \nüretiyorsa satış baskısı devam edebilir. Daha anlamlı olan, çoklu itişin yeni uç üretme \nbaşarısızlığı, güçlü karşı mumlar ve daha yüksek dip ile aynı bölgede birleşmesidir. Böylece \nyalnız yorulma değil, karşı tarafın giderek daha iyi sonuç alması da görünür hale gelir.",
+    "source_extract_summary": [
+      "Sağda ise aynı beklenti gerçekleşmiyor; güçlü yukarı kapanışlar ikinci bacağın yerini alıyor.",
+      "BEKLENTI ILE GERÇEKLEŞENI KARŞILAŞTIRIN Güçlü ilk hareket tek başına geleceği belirlemez.",
+      "İlk hareketin normalde üretmesi beklenen ikinci bacak gelmiyorsa, bu fark önceki momentumun devam edemediğini gösteren önemli bir uyarıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

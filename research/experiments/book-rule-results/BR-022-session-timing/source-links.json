@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0107",
+    "source_id": "ATK-TR-D1.0-2026-08",
+    "page": 107,
+    "chapter": 5,
+    "section": "5.15 — Gap–FVG Ayrımı ve Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  92\nÖzellik Klasik gap FVG Liquidity void\nGrafik boşluğu İki bar/seans arasında gerçek işlem \nboşluğu.\nÜç mum içinde Candle 1–3 wick’leri \nörtüşmez; Candle 2 alanı geçmiştir.\nTam boşluk gerekmez; hızlı, az \noverlap’li geçiş.\nSık görüldüğü piyasa Seanslı hisseler ve futures. Bütün mum grafiklerinde oluşabilir. Bütün piyasalarda güçlü impuls \niçinde.\nAna sınıflandırma Common, breakaway, runaway, \nexhaustion.\nBullish/bearish ve yaşam döngüsü. İnce/hızlı fiyat koridoru.\nFill yorumu Gap türüne göre fill hızı değişir. Kısmi/tam dolum olabilir; garanti değildir. Yeniden girişte hızlı geçiş \nolabilir; garanti değildir.\nTablo 5.15 – Klasik gap, FVG ve liquidity void ayrımı\nOn adımlı likidite ve boşluk iş akışı\nAdım Görev Çıktı\n1 Ana yapıyı seç Trend, range veya transition; major timeframe.\n2 En yakın önemli bölgeleri işaretle Bölüm 4’ten support/resistance veya supply–demand.\n3 Görünür likidite adaylarını bul Major high/low, equal high/low, range sınırı, trendline.\n4 External/internal etiketi koy Ana hedef mi, iç pullback seviyesi mi?\n5 Fiyat yaklaşımını izle Momentum artıyor mu, hugging/sıkışma mı var?\n6 Aşımı sınıflandır Fitil, gövde, kapanış ve seviye ötesi mesafe.\n7 Takibi bekle Grab/sweep ile run ayrımı; acceptance veya rejection.\n8 Displacement/FVG kontrol et Yapısal sonuç üreten anlamlı dengesizlik var mı?\n9 Gap türünü belirle Gerçek gap ise trend konumu, hacim ve follow-through.\n10 Koşullu cümle kur “X korunurken Y; Z close/acceptance senaryoyu değiştirir.”\nTablo 5.16 – Grafik başında on adımlı likidite ve boşluk iş akışı\nÖrnek koşullu cümleler\n “Günlük range üstünde BSL adayı bulunuyor. Üst sınır yalnız fitille aşılıp range içine \nkapanırsa sweep/rejection; gövdeli close ve başarılı retest gelirse liquidity run/breakout \nlehine sınıflandırılacaktır.”\n “Dört saatlik bearish displacement bir bearish FVG bıraktı. Alan ilk testte satış kapanışı \nüretirse düşüş devamı izlenecek; FVG tamamen aşılıp üzerinde acceptance oluşursa eski \nbearish referans geçersiz sayılacaktır.”\n “Hisse major direnç üzerinde gap açtı. Yüksek hacim ve seviye üstünde takip breakaway \ngap lehine; gap’in hızla doldurulup eski range içine dönmesi başarısız kırılım riskini \nartıracaktır.”\nBölümün karar ilkesi\nLikidite seviyesi hedefi, FVG konumu ve gap etiketi tek başına işlem değildir. Karar; yapı + önemli bölge + \nyaklaşım + aşım + kapanış + takip zinciri tamamlandığında anlamlıdır.",
+    "source_extract_summary": [
+      "Özellik Klasik gap FVG Liquidity void Grafik boşluğu İki bar/seans arasında gerçek işlem boşluğu.",
+      "Üç mum içinde Candle 1–3 wick’leri örtüşmez; Candle 2 alanı geçmiştir.",
+      "Tam boşluk gerekmez; hızlı, az overlap’li geçiş."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  }
+]
