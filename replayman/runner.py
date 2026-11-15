@@ -10,13 +10,14 @@ import pandas as pd
 
 from .catalog import Asset, load_catalog
 from .config import Settings
+from .dataset import build_dataset_index
 from .errors import RETRYABLE_KINDS, RunLimitReached, classify_error
 from .normalize import merge_save_prices, normalize_prices, read_prices
 from .provider import YahooProvider
 from .ratelimit import RequestGate
 from .report import write_reports
 from .resample import daily_comparison, derive_timeframes, save_derived
-from .series import Series, build_series, derived_path, price_path, publish_manifest
+from .series import Series, build_series, derived_path, price_path, publish_manifest, quality_path
 from .state import State, TaskScope
 
 logger = logging.getLogger(__name__)
@@ -219,6 +220,11 @@ class Downloader:
         finally:
             state.reset_running(scope=scope)
             derived = self._derive_all(assets, settings, series_by_asset) if settings.derive_timeframes else {}
+            dataset_index = None
+            try:
+                dataset_index = str(build_dataset_index(settings))
+            except Exception as exc:
+                logger.warning("OHLCV global indeks üretilemedi: %s", exc)
             summary = {
                 "status": status, "stop_reason": stop_reason, "assets": len(assets),
                 "network_requests": requests_this_run, "cache_hits": cache_hits,
@@ -227,7 +233,7 @@ class Downloader:
                 "scope": {"asset_ids": [a.id for a in assets], "intervals": list(settings.intervals),
                           "series_ids": {a.id: series_by_asset[a.id].id for a in assets}},
                 "legacy_tasks_preserved": state.migrated_legacy_tasks,
-                "derived": derived, "catalog_hash": catalog_hash,
+                "derived": derived, "dataset_index": dataset_index, "catalog_hash": catalog_hash,
                 "finished_at": pd.Timestamp.now(tz="UTC").isoformat(),
             }
             try:
@@ -251,15 +257,17 @@ class Downloader:
                 frames = derive_timeframes(hourly, asset, series_id=series.id)
                 if not frames:
                     continue
-                directory = derived_path(settings, asset, series)
+                bars_directory = derived_path(settings, asset, series)
+                quality_directory = quality_path(settings, asset, series)
                 for label, frame in frames.items():
+                    directory = quality_directory if label == "1d_from_1h" else bars_directory
                     save_derived(directory / f"{label}.csv", frame)
                 derived_assets += 1
                 native = read_prices(price_path(settings, asset, series, "1d"))
                 if "1d_from_1h" in frames and not native.empty:
                     comparison = daily_comparison(native, frames["1d_from_1h"])
                     if not comparison.empty:
-                        save_derived(directory / "daily_comparison.csv", comparison)
+                        save_derived(quality_directory / "daily_comparison.csv", comparison)
                         comparisons += int(len(comparison))
                         mismatches += int((~comparison["match"].astype(bool)).sum())
             except Exception as exc:

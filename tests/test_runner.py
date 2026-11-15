@@ -70,7 +70,7 @@ def test_runner_success_and_resume(settings, catalog_path):
     summary = Downloader(settings, catalog_path, provider=provider, sleep=sleep, clock=clock).run(limit=1, intervals=("1d",))
     assert summary["status"] == "completed"
     assert summary["network_requests"] == 1
-    assert len(list((settings.output_dir / "BIST_ASELS").glob("*/1d.csv"))) == 1
+    assert len(list((settings.output_dir / "BIST_ASELS").glob("*/bars/1d.csv"))) == 1
     assert (settings.report_dir / "summary.json").exists()
     calls = len(provider.calls)
     summary2 = Downloader(settings, catalog_path, provider=provider, sleep=sleep, clock=clock).run(limit=1, intervals=("1d",))

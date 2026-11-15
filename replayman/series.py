@@ -37,11 +37,15 @@ def build_series(asset: Asset, settings: Settings) -> Series:
 
 
 def price_path(settings: Settings, asset: Asset, series: Series, interval: str) -> Path:
-    return settings.output_dir / asset.id / series.id / f"{interval}.csv"
+    return settings.output_dir / asset.id / series.id / "bars" / f"{interval}.csv"
 
 
 def derived_path(settings: Settings, asset: Asset, series: Series) -> Path:
-    return settings.derived_dir / asset.id / series.id
+    return settings.derived_dir / asset.id / series.id / "bars"
+
+
+def quality_path(settings: Settings, asset: Asset, series: Series) -> Path:
+    return settings.derived_dir / asset.id / series.id / "quality"
 
 
 def publish_manifest(settings: Settings, asset: Asset, series: Series) -> Path:

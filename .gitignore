@@ -5,8 +5,7 @@ __pycache__/
 .pytest_cache/
 .cache/
 data/cache/
-data/prices/
-data/derived/
+data/ohlcv/
 data/state.sqlite3*
 data/state.lock
 data/reports/
