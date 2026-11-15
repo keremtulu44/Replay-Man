@@ -1,45 +1,75 @@
-# OHLCV Replay Başlangıç Ölçümü
+# OHLCV Replay Ölçümü — Swing ve Yapı Olayları
 
 ## Kapsam
 
-- 125 varlık, 500 seri ve 558.121 tamamlanmış bar
-- 1h: 315.801; 2h: 142.618; 4h: 69.846; 1d: 29.856 bar
-- Mum geometrisi, örtüşme, volatilite, göreceli hacim, hareket kalitesi ve baskı kaybı
-- Teyit zamanı ayrı minor/major swingler ve karşıt swing bacakları
-- Karar özelliklerinden ayrı ileri getiri ve MFE/MAE sonuçları
+- 125 varlık, 500 seri, 558.121 tamamlanmış bar
+- 1h 315.801; 2h 142.618; 4h 69.846; 1d 29.856 bar
+- Mum geometrisi, örtüşme, volatilite, hareket kalitesi ve baskı kaybı
+- Teyit zamanı ayrı minor/major swingler ve swing bacakları
+- Swing seviyelerinde kırılım/kabul/retest/failure yaşam döngüsü
+- Karar özelliklerinden ayrı 5 ve 20 bar yön düzeltilmiş getiri, MFE ve MAE
 
-## İlk swing ölçümü
+## Swing envanteri
 
 | Olay | Sayı |
 |---|---:|
-| Minor swing (2 sol + 2 sağ) | 151.450 |
-| Major swing (5 sol + 5 sağ) | 67.705 |
+| Minor swing (2+2) | 151.450 |
+| Major swing (5+5) | 67.705 |
 | Karşıt minor swing bacağı | 113.778 |
 | Higher high | 51.331 |
 | Higher low | 50.471 |
 | Lower high | 50.713 |
 | Lower low | 50.474 |
 
-Bunlar başarı sonucu değil, bütün evrende üretilen olay envanteridir. Aynı geometrik uç minor ve major seviyede ayrı olay olabilir.
+## Yapı olayı envanteri
+
+| Olay | Tanım | Sayı |
+|---|---|---:|
+| `probe_rejection` | Uç seviyeyi aştı, kapanış dışarıda kalmadı | 127.561 |
+| `close_break` | Seviye tolerans dışında kapanışla aşıldı | 116.136 |
+| `follow_through` | İlk üç bar içinde kırılım yönünde dış kapanış geldi | 91.132 |
+| `acceptance` | İki dış kapanış ile yeni alan kabul adayı oldu | 91.351 |
+| `retest_hold` | Seviye tekrar test edildi ve kapanış kırılım çevresinde korundu | 62.104 |
+| `failure` | İlk on bar içinde kapanış eski alanın içine döndü | 67.971 |
+
+Bu sayılar strateji başarı iddiası değildir. Aynı bar farklı geçmiş swing seviyeleri için birden fazla olay üretebilir. Seviye bir pivot olarak çizildiği anda değil, swing teyit edildikten sonraki bardan itibaren aktiftir.
+
+## Olay yönü
+
+- `close_break`, `follow_through`, `acceptance`, `retest_hold`: hipotez yönü kırılım yönüdür.
+- `probe_rejection`, `failure`: hipotez yönü başarısız denemenin tersidir.
+- `direction`, sınanan/kırılan tarafı; `thesis_direction`, sonuç ölçümündeki hipotez yönünü gösterir.
 
 ## Gelecek sızıntısı sözleşmesi
 
-- Pivotun geçmişte ait olduğu bar `pivot_position` olarak saklanır.
-- Olay ancak sağ teyit barları kapandığında `confirmed_position` zamanında yayımlanır.
-- Minor swing için teyit gecikmesi 2, major swing için 5 bardır.
-- HH/HL/LH/LL ilişkisi yalnız o ana kadar teyit edilmiş aynı tür swinglerle karşılaştırılır.
-- Swing bacağı bitiş pivotunda değil, bitiş pivotu teyit edildiğinde bilinir (`known_at_position`).
-- Özellikler yalnız mevcut/geçmiş barı kullanır; ileri sonuçlar ayrı sonuç tablosudur.
+- Pivotun geometrik barı ve ilk bilinebildiği teyit barı ayrıdır.
+- Minor teyit gecikmesi 2, major teyit gecikmesi 5 bardır.
+- Seviye teyit barından sonra sınanabilir; pivot ile teyit arasındaki fiyat hareketleri olay sayılmaz.
+- Yapı durumu yalnız sıradaki kapanmış OHLC barıyla ilerler.
+- Swing bacağı bitiş pivotunda değil, bitiş teyidinde bilinir.
+- İleri sonuçlar özellik/replay girdisi değildir.
 
-## Hacim uyarısı
-
-Sıfır hacim oranı BIST hisselerinde yaklaşık %6,25, BIST endekslerinde %97,39, küresel endekslerde %71,38, FX'te %100, madenlerde %2,65 ve enerjide %2,38'dir. Endeks/FX sıfırları işlemsizlik değil, kullanılabilir merkezi hacim olmamasıdır. Hacim deneyleri uygunluk filtresi gerektirir.
-
-## Dosyalar
+## Sonuç dosyaları
 
 - `summary.json`: Genel kapsam ve olay sayıları
-- `series_inventory.csv`: Seri bazında bar, hazır ölçüm, swing ve yapı ilişkisi sayıları
+- `series_inventory.csv`: 500 seri için bar, swing ve yapı olayları
+- `structure_event_study.csv`: Grup × periyot × olay × sınanan yön × hipotez yönü kırılımında gözlem, varlık sayısı, medyan yönlü getiri, kazanma oranı, MFE ve MAE
 
-## Sonraki adım
+## Sonuçları yorumlamadan önce zorunlu kontroller
 
-Teyitli swinglerden seviyeler üretilecek; seviye yaklaşımı, dışarı çıkış, dış kapanış, takip, kabul, retest ve failure durum makinesi kurulacaktır. Daha sonra olay anındaki özellikler ileri MFE/MAE ile 70–80+ sembolde ölçülecektir.
+1. Ham fiyatlardaki bölünme/kurumsal işlem sıçramaları özellikle aşağı yön olaylarını bozabilir.
+2. Aynı semboldeki olaylar bağımsız gözlem değildir.
+3. Parametreler ilk varyanttır: tolerans 0,10 ATR; kabul 2 kapanış; takip 3 bar; failure 10 bar; seviye ömrü 100 bar.
+4. Çoklu parametre denemesi yapılmadan önce eğitim/doğrulama dönemleri sabitlenmelidir.
+5. Medyan getiri işlem maliyeti içermez.
+6. Hacim endeks ve FX serilerinde çoğunlukla kullanılamaz.
+
+Bu nedenle rapor keşif ölçümüdür; işlem önerisi veya doğrulanmış avantaj değildir.
+
+## Sıradaki katman
+
+- Olay anındaki hareket kalitesi, volatilite ve baskı kaybı snapshot'ı
+- İlk/ikinci deneme eşleştirmesi
+- Trend/range bağlamı
+- Sembol başına sonuç ve 70–80+ sembolde yön tutarlılığı
+- Eğitim/doğrulama/out-of-sample ayrımı

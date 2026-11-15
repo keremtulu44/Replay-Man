@@ -30,6 +30,14 @@
     "lower_highs": 50713,
     "lower_lows": 50474
   },
+  "structure_events": {
+    "probe_rejections": 127561,
+    "close_breaks": 116136,
+    "follow_throughs": 91132,
+    "acceptances": 91351,
+    "retest_holds": 62104,
+    "failures": 67971
+  },
   "measurement_families": [
     "candle_geometry",
     "overlap",
@@ -39,6 +47,7 @@
     "pressure_decay",
     "confirmed_swings",
     "swing_legs",
+    "breakout_acceptance_failure",
     "forward_return",
     "mfe_mae"
   ],
