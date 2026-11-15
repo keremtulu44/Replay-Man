@@ -13,7 +13,9 @@ Bu dizin PDF arşivinden farklıdır. Amaç, kaynak bilgisini kaybetmeden kitapl
 7. `processed/topic-index.json`: Konudan kaynak sayfa/kartına çift yönlü erişim indeksi.
 8. `processed/master-synthesis.md`: Bütün temaların ana kataloğu.
 9. `QUALITY_REVIEW.md`: Bulunan/düzeltilen sorunlar, bilinçli sınırlamalar ve “%100 kapsam” tanımı.
-10. `experiments/` (sonraki aşama): Araştırmaya değer bulunan bilgiler için test fikirleri; ilk okumada kesin formül/eşik dayatılmaz.
+10. `FINAL_GAP_AUDIT.md`: İlk taksonomide görünmeyen son konu ailelerinin denetimi.
+11. `OHLCV_MEASUREMENT_MAP.md`: Kitap bilgilerinin yalnız OHLCV ile ölçülebilen, algoritmik sistem isteyen ve harici veri isteyen katmanlara ayrımı.
+12. `experiments/` (sonraki aşama): Araştırmaya değer bulunan bilgiler için test fikirleri; ilk okumada kesin formül/eşik dayatılmaz.
 
 ## Her tematik kaydın sırası
 
