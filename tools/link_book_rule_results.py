@@ -36,6 +36,7 @@ RULES = {
  "BR-025-multi-candle-sequences": {"title":"İki üç ve çok mumlu davranış dizileri", "sources":["PTA-C2-2026.p0023","PTA-C2-2026.p0026","PTA-C2-2026.p0027","PTA-C2-2026.p0029","PTA-C2-2026.p0030","PTA-C2-2026.p0034"], "events":[], "status":"cogu_rejime_bagli", "decision":"343.617 dizi ölçüldü; three crows üç zaman bölümünde pozitif, diğer çoğu dizi işaret değiştirdi."},
  "BR-026-pressure-loss": {"title":"Gövde ilerleme ve örtüşmeyle baskı kaybı", "sources":["PTA-C2-2026.p0013","PTA-C2-2026.p0017","PTA-C2-2026.p0018","PTA-C2-2026.p0019","PTA-C2-2026.p0022","PTA-C2-2026.p0033"], "events":[], "status":"context_only_negative_as_reversal", "decision":"1.350.145 varyant ölçüldü; testte bütün çıplak ters-yön hipotezleri negatif. Zayıflama otomatik dönüş değil."},
  "BR-027-compression-expansion": {"title":"Sıkışma ilk taşma ve karşı tarafa genişleme", "sources":["PTA-C2-2026.p0038","PTA-C2-2026.p0041","PTA-C2-2026.p0043","PTA-C2-2026.p0044"], "events":[], "status":"rejime_bagli", "decision":"245.802 olay ölçüldü; bazı test alt grupları güçlü fakat eğitim/doğrulamada işaret değiştiriyor; karşı genişleme örnekleri yetersiz."},
+ "BR-028-breakout-lifecycle-details": {"title":"Kırılım retest failure ve karşı genişleme ayrıntıları", "sources":["PTA-C2-2026.p0045","PTA-C2-2026.p0048","PTA-C2-2026.p0050","PTA-C2-2026.p0052","PTA-C2-2026.p0057","PTA-C2-2026.p0070","PTA-C2-2026.p0076","PTA-C2-2026.p0091","PTA-C2-2026.p0096"], "events":[], "status":"counter_expansion_continue", "decision":"556.255 olay ve 11 parametre varyantı ölçüldü; çıplak olaylar yazı-turaya yakın, failure sonrası karşı genişleme üç zaman bölümünde pozitif ayrıştı."},
 }
 
 def cards():
@@ -58,6 +59,7 @@ def main():
  multi_candle_base=ROOT/"measurements/cilt2-multi-candles"
  pressure_base=ROOT/"measurements/cilt2-pressure-quality"
  compression_base=ROOT/"measurements/cilt2-compression"
+ lifecycle_base=ROOT/"measurements/cilt2-lifecycle"
  registry=[]
  for slug,rule in RULES.items():
   folder=OUT/slug; folder.mkdir(parents=True,exist_ok=True)
@@ -95,6 +97,9 @@ def main():
   if slug.startswith("BR-027") and compression_base.exists():
    for filename in ("event_study.csv","inventory.csv","summary.json"):
     (folder/filename).write_bytes((compression_base/filename).read_bytes())
+  if slug.startswith("BR-028") and lifecycle_base.exists():
+   for filename in ("detailed_event_study.csv","parameter_study.csv","summary.json"):
+    (folder/filename).write_bytes((lifecycle_base/filename).read_bytes())
   record={"id":slug,**rule,"source_link":str(folder/"source-links.json"),"result_directory":str(folder)}
   registry.append(record)
  (OUT/"registry.json").write_text(json.dumps({"schema_version":1,"rules":registry},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

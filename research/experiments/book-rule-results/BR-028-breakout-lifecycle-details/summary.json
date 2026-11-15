@@ -1,0 +1,18 @@
+{
+  "events": 556255,
+  "assets": 125,
+  "counter_expansions": 50566,
+  "parameter_variants": [
+    "baseline",
+    "tol005",
+    "tol020",
+    "accept1",
+    "accept3",
+    "follow1",
+    "follow5",
+    "failure5",
+    "failure20",
+    "age50",
+    "age150"
+  ]
+}

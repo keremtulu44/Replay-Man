@@ -453,6 +453,26 @@
       "decision": "245.802 olay ölçüldü; bazı test alt grupları güçlü fakat eğitim/doğrulamada işaret değiştiriyor; karşı genişleme örnekleri yetersiz.",
       "source_link": "research/experiments/book-rule-results/BR-027-compression-expansion/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-027-compression-expansion"
+    },
+    {
+      "id": "BR-028-breakout-lifecycle-details",
+      "title": "Kırılım retest failure ve karşı genişleme ayrıntıları",
+      "sources": [
+        "PTA-C2-2026.p0045",
+        "PTA-C2-2026.p0048",
+        "PTA-C2-2026.p0050",
+        "PTA-C2-2026.p0052",
+        "PTA-C2-2026.p0057",
+        "PTA-C2-2026.p0070",
+        "PTA-C2-2026.p0076",
+        "PTA-C2-2026.p0091",
+        "PTA-C2-2026.p0096"
+      ],
+      "events": [],
+      "status": "counter_expansion_continue",
+      "decision": "556.255 olay ve 11 parametre varyantı ölçüldü; çıplak olaylar yazı-turaya yakın, failure sonrası karşı genişleme üç zaman bölümünde pozitif ayrıştı.",
+      "source_link": "research/experiments/book-rule-results/BR-028-breakout-lifecycle-details/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-028-breakout-lifecycle-details"
     }
   ]
 }

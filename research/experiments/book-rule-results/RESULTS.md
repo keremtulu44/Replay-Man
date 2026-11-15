@@ -294,6 +294,12 @@ XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün o
 
 **Karar:** Kırılım `rejime_bagli`; rejection `chance_like/context_only`; karşı genişleme `insufficient_sample`.
 
+## BR-028 — Kırılım yaşam döngüsü ayrıntıları
+
+556.255 olay seviye yaşı, deneme sayısı, dışarıda kalma, retest yaklaşma/geri alma ve failure derinliğiyle zenginleştirildi; 11 tek-faktör parametre varyantı ölçüldü. Çıplak olay havuzu parametre komşuluğunda çoğunlukla yazı-turaya yakındır. Failure sonrası karşı genişleme olan grup 4h BIST'te eğitim/doğrulama/testte yaklaşık %0,07 / %1,51 / %1,91 medyanla pozitif ayrıştı; olmayan grup testte -%3,88.
+
+**Karar:** Çıplak yaşam döngüsü `context_required`; failure sonrası karşı genişleme `continue`.
+
 # Sonraki kitap kuralları
 
-Cilt 2 P6 kırılım yaşam döngüsünde mesafe, dışarıda kalma, retest kalitesi ve failure sonrası karşı genişleme ayrıntılarıyla devam edecektir.
+Cilt 2 P7 swing hiyerarşisi, teyit gecikmesi ve parametre komşuluğuyla devam edecektir.
