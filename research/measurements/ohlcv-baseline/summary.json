@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "series": 500,
+  "assets": 125,
+  "bars": 558121,
+  "intervals": {
+    "1d": {
+      "series": 125,
+      "bars": 29856
+    },
+    "1h": {
+      "series": 125,
+      "bars": 315801
+    },
+    "2h": {
+      "series": 125,
+      "bars": 142618
+    },
+    "4h": {
+      "series": 125,
+      "bars": 69846
+    }
+  },
+  "measurement_families": [
+    "candle_geometry",
+    "overlap",
+    "volatility",
+    "volume_relative",
+    "movement_quality",
+    "pressure_decay",
+    "forward_return",
+    "mfe_mae"
+  ],
+  "causality": "features use current/past bars; forward outcomes are isolated research labels"
+}
