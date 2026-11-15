@@ -22,6 +22,7 @@
 - `risk_management`: 2 sayfa
 - `psychology_process`: 2 sayfa
 - `breakout_failure`: 2 sayfa
+- `execution_microstructure`: 1 sayfa
 - `volatility`: 1 sayfa
 - `volume_flow`: 1 sayfa
 - `candle_behavior`: 1 sayfa
@@ -38,7 +39,7 @@
 
 BÖLÜM 16 Trend Çizgileri, Yatay Seviyeler ve Kanallar Çizgi çizmek kolaydır. Zor olan, hangi iki noktanın neden seçildiğini ve çizginin neyi kanıtlamadığını bilmektir. HIZLI ROL — Ana görev: fiyat hareketini çizgiler ve bölgelerle daha kolay okumak.
 
-**Konular:** support_resistance, trend_regime, risk_management, volatility
+**Konular:** support_resistance, trend_regime, execution_microstructure, risk_management, volatility
 
 **Kart:** `PTA-C1-2026.p0095`
 

@@ -1,6 +1,6 @@
 # automation_ai
 
-**Kapsam:** 65 sayfa eşleşmesi
+**Kapsam:** 58 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

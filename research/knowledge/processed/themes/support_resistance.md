@@ -1,6 +1,6 @@
 # support_resistance
 
-**Kapsam:** 150 sayfa eşleşmesi
+**Kapsam:** 137 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

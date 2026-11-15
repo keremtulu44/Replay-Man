@@ -27,20 +27,24 @@
 ## Konu dağılımı
 
 - `geometry_tools`: 22 sayfa
-- `pullback`: 18 sayfa
-- `market_structure`: 15 sayfa
+- `pullback`: 15 sayfa
+- `wave_cycle_models`: 14 sayfa
+- `market_structure`: 13 sayfa
 - `support_resistance`: 12 sayfa
-- `trend_regime`: 12 sayfa
-- `strategy_design`: 7 sayfa
+- `trend_regime`: 10 sayfa
 - `liquidity_imbalance`: 6 sayfa
 - `momentum`: 6 sayfa
-- `breakout_failure`: 5 sayfa
+- `strategy_design`: 5 sayfa
+- `breakout_failure`: 4 sayfa
 - `psychology_process`: 3 sayfa
 - `patterns`: 2 sayfa
+- `swing_geometry`: 1 sayfa
 - `validation_replay`: 1 sayfa
+- `position_management`: 1 sayfa
 - `risk_management`: 1 sayfa
 - `multi_timeframe`: 1 sayfa
-- `market_basics`: 1 sayfa
+- `indicator_systems`: 1 sayfa
+- `follow_through`: 1 sayfa
 - `volatility`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -49,7 +53,7 @@
 
 BÖLÜM 9 Fibonacci, Elliott Wave ve Ölçülü Hareketler Pullback derinliği, hedef projection, dalga haritası ve koşullu uygulama
 
-**Konular:** geometry_tools, pullback
+**Konular:** geometry_tools, pullback, wave_cycle_models
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0167`
 
@@ -57,7 +61,7 @@ BÖLÜM 9 Fibonacci, Elliott Wave ve Ölçülü Hareketler Pullback derinliği, 
 
 Bu Bölümün Amacı Grafikte iyi bir impulse gördüğümde iki temel soru sorarım: “Pullback ne kadar derinleşti?” ve “Hareket devam ederse hangi fiyat alanları hedef olabilir?” Fibonacci ve ölçülü hareket araçları bu soruları sayısallaştırır. Elliott Wave ise hareketi motive ve corrective aşamalar hâlinde sınıflandırarak olası yol haritası kurar. Bu araçların hiçbiri geleceği garanti etmez; görevleri, fiyatın verdiği kanıtı düzenlemek ve senaryoyu ölçülebilir hâle getirmektir.
 
-**Konular:** geometry_tools, pullback, psychology_process, support_resistance
+**Konular:** geometry_tools, pullback, wave_cycle_models, psychology_process, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0168`
 
@@ -65,7 +69,7 @@ Bu Bölümün Amacı Grafikte iyi bir impulse gördüğümde iki temel soru sora
 
 Araç Sorduğum soru Çıktı Trend-based extension A–B impulse’u B–C pullback’inden sonra ne kadar uzayabilir? 1.000, 1.272, 1.618 gibi projection seviyeleri. Measured move Önceki impulse veya yapı yüksekliği yeni noktadan kopyalanırsa alan neresi?
 
-**Konular:** geometry_tools, pullback, market_structure, support_resistance, trend_regime
+**Konular:** geometry_tools, pullback, wave_cycle_models, market_structure, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0169`
 
@@ -81,7 +85,7 @@ Seviye Eylem tanımı Dikkat 0.786 Çok derin pullback’i izlerim. Trend kalite
 
 Wick–wick, hareketin gerçekleşen tam fiyat aralığını; close–close ise kapanışlarla kabul edilen aralığı ölçer. Kitabın standardı tek yöntemi evrensel doğru ilan etmek değil, aynı çalışma içinde yöntemi değiştirmemektir. Kendi piyasanızda replay ile hangisinin daha tutarlı çalıştığını test edin.
 
-**Konular:** pullback, geometry_tools, market_structure, validation_replay
+**Konular:** pullback, geometry_tools, market_structure, swing_geometry, validation_replay
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0171`
 
@@ -121,7 +125,7 @@ Uygulama Görseli 9.4 – Downtrend’de golden zone + bearish FVG + supply kesi
 
 Major zone varsa kısmi çıkış düşünülebilir. 1.000 A–B impulse’unun C’den eşit kopyası. 1.272 Eşit hareketin ötesindeki orta extension.
 
-**Konular:** support_resistance, geometry_tools, trend_regime, market_structure, pullback
+**Konular:** support_resistance, geometry_tools, trend_regime, market_structure, position_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0176`
 
@@ -145,7 +149,7 @@ Major zone varsa kısmi çıkış düşünülebilir. 1.000 A–B impulse’unun 
 
 Uygulama Görseli 9.5 – XAGTRYG 1H range breakout, range-height projection, Fib 1.000 ve ara resistance. 9.9 Elliott Wave Bir Yol Haritasıdır Elliott Wave count (olası dalga sırasını etiketleme), grafiği kesin geleceğe kilitlemek için değil motive ve corrective evreleri ayırmak için kullanılır. Önce formu, sonra kuralları, sonra oranları kontrol ederim.
 
-**Konular:** trend_regime, breakout_failure, geometry_tools, market_structure, pullback
+**Konular:** wave_cycle_models, trend_regime, breakout_failure, geometry_tools, market_structure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0179`
 
@@ -153,7 +157,7 @@ Uygulama Görseli 9.5 – XAGTRYG 1H range breakout, range-height projection, Fi
 
 9.10 5–3 Yapısı ve Fractal Piyasa Temel Elliott modelinde motive wave (ana trend yönündeki beş dalgalı ilerleme) 1–2–3–4–5; corrective wave (önceki motive harekete karşı düzeltme) A–B–C olarak etiketlenir. Aynı hareket daha küçük zaman diliminde alt dalgalara, daha büyük zaman diliminde ise tek bir dalgaya dönüşebilir. Bu fractal yapı, count’un zaman dilimi belirtilmeden anlamlı olmadığını gösterir.
 
-**Konular:** momentum, geometry_tools, psychology_process, pullback, trend_regime
+**Konular:** momentum, wave_cycle_models, geometry_tools, psychology_process, pullback
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0180`
 
@@ -161,7 +165,7 @@ Uygulama Görseli 9.5 – XAGTRYG 1H range breakout, range-height projection, Fi
 
 Dalga Tipik görev Psikoloji / fiyat davranışı A–B–C Motive harekete karşı correction. A ilk kırılma, B geçici umut, C düzeltmenin tamamlanma adayı. • Count’un hangi zaman dilimine ait olduğunu başlığa yazın.
 
-**Konular:** psychology_process, geometry_tools, multi_timeframe, pullback, strategy_design
+**Konular:** wave_cycle_models, psychology_process, geometry_tools, multi_timeframe, pullback
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0181`
 
@@ -169,7 +173,7 @@ Dalga Tipik görev Psikoloji / fiyat davranışı A–B–C Motive harekete kar�
 
 Wave 2 low/high ile wave 1 başlangıcını karşılaştırırım. Count iptal; farklı degree veya corrective yapı ararım. Wave 1, 3 ve 5 fiyat mesafesini karşılaştırırım.
 
-**Konular:** strategy_design, geometry_tools, pullback
+**Konular:** wave_cycle_models, strategy_design, geometry_tools, pullback
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0182`
 
@@ -177,7 +181,7 @@ Wave 2 low/high ile wave 1 başlangıcını karşılaştırırım. Count iptal; 
 
 9.12 Extension, Truncation, Alternation ve Equality Gerçek piyasa çoğu zaman eşit boyda beş temiz zikzak üretmez. Extension (impulse dalgasının kendi alt beşli yapısına ayrılıp olağan dışı uzaması), truncation (wave 5’in wave 3 ucunu aşamaması), alternation (wave 2 ve 4’ün biçim/derinlik bakımından farklılaşması) ve equality (özellikle wave 3 uzadığında wave 1 ile 5’in benzer boy üretmesi) bu farklılıkları sınıflandırır. Mesaj Wave extension Genellikle wave 3 içinde güçlü, alt beşli impulse ve artan momentum.
 
-**Konular:** momentum, trend_regime, market_structure, geometry_tools, market_basics
+**Konular:** momentum, trend_regime, market_structure, wave_cycle_models, geometry_tools
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0183`
 
@@ -185,7 +189,7 @@ Wave 2 low/high ile wave 1 başlangıcını karşılaştırırım. Count iptal; 
 
 Uygulama Görseli 9.7 – Wave 3 tepe, yatay wave 4, başarısız wave 5, RSI/MACD divergence ve protected low. 9.13 Corrective Şekiller ve Diagonaller Corrective hareketler tek bir A–B–C zikzak şeklinde olmak zorunda değildir. Zigzag daha yönlü ve keskin; flat daha yatay; triangle ise çoğunlukla A–B–C–D–E sıkışmasıdır.
 
-**Konular:** momentum, trend_regime, breakout_failure, geometry_tools, market_structure
+**Konular:** momentum, indicator_systems, trend_regime, breakout_failure, geometry_tools
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0184`
 
@@ -193,7 +197,7 @@ Uygulama Görseli 9.7 – Wave 3 tepe, yatay wave 4, başarısız wave 5, RSI/MA
 
 Gerçeklik: A–B–C dış etiketleme altında zigzag, flat, triangle veya kombinasyonlar bulunabilir. Pratikte dış structure’ı doğru okumak, her alt dalgayı etiketlemekten daha değerlidir. 9.14 Elliott + Fibonacci + Alternatif Count Elliott count’u kurduktan sonra Fibonacci oranlarını count’u “kanıtlamak” için değil olasılığı sınamak için eklerim.
 
-**Konular:** geometry_tools, market_structure, momentum, pullback, strategy_design
+**Konular:** geometry_tools, wave_cycle_models, market_structure, momentum, pullback
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0185`
 
@@ -201,7 +205,7 @@ Gerçeklik: A–B–C dış etiketleme altında zigzag, flat, triangle veya komb
 
 • Count’u önce kurallarla test edin. • Sonra retracement/extension oranlarını ekleyin. • Oran uyumsuzsa count’u otomatik silmeyin; tipik beklenti olduğunu hatırlayın.
 
-**Konular:** geometry_tools, market_structure, trend_regime, strategy_design
+**Konular:** wave_cycle_models, geometry_tools, market_structure, trend_regime, strategy_design
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0186`
 
@@ -209,7 +213,7 @@ Gerçeklik: A–B–C dış etiketleme altında zigzag, flat, triangle veya komb
 
 Anchor yöntemini tutarlı uygula; çizginin hangi swing’i ölçtüğünü etikete yaz. Fib seviyelerini tek tek değil sığ, golden ve derin alanlar olarak grupla. Alanı support/resistance, supply–demand, FVG, liquidity ve hacimle karşılaştır.
 
-**Konular:** liquidity_imbalance, support_resistance, momentum, market_structure, breakout_failure
+**Konular:** liquidity_imbalance, support_resistance, momentum, wave_cycle_models, market_structure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0187`
 
@@ -217,7 +221,7 @@ Anchor yöntemini tutarlı uygula; çizginin hangi swing’i ölçtüğünü eti
 
 Uygulama Görseli 9.8 – XAGTRYG daily: impulse, 0.50 retracement, resistance flip, FVG, sweep, target hierarchy ve Elliott count.
 
-**Konular:** liquidity_imbalance, geometry_tools
+**Konular:** liquidity_imbalance, wave_cycle_models, geometry_tools
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0188`
 
@@ -225,7 +229,7 @@ Uygulama Görseli 9.8 – XAGTRYG daily: impulse, 0.50 retracement, resistance f
 
 Hızlı Başvuru Kavram Eylem En büyük hata Fib retracement Impulse’u seç, pullback derinliğini ölç, alanı teyit et. Rastgele swing’e çizmek veya seviyeden kör giriş. Golden zone 0.50–0.618 alanını zone/bölgeyle kesiştir.
 
-**Konular:** support_resistance, geometry_tools, liquidity_imbalance, market_structure, pullback
+**Konular:** support_resistance, wave_cycle_models, geometry_tools, follow_through, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0189`
 
@@ -241,6 +245,6 @@ Hızlı Başvuru Kavram Eylem En büyük hata Fib retracement Impulse’u seç, 
 
 Fib retracement ve extension hangi farklı soruları yanıtlar? 0.382 veya 0.618 değeri grafikte neyi yüzde olarak ölçer? 0.5 seviyesi neden teknik olarak Fibonacci dizisi oranı değildir?
 
-**Konular:** geometry_tools, trend_regime, strategy_design, support_resistance
+**Konular:** geometry_tools, wave_cycle_models, trend_regime, strategy_design, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0191`

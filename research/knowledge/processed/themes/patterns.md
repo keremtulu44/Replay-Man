@@ -1,6 +1,6 @@
 # patterns
 
-**Kapsam:** 39 sayfa eşleşmesi
+**Kapsam:** 37 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

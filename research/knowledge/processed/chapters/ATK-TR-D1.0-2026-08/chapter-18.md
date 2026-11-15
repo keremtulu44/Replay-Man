@@ -21,15 +21,19 @@
 
 ## Konu dağılımı
 
-- `fundamental_derivatives`: 22 sayfa
-- `risk_management`: 13 sayfa
-- `relative_cross_market`: 12 sayfa
-- `liquidity_imbalance`: 8 sayfa
-- `volume_flow`: 3 sayfa
-- `market_basics`: 3 sayfa
-- `automation_ai`: 3 sayfa
+- `fundamental_valuation`: 22 sayfa
+- `fundamental_derivatives`: 21 sayfa
+- `portfolio_correlation`: 18 sayfa
+- `risk_management`: 10 sayfa
+- `relative_cross_market`: 8 sayfa
+- `macro_rates`: 6 sayfa
+- `liquidity_imbalance`: 3 sayfa
+- `market_basics`: 2 sayfa
+- `automation_ai`: 2 sayfa
+- `volume_flow`: 1 sayfa
+- `derivatives_options`: 1 sayfa
 - `psychology_process`: 1 sayfa
-- `validation_replay`: 1 sayfa
+- `execution_microstructure`: 1 sayfa
 - `candle_behavior`: 1 sayfa
 - `patterns`: 1 sayfa
 
@@ -39,7 +43,7 @@
 
 BÖLÜM 18 Temel Analiz, Değerleme ve Portföy Oluşturma İş modelinden finansal tablolara, değerleme aralığından portföy kararına
 
-**Konular:** fundamental_derivatives
+**Konular:** fundamental_valuation, portfolio_correlation, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0373`
 
@@ -47,7 +51,7 @@ BÖLÜM 18 Temel Analiz, Değerleme ve Portföy Oluşturma İş modelinden finan
 
 Bu Bölümün Amacı Teknik analiz fiyatın ne yaptığını ve piyasa katılımcılarının davranışını grafikten okumaya çalışır. Temel analiz ise bir şirketin ekonomik olarak ne ürettiğini, bu üretimin finansal tablolara nasıl yansıdığını ve bugün ödenen fiyatın bu kaliteye göre makul olup olmadığını araştırır. Bu bölümün hedefi yüzlerce oran ezberletmek değildir.
 
-**Konular:** fundamental_derivatives, relative_cross_market, risk_management, volume_flow
+**Konular:** fundamental_valuation, portfolio_correlation, fundamental_derivatives, relative_cross_market, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0374`
 
@@ -55,7 +59,7 @@ Bu Bölümün Amacı Teknik analiz fiyatın ne yaptığını ve piyasa katılım
 
 DOĞRU BİLİNEN YANLIŞ Mit: Harika şirket her fiyattan iyi yatırımdır. Gerçeklik: Gelecekteki iyi sonuçlar bugünkü fiyata fazlasıyla yansımışsa kaliteli şirket zayıf getiri veya yüksek drawdown üretebilir.
 
-**Konular:** fundamental_derivatives, risk_management
+**Konular:** fundamental_valuation, fundamental_derivatives, portfolio_correlation, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0375`
 
@@ -63,7 +67,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Harika şirket her fiyattan iyi yatırımdır. Ger
 
 18.2 İş Modeli, Rekabet Konumu ve Araştırma Tezi Financial statements sonucu gösterir; iş modeli sonucun nasıl üretildiğini açıklar. Bu nedenle rakamlara geçmeden önce şirketin gelir motorunu, maliyet yapısını, müşteri yoğunlaşmasını ve sermaye ihtiyacını anlamaya çalışırım. Araştırma alanı Ekranda / raporda aradığım Tez sorusu Gelir modeli Ürün, abonelik, komisyon, reklam veya proje geliri.
 
-**Konular:** volume_flow, risk_management, fundamental_derivatives
+**Konular:** volume_flow, fundamental_valuation, risk_management, derivatives_options, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0376`
 
@@ -71,7 +75,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Harika şirket her fiyattan iyi yatırımdır. Ger
 
 Bilanço Belirli tarih: dönem sonu fotoğrafı Şirket neye sahip, ne borçlu ve özkaynak ne? Borç ve işletme sermayesi nakit akışını nasıl etkiliyor? Nakit akışı Dönem: nakit hareketleri Operasyon gerçek nakit üretiyor mu; nakit nereye harcanıyor?
 
-**Konular:** fundamental_derivatives
+**Konular:** fundamental_valuation, fundamental_derivatives, portfolio_correlation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0377`
 
@@ -79,7 +83,7 @@ Bilanço Belirli tarih: dönem sonu fotoğrafı Şirket neye sahip, ne borçlu v
 
 18.4 Gelir Tablosu: Revenue’dan Net Income’a Gelir tablosunu yukarıdan aşağıya okurum. Revenue veya top line (ürün ve hizmet satışlarından gelen toplam gelir) başlangıçtır; cost of goods sold / cost of sales çıkarıldığında gross profit, operasyon giderleri ve diğer kalemler çıkarıldığında net income veya bottom line oluşur.
 
-**Konular:** fundamental_derivatives
+**Konular:** fundamental_valuation, fundamental_derivatives, portfolio_correlation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0378`
 
@@ -87,7 +91,7 @@ Bilanço Belirli tarih: dönem sonu fotoğrafı Şirket neye sahip, ne borçlu v
 
 Satır Aksiyon tanımı Kontrol Revenue Satış hacmi × fiyat ve segment bileşimini incelemek. Büyüme organik mi, kur etkisi veya satın alma mı? COGS / Cost of sales Üretim veya hizmet sunumunun doğrudan maliyetini bulmak.
 
-**Konular:** fundamental_derivatives, relative_cross_market
+**Konular:** fundamental_valuation, fundamental_derivatives, macro_rates, portfolio_correlation, relative_cross_market
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0379`
 
@@ -95,7 +99,7 @@ Satır Aksiyon tanımı Kontrol Revenue Satış hacmi × fiyat ve segment bileş
 
 Temel eşitlik assets = liabilities + shareholders’ equity biçimindedir. Varlığın miktarı kadar kalitesi ve ne kadar hızlı nakde dönebileceği; borcun miktarı kadar vadesi ve maliyeti önemlidir. Risk sorusu Cash and equivalents En likit kaynaklar.
 
-**Konular:** fundamental_derivatives, liquidity_imbalance, market_basics, relative_cross_market, risk_management
+**Konular:** fundamental_derivatives, fundamental_valuation, liquidity_imbalance, macro_rates, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0380`
 
@@ -103,7 +107,7 @@ Temel eşitlik assets = liabilities + shareholders’ equity biçimindedir. Varl
 
 DOĞRU BİLİNEN YANLIŞ Mit: Çok varlığı olan şirket finansal olarak güçlüdür. Gerçeklik: Tahsil edilemeyen alacak, satılamayan stok veya değer düşüklüğüne uğrayan goodwill yüksek varlık toplamını düşük kaliteli hâle getirebilir. 18.6 Nakit Akışı: Kârın Nakit Kalitesi Cash flow statement; operating, investing ve financing cash flow bölümlerini ayırır.
 
-**Konular:** fundamental_derivatives, psychology_process, risk_management
+**Konular:** fundamental_valuation, fundamental_derivatives, portfolio_correlation, psychology_process, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0381`
 
@@ -111,7 +115,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Çok varlığı olan şirket finansal olarak güç
 
 Revenue, earnings, EPS ve FCF’in hangi nedenle, hangi sermaye ihtiyacıyla ve ne kadar sürdürülebilir biçimde büyüdüğünü incelerim. Büyüme türü Kalite kontrolü Olası sorun Revenue growth Hacim, fiyat, yeni müşteri, kur ve satın alma ayrımı. Tek seferlik fiyat artışı veya edinilmiş gelir.
 
-**Konular:** fundamental_derivatives, relative_cross_market, risk_management, volume_flow
+**Konular:** fundamental_valuation, fundamental_derivatives, macro_rates, portfolio_correlation, relative_cross_market
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0382`
 
@@ -119,7 +123,7 @@ Revenue, earnings, EPS ve FCF’in hangi nedenle, hangi sermaye ihtiyacıyla ve 
 
 18.8 Margins, ROE ve ROA ile Kârlılık Margin oranları revenue’nun ne kadarının farklı kâr katmanlarında kaldığını; return ratios ise şirketin sermaye veya varlığı ne kadar verimli kullandığını özetler. Karşılaştırmayı aynı şirketin geçmişi ve benzer iş modeli olan şirketlerle yaparım. Sınır Gross margin (Revenue − COGS) ÷ Revenue Üretim/hizmet ekonomisi ne kadar güçlü?
 
-**Konular:** risk_management, fundamental_derivatives, relative_cross_market, automation_ai, liquidity_imbalance
+**Konular:** risk_management, fundamental_derivatives, macro_rates, relative_cross_market, fundamental_valuation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0383`
 
@@ -127,7 +131,7 @@ Revenue, earnings, EPS ve FCF’in hangi nedenle, hangi sermaye ihtiyacıyla ve 
 
 Alarm Current ratio benzeri likidite ölçüleri Kısa vadeli varlık/borç dengesi. Stok ve alacak kalitesi zayıfken oran yanıltıcı. CFO / FCF coverage Borcu operasyon nakdiyle taşıma kapasitesi.
 
-**Konular:** fundamental_derivatives, relative_cross_market, automation_ai, liquidity_imbalance
+**Konular:** fundamental_valuation, fundamental_derivatives, macro_rates, relative_cross_market, automation_ai
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0384`
 
@@ -135,7 +139,7 @@ Alarm Current ratio benzeri likidite ölçüleri Kısa vadeli varlık/borç deng
 
 • Trailing ve forward oran ayrımı; kullanılan earnings döneminin tarihi. • Sektör medyanı ve şirketin kendi tarihsel aralığı. • Negatif veya olağandışı earnings nedeniyle oranın anlamsız olup olmadığı.
 
-**Konular:** risk_management, fundamental_derivatives, relative_cross_market
+**Konular:** fundamental_valuation, risk_management, fundamental_derivatives, macro_rates, portfolio_correlation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0385`
 
@@ -143,7 +147,7 @@ Alarm Current ratio benzeri likidite ölçüleri Kısa vadeli varlık/borç deng
 
 Özet cümlesi otomatik ayrılamadı; tam kaynak şeridi kart JSONL kaydında korunuyor.
 
-**Konular:** fundamental_derivatives
+**Konular:** fundamental_valuation, fundamental_derivatives, portfolio_correlation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0386`
 
@@ -151,7 +155,7 @@ Alarm Current ratio benzeri likidite ölçüleri Kısa vadeli varlık/borç deng
 
 Uygulama Görseli 18.3 – Aynı şirket için bear, base ve bull fair value aralığı ile piyasa fiyatının gösterildiği gerçek değerleme ekranı. 18.12 Stock Screening: Filtre, Karar Değildir Stock screener (geniş şirket evrenini seçilen finansal ve piyasa koşullarıyla daraltma), araştırma süresini azaltır. Screener “en iyi hisseyi” bulmaz; belirli kurallara uyan şirketleri aday listesine taşır.
 
-**Konular:** liquidity_imbalance, fundamental_derivatives, market_basics, validation_replay
+**Konular:** fundamental_valuation, liquidity_imbalance, fundamental_derivatives, market_basics, portfolio_correlation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0387`
 
@@ -159,7 +163,7 @@ Uygulama Görseli 18.3 – Aynı şirket için bear, base ve bull fair value ara
 
 Ancak her ETF aynı ölçüde geniş, likit, düşük maliyetli veya çeşitlendirilmiş değildir. ETF kontrolü Ekranda aradığım Risk Endeks / yöntem Fon hangi kurala göre hangi varlıkları seçiyor? Adı geniş görünürken dar tema taşıyabilir.
 
-**Konular:** relative_cross_market, risk_management, fundamental_derivatives, liquidity_imbalance
+**Konular:** portfolio_correlation, relative_cross_market, execution_microstructure, fundamental_valuation, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0388`
 
@@ -167,7 +171,7 @@ Ancak her ETF aynı ölçüde geniş, likit, düşük maliyetli veya çeşitlend
 
 18.14 Portföy Kurma, DCA ve Rebalancing Portföy oluşturmak çok sayıda ürün toplamak değil; farklı risk kaynaklarına ne kadar ağırlık verileceğini belirlemektir. Core–satellite yaklaşımında çekirdek bölüm daha geniş ve düşük karar yükü taşıyan fonlardan; uydu bölüm ise seçilmiş şirket veya temalardan oluşabilir. Bu bir şablondur, evrensel yüzde kuralı değildir.
 
-**Konular:** risk_management, candle_behavior, fundamental_derivatives, liquidity_imbalance, relative_cross_market
+**Konular:** portfolio_correlation, fundamental_valuation, risk_management, candle_behavior, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0389`
 
@@ -175,7 +179,7 @@ Ancak her ETF aynı ölçüde geniş, likit, düşük maliyetli veya çeşitlend
 
 18.15 Tam Temel Analiz ve Portföy İş Akışı Temel analiz kararını tek oran veya tek platform puanı yerine aşağıdaki sıralı süreçle uygularım. Aşama Yazacağım soru Çıktı 1 Evren Hangi piyasa, sektör ve raporlama kalitesi? Araştırılabilir şirket/ETF listesi.
 
-**Konular:** fundamental_derivatives, risk_management
+**Konular:** fundamental_valuation, portfolio_correlation, fundamental_derivatives, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0390`
 
@@ -183,7 +187,7 @@ Ancak her ETF aynı ölçüde geniş, likit, düşük maliyetli veya çeşitlend
 
 Aşama Yazacağım soru Çıktı 3 Tablolar Revenue, kâr, bilanço ve nakit ne söylüyor? 4 Kalite Büyüme, marj, ROE/ROA ve FCF ne kadar sürdürülebilir? 5 Sağlık Borç, vade, likidite ve sermaye ihtiyacı nasıl?
 
-**Konular:** fundamental_derivatives, liquidity_imbalance, patterns, relative_cross_market, risk_management
+**Konular:** fundamental_valuation, fundamental_derivatives, portfolio_correlation, liquidity_imbalance, patterns
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0391`
 
@@ -191,7 +195,7 @@ Aşama Yazacağım soru Çıktı 3 Tablolar Revenue, kâr, bilanço ve nakit ne 
 
 Hızlı Başvuru Gördüğüm İlk kontrol Varsayılan eylem Revenue hızlı büyüyor Kaynak, margin, alacak, stok ve CFO Büyüme kalitesini ayır. Net income yükseliyor Tek seferlik kalem, CFO ve hisse sayısı Kârı nakitle doğrula. ROE çok yüksek Borç, buyback ve equity seviyesi Verimlilik mi kaldıraç mı ayır.
 
-**Konular:** fundamental_derivatives, automation_ai, relative_cross_market, liquidity_imbalance, market_basics
+**Konular:** fundamental_valuation, portfolio_correlation, fundamental_derivatives, automation_ai, relative_cross_market
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0392`
 
@@ -199,7 +203,7 @@ Hızlı Başvuru Gördüğüm İlk kontrol Varsayılan eylem Revenue hızlı bü
 
 Terim Aksiyon tanımı EPS Net income’ın diluted hisse başına payını ve hisse sayısı etkisini izlemek. CFO Ana operasyonun gerçek nakit üretimini değerlendirmek. FCF Operasyon nakdi sonrası gerekli sermaye yatırımından kalan esnek nakdi izlemek.
 
-**Konular:** fundamental_derivatives, risk_management, relative_cross_market
+**Konular:** fundamental_valuation, fundamental_derivatives, risk_management, portfolio_correlation, relative_cross_market
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0393`
 
@@ -207,6 +211,6 @@ Terim Aksiyon tanımı EPS Net income’ın diluted hisse başına payını ve h
 
 Assets = liabilities + equity eşitliği neyi anlatır? Operating, investing ve financing cash flow nasıl ayrılır? FCF tanımı neden veri sağlayıcısına göre doğrulanmalıdır?
 
-**Konular:** fundamental_derivatives
+**Konular:** fundamental_valuation, portfolio_correlation, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0394`

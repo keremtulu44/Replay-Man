@@ -15,14 +15,14 @@
 ## Konu dağılımı
 
 - `momentum`: 7 sayfa
+- `indicator_systems`: 7 sayfa
 - `risk_management`: 3 sayfa
-- `volume_flow`: 3 sayfa
 - `trend_regime`: 3 sayfa
 - `volatility`: 2 sayfa
-- `support_resistance`: 1 sayfa
+- `volume_flow`: 2 sayfa
+- `fundamental_valuation`: 1 sayfa
 - `breakout_failure`: 1 sayfa
 - `fundamental_derivatives`: 1 sayfa
-- `strategy_design`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -30,7 +30,7 @@
 
 BÖLÜM 3 RSI: Aşırı Alım / Aşırı Satımın Ötesi 70 ve 30 seviyelerini otomatik satış ve alış düğmesi gibi kullanmayın. Önce RSI’nın fiyat hareketinin gücü hakkında ne söylediğini anlayın. HIZLI ROL — Ana görev: fiyat hareketinin ne kadar güçlü olduğunu görmek.
 
-**Konular:** momentum, volatility, risk_management, volume_flow
+**Konular:** momentum, indicator_systems, volatility, risk_management, volume_flow
 
 **Kart:** `PTA-C1-2026.p0015`
 
@@ -38,7 +38,7 @@ BÖLÜM 3 RSI: Aşırı Alım / Aşırı Satımın Ötesi 70 ve 30 seviyelerini 
 
 Bu hesap önemli bir ayrımı gösterir: RSI fiyatın ekonomik olarak ucuz veya pahalı olduğunu hesaplamaz. Son dönemdeki yukarı ve aşağı hareketlerin birbirine göre ne kadar güçlü olduğunu sayısallaştırır. TEKNİK AYRINTI — FORMÜLÜ NEDEN BİLİYORUZ?
 
-**Konular:** momentum, trend_regime, volume_flow
+**Konular:** indicator_systems, momentum, trend_regime, volume_flow
 
 **Kart:** `PTA-C1-2026.p0016`
 
@@ -46,7 +46,7 @@ Bu hesap önemli bir ayrımı gösterir: RSI fiyatın ekonomik olarak ucuz veya 
 
 3.4 — 30 neden otomatik AL değildir? Güçlü düşüş trendinde RSI uzun süre düşük bölgede kalabilir. “RSI 30 altı = fiyat ucuz” ifadesi iki ayrı kavramı karıştırır: hareket gücü zayıflığı ile değerleme.
 
-**Konular:** momentum, trend_regime, risk_management, support_resistance, volume_flow
+**Konular:** momentum, indicator_systems, trend_regime, fundamental_valuation, risk_management
 
 **Kart:** `PTA-C1-2026.p0017`
 
@@ -54,7 +54,7 @@ Bu hesap önemli bir ayrımı gösterir: RSI fiyatın ekonomik olarak ucuz veya 
 
 Bu bir uyarıdır; kendi başına giriş zamanlaması değildir. Uyumsuzluk “fiyat ve hareket gücü aynı hızda ilerlemiyor” bilgisidir. Buradan “fiyat şimdi dönecek” sonucu çıkarmak ikinci ve kanıtlanmamış bir varsayım ekler.
 
-**Konular:** momentum, trend_regime
+**Konular:** momentum, indicator_systems, trend_regime
 
 **Kart:** `PTA-C1-2026.p0018`
 
@@ -62,7 +62,7 @@ Bu bir uyarıdır; kendi başına giriş zamanlaması değildir. Uyumsuzluk “f
 
 ÖNEMLİ AYRIM Çalışma aralığı kayması bir giriş işareti değildir. Piyasa ortamındaki hareket gücü davranışını sınıflandırmaya yardım eder; işlem kararı için fiyat yapısı ve fiyat davranışı ayrıca değerlendirilmelidir. 3.8 — Başarısız salınım (Failure Swing): RSI’nın kendi tepe ve dip yapısını okumak Uyumsuzlukta fiyat ile RSI karşılaştırılır.
 
-**Konular:** momentum, breakout_failure
+**Konular:** indicator_systems, momentum, breakout_failure
 
 **Kart:** `PTA-C1-2026.p0019`
 
@@ -70,7 +70,7 @@ Bu bir uyarıdır; kendi başına giriş zamanlaması değildir. Uyumsuzluk “f
 
 Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır.
 
-**Konular:** momentum, risk_management, volatility, fundamental_derivatives, strategy_design
+**Konular:** momentum, indicator_systems, risk_management, volatility, fundamental_derivatives
 
 **Kart:** `PTA-C1-2026.p0020`
 
@@ -78,6 +78,6 @@ Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseli
 
 BÖLÜM SONUCU RSI’yı “70/30 sinyal makinesi” olarak kullanmak yerine, önceden tanımlanmış yapı ve konum içinde hareket gücü katmanı olarak kullanın. Uyumsuzluk uyarıdır; aşırı alım/aşırı satım ise dönüş garantisi değildir.
 
-**Konular:** momentum
+**Konular:** momentum, indicator_systems
 
 **Kart:** `PTA-C1-2026.p0021`

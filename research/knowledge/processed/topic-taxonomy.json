@@ -45,6 +45,43 @@
       "use": "Mum geometrisi ve davranış özellikleri"
     },
     {
+      "id": "chart_transformations",
+      "keywords": [
+        "heikin ashi",
+        "renko",
+        "kagi",
+        "line break",
+        "grafik tür"
+      ],
+      "use": "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı"
+    },
+    {
+      "id": "movement_quality",
+      "keywords": [
+        "rahat ilerliyor",
+        "rahat ilerleme",
+        "temiz ilerleme",
+        "daha az mumla daha fazla mesafe",
+        "mesafe kazanımı",
+        "hareket kalitesi",
+        "ilerleme kalitesi",
+        "az örtüşme"
+      ],
+      "use": "Mesafe, süre, örtüşme ve yol verimliliği özellikleri"
+    },
+    {
+      "id": "pressure_decay",
+      "keywords": [
+        "momentum kaybı",
+        "ilerleme kaybı",
+        "gövdeler küçülüyor",
+        "yeni uç üretimi",
+        "zayıflayan hareket",
+        "tükenme"
+      ],
+      "use": "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    },
+    {
       "id": "market_structure",
       "keywords": [
         "piyasa yapısı",
@@ -64,6 +101,20 @@
         "minor swing"
       ],
       "use": "Gelecek sızıntısız yapı ve swing motoru"
+    },
+    {
+      "id": "swing_geometry",
+      "keywords": [
+        "swing geometr",
+        "swing mesafe",
+        "swing hız",
+        "hareket bacağı",
+        "iki bacak",
+        "itiş",
+        "major swing",
+        "minor swing"
+      ],
+      "use": "Bacak mesafesi, süresi, hızı ve teyit zamanı"
     },
     {
       "id": "trend_regime",
@@ -133,6 +184,30 @@
       "use": "Kırılım/kabul/başarısızlık durum makinesi"
     },
     {
+      "id": "follow_through",
+      "keywords": [
+        "takip davranışı",
+        "follow-through",
+        "alanı koru",
+        "yeni alan",
+        "dışarıda kal",
+        "kabul görd"
+      ],
+      "use": "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    },
+    {
+      "id": "attempt_expectation",
+      "keywords": [
+        "ikinci deneme",
+        "beklenen yeni uç",
+        "başarısız yeni",
+        "yeni dip üret",
+        "yeni tepe üret",
+        "beklenti testi"
+      ],
+      "use": "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"
+    },
+    {
       "id": "pullback",
       "keywords": [
         "pullback",
@@ -184,6 +259,37 @@
       "use": "Göreceli katılım ve hacim özellikleri"
     },
     {
+      "id": "execution_microstructure",
+      "keywords": [
+        "bid",
+        "ask",
+        "spread",
+        "order book",
+        "emir defteri",
+        "market order",
+        "limit emir",
+        "slippage",
+        "dolum"
+      ],
+      "use": "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    },
+    {
+      "id": "indicator_systems",
+      "keywords": [
+        "ichimoku",
+        "supertrend",
+        "adx",
+        "dmi",
+        "donchian",
+        "hareketli ortalama",
+        "bollinger",
+        "stochastic",
+        "macd",
+        "rsi"
+      ],
+      "use": "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri"
+    },
+    {
       "id": "geometry_tools",
       "keywords": [
         "fibonacci",
@@ -194,6 +300,21 @@
         "pivot point"
       ],
       "use": "Kuralı önceden tanımlanmış konum/geometri adayları"
+    },
+    {
+      "id": "wave_cycle_models",
+      "keywords": [
+        "elliott",
+        "dalga teor",
+        "wyckoff",
+        "birikim",
+        "dağıtım",
+        "spring",
+        "upthrust",
+        "markup",
+        "markdown"
+      ],
+      "use": "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"
     },
     {
       "id": "multi_timeframe",
@@ -220,6 +341,48 @@
         "emtia"
       ],
       "use": "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    },
+    {
+      "id": "sessions_timing",
+      "keywords": [
+        "işlem seansı",
+        "seans",
+        "açılış saati",
+        "kapanış saati",
+        "londra",
+        "new york",
+        "asya seansı",
+        "kill zone"
+      ],
+      "use": "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"
+    },
+    {
+      "id": "macro_rates",
+      "keywords": [
+        "faiz",
+        "enflasyon",
+        "merkez bankası",
+        "tahvil",
+        "duration",
+        "getiri eğrisi",
+        "para politikası",
+        "döviz kuru"
+      ],
+      "use": "Makro olayların endeks ve varlık grupları üzerindeki etkisi"
+    },
+    {
+      "id": "fundamental_valuation",
+      "keywords": [
+        "bilanço",
+        "gelir tablosu",
+        "nakit akış",
+        "f/k",
+        "pd/dd",
+        "değerleme",
+        "temel analiz",
+        "şirket analizi"
+      ],
+      "use": "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman"
     },
     {
       "id": "strategy_design",
@@ -249,6 +412,31 @@
       "use": "Sonuç ve daha sonraki yürütme simülasyonu"
     },
     {
+      "id": "position_management",
+      "keywords": [
+        "pozisyon yönet",
+        "kâr al",
+        "trailing stop",
+        "takip eden stop",
+        "kısmi çıkış",
+        "break-even",
+        "pozisyon ekle",
+        "scale"
+      ],
+      "use": "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü"
+    },
+    {
+      "id": "portfolio_correlation",
+      "keywords": [
+        "portföy",
+        "yoğunlaşma",
+        "portföy ısısı",
+        "korelasyon riski",
+        "çeşitlendirme"
+      ],
+      "use": "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    },
+    {
       "id": "validation_replay",
       "keywords": [
         "backtest",
@@ -276,6 +464,19 @@
       "use": "İnsan uygulama ve süreç değerlendirmesi"
     },
     {
+      "id": "journal_review",
+      "keywords": [
+        "işlem günlüğ",
+        "setup kodu",
+        "ekran görüntüsü",
+        "süreç puanı",
+        "hata modelde",
+        "uygulama hatası",
+        "performans günlüğ"
+      ],
+      "use": "Model sonucu ile uygulama hatasını ayıran deney günlüğü"
+    },
+    {
       "id": "automation_ai",
       "keywords": [
         "yapay zekâ",
@@ -300,6 +501,47 @@
         "kripto"
       ],
       "use": "İkinci seviye referans ve gelecekteki genişleme"
+    },
+    {
+      "id": "derivatives_options",
+      "keywords": [
+        "opsiyon",
+        "call",
+        "put",
+        "strike",
+        "delta",
+        "gamma",
+        "theta",
+        "vega",
+        "implied volatility",
+        "vadeli sözleşme"
+      ],
+      "use": "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği"
+    },
+    {
+      "id": "hedge_arbitrage",
+      "keywords": [
+        "hedge",
+        "korunma",
+        "arbitraj",
+        "pairs trading",
+        "spread trade",
+        "baz riski"
+      ],
+      "use": "Korunma ve göreceli değer stratejilerinin gelecekteki modülü"
+    },
+    {
+      "id": "crypto_specific",
+      "keywords": [
+        "kripto",
+        "blockchain",
+        "cüzdan",
+        "on-chain",
+        "funding",
+        "likidasyon",
+        "token"
+      ],
+      "use": "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
     }
   ]
 }

@@ -16,12 +16,14 @@
 
 - `breakout_failure`: 6 sayfa
 - `pullback`: 5 sayfa
+- `swing_geometry`: 4 sayfa
 - `market_structure`: 3 sayfa
 - `candle_behavior`: 2 sayfa
 - `support_resistance`: 1 sayfa
 - `trend_regime`: 1 sayfa
 - `momentum`: 1 sayfa
 - `volatility`: 1 sayfa
+- `attempt_expectation`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -29,7 +31,7 @@
 
 BÖLÜM 8 Swing Geometrisinin Temeli: Hangi Dip ve Tepe Önemli? Her küçük dönüşü yeni yapı saymayın. Önce hangi sınırın gerçekten aşıldığını, sonra geri çekilmenin ne kadarını geri verdiğini okuyun.
 
-**Konular:** breakout_failure, market_structure
+**Konular:** breakout_failure, market_structure, swing_geometry
 
 **Kart:** `PTA-C2-2026.p0054`
 
@@ -37,7 +39,7 @@ BÖLÜM 8 Swing Geometrisinin Temeli: Hangi Dip ve Tepe Önemli? Her küçük d�
 
 Önceki önemli swing sınırının dışında kapanış gelmeden her küçük dönüşü yeni major swing saymak yapıyı gereğinden fazla parçalar. Okuma Küçük tepe/dip major sınırlar içinde Büyük yapının sınırı değişmedi Minor swing / iç hareket olarak izlenir Fiyat önceki major tepeye yaklaşıyor Sınır test ediliyor Henüz yeni major yapı teyidi yok Önceki major tepenin üzerinde kapanış Önemli sınır aşıldı Yeni major yapı için teyit oluşur Aynı mantığın düşüş yönü Önceki major dip altında kapanış Daha büyük aşağı yapı için yeni bilgi oluşur ÖNEMLI AYRIM “Swing gördüm” ile “major swing teyit edildi” aynı cümle değildir. Major/minor ayrımı, grafikteki her dönüşe aynı ağırlığı vermemek için kullanılır.
 
-**Konular:** market_structure, support_resistance
+**Konular:** market_structure, swing_geometry, support_resistance
 
 **Kart:** `PTA-C2-2026.p0055`
 
@@ -45,7 +47,7 @@ BÖLÜM 8 Swing Geometrisinin Temeli: Hangi Dip ve Tepe Önemli? Her küçük d�
 
 Önceki major tepenin üzerinde kapanış geldikten sonra, kırılımdan önceki en düşük geçerli dip major swing low olarak teyit edilir. Sınır kırılmadan önce Aday swing Daha büyük yapı henüz yeni sınır üretmedi Önemli tepe/dip test edilirken Aday olmaya devam eder Test ile teyit aynı şey değildir Sınır dışında kapanış sonrası Major referans swing olarak teyit edilebilir Büyük yapının eski sınırı değişmiştir Sonradan değerlendirme Kırılımdan önceki geçerli uç seçilir Referans noktası kurala bağlanır PRATIK SONUÇ Major swing işaretlerken yalnız “en belirgin görünen” noktayı aramayın. Önce hangi önemli sınırın kırıldığını belirleyin; sonra o kırılımdan önceki geçerli dip veya tepeyi referans alın.
 
-**Konular:** pullback, market_structure, breakout_failure
+**Konular:** pullback, market_structure, swing_geometry, breakout_failure
 
 **Kart:** `PTA-C2-2026.p0056`
 
@@ -69,7 +71,7 @@ Aynı yön devam etse bile ikinci yapı önceki hareketin çok daha büyük böl
 
 Swing geometrisinde süre de mesafe kadar bilgi taşır. Ölçüt Daha güçlü bacakta ne görebiliriz? Mesafe Daha fazla alan kazanımı İlerleme sınırlı kalıyor Süre / mum sayısı Aynı mesafeyi daha az mumda alma Aynı mesafe için daha çok mum gerekmesi Mum yapısı Daha uzun yönlü gövdeler, küçük kesintiler Daha küçük gövdeler, sık karşı hareket Geri çekilme derinliği Önceki hareketin daha azını geri verme Önceki hareketin daha fazlasını geri alma TEK ÖLÇÜTTEN KARAR VERMEYIN Hız tek başına yeterli değildir.
 
-**Konular:** breakout_failure, pullback
+**Konular:** breakout_failure, pullback, swing_geometry
 
 **Kart:** `PTA-C2-2026.p0059`
 
@@ -77,6 +79,6 @@ Swing geometrisinde süre de mesafe kadar bilgi taşır. Ölçüt Daha güçlü 
 
 Adım Ana soru Güçlü tarafta ne arıyoruz? Referans Hangi dip/tepe gerçekten major? Önemli sınırlar net Her küçük swing major sayılıyor 2.
 
-**Konular:** pullback, breakout_failure, candle_behavior
+**Konular:** pullback, breakout_failure, candle_behavior, attempt_expectation
 
 **Kart:** `PTA-C2-2026.p0060`

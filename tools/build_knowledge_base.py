@@ -15,50 +15,86 @@ TOPICS = {
     "market_basics": {"keywords": ["finansal piyasa", "borsa", "broker", "long", "short", "emir tür", "bid", "ask", "kaldıraç", "marjin"], "use": "Referans ve işlem simülasyonu varsayımları"},
     "ohlcv_data": {"keywords": ["ohlc", "veri kaynağı", "grafik verisi", "açılış fiyatı", "kapanış fiyatı", "yüksek fiyat", "düşük fiyat", "bar verisi"], "use": "Veri sözleşmesi ve mum özellikleri"},
     "candle_behavior": {"keywords": ["gövde", "fitil", "mum diz", "kapanış konumu", "örtüşme", "inside bar", "engulf"], "use": "Mum geometrisi ve davranış özellikleri"},
+    "chart_transformations": {"keywords": ["heikin ashi", "renko", "kagi", "line break", "grafik tür"], "use": "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı"},
+    "movement_quality": {"keywords": ["rahat ilerliyor", "rahat ilerleme", "temiz ilerleme", "daha az mumla daha fazla mesafe", "mesafe kazanımı", "hareket kalitesi", "ilerleme kalitesi", "az örtüşme"], "use": "Mesafe, süre, örtüşme ve yol verimliliği özellikleri"},
+    "pressure_decay": {"keywords": ["momentum kaybı", "ilerleme kaybı", "gövdeler küçülüyor", "yeni uç üretimi", "zayıflayan hareket", "tükenme"], "use": "Mevcut tarafın ilerleme kabiliyetindeki bozulma"},
     "market_structure": {"keywords": ["piyasa yapısı", "swing high", "swing low", "swing geometr", "structure", "bos", "choch", "higher high", "higher low", "lower high", "lower low", "yapı kırılım", "tepe-dip dizisi", "major swing", "minor swing"], "use": "Gelecek sızıntısız yapı ve swing motoru"},
+    "swing_geometry": {"keywords": ["swing geometr", "swing mesafe", "swing hız", "hareket bacağı", "iki bacak", "itiş", "major swing", "minor swing"], "use": "Bacak mesafesi, süresi, hızı ve teyit zamanı"},
     "trend_regime": {"keywords": ["trend", "yatay piyasa", "range", "rejim", "kanal", "hareketli ortalama"], "use": "Bağlam ve piyasa rejimi sınıflaması"},
     "support_resistance": {"keywords": ["destek", "direnç", "yatay seviye", "arz", "talep", "supply", "demand", "zone"], "use": "Konum ve seviye yaşam döngüsü"},
     "liquidity_imbalance": {"keywords": ["likidite", "sweep", "fvg", "fair value gap", "order block", "dengesizlik", "gap"], "use": "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"},
     "patterns": {"keywords": ["formasyon", "üçgen", "bayrak", "flama", "omuz", "çift dip", "çift tepe", "takoz"], "use": "Şekil yerine ölçülebilir davranış dizileri"},
     "breakout_failure": {"keywords": ["kırılım", "breakout", "fakeout", "sahte kırılım", "failure", "retest", "geri test", "takip davranışı"], "use": "Kırılım/kabul/başarısızlık durum makinesi"},
+    "follow_through": {"keywords": ["takip davranışı", "follow-through", "alanı koru", "yeni alan", "dışarıda kal", "kabul görd"], "use": "İlk olaydan sonra alanın korunması ve hareketin devamı"},
+    "attempt_expectation": {"keywords": ["ikinci deneme", "beklenen yeni uç", "başarısız yeni", "yeni dip üret", "yeni tepe üret", "beklenti testi"], "use": "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"},
     "pullback": {"keywords": ["pullback", "geri çekilme", "ikinci deneme", "iki bacak", "yeni uç"], "use": "Pullback, ikinci deneme ve devam kalitesi"},
     "momentum": {"keywords": ["momentum", "rsi", "stochastic", "macd", "cci", "uyumsuzluk", "divergence"], "use": "Hareket gücü özellik ailesi"},
     "volatility": {"keywords": ["volatilite", "fiyat hareketliliği", "atr", "true range", "bollinger", "sıkışma", "genişleme"], "use": "Risk normalizasyonu ve volatilite rejimi"},
     "volume_flow": {"keywords": ["hacim", "volume", "obv", "vwap", "footprint", "delta", "order flow", "profile"], "use": "Göreceli katılım ve hacim özellikleri"},
+    "execution_microstructure": {"keywords": ["bid", "ask", "spread", "order book", "emir defteri", "market order", "limit emir", "slippage", "dolum"], "use": "Replay sonrası gerçekçi emir ve maliyet simülasyonu"},
+    "indicator_systems": {"keywords": ["ichimoku", "supertrend", "adx", "dmi", "donchian", "hareketli ortalama", "bollinger", "stochastic", "macd", "rsi"], "use": "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri"},
     "geometry_tools": {"keywords": ["fibonacci", "pitchfork", "gann", "regresyon", "trend çizgi", "pivot point"], "use": "Kuralı önceden tanımlanmış konum/geometri adayları"},
+    "wave_cycle_models": {"keywords": ["elliott", "dalga teor", "wyckoff", "birikim", "dağıtım", "spring", "upthrust", "markup", "markdown"], "use": "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"},
     "multi_timeframe": {"keywords": ["çoklu zaman", "üst zaman", "alt zaman", "htf", "mtf", "ltf"], "use": "Kapanmış bar semantiğiyle periyot senkronizasyonu"},
     "relative_cross_market": {"keywords": ["göreceli güç", "korelasyon", "vix", "dolar", "faiz", "makro", "endeks", "emtia"], "use": "Endeks/FX/maden/enerji olay ve lead-lag araştırması"},
+    "sessions_timing": {"keywords": ["işlem seansı", "seans", "açılış saati", "kapanış saati", "londra", "new york", "asya seansı", "kill zone"], "use": "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"},
+    "macro_rates": {"keywords": ["faiz", "enflasyon", "merkez bankası", "tahvil", "duration", "getiri eğrisi", "para politikası", "döviz kuru"], "use": "Makro olayların endeks ve varlık grupları üzerindeki etkisi"},
+    "fundamental_valuation": {"keywords": ["bilanço", "gelir tablosu", "nakit akış", "f/k", "pd/dd", "değerleme", "temel analiz", "şirket analizi"], "use": "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman"},
     "strategy_design": {"keywords": ["strateji", "setup", "tetik", "trigger", "invalidation", "işlem yok", "no-trade", "kural tabanlı"], "use": "Deney ve strateji kartı"},
     "risk_management": {"keywords": ["risk", "stop", "pozisyon büyüklüğü", "sermaye", "drawdown", "r:r", "beklenen değer"], "use": "Sonuç ve daha sonraki yürütme simülasyonu"},
+    "position_management": {"keywords": ["pozisyon yönet", "kâr al", "trailing stop", "takip eden stop", "kısmi çıkış", "break-even", "pozisyon ekle", "scale"], "use": "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü"},
+    "portfolio_correlation": {"keywords": ["portföy", "yoğunlaşma", "portföy ısısı", "korelasyon riski", "çeşitlendirme"], "use": "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"},
     "validation_replay": {"keywords": ["backtest", "replay", "forward test", "paper", "aşırı uyum", "overfit", "lookahead", "repaint", "test dönemi"], "use": "Araştırma doğrulama ve future-leak denetimi"},
     "psychology_process": {"keywords": ["psikoloji", "disiplin", "günlük", "fomo", "bilişsel", "duygu"], "use": "İnsan uygulama ve süreç değerlendirmesi"},
+    "journal_review": {"keywords": ["işlem günlüğ", "setup kodu", "ekran görüntüsü", "süreç puanı", "hata modelde", "uygulama hatası", "performans günlüğ"], "use": "Model sonucu ile uygulama hatasını ayıran deney günlüğü"},
     "automation_ai": {"keywords": ["yapay zekâ", " ai ", "pine script", "otomasyon", "alarm", "debug", "kod"], "use": "Gereksinim, semantik test ve sürümleme"},
-    "fundamental_derivatives": {"keywords": ["temel analiz", "bilanço", "opsiyon", "vadeli", "hedge", "arbitraj", "kripto"], "use": "İkinci seviye referans ve gelecekteki genişleme"}
+    "fundamental_derivatives": {"keywords": ["temel analiz", "bilanço", "opsiyon", "vadeli", "hedge", "arbitraj", "kripto"], "use": "İkinci seviye referans ve gelecekteki genişleme"},
+    "derivatives_options": {"keywords": ["opsiyon", "call", "put", "strike", "delta", "gamma", "theta", "vega", "implied volatility", "vadeli sözleşme"], "use": "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği"},
+    "hedge_arbitrage": {"keywords": ["hedge", "korunma", "arbitraj", "pairs trading", "spread trade", "baz riski"], "use": "Korunma ve göreceli değer stratejilerinin gelecekteki modülü"},
+    "crypto_specific": {"keywords": ["kripto", "blockchain", "cüzdan", "on-chain", "funding", "likidasyon", "token"], "use": "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"}
 }
 
 INTERPRETATIONS = {
     "market_basics": "Ürün, piyasa, emir ve veri kaynağı ayrımları daha sonraki replay yürütme varsayımlarının sınırlarını belirler.",
     "ohlcv_data": "OHLCV yalnız giriş verisi değil; barın ne zaman kesinleştiği ve hangi fiyatın kullanılabildiği araştırma semantiğinin temelidir.",
     "candle_behavior": "Mum adlarından önce gövde, fitil, kapanış konumu ve örtüşme gibi gözlenebilir parçalar ayrı özellikler olmalıdır.",
+    "chart_transformations": "Dönüştürülmüş grafikler standart OHLC değildir; gecikme ve sentetik fiyat anlamı ayrı tutulmalıdır.",
+    "movement_quality": "Yön tek başına yeterli değildir; alınan mesafe, kullanılan süre, toplam yol ve örtüşme hareketin kalitesini açıklar.",
+    "pressure_decay": "Dönüş iddiasından önce mevcut tarafın yeni alan üretme kabiliyetindeki düzenli azalma ölçülmelidir.",
     "market_structure": "Yapı olaylarında oluşum barı ile teyit barı ayrılmalı; geçmişe taşınan pivot erken sinyal sayılmamalıdır.",
+    "swing_geometry": "Swingler yalnız tepe/dip değil; mesafe, süre, hız ve teyit zamanı taşıyan hareket bacaklarıdır.",
     "trend_regime": "Trend etiketi tek başına tetik değil, diğer olayların anlamını değiştiren bağlam değişkenidir.",
     "support_resistance": "Seviye teması ile seviyenin davranışla tutulması ayrılmalı; seviye bir konum, tepki ise ayrı olaydır.",
     "liquidity_imbalance": "Likidite, OB ve FVG tek başına sonuç değil; konum, olay yaşam döngüsü ve geçersizlik taşıyan modüller olarak ele alınmalıdır.",
     "patterns": "Formasyon adı yerine mesafe, süre, sıkışma, kırılım, kabul ve başarısızlık bileşenleri ölçülebilir.",
     "breakout_failure": "Kırılım fitil, dış kapanış, takip, geri giriş ve kabul/başarısızlık aşamalarına ayrılabilir.",
+    "follow_through": "İlk sinyalin değeri, sonraki barların kazanılan alanı koruyup korumadığıyla ayrı ölçülmelidir.",
+    "attempt_expectation": "Sağlıklı hareketin üretmesi beklenen yeni uç ile gerçekleşen sonuç arasındaki fark bağımsız bilgi olabilir.",
     "pullback": "Geri çekilme derinlik, süre, hız, örtüşme ve ikinci deneme kalitesiyle ana hareketten ayrı ölçülmelidir.",
     "momentum": "Momentum araçları aynı bilgi ailesinin varyantlarıdır; yön, volatilite veya yapı kanıtı yerine geçirilmemelidir.",
     "volatility": "Volatilite yön söylemez; normalizasyon, rejim, sıkışma/genişleme ve risk ölçeği olarak kullanılabilir.",
     "volume_flow": "Hacim fiyat davranışının yerine değil, göreceli katılım katmanı olarak ve kendi periyodu içinde normalize edilerek kullanılmalıdır.",
+    "execution_microstructure": "OHLC barı emir sırasını ve gerçek dolumu tam göstermez; maliyet ve fill varsayımları ayrı simülasyon katmanıdır.",
+    "indicator_systems": "Klasik indikatörler adlarından önce ölçtükleri bilgi ailesi ve karar rolüyle envantere alınmalıdır.",
     "geometry_tools": "Geometri araçlarında anchor/pivot seçimi olay anında yapılabilir olmalı; sonradan en iyi oturan seçim lookahead riskidir.",
+    "wave_cycle_models": "Dalga ve döngü modellerinin esnek sayımları tek doğru kabul edilmemeli; önceden tanımlı varyantlar halinde sınanmalıdır.",
     "multi_timeframe": "Her periyodun görevi ve kapanış zamanı ayrı tutulmalı; tamamlanmamış üst zaman barı teyit sayılamaz.",
     "relative_cross_market": "Endeks ve dış piyasa etkileri eşzamanlı korelasyonla sınırlanmadan olay, rejim ve lead-lag olarak araştırılabilir.",
+    "sessions_timing": "Aynı olay farklı seans ve gün içi konumda farklı katılımcı/likidite koşullarına sahip olabilir.",
+    "macro_rates": "Makro değişkenler doğrudan tetik yerine piyasa gruplarını etkileyen olay ve rejim bağlamı olarak modellenebilir.",
+    "fundamental_valuation": "Temel veri ilk teknik replay çekirdeğinden ayrı tutulmalı, ileride zaman damgalı bağlam olarak eklenmelidir.",
     "strategy_design": "Strateji; bağlam, konum, setup, tetik, geçersizlik, hedef, no-trade ve kayıt alanlarından oluşan sürümlü sözleşmedir.",
     "risk_management": "Kazanma oranı tek ölçü değildir; MFE/MAE, beklenti, drawdown ve maliyetler sonuç katmanında ayrılmalıdır.",
+    "position_management": "Giriş kalitesi ile çıkış/pozisyon yönetimi aynı iddia değildir ve ayrı deneylerde ölçülmelidir.",
+    "portfolio_correlation": "Tekil sembol avantajı, eşzamanlı ve korelasyonlu sinyallerde portföy yoğunlaşmasına dönüşebilir.",
     "validation_replay": "Toplu ölçüm, bar replay ve forward gözlem farklı sorular cevaplar; kanıt türleri birbirinin yerine geçmez.",
     "psychology_process": "İnsan uygulama hatası ile model hatası ayrılmalı; süreç kaydı strateji sonucundan bağımsız tutulmalıdır.",
+    "journal_review": "Deney, karar ve uygulama kayıtları model hatası ile süreç ihlalini sonradan ayırabilecek kimlikler taşımalıdır.",
     "automation_ai": "Kodun derlenmesi doğruluğu kanıtlamaz; bar zamanı, state, reset, MTF ve future-leak semantiği test edilmelidir.",
-    "fundamental_derivatives": "Bu alanlar ilk replay çekirdeğinde referans katmanıdır; ürün ve risk varsayımları genişleme aşamasında ayrı modüller gerektirir."
+    "fundamental_derivatives": "Bu alanlar ilk replay çekirdeğinde referans katmanıdır; ürün ve risk varsayımları genişleme aşamasında ayrı modüller gerektirir.",
+    "derivatives_options": "Türevlerin doğrusal olmayan risk ve sözleşme yapısı spot OHLC stratejilerinden ayrı değerlendirilmelidir.",
+    "hedge_arbitrage": "Korunma ve arbitraj fikirleri yön tahmininden farklı amaç, maliyet ve yürütme semantiğine sahiptir.",
+    "crypto_specific": "Kripto piyasasının kesintisiz seans, funding, saklama ve likidasyon özellikleri ayrı bağlam gerektirir."
 }
 
 NOISE = re.compile(r"^(ANA TRADING KİTABI|PROFESYONEL TEKNİK ANALİZ|\d+)$", re.I)
@@ -95,7 +131,7 @@ def classify(text: str) -> list[tuple[str, int]]:
 
 
 def relevance(topics: list[tuple[str, int]]) -> str:
-    core = {"candle_behavior", "market_structure", "trend_regime", "support_resistance", "liquidity_imbalance", "patterns", "breakout_failure", "pullback", "momentum", "volatility", "volume_flow", "multi_timeframe", "relative_cross_market", "strategy_design", "validation_replay"}
+    core = {"candle_behavior", "movement_quality", "pressure_decay", "market_structure", "swing_geometry", "trend_regime", "support_resistance", "liquidity_imbalance", "patterns", "breakout_failure", "follow_through", "attempt_expectation", "pullback", "momentum", "volatility", "volume_flow", "indicator_systems", "multi_timeframe", "relative_cross_market", "strategy_design", "validation_replay"}
     if any(topic in core for topic, _ in topics): return "core"
     if topics: return "supporting"
     return "reference"

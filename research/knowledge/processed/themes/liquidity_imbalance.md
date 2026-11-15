@@ -1,6 +1,6 @@
 # liquidity_imbalance
 
-**Kapsam:** 156 sayfa eşleşmesi
+**Kapsam:** 112 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

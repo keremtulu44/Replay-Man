@@ -25,18 +25,19 @@
 - `trend_regime`: 17 sayfa
 - `pullback`: 12 sayfa
 - `breakout_failure`: 11 sayfa
-- `momentum`: 7 sayfa
+- `momentum`: 6 sayfa
 - `candle_behavior`: 3 sayfa
+- `swing_geometry`: 2 sayfa
 - `volatility`: 2 sayfa
 - `psychology_process`: 2 sayfa
 - `support_resistance`: 2 sayfa
 - `fundamental_derivatives`: 1 sayfa
-- `relative_cross_market`: 1 sayfa
 - `liquidity_imbalance`: 1 sayfa
 - `patterns`: 1 sayfa
+- `indicator_systems`: 1 sayfa
 - `risk_management`: 1 sayfa
 - `volume_flow`: 1 sayfa
-- `multi_timeframe`: 1 sayfa
+- `wave_cycle_models`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -60,7 +61,7 @@ Fiyatın Haritasını Kurmak Tek bir mum, belirli bir zaman aralığındaki müc
 
 Ölçek Temel soru İncelenen bilgi Örnek çıktı Birleşik okuma Mikro davranış makro haritayı destekliyor mu? Price action sinyalinin yapısal konumu ve takip davranışı. Pullback sonunda güçlü tepki; ancak henüz BOS yok.
 
-**Konular:** market_structure, trend_regime, pullback, fundamental_derivatives, relative_cross_market
+**Konular:** market_structure, trend_regime, pullback, swing_geometry, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0066`
 
@@ -84,7 +85,7 @@ Overlap ve ritim Temiz trendlerde impulse dalgaları daha yönlü, pullback’le
 
 3.5 Trend Gücü, Devam ve Zayıflama İki grafik de HH–HL üretebilir; fakat trend kalitesi aynı olmayabilir. Yapısal yön, trendin varlığını söyler. Trend gücü ise impulse’ların ne kadar etkili, pullback’lerin ne kadar kontrollü ve yeni ekstrem üretiminin ne kadar tutarlı olduğunu değerlendirir.
 
-**Konular:** trend_regime, pullback, breakout_failure, market_structure, momentum
+**Konular:** trend_regime, pullback, breakout_failure, indicator_systems, market_structure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0069`
 
@@ -92,7 +93,7 @@ Overlap ve ritim Temiz trendlerde impulse dalgaları daha yönlü, pullback’le
 
 bulunduğundan üstteki tepe göreli olarak zayıf high kabul edilir. Düşüş yapısında bunun tersi geçerlidir: kırılımı başlatan tepe güçlü, aşağıda yeni dip üretmesi beklenen low zayıftır. Yapı Korunan / güçlü taraf Hedeflenmesi beklenen / zayıf taraf Yükseliş BOS üreten impulse’ın başlangıç dibi; protected low.
 
-**Konular:** market_structure, trend_regime, breakout_failure, psychology_process
+**Konular:** market_structure, trend_regime, breakout_failure, psychology_process, swing_geometry
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0070`
 
@@ -140,7 +141,7 @@ Transition durumunda doğru ifade Yükseliş trendi CHoCH ile bozulduğunda heme
 
 3.13 Fractal Yapı ve Major–Minor Ayrımı Piyasa yapısı fractaldır: benzer swing, impulse, pullback, trend ve range düzenleri farklı zaman ölçeklerinde tekrar eder. Günlük grafikte tek bir pullback olarak görülen hareket, dört saatlik grafikte tam bir düşüş trendi; on beş dakikalık grafikte ise çok sayıda küçük trend ve range içerebilir. “Günlük yükseliş, dört saatlik düşüş” ifadesi aynı hareketin farklı ölçeklerdeki görevini anlatır.
 
-**Konular:** trend_regime, market_structure, pullback, psychology_process, multi_timeframe
+**Konular:** trend_regime, market_structure, pullback, psychology_process, wave_cycle_models
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0076`
 

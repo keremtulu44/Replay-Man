@@ -1,6 +1,6 @@
 # volatility
 
-**Kapsam:** 146 sayfa eşleşmesi
+**Kapsam:** 127 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

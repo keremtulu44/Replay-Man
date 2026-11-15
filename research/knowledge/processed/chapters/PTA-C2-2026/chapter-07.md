@@ -17,6 +17,7 @@
 ## Konu dağılımı
 
 - `breakout_failure`: 9 sayfa
+- `follow_through`: 6 sayfa
 - `candle_behavior`: 4 sayfa
 - `pullback`: 2 sayfa
 - `volatility`: 2 sayfa
@@ -31,7 +32,7 @@
 
 BÖLÜM 7 Sahte Kırılım, Gerçek Kırılım ve Takip Davranışı Bir seviyenin aşılması başlangıçtır. Asıl bilgi, fiyatın o seviyenin dışında kalıp kalamadığı ve sonraki mumların bu hareketi destekleyip desteklemediğidir. Bölüm 6’da fiyatın dar bir alandan nasıl çıktığını gördük.
 
-**Konular:** breakout_failure, candle_behavior
+**Konular:** breakout_failure, candle_behavior, follow_through
 
 **Kart:** `PTA-C2-2026.p0045`
 
@@ -47,7 +48,7 @@ Daha doğru okuma Fitille üstünü aşma Kapanış yeniden seviyenin altında Y
 
 Aşağı deneme Fiyat önceki dibin altını gördü. Geri alma Kapanış yeniden dip seviyesinin üstünde. Yukarı kırılım Yakın tepenin üzerinde kapanış geldi.
 
-**Konular:** breakout_failure, trend_regime
+**Konular:** breakout_failure, follow_through, trend_regime
 
 **Kart:** `PTA-C2-2026.p0047`
 
@@ -55,7 +56,7 @@ Aşağı deneme Fiyat önceki dibin altını gördü. Geri alma Kapanış yenide
 
 7.4 — İlk kırılımı sonraki tepe ve diplerle sınayın Bir fiyat aralığının dışına çıkan ilk mum hâlâ başarısız olabilir. Kaynak, aşağı kırılım örneğinde ilk hareketten sonra iki yeni yapısal bilgiye dikkat eder. Fiyat önce eski alt sınıra doğru geri döner fakat orayı geri alamaz ve daha düşük bir tepe oluşturur.
 
-**Konular:** breakout_failure, pullback, support_resistance
+**Konular:** breakout_failure, follow_through, pullback, support_resistance
 
 **Kart:** `PTA-C2-2026.p0048`
 
@@ -63,7 +64,7 @@ Aşağı deneme Fiyat önceki dibin altını gördü. Geri alma Kapanış yenide
 
 Burada ikinci mumun görevi “mutlaka aynı renk olsun” değildir. Ana soru, ilk kırılımın ürettiği yeni alan korunuyor mu? İkinci kapanış seviyenin dışında kalıyorsa fiyat yeni bölgeyi kullanmaya devam ediyor demektir.
 
-**Konular:** breakout_failure
+**Konular:** breakout_failure, follow_through
 
 **Kart:** `PTA-C2-2026.p0049`
 
@@ -79,7 +80,7 @@ Eski kırılım fikrine etkisi Küçük karşı mum Kısa duraklama veya sınır
 
 Renk tek başına yeterli değildir; boyut ve kapanış konumu da takip kalitesini değiştirir. Kontrol Sorulacak soru Neden önemli? Boyut İkinci mum ilk muma göre küçük mü, büyük mü?
 
-**Konular:** breakout_failure, candle_behavior, psychology_process, volatility
+**Konular:** breakout_failure, follow_through, candle_behavior, psychology_process, volatility
 
 **Kart:** `PTA-C2-2026.p0051`
 
@@ -87,7 +88,7 @@ Renk tek başına yeterli değildir; boyut ve kapanış konumu da takip kalitesi
 
 Yeni alan kazanımı, kısa ve kontrollü sıkışma, ardından yeniden genişleme basamaklı bir devam yapısı oluşturabilir. DURAKLAMA İLE BAŞARISIZLIĞI AYIRIN Daralma sırasında fiyat önceki kırılım alanını büyük ölçüde koruyorsa bu yapı kontrollü dinlenme olabilir. Fiyat hızla eski fiyat aralığı’in içine dönüyor ve güçlü karşı mumlarla alanı geri veriyorsa kırılım kalitesi farklıdır.
 
-**Konular:** breakout_failure, volatility
+**Konular:** breakout_failure, volatility, follow_through
 
 **Kart:** `PTA-C2-2026.p0052`
 

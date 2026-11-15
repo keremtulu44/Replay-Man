@@ -1,6 +1,6 @@
 # market_structure
 
-**Kapsam:** 122 sayfa eşleşmesi
+**Kapsam:** 102 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

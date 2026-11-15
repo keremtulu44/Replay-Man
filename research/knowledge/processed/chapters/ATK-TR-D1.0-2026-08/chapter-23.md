@@ -19,20 +19,26 @@
 
 ## Konu dağılımı
 
-- `risk_management`: 14 sayfa
-- `liquidity_imbalance`: 11 sayfa
+- `risk_management`: 13 sayfa
+- `liquidity_imbalance`: 10 sayfa
 - `trend_regime`: 9 sayfa
-- `strategy_design`: 7 sayfa
 - `market_basics`: 6 sayfa
 - `volatility`: 6 sayfa
-- `fundamental_derivatives`: 5 sayfa
+- `position_management`: 5 sayfa
+- `strategy_design`: 5 sayfa
 - `breakout_failure`: 5 sayfa
-- `market_structure`: 5 sayfa
-- `momentum`: 3 sayfa
+- `fundamental_derivatives`: 4 sayfa
+- `execution_microstructure`: 3 sayfa
+- `market_structure`: 3 sayfa
+- `hedge_arbitrage`: 3 sayfa
 - `support_resistance`: 2 sayfa
+- `momentum`: 2 sayfa
+- `chart_transformations`: 2 sayfa
+- `sessions_timing`: 1 sayfa
 - `validation_replay`: 1 sayfa
 - `volume_flow`: 1 sayfa
-- `ohlcv_data`: 1 sayfa
+- `crypto_specific`: 1 sayfa
+- `follow_through`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -48,7 +54,7 @@ BÖLÜM 23 Pozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri Sabit hedefte
 
 Bu Bölümün Amacı İşleme doğru yerden girmek önemlidir; fakat sonuç dağılımını çoğu zaman pozisyon açıkken verdiğimiz kararlar belirler. Aynı setup, biri ilk küçük kârda tamamen çıktığında; diğeri hedef, partial ve trailing kurallarını uyguladığında farklı performans üretebilir. Bu bölümde amaç her tepeyi veya dibi yakalamak değildir.
 
-**Konular:** risk_management, liquidity_imbalance, strategy_design, trend_regime, fundamental_derivatives
+**Konular:** risk_management, liquidity_imbalance, position_management, strategy_design, trend_regime
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0474`
 
@@ -56,7 +62,7 @@ Bu Bölümün Amacı İşleme doğru yerden girmek önemlidir; fakat sonuç dağ
 
 23.1 Pozisyon Yönetimi Girişten Önce Başlar Trade management (pozisyon açıldıktan sonra stop, hedef, miktar, süre ve çıkış kararlarını uygulama), girişten sonra doğaçlama yapılacak bir faaliyet değildir. Giriş öncesinde en az üç plan yazılır: trade yanlışsa nerede çıkacağım, trade beklediğim gibi ilerlerse hangi hedefte ne yapacağım, ne fiyat ne de tez yeterince ilerlemezse ne kadar süre bekleyeceğim? Plan alanı Girişten önce yazılacak Pozisyon açıkken ölçülecek Tez ve horizon Setup neden çalışmalı; beklenen hareket kaç bar/seans/gün?
 
-**Konular:** risk_management, strategy_design, market_basics
+**Konular:** risk_management, strategy_design, market_basics, position_management, sessions_timing
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0475`
 
@@ -72,7 +78,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: İyi bir giriş bulduysam çıkışı piyasa ilerl
 
 Likidite Equal highs/lows, session high-low, obvious stops. Fiyatın çekilebileceği fakat sweep sonrası dönebileceği alan. Zone / range Supply-demand, resistance/support, opposite range boundary.
 
-**Konular:** support_resistance, trend_regime, volatility, liquidity_imbalance, risk_management
+**Konular:** support_resistance, trend_regime, volatility, execution_microstructure, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0477`
 
@@ -80,7 +86,7 @@ Likidite Equal highs/lows, session high-low, obvious stops. Fiyatın çekilebile
 
 Stop entry’ye taşınıyorsa kalan fiyat riski sıfıra yaklaşabilir; fakat gap, slippage ve maliyet riski kalır. %40 pozisyon 106’da kapatılırsa gerçekleşen brüt kâr 2,40’tır. Kalan %60’ın ilk stopa riski 1,80’dir; maliyet öncesi toplam worst-case +0,60 olur.
 
-**Konular:** risk_management, liquidity_imbalance, market_basics
+**Konular:** risk_management, execution_microstructure, liquidity_imbalance, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0478`
 
@@ -88,7 +94,7 @@ Stop entry’ye taşınıyorsa kalan fiyat riski sıfıra yaklaşabilir; fakat g
 
 DOĞRU BİLİNEN YANLIŞ Mit: Pozisyonun bir kısmını kârla kapattığım anda artık kaybedemem. Gerçeklik: Partial fiyatı, kapatılan miktar, kalan stop mesafesi ve maliyetler toplam işlem sonucunu belirler. 23.5 Break-Even: Risk Azaltma mı, Erken Çıkış mı?
 
-**Konular:** risk_management, breakout_failure, liquidity_imbalance
+**Konular:** risk_management, position_management, breakout_failure, execution_microstructure, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0479`
 
@@ -96,7 +102,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Pozisyonun bir kısmını kârla kapattığım and
 
 23.6 Normal Stop ile Trailing Stop Görev Ayrımı Regular stop başlangıç tezinin yanlış olduğu seviyeyi korur. Trailing stop (fiyat lehe ilerledikçe belirli kural ile yalnız tek yönde sıkılaşan stop), risk kontrolünden kâr koruma ve trend taşıma görevine geçer. Aktivasyon kuralı olmadan başlangıçtan itibaren kullanılan çok sıkı trail, normal stopun yerine geçemez.
 
-**Konular:** risk_management, trend_regime, liquidity_imbalance, market_basics, strategy_design
+**Konular:** risk_management, position_management, trend_regime, liquidity_imbalance, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0480`
 
@@ -128,7 +134,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Her yeni higher low altında stop taşımak objekt
 
 Zaman kapısı Soru Olası eylem Bar/horizon Setup normalde kaç bar içinde follow- through üretir? Session sonu Intraday tez bir sonraki seansa taşınacak mı? Tam çıkış veya overnight yeniden boyutlandırma.
 
-**Konular:** risk_management, strategy_design, breakout_failure, fundamental_derivatives, liquidity_imbalance
+**Konular:** risk_management, strategy_design, breakout_failure, crypto_specific, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0484`
 
@@ -136,7 +142,7 @@ Zaman kapısı Soru Olası eylem Bar/horizon Setup normalde kaç bar içinde fol
 
 23.12 Range, Breakout, Pattern ve Gap Çıkışları Piyasa rejimi çıkış yöntemini değiştirir. Range trade’de karşı sınıra yaklaşırken mean-reversion avantajı azalabilir. Breakout trade’de range içine reclaim veya pattern invalidation tezi bozabilir.
 
-**Konular:** liquidity_imbalance, trend_regime, breakout_failure, market_structure, strategy_design
+**Konular:** liquidity_imbalance, trend_regime, breakout_failure, market_structure, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0485`
 
@@ -144,7 +150,7 @@ Zaman kapısı Soru Olası eylem Bar/horizon Setup normalde kaç bar içinde fol
 
 23.13 PSAR ve Heikin Ashi ile Yardımcı Çıkış Teyidi Parabolic SAR, trend boyunca fiyatın arkasında noktalar üretip flip olduğunda olası dönüş/exit uyarısı verebilir. Heikin Ashi ise OHLC’nin ortalanmış dönüşümünü kullanarak trendi daha pürüzsüz gösterir. Her ikisi de yardımcı filtre olabilir; gerçek işlem fiyatı ve ana yapı yerine geçmez.
 
-**Konular:** fundamental_derivatives, risk_management, trend_regime, market_structure, ohlcv_data
+**Konular:** fundamental_derivatives, hedge_arbitrage, chart_transformations, risk_management, trend_regime
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0486`
 
@@ -152,7 +158,7 @@ Zaman kapısı Soru Olası eylem Bar/horizon Setup normalde kaç bar içinde fol
 
 DOĞRU BİLİNEN YANLIŞ Mit: Hedge yalnız kâra geçtiğinde kapatılmalıdır. Gerçeklik: Hedge’in görevi belirli riski azaltmaktır. Risk ortadan kalktığında, hedge tek başına zarar yazsa bile kapatma gerekebilir.
 
-**Konular:** risk_management, fundamental_derivatives, strategy_design, liquidity_imbalance, momentum
+**Konular:** risk_management, fundamental_derivatives, hedge_arbitrage, strategy_design, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0487`
 
@@ -168,7 +174,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Hedge yalnız kâra geçtiğinde kapatılmalıdır
 
 Terim Aksiyon tanımı Partial exit Pozisyonun belirli kısmını kapatıp kalanı açık tutmak. Scaling out Birden fazla hedefte miktarı kademeli azaltmak. Break-even stop Stopu entry veya maliyet düzeltilmiş entry seviyesine taşımak.
 
-**Konular:** risk_management, volatility, breakout_failure, market_basics, market_structure
+**Konular:** risk_management, position_management, volatility, breakout_failure, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0489`
 
@@ -176,6 +182,6 @@ Terim Aksiyon tanımı Partial exit Pozisyonun belirli kısmını kapatıp kalan
 
 PSAR range piyasasında neden zayıflar? Heikin Ashi neden gerçek emir fiyatı için tek başına kullanılmaz? Hedge ne zaman kapatılır veya roll edilir?
 
-**Konular:** fundamental_derivatives, trend_regime
+**Konular:** fundamental_derivatives, hedge_arbitrage, chart_transformations, trend_regime
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0490`

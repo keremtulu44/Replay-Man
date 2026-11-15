@@ -17,18 +17,24 @@
 
 ## Konu dağılımı
 
-- `pullback`: 16 sayfa
-- `breakout_failure`: 12 sayfa
-- `candle_behavior`: 6 sayfa
+- `pullback`: 15 sayfa
+- `breakout_failure`: 11 sayfa
+- `attempt_expectation`: 7 sayfa
 - `volume_flow`: 5 sayfa
-- `multi_timeframe`: 5 sayfa
-- `trend_regime`: 4 sayfa
+- `candle_behavior`: 5 sayfa
+- `follow_through`: 5 sayfa
+- `multi_timeframe`: 4 sayfa
 - `volatility`: 4 sayfa
+- `trend_regime`: 3 sayfa
 - `patterns`: 3 sayfa
-- `momentum`: 2 sayfa
 - `market_structure`: 2 sayfa
+- `movement_quality`: 1 sayfa
 - `support_resistance`: 1 sayfa
+- `pressure_decay`: 1 sayfa
+- `momentum`: 1 sayfa
+- `derivatives_options`: 1 sayfa
 - `liquidity_imbalance`: 1 sayfa
+- `journal_review`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -36,7 +42,7 @@
 
 BÖLÜM 13 Mum Dizisi Okuma Protokolü: Baştan Sona Uygulama Bu bölüm yeni bir formasyon eklemiyor. İlk 12 bölümde kurduğumuz bütün okuma parçalarını tek bir sıraya yerleştiriyor. Bir grafiğe bakarken en büyük sorun bilgi eksikliği değildir; hangi bilgiyi önce kullanacağımızı bilememektir.
 
-**Konular:** pullback, volume_flow, breakout_failure, multi_timeframe, trend_regime
+**Konular:** pullback, volume_flow, attempt_expectation, breakout_failure, multi_timeframe
 
 **Kart:** `PTA-C2-2026.p0093`
 
@@ -44,7 +50,7 @@ BÖLÜM 13 Mum Dizisi Okuma Protokolü: Baştan Sona Uygulama Bu bölüm yeni bi
 
 İncelediğimiz mum dizisi önemli bir swing, destek/direnç veya önceki kırılım bölgesine yakın mı? Önünde hareket edebileceği açık alan var mı? Bu adım, sonraki bütün bilgilerin ağırlığını değiştirir.
 
-**Konular:** trend_regime, candle_behavior, pullback, support_resistance, breakout_failure
+**Konular:** movement_quality, trend_regime, candle_behavior, pullback, support_resistance
 
 **Kart:** `PTA-C2-2026.p0094`
 
@@ -52,7 +58,7 @@ BÖLÜM 13 Mum Dizisi Okuma Protokolü: Baştan Sona Uygulama Bu bölüm yeni bi
 
 13.3 — Eski yön gerçekten zayıflıyor mu? Bir tarafın güçlü olduğunu gördükten sonra sıradaki soru, bu gücün değişmeye başlayıp başlamadığıdır. Zayıflama çoğu zaman tek bir mumla başlamaz.
 
-**Konular:** volatility, candle_behavior, patterns, pullback
+**Konular:** volatility, candle_behavior, follow_through, patterns, pressure_decay
 
 **Kart:** `PTA-C2-2026.p0095`
 
@@ -60,7 +66,7 @@ BÖLÜM 13 Mum Dizisi Okuma Protokolü: Baştan Sona Uygulama Bu bölüm yeni bi
 
 Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra yeniden güçlenir, sıkışmada ise iki taraf da temiz yeni alan üretmekte zorlanır. Davranış ailesi Eski yön ne yapıyor? Sonraki kritik soru Dönüş İlerleme kaybediyor Daha fazla alan kazanıyor Yerel yapı kırılıyor mu?
 
-**Konular:** breakout_failure, volatility, pullback
+**Konular:** breakout_failure, volatility, follow_through, pullback
 
 **Kart:** `PTA-C2-2026.p0096`
 
@@ -68,7 +74,7 @@ Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra yeniden g�
 
 Sağda dış kapanış, takip ve alanın korunması birlikte görülüyor. Kırılımın kalitesi “geçti mi?” değil “orada kalabildi mi?” sorusuyla ölçülür. 13.6 — İkinci deneme ve beklenen yeni uç ne söylüyor?
 
-**Konular:** pullback
+**Konular:** pullback, attempt_expectation
 
 **Kart:** `PTA-C2-2026.p0097`
 
@@ -76,7 +82,7 @@ Sağda dış kapanış, takip ve alanın korunması birlikte görülüyor. Kır�
 
 Sağda ikinci deneme sonuç üretemez ve karşı taraf büyür. İkinci hareketin varlığı değil, ne kadar sonuç ürettiği önemlidir. BEKLENTI TESTI Her önemli noktada şu soruyu kullanın: “Sağlıklı hareket burada ne üretmeliydi?” Piyasanın gerçekte yaptığı ile bu beklenti arasındaki fark, zayıflamayı erken görünür hale getirir.
 
-**Konular:** pullback
+**Konular:** pullback, attempt_expectation
 
 **Kart:** `PTA-C2-2026.p0098`
 
@@ -84,7 +90,7 @@ Sağda ikinci deneme sonuç üretemez ve karşı taraf büyür. İkinci hareketi
 
 Tek bir mum yerine iki tarafın başarısı ve başarısızlığı birlikte okunur. İlerleme Yeni uç üretimi azalıyor / başarısız oluyor Karşı tepki büyümeye başlıyor 2. Kontrol değişimi Geri itilmeden sonra eski yön hızlanamıyor Geniş gövde ve güçlü kapanış 3.
 
-**Konular:** multi_timeframe, volume_flow, breakout_failure, pullback, candle_behavior
+**Konular:** multi_timeframe, volume_flow, breakout_failure, follow_through, pullback
 
 **Kart:** `PTA-C2-2026.p0099`
 
@@ -92,7 +98,7 @@ Tek bir mum yerine iki tarafın başarısı ve başarısızlığı birlikte okun
 
 Destekleyici katmanlar ana okumanın yerine geçmez. 13.9 — Tam uygulama: bir grafiği baştan sona nasıl okuruz? Şimdi bütün kitabı tek örnekte birleştirelim.
 
-**Konular:** breakout_failure, pullback, volume_flow, multi_timeframe
+**Konular:** breakout_failure, follow_through, pullback, volume_flow, attempt_expectation
 
 **Kart:** `PTA-C2-2026.p0100`
 
@@ -100,7 +106,7 @@ Destekleyici katmanlar ana okumanın yerine geçmez. 13.9 — Tam uygulama: bir 
 
 A: ana bağlam, B: pullback, C: başarısız ikinci deneme, D: yerel kırılım, E: geri test, F: devam. İşlem fikrinin ağırlığı tek bir noktadan değil, zincirin tamamından gelir. Nokta Okunan bölüm Sorulan ana soru Sonuç A Bağlam + kontrol Hangi taraf daha rahat ilerliyor?
 
-**Konular:** breakout_failure, pullback, trend_regime, volatility
+**Konular:** breakout_failure, pullback, trend_regime, volatility, attempt_expectation
 
 **Kart:** `PTA-C2-2026.p0101`
 
@@ -116,7 +122,7 @@ A: ana bağlam, B: pullback, C: başarısız ikinci deneme, D: yerel kırılım,
 
 EK 1 Hızlı Mum Dizisi Okuma Kontrol Listesi Bu sayfa kitabın kısa başvuru özetidir. Bir puanlama sistemi değildir; grafiğe bakarken hangi soruyu hangi sırada soracağınızı hatırlatır. # Kontrol Sorulacak soru 1 Bağlam Trend, kanal, fiyat aralığı veya önemli swing bölgesi?
 
-**Konular:** candle_behavior, pullback, trend_regime, breakout_failure, momentum
+**Konular:** candle_behavior, pullback, trend_regime, attempt_expectation, breakout_failure
 
 **Kart:** `PTA-C2-2026.p0103`
 
@@ -124,7 +130,7 @@ EK 1 Hızlı Mum Dizisi Okuma Kontrol Listesi Bu sayfa kitabın kısa başvuru �
 
 EK 2 Terimler Sözlüğü Terimler önce kitapta kullanılan sade anlamıyla verilmiştir. İngilizce karşılık, grafik ve kaynaklarla çalışırken aynı kavramı tanımanıza yardımcı olur. Blended candle / Birleşik mum — Birkaç mumun toplam açılış–kapanış sonucunu tek bir özet mum gibi düşünme yöntemi.
 
-**Konular:** breakout_failure, market_structure, volatility, candle_behavior
+**Konular:** breakout_failure, market_structure, volatility, candle_behavior, follow_through
 
 **Kart:** `PTA-C2-2026.p0104`
 
@@ -148,7 +154,7 @@ EK 3 Kaynakça Cilt 2 araştırma havuzu, aşağıdaki İngilizce eğitim videol
 
 End-of-Day Bull and Bear Traps - Al Brooks [j3FYCyWBTqc] 16. Trader Training Call With Price Action Trader Al Brooks [91h0Dw9jwQ0] 17. How To Identify Swing Highs & Lows [AHvDE9TxFLU] 18.
 
-**Konular:** pullback, volume_flow
+**Konular:** derivatives_options, pullback, volume_flow
 
 **Kart:** `PTA-C2-2026.p0107`
 
@@ -156,7 +162,7 @@ End-of-Day Bull and Bear Traps - Al Brooks [j3FYCyWBTqc] 16. Trader Training Cal
 
 EK 4 Editoryal Not Bu cildin araştırma sürecinde 66 ayrı kaynak parçası çıkarıldı. Otomatik altyazı/ASR hataları temizlendi; tekrarlar, konuşma dolguları, reklam bölümleri ve konu dışı performans anlatıları çıkarıldı. Teknik terimler standartlaştırıldı; anlamı güvenilir biçimde çıkarılamayan ifadeler tahmin edilerek yeni teknik iddiaya dönüştürülmedi.
 
-**Konular:** liquidity_imbalance, pullback, breakout_failure
+**Konular:** liquidity_imbalance, pullback, attempt_expectation, breakout_failure, journal_review
 
 **Kart:** `PTA-C2-2026.p0108`
 

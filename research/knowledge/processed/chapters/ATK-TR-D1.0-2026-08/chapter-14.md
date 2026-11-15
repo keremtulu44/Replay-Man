@@ -20,21 +20,24 @@
 
 ## Konu dağılımı
 
-- `psychology_process`: 18 sayfa
+- `psychology_process`: 17 sayfa
 - `strategy_design`: 17 sayfa
 - `risk_management`: 17 sayfa
+- `journal_review`: 6 sayfa
 - `breakout_failure`: 5 sayfa
-- `trend_regime`: 4 sayfa
-- `volatility`: 3 sayfa
-- `market_basics`: 3 sayfa
-- `pullback`: 2 sayfa
-- `liquidity_imbalance`: 2 sayfa
+- `trend_regime`: 3 sayfa
+- `execution_microstructure`: 3 sayfa
+- `market_basics`: 2 sayfa
 - `automation_ai`: 2 sayfa
-- `volume_flow`: 2 sayfa
 - `support_resistance`: 1 sayfa
+- `pullback`: 1 sayfa
+- `liquidity_imbalance`: 1 sayfa
 - `market_structure`: 1 sayfa
 - `momentum`: 1 sayfa
-- `validation_replay`: 1 sayfa
+- `volume_flow`: 1 sayfa
+- `volatility`: 1 sayfa
+- `follow_through`: 1 sayfa
+- `sessions_timing`: 1 sayfa
 - `relative_cross_market`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -51,7 +54,7 @@ BÖLÜM 14 Trading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini Duygu baskı
 
 Bu Bölümün Amacı Bölüm 12’de hangi setup’ı işleyeceğimizi, Bölüm 13’te ise yanlış çıktığımızda ne kadar kaybedeceğimizi belirledik. Fakat yazılı kuralın varlığı, gerçek para devreye girdiğinde kurala uyacağımızı garanti etmez. Bu bölüm, duyguyu bir düşman gibi bastırmak yerine duygu ile emir arasına ölçülebilir karar kapıları kurar.
 
-**Konular:** psychology_process, strategy_design, support_resistance
+**Konular:** psychology_process, journal_review, strategy_design, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0283`
 
@@ -59,7 +62,7 @@ Bu Bölümün Amacı Bölüm 12’de hangi setup’ı işleyeceğimizi, Bölüm 
 
 14.1 Psikoloji: Duyguyu Yok Etmek Değil Davranışı Yönetmek Trading psychology (duygular, inançlar ve zihinsel alışkanlıkların işlem kararına nasıl dönüştüğünü yönetme), teknik analizin alternatifi değildir. Test edilmemiş sistemi “iyi psikolojiyle” kârlı yapamam. Fakat test edilmiş bir edge’i korkuyla atlamak, açgözlülükle büyütmek veya kayıptan sonra değiştirmek mümkündür.
 
-**Konular:** psychology_process, strategy_design, risk_management
+**Konular:** psychology_process, strategy_design, journal_review, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0284`
 
@@ -83,7 +86,7 @@ Yüksek kalite yalnız olasılığı etkiler; tek sonucu garanti etmez. Üç kez
 
 Setup geçersizliği Stop, “haksız olduğum” değil, bu setup’ın çalışmadığı noktadır. Tek işlem belirsizliği Bu işlem kaybedebilir; edge tek sonuçta ölçülmez. Sorumluluk Emir, boyut ve kural seçimlerimden ben sorumluyum.
 
-**Konular:** risk_management, strategy_design, liquidity_imbalance, psychology_process, volatility
+**Konular:** risk_management, strategy_design, execution_microstructure, liquidity_imbalance, psychology_process
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0287`
 
@@ -99,7 +102,7 @@ Setup geçersizliği Stop, “haksız olduğum” değil, bu setup’ın çalı�
 
 Yanlılık Grafikte/kararda görülen işaret Koruyucu kayıt Recency Son üç kayıptan sonra sistemi aniden değiştirme. Rolling örneklem, rejim ve kural uyumu ayrı incelenir. Confirmation Kırılan trendline’ı tezi korumak için yeniden çizme.
 
-**Konular:** strategy_design, risk_management, automation_ai, breakout_failure, psychology_process
+**Konular:** strategy_design, journal_review, risk_management, automation_ai, breakout_failure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0289`
 
@@ -131,7 +134,7 @@ Uygulama Görseli 14.2 – XAGTRYG’de kontrollü trend, parabolik hızlanma, g
 
 optimism, euphoria, anxiety, panic ve capitulation gibi aşamaları düşünmek için kullanılır. Bu şema kesin fiyat rotası veya zamanlama sinyali değildir. Erken karşı pozisyon veya trendi reddetme.
 
-**Konular:** risk_management, psychology_process, trend_regime, volatility, liquidity_imbalance
+**Konular:** risk_management, psychology_process, trend_regime, volatility, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0293`
 
@@ -139,7 +142,7 @@ optimism, euphoria, anxiety, panic ve capitulation gibi aşamaları düşünmek 
 
 DOĞRU BİLİNEN YANLIŞ Mit: Öfori gördüğümde hemen short, kapitülasyon gördüğümde hemen long açmalıyım. Gerçeklik: Duygu evresi bağlam uyarısıdır. Yapı, fiyat davranışı, hacim ve geçersizlik olmadan zamanlama üretmez.
 
-**Konular:** strategy_design, market_basics, psychology_process, risk_management, volume_flow
+**Konular:** strategy_design, market_basics, psychology_process, journal_review, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0294`
 
@@ -147,7 +150,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Öfori gördüğümde hemen short, kapitülasyon g
 
 Kazanmış fakat 5/12 puan almış bir işlemi “iyi işlem” olarak ödüllendirmem; kaybetmiş fakat 12/12 puan almış işlemi edge örneklemine dâhil ederim. VAKA ANALİZİ — İKİ KAZANÇ İşlem A: Planlı breakout, doğru risk, hedefte +1,8R; süreç 12/12. İşlem B: Trigger yokken FOMO girişi, stop kaldırıldı, tesadüfen +2,4R; süreç 3/12.
 
-**Konular:** strategy_design, risk_management, psychology_process, breakout_failure, volatility
+**Konular:** strategy_design, risk_management, psychology_process, breakout_failure, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0295`
 
@@ -155,7 +158,7 @@ Kazanmış fakat 5/12 puan almış bir işlemi “iyi işlem” olarak ödüllen
 
 DOĞRU BİLİNEN YANLIŞ Mit: Disiplin güçlü iradeye sahip olmaktır. Disiplin; alarm, checklist, sabit risk, no-trade koşulu ve işlem izni gibi çevresel/süreçsel sınırlar kurmaktır. 14.13 İşlem Sırasında Duygu Protokolü Pozisyon açıkken P&L sürekli yeni bir duygu üretir.
 
-**Konular:** psychology_process, risk_management, strategy_design, automation_ai, market_basics
+**Konular:** psychology_process, risk_management, strategy_design, automation_ai, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0296`
 
@@ -163,7 +166,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Disiplin güçlü iradeye sahip olmaktır. Disipli
 
 Setup Model adı, bağlam, trigger, giriş türü, ekran görüntüsü. Risk Entry, stop, hedef, planlanan R, boyut, maliyet. Duygu Önce/sıra/sonra duygu etiketi ve 0–5 yoğunluk.
 
-**Konular:** psychology_process, strategy_design, risk_management, trend_regime, validation_replay
+**Konular:** psychology_process, strategy_design, risk_management, journal_review, sessions_timing
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0297`
 
@@ -179,7 +182,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: İşlem günlüğü entry, exit ve kâr/zarar list
 
 Uygulama Görseli 14.3 – XAGTRYG işlem günlüğünde süreç puanı, duygu yoğunluğu, dürtü, ihlal, R sonucu ve haftalık davranış özeti. Hızlı Başvuru Durum Kendime sorarım Varsayılan süreç Korku / tereddüt Risk mi büyük, setup mı eksik? Size azalt veya kural eksikse bekle.
 
-**Konular:** risk_management, strategy_design, psychology_process, breakout_failure, pullback
+**Konular:** risk_management, strategy_design, psychology_process, journal_review, breakout_failure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0299`
 

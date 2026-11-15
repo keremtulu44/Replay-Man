@@ -1,6 +1,6 @@
 # strategy_design
 
-**Kapsam:** 193 sayfa eşleşmesi
+**Kapsam:** 153 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -52,15 +52,7 @@ Deney ve strateji kartı
 
 **Kaynak özeti (`source`):** 10.9 — VWAP + 50 MA kesişimi neden evrensel kural değildir? VWAP ile 50 günlük hareketli ortalama kesişimini işlem sinyali yapmak, VWAP’ın tanımı değil strateji tercihidir. Test edilmeden evrensel kurala dönüştürülemez.
 
-### 6. PTA-C1-2026 — PDF s. 20
-
-> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 20 Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır. Fiyat önceki dibi kaybeder ve daha düşük dip oluşturursa bu gizli yükseliş uyumsuzluğunun temel şartı ortadan kalkar. UYUMSUZLUK = GİRİŞ DEĞİLDİR Bu yapı da tek başına giriş işareti değildir; hazırlık ve bağlam bilgisi verir. Giriş için fiyatın yeniden trend yönünde davranması gerekir. 3.10 — Parametre ve seviye stratejiye aittir RSI(10), 30 üzeri giriş veya 60 üzeri çıkış gibi kurallar belirli strateji tercihleri olabilir; RSI’nın evrensel doğru ayarı değildir. Bir parametreyi genel kural haline getirmek için yalnız geçmişte iyi görünmesi yeterli değildir. SAYISAL ÖRNEK — AYNI GÖSTERGE, FARKLI GÖREV RSI(14) bir belirgin fiyat hareketi stratejisinde daha yumuşak davranırken daha kısa bir periyot kısa vadeli harekete daha hassas olabilir. Hassasiyet arttığında daha erken sinyal kadar daha fazla gürültü de beklenir. “Daha hızlı” ile “daha iyi” aynı şey değildir. 3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi? Hayır. Üçü de hareket gücü/osilatör ailesindedir. Özellikle Stochastic RSI doğrudan RSI’nın kendi yakın dönem aralığındaki konumunu ölçer; yani RSI’nın türevidir. Bu nedenle RSI + Stoch RSI iki bağımsız veri katmanı gibi sayılamaz. …
-
-**Bölüm/alt başlık:** 3 / 3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi?
-
-**Kaynak özeti (`source`):** Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır.
-
-### 7. PTA-C1-2026 — PDF s. 25
+### 6. PTA-C1-2026 — PDF s. 25
 
 > PROFESYONEL TEKNİK ANALİZ ARAÇLARI 25 AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu değerler “Stochastic’in doğru ayarı” değildir. Ayar, strateji ve zaman dilimiyle birlikte değerlendirilmelidir. 4.6 — Stochastic RSI neden daha hassastır? Stochastic RSI fiyat aralığını değil, RSI’nın kendi yakın dönem aralığını 0–100 arasında yeniden ölçekler. Bu yüzden RSI’nın mutlak seviyesi çok değişmese bile, RSI kendi son dönem aralığının üst veya alt ucuna hızla yaklaştığında Stoch RSI 0 veya 100 bölgelerine daha hızlı gidebilir. FORMÜL MANTIĞI Stoch RSI = 100 × (Güncel RSI − N periyotluk en düşük RSI) / (N periyotluk en yüksek RSI − N periyotluk en düşük RSI). Bu formül, Stoch RSI’nın doğrudan RSI’dan türetildiğini açıkça gösterir. SAYISAL ÖRNEK — AYNI RSI, FARKLI YORUM Son 14 periyotta RSI 40 ile 70 arasında dolaşmış ve güncel RSI 64 olsun. Stoch RSI = (64−40)/(70−40)×100 = 80. RSI 64 klasik 70 eşiğinin altında iken Stoch RSI 80 olabilir. Çelişki yoktur: iki araç farklı sorular sorar. RSI hareket gücü seviyesini, Stoch RSI ise RSI’nın kendi yakın dönem aralığındaki konumunu gösterir. Şekil 4.3 — Aynı sentetik fiyat serisinde Stoch RSI, RSI’ya göre daha hızlı 0/100 uçlarına hareket eder. Daha hassas olmak daha az yanlış sinyal anlamına gelmez.
 
@@ -68,13 +60,21 @@ Deney ve strateji kartı
 
 **Kaynak özeti (`source`):** AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu değerler “Stochastic’in doğru ayarı” değildir. Ayar, strateji ve zaman dilimiyle birlikte değerlendirilmelidir.
 
-### 8. PTA-C1-2026 — PDF s. 40
+### 7. PTA-C1-2026 — PDF s. 44
 
-> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 40 Yaklaşım Avantaj Risk Sadece 1×ATR Otomatik ve kolay İşlem fikrinin bozulduğu seviyeyle ilişkili olmayabilir Yapı + ATR ek payı Yapı ve fiyat hareketliliğini birleştirir Katsayı yine test/strateji gerektirir “1 ATR” VE “2 ATR” SİHİRLİ SAYI DEĞİLDİR Katsayı büyüdükçe stop genişler, pozisyon büyüklüğü aynı tutulursa parasal risk de artar. Profesyonel kullanımda stop mesafesi ile pozisyon büyüklüğü birlikte ele alınmalıdır. 6.6 — Başlangıç stopu ile takip eden stop aynı görev değildir Başlangıç stopunun yeri 6.5’teki gibi önce işlem fikrinin bozulduğu seviyeye göre belirlenir. Burada ek soru, bu sınırın normal fiyat hareketi içinde gereğinden fazla yakın kalıp kalmadığıdır. Stop normal fiyat hareketinin çok içinde kalıyorsa fiyat yapısı bozulmadan da çalışabilir. ATR, yapısal stopun güncel hareket genişliğiyle uyumunu kontrol etmeye yardım eder; stopun yerini tek başına belirlemez. ATR tabanlı takip eden stop ve Chandelier Exit Başlangıç stopu ile takip eden stop aynı görev değildir. Başlangıç stopu işlem fikrinin ilk risk sınırını tanımlar; takip eden stop ise fiyat trend yönünde ilerledikçe açık pozisyonun yönetim sınırını taşır. ATR tabanlı takip eden stopta mesafe güncel ATR’ye bağlıdır. Fiyat hareketliliği yükselirse ATR ve stop mesafesi genişleyebilir; hareketlilik düşerse mesafe daralabilir. Katsayı büyüdükçe stop fiyata daha fazla hareket alanı bırakır. Hesap riski sabit tutulacaksa daha geniş stop daha küçük pozisyon büyüklüğü gerektirir. Chandelier Exit bu yaklaşımın otomatik çizgi biçimindeki uygulamalarından biridir. …
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 44 Şekil 7.1 — Beş değerlik basitleştirilmiş eğitim örneği: 98, 99, 100, 101, 102 ortalaması 100; standart sapma yaklaşık 1,41. ±2σ aralığı yaklaşık 97,17–102,83. NEDEN 5 VERİ KULLANDIK? Gerçek Bollinger ayarı çoğunlukla daha uzun bir pencere kullanır; burada amaç yalnız standart sapmanın ne yaptığını görünür kılmaktır. Küçük örnek hesap kolaylığı içindir, strateji parametresi değildir. 7.2 — %B: bant içindeki konumu tek sayıya dönüştürmek %B, fiyatın Bollinger bantlarına göre nerede bulunduğunu sayısallaştırır. Temel okuma şöyledir: %B = 1 → fiyat üst bantta %B = 0,5 → fiyat orta bantta %B = 0 → fiyat alt bantta %B > 1 → fiyat üst bandın üzerinde %B < 0 → fiyat alt bandın altında Bu değer “pahalı–ucuz” ölçümü değildir. Fiyatın mevcut Bollinger yapısı içindeki göreli konumunu nicel hale getirir. 7.3 — Üst banda temas neden otomatik SAT değildir? Üst banda temas, fiyatın ortalamadan belirgin biçimde uzaklaştığını gösterir; formülde dönüş şartı yoktur. Güçlü yükselişte fiyat üst bant boyunca ilerleyebilir.
 
-**Bölüm/alt başlık:** 6 / 6.7 — Düşük ATR ve kırılım beklentisi
+**Bölüm/alt başlık:** 7 / 7.3 — Üst banda temas neden otomatik SAT değildir?
 
-**Kaynak özeti (`source`):** Yaklaşım Avantaj Risk Sadece 1×ATR Otomatik ve kolay İşlem fikrinin bozulduğu seviyeyle ilişkili olmayabilir Yapı + ATR ek payı Yapı ve fiyat hareketliliğini birleştirir Katsayı yine test/strateji gerektirir “1 ATR” VE “2 ATR” SİHİRLİ SAYI DEĞİLDİR Katsayı büyüdükçe stop genişler, pozisyon büyüklüğü aynı tutulursa parasal risk de artar. Profesyonel kullanımda stop mesafesi ile pozisyon büyüklüğü birlikte ele alınmalıdır. 6.6 — Başlangıç stopu ile takip eden stop aynı görev değildir Başlangıç stopunun yeri 6.5’teki gibi önce işlem fikrinin bozulduğu seviyeye göre belirlenir.
+**Kaynak özeti (`source`):** Gerçek Bollinger ayarı çoğunlukla daha uzun bir pencere kullanır; burada amaç yalnız standart sapmanın ne yaptığını görünür kılmaktır. Küçük örnek hesap kolaylığı içindir, strateji parametresi değildir. 7.2 — %B: bant içindeki konumu tek sayıya dönüştürmek %B, fiyatın Bollinger bantlarına göre nerede bulunduğunu sayısallaştırır.
+
+### 8. PTA-C1-2026 — PDF s. 46
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 46 Gözlem Doğru yorum Yanlış yorum Bantlar daralıyor Fiyat hareketliliği/dağılım daralıyor “Yukarı kırılım geliyor.” Bantlar genişliyor Hareket genişliği artıyor “Trend kesin güçlü.” Fiyat üst bantta Üst bant bölgesinde “Aşırı alım → satış yönlü işlem.” Fiyat alt bantta Alt bant bölgesinde “Ucuz → hemen al.” 7.5 — Bant Genişliği (BandWidth): sıkışmadan genişlemeye hareketlilik döngüsü Bant Genişliği (BandWidth), üst ve alt Bollinger bantları arasındaki genişliği ayrı bir seri halinde izlemeye yarar. Bant Genişliği düşerken bantlar daralır; yükselirken genişler. Sıkışmayı yalnız “bantlar dar görünüyor” diye değerlendirmek yerine, Bant Genişliği’nin enstrümanın kendi geçmişindeki konumuna bakılabilir. Sıra dışı derecede düşük Bant Genişliği sıkışma rejimini, sıra dışı derecede yüksek Bant Genişliği ise geniş hareketlilik rejimini gösterir. Kullanılan tarih penceresi bir strateji ayarıdır; tek bir evrensel sayı yoktur. Düşük Bant Genişliği tek başına yön vermez. Ancak Bant Genişliği çok düşük bir bölgeden yeniden yükselmeye başladığında fiyat hareketliliğinin genişleme evresine geçtiği görülebilir. Sıkışma, genişleme ve aşırı genişleme aynı döngünün farklı evreleridir Bollinger yapısı kabaca şu fiyat hareketliliği döngüsüyle okunabilir: sıkışma → Bant Genişliği tabanı → genişleme → yüksek Bant Genişliği / aşırı genişleme → daralma Burada ölçülen yön değil, hareket genişliğidir. Yüksek Bant Genişliği sonrasında hareketlilik azalabilir; fakat bu mutlaka trendin tersine döneceği anlamına gelmez. …
+
+**Bölüm/alt başlık:** 7 / 7.5 — Bant Genişliği (BandWidth): sıkışmadan genişlemeye hareketlilik
+
+**Kaynak özeti (`source`):** Gözlem Doğru yorum Yanlış yorum Bantlar daralıyor Fiyat hareketliliği/dağılım daralıyor “Yukarı kırılım geliyor.” Bantlar genişliyor Hareket genişliği artıyor “Trend kesin güçlü.” Fiyat üst bantta Üst bant bölgesinde “Aşırı alım → satış yönlü işlem.” Fiyat alt bantta Alt bant bölgesinde “Ucuz → hemen al.” 7.5 — Bant Genişliği (BandWidth): sıkışmadan genişlemeye hareketlilik döngüsü Bant Genişliği (BandWidth), üst ve alt Bollinger bantları arasındaki genişliği ayrı bir seri halinde izlemeye yarar. Bant Genişliği düşerken bantlar daralır; yükselirken genişler. Sıkışmayı yalnız “bantlar dar görünüyor” diye değerlendirmek yerine, Bant Genişliği’nin enstrümanın kendi geçmişindeki konumuna bakılabilir.
 
 ## Test fikri (`hypothesis`)
 

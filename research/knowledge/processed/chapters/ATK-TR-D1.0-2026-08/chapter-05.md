@@ -21,15 +21,18 @@
 - `liquidity_imbalance`: 14 sayfa
 - `breakout_failure`: 11 sayfa
 - `risk_management`: 8 sayfa
-- `candle_behavior`: 8 sayfa
-- `trend_regime`: 8 sayfa
+- `trend_regime`: 7 sayfa
+- `candle_behavior`: 5 sayfa
+- `execution_microstructure`: 4 sayfa
 - `support_resistance`: 4 sayfa
-- `volume_flow`: 3 sayfa
 - `market_structure`: 3 sayfa
+- `volume_flow`: 2 sayfa
 - `market_basics`: 2 sayfa
-- `momentum`: 2 sayfa
+- `follow_through`: 2 sayfa
 - `psychology_process`: 1 sayfa
 - `pullback`: 1 sayfa
+- `momentum`: 1 sayfa
+- `sessions_timing`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -45,7 +48,7 @@ BÖLÜM 5 Likidite, FVG ve Fiyat Boşlukları
 
 Fiyatın Hızlandığı ve Karar Verdiği Alanlar Grafikte belirgin bir tepenin birkaç tik üzerinde oluşan ani fitil neden sert düşüşe dönüşür? Aynı tepe başka bir gün güçlü gövdeli mumla kırıldığında fiyat neden ilerlemeye devam eder? Bir impulsun ortasında kalan ince fiyat alanı neden bazen retest bölgesi olurken bazen tamamen görmezden gelinir?
 
-**Konular:** liquidity_imbalance, volume_flow, breakout_failure, risk_management, candle_behavior
+**Konular:** liquidity_imbalance, execution_microstructure, volume_flow, breakout_failure, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0097`
 
@@ -53,7 +56,7 @@ Fiyatın Hızlandığı ve Karar Verdiği Alanlar Grafikte belirgin bir tepenin 
 
 “Bu tepenin üzerinde likidite var mı?” sorusu ise görünür yapının çevresinde tetiklenebilir emir kümelenmesi ihtimaliyle ilgilidir. Likidite görünmez; etkisi gözlenir Stop emirleri tetiklenmeden önce çoğu standart grafikte görünmez. Iceberg veya dark-pool işlemleri de bütünüyle gözlenemeyebilir.
 
-**Konular:** liquidity_imbalance, risk_management, breakout_failure, market_basics, candle_behavior
+**Konular:** execution_microstructure, liquidity_imbalance, risk_management, breakout_failure, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0098`
 
@@ -85,7 +88,7 @@ biçimde ittiği kesin olarak kanıtlanamaz. Aynı görüntü haber, düşük or
 
 Hızlı karar sırası 1) Seviye aşıldı mı? Bu dört soru, aktör niyeti hakkında hikâye kurmaktan daha güvenilirdir. 5.8 Liquidity Pool ve Liquidity Void Liquidity pool ile liquidity void zıt fiyat ortamlarını ifade eder.
 
-**Konular:** liquidity_imbalance, candle_behavior, breakout_failure, risk_management, momentum
+**Konular:** liquidity_imbalance, candle_behavior, breakout_failure, risk_management, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0102`
 
@@ -93,7 +96,7 @@ Hızlı karar sırası 1) Seviye aşıldı mı? Bu dört soru, aktör niyeti hak
 
 Ölçüt Güçlü displacement Zayıf aday Takip Sonraki mumlar alan kazanımını sürdürür. İlk güçlü mum hemen tamamen geri alınır. Yapı etkisi Swing/range sınırı kırar veya güçlü departure üretir.
 
-**Konular:** liquidity_imbalance, candle_behavior, trend_regime, breakout_failure
+**Konular:** liquidity_imbalance, candle_behavior, trend_regime, breakout_failure, sessions_timing
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0103`
 
@@ -101,7 +104,7 @@ Hızlı karar sırası 1) Seviye aşıldı mı? Bu dört soru, aktör niyeti hak
 
 5.11 FVG Kalitesi ve Bağlam FVG grafikte çok sık oluşur. Bu nedenle yalnız üç mum geometrisi, alanı işlem açısından önemli hâle getirmez. FVG, price action, market structure ve önemli bölgeyle birlikte değerlendirilmelidir.
 
-**Konular:** liquidity_imbalance, market_structure, trend_regime, breakout_failure, candle_behavior
+**Konular:** liquidity_imbalance, execution_microstructure, market_structure, trend_regime, breakout_failure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0104`
 
@@ -109,7 +112,7 @@ Hızlı karar sırası 1) Seviye aşıldı mı? Bu dört soru, aktör niyeti hak
 
 Durum Grafikte görülen Temkinli yorum Tepki üretti FVG’den beklenen yönde close ve takip oluşur. Tepkinin yapı ilerlemesine dönüşüp dönüşmediği izlenir. Tam dolum Birinci ve üçüncü mum arasındaki bütün alan işlem görür.
 
-**Konular:** liquidity_imbalance, support_resistance, breakout_failure, candle_behavior, trend_regime
+**Konular:** liquidity_imbalance, support_resistance, execution_microstructure, breakout_failure, candle_behavior
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0105`
 
@@ -133,7 +136,7 @@ Durum Grafikte görülen Temkinli yorum Tepki üretti FVG’den beklenen yönde 
 
 Bölüm Özeti — Likiditeden Kabul veya Redde Kavram Kısa tanım Ana hata Piyasa likiditesi Varlığın fiyatı çok bozmadan alınıp satılabilmesi. Grafikteki stop kümeleriyle aynı anlamda kullanmak. BSL / SSL Tepe üstünde alış, dip altında satış yönlü tetiklenebilir emir adayları.
 
-**Konular:** liquidity_imbalance, trend_regime, breakout_failure, risk_management, volume_flow
+**Konular:** liquidity_imbalance, trend_regime, breakout_failure, follow_through, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0108`
 

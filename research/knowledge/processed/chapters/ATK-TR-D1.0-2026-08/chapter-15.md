@@ -23,23 +23,28 @@
 
 ## Konu dağılımı
 
-- `strategy_design`: 20 sayfa
-- `validation_replay`: 15 sayfa
+- `strategy_design`: 18 sayfa
+- `validation_replay`: 14 sayfa
 - `automation_ai`: 12 sayfa
-- `market_basics`: 12 sayfa
-- `risk_management`: 11 sayfa
+- `market_basics`: 11 sayfa
+- `risk_management`: 10 sayfa
 - `trend_regime`: 8 sayfa
 - `breakout_failure`: 7 sayfa
-- `liquidity_imbalance`: 6 sayfa
+- `chart_transformations`: 5 sayfa
 - `volume_flow`: 4 sayfa
-- `ohlcv_data`: 4 sayfa
-- `psychology_process`: 3 sayfa
+- `liquidity_imbalance`: 4 sayfa
+- `ohlcv_data`: 3 sayfa
+- `position_management`: 3 sayfa
+- `execution_microstructure`: 3 sayfa
 - `geometry_tools`: 3 sayfa
-- `market_structure`: 2 sayfa
+- `sessions_timing`: 2 sayfa
 - `support_resistance`: 2 sayfa
+- `psychology_process`: 2 sayfa
 - `pullback`: 1 sayfa
 - `volatility`: 1 sayfa
+- `market_structure`: 1 sayfa
 - `multi_timeframe`: 1 sayfa
+- `crypto_specific`: 1 sayfa
 - `candle_behavior`: 1 sayfa
 - `patterns`: 1 sayfa
 
@@ -81,7 +86,7 @@ Analiz Çizim, indikatör, ölçüm ve çoklu grafik. Kavramı doğru yorumlama 
 
 Benzer isimli başka şirket/coin/kontrat. Borsa / feed Fiyat hangi kaynak veya piyasadan geliyor? Farklı seans, likidite ve fiyat basamakları.
 
-**Konular:** liquidity_imbalance, market_basics, automation_ai, breakout_failure, psychology_process
+**Konular:** liquidity_imbalance, market_basics, sessions_timing, automation_ai, breakout_failure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0306`
 
@@ -89,7 +94,7 @@ Benzer isimli başka şirket/coin/kontrat. Borsa / feed Fiyat hangi kaynak veya 
 
 DOĞRU BİLİNEN YANLIŞ Mit: Ticker aynıysa grafik de aynıdır. Gerçeklik: Aynı varlık farklı borsa, broker, quote currency veya kontratta farklı fiyat, hacim, seans ve geçmiş veri üretebilir. Uygulama Görseli 15.2 – XAGTRYG sembol aramasında ticker, sağlayıcı/feed, ürün türü ve para biriminin çerçevelendiği sembol doğrulama ekranı.
 
-**Konular:** liquidity_imbalance, market_basics, ohlcv_data, risk_management, strategy_design
+**Konular:** chart_transformations, liquidity_imbalance, market_basics, ohlcv_data, position_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0307`
 
@@ -97,7 +102,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Ticker aynıysa grafik de aynıdır. Gerçeklik: A
 
 Dikkat Auto scale Mevcut görünümü ekrandaki veri ve çizimlere sığdırma. Uzak çizimler fiyatı sıkıştırabilir. Timeframe Bağlam, setup veya tetik görevi.
 
-**Konular:** strategy_design
+**Konular:** position_management, strategy_design, chart_transformations
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0308`
 
@@ -105,7 +110,7 @@ Dikkat Auto scale Mevcut görünümü ekrandaki veri ve çizimlere sığdırma. 
 
 15.4 Layout, Workspace ve Temiz Grafik Standardı Layout/workspace (grafik sayısı, sembol, timeframe, çizim, indikatör ve görünüm düzenini kaydedip yeniden kullanma çalışma alanı), karar rutinimi standardize eder. Her strateji için ayrı bir görev şablonu oluştururum; tek grafiği bütün piyasalar ve bütün amaçlar için kalabalıklaştırmam. Mikro tetik ve çok sayıda oscillator.
 
-**Konular:** strategy_design, risk_management, trend_regime, validation_replay, market_structure
+**Konular:** strategy_design, risk_management, trend_regime, validation_replay, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0309`
 
@@ -137,7 +142,7 @@ Aynı şekilde price range, date range ve measure araçları da yalnız seçtiğ
 
 Kontrol alanı Soracağım soru Örnek hata Session Hangi seans verisi kullanılıyor? VWAP/session aracını yanlış oturumda çalıştırmak. Görsel Hangi plot karar için gerekli?
 
-**Konular:** trend_regime, volume_flow
+**Konular:** sessions_timing, trend_regime, volume_flow
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0313`
 
@@ -153,7 +158,7 @@ Kontrol alanı Soracağım soru Örnek hata Session Hangi seans verisi kullanıl
 
 15.9 Long–Short Position Araçlarıyla İşlem Planı Long/short position tool (giriş, stop ve hedef seviyelerini görsel olarak yerleştirip fiyat mesafesi ve R:R taslağını gösterme), emir değildir. Önce teknik seviyeleri belirlerim; aracı bu seviyelere yerleştirir, sonra Bölüm 13 formülüyle gerçek quantity hesaplarım. Order type, spread ve olası slippage.
 
-**Konular:** market_basics, risk_management, strategy_design, breakout_failure, liquidity_imbalance
+**Konular:** market_basics, risk_management, execution_microstructure, strategy_design, breakout_failure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0315`
 
@@ -185,7 +190,7 @@ Uygulama Görseli 15.7 – TradingView alert oluşturma penceresinde condition, 
 
 2 Kör başlangıç Setup öncesine git; gelecek barları ve sonuç notlarını gizle. 3 Karar kaydı Bağlam, setup, trigger, entry, stop, target ve no-trade. 4 Bar ilerletme Sabit hız veya tek bar; karar sonradan değiştirilmez.
 
-**Konular:** validation_replay, strategy_design, risk_management, trend_regime
+**Konular:** validation_replay, strategy_design, execution_microstructure, risk_management, trend_regime
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0319`
 
@@ -193,7 +198,7 @@ Uygulama Görseli 15.7 – TradingView alert oluşturma penceresinde condition, 
 
 VAKA ANALİZİ — BREAKOUT/RETEST REPLAY XAGTRYG 2S breakout–retest modelini 2024 başından başlayan geçmiş bölümde test ettiğimi varsayalım. Her valid breakout’tan önce grafiği durdurur, entry–stop–target çizimini kaydederim. Retest gelmeyen örnekleri “kaçtı” diye silmem; no-fill olarak kaydederim.
 
-**Konular:** validation_replay, breakout_failure, risk_management, market_basics, liquidity_imbalance
+**Konular:** validation_replay, breakout_failure, risk_management, market_basics, crypto_specific
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0320`
 
@@ -209,7 +214,7 @@ Desteklenen ürünler, emir tipleri, veri, ücret, yetki ve güvenlik bağlı ku
 
 Uygulama Görseli 15.9 – Paper Trading panelinde account, order ticket, market/limit/stop seçimi, quantity, take-profit, stop-loss, positions, orders ve history alanları. 15.13 Dual/Multi-Chart Görev Ayrımı Dual-chart veya multi-chart layout (aynı ya da farklı sembol/timeframe’leri eşzamanlı panellerde gösterme), ancak her panelin görevi farklıysa değerlidir. Üst zaman bağlamı, orta zaman setup’ı ve alt zaman tetik grafiğini ayırabilirim.
 
-**Konular:** strategy_design, trend_regime, volume_flow, risk_management, validation_replay
+**Konular:** strategy_design, chart_transformations, trend_regime, volume_flow, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0322`
 
@@ -225,7 +230,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: Daha fazla grafik aynı anda daha fazla teyit sağ
 
 Araç ailesi Aday olarak gösterir Manuel doğrulama Heikin Ashi/auto filter Trend streak veya dönüş adayı. Gerçek OHLC, fiyat ve standart mum teyidi. Adayın önceki trendini, tamamlanma çizgisini, kapanışını, invalidation’ını ve hedefe kalan alanı kontrol ederim.
 
-**Konular:** trend_regime, patterns, strategy_design, breakout_failure, ohlcv_data
+**Konular:** trend_regime, patterns, strategy_design, breakout_failure, chart_transformations
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0324`
 
@@ -241,7 +246,7 @@ Araç ailesi Aday olarak gösterir Manuel doğrulama Heikin Ashi/auto filter Tre
 
 Uygulama Görseli 15.12 – Bölüm 15’in tam iş akışını gösteren gerçek TradingView ekran serisi: watchlist → günlük bağlam 2S setup alarm 30D tetik replay/paper günlük. Temsilî eğitim şeması.→ → → → → Hızlı Başvuru Sorun Kontrol Varsayılan eylem Fiyat başka grafikten farklı Feed/quote/contract/session Sembol kimliğini doğrula; çizimi güncellemeden karşılaştır. Grafik sıkışık veya okunmuyor Auto scale, uzak çizim, indikatör sayısı İlgisiz katmanı kaldır; göreve özel layout aç.
 
-**Konular:** validation_replay, strategy_design, automation_ai, psychology_process, market_basics
+**Konular:** validation_replay, strategy_design, automation_ai, psychology_process, position_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0326`
 
@@ -257,6 +262,6 @@ Uygulama Görseli 15.12 – Bölüm 15’in tam iş akışını gösteren gerçe
 
 Standart mum ile Heikin Ashi hangi farklı görevleri yapar? Lineer ve log ölçek ne zaman ayrılır? Auto scale hangi durumda grafiği sıkıştırabilir?
 
-**Konular:** validation_replay, market_basics, automation_ai, geometry_tools, strategy_design
+**Konular:** validation_replay, market_basics, automation_ai, chart_transformations, geometry_tools
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0328`

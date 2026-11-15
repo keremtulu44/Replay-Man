@@ -12,9 +12,11 @@
 
 ## Konu dağılımı
 
+- `pressure_decay`: 3 sayfa
 - `momentum`: 3 sayfa
 - `candle_behavior`: 2 sayfa
 - `support_resistance`: 1 sayfa
+- `movement_quality`: 1 sayfa
 - `fundamental_derivatives`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -23,7 +25,7 @@
 
 BÖLÜM 3 Momentum Kaybı ve Tükenme: Fiyat Neden Yavaşlar? Dönüşü tahmin etmeye değil, fiyatın eskisi kadar rahat ilerleyemediğini görmeye çalışın. Bölüm 2’de hareketin mevcut kalitesini karşılaştırdık.
 
-**Konular:** candle_behavior, momentum
+**Konular:** candle_behavior, pressure_decay, momentum
 
 **Kart:** `PTA-C2-2026.p0017`
 
@@ -31,7 +33,7 @@ BÖLÜM 3 Momentum Kaybı ve Tükenme: Fiyat Neden Yavaşlar? Dönüşü tahmin 
 
 KOLAY KURAL Fitili ilk uyarı olarak görün. Asıl soru şudur: Fitilden sonra fiyatın ilerlemesi gerçekten yavaşladı mı? 3.2 — Zayıflama tek mumda oluşmaz Tek bir küçük mum yalnızca kısa bir duraklama olabilir.
 
-**Konular:** support_resistance
+**Konular:** support_resistance, pressure_decay
 
 **Kart:** `PTA-C2-2026.p0018`
 
@@ -39,7 +41,7 @@ KOLAY KURAL Fitili ilk uyarı olarak görün. Asıl soru şudur: Fitilden sonra 
 
 Son bölümde küçük gövde ve daha uzun fitil, ilerlemenin zorlaştığını gösteriyor. 1 Büyük yönlü mum Hareket rahat ilerliyor. 2 Daha küçük mum Aynı yöndeki mesafe azalıyor.
 
-**Konular:** candle_behavior
+**Konular:** candle_behavior, movement_quality
 
 **Kart:** `PTA-C2-2026.p0019`
 
@@ -63,6 +65,6 @@ Eski taraf Karşı taraf Basit okuma Mumlar küçülüyor Karşı mumlar küçü
 
 Bakılacak nokta Ne görürsek dikkat artar? Fitiller Aynı bölgede tekrar eden geri itilme. Mum boyutu Aynı yöndeki gövdelerin adım adım küçülmesi.
 
-**Konular:** momentum
+**Konular:** momentum, pressure_decay
 
 **Kart:** `PTA-C2-2026.p0022`

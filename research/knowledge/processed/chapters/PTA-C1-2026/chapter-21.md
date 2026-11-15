@@ -19,18 +19,20 @@
 
 ## Konu dağılımı
 
-- `risk_management`: 10 sayfa
+- `risk_management`: 9 sayfa
 - `trend_regime`: 6 sayfa
+- `indicator_systems`: 5 sayfa
 - `validation_replay`: 5 sayfa
-- `momentum`: 4 sayfa
 - `volatility`: 4 sayfa
+- `momentum`: 3 sayfa
 - `breakout_failure`: 2 sayfa
 - `volume_flow`: 2 sayfa
 - `geometry_tools`: 2 sayfa
+- `position_management`: 2 sayfa
 - `strategy_design`: 1 sayfa
 - `pullback`: 1 sayfa
-- `support_resistance`: 1 sayfa
 - `candle_behavior`: 1 sayfa
+- `execution_microstructure`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -46,7 +48,7 @@ BÖLÜM 21 Profesyonel Kombinasyon Sistemi: Araçlardan Karar Sistemine İyi bir
 
 ÇIKARMA TESTİ Bir indikatörü eklemeden önce “ne katıyor?” diye sormak yeterli değildir. Daha güçlü soru şudur: “Bu indikatörü çıkarırsam hangi karar aşamasını artık veremiyorum?” Cevap yoksa araç yalnız görsel güven hissi üretiyor olabilir. 21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur RSI, Stochastic ve Stoch RSI aynı yönde hareket ettiğinde üç ayrı teyit varmış gibi görünebilir; ancak aynı hareket gücü ailesinden bilgi taşırlar ve Stoch RSI doğrudan RSI’dan türetilir.
 
-**Konular:** momentum, trend_regime
+**Konular:** indicator_systems, momentum, trend_regime
 
 **Kart:** `PTA-C1-2026.p0127`
 
@@ -54,7 +56,7 @@ BÖLÜM 21 Profesyonel Kombinasyon Sistemi: Araçlardan Karar Sistemine İyi bir
 
 Zayıf yığın Sorun Daha temiz alternatif RSI + Stochastic + Stoch RSI Benzer hareket gücü bilgisi Tek hareket gücü aracı + Fiyat yapısı + ATR 20/50/200 EMA + MACD + Supertrend Aynı trend bilgisinin yoğun tekrarı Tek piyasa ortamı filtresi + konum + risk ATR + Bollinger bant genişliği + Bollinger Fiyat hareketliliğini üç biçimde saymak Bollinger sıkışması + fiyat yapısı/hacim; ATR yalnız riskte VRVP + FRVP aynı aralık Aynı profil ailesi Tek profil + Fiyat yapısı / AVWAP 21.3 — Örnek sistem 1: trend içi geri çekilme Trend içi geri çekilmede amaç fiyatı “ucuz” diye otomatik almak değildir. Önce yön ve korunması gereken yapı belirlenir; ardından uygun konumda hareket gücünün yeniden trend yönüne dönmesi beklenir. Stop, sinyalden değil işlem fikrinin bozulduğu yapısal seviyeden belirlenir; ATR yalnız gerektiğinde hareket genişliğine göre ek pay bırakmaya yardım eder.
 
-**Konular:** volatility, trend_regime, momentum, pullback, risk_management
+**Konular:** indicator_systems, volatility, trend_regime, momentum, pullback
 
 **Kart:** `PTA-C1-2026.p0128`
 
@@ -62,7 +64,7 @@ Zayıf yığın Sorun Daha temiz alternatif RSI + Stochastic + Stoch RSI Benzer 
 
 Aşama Örnek araç Sorduğu soru Bağlam / yön Fiyat yapısı veya tek MA Ana trend hâlâ yukarı mı? Konum Önceki destek/direnç, AVWAP veya anlamlı geri çekilme bölgesi İşlem aramak için mantıklı yerde miyiz? Giriş işareti RSI veya Stochastic Hareket gücü trend yönüne yeniden dönüyor mu?
 
-**Konular:** volatility, breakout_failure, momentum, risk_management, support_resistance
+**Konular:** volatility, breakout_failure, indicator_systems, momentum, risk_management
 
 **Kart:** `PTA-C1-2026.p0129`
 
@@ -70,7 +72,7 @@ Aşama Örnek araç Sorduğu soru Bağlam / yön Fiyat yapısı veya tek MA Ana 
 
 Katman Örnek gözlem Yanlış çıkarım Donchian Son N mumun en yüksek seviyesinin üzerinde kapanış “Kesin trend başladı” ATR Sıkışma sonrası genişleme “Yön yukarı olmak zorunda” Hacim Göreli hacim belirgin arttı “Fiyat kesin devam eder” Fiyat yapısı / stop Kırılan aralığın içine geri kapanış “İndikatörler olumlu; stopa gerek yok”
 
-**Konular:** volatility, volume_flow, risk_management, trend_regime
+**Konular:** volatility, volume_flow, indicator_systems, risk_management, trend_regime
 
 **Kart:** `PTA-C1-2026.p0130`
 
@@ -86,7 +88,7 @@ Katman Örnek gözlem Yanlış çıkarım Donchian Son N mumun en yüksek seviye
 
 GEÇMİŞE AŞIRI UYUM ALARMI Fibonacci başlangıç noktasını, Pitchfork dönüş noktalarını ve varyantını fiyatın geçmişine en iyi oturacak şekilde art arda değiştiriyorsanız sonradan çok sayıda “kesişim” bulmak kolaylaşır. Bu durum öngörü gücünü değil, model esnekliğini gösterir. 21.7 — “İşlem yok” sonucunu sistemin içine yaz Her grafikte işlem bulmak zorunda değilsiniz.
 
-**Konular:** geometry_tools, risk_management, trend_regime, breakout_failure, momentum
+**Konular:** geometry_tools, indicator_systems, risk_management, trend_regime, breakout_failure
 
 **Kart:** `PTA-C1-2026.p0132`
 
@@ -94,7 +96,7 @@ GEÇMİŞE AŞIRI UYUM ALARMI Fibonacci başlangıç noktasını, Pitchfork dön
 
 Alan Yazılması gereken kural Bağlam Trend veya yatay piyasa nasıl tanımlanıyor? Yön Alış veya satış yönü hangi açık koşulla belirleniyor? Konum İşlem yalnız nerede aranacak?
 
-**Konular:** risk_management, trend_regime, validation_replay
+**Konular:** risk_management, execution_microstructure, trend_regime, position_management, validation_replay
 
 **Kart:** `PTA-C1-2026.p0133`
 
@@ -102,7 +104,7 @@ Alan Yazılması gereken kural Bağlam Trend veya yatay piyasa nasıl tanımlan�
 
 Başa baş kazanma oranı = 1 / (1 + Ortalama Kazanç R) Örneğin 1R ortalama kazançta yaklaşık %50, 2R’de %33,3, 3R’de %25 ve 4R’de %20 kazanma oranı başa baş noktasıdır. Gerçek sistemde komisyon, emir kayması, kısmi çıkış ve değişken sonuçlar bu hesabı değiştirir. Kısa dönem sonuçların dalgalanması (variance): iyi bir sistem bile bir süre kötü görünebilir Pozitif beklenen değer, işlemlerin düzenli sırayla kazanacağı anlamına gelmez.
 
-**Konular:** risk_management, validation_replay
+**Konular:** risk_management, position_management, validation_replay
 
 **Kart:** `PTA-C1-2026.p0134`
 

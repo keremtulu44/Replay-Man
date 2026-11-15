@@ -1,6 +1,6 @@
 # multi_timeframe
 
-**Kapsam:** 59 sayfa eşleşmesi
+**Kapsam:** 53 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

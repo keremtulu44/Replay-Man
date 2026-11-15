@@ -1,6 +1,6 @@
 # relative_cross_market
 
-**Kapsam:** 80 sayfa eşleşmesi
+**Kapsam:** 49 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

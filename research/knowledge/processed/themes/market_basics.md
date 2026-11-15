@@ -1,6 +1,6 @@
 # market_basics
 
-**Kapsam:** 152 sayfa eşleşmesi
+**Kapsam:** 132 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

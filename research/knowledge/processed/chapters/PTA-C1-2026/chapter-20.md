@@ -19,6 +19,7 @@
 - `volatility`: 2 sayfa
 - `market_basics`: 2 sayfa
 - `ohlcv_data`: 1 sayfa
+- `indicator_systems`: 1 sayfa
 - `strategy_design`: 1 sayfa
 - `volume_flow`: 1 sayfa
 
@@ -44,7 +45,7 @@ KENDİNE SOR Bu regresyon aralığını neden tam burada başlatıp bitirdim? Ce
 
 Aralık değişti, R değişti Seçilen aralığa duyarlılık Önceki analiz “yanlıştı” demek zorunlu değil TEKNİK SORUN Yüksek Pearson R, sistemin çok kârlı olduğu anlamına gelmez. R yalnızca seçtiğiniz fiyatların zaman içinde ne kadar düzgün bir çizgiye uyduğunu gösterir; stop, hedef, piyasa ortamındaki değişim ve işlem maliyetini hesaba katmaz. 20.5 — Regresyon kanalının dışına çıkmak otomatik dönüş değildir Üst banda çıkınca “çok pahalı, SAT”, alt banda inince “çok ucuz, AL” demek yanıltıcı olabilir.
 
-**Konular:** geometry_tools, risk_management, trend_regime, volatility
+**Konular:** geometry_tools, indicator_systems, risk_management, trend_regime, volatility
 
 **Kart:** `PTA-C1-2026.p0123`
 

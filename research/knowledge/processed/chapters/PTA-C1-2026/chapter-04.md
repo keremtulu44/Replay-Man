@@ -14,6 +14,7 @@
 
 ## Konu dağılımı
 
+- `indicator_systems`: 6 sayfa
 - `momentum`: 6 sayfa
 - `trend_regime`: 5 sayfa
 - `risk_management`: 3 sayfa
@@ -27,7 +28,7 @@
 
 BÖLÜM 4 Stochastic ve Stochastic RSI Bu iki gösterge 0–100 arasında gidip geldiği için “osilatör” olarak adlandırılır. Önce neyi ölçtüklerini ayırın; 80 ve 20 seviyelerini otomatik al-sat düğmesine çevirmeyin. HIZLI ROL — Ana görev: Stochastic ile fiyatın son aralığın neresinde kapandığını, Stoch RSI ile RSI’nın kendi aralığındaki yerini görmek.
 
-**Konular:** momentum, trend_regime, risk_management
+**Konular:** indicator_systems, momentum, trend_regime, risk_management
 
 **Kart:** `PTA-C1-2026.p0022`
 
@@ -35,7 +36,7 @@ BÖLÜM 4 Stochastic ve Stochastic RSI Bu iki gösterge 0–100 arasında gidip 
 
 4.2 — %K ve %D çizgileri aynı şeyi göstermez Stochastic çoğu platformda iki çizgiyle gösterilir. %D ise %K’nın yumuşatılmış biçimidir; klasik kullanımda %K’nın hareketli ortalaması olarak hesaplanır. Bu nedenle %K–%D kesişimi iki bağımsız gösterge kesişimi değildir.
 
-**Konular:** momentum, trend_regime, pullback
+**Konular:** indicator_systems, momentum, trend_regime, pullback
 
 **Kart:** `PTA-C1-2026.p0023`
 
@@ -43,7 +44,7 @@ BÖLÜM 4 Stochastic ve Stochastic RSI Bu iki gösterge 0–100 arasında gidip 
 
 İlk 80 teması otomatik satış işareti değildir. TEKNİK SORUN — “AŞIRI ALIM” KELİMESİ “Aşırı alım” ifadesi psikolojik olarak “artık düşmeli” çağrışımı yapar. Stochastic’in matematiği ise yalnız kapanışın yakın dönem aralığında yüksek bir konumda olduğunu söyler.
 
-**Konular:** momentum, trend_regime, pullback
+**Konular:** indicator_systems, momentum, trend_regime, pullback
 
 **Kart:** `PTA-C1-2026.p0024`
 
@@ -51,7 +52,7 @@ BÖLÜM 4 Stochastic ve Stochastic RSI Bu iki gösterge 0–100 arasında gidip 
 
 AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu değerler “Stochastic’in doğru ayarı” değildir. Ayar, strateji ve zaman dilimiyle birlikte değerlendirilmelidir.
 
-**Konular:** momentum, strategy_design
+**Konular:** indicator_systems, momentum, strategy_design
 
 **Kart:** `PTA-C1-2026.p0025`
 
@@ -59,7 +60,7 @@ AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu d
 
 4.7 — Daha hassas = daha iyi değildir Stoch RSI’nın yüksek hassasiyeti daha erken tepki sağlayabilir; aynı özellik yatay veya gürültülü piyasada daha fazla yanlış sinyal üretir. Daha hızlı tepki, daha yüksek doğruluk değildir. Araç Neyi 0–100 aralığına dönüştürür?
 
-**Konular:** momentum, pullback, risk_management, trend_regime
+**Konular:** momentum, indicator_systems, pullback, risk_management, trend_regime
 
 **Kart:** `PTA-C1-2026.p0026`
 
@@ -67,6 +68,6 @@ AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu d
 
 4.10 — Üç osilatörü üst üste koymak neden sorun? Üç araç aynı formülü kullanmaz; ancak aynı karar katmanında yoğunlaşır ve Stoch RSI doğrudan RSI’dan türetilir. Bu nedenle eşzamanlı sinyalleri üç bağımsız teyit değildir.
 
-**Konular:** momentum, volatility, risk_management, trend_regime
+**Konular:** indicator_systems, momentum, volatility, risk_management, trend_regime
 
 **Kart:** `PTA-C1-2026.p0027`

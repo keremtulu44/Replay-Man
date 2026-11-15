@@ -1,6 +1,6 @@
 # momentum
 
-**Kapsam:** 159 sayfa eşleşmesi
+**Kapsam:** 143 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

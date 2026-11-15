@@ -1,6 +1,6 @@
 # pullback
 
-**Kapsam:** 142 sayfa eşleşmesi
+**Kapsam:** 123 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

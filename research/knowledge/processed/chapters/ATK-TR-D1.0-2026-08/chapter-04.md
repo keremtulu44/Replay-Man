@@ -21,16 +21,18 @@
 ## Konu dağılımı
 
 - `support_resistance`: 15 sayfa
-- `market_structure`: 11 sayfa
-- `breakout_failure`: 11 sayfa
 - `trend_regime`: 10 sayfa
+- `market_structure`: 10 sayfa
+- `breakout_failure`: 10 sayfa
 - `candle_behavior`: 7 sayfa
 - `momentum`: 6 sayfa
+- `follow_through`: 3 sayfa
+- `swing_geometry`: 2 sayfa
 - `liquidity_imbalance`: 2 sayfa
 - `psychology_process`: 1 sayfa
 - `automation_ai`: 1 sayfa
 - `multi_timeframe`: 1 sayfa
-- `pullback`: 1 sayfa
+- `pressure_decay`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -78,7 +80,7 @@ Belirgin biçimde fiyatı uzaklaştıran swing veya range uçlarını seçin. İ
 
 Range sınırı zamanla zayıflayabilir Alt sınırdaki her yeni bounce küçülüyor ve tepeler giderek düşüyorsa satıcı baskısı support’a daha yakın seviyelerde kabul görüyor olabilir. Üst sınırda dipler giderek yükseliyorsa alıcılar resistance’a daha yakın fiyatlardan işlem yapmaya razıdır. Bu iç baskı, kırılım hazırlığıdır; sınır ötesinde kapanış ve takip gelmeden sonuç değildir.
 
-**Konular:** market_structure, trend_regime, support_resistance, breakout_failure
+**Konular:** market_structure, trend_regime, support_resistance, breakout_failure, swing_geometry
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0086`
 
@@ -86,7 +88,7 @@ Range sınırı zamanla zayıflayabilir Alt sınırdaki her yeni bounce küçül
 
 Yakın swing daha günceldir Trend içinde çok eski seviyeler hâlâ önemli olabilir; ancak güncel pullback ve devam kararında en son kırılan major swing çoğu zaman daha doğrudan referanstır. Eski bölgeler öncelik sırasını bozacak kadar çoğaltılmamalıdır. Bölge kalitesi tek bir ölçüte indirgenemez.
 
-**Konular:** multi_timeframe, support_resistance, trend_regime, market_structure, breakout_failure
+**Konular:** multi_timeframe, support_resistance, trend_regime, market_structure, swing_geometry
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0087`
 
@@ -94,7 +96,7 @@ Yakın swing daha günceldir Trend içinde çok eski seviyeler hâlâ önemli ol
 
 Davranış Resistance için anlam Support için anlam Higher lows / lower highs Dipler yükselir; alıcılar giderek daha yüksek fiyatları kabul eder. Tepeler düşer; satıcılar giderek daha düşük fiyatları kabul eder. Reaksiyon küçülmesi Her satış dalgası daha kısa kalır.
 
-**Konular:** support_resistance, market_structure, candle_behavior, momentum, pullback
+**Konular:** support_resistance, market_structure, candle_behavior, momentum, pressure_decay
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0088`
 
@@ -110,7 +112,7 @@ Bir swing çizginin biraz altına fitil bırakabilir, diğeri biraz üzerinde d�
 
 4.11 Arz–Talep, Denge ve Fiyatın Ayrılışı Arz ve talep yaklaşımının temel fikri, belirli fiyatlarda alım ve satım isteğinin dengelenmesi veya bu dengenin değişmesidir. Talebin göreli olarak artması fiyatı yukarı, arzın göreli olarak artması fiyatı aşağı itebilir. Equilibrium, alım ve satım baskısının geçici denge noktası; shift ise bu dengenin bir tarafa kayması olarak anlatılır.
 
-**Konular:** support_resistance, momentum, candle_behavior
+**Konular:** support_resistance, momentum, candle_behavior, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0090`
 
@@ -118,7 +120,7 @@ Bir swing çizginin biraz altına fitil bırakabilir, diğeri biraz üzerinde d�
 
 Haber sırasında oluşan tek büyük mum follow-through bulmayabilir. Bu nedenle yalnızca mum büyüklüğüne bakılmaz; hareketin başladığı alan, önceki yapı, sonraki takip ve kırılan swing birlikte değerlendirilir. Zone başlangıcı Sade ve tutarlı yaklaşım, bölgeyi güçlü hareketin başladığı alan boyunca sağa uzatmaktır.
 
-**Konular:** support_resistance, market_structure, momentum, breakout_failure
+**Konular:** support_resistance, market_structure, follow_through, momentum, breakout_failure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0091`
 
@@ -142,7 +144,7 @@ Haber sırasında oluşan tek büyük mum follow-through bulmayabilir. Bu nedenl
 
 Ana ilke Kısa karşılığı Temas kalitesi önemlidir Reaksiyon ve takip, temas sayısından daha değerlidir. Yaklaşım bilgi taşır Higher lows, lower highs ve hugging kırılım baskısını gösterir. Trendline yardımcıdır Swing yapısının yerine geçmez.
 
-**Konular:** support_resistance, breakout_failure, candle_behavior, trend_regime, market_structure
+**Konular:** support_resistance, breakout_failure, candle_behavior, trend_regime, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0094`
 

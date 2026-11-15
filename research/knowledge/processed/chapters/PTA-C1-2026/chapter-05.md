@@ -16,16 +16,15 @@
 
 ## Konu dağılımı
 
+- `indicator_systems`: 9 sayfa
 - `momentum`: 9 sayfa
 - `trend_regime`: 7 sayfa
 - `volatility`: 5 sayfa
-- `risk_management`: 4 sayfa
-- `breakout_failure`: 4 sayfa
+- `breakout_failure`: 3 sayfa
+- `risk_management`: 3 sayfa
 - `volume_flow`: 2 sayfa
-- `pullback`: 2 sayfa
 - `ohlcv_data`: 1 sayfa
-- `psychology_process`: 1 sayfa
-- `multi_timeframe`: 1 sayfa
+- `pullback`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -33,7 +32,7 @@
 
 BÖLÜM 5 MACD: Trend ve Hareket Gücü MACD’de çizgi isimlerini ezberlemek yerine şu basit fikri anlayın: kısa dönemli fiyat ortalaması ile daha uzun dönemli ortalama arasındaki fark izlenir. Sütunlar (histogram) ise MACD çizgisi ile sinyal çizgisi arasındaki farkı gösterir; fiyatın ne kadar geniş dalgalandığını ölçmez. HIZLI ROL — Ana görev: kısa ve uzun EMA arasındaki farkın açılıp kapanmasını izlemek; hareketin hızlanıp yavaşladığını görmek.
 
-**Konular:** momentum, trend_regime, volatility, volume_flow, risk_management
+**Konular:** indicator_systems, momentum, trend_regime, volatility, volume_flow
 
 **Kart:** `PTA-C1-2026.p0028`
 
@@ -41,7 +40,7 @@ BÖLÜM 5 MACD: Trend ve Hareket Gücü MACD’de çizgi isimlerini ezberlemek y
 
 Üstte EMA 12/26; altta onların farkından oluşan MACD, onun yumuşatılmış sinyal çizgisi ve aradaki farkı gösteren histogram. 5.2 — Formül işareti neden önemlidir? Standart hesap MACD = EMA(12) − EMA(26)’dır.
 
-**Konular:** momentum, trend_regime
+**Konular:** indicator_systems, momentum, trend_regime
 
 **Kart:** `PTA-C1-2026.p0029`
 
@@ -49,7 +48,7 @@ BÖLÜM 5 MACD: Trend ve Hareket Gücü MACD’de çizgi isimlerini ezberlemek y
 
 EMA son gözleme daha yüksek ağırlık verir. Sinyal çizgisinin hesap türünü değiştirirseniz kesişim zamanları ve MACD sütunları değerleri de değişebilir. Matematik değiştiğinde gösterge aynı gösterge olarak kalmaz.
 
-**Konular:** momentum, volatility, ohlcv_data, breakout_failure, psychology_process
+**Konular:** indicator_systems, momentum, volatility, ohlcv_data, breakout_failure
 
 **Kart:** `PTA-C1-2026.p0030`
 
@@ -57,7 +56,7 @@ EMA son gözleme daha yüksek ağırlık verir. Sinyal çizgisinin hesap türün
 
 5.5 — Histogramı dört ayrı hareket durumu olarak okuyun MACD sütunlarında yalnız pozitif veya negatif işaret değil, sütunların büyüyüp küçülmesi de bilgi taşır. Histogram durumu Çizgiler arasındaki fark Daha doğru okuma Pozitif + büyüyor Pozitif fark genişliyor Yukarı yönlü hareket gücü artıyor Pozitif + küçülüyor Pozitif fark daralıyor Yukarı yönlü hareket gücü yavaşlıyor Negatif + büyüyor Negatif fark genişliyor Aşağı yönlü hareket gücü artıyor Negatif + küçülüyor Negatif fark daralıyor Aşağı yönlü hareket gücü yavaşlıyor Bu nedenle histogramın sıfır çizgisini geçmesini beklemeden hareket gücündeki hızlanma veya yavaşlama görülebilir. Fakat histogramın küçülmesi fiyatın mutlaka tersine döneceği anlamına gelmez; sonuç dönüş de olabilir, yataylaşma da.
 
-**Konular:** trend_regime, momentum, risk_management
+**Konular:** trend_regime, indicator_systems, momentum, risk_management
 
 **Kart:** `PTA-C1-2026.p0031`
 
@@ -65,7 +64,7 @@ EMA son gözleme daha yüksek ağırlık verir. Sinyal çizgisinin hesap türün
 
 Piyasa bağlamı Kesişimin yorumu Ana risk Yatay piyasa Çok sayıda kısa ömürlü kesişim Sık yanlış sinyal / aşırı işlem Yapısal seviye yakınında Fiyat davranışına hareket gücü katmanı eklemek Kesişimi fiyat teyidinin yerine koymak Üst zaman dilimi filtresi Operasyonel yön/hareket gücü filtresi Zaman dilimi seçimine aşırı bağımlılık 5.7 — Sıfır çizgisinin doğru anlamı MACD’nin sıfıra gelmesi hızlı ve yavaş EMA’nın birbirine yaklaşması anlamına gelir. MACD sıfırdan yukarı geçtiğinde hızlı EMA yavaş EMA’nın üzerine geçmiş olur. Fakat bu, fiyatın otomatik olarak yeni bir yapısal yükseliş trendine geçtiğini kanıtlamaz; çünkü iki EMA da geçmiş fiyatlardan türetilir ve yatay piyasada sıfır çizgisi etrafında sık gidip gelebilir.
 
-**Konular:** momentum, pullback, risk_management, trend_regime, multi_timeframe
+**Konular:** momentum, indicator_systems, pullback, risk_management, trend_regime
 
 **Kart:** `PTA-C1-2026.p0032`
 
@@ -73,7 +72,7 @@ Piyasa bağlamı Kesişimin yorumu Ana risk Yatay piyasa Çok sayıda kısa öm�
 
 Bu uyuşmazlık dönüşün tam zamanını vermez. DOĞRU SIRALAMA Uyumsuzluk → “hareket gücü teyidi zayıfladı” uyarısı. Ardından fiyat yapısı / önemli seviye / kırılım veya yeniden test gibi doğrudan fiyat teyidi aranır.
 
-**Konular:** momentum, trend_regime, breakout_failure
+**Konular:** momentum, indicator_systems, trend_regime, breakout_failure
 
 **Kart:** `PTA-C1-2026.p0033`
 
@@ -81,7 +80,7 @@ Bu uyuşmazlık dönüşün tam zamanını vermez. DOĞRU SIRALAMA Uyumsuzluk �
 
 Aynı hesap zincirine ait olsalar da uyumsuzluk iki görünümde aynı anda oluşmak zorunda değildir. Hem MACD çizgisinde hem histogramda aynı bölgede uyumsuzluk görülmesi daha seçici bir gözlem olabilir; ancak bunu iki bağımsız teyit saymak doğru değildir. İkisi de aynı MACD hesap zincirinden türetilir.
 
-**Konular:** momentum, trend_regime, volatility, volume_flow, pullback
+**Konular:** momentum, indicator_systems, trend_regime, volatility, volume_flow
 
 **Kart:** `PTA-C1-2026.p0034`
 
@@ -89,7 +88,7 @@ Aynı hesap zincirine ait olsalar da uyumsuzluk iki görünümde aynı anda olu�
 
 Kesin dönüş noktası, doğrudan fiyat hareketliliği, kesin kırılım yönü, tek başına beklenen başarı olasılığı veya uyumsuzluk sonrası dönüş zamanı. MACD’nin en güçlü rolü hareket gücünün hızlanması/yavaşlaması ve iki EMA hızının ayrışmasını görünür kılmaktır.
 
-**Konular:** momentum, breakout_failure, volatility
+**Konular:** momentum, indicator_systems, breakout_failure, volatility
 
 **Kart:** `PTA-C1-2026.p0035`
 
@@ -97,6 +96,6 @@ Kesin dönüş noktası, doğrudan fiyat hareketliliği, kesin kırılım yönü
 
 5.13 — MACD için pratik karar akışı Adım Soru MACD’nin rolü 1. Konum Fiyat önemli yapı/konum bölgesinde mi? Hareket gücü MACD/Sinyal/MACD sütunları nasıl değişiyor?
 
-**Konular:** momentum, trend_regime, risk_management, volatility, breakout_failure
+**Konular:** indicator_systems, momentum, trend_regime, risk_management, volatility
 
 **Kart:** `PTA-C1-2026.p0036`

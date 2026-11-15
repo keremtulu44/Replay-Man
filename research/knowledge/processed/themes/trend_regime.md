@@ -1,6 +1,6 @@
 # trend_regime
 
-**Kapsam:** 324 sayfa eşleşmesi
+**Kapsam:** 293 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

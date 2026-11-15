@@ -23,20 +23,23 @@
 ## Konu dağılımı
 
 - `strategy_design`: 22 sayfa
-- `breakout_failure`: 13 sayfa
+- `breakout_failure`: 11 sayfa
 - `support_resistance`: 11 sayfa
-- `trend_regime`: 11 sayfa
-- `market_structure`: 10 sayfa
+- `trend_regime`: 10 sayfa
 - `liquidity_imbalance`: 9 sayfa
+- `market_structure`: 8 sayfa
 - `risk_management`: 6 sayfa
 - `validation_replay`: 5 sayfa
 - `momentum`: 5 sayfa
 - `volume_flow`: 4 sayfa
 - `candle_behavior`: 4 sayfa
-- `volatility`: 3 sayfa
+- `indicator_systems`: 3 sayfa
+- `execution_microstructure`: 3 sayfa
+- `volatility`: 2 sayfa
 - `pullback`: 2 sayfa
 - `automation_ai`: 2 sayfa
-- `psychology_process`: 1 sayfa
+- `follow_through`: 1 sayfa
+- `journal_review`: 1 sayfa
 - `multi_timeframe`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -93,7 +96,7 @@ Gerçeklik: Stratejinin önemli bir çıktısı da “bugün benim modelim yok�
 
 Uygulama Görseli 12.3 – Range ortasındaki bullish engulfing ile demand+sweep sonrasındaki aynı engulfing’in karşılaştırılması. 12.5 Confluence ve Bağımsız Kanıt Confluence (aynı işlem tezini farklı veri ailelerinin desteklemesi), grafiğe mümkün olduğunca çok araç eklemek değildir. Kanıtları beş aileye ayırırım: bağlam, konum, fiyat davranışı, katılım/hacim ve zamanlama.
 
-**Konular:** momentum, liquidity_imbalance, strategy_design, support_resistance, trend_regime
+**Konular:** momentum, indicator_systems, liquidity_imbalance, strategy_design, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0245`
 
@@ -117,7 +120,7 @@ Aşama Örnek olay Karar Gözlem Fiyat zone’a girdi veya liquidity seviyesine 
 
 Zone doğrudan kırılabilir; teyit azdır. Çok net HTF bağlamı, fresh zone ve önceden test edilmiş model. Teyitli close Fiyat davranışı görünür hâle gelir.
 
-**Konular:** breakout_failure, risk_management, strategy_design, support_resistance, market_structure
+**Konular:** breakout_failure, risk_management, strategy_design, support_resistance, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0248`
 
@@ -157,7 +160,7 @@ hacim ve follow-through birlikte değerlendirilir. Retest, breakout’ın yeni a
 
 Uygulama Görseli 12.6 – Breakout quality karşılaştırması: fitil aşımı, zayıf close, güçlü close+volume ve başarılı retest. 12.11 Range, Failure Test ve False Breakout Setup’ı Range setup’ında avantaj orta bölgede tahmin yapmak değil, sınırdaki asimetrik davranışı işlemektir. Failure test (range veya önemli seviyenin kısa süre aşılması ve yeniden içeri kapanış), breakout traderlarını yanlış tarafta bırakabilen bir trigger’dır.
 
-**Konular:** breakout_failure, trend_regime, strategy_design, candle_behavior, market_structure
+**Konular:** breakout_failure, trend_regime, strategy_design, candle_behavior, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0253`
 
@@ -181,7 +184,7 @@ Dönüş zinciri Gözlenebilir kanıt 6. Hedef rotası Karşı major zone’a ka
 
 Araç / kavram Ana görevi Tek başına neden yetmez? Örnek birleşim RSI/MACD/CCI Momentum veya divergence confirmation. Fiyattan türetilir; location ve trigger yerine geçmez.
 
-**Konular:** volume_flow, strategy_design, momentum, liquidity_imbalance, breakout_failure
+**Konular:** volume_flow, strategy_design, momentum, indicator_systems, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0256`
 
@@ -197,7 +200,7 @@ Araç / kavram Ana görevi Tek başına neden yetmez? Örnek birleşim RSI/MACD/
 
 canlıymış gibi ilerletme), forward test (kuralları yeni gelen piyasa verisinde izleme) ve paper trading (gerçek para riske etmeden sanal emirle uygulama) farklı soruları cevaplar. Geçmiş grafik taraması Model farklı dönemlerde gerçekten görülüyor mu? Setup örneği, bağlam, sonuç, no-trade.
 
-**Konular:** strategy_design, validation_replay, automation_ai, psychology_process
+**Konular:** strategy_design, validation_replay, execution_microstructure, journal_review, automation_ai
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0258`
 
@@ -205,7 +208,7 @@ canlıymış gibi ilerletme), forward test (kuralları yeni gelen piyasa verisin
 
 DOĞRU BİLİNEN YANLIŞ Mit: Backtest kârlıysa strateji gerçek piyasada çalışmaya hazırdır. Gerçeklik: Backtest yalnız geçmiş kuralların sonucudur; geleceği garanti etmez. Replay karar disiplinini, paper/forward test ise canlı akış ve emir uygulanabilirliğini sınar.
 
-**Konular:** validation_replay, strategy_design, trend_regime, automation_ai, volatility
+**Konular:** validation_replay, strategy_design, trend_regime, automation_ai, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0259`
 
@@ -221,6 +224,6 @@ Bölüm Özeti Bölüm 12’nin ana sonucu, grafikteki teknik araçların tek te
 
 Terim Aksiyon tanımı Invalidation İşlem tezinin artık geçerli olmadığı fiyat/davranış. No-trade Kurallar nedeniyle bilinçli olarak işlem yapılmayan durum. Confluence Farklı veri ailelerinin aynı tezi desteklemesi.
 
-**Konular:** strategy_design, validation_replay, momentum, risk_management, breakout_failure
+**Konular:** strategy_design, validation_replay, indicator_systems, momentum, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0261`

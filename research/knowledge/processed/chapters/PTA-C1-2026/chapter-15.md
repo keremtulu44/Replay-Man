@@ -13,12 +13,13 @@
 
 ## Konu dağılımı
 
-- `trend_regime`: 5 sayfa
+- `trend_regime`: 4 sayfa
+- `indicator_systems`: 4 sayfa
 - `momentum`: 4 sayfa
-- `risk_management`: 2 sayfa
 - `ohlcv_data`: 2 sayfa
 - `volume_flow`: 2 sayfa
 - `geometry_tools`: 1 sayfa
+- `risk_management`: 1 sayfa
 - `psychology_process`: 1 sayfa
 - `fundamental_derivatives`: 1 sayfa
 - `relative_cross_market`: 1 sayfa
@@ -30,7 +31,7 @@
 
 BÖLÜM 15 Kısa Referans Araçları: Pivot Points, RS Line ve Trend Strength Index HIZLI ROL — Pivot Points önemli fiyat bölgelerini, RS Line varlığın karşılaştırma ölçütüne göre güçlü mü zayıf mı olduğunu, Trend Strength Index ise trendin ne kadar düzenli ilerlediğini gösterir. Üçü de yardımcı araçtır; tek başına giriş sistemi değildir. Ana risk: pivotları gelecek tahmini, göreli zayıflığı “ucuz”, TSI’yi de RSI veya ADX ile aynı araç sanmak.
 
-**Konular:** trend_regime, geometry_tools, momentum, risk_management
+**Konular:** trend_regime, indicator_systems, geometry_tools, momentum, risk_management
 
 **Kart:** `PTA-C1-2026.p0089`
 
@@ -38,7 +39,7 @@ BÖLÜM 15 Kısa Referans Araçları: Pivot Points, RS Line ve Trend Strength In
 
 Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir. Bu konum tek başına AL/SAT üretmez; fiyat yapısı ve diğer karar katmanları ayrıca değerlendirilmelidir. Ardışık dönemlerin CPR bölgeleri karşılaştırıldığında merkez referans bölgesinin yukarı, aşağı veya yatay taşındığı görülebilir.
 
-**Konular:** ohlcv_data, psychology_process, fundamental_derivatives, momentum, trend_regime
+**Konular:** ohlcv_data, psychology_process, fundamental_derivatives, indicator_systems, momentum
 
 **Kart:** `PTA-C1-2026.p0090`
 
@@ -54,7 +55,7 @@ Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir. Bu konum tek baş�
 
 İkisi de göreli güç ailesindedir; ancak hesapları ve çıktıları aynı değildir. Bu nedenle bir RS çizgisi ile “RS 90” gibi bir göreli güç puanını aynı gösterge sanmayın. Göreli liderlik mutlak yükseliş gerektirmez Genel piyasa düşerken bir varlık daha az düşüyor, yatay kalıyor veya pozitif kalabiliyorsa karşılaştırma ölçütüne göre göreli güç gösterebilir.
 
-**Konular:** trend_regime, momentum, relative_cross_market
+**Konular:** trend_regime, indicator_systems, momentum, relative_cross_market
 
 **Kart:** `PTA-C1-2026.p0092`
 
@@ -62,7 +63,7 @@ Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir. Bu konum tek baş�
 
 Araç Ana soru Temel çıktı RSI Son kazanç/kayıp hareket gücü dengesi nasıl? 0 … 100 hareket gücü osilatörü NEDEN TSI + ADX AYNI ŞEY DEĞİL? TSI fiyatın zaman içinde ne kadar düzenli ilerlediğine, ADX ise yukarı ve aşağı yönlü hareket arasındaki farkın ne kadar belirgin olduğuna bakar.
 
-**Konular:** trend_regime, momentum, volatility, ohlcv_data, risk_management
+**Konular:** indicator_systems, trend_regime, momentum, volatility, ohlcv_data
 
 **Kart:** `PTA-C1-2026.p0093`
 

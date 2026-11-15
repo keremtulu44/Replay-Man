@@ -21,19 +21,22 @@
 ## Konu dağılımı
 
 - `volume_flow`: 19 sayfa
-- `market_basics`: 10 sayfa
-- `trend_regime`: 10 sayfa
-- `breakout_failure`: 9 sayfa
-- `liquidity_imbalance`: 9 sayfa
-- `momentum`: 4 sayfa
-- `support_resistance`: 4 sayfa
+- `execution_microstructure`: 12 sayfa
+- `market_basics`: 9 sayfa
+- `derivatives_options`: 8 sayfa
+- `trend_regime`: 7 sayfa
+- `breakout_failure`: 7 sayfa
+- `liquidity_imbalance`: 6 sayfa
 - `candle_behavior`: 3 sayfa
-- `pullback`: 2 sayfa
+- `momentum`: 3 sayfa
+- `support_resistance`: 3 sayfa
+- `follow_through`: 2 sayfa
+- `crypto_specific`: 1 sayfa
 - `fundamental_derivatives`: 1 sayfa
+- `sessions_timing`: 1 sayfa
+- `pullback`: 1 sayfa
 - `market_structure`: 1 sayfa
-- `risk_management`: 1 sayfa
 - `ohlcv_data`: 1 sayfa
-- `strategy_design`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -49,7 +52,7 @@ BÖLÜM 7 Hacim, Volume Profile, Order Flow ve Mikro Yapı
 
 Fiyatın Arkasındaki Katılımı Okumak Fiyat grafiği bize hareketin sonucunu gösterir. Hacim ve order-flow araçları ise bu sonucun hangi işlem aktivitesiyle oluştuğunu farklı açılardan inceler. Ancak bütün hacim araçları aynı şeyi ölçmez: standart volume zamana, volume profile fiyata, VWAP hacim ağırlıklı ortalamaya, footprint ise gerçekleşen işlemin bid–ask dağılımına odaklanır.
 
-**Konular:** volume_flow, market_basics, fundamental_derivatives, trend_regime, breakout_failure
+**Konular:** volume_flow, market_basics, execution_microstructure, crypto_specific, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0129`
 
@@ -57,7 +60,7 @@ Fiyatın Arkasındaki Katılımı Okumak Fiyat grafiği bize hareketin sonucunu 
 
 Tek bir büyük katılımcı çok yüksek hacim üretebilir; çok sayıda küçük katılımcı ise daha düşük toplam hacimde kalabilir. Hacim, işlem aktivitesinin miktarını gösterir; katılımcı kimliğini göstermez. Her gerçekleşen işlemde bir alıcı ve bir satıcı vardır.
 
-**Konular:** volume_flow
+**Konular:** volume_flow, sessions_timing
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0130`
 
@@ -65,7 +68,7 @@ Tek bir büyük katılımcı çok yüksek hacim üretebilir; çok sayıda küç�
 
 Fiyat davranışı Hacim davranışı İlk yorum Kontrol edilmesi gereken Yükseliyor Artıyor Yukarı ilerlemeye artan katılım eşlik ediyor. Close kalitesi, direnç, follow-through. Yükseliyor Azalıyor Fiyat ilerliyor fakat katılım daralıyor.
 
-**Konular:** volume_flow, trend_regime, market_basics, pullback, breakout_failure
+**Konular:** volume_flow, trend_regime, execution_microstructure, market_basics, pullback
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0131`
 
@@ -113,7 +116,7 @@ YAYGIN HATA VWAP’ı her zaman “institutional support” diye adlandırmak. V
 
 Bu nedenle aynı grafikte farklı iki profile farklı POC ve value area üretebilir. Analiz öncesinde “hangi hareketi veya auction dönemini ölçüyorum?” sorusu cevaplanmalıdır. 7.9 POC, Value Area, HVN ve LVN Point of Control (POC), seçilen profilde en yüksek hacme sahip fiyat kutusudur.
 
-**Konular:** volume_flow, market_basics, trend_regime, liquidity_imbalance, risk_management
+**Konular:** volume_flow, execution_microstructure, market_basics, trend_regime, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0137`
 
@@ -121,7 +124,7 @@ Bu nedenle aynı grafikte farklı iki profile farklı POC ve value area üretebi
 
 Kavram Veri durumu Yorum sınırı Best bid / best ask En yüksek görünen alış ve en düşük görünen satış limiti. Başka venue’ler veya gizli likidite görünmeyebilir. Spread Best ask ile best bid farkı.
 
-**Konular:** market_basics, volume_flow, liquidity_imbalance, ohlcv_data
+**Konular:** execution_microstructure, market_basics, volume_flow, liquidity_imbalance, ohlcv_data
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0138`
 
@@ -129,7 +132,7 @@ Kavram Veri durumu Yorum sınırı Best bid / best ask En yüksek görünen alı
 
 Dikkat Bid volume Bid tarafında gerçekleşen, çoğunlukla agresif satış olarak sınıflanan hacim. Sınıflandırma veri sağlayıcının trade-at-bid/ask yöntemine bağlıdır. Ask volume Ask tarafında gerçekleşen, çoğunlukla agresif alış olarak sınıflanan hacim.
 
-**Konular:** volume_flow, market_basics, support_resistance, liquidity_imbalance, strategy_design
+**Konular:** volume_flow, execution_microstructure, market_basics, support_resistance, derivatives_options
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0139`
 
@@ -137,7 +140,7 @@ Dikkat Bid volume Bid tarafında gerçekleşen, çoğunlukla agresif satış ola
 
 7.12 Delta ve Cumulative Volume Delta Delta, belirli bar veya fiyat seviyesinde ask tarafında gerçekleşen hacim ile bid tarafında gerçekleşen hacim arasındaki farktır. Yaygın convention Delta = Ask Volume − Bid Volume şeklindedir; bazı platformlarda işaret veya sınıflandırma yöntemi farklı olabilir. DELTA FORMÜLÜ Delta = Agresif alış hacmi − agresif satış hacmi.
 
-**Konular:** volume_flow, market_basics, momentum, liquidity_imbalance, support_resistance
+**Konular:** volume_flow, derivatives_options, market_basics, execution_microstructure, momentum
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0140`
 
@@ -145,7 +148,7 @@ Dikkat Bid volume Bid tarafında gerçekleşen, çoğunlukla agresif satış ola
 
 Terim Tanım Ana kullanım Sınır Sell imbalance Bid tarafındaki hacmin karşı ask hücresine göre baskın olması. Agresif satış yoğunluğunu işaretlemek. Destekte tek başına bearish değildir.
 
-**Konular:** volume_flow, market_basics, candle_behavior, liquidity_imbalance
+**Konular:** volume_flow, derivatives_options, execution_microstructure, market_basics, candle_behavior
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0141`
 
@@ -153,7 +156,7 @@ Terim Tanım Ana kullanım Sınır Sell imbalance Bid tarafındaki hacmin karş�
 
 Exhaustion’da ise ekstrem fiyatlara saldıran agresif tarafın aktivitesi azalır veya yeni fiyatlarda işlem devam etmez. İkisi birlikte görülebilir; fakat veri hikâyeleri farklıdır. YAYGIN HATA Negatif delta gördüğünüz her low’u bullish absorption saymak.
 
-**Konular:** volume_flow, breakout_failure, trend_regime
+**Konular:** volume_flow, derivatives_options, breakout_failure, execution_microstructure, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0142`
 
@@ -161,7 +164,7 @@ Exhaustion’da ise ekstrem fiyatlara saldıran agresif tarafın aktivitesi azal
 
 Soru Öncelikli araç Yardımcı araç Bekleyen görünür limit emirleri nerede? Order book / depth Heatmap Mum içinde hangi taraf agresifti? Footprint / delta CVD Agresyon sonuç üretti mi?
 
-**Konular:** volume_flow, breakout_failure, support_resistance, market_basics, momentum
+**Konular:** volume_flow, execution_microstructure, breakout_failure, derivatives_options, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0143`
 
@@ -169,7 +172,7 @@ Soru Öncelikli araç Yardımcı araç Bekleyen görünür limit emirleri nerede
 
 Araç Tek cümlelik görev En büyük hata Absorption Yüksek çaba–düşük sonuç uyumsuzluğunu işaretler. Karşı teyit olmadan dönüş etiketi vermek.  Volume karşılaştırmam aynı zaman dilimi ve benzer seans saatleriyle mi?
 
-**Konular:** volume_flow, market_basics, trend_regime
+**Konular:** volume_flow, market_basics, execution_microstructure, derivatives_options, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0144`
 
@@ -177,7 +180,7 @@ Araç Tek cümlelik görev En büyük hata Absorption Yüksek çaba–düşük s
 
 Terim Kısa tanım Value Area Toplam profile hacminin seçilen yüzdesini kapsayan alan. VAH / VAL Value area üst ve alt sınırı. HVN / LVN Yerel yüksek / düşük hacim düğümü.
 
-**Konular:** volume_flow, market_basics, breakout_failure, pullback
+**Konular:** volume_flow, market_basics, execution_microstructure, breakout_failure, derivatives_options
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0145`
 
@@ -185,6 +188,6 @@ Terim Kısa tanım Value Area Toplam profile hacminin seçilen yüzdesini kapsay
 
 Order book ile footprint arasındaki veri farkı nedir? Delta nasıl hesaplanır ve pozitif delta neden her zaman fiyat yükselişi değildir? CVD divergence neden tek başına dönüş teyidi sayılmaz?
 
-**Konular:** volume_flow, liquidity_imbalance, momentum
+**Konular:** volume_flow, derivatives_options, execution_microstructure, liquidity_imbalance, momentum
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0146`

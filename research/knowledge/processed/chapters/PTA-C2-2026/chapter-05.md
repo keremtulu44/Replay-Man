@@ -16,8 +16,11 @@
 - `pullback`: 3 sayfa
 - `trend_regime`: 3 sayfa
 - `candle_behavior`: 3 sayfa
+- `pressure_decay`: 2 sayfa
+- `movement_quality`: 1 sayfa
 - `fundamental_derivatives`: 1 sayfa
 - `momentum`: 1 sayfa
+- `swing_geometry`: 1 sayfa
 - `volatility`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -26,7 +29,7 @@
 
 BÖLÜM 5 Kısa Devam Dizileri ve Mikro Kanallar Karşı yöndeki her mum dönüş değildir. Ana yönün kısa bir kesintiden sonra baskıyı yeniden kurup kuramadığına bakın. Bölüm 4’te kısa dönüş dizilerini inceledik.
 
-**Konular:** pullback
+**Konular:** movement_quality, pullback
 
 **Kart:** `PTA-C2-2026.p0030`
 
@@ -50,7 +53,7 @@ Bu yapı bize yalnız “beş yükseliş mumu var” bilgisini vermez. Daha öne
 
 Art arda aynı yönlü kapanış Bir tarafın baskıyı daha sürekli taşıdığını gösterir. Hareketin sonsuza kadar süreceğini Az gövde örtüşmesi İlerlemenin daha temiz ve tek taraflı olduğunu gösterir. Tek başına giriş zamanını Yoğun örtüşme İki tarafın daha sık karşılık verdiğini ve ilerlemenin yavaşladığını gösterir.
 
-**Konular:** candle_behavior, momentum, trend_regime
+**Konular:** candle_behavior, momentum, pressure_decay, trend_regime
 
 **Kart:** `PTA-C2-2026.p0033`
 
@@ -58,7 +61,7 @@ Art arda aynı yönlü kapanış Bir tarafın baskıyı daha sürekli taşıdı�
 
 Yapı devam ederken hareket gücü içeriden azalabilir. 5.6 — Devam yapısını dönüşten ayırırken hangi sırayı izleyelim? Devam dizilerinde en sık hata, tek bir karşı mumu olduğundan fazla önemsemektir.
 
-**Konular:** candle_behavior, trend_regime, pullback
+**Konular:** candle_behavior, trend_regime, pressure_decay, pullback, swing_geometry
 
 **Kart:** `PTA-C2-2026.p0034`
 

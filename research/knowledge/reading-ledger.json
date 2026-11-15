@@ -116,7 +116,8 @@
     "status": "complete",
     "pages_processed": 778,
     "coverage_percent": 100.0,
-    "topic_dossiers": 22,
-    "completed_at": "2026-11-15"
+    "topic_dossiers": 40,
+    "completed_at": "2026-11-15",
+    "final_gap_audit": "research/knowledge/FINAL_GAP_AUDIT.md"
   }
 }

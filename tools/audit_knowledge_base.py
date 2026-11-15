@@ -28,7 +28,9 @@ def main() -> int:
             for topic in row["topics"]:
                 if not topic["id"] or topic["score"] <= 0: errors.append(f"{row['id']}: konu kaydı")
     theme_count = len(list((BASE / "processed/themes").glob("*.md")))
-    if theme_count != 22: errors.append(f"tema={theme_count} beklenen=22")
+    taxonomy = json.loads((BASE / "processed/topic-taxonomy.json").read_text(encoding="utf-8"))
+    expected_themes = len(taxonomy["topics"])
+    if theme_count != expected_themes: errors.append(f"tema={theme_count} beklenen={expected_themes}")
     chapter_files = len(list((BASE / "processed/chapters").glob("*/*.md")))
     expected_chapters = sum(value[1] for value in EXPECTED.values())
     if chapter_files != expected_chapters: errors.append(f"bölüm dosyası={chapter_files} beklenen={expected_chapters}")

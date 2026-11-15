@@ -14,11 +14,14 @@
 
 - `candle_behavior`: 6 sayfa
 - `breakout_failure`: 3 sayfa
+- `follow_through`: 2 sayfa
 - `patterns`: 2 sayfa
 - `volatility`: 2 sayfa
 - `ohlcv_data`: 2 sayfa
+- `pressure_decay`: 1 sayfa
 - `momentum`: 1 sayfa
 - `pullback`: 1 sayfa
+- `attempt_expectation`: 1 sayfa
 - `multi_timeframe`: 1 sayfa
 - `volume_flow`: 1 sayfa
 - `support_resistance`: 1 sayfa
@@ -29,7 +32,7 @@
 
 İÇİNDEKİLER Bölümler 1–7 Bölüm Başlık Sayfa Bölüm 1 Tek Mumdan Mum Dizisine: Fiyatı Bir Hikâye Olarak Okumak 6 Bölüm 2 Mum Dizisinde Güç: Hangi Taraf Daha Rahat İlerliyor? 12 Bölüm 3 Momentum Kaybı ve Tükenme: Fiyat Neden Yavaşlar? 18 Bölüm 4 Kısa Dönüş Dizileri: 2–4 Mum ve Çoklu İtiş 24 Bölüm 5 Kısa Devam Dizileri ve Mikro Kanallar 32 Bölüm 6 Sıkışmadan Genişlemeye: Inside Bar, Örtüşme ve Fiyat Aralığı 38 Bölüm 7 Sahte Kırılım, Gerçek Kırılım ve Takip Davranışı 47 OKUMA SIRASI İlk yedi bölüm, tek mumdan başlayıp kırılımın gerçekten kabul görüp görmediğine kadar fiyat davranışının temel dilini kurar.
 
-**Konular:** breakout_failure, candle_behavior, momentum
+**Konular:** breakout_failure, candle_behavior, pressure_decay, follow_through, momentum
 
 **Kart:** `PTA-C2-2026.p0004`
 
@@ -37,7 +40,7 @@
 
 İÇİNDEKİLER Bölümler 8–13 ve ekler Bölüm Başlık Sayfa Bölüm 8 Swing Geometrisinin Temeli: Hangi Dip ve Tepe Önemli? 57 Bölüm 9 İkinci Deneme, İki Bacak ve Başarısız Yeni Uç 65 Bölüm 10 Pullback Sonunda Kontrol Değişimi 77 Bölüm 11 Yerleşim ve Hareket Alanı: Aynı Mum Neden Her Yerde Aynı Değil? 85 Bölüm 12 Hacim ve Çoklu Zaman Dilimi: İkinci Katman 93 Bölüm 13 Mum Dizisi Okuma Protokolü: Baştan Sona Uygulama 100 Ek 1 Hızlı Mum Dizisi Okuma Kontrol Listesi 111 Ek 2 Terimler Sözlüğü 112 Ek 3 Kaynakça 114 Ek 4 Editoryal Not 116 Son Söz 117 FINAL BÖLÜMÜNÜN GÖREVI Bölüm 13 yeni formasyon eklemez.
 
-**Konular:** pullback, multi_timeframe, patterns, volume_flow
+**Konular:** pullback, attempt_expectation, multi_timeframe, patterns, volume_flow
 
 **Kart:** `PTA-C2-2026.p0005`
 
@@ -77,7 +80,7 @@ Bir mumun mesajını “desteklemek”, yalnız sonraki mumun aynı renkte olmas
 
 Açılış İlk mumun açılışı Dizinin başlangıç referansı Kapanış Son mumun kapanışı Net sonucun başlangıca göre yeri En yüksek Dizideki en yüksek fiyat Ulaşılan en yüksek nokta En düşük Dizideki en düşük fiyat Ulaşılan en düşük nokta Birleşik mum bize net sonucu hızlı gösterir; fakat iç yolu saklar. Aynı açılış, kapanış, en yüksek ve en düşük değerlere sahip iki dizi, o noktalara çok farklı sırayla ulaşmış olabilir. Biri küçük geri çekilmelerle temiz biçimde ilerlerken diğeri aynı fiyat alanında birkaç kez gidip gelebilir.
 
-**Konular:** candle_behavior, ohlcv_data, breakout_failure
+**Konular:** candle_behavior, follow_through, ohlcv_data, breakout_failure
 
 **Kart:** `PTA-C2-2026.p0010`
 

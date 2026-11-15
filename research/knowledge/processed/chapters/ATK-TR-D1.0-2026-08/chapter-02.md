@@ -23,22 +23,25 @@
 ## Konu dağılımı
 
 - `candle_behavior`: 19 sayfa
-- `momentum`: 12 sayfa
 - `trend_regime`: 11 sayfa
+- `momentum`: 10 sayfa
 - `support_resistance`: 8 sayfa
 - `breakout_failure`: 8 sayfa
 - `volatility`: 5 sayfa
-- `market_structure`: 4 sayfa
-- `fundamental_derivatives`: 3 sayfa
-- `liquidity_imbalance`: 3 sayfa
-- `pullback`: 3 sayfa
+- `chart_transformations`: 5 sayfa
+- `market_structure`: 3 sayfa
+- `follow_through`: 3 sayfa
+- `fundamental_derivatives`: 2 sayfa
 - `psychology_process`: 2 sayfa
+- `liquidity_imbalance`: 2 sayfa
 - `volume_flow`: 2 sayfa
 - `risk_management`: 2 sayfa
 - `ohlcv_data`: 1 sayfa
+- `pressure_decay`: 1 sayfa
+- `crypto_specific`: 1 sayfa
+- `pullback`: 1 sayfa
 - `multi_timeframe`: 1 sayfa
 - `market_basics`: 1 sayfa
-- `strategy_design`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -94,7 +97,7 @@ Aynı şekil, farklı isim ve farklı anlam Küçük gövdeli ve uzun alt fitill
 
 Mum büyüklüğünü her zaman hareketin hangi aşamasında oluştuğuyla birlikte değerlendirin. 2.6 Üç Mum Ailesi Kullanışlı bir sadeleştirme, mumları üç temel ailede toplamaktır: momentum, reaction/pin bar ve indecision. Bu sınıflandırma onlarca mum adını ezberlemeden önce mumun temel işlevini anlamayı sağlar.
 
-**Konular:** candle_behavior, momentum, breakout_failure, psychology_process
+**Konular:** candle_behavior, momentum, pressure_decay, breakout_failure, psychology_process
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0050`
 
@@ -102,7 +105,7 @@ Mum büyüklüğünü her zaman hareketin hangi aşamasında oluştuğuyla birli
 
 2.7 Reaction ve Pin Bar Mantığı Reaction mumları, fiyatın belirli bir yönde ilerlemeye çalıştığını fakat bu hareketin kapanışa kadar korunamadığını gösterir. En belirgin reaction yapılarında gövde küçüktür ve bir taraftaki fitil gövdenin birkaç katına ulaşır. Pin bar adı genellikle bu uzun fitilli yapılara verilir.
 
-**Konular:** candle_behavior, support_resistance, breakout_failure, momentum, fundamental_derivatives
+**Konular:** candle_behavior, support_resistance, breakout_failure, follow_through, momentum
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0051`
 
@@ -118,7 +121,7 @@ Spinning top Spinning top, dojiye göre biraz daha belirgin gövdeye sahiptir; b
 
 2.9 Engulfing ve Kontrol Transferi Engulfing yapısı iki mum arasında görünür bir kontrol değişimini anlatır. İlk mum, mevcut kısa vadeli yönün veya önceki tarafın hâkimiyetini temsil eder. İkinci mum ise ters yönde genişleyerek ilk mumun gerçek gövdesini geri alır.
 
-**Konular:** candle_behavior, fundamental_derivatives, support_resistance, liquidity_imbalance
+**Konular:** candle_behavior, fundamental_derivatives, support_resistance, crypto_specific, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0053`
 
@@ -126,7 +129,7 @@ Spinning top Spinning top, dojiye göre biraz daha belirgin gövdeye sahiptir; b
 
 Zayıflatan koşul Önceki mumlara göre artan gövde ve mümkünse hacim Kontrol değişiminin katılım ve hızla desteklendiğini gösterir. İkinci mumun küçük kalması veya düşük katılımla oluşması. Sonraki mumlarda takip davranışı Transferin kabul edildiğini gösterir.
 
-**Konular:** candle_behavior, breakout_failure, trend_regime, volatility, pullback
+**Konular:** candle_behavior, breakout_failure, trend_regime, volatility, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0054`
 
@@ -158,7 +161,7 @@ Bu dizide karşı taraf fiyatı geri çevirmekte zorlanır. Ancak hızlanmanın 
 
 Bu bölümde hacim yalnızca temel teyit olarak kullanılacak; Volume Profile, OBV, footprint ve order flow Bölüm 7’de ayrıntılandırılacaktır. Hacim ile mum birlikte nasıl okunur? Mum–hacim birleşimi Temel yorum Price action sonucu Geniş gövde + yüksek hacim + güçlü kapanış Yönlü hareket geniş katılımla destekleniyor olabilir.
 
-**Konular:** volume_flow, candle_behavior, breakout_failure, market_basics, momentum
+**Konular:** volume_flow, candle_behavior, chart_transformations, breakout_failure, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0058`
 
@@ -166,7 +169,7 @@ Bu bölümde hacim yalnızca temel teyit olarak kullanılacak; Volume Profile, O
 
 Özellik Standart mum Heikin Ashi Ana görev Giriş fiyatı, kapanış, fitil ve gerçek price action okuması. Trend akışını ve momentum dizilerini yumuşatarak izlemek. Trend görünümü Karşı renkli mumlar ve gürültü daha sık görülebilir.
 
-**Konular:** trend_regime, candle_behavior, risk_management, momentum, liquidity_imbalance
+**Konular:** chart_transformations, trend_regime, candle_behavior, risk_management, momentum
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0059`
 
@@ -182,7 +185,7 @@ Amaç her grafikte işlem bulmak değil, işlem değeri olmayan görüntüleri h
 
 Bağlam, takip ve risk koşulları eksikse price action sisteminin verdiği doğru karar beklemektir. Hızlı Başvuru Kontrol Listesi Kontrol □ Piyasanın trend/range durumunu belirledim. □ Mumun önemli bir bölge veya yapısal referansla ilişkisini gördüm.
 
-**Konular:** candle_behavior, momentum, risk_management, trend_regime, strategy_design
+**Konular:** candle_behavior, momentum, risk_management, trend_regime, chart_transformations
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0061`
 
@@ -190,7 +193,7 @@ Bağlam, takip ve risk koşulları eksikse price action sisteminin verdiği doğ
 
 Kavram Bölümdeki ana anlamı Engulfing İlk mum gövdesinin ters tarafça geri alınması; kontrol transferi. Inside bar Mother bar içinde volatilite daralması; yön değil sıkışma. Hacim Fiyat hareketinin katılımını destekleyen veya sorgulayan ek kanıt.
 
-**Konular:** candle_behavior, volatility, trend_regime, market_structure, momentum
+**Konular:** candle_behavior, volatility, trend_regime, chart_transformations, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0062`
 
@@ -198,6 +201,6 @@ Kavram Bölümdeki ana anlamı Engulfing İlk mum gövdesinin ters tarafça geri
 
 Uzun üst fitil neden her zaman satış sinyali değildir? Momentum mumundaki “iki kat” ölçütü neden evrensel yasa değil çalışma kuralıdır? Reaction mumu ile indecision mumu arasındaki temel fark nedir?
 
-**Konular:** candle_behavior, trend_regime, momentum, liquidity_imbalance, pullback
+**Konular:** candle_behavior, trend_regime, momentum, chart_transformations, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0063`

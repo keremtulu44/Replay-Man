@@ -23,16 +23,17 @@
 ## Konu dağılımı
 
 - `market_basics`: 24 sayfa
-- `fundamental_derivatives`: 24 sayfa
-- `risk_management`: 14 sayfa
-- `support_resistance`: 10 sayfa
-- `strategy_design`: 4 sayfa
+- `crypto_specific`: 24 sayfa
+- `fundamental_derivatives`: 23 sayfa
+- `execution_microstructure`: 11 sayfa
+- `risk_management`: 9 sayfa
+- `support_resistance`: 6 sayfa
 - `liquidity_imbalance`: 3 sayfa
-- `volume_flow`: 2 sayfa
-- `relative_cross_market`: 2 sayfa
-- `automation_ai`: 2 sayfa
-- `patterns`: 1 sayfa
-- `pullback`: 1 sayfa
+- `strategy_design`: 3 sayfa
+- `journal_review`: 2 sayfa
+- `wave_cycle_models`: 1 sayfa
+- `volume_flow`: 1 sayfa
+- `relative_cross_market`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -40,7 +41,7 @@
 
 BÖLÜM 19 Kripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç Ağ ve varlık mantığından güvenli emir, custody ve kaldıraç yönetimine
 
-**Konular:** market_basics, fundamental_derivatives
+**Konular:** market_basics, crypto_specific, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0395`
 
@@ -48,7 +49,7 @@ BÖLÜM 19 Kripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç Ağ ve varlık
 
 Bu Bölümün Amacı Kripto grafiği diğer finansal grafikler gibi fiyat, hacim ve yapı üretir; fakat işlemin operasyon katmanı belirgin biçimde farklıdır. Aynı BTC etiketi bir borsada spot varlık, başka bir panelde perpetual futures sözleşmesi, bir wallet’ta on-chain bakiye veya bir ETF içinde dolaylı maruz kalma anlamına gelebilir. Bu bölümün amacı blockchain mühendisliği öğretmek veya coin tavsiyesi vermek değildir.
 
-**Konular:** fundamental_derivatives, market_basics, risk_management, support_resistance, volume_flow
+**Konular:** crypto_specific, fundamental_derivatives, market_basics, execution_microstructure, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0396`
 
@@ -56,7 +57,7 @@ Bu Bölümün Amacı Kripto grafiği diğer finansal grafikler gibi fiyat, hacim
 
 DOĞRU BİLİNEN YANLIŞ Mit: BTC grafiği her platformda aynı ürünü ve aynı fiyatı gösterir. Gerçeklik: Exchange feed, quote asset, spot/futures sözleşmesi ve likidite yapısı fiyatı ve uygulamayı değiştirebilir.
 
-**Konular:** fundamental_derivatives, market_basics, liquidity_imbalance
+**Konular:** crypto_specific, fundamental_derivatives, market_basics, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0397`
 
@@ -64,7 +65,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: BTC grafiği her platformda aynı ürünü ve ayn�
 
 19.2 Blockchain, Ağ ve Merkeziyetsizlik Derecesi Blockchain (işlemleri sıralı kayıt yapısında tutan ve network katılımcıları tarafından doğrulanan dijital ledger), kripto varlığın hangi kayıt ve transfer ortamında yaşadığını açıklar. Cryptography (bilgiyi ve yetkiyi matematiksel anahtarlarla doğrulama) kayıt güvenliğinin parçalarından biridir; fakat kullanıcı hatasını veya kötü platform seçimini otomatik olarak geri almaz. Kavram Aksiyon tanımı İşlem açısından soru Ledger / blockchain İşlemlerin hangi kayıt sistemi üzerinde tutulduğunu doğrulamak.
 
-**Konular:** fundamental_derivatives, market_basics
+**Konular:** crypto_specific, fundamental_derivatives, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0398`
 
@@ -72,7 +73,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: BTC grafiği her platformda aynı ürünü ve ayn�
 
 Kategori Temel görev / anlatı Araştırma sorusu Bitcoin / payment-type coin Transfer, kıtlık ve store-of-value kullanımı. Arz kuralı, network güvenliği, likidite ve custody nasıl? Smart-contract platform Uygulama, token, işlem ücreti ve network activity.
 
-**Konular:** fundamental_derivatives, liquidity_imbalance, support_resistance, market_basics, risk_management
+**Konular:** crypto_specific, fundamental_derivatives, liquidity_imbalance, support_resistance, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0399`
 
@@ -80,7 +81,7 @@ Kategori Temel görev / anlatı Araştırma sorusu Bitcoin / payment-type coin T
 
 19.4 Tokenomics, Supply, Market Cap ve FDV Tokenomics (bir coin veya token’ın arz, dağıtım, kullanım ve teşvik kurallarını inceleme), “birim fiyat ucuz mu?” sorusundan önce gelir. Market cap yaklaşık olarak price × circulating supply; FDV ise fiyatın belirtilen maksimum veya fully diluted supply ile çarpımını kullanır.
 
-**Konular:** support_resistance, fundamental_derivatives, market_basics
+**Konular:** support_resistance, crypto_specific, fundamental_derivatives, market_basics, wave_cycle_models
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0400`
 
@@ -88,7 +89,7 @@ Kategori Temel görev / anlatı Araştırma sorusu Bitcoin / payment-type coin T
 
 Ana risk Circulating supply Piyasada dolaşımda olduğu bildirilen miktar. Veri tanımı ve kilitli/bridge varlık farkı. Max / total supply Protokol veya kaynakta belirtilen toplam sınır.
 
-**Konular:** support_resistance, fundamental_derivatives, liquidity_imbalance, market_basics, risk_management
+**Konular:** support_resistance, crypto_specific, fundamental_derivatives, liquidity_imbalance, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0401`
 
@@ -96,7 +97,7 @@ Ana risk Circulating supply Piyasada dolaşımda olduğu bildirilen miktar. Veri
 
 • Spot/futures etiketi ve sözleşme tipi. • Tick size, quantity step ve minimum notional. • Pair’in 24 saatlik hacmi, spread’i ve order-book depth’i.
 
-**Konular:** market_basics, fundamental_derivatives
+**Konular:** crypto_specific, execution_microstructure, market_basics, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0402`
 
@@ -104,7 +105,7 @@ Ana risk Circulating supply Piyasada dolaşımda olduğu bildirilen miktar. Veri
 
 Araç Ana görev Başlıca kontrol Wallet Private key/seed veya platform yetkisiyle varlık erişimini yönetmek. Custody modeli, backup ve doğru network. TradingView / chart platform Feed, chart, indicator, alert ve analysis.
 
-**Konular:** fundamental_derivatives, market_basics
+**Konular:** crypto_specific, fundamental_derivatives, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0403`
 
@@ -112,7 +113,7 @@ Araç Ana görev Başlıca kontrol Wallet Private key/seed veya platform yetkisi
 
 19.7 Hesap, KYC, Yetki ve Borsa Seçimi KYC / Know Your Customer (platformun kimlik ve uygunluk doğrulaması yapması), borsanın ürün ve çekim yetkileriyle bağlantılı olabilir. Doğrulama süresi, belge türü ve erişilebilir ürünler ülke ve platforma göre değişebileceği için tek bir platform ekranı evrensel kural olarak kabul edilmemelidir.
 
-**Konular:** market_basics, fundamental_derivatives
+**Konular:** market_basics, crypto_specific, execution_microstructure, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0404`
 
@@ -120,7 +121,7 @@ Araç Ana görev Başlıca kontrol Wallet Private key/seed veya platform yetkisi
 
 Borsa seçim alanı Soracağım soru Kırmızı bayrak Yetki / jurisdiction Platform benim ülkemde hangi hizmetleri sunuyor? Ürün erişimi ve çekim koşulları belirsiz. KYC ve privacy Hangi veri isteniyor, kim saklıyor, erişim nasıl korunuyor?
 
-**Konular:** market_basics, volume_flow, fundamental_derivatives, patterns, risk_management
+**Konular:** crypto_specific, market_basics, execution_microstructure, volume_flow, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0405`
 
@@ -128,7 +129,7 @@ Borsa seçim alanı Soracağım soru Kırmızı bayrak Yetki / jurisdiction Plat
 
 Adım Kontrol Neden Memo / tag Platform istiyorsa doğru ek alan. Bazı ortak adres sistemlerinde hesaba yönlendirme için gerekir. Fee / minimum Network fee, platform fee ve minimum withdrawal.
 
-**Konular:** fundamental_derivatives, market_basics, support_resistance
+**Konular:** crypto_specific, fundamental_derivatives, journal_review, market_basics, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0406`
 
@@ -136,7 +137,7 @@ Adım Kontrol Neden Memo / tag Platform istiyorsa doğru ek alan. Bazı ortak ad
 
 19.9 Wallet, Custody, Private Key ve Seed Phrase Wallet (blockchain üzerindeki adres ve anahtarlarla etkileşimi yöneten araç), coin’leri fiziksel dosya gibi içine koymaz; erişim ve işlem imzalama yetkisini yönetir. Custody sorusu “Bakiyeyi nerede görüyorum?” değil, “İşlem yetkisini sağlayan anahtar veya hesap kontrolü kimde?” sorusudur.
 
-**Konular:** fundamental_derivatives, market_basics
+**Konular:** crypto_specific, fundamental_derivatives, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0407`
 
@@ -144,7 +145,7 @@ Adım Kontrol Neden Memo / tag Platform istiyorsa doğru ek alan. Bazı ortak ad
 
 Avantaj / sorumluluk Exchange custody Platform account ve iç kontrol sistemi. Kolay execution; counterparty, withdrawal ve account riskini kabul etmek. Hot self-custody wallet Private key/seed kullanıcıda, internet bağlı cihazda.
 
-**Konular:** fundamental_derivatives, market_basics, risk_management, support_resistance
+**Konular:** crypto_specific, fundamental_derivatives, journal_review, market_basics, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0408`
 
@@ -152,7 +153,7 @@ Avantaj / sorumluluk Exchange custody Platform account ve iç kontrol sistemi. K
 
 Gerçeklik: 2FA önemli bir katmandır; phishing, email compromise, kötü API key, SIM saldırısı veya yanlış wallet imzası gibi diğer riskleri tek başına kapatmaz. VAKA ANALİZİ — “DESTEK GÖREVLİSİ” SEED İSTİYOR Bir mesaj, hesabımdaki sorunu çözmek için seed phrase veya screen-share istiyor. İşlemi durdurur, mesajdaki linki kullanmadan resmi uygulamaya girer ve resmi support kanalını kendim açarım.
 
-**Konular:** market_basics, fundamental_derivatives, relative_cross_market, support_resistance
+**Konular:** execution_microstructure, market_basics, crypto_specific, fundamental_derivatives, relative_cross_market
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0409`
 
@@ -160,7 +161,7 @@ Gerçeklik: 2FA önemli bir katmandır; phishing, email compromise, kötü API k
 
 VAKA ANALİZİ — MARKET ORDER SLIPPAGE Temsili altcoin’de ekranda son fiyat 1,00 USDT; fakat ask tarafı ince ve 10.000 USDT’lik market buy farklı kademeleri tüketiyor. Teknik stop mesafem ve R:R emrin ardından bozuluyor. Emirden önce depth ve tahmini slippage kontrolü yaparım.
 
-**Konular:** market_basics, risk_management, fundamental_derivatives
+**Konular:** crypto_specific, market_basics, execution_microstructure, risk_management, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0410`
 
@@ -168,7 +169,7 @@ VAKA ANALİZİ — MARKET ORDER SLIPPAGE Temsili altcoin’de ekranda son fiyat 
 
 19.13 Leverage, Liquidation ve Stop İlişkisi Leverage, yön tahminini iyileştirmez; aynı sermaye ile daha büyük notional exposure oluşturur. Pozisyon büyüdükçe aynı fiyat hareketinin para etkisi artar ve borsanın teminatı korumak için hesapladığı liquidation seviyesi yaklaşabilir.
 
-**Konular:** risk_management, fundamental_derivatives, market_basics
+**Konular:** crypto_specific, risk_management, fundamental_derivatives, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0411`
 
@@ -176,7 +177,7 @@ VAKA ANALİZİ — MARKET ORDER SLIPPAGE Temsili altcoin’de ekranda son fiyat 
 
 Sıra Yapılacak Yanlış sıra 1 Teknik geçersizlik Setup’ın bozulduğu fiyatı grafikten belirlemek. Önce leverage seçip stopu ona uydurmak. 2 Risk bütçesi Bölüm 13’e göre kabul edilen para kaybını belirlemek.
 
-**Konular:** risk_management, strategy_design, market_basics, automation_ai, fundamental_derivatives
+**Konular:** risk_management, strategy_design, execution_microstructure, crypto_specific, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0412`
 
@@ -184,7 +185,7 @@ Sıra Yapılacak Yanlış sıra 1 Teknik geçersizlik Setup’ın bozulduğu fiy
 
 Konu Kriptoya özgü kontrol Eylem Exchange feed Aynı pair farklı venue’de farklı wick/hacim üretebilir. Ana execution venue feed’ini referans al. Spot–futures basis Sözleşme spot fiyattan ayrışabilir.
 
-**Konular:** fundamental_derivatives, strategy_design, market_basics, risk_management, support_resistance
+**Konular:** crypto_specific, fundamental_derivatives, strategy_design, execution_microstructure, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0413`
 
@@ -192,7 +193,7 @@ Konu Kriptoya özgü kontrol Eylem Exchange feed Aynı pair farklı venue’de f
 
 Fon USDT spot wallet’ta; withdrawal gerekmiyor. Network riski yok, custody riski var. Setup Üst TF trend, orta TF pullback; kapanış trigger bekleniyor.
 
-**Konular:** risk_management, strategy_design, fundamental_derivatives, market_basics, pullback
+**Konular:** risk_management, crypto_specific, strategy_design, fundamental_derivatives, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0414`
 
@@ -200,7 +201,7 @@ Fon USDT spot wallet’ta; withdrawal gerekmiyor. Network riski yok, custody ris
 
 Hızlı Başvuru Gördüğüm İlk kontrol Varsayılan eylem BTCUSDT symbol Exchange, spot/futures ve quote asset Kimliği doğrulamadan analiz yok. 0,01 fiyatlı token Supply, market cap, FDV ve liquidity “Ucuz” etiketi kullanma. Stablecoin bakiye Peg, issuer/backing, venue ve withdrawal Risksiz nakit sayma.
 
-**Konular:** fundamental_derivatives, market_basics, risk_management, support_resistance
+**Konular:** crypto_specific, fundamental_derivatives, market_basics, risk_management, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0415`
 
@@ -208,7 +209,7 @@ Hızlı Başvuru Gördüğüm İlk kontrol Varsayılan eylem BTCUSDT symbol Exch
 
 Gördüğüm İlk kontrol Varsayılan eylem Deposit adresi Varlık, network, address, memo ve fee Küçük test transferi. Exchange wallet Custody ve withdrawal yetkisi Uzun vadeli ve trading bakiyesini ayır. Futures paneli Contract, margin, funding ve mark price Spot sahipliği gibi davranma.
 
-**Konular:** fundamental_derivatives, market_basics, risk_management, automation_ai, strategy_design
+**Konular:** crypto_specific, execution_microstructure, fundamental_derivatives, market_basics, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0416`
 
@@ -216,7 +217,7 @@ Gördüğüm İlk kontrol Varsayılan eylem Deposit adresi Varlık, network, add
 
 Terim Aksiyon tanımı Market cap Price × circulating supply ile yaklaşık mevcut piyasa değerini görmek. FDV Price × fully diluted supply ile gelecekteki arz varsayımını görmek. Trading pair Base asset’in quote asset cinsinden fiyatını okumak.
 
-**Konular:** support_resistance, market_basics, fundamental_derivatives, relative_cross_market, risk_management
+**Konular:** crypto_specific, support_resistance, market_basics, execution_microstructure, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0417`
 
@@ -224,6 +225,6 @@ Terim Aksiyon tanımı Market cap Price × circulating supply ile yaklaşık mev
 
 Düşük birim fiyat neden ucuzluk kanıtı değildir? BTC/USDT pair’inde base ve quote hangileridir? ETH/BTC yükselirken hangi relatif güç değişimi gerçekleşir?
 
-**Konular:** fundamental_derivatives, risk_management, market_basics
+**Konular:** crypto_specific, fundamental_derivatives, risk_management, market_basics, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0418`

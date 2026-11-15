@@ -1,6 +1,6 @@
 # breakout_failure
 
-**Kapsam:** 244 sayfa eşleşmesi
+**Kapsam:** 223 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

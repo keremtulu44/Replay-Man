@@ -1,6 +1,6 @@
 # psychology_process
 
-**Kapsam:** 97 sayfa eşleşmesi
+**Kapsam:** 78 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

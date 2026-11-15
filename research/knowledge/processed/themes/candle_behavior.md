@@ -1,6 +1,6 @@
 # candle_behavior
 
-**Kapsam:** 121 sayfa eşleşmesi
+**Kapsam:** 116 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

@@ -20,27 +20,37 @@
 
 ## Konu dağılımı
 
-- `fundamental_derivatives`: 27 sayfa
-- `risk_management`: 24 sayfa
-- `market_basics`: 19 sayfa
-- `strategy_design`: 19 sayfa
-- `trend_regime`: 11 sayfa
-- `liquidity_imbalance`: 9 sayfa
-- `volume_flow`: 9 sayfa
-- `breakout_failure`: 7 sayfa
+- `fundamental_derivatives`: 24 sayfa
+- `execution_microstructure`: 21 sayfa
+- `market_basics`: 18 sayfa
+- `risk_management`: 18 sayfa
+- `hedge_arbitrage`: 17 sayfa
+- `trend_regime`: 9 sayfa
+- `crypto_specific`: 8 sayfa
+- `strategy_design`: 8 sayfa
 - `support_resistance`: 7 sayfa
-- `momentum`: 6 sayfa
+- `derivatives_options`: 7 sayfa
+- `liquidity_imbalance`: 5 sayfa
 - `automation_ai`: 5 sayfa
-- `market_structure`: 5 sayfa
-- `relative_cross_market`: 4 sayfa
+- `volume_flow`: 5 sayfa
+- `breakout_failure`: 4 sayfa
+- `momentum`: 4 sayfa
+- `market_structure`: 4 sayfa
 - `candle_behavior`: 4 sayfa
-- `pullback`: 3 sayfa
-- `multi_timeframe`: 3 sayfa
-- `psychology_process`: 2 sayfa
-- `volatility`: 2 sayfa
-- `ohlcv_data`: 2 sayfa
+- `relative_cross_market`: 3 sayfa
+- `pullback`: 2 sayfa
+- `macro_rates`: 2 sayfa
 - `patterns`: 2 sayfa
-- `validation_replay`: 1 sayfa
+- `follow_through`: 2 sayfa
+- `indicator_systems`: 2 sayfa
+- `psychology_process`: 1 sayfa
+- `volatility`: 1 sayfa
+- `chart_transformations`: 1 sayfa
+- `multi_timeframe`: 1 sayfa
+- `ohlcv_data`: 1 sayfa
+- `wave_cycle_models`: 1 sayfa
+- `fundamental_valuation`: 1 sayfa
+- `position_management`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -48,7 +58,7 @@
 
 BÖLÜM 24 Arbitraj, Piyasa Verimliliği ve Operasyon Riski Görünen fiyat farkından uygulanabilir net edge ve operasyon kontrolüne
 
-**Konular:** fundamental_derivatives
+**Konular:** fundamental_derivatives, hedge_arbitrage
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0491`
 
@@ -56,7 +66,7 @@ BÖLÜM 24 Arbitraj, Piyasa Verimliliği ve Operasyon Riski Görünen fiyat fark
 
 Bu Bölümün Amacı Arbitraj, bir varlığın veya dönüşüm döngüsünün farklı piyasalarda geçici olarak uyumsuz fiyatlanmasından yararlanmayı amaçlar. Yönlü trade’de “fiyat nereye gidecek?” sorusu öndeyken arbitrajda “aynı ekonomik maruziyet şu anda iki yerde gerçekten farklı uygulanabilir fiyatla mı işlem görüyor?” sorusu öne çıkar. Bu ayrım arbitrajı otomatik olarak risksiz yapmaz.
 
-**Konular:** fundamental_derivatives, market_basics, risk_management, strategy_design
+**Konular:** execution_microstructure, fundamental_derivatives, hedge_arbitrage, market_basics, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0492`
 
@@ -64,7 +74,7 @@ Bu Bölümün Amacı Arbitraj, bir varlığın veya dönüşüm döngüsünün f
 
 24.1 Arbitrajı Yönlü Trading’den Ayırmak Arbitrage (aynı ekonomik varlık veya bağlı dönüşüm döngüsündeki geçici fiyat uyumsuzluğunu, eşleşen alım–satım bacaklarıyla değerlendirme), klasik long/short tahmininden farklı bir edge kaynağıdır. Ancak “fiyatın yönünü tahmin etmiyorum” demek “zarar ihtimali yok” demek değildir. Karar alanı Yönlü trade Arbitraj Edge Trend, mean reversion, yapı veya olay sonrası yön.
 
-**Konular:** market_basics, risk_management, fundamental_derivatives, liquidity_imbalance, strategy_design
+**Konular:** market_basics, execution_microstructure, risk_management, fundamental_derivatives, hedge_arbitrage
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0493`
 
@@ -72,7 +82,7 @@ Bu Bölümün Amacı Arbitraj, bir varlığın veya dönüşüm döngüsünün f
 
 Gerçeklik: Küçük fark hız ve maliyet nedeniyle uygulanamaz olabilir; büyük fark ise likidite, withdrawal, veri veya counterparty riskinin fiyatıdır. Ürün, Pair, Ağ ve Settlement Kimliği Ticker benzerliği fiyat karşılaştırması için yeterli değildir. BTC/USDT spot ile BTC perpetual; ağ üzerindeki BTC ile wrapped token; USD ile USDT quote; aynı sembolün farklı contract adresleri ekonomik olarak farklı risk ve settlement taşır.
 
-**Konular:** fundamental_derivatives, liquidity_imbalance, risk_management
+**Konular:** crypto_specific, fundamental_derivatives, hedge_arbitrage, execution_microstructure, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0494`
 
@@ -80,7 +90,7 @@ Gerçeklik: Küçük fark hız ve maliyet nedeniyle uygulanamaz olabilir; büyü
 
  İki venue’de tam symbol ve product türü aynı mı?  Base ve quote aynı mı; quote conversion gerekiyor mu?  Network ve contract address eşleşiyor mu?
 
-**Konular:** market_basics, relative_cross_market, fundamental_derivatives, risk_management, strategy_design
+**Konular:** execution_microstructure, market_basics, relative_cross_market, crypto_specific, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0495`
 
@@ -88,7 +98,7 @@ Gerçeklik: Küçük fark hız ve maliyet nedeniyle uygulanamaz olabilir; büyü
 
 DOĞRU BİLİNEN YANLIŞ Mit: İki last price arasındaki fark arbitraj kârıdır. Gerçeklik: Alış ask’tan, satış bid’den ve miktara göre depth tüketilerek gerçekleşir. Last price uygulanabilir emir fiyatı değildir.
 
-**Konular:** market_basics, fundamental_derivatives, pullback, strategy_design
+**Konular:** execution_microstructure, market_basics, fundamental_derivatives, hedge_arbitrage, pullback
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0496`
 
@@ -96,7 +106,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: İki last price arasındaki fark arbitraj kârıd�
 
 24.6 Transfer Tabanlı Arbitraj, Envanter ve Rebalans Transfer tabanlı modelde trader önce ucuz venue’den varlık alır, sonra pahalı venue’ye gönderip satar. Bu işlem iki bacağı eşzamanlı kilitlemez. Transfer süresince spread kapanabilir, ağ sıkışabilir veya withdrawal durabilir.
 
-**Konular:** fundamental_derivatives, risk_management, market_basics, strategy_design
+**Konular:** execution_microstructure, fundamental_derivatives, hedge_arbitrage, risk_management, market_basics
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0497`
 
@@ -104,7 +114,7 @@ DOĞRU BİLİNEN YANLIŞ Mit: İki last price arasındaki fark arbitraj kârıd�
 
 Her leg %0,10 fee ise fee çarpanı yaklaşık 0,997 olur ve teorik sonuç yaklaşık 10.014,9 USDT’ye iner. Rounding ve toplam 12 USDT slippage sonrası yalnız 2,9 USDT kalır. Sistem güvenlik tamponu 10 USDT ise döngü no-trade’dir.
 
-**Konular:** market_basics, fundamental_derivatives, liquidity_imbalance, strategy_design
+**Konular:** execution_microstructure, crypto_specific, market_basics, fundamental_derivatives, hedge_arbitrage
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0498`
 
@@ -112,7 +122,7 @@ Her leg %0,10 fee ise fee çarpanı yaklaşık 0,997 olur ve teorik sonuç yakla
 
 DEX alanı Kontrol Net edge etkisi Slippage tolerance Kabul edilen maksimum fiyat sapması. Çok yüksekse kötü fill; çok düşükse revert. Gas İki/çoklu transaction ve onay maliyeti.
 
-**Konular:** market_basics, fundamental_derivatives, strategy_design
+**Konular:** execution_microstructure, market_basics, fundamental_derivatives, hedge_arbitrage, strategy_design
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0499`
 
@@ -120,7 +130,7 @@ DEX alanı Kontrol Net edge etkisi Slippage tolerance Kabul edilen maksimum fiya
 
  İki fiyatın exchange timestamp’i ve local receive time’ı.  Last değil bid/ask ve miktar bazlı depth.  Feed bağlantısı, son update süresi ve outlier uyarısı.
 
-**Konular:** market_basics, fundamental_derivatives, volume_flow, breakout_failure, risk_management
+**Konular:** execution_microstructure, market_basics, crypto_specific, fundamental_derivatives, hedge_arbitrage
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0500`
 
@@ -128,7 +138,7 @@ DEX alanı Kontrol Net edge etkisi Slippage tolerance Kabul edilen maksimum fiya
 
 Gerçeklik: Spread, slippage, idle capital, rebalans ve failure buffer; doğrudan komisyonun birkaç katı olabilir. VAKA ANALİZİ — NET EDGE EŞİĞİ Sistem için ortalama toplam doğrudan maliyet %0,24; beklenen slippage %0,12; rebalans %0,08 ve güvenlik tamponu %0,15 olsun. Brüt fark %0,50 ise pozitif görünse de işlem yapılmaz.
 
-**Konular:** automation_ai, fundamental_derivatives, risk_management, psychology_process, strategy_design
+**Konular:** automation_ai, fundamental_derivatives, hedge_arbitrage, execution_microstructure, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0501`
 
@@ -136,7 +146,7 @@ Gerçeklik: Spread, slippage, idle capital, rebalans ve failure buffer; doğruda
 
 Risk Kontrol No-trade / limit Stablecoin / quote risk Quote parity ve redemption. Account/KYC limit Withdrawal ve günlük transfer limiti. Miktar operasyon kapasitesini aşmaz.
 
-**Konular:** strategy_design, fundamental_derivatives, risk_management, psychology_process, breakout_failure
+**Konular:** strategy_design, fundamental_derivatives, hedge_arbitrage, risk_management, psychology_process
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0502`
 
@@ -144,7 +154,7 @@ Risk Kontrol No-trade / limit Stablecoin / quote risk Quote parity ve redemption
 
 24.15 Tam Arbitraj İş Akışı ve Vaka Analizleri Şekil 24.7 – Tam arbitraj operasyon akışı Aşama Eylem Çıktı 1 Kimlik Asset, product, pair, quote, network ve settlement doğrula. 2 Veri Bid/ask, timestamp, source ve health kontrol et. 3 Miktar İki/üç bacağın depth ve precision hesabı.
 
-**Konular:** fundamental_derivatives, market_basics, strategy_design
+**Konular:** execution_microstructure, fundamental_derivatives, hedge_arbitrage, market_basics, strategy_design
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0503`
 
@@ -152,7 +162,7 @@ Risk Kontrol No-trade / limit Stablecoin / quote risk Quote parity ve redemption
 
 Arbitraj sinyali doğru olsa bile leg failure operasyon zararıdır. Kayıt Timeout, API response, reject nedeni, open exposure ve unwind slippage kaydedilir. Timestamp Küçük venue feed’i 18 saniye eski.
 
-**Konular:** market_basics, fundamental_derivatives, risk_management, strategy_design, breakout_failure
+**Konular:** execution_microstructure, market_basics, fundamental_derivatives, hedge_arbitrage, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0504`
 
@@ -160,7 +170,7 @@ Arbitraj sinyali doğru olsa bile leg failure operasyon zararıdır. Kayıt Time
 
 Terim Aksiyon tanımı Leg Arbitraj işleminin ayrı alım, satım veya dönüşüm adımı. Leg risk Bir bacak dolarken diğerinin dolmamasıyla oluşan açık maruziyet. Pre-funded İki venue’de trade öncesi gerekli nakit ve varlığı hazır tutmak.
 
-**Konular:** fundamental_derivatives, risk_management
+**Konular:** fundamental_derivatives, hedge_arbitrage, execution_microstructure, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0505`
 
@@ -168,7 +178,7 @@ Terim Aksiyon tanımı Leg Arbitraj işleminin ayrı alım, satım veya dönüş
 
 Volume-weighted executable price nasıl kullanılır? Filled quantity mismatch hangi riski doğurur? Tam maliyet yığınına hangi kalemler girer?
 
-**Konular:** fundamental_derivatives, automation_ai, risk_management, strategy_design, volume_flow
+**Konular:** fundamental_derivatives, hedge_arbitrage, automation_ai, risk_management, strategy_design
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0506`
 
@@ -192,7 +202,7 @@ Ana Sözlük Hakkında Bu sözlük, kitabın 24 bölümündeki bölüm sonu söz
 
 Terim Bu kitaptaki temel anlamı Bölüm Arbitrage Aynı veya bağlantılı ekonomik ürünlerdeki eşzamanlı fiyat uyumsuzluğunu eşleşen işlem bacaklarıyla değerlendirme. 11, 24 Ask Satıcıların kabul ettiği en düşük bekleyen satış fiyatı. 1 ATR True range’in ortalaması; yönsüz volatilite ölçümü.
 
-**Konular:** volatility, market_basics, risk_management, validation_replay, fundamental_derivatives
+**Konular:** volatility, market_basics, execution_microstructure, risk_management, derivatives_options
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0509`
 
@@ -200,7 +210,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Arbitrage Aynı veya bağlantılı ekon
 
 Terim Bu kitaptaki temel anlamı Bölüm Break-even stop Stopu entry veya maliyet düzeltilmiş entry seviyesine taşımak. 23 Broker Müşteri emirlerinin piyasaya iletilmesine ve işlemlerin yürütülmesine aracılık eden kurum. 1 Broker connection Desteklenen kurum hesabından emirleri TradingView paneliyle iletmek.
 
-**Konular:** market_basics, trend_regime, momentum, ohlcv_data, risk_management
+**Konular:** derivatives_options, market_basics, trend_regime, execution_microstructure, momentum
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0510`
 
@@ -208,7 +218,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Break-even stop Stopu entry veya maliye
 
 Terim Bu kitaptaki temel anlamı Bölüm Community script Başka kullanıcı tarafından yayımlanan özel göstergenin mantık ve riskini denetlemek. 15 Compile Kodun dil/sentaks kurallarına uygunluğunu kontrol etmek. 16 Composite Operator Büyük katılımcıların birleşik etkisini düşünmek için analitik metafor kullanmak.
 
-**Konular:** fundamental_derivatives, patterns, relative_cross_market, risk_management, strategy_design
+**Konular:** crypto_specific, macro_rates, execution_microstructure, fundamental_derivatives, patterns
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0511`
 
@@ -216,7 +226,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Community script Başka kullanıcı tar
 
 Terim Bu kitaptaki temel anlamı Bölüm CVD Deltanın seçilen başlangıçtan kümülatif toplamı. 7 D Terim Bu kitaptaki temel anlamı Bölüm Data feed Fiyat ve hacmin geldiği borsa/broker/veri kaynağını kontrol etmek. 15 Day trading Pozisyonu tanımlı işlem günü/seans içinde açıp kapatma.
 
-**Konular:** support_resistance, market_basics, automation_ai, fundamental_derivatives, momentum
+**Konular:** support_resistance, market_basics, automation_ai, crypto_specific, derivatives_options
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0512`
 
@@ -224,7 +234,7 @@ Terim Bu kitaptaki temel anlamı Bölüm CVD Deltanın seçilen başlangıçtan 
 
 Terim Bu kitaptaki temel anlamı Bölüm Doji Açılış ile kapanışın birbirine çok yakın olduğu kararsızlık mumu. 2 Drawdown Hesap zirvesinden sonraki dip seviyesine düşüş. 13 Drawing tool Seviye, bölge, eğim, mesafe veya notu görünür kılmak.
 
-**Konular:** risk_management, market_structure, volume_flow
+**Konular:** risk_management, execution_microstructure, follow_through, macro_rates, market_structure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0513`
 
@@ -232,7 +242,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Doji Açılış ile kapanışın birbir
 
 Terim Bu kitaptaki temel anlamı Bölüm EQH / EQL Birbirine tolerans içinde yakın eşit tepe veya dip. 3 Equality İki dalganın benzer fiyat mesafesi üretmesi. 9 Equal highs/lows Yaklaşık aynı fiyat çevresinde oluşan birden fazla tepe veya dip.
 
-**Konular:** liquidity_imbalance, breakout_failure, pullback, relative_cross_market
+**Konular:** liquidity_imbalance, breakout_failure, execution_microstructure, pullback, relative_cross_market
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0514`
 
@@ -240,7 +250,7 @@ Terim Bu kitaptaki temel anlamı Bölüm EQH / EQL Birbirine tolerans içinde ya
 
 Terim Bu kitaptaki temel anlamı Bölüm Fair value estimate Model ve varsayımlara bağlı tahmini değer çıktısı. 16 Fair value / İçsel değer Temel analiz varsayımlarıyla tahmin edilen ekonomik değer. 1 Fakeout Bir sınır ya da seviyenin aşılmasının kabul görmeyip fiyatın eski alana geri dönmesi.
 
-**Konular:** market_basics, breakout_failure, support_resistance, fundamental_derivatives, volume_flow
+**Konular:** market_basics, breakout_failure, support_resistance, execution_microstructure, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0515`
 
@@ -248,7 +258,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Fair value estimate Model ve varsayıml
 
 G Terim Bu kitaptaki temel anlamı Bölüm Gap fill Fiyatın klasik gap veya işaretli dengesizlik alanına geri dönerek alanı işlemesi. 5 Given-back profit MFE ile gerçekleşen çıkış sonucu arasındaki geri verilen kâr. 23 Golden pocket 0.618–0.65 dar trader konvansiyonu; 0.65 zorunlu oran değildir.
 
-**Konular:** fundamental_derivatives, liquidity_imbalance, market_structure, momentum, multi_timeframe
+**Konular:** fundamental_derivatives, hedge_arbitrage, liquidity_imbalance, market_structure, chart_transformations
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0516`
 
@@ -256,7 +266,7 @@ G Terim Bu kitaptaki temel anlamı Bölüm Gap fill Fiyatın klasik gap veya iş
 
 Terim Bu kitaptaki temel anlamı Bölüm HVN / LVN Yerel yüksek / düşük hacim düğümü. 7 I Terim Bu kitaptaki temel anlamı Bölüm Ichimoku / Kumo Denge çizgileri ve ileri kaydırılmış bulut içeren trend sistemi. 8 Imbalance Footprint hücrelerinde bir tarafın tanımlı oranla baskın olması.
 
-**Konular:** volume_flow, strategy_design, candle_behavior, fundamental_derivatives, liquidity_imbalance
+**Konular:** volume_flow, strategy_design, candle_behavior, fundamental_derivatives, indicator_systems
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0517`
 
@@ -264,7 +274,7 @@ Terim Bu kitaptaki temel anlamı Bölüm HVN / LVN Yerel yüksek / düşük haci
 
 Terim Bu kitaptaki temel anlamı Bölüm ITM / ATM / OTM Dayanak ile strike konumunu intrinsic value açısından sınıflandırmak. 21 K Terim Bu kitaptaki temel anlamı Bölüm Kaldıraç (Leverage) Ayrılan teminattan daha büyük piyasa maruziyeti kontrol edilmesini sağlayan ve hem kazanç hem kayıp etkisini büyüten mekanizma. 1, 19 Kill switch Tanımlı veri, bağlantı, kayıp veya hata koşulunda otomasyonu ve yeni emirleri hızlı biçimde durduran güvenlik mekanizması.
 
-**Konular:** liquidity_imbalance, risk_management, fundamental_derivatives, market_basics, strategy_design
+**Konular:** liquidity_imbalance, risk_management, derivatives_options, execution_microstructure, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0518`
 
@@ -288,7 +298,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Market cap Price × circulating supply 
 
 N Terim Bu kitaptaki temel anlamı Bölüm Neckline Double/triple ve OBO/TOBO yapılarını tamamlayan ara swing sınırı. 6 Net edge Bütün maliyet ve risk tamponu sonrası kalan avantaj. 24 Net income / bottom line Tüm gider ve vergiler sonrası muhasebe kârını izlemek.
 
-**Konular:** ohlcv_data, risk_management, strategy_design, fundamental_derivatives, trend_regime
+**Konular:** ohlcv_data, risk_management, strategy_design, derivatives_options, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0521`
 
@@ -304,7 +314,7 @@ P Terim Bu kitaptaki temel anlamı Bölüm Paper Trading Gerçek para riske etme
 
 Terim Bu kitaptaki temel anlamı Bölüm Principal / Face value Vade sonunda geri ödenmesi vaat edilen nominal tutar. 20 Private key / seed phrase Self-custody erişim sırrını korumak ve kimseyle paylaşmamak. 19 Process thinking Tek sonucu değil plan uygulamasını değerlendirmek.
 
-**Konular:** market_basics, risk_management, support_resistance, trend_regime
+**Konular:** derivatives_options, market_basics, risk_management, support_resistance, trend_regime
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0523`
 
@@ -312,7 +322,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Principal / Face value Vade sonunda ger
 
 Terim Bu kitaptaki temel anlamı Bölüm Reaccumulation Markup içindeki range’in trend devamı üretip üretmediğini test etmek. 17 Reaction candle Bir yöndeki fiyat denemesinin kapanışa kadar geri çevrildiğini gösteren mum. 2 Realized P&L Kapatılan miktarda gerçekleşmiş kâr/zarar.
 
-**Konular:** trend_regime, breakout_failure, candle_behavior, patterns, risk_management
+**Konular:** trend_regime, wave_cycle_models, breakout_failure, candle_behavior, patterns
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0524`
 
@@ -320,7 +330,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Reaccumulation Markup içindeki range�
 
 Terim Bu kitaptaki temel anlamı Bölüm Risk acceptance Stop sonucunu emirden önce parasal ve zihinsel olarak kabul etme. 14 Risk budget Tek işlem, gün, hafta ve portföy için önceden ayrılan kayıp sınırı. 13 RMA Wilder tipi yumuşatılmış hareketli ortalama.
 
-**Konular:** risk_management, fundamental_derivatives, strategy_design, volume_flow, liquidity_imbalance
+**Konular:** risk_management, fundamental_derivatives, strategy_design, volume_flow, hedge_arbitrage
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0525`
 
@@ -328,7 +338,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Risk acceptance Stop sonucunu emirden �
 
 Terim Bu kitaptaki temel anlamı Bölüm Setup family Pullback, breakout veya range gibi fırsat modelinin ailesi. 11 Short Düşüşten yararlanmayı amaçlayan pozisyon. 1 Signal Setup lehine veya aleyhine tek bilgi parçası.
 
-**Konular:** momentum, market_basics, risk_management, strategy_design, trend_regime
+**Konular:** indicator_systems, execution_microstructure, momentum, market_basics, risk_management
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0526`
 
@@ -336,7 +346,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Setup family Pullback, breakout veya ra
 
 Terim Bu kitaptaki temel anlamı Bölüm Strike Hakkın kullanılabileceği fiyatı belirlemek. 21 Structure trail Stopu confirmed swing veya protected level arkasına taşımak. 23 Supply zone Güçlü düşüş departure’ının başladığı alan.
 
-**Konular:** support_resistance, fundamental_derivatives, volume_flow, market_structure
+**Konular:** support_resistance, derivatives_options, fundamental_derivatives, volume_flow, fundamental_valuation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0527`
 
@@ -344,7 +354,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Strike Hakkın kullanılabileceği fiya
 
 Terim Bu kitaptaki temel anlamı Bölüm Timeframe conflict Farklı ölçeklerdeki görünüm farkının pullback/range/reversal bilgisi üretmesi. 10 Timeout Bir bacağın tamamlanması için izin verilen maksimum süre. 24 Time edge Stratejinin belirli zaman penceresinde ölçülmüş performans farkını kaydetmek.
 
-**Konular:** risk_management, trend_regime, fundamental_derivatives, multi_timeframe, pullback
+**Konular:** risk_management, trend_regime, position_management, crypto_specific, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0528`
 
@@ -352,7 +362,7 @@ Terim Bu kitaptaki temel anlamı Bölüm Timeframe conflict Farklı ölçeklerde
 
 U Terim Bu kitaptaki temel anlamı Bölüm Uncertainty Sonraki sonucun kesin bilinmemesi. 13 Underlying Option değerinin bağlı olduğu varlık veya sözleşmeyi doğrulamak. 21 Unrealized P&L Açık pozisyonun mevcut fiyata göre değişen fakat henüz kapanmamış sonucu.
 
-**Konular:** volume_flow, market_basics, relative_cross_market, support_resistance, volatility
+**Konular:** volume_flow, crypto_specific, market_basics, relative_cross_market, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0529`
 

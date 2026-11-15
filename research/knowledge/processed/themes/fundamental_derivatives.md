@@ -1,6 +1,6 @@
 # fundamental_derivatives
 
-**Kapsam:** 170 sayfa eşleşmesi
+**Kapsam:** 154 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

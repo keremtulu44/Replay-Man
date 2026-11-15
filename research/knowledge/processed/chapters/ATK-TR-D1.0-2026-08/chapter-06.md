@@ -24,15 +24,16 @@
 
 - `breakout_failure`: 14 sayfa
 - `patterns`: 14 sayfa
-- `trend_regime`: 11 sayfa
 - `candle_behavior`: 11 sayfa
+- `trend_regime`: 10 sayfa
 - `momentum`: 9 sayfa
 - `liquidity_imbalance`: 6 sayfa
 - `market_structure`: 5 sayfa
 - `risk_management`: 4 sayfa
-- `pullback`: 3 sayfa
+- `follow_through`: 3 sayfa
 - `volume_flow`: 3 sayfa
 - `support_resistance`: 2 sayfa
+- `pullback`: 1 sayfa
 - `fundamental_derivatives`: 1 sayfa
 - `psychology_process`: 1 sayfa
 
@@ -58,7 +59,7 @@ BÖLÜM 6 Mum ve Grafik Formasyonları
 
  Tamamlanmış formasyon: Gerekli mum kapanışı veya yapı sınırı kırılımı gerçekleşmiştir.  Teyitli formasyon: Kırılım yönünde follow-through, retest korunumu veya hacim/momentum desteği görülmüştür.  Başarısız formasyon: Kırılım geri alınmış, karşı sınır bozulmuş veya beklenen takip oluşmamıştır.
 
-**Konular:** candle_behavior, patterns, breakout_failure, momentum, pullback
+**Konular:** candle_behavior, patterns, breakout_failure, momentum, follow_through
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0112`
 
@@ -74,7 +75,7 @@ Formasyon Gerekli bağlam Ana geometri Teyit beklentisi Asılı adam / Hanging M
 
 Yapı Tanıma ölçütü Piyasa hikâyesi Zayıflatan unsur Dark cloud cover Yükseliş sonrası ikinci bearish mum, ilk bullish gövdenin orta noktasının altına kapanır. Alıcı ivmesinin satıcılarca önemli ölçüde geri alınması. Orta nokta üzerinde close veya güçlü trend follow-through.
 
-**Konular:** liquidity_imbalance, candle_behavior, momentum, support_resistance, trend_regime
+**Konular:** liquidity_imbalance, candle_behavior, follow_through, momentum, support_resistance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0114`
 
@@ -122,7 +123,7 @@ Bileşen OBO TOBO Tamamlanma Neckline altında close ve takip. Bu nedenle formas
 
 Daha erken, belirgin momentumlu ve hacim destekli kırılımlar daha anlamlı olabilir. Bununla birlikte zaman eşiği evrensel değildir; piyasa ve zaman dilimine göre test edilmelidir. 6.10 Kama Ailesi Kamada iki sınır aynı yöne eğilirken birbirine yaklaşır.
 
-**Konular:** breakout_failure, patterns, trend_regime, fundamental_derivatives, pullback
+**Konular:** breakout_failure, patterns, trend_regime, follow_through, fundamental_derivatives
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0120`
 

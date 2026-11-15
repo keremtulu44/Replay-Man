@@ -1,6 +1,6 @@
 # validation_replay
 
-**Kapsam:** 53 sayfa eşleşmesi
+**Kapsam:** 45 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

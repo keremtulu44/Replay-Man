@@ -12,12 +12,12 @@
 
 ## Konu dağılımı
 
+- `indicator_systems`: 3 sayfa
 - `momentum`: 3 sayfa
 - `volatility`: 3 sayfa
-- `risk_management`: 3 sayfa
-- `trend_regime`: 3 sayfa
+- `risk_management`: 2 sayfa
+- `trend_regime`: 2 sayfa
 - `volume_flow`: 1 sayfa
-- `breakout_failure`: 1 sayfa
 - `validation_replay`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -26,7 +26,7 @@
 
 BÖLÜM 1 İndikatörleri Doğru Kullanma Mantığı Bir indikatörü öğrenmeden önce, ondan hangi bilgiyi istemeniz gerektiğini öğrenin. Grafiğe indikatör eklemek kolaydır. Zor olan, her aracın hangi soruya cevap verdiğini ve hangi soruya cevap veremediğini bilmektir.
 
-**Konular:** volume_flow, momentum, volatility, risk_management, trend_regime
+**Konular:** indicator_systems, volume_flow, momentum, volatility, risk_management
 
 **Kart:** `PTA-C1-2026.p0006`
 
@@ -34,7 +34,7 @@ BÖLÜM 1 İndikatörleri Doğru Kullanma Mantığı Bir indikatörü öğrenmed
 
 Bilgi sınıfı Sorduğu soru Örnek araç Tek başına söylemez Katılım / hacim Harekete aktivite eşlik ediyor mu? Volume Devam garantisini Yapı Belirgin dönüş ve kırılım davranışı ne? Fiyat yapısı, S/R Hareketin ne kadar güçlendiğini/zayıfladığını 1.2 — Bağlam, konum, giriş işareti ve risk aynı şey değildir Bir sistemde “işleme uygun ortam” ile “şimdi giriş yap” kararı ayrılmalıdır.
 
-**Konular:** risk_management, momentum, trend_regime, volatility, breakout_failure
+**Konular:** risk_management, indicator_systems, momentum, trend_regime, volatility
 
 **Kart:** `PTA-C1-2026.p0007`
 
@@ -42,7 +42,7 @@ Bilgi sınıfı Sorduğu soru Örnek araç Tek başına söylemez Katılım / ha
 
 Kombinasyon Rol dağılımı Değerlendirme RSI + Stoch + Stoch RSI Hareket gücü + hareket gücü + hareket gücü Yüksek tekrar riski MA + MACD kesişim Trend bilgisi + MA farkından gelen benzer trend/hareket gücü bilgisi Kısmi tekrar MA + RSI + ATR Yön + hareket gücü + fiyat hareketliliği/risk Daha tamamlayıcı Fiyat yapısı + AVWAP + RSI Yapı + konum + hareket gücü Daha bağımsız bilgi 1.4 — “Klasik kural” neden bazen bozulur? Teknik analiz eğitimlerinde kısa kurallar işe yarar: “RSI 70 üstü aşırı alım”, “ADX 25 üstü güçlü trend”, “fiyat 200 MA üstünde yükseliş yönlü”. Sorun, bu cümleleri her piyasada geçerli yasa gibi kullanmaktır.
 
-**Konular:** momentum, volatility, trend_regime, validation_replay, risk_management
+**Konular:** indicator_systems, momentum, volatility, trend_regime, validation_replay
 
 **Kart:** `PTA-C1-2026.p0008`
 

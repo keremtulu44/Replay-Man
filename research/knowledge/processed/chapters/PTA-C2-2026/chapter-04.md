@@ -14,6 +14,7 @@
 
 ## Konu dağılımı
 
+- `swing_geometry`: 4 sayfa
 - `candle_behavior`: 3 sayfa
 - `momentum`: 2 sayfa
 - `patterns`: 1 sayfa
@@ -27,7 +28,7 @@
 
 BÖLÜM 4 Kısa Dönüş Dizileri: 2–4 Mum ve Çoklu İtiş Dönüşü tek bir mumla değil, eski yönün zayıflaması ve karşı tarafın baskıyı ne kadar geri alabildiğiyle okuyun. Bölüm 3’te bir hareketin içeriden nasıl yavaşlayabildiğini gördük. Şimdi bir adım daha ileri gideceğiz: Bu zayıflama ne zaman kısa bir dönüş dizisine dönüşüyor?
 
-**Konular:** patterns
+**Konular:** patterns, swing_geometry
 
 **Kart:** `PTA-C2-2026.p0023`
 
@@ -51,7 +52,7 @@ Eski baskı sürüyor ama hız kaybediyor. Kontrol değişimi ilk kez belirginle
 
 4.4 — Dört itiş: dört mum değil, dört ayrı deneme Çoklu itiş yapıları kısa mum dizilerinden farklı okunur. Burada tek tek mumları saymak yerine fiyatın aynı yönde yaptığı hareket bacaklarını sayarız. Kaynakta örneklenen dört itişli yapı; iki ilk itiş, ardından bir kırılım ve sonrasında iki ek itişten oluşabilir.
 
-**Konular:** breakout_failure
+**Konular:** swing_geometry, breakout_failure
 
 **Kart:** `PTA-C2-2026.p0026`
 
@@ -59,7 +60,7 @@ Eski baskı sürüyor ama hız kaybediyor. Kontrol değişimi ilk kez belirginle
 
 yönde küçük bir ek itiş daha yapabilir ve ancak bundan sonra geri dönebilir. Bu son küçük taşma, overshoot olarak düşünülebilir. Bu bilgi özellikle dönüş yapılarını fazla mekanik okumamayı sağlar.
 
-**Konular:** candle_behavior
+**Konular:** candle_behavior, swing_geometry
 
 **Kart:** `PTA-C2-2026.p0027`
 
@@ -75,6 +76,6 @@ Ağırlığı Tek fitil / tek zayıf mum İlk uyarı olabilir; mevcut yön hâl�
 
 4.7 — Dönüş dizilerini birbirinden nasıl ayıralım? Bu bölümdeki yapıların hepsini tek bir “dönüş formasyonu” altında toplamak yerine, hangi bilginin hangi aşamada geldiğini ayırmak daha kullanışlıdır. İki mumluk dönüş hızlı bir baskı değişimini, üç mumluk dönüş kısa bir zayıflama ve karşı cevabı, küçülen dört mumluk yapı daha kademeli bir momentum kaybını, dört itişli yapı ise hareketin geç evresindeki tekrar eden denemeleri gösterir.
 
-**Konular:** momentum, volatility
+**Konular:** momentum, swing_geometry, volatility
 
 **Kart:** `PTA-C2-2026.p0029`

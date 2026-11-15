@@ -15,12 +15,13 @@
 
 - `trend_regime`: 4 sayfa
 - `risk_management`: 3 sayfa
+- `indicator_systems`: 2 sayfa
 - `momentum`: 2 sayfa
 - `volatility`: 2 sayfa
 - `psychology_process`: 1 sayfa
 - `support_resistance`: 1 sayfa
+- `position_management`: 1 sayfa
 - `pullback`: 1 sayfa
-- `volume_flow`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -28,7 +29,7 @@
 
 BÖLÜM 2 Hareketli Ortalamalar: SMA, EMA ve Kesişim Aynı fiyatı farklı hızlarda yumuşatan bu çizgileri “geleceği bilen araçlar” gibi değil, fiyat değiştikten sonra tepki veren yön göstergeleri olarak okuyun. HIZLI ROL — Ana görev: trendin genel yönünü görmek ve geri çekilmelerde ortalamayı takip etmek. Ana risk: geç tepki vermesi ve yatay piyasada sık yanlış kesişim üretmesi.
 
-**Konular:** momentum, risk_management, volatility
+**Konular:** indicator_systems, momentum, risk_management, volatility
 
 **Kart:** `PTA-C1-2026.p0010`
 
@@ -44,7 +45,7 @@ Hız, tek başına daha yüksek doğruluk değildir. 2.2 — 20, 50 ve 200 periy
 
 2.3 — Hareketli ortalamaya tek bir görev verin Görev Ne için kullanılır? Trend filtresi İşlemleri ana yönle aynı tarafta aramaya yardım eder. Hayır Geri çekilme bölgesi Fiyat ortalamaya yaklaştığında izlenecek bölgeyi gösterir.
 
-**Konular:** trend_regime, risk_management, support_resistance, pullback
+**Konular:** trend_regime, risk_management, support_resistance, position_management, pullback
 
 **Kart:** `PTA-C1-2026.p0012`
 
@@ -60,6 +61,6 @@ Hız, tek başına daha yüksek doğruluk değildir. 2.2 — 20, 50 ve 200 periy
 
 TEKNİK SORUN — PİYASA ORTAMINI GÖRMEZDEN GELMEK Kesişim sistemi trend takip etmek için tasarlanmışsa, yatay piyasada da aynı başarıyı beklemek tasarım hatasıdır. Çözüm “daha iyi kesişim periyodu” aramak değil, sistemin hangi piyasa ortamında çalıştığını tanımlamaktır. 2.7 — Hangi kombinasyonlar faydalı, hangileri gereksiz tekrar?
 
-**Konular:** momentum, risk_management, volatility, trend_regime, volume_flow
+**Konular:** indicator_systems, momentum, risk_management, volatility, trend_regime
 
 **Kart:** `PTA-C1-2026.p0014`

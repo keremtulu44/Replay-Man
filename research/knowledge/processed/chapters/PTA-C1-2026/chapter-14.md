@@ -13,14 +13,14 @@
 
 ## Konu dağılımı
 
+- `indicator_systems`: 5 sayfa
 - `trend_regime`: 4 sayfa
 - `support_resistance`: 3 sayfa
 - `volume_flow`: 2 sayfa
-- `volatility`: 2 sayfa
 - `multi_timeframe`: 2 sayfa
 - `risk_management`: 1 sayfa
 - `breakout_failure`: 1 sayfa
-- `momentum`: 1 sayfa
+- `volatility`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -28,7 +28,7 @@
 
 BÖLÜM 14 Ichimoku Cloud: Beş Çizgiyi Tek Sistem Olarak Okumak Ichimoku tek bir gösterge değil, birkaç çizgiyi birlikte kullanan bir sistemdir. Çizgiler seçilen dönemlerin en yüksek ve en düşük fiyatlarının orta noktalarından türetilir. Bulut ve diğer çizgiler birlikte trendin yönünü, fiyatın konumunu ve olası destek/direnç bölgelerini okumaya yardım eder.
 
-**Konular:** support_resistance, volume_flow, risk_management, trend_regime, volatility
+**Konular:** support_resistance, indicator_systems, volume_flow, risk_management, trend_regime
 
 **Kart:** `PTA-C1-2026.p0084`
 
@@ -36,7 +36,7 @@ BÖLÜM 14 Ichimoku Cloud: Beş Çizgiyi Tek Sistem Olarak Okumak Ichimoku tek b
 
 Senkou çizgileri ise bugün hesaplanan değerlerin grafikte ileriye taşınmış halidir. 14.2 — “9 periyot hareketli ortalama” demek neden yanlıştır? SAYISAL ÖRNEK Son 9 bardaki en yüksek 112, en düşük 100 ise Tenkan = (112+100)/2 = 106’dır.
 
-**Konular:** trend_regime
+**Konular:** indicator_systems, trend_regime
 
 **Kart:** `PTA-C1-2026.p0085`
 
@@ -44,7 +44,7 @@ Senkou çizgileri ise bugün hesaplanan değerlerin grafikte ileriye taşınmı�
 
 14.4 — Chikou Span’ı “gecikmeli sinyal” değil karşılaştırma katmanı olarak okuyun Chikou Span bugünkü kapanışı geçmişe kaydırarak mevcut fiyatın 26 bar önceki fiyat bölgesine göre nerede olduğunu görmeye yardım eder. Chikou geçmiş fiyatların belirgin biçimde üzerindeyse bugünkü kapanış geçmiş fiyat bölgesinin üzerine taşınmıştır. Geçmiş fiyatların altındaysa bunun tersi görülür.
 
-**Konular:** support_resistance
+**Konular:** indicator_systems, support_resistance
 
 **Kart:** `PTA-C1-2026.p0086`
 
@@ -52,7 +52,7 @@ Senkou çizgileri ise bugün hesaplanan değerlerin grafikte ileriye taşınmı�
 
 Tenkan/Kijun kesişimi tek başına alış sinyali değildir. Fiyatın buluta göre konumu, ana yapı ve diğer Ichimoku katmanları aynı bağlamda okunmalıdır. 14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir Tenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir.
 
-**Konular:** support_resistance, breakout_failure, multi_timeframe, trend_regime
+**Konular:** support_resistance, indicator_systems, breakout_failure, multi_timeframe, trend_regime
 
 **Kart:** `PTA-C1-2026.p0087`
 
@@ -60,6 +60,6 @@ Tenkan/Kijun kesişimi tek başına alış sinyali değildir. Fiyatın buluta g�
 
 Çoklu zaman diliminde önce üst zaman dilimindeki Ichimoku görünümü, ardından alt zaman dilimindeki daha ayrıntılı fiyat davranışı incelenebilir. Belirli zaman dilimi eşleşmeleri evrensel değildir; amaç büyük resmi giriş zamanlamasından ayırmaktır. 14.10 — Bulut destek/direnç duvarı değildir Bulut çevresinde geçmiş reaksiyonlar görülebilir; ancak bulut geçmiş en yüksek/en düşük fiyatların orta noktalarından türetilir.
 
-**Konular:** trend_regime, volatility, volume_flow, multi_timeframe, momentum
+**Konular:** indicator_systems, trend_regime, volatility, volume_flow, multi_timeframe
 
 **Kart:** `PTA-C1-2026.p0088`

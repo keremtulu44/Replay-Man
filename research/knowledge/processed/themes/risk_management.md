@@ -1,6 +1,6 @@
 # risk_management
 
-**Kapsam:** 291 sayfa eşleşmesi
+**Kapsam:** 244 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 

@@ -1,6 +1,6 @@
 # ohlcv_data
 
-**Kapsam:** 32 sayfa eşleşmesi
+**Kapsam:** 24 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -76,13 +76,13 @@ Veri sözleşmesi ve mum özellikleri
 
 **Kaynak özeti (`source`):** Açılış İlk mumun açılışı Dizinin başlangıç referansı Kapanış Son mumun kapanışı Net sonucun başlangıca göre yeri En yüksek Dizideki en yüksek fiyat Ulaşılan en yüksek nokta En düşük Dizideki en düşük fiyat Ulaşılan en düşük nokta Birleşik mum bize net sonucu hızlı gösterir; fakat iç yolu saklar. Aynı açılış, kapanış, en yüksek ve en düşük değerlere sahip iki dizi, o noktalara çok farklı sırayla ulaşmış olabilir. Biri küçük geri çekilmelerle temiz biçimde ilerlerken diğeri aynı fiyat alanında birkaç kez gidip gelebilir.
 
-### 9. PTA-C1-2026 — PDF s. 41
+### 9. PTA-C1-2026 — PDF s. 50
 
-> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 41 DOĞRU ÇEVİRİ Düşük ATR = sakin piyasa. Donchian/fiyat yapısı kırılımı = yönlü giriş işareti. İlki yön vermez; ikincisi kırılımı gösterir. 6.8 — ATR’yi tek sayı yerine fiyat hareketliliği rejimi olarak okumak Piyasanın hareket genişliği zaman içinde sabit değildir. Düşük fiyat hareketliliği dönemlerini genişleme, yüksek hareketlilik ve yeniden sakinleşme dönemleri izleyebilir. ATR bu değişimin yönünü değil, hareket genişliğinin hangi evrede olduğunu izlemeye yardım eder. ATR uzun süre düşüyorsa fiyatın tipik hareket genişliği daralıyor; daha sonra yükselmeye başlıyorsa hareket genişliği yeniden büyüyor olabilir. Bu süreç yukarı veya aşağı yönde gerçekleşebilir. Dolayısıyla fiyat hareketliliği rejimi ile fiyat yönü ayrı tutulmalıdır. Güncel ATR ayrıca enstrümanın kendi geçmiş ATR değerleriyle karşılaştırılabilir. Tarihsel olarak sıra dışı derecede düşük ATR, piyasanın kendi yakın geçmişine göre sıkıştığını gösterir; hangi yönde kırılacağını söylemez. 6.9 — Hareketi ATR birimiyle ifade etmek Aynı yüzde hareket iki farklı enstrümanda aynı büyüklükte davranış anlamına gelmeyebilir. Bunun yerine güncel hareket, enstrümanın kendi ATR’sine bölünerek “normal” hareket genişliğine göre ifade edilebilir: Hareket büyüklüğü / ATR Örneğin 0,5 ATR’lik bir hareket son dönem tipik genişliğin yaklaşık yarısı, 2 ATR’lik bir hareket ise tipik genişliğin yaklaşık iki katıdır. Bu oran yön veya dönüş söylemez; yalnız hareketin enstrümanın kendi son dönem davranışına göre sıradan mı, olağan dışı mı olduğunu gösterir. …
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 50 BÖLÜM 8 Donchian Kanalı: Kırılımı Sadeleştirmek Donchian Kanalı son N mumun en yüksek ve en düşük fiyatlarını iki sınır olarak gösterir. Fiyat bu sınırın dışına çıktığında yeni bir kırılım oluşmuş olabilir. Bu, işleme giriş için bir işaret olabilir; ancak tek başına yön, stop ve pozisyon büyüklüğü belirlemez. HIZLI ROL — Ana görev: son N mumun en yüksek ve en düşük sınırını göstererek kırılımı fark etmek. Tek başına piyasa ortamını, riski veya başarısız kırılımın nasıl yönetileceğini söylemez. Ana risk: üst bandı “aşırı alım” sanmak veya her kırılımı tek başına işlem sistemi saymak. İyi eşleşme: ATR + hacim + fiyat yapısı. 8.1 — Üç çizgi nasıl oluşur? Çizgi Hesap mantığı Pratik anlam Üst bant Son N periyodun en yükseği Yeni N-periyot zirvesi / kırılım sınırı Alt bant Son N periyodun en düşüğü Yeni N-periyot dibi / aşağı kırılım sınırı Orta bant (Üst + Alt) / 2 Yatay piyasa orta noktası / takip eden stop Şekil 8.1 — Donchian Kanalı doğrudan son N periyot en yüksek/en düşük fiyat sınırlarından oluşur; standart sapma veya ATR içermez.
 
-**Bölüm/alt başlık:** 6 / 6.10 — ATR penceresi ve zaman dilimi “normal” tanımını değiştirir
+**Bölüm/alt başlık:** 8 / 8.1 — Üç çizgi nasıl oluşur?
 
-**Kaynak özeti (`source`):** DOĞRU ÇEVİRİ Düşük ATR = sakin piyasa. Donchian/fiyat yapısı kırılımı = yönlü giriş işareti. İlki yön vermez; ikincisi kırılımı gösterir.
+**Kaynak özeti (`source`):** BÖLÜM 8 Donchian Kanalı: Kırılımı Sadeleştirmek Donchian Kanalı son N mumun en yüksek ve en düşük fiyatlarını iki sınır olarak gösterir. Fiyat bu sınırın dışına çıktığında yeni bir kırılım oluşmuş olabilir. Bu, işleme giriş için bir işaret olabilir; ancak tek başına yön, stop ve pozisyon büyüklüğü belirlemez.
 
 ### 10. PTA-C2-2026 — PDF s. 9
 

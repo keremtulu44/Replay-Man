@@ -22,23 +22,27 @@
 ## Konu dağılımı
 
 - `automation_ai`: 23 sayfa
-- `strategy_design`: 13 sayfa
+- `strategy_design`: 11 sayfa
 - `validation_replay`: 10 sayfa
-- `liquidity_imbalance`: 9 sayfa
-- `risk_management`: 8 sayfa
+- `risk_management`: 7 sayfa
+- `liquidity_imbalance`: 7 sayfa
 - `trend_regime`: 6 sayfa
 - `multi_timeframe`: 5 sayfa
+- `fundamental_valuation`: 4 sayfa
 - `market_structure`: 4 sayfa
+- `portfolio_correlation`: 3 sayfa
 - `pullback`: 3 sayfa
-- `psychology_process`: 3 sayfa
 - `volume_flow`: 3 sayfa
 - `geometry_tools`: 3 sayfa
-- `relative_cross_market`: 2 sayfa
+- `psychology_process`: 2 sayfa
 - `fundamental_derivatives`: 2 sayfa
 - `momentum`: 1 sayfa
 - `support_resistance`: 1 sayfa
+- `execution_microstructure`: 1 sayfa
+- `crypto_specific`: 1 sayfa
 - `ohlcv_data`: 1 sayfa
-- `market_basics`: 1 sayfa
+- `hedge_arbitrage`: 1 sayfa
+- `relative_cross_market`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -54,7 +58,7 @@ BÖLÜM 16 Yapay Zekâ, Pine Script ve Araştırma Araçları AI önerisini doğ
 
 Bu Bölümün Amacı Bölüm 15’te grafik çalışma ortamını kurduk. Şimdi bu ortamda yapay zekâyı analiz yardımcısı, Pine Script’i kuralları görünür ve test edilebilir hâle getiren araç, araştırma platformlarını ise aday ve kaynak bulma katmanı olarak kullanacağız. Amacımız karar sorumluluğunu teknolojiye devretmek değil; tekrar eden işleri hızlandırırken hata kanıtını daha görünür hâle getirmektir.
 
-**Konular:** automation_ai, validation_replay, multi_timeframe, risk_management, strategy_design
+**Konular:** automation_ai, validation_replay, fundamental_valuation, multi_timeframe, portfolio_correlation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0330`
 
@@ -70,7 +74,7 @@ Bu Bölümün Amacı Bölüm 15’te grafik çalışma ortamını kurduk. Şimdi
 
 AI’nın uygun görevi İnsan denetimi Doğrudan verilmeyecek yetki Notları özetlemek ve karşılaştırmak Önemli ayrıntı atlandı mı? Kaynak görmeden gerçek kabul etmek Grafik için aday senaryo üretmek Swing, timeframe ve invalidation doğru mu? Tek cevaptan emir vermek Kural taslağı veya Pine kodu yazmak Tanım ve bar semantiği eşleşiyor mu?
 
-**Konular:** automation_ai, strategy_design, risk_management, validation_replay
+**Konular:** automation_ai, strategy_design, portfolio_correlation, risk_management, validation_replay
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0332`
 
@@ -150,7 +154,7 @@ Kanıtlanmamış kod değişikliği yapma. En küçük tanılayıcı plot/trace 
 
 Sonradan hayatta kalan/başarılı varlıklar mı seçildi? Lookahead, repaint veya gelecekteki endeks üyeliği var mı? Aynı bar close, gap, limit ve likidite gerçekçi mi?
 
-**Konular:** validation_replay, automation_ai, risk_management, trend_regime, liquidity_imbalance
+**Konular:** validation_replay, automation_ai, risk_management, trend_regime, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0342`
 
@@ -158,7 +162,7 @@ Sonradan hayatta kalan/başarılı varlıklar mı seçildi? Lookahead, repaint v
 
 16.11 Alarm, Otomasyon, Entegrasyon ve Güvenlik Integration (iki uygulama arasında veri veya komut akışı kurma), kolaylık sağlarken yeni güven ve hata yüzeyi oluşturur. Örneğin üçüncü taraf bir köprü, AI’nın grafik ve Pine araçlarına erişmesini sağlayabilir. Kitapta araç adı yerine şu soru korunur: Bu entegrasyon hangi veriyi okuyabilir, hangi komutu çalıştırabilir ve hangi yetkiye gerçekten ihtiyaç duyar?
 
-**Konular:** automation_ai, liquidity_imbalance, risk_management, validation_replay, psychology_process
+**Konular:** automation_ai, liquidity_imbalance, risk_management, validation_replay, crypto_specific
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0343`
 
@@ -166,7 +170,7 @@ Sonradan hayatta kalan/başarılı varlıklar mı seçildi? Lookahead, repaint v
 
 Screening adımı Aksiyon Kriter Büyüme, sağlık, değerleme ve risk ölçütlerini tanımla. Eksik veri Null değerlerin elenme veya işaretlenme kuralını yaz. Sıralama Tek skor yerine kriter katkılarını ayrı göster.
 
-**Konular:** automation_ai, risk_management, liquidity_imbalance, ohlcv_data, relative_cross_market
+**Konular:** automation_ai, risk_management, fundamental_valuation, liquidity_imbalance, ohlcv_data
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0344`
 
@@ -174,7 +178,7 @@ Screening adımı Aksiyon Kriter Büyüme, sağlık, değerleme ve risk ölçüt
 
 16.13 Ünlü Yatırımcı ve Kurumsal Portföy Araştırması Public holding / filing research (kurum veya yatırımcının açıklanmış raporlarından belirli tarihteki pozisyonları inceleme), canlı emir akışı değildir. Bir aracın “şu anda tutuyor” etiketi; çoğu zaman son açıklanmış rapor dönemini veya veri sağlayıcının işlediği kaydı temsil eder. Rapor tarihi ile bugünkü pozisyon aynı şey değildir.
 
-**Konular:** fundamental_derivatives, automation_ai, liquidity_imbalance, market_basics
+**Konular:** fundamental_derivatives, hedge_arbitrage, portfolio_correlation, automation_ai, liquidity_imbalance
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0345`
 
@@ -182,7 +186,7 @@ Screening adımı Aksiyon Kriter Büyüme, sağlık, değerleme ve risk ölçüt
 
 16.14 Fair Value, Hazır AI Stratejileri ve Model Riski Fair value estimate (belirli finansal veri, model ve varsayımlarla hesaplanan tahmini değer), gözlemlenen piyasa fiyatından farklı bir model çıktısıdır. Hazır AI stratejisi de seçtiği evren, yeniden dengeleme, veri ve hedef fonksiyonuna bağlı bir model ürünüdür. İkisi de yöntem açıklaması olmadan karar kanıtı sayılamaz.
 
-**Konular:** automation_ai, relative_cross_market, risk_management, fundamental_derivatives, liquidity_imbalance
+**Konular:** automation_ai, relative_cross_market, risk_management, fundamental_derivatives, fundamental_valuation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0346`
 
@@ -214,7 +218,7 @@ Uygulama Görseli 16.7 – Bölüm 16 tam ekran serisi: araştırma sorusu kayna
 
  Backtestte maliyet, benchmark, drawdown, örneklem, rejim ve out-of-sample kontrol edildi.  Screening ve değerleme çıktısında kaynak, timestamp, rapor dönemi ve model açık.  Kurumsal holding verisi canlı portföy gibi yorumlanmadı.
 
-**Konular:** automation_ai, risk_management, validation_replay, trend_regime, strategy_design
+**Konular:** automation_ai, risk_management, validation_replay, trend_regime, fundamental_valuation
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0350`
 

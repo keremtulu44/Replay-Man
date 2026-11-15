@@ -17,12 +17,12 @@
 - `volume_flow`: 5 sayfa
 - `multi_timeframe`: 5 sayfa
 - `breakout_failure`: 5 sayfa
+- `follow_through`: 4 sayfa
 - `pullback`: 4 sayfa
 - `momentum`: 2 sayfa
 - `candle_behavior`: 1 sayfa
 - `trend_regime`: 1 sayfa
-- `volatility`: 1 sayfa
-- `support_resistance`: 1 sayfa
+- `attempt_expectation`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -30,7 +30,7 @@
 
 BÖLÜM 12 Hacim ve Çoklu Zaman Dilimi: İkinci Katman Fiyat davranışını önce okuyun. Hacmi ve zaman dilimini, gördüğünüz davranışın gücünü ve bağlamını desteklemek için kullanın. Bu bölüm yeni bir sinyal sistemi kurmuyor.
 
-**Konular:** volume_flow, multi_timeframe, candle_behavior, breakout_failure
+**Konular:** volume_flow, multi_timeframe, candle_behavior, breakout_failure, follow_through
 
 **Kart:** `PTA-C2-2026.p0086`
 
@@ -46,7 +46,7 @@ Hacim yönü tek başına belirlemez; fiyat hareketine eşlik eden aktiviteyi ik
 
 Özellikle küçük mum + yüksek hacim, yüksek aktiviteye rağmen sınırlı fiyat ilerlemesi gösterir; bu durum ancak bağlam ve sonraki davranışla anlam kazanır. Kombinasyon Doğrudan gözlem Yanlış kısa yol Sonraki soru Büyük mum + yüksek hacim Geniş hareket + yüksek katılım “Kesin devam eder” Takip davranışı ve konum hareketi destekliyor mu? Büyük mum + düşük hacim Geniş hareket + düşük aktivite “Hareket sahtedir” Fiyat yapısı ve sonraki mumlar ne yapıyor?
 
-**Konular:** volume_flow, breakout_failure, pullback, trend_regime, volatility
+**Konular:** volume_flow, breakout_failure, follow_through, pullback, trend_regime
 
 **Kart:** `PTA-C2-2026.p0088`
 
@@ -62,7 +62,7 @@ kanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde
 
 Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum ve yapının gerçekten yön değiştirmesi ayrıca görülmelidir. 12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne yaparız? Kaynak 65 bu noktada net bir ayrım yapar.
 
-**Konular:** multi_timeframe, momentum, breakout_failure, pullback, support_resistance
+**Konular:** multi_timeframe, momentum, breakout_failure, follow_through, pullback
 
 **Kart:** `PTA-C2-2026.p0090`
 
@@ -70,7 +70,7 @@ Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum 
 
 12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız? Kaynak 66, bir seviyenin yalnızca temas edildiği için “çalıştığını” kabul etmez. Fiyat desteğe veya dirence değebilir, kısa süre durabilir ve sonra eski yönde ilerlemeye devam edebilir.
 
-**Konular:** pullback, breakout_failure, multi_timeframe
+**Konular:** pullback, breakout_failure, attempt_expectation, follow_through, multi_timeframe
 
 **Kart:** `PTA-C2-2026.p0091`
 

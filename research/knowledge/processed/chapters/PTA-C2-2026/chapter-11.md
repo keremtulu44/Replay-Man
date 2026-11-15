@@ -15,11 +15,12 @@
 ## Konu dağılımı
 
 - `pullback`: 6 sayfa
-- `trend_regime`: 5 sayfa
+- `trend_regime`: 4 sayfa
 - `breakout_failure`: 4 sayfa
 - `candle_behavior`: 3 sayfa
 - `volatility`: 3 sayfa
 - `support_resistance`: 2 sayfa
+- `follow_through`: 2 sayfa
 - `risk_management`: 1 sayfa
 - `psychology_process`: 1 sayfa
 - `patterns`: 1 sayfa
@@ -55,7 +56,7 @@ Solda bir sonraki belirgin engel uzakta olduğu için fiyatın önünde daha gen
 
 Sağda ise dışarıda kapanışın ardından ilerleme sürüyor. Aynı çizgiye temas edilmiş olsa da seviyeye verilen tepki farklıdır. Seviye testi Fiyat davranışı Okunan bilgi Sonraki kontrol Zorlanma / geri itilme Seviye aşılır ama kapanış tekrar içeri gelir O yöndeki ilerleme tutulamadı Karşı taraf gerçekten alan kazanıyor mu?
 
-**Konular:** pullback, breakout_failure, trend_regime, volatility
+**Konular:** pullback, breakout_failure, trend_regime, follow_through, volatility
 
 **Kart:** `PTA-C2-2026.p0082`
 
@@ -79,6 +80,6 @@ fiyatı eski alana kadar taşıyamamıştır. Böylece “ne kadar geri çekildi
 
 Yön Mum mevcut yapıyla aynı yönde mi, güçlü harekete karşı mı? Konum Mum swing, destek/direnç veya kırılım bölgesinin neresinde? Hareket alanı İlk belirgin engel ne kadar yakın?
 
-**Konular:** breakout_failure, pullback, support_resistance, multi_timeframe, trend_regime
+**Konular:** breakout_failure, pullback, support_resistance, follow_through, multi_timeframe
 
 **Kart:** `PTA-C2-2026.p0085`

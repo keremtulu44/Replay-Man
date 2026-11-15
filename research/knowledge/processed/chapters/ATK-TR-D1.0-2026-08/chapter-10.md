@@ -24,15 +24,18 @@
 - `multi_timeframe`: 21 sayfa
 - `trend_regime`: 15 sayfa
 - `strategy_design`: 14 sayfa
-- `psychology_process`: 11 sayfa
 - `market_structure`: 11 sayfa
+- `psychology_process`: 10 sayfa
 - `pullback`: 9 sayfa
 - `breakout_failure`: 8 sayfa
 - `momentum`: 5 sayfa
 - `risk_management`: 3 sayfa
 - `candle_behavior`: 3 sayfa
 - `support_resistance`: 2 sayfa
+- `swing_geometry`: 1 sayfa
+- `execution_microstructure`: 1 sayfa
 - `market_basics`: 1 sayfa
+- `indicator_systems`: 1 sayfa
 - `volume_flow`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -65,7 +68,7 @@ Tek grafik sorunu MTF’nin sağladığı bilgi Yanlış kullanım riski Giriş 
 
 Uptrend pullback Alt TF downtrend Normal geri çekilme adayı. Uptrend major low testi Alt TF range/transition Karar ve dönüş riski alanı. Range Alt TF trend Range sınırları arasında geçici yön.
 
-**Konular:** multi_timeframe, pullback, trend_regime, market_structure
+**Konular:** multi_timeframe, pullback, trend_regime, market_structure, swing_geometry
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0195`
 
@@ -81,7 +84,7 @@ Uptrend pullback Alt TF downtrend Normal geri çekilme adayı. Uptrend major low
 
 10.4 İşlem Stilinden Zaman Dilimine Zaman dilimini grafikte güzel göründüğü için değil, pozisyonu ne kadar tutacağım ve ekran başında ne kadar kalabileceğim için seçerim. Ana işlem zaman dilimi, kararlarımı ve işlem günlüğümü tuttuğum ölçektir. Üst ve alt zamanlar bunun çevresinde belirlenir.
 
-**Konular:** psychology_process, multi_timeframe, strategy_design
+**Konular:** psychology_process, multi_timeframe, strategy_design, execution_microstructure
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0197`
 
@@ -153,7 +156,7 @@ Gerçeklik: Alt zamanın HTF yönüne dönmesini beklemek faydalıdır; ancak MT
 
 Yeni yönde kabul Retest, follow-through, yeni HH/HL veya LH/LL. “Yeni trend doğrulanıyor.” Tablo 10.12 – Pullback’ten reversal’a kanıt zinciri EKRANDA NE ARIYORUM? • Önce değişen swing’in hangi zaman dilimine ait olduğunu yazın.
 
-**Konular:** momentum, trend_regime, market_structure, multi_timeframe, psychology_process
+**Konular:** momentum, trend_regime, indicator_systems, market_structure, multi_timeframe
 
 **Kart:** `ATK-TR-D1.0-2026-08.p0206`
 

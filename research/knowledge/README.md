@@ -9,7 +9,7 @@ Bu dizin PDF arşivinden farklıdır. Amaç, kaynak bilgisini kaybetmeden kitapl
 3. `themes/`: Benzer konuları, kaynakları silmeden bir araya getiren başlangıç temaları.
 4. `processed/*-cards.jsonl`: 778 sayfanın tamamı için bölüm, alt başlık, uzun kaynak şeridi, konu, ayrı yorum ve kullanım kayıtları.
 5. `processed/chapters/`: 24 + 21 + 13 olmak üzere 58 bölümün ayrı dosyaları; sayfa aralığı, alt başlık, konu dağılımı ve sayfa şeritleri.
-6. `processed/themes/`: 22 konu ailesinin kaynakları birleştirmeden yan yana getiren uzun dosyaları.
+6. `processed/themes/`: Son eksik konu denetimiyle genişletilen 40 konu ailesinin kaynakları birleştirmeden yan yana getiren uzun dosyaları.
 7. `processed/topic-index.json`: Konudan kaynak sayfa/kartına çift yönlü erişim indeksi.
 8. `processed/master-synthesis.md`: Bütün temaların ana kataloğu.
 9. `QUALITY_REVIEW.md`: Bulunan/düzeltilen sorunlar, bilinçli sınırlamalar ve “%100 kapsam” tanımı.

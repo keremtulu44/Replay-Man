@@ -19,10 +19,12 @@
 - `volatility`: 8 sayfa
 - `candle_behavior`: 6 sayfa
 - `breakout_failure`: 3 sayfa
+- `follow_through`: 3 sayfa
 - `pullback`: 3 sayfa
-- `trend_regime`: 2 sayfa
+- `attempt_expectation`: 2 sayfa
 - `support_resistance`: 1 sayfa
 - `momentum`: 1 sayfa
+- `trend_regime`: 1 sayfa
 - `psychology_process`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -47,7 +49,7 @@ Genişleme, taraflardan birinin bu alanın dışına doğru yeniden mesafe almay
 
 Renkten çok, sınırların genişletilememesi önemlidir. Yapı Asıl bilgi Yanlış kısa yol İç mum Bir mum önceki yüksek-düşük alanının dışına çıkamıyor. “İç mum = yön belli.” Çift iç mum İki mum boyunca daralma sürüyor; alan genişletilemiyor.
 
-**Konular:** candle_behavior, volatility, breakout_failure
+**Konular:** candle_behavior, volatility, breakout_failure, follow_through
 
 **Kart:** `PTA-C2-2026.p0038`
 
@@ -71,7 +73,7 @@ Az örtüşmeli harekette ise her yeni mum önceki alanın ötesinde daha fazla 
 
 Böylece daralma ve genişleme aynı grafikte art arda okunabilir hale gelir. İlk büyük mum önemli bir değişimdir; fakat onun devam edip etmeyeceği bir sonraki bölümde ele alacağımız kırılım kalitesi ve takip davranışıyla ayrıca değerlendirilecektir. ÜÇ MUM BİR YASA DEĞİLDİR Kaynak küçük mum kümesini en az üç mumla örnekliyor.
 
-**Konular:** volatility, breakout_failure, pullback
+**Konular:** volatility, breakout_failure, attempt_expectation, pullback
 
 **Kart:** `PTA-C2-2026.p0041`
 
@@ -87,7 +89,7 @@ Böylece daralma ve genişleme aynı grafikte art arda okunabilir hale gelir. İ
 
 İlk genişleme Dar alanın dışına çıkmayı deniyor. Başarısızlık / geri dönüş İlk hareket sürdürülemiyor. Yeniden sıkışma Fiyat tekrar dar bir alana giriyor.
 
-**Konular:** volatility, breakout_failure
+**Konular:** volatility, breakout_failure, follow_through
 
 **Kart:** `PTA-C2-2026.p0043`
 
@@ -95,6 +97,6 @@ Böylece daralma ve genişleme aynı grafikte art arda okunabilir hale gelir. İ
 
 6.9 — Sıkışmayı okurken hangi sırayı izleyelim? Inside bar, double inside bar, yoğun örtüşme, küçük mum kümesi ve dar fiyat aralığı farklı görünümler olabilir; fakat aynı temel soruya bağlanırlar: fiyat son birkaç mumda yeni alan üretmekte zorlanıyor mu? Bu sorunun cevabı evetse ikinci aşama, sıkışmanın nerede oluştuğunu ve hangi tarafın ilk genişlemeyi yaptığını izlemektir.
 
-**Konular:** candle_behavior, volatility, pullback, trend_regime
+**Konular:** candle_behavior, volatility, follow_through, attempt_expectation, pullback
 
 **Kart:** `PTA-C2-2026.p0044`

@@ -24,6 +24,7 @@
 - `volatility`: 2 sayfa
 - `validation_replay`: 1 sayfa
 - `candle_behavior`: 1 sayfa
+- `movement_quality`: 1 sayfa
 
 ## Sayfa şeritleri
 
@@ -71,7 +72,7 @@ TEKNİK DÜZELTME Standart profil renk sınıflamasında hacim, alt zaman dilimi
 
 Fiyat yönü ile Value Area’nın yönü ayrıca karşılaştırılabilir. Fiyat yeni düşükler üretirken Value Area da aşağı kayıyorsa hacmin yoğunlaştığı bölge de aşağı taşınıyordur. Fiyat hareket ederken Value Area veya POC aynı ölçüde taşınmıyorsa “fiyat nereye gitti?” ile “hacim nerede yoğunlaştı?” soruları farklı cevaplar verebilir.
 
-**Konular:** volume_flow, candle_behavior, trend_regime
+**Konular:** volume_flow, candle_behavior, movement_quality, trend_regime
 
 **Kart:** `PTA-C1-2026.p0071`
 

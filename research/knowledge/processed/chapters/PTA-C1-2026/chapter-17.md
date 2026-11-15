@@ -17,12 +17,13 @@
 - `geometry_tools`: 6 sayfa
 - `pullback`: 4 sayfa
 - `trend_regime`: 3 sayfa
-- `risk_management`: 2 sayfa
 - `support_resistance`: 2 sayfa
 - `volatility`: 2 sayfa
 - `candle_behavior`: 2 sayfa
+- `risk_management`: 1 sayfa
 - `psychology_process`: 1 sayfa
 - `volume_flow`: 1 sayfa
+- `indicator_systems`: 1 sayfa
 - `momentum`: 1 sayfa
 
 ## Sayfa şeritleri
@@ -79,6 +80,6 @@ SAYISAL ÖRNEK A=100, B=160, C=130 olsun. 1,272 projeksiyon: 130 + (60×1,272) =
 
 TEKNİK SORUN Fiyat seviyesi ile zaman bölgesini aynı şeymiş gibi yorumlamak hatadır. Fibonacci zaman aracı yalnız belirli bar/tarih çevresini gözlem penceresi olarak işaretler; kesin olay üretmez. 17.10 — En iyi kombinasyonlar ve tekrar riski Kombinasyon Rol ayrımı Değerlendirme Fib + Fiyat yapısı Fib = konum; Fiyat yapısı = davranış/bozulma Güçlü tamamlayıcı Fib + AVWAP Fib = oran; AVWAP = hacim ağırlıklı maliyet/konum Faydalı örtüşme; giriş işareti ayrı Fib + Volume Profile Fib = geometri; VP = fiyat seviyelerine göre hacim yoğunluğu Farklı veri sınıfları Fib + RSI / hareket gücü Fib = nerede; RSI = hareket gücü ne yapıyor Giriş işareti desteği olabilir Fib + Pitchfork İkisi de çizim ve hedef bölgesi üretir Kesişim faydalı olabilir ama iki bağımsız teyit değildir TEKRAR RİSKİ Retracement + Extension + Fib Fan aynı fiyat hareketinden türetiliyorsa, aynı bölgede birleşmeleri üç bağımsız teyit değildir.
 
-**Konular:** geometry_tools, volume_flow, momentum, candle_behavior, risk_management
+**Konular:** geometry_tools, volume_flow, indicator_systems, momentum, candle_behavior
 
 **Kart:** `PTA-C1-2026.p0110`
