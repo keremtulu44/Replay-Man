@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Replay-Man Knowledge Card",
+  "type": "object",
+  "required": ["id", "title", "family", "entries", "uses", "status"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z0-9_.-]+$"},
+    "title": {"type": "string"},
+    "family": {"type": "string"},
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["kind", "text"],
+        "properties": {
+          "kind": {"enum": ["source", "inference", "hypothesis"]},
+          "text": {"type": "string"},
+          "source_id": {"type": "string"},
+          "pages": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+          "section": {"type": "string"}
+        }
+      }
+    },
+    "uses": {"type": "array", "items": {"type": "string"}},
+    "related": {"type": "array", "items": {"type": "string"}},
+    "variants": {"type": "array", "items": {"type": "string"}},
+    "status": {"enum": ["extracted", "reviewed", "test_idea", "implemented", "measured", "rejected"]}
+  }
+}

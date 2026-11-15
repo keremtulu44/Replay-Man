@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "order": ["ATK-TR-D1.0-2026-08", "PTA-C1-2026", "PTA-C2-2026"],
+    "scope": "two_tier",
+    "detail": "layered",
+    "entry_order": ["source", "inference", "use"],
+    "conflicts": "preserve_as_testable_variants",
+    "formula_policy": "ideas_first_formulas_later"
+  },
+  "books": [
+    {
+      "source_id": "ATK-TR-D1.0-2026-08",
+      "ingestion": "complete",
+      "synthesis": "in_progress",
+      "chapters_total": 24,
+      "chapters_reviewed": [],
+      "scope_note": "Replay/araştırmaya doğrudan bağlı bölümler ayrıntılı; diğerleri kısa ve aranabilir."
+    },
+    {
+      "source_id": "PTA-C1-2026",
+      "ingestion": "complete",
+      "synthesis": "queued",
+      "chapters_total": 21,
+      "chapters_reviewed": [],
+      "scope_note": "İndikatör rolleri ve kombinasyonlar ayrıntılı işlenecek."
+    },
+    {
+      "source_id": "PTA-C2-2026",
+      "ingestion": "complete",
+      "synthesis": "queued",
+      "chapters_total": 13,
+      "chapters_reviewed": [],
+      "scope_note": "Fiyat davranışı bölümlerinin tamamı ayrıntılı işlenecek."
+    }
+  ],
+  "preliminary_themes": [
+    {
+      "path": "research/knowledge/themes/00-systematic-reading-framework.md",
+      "purpose": "Tam okuma öncesinde, üç eserde tekrar eden karar ve araştırma mimarisini kaynakları ayrı tutarak başlangıç çerçevesine bağlar."
+    }
+  ]
+}
