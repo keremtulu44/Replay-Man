@@ -270,6 +270,12 @@ EMA20/EMA50, ATR-normalize eğim ve yol verimliliğiyle trend_up, trend_down, ra
 
 XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün olayları havuzlayan evrensel çapraz piyasa yönü bulunmadı. RSI/MACD/Bollinger olayları eğitim ve test arasında işaret değiştirdi; çıplak indikatör avantajı yok. 23.136 ikili tepe ve 22.435 ikili dip yalnız eşit uç geometrisiyle kararlı sonuç vermedi. Tek seans bütün olaylarda üstün çıkmadı. 1 ATR hedef/stop testinde 75.054 hedef, 74.662 stop ve 2.037 aynı-bar belirsiz sonuç oluştu; çıplak 1:1 yönetim yazı-turaya yakındır.
 
+## BR-024 — Tek mum geometrisi varyantları
+
+912.810 örtüşebilen pin, marubozu, uzun kapanış ve fitil reddi olayı ölçüldü. 4h/60 testte boğa varyantları pozitif görünürken eğitimde belirgin negatiftir; ayı varyantları eğitimde pozitif, doğrulama/testte negatiftir. Mum adları zaman-kararlı bağımsız avantaj değildir. Sürekli gövde/fitil/kapanış değerleri bağlam girdisi olarak korunur.
+
+**Karar:** `tek_basina_kararsiz`; parametre varyantları ayrı avantaj sayılmayacak.
+
 # Sonraki kitap kuralları
 
-İlk on paket için başlangıç ölçüm katmanı tamamlandı. Bundan sonraki tur, olumlu adayların kombinasyon ve maliyet/parametre dayanıklılığı ile indikatörlerin fiyat davranışı çekirdeğine marjinal katkısını ayrıştıracaktır.
+Cilt 2 P3 çok mumlu diziler ve ortak baskı→geri alma→takip iskeletiyle devam edecektir.

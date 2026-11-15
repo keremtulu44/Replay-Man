@@ -3,21 +3,21 @@ C2-P004-C01,4,,C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atom
 C2-P005-C01,5,,C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P006-C01,6,1.1 — Tek mum neden tek başına yeterli değildir?,C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P007-C01,7,"1.2 — Mumun adı değil, davranışı önemlidir",C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
-C2-P008-C01,8,"1.2 — Mumun adı değil, davranışı önemlidir",C2-P2-single-candle,linked_needs_exhaustive_review,BR-016-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
+C2-P008-C01,8,"1.2 — Mumun adı değil, davranışı önemlidir",C2-P2-single-candle,linked_needs_exhaustive_review,BR-016-candle-geometry|BR-024-single-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P009-C01,9,1.4 — Birkaç mumu tek sonuç gibi görmek,C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
-C2-P010-C01,10,1.5 — Bir mum dizisine bakarken 5 soru,C2-P2-single-candle,linked_needs_exhaustive_review,BR-016-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
+C2-P010-C01,10,1.5 — Bir mum dizisine bakarken 5 soru,C2-P2-single-candle,linked_needs_exhaustive_review,BR-016-candle-geometry|BR-024-single-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P011-C01,11,1.5 — Bir mum dizisine bakarken 5 soru,C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P012-C01,12,2.1 — Mum büyüdüğünde ne değişir?,C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P013-C01,13,"2.3 — Temiz hareket mi, zorlanan hareket mi?",C2-P2-single-candle,linked_needs_exhaustive_review,BR-008-movement-quality,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P014-C01,14,2.4 — Gücü dört işaretle birlikte okuyun,C2-P2-single-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P015-C01,15,2.6 — Mumlar birbirinin içine ne kadar giriyor?,C2-P2-single-candle,linked_needs_exhaustive_review,BR-008-movement-quality|BR-009-overlap,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P016-C01,16,2.7 — Hangi taraf daha rahat ilerliyor?,C2-P2-single-candle,linked_needs_exhaustive_review,BR-008-movement-quality,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
-C2-P017-C01,17,3.1 — Fitille geri itilme tek başına dönüş değildir,C2-P4-pressure-quality,linked_needs_exhaustive_review,BR-007-probe-rejection,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
-C2-P018-C01,18,3.3 — Mumlar adım adım küçülüyorsa ne değişir?,C2-P4-pressure-quality,linked_needs_exhaustive_review,BR-011-pressure-decay,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
+C2-P017-C01,17,3.1 — Fitille geri itilme tek başına dönüş değildir,C2-P4-pressure-quality,linked_needs_exhaustive_review,BR-007-probe-rejection|BR-024-single-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
+C2-P018-C01,18,3.3 — Mumlar adım adım küçülüyorsa ne değişir?,C2-P4-pressure-quality,linked_needs_exhaustive_review,BR-011-pressure-decay|BR-024-single-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P019-C01,19,3.5 — Karşı tarafın mumları büyümeye başlıyorsa,C2-P4-pressure-quality,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P020-C01,20,3.5 — Karşı tarafın mumları büyümeye başlıyorsa,C2-P4-pressure-quality,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P021-C01,21,3.7 — Zayıflamayı okurken hangi sırayı izleyelim?,C2-P4-pressure-quality,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
-C2-P022-C01,22,3.7 — Zayıflamayı okurken hangi sırayı izleyelim?,C2-P4-pressure-quality,linked_needs_exhaustive_review,BR-011-pressure-decay,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
+C2-P022-C01,22,3.7 — Zayıflamayı okurken hangi sırayı izleyelim?,C2-P4-pressure-quality,linked_needs_exhaustive_review,BR-011-pressure-decay|BR-024-single-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P023-C01,23,4.1 — İki mumluk dönüş: ikinci mum ilk baskıyı geri alabiliyor mu?,C2-P3-multi-candle,linked_needs_exhaustive_review,BR-016-candle-geometry,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P024-C01,24,"4.2 — Üç mumluk dönüş: önce zayıflama, sonra güçlü karşı cevap",C2-P3-multi-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata
 C2-P025-C01,25,"4.3 — Üç mum giderek küçülüyorsa: zayıflama tek noktada değil, süreçte",C2-P3-multi-candle,open,,Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata

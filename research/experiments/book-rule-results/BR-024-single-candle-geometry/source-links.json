@@ -1,0 +1,95 @@
+[
+  {
+    "id": "PTA-C2-2026.p0008",
+    "source_id": "PTA-C2-2026",
+    "page": 8,
+    "chapter": 1,
+    "section": "1.2 — Mumun adı değil, davranışı önemlidir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n8 \n \nŞekil 1.2 — Büyük gövde ve küçük fitil mum içinde daha temiz ilerlemeyi; uzun fitil denenen fiyatların geri verildiğini; \nküçük gövde ve iki yönlü fitiller ise düşük net ilerlemeyi gösterir. \nDavranış Nasıl görünür? Mum içinde ne oldu? Tek başına söylemez \nGüç Yakındaki mumlara göre \nbüyük gövde, küçük fitiller \nBir taraf aldığı mesafenin büyük \nbölümünü kapanışa taşıdı. \nBu üstünlüğün \nsonraki mumlarda \nsüreceğini \nGeri itilme Belirgin uzun fitil, gövde \ndaha sınırlı \nFiyat bir yönde deneme yaptı ama o \nalanın önemli bölümü geri verildi. \nKarşı tarafın artık \ntam kontrolü aldığını \nKararsızlık Küçük gövde, iki yönlü \nfitiller \nİki yönde hareket oldu fakat \nkapanışta net ilerleme sınırlı kaldı. \nSonraki hareketin \nmutlaka kırılım veya \ndönüş olacağını \n \nGüçlü mumda gövde, yakınındaki mumlara göre belirgin biçimde daha büyüktür ve fitiller çoğu \nzaman daha küçüktür. Gövde büyürken fitiller küçülüyorsa, mum içinde alınan mesafenin daha \nbüyük bölümü kapanışta korunmuştur. Fitilin çok az olması da o mum içinde karşı tarafın fiyatı \ngeri itmekte zorlandığını gösterebilir. Yine de “büyük” ve “küçük” her zaman çevredeki \nmumlarla karşılaştırılır; bu göreli güç fikrini Bölüm 2’de ayrıntılandıracağız. \nUzun fitil, fiyatın bir yöne kadar gittiğini fakat kapanıştan önce o hareketin önemli bölümünün \ngeri verildiğini gösterir. Üst fitil yukarı denemenin, alt fitil aşağı denemenin geri itilmesidir. \nAncak fitilin yönü bize bir sonraki mumun yönünü garanti etmez; yalnız o mum içinde hangi \nfiyatların korunamadığını söyler. \nKararsız mumda gövde küçüktür ve iki tarafta da fitil görülebilir. Burada önemli fikir “iki taraf \neşit” demekten çok, mum içinde hareket olmasına rağmen net ilerlemenin sınırlı kalmasıdır. Bu \nnedenle kararsızlık kendi başına yön sinyali değildir; bir sonraki mumun hangi tarafta gerçek \nmesafe ürettiği daha değerlidir. \nAKLINDA KALSIN \nGüç, geri itilme ve kararsızlık birer işlem sinyali değil, o mumda gözlenen davranışın kısa adlarıdır. \nÖzellikle geri itilme ve kararsızlıkta asıl ağırlık, sonraki mumların hangi yönde gerçek ilerleme \nürettiğiyle ortaya çıkar.",
+    "source_extract_summary": [
+      "Tek başına söylemez Güç Yakındaki mumlara göre büyük gövde, küçük fitiller Bir taraf aldığı mesafenin büyük bölümünü kapanışa taşıdı.",
+      "Bu üstünlüğün sonraki mumlarda süreceğini Geri itilme Belirgin uzun fitil, gövde daha sınırlı Fiyat bir yönde deneme yaptı ama o alanın önemli bölümü geri verildi.",
+      "Karşı tarafın artık tam kontrolü aldığını Kararsızlık Küçük gövde, iki yönlü fitiller İki yönde hareket oldu fakat kapanışta net ilerleme sınırlı kaldı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0010",
+    "source_id": "PTA-C2-2026",
+    "page": 10,
+    "chapter": 1,
+    "section": "1.5 — Bir mum dizisine bakarken 5 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n10 \n \nŞekil 1.4 — Birleşik mum dizinin ilk açılışını, son kapanışını ve tüm dizinin en yüksek–en düşük fiyatını özetler; \nmumların bu sonuca hangi sırayla ulaştığını ise göstermez. \nBakılan nokta Nereden alınır? Bize ne söyler? \nAçılış İlk mumun açılışı Dizinin başlangıç referansı \nKapanış Son mumun kapanışı Net sonucun başlangıca göre yeri \nEn yüksek Dizideki en yüksek fiyat Ulaşılan en yüksek nokta \nEn düşük Dizideki en düşük fiyat Ulaşılan en düşük nokta \n \nBirleşik mum bize net sonucu hızlı gösterir; fakat iç yolu saklar. Aynı açılış, kapanış, en yüksek \nve en düşük değerlere sahip iki dizi, o noktalara çok farklı sırayla ulaşmış olabilir. Biri küçük \ngeri çekilmelerle temiz biçimde ilerlerken diğeri aynı fiyat alanında birkaç kez gidip gelebilir. \nÖzet mum aynı görünse bile hareketin kalitesi aynı değildir. \nBu nedenle birleşik mumu iki ayrı sorudan yalnız birine cevap vermek için kullanacağız: \n“Birkaç mumun net sonucu neydi?” İkinci soru — “Bu sonuca nasıl ulaşıldı?” — ancak gerçek \nmumların sırasına bakılarak cevaplanabilir. Kitabın geri kalanında bu iki bakışı birlikte \nkullanacağız. \nKULLANIM NOTU \nBirleşik mum bir özetleme aracıdır, dizinin yerine geçmez. Özet mum net sonucu gösterir; hız, \nörtüşme, ara geri çekilmeler ve hangi tarafın ne zaman güçlendiği gibi bilgileri görebilmek için gerçek \nmum sırasına geri dönün. \n \n1.5 — Bir mum dizisine bakarken 5 soru \nBu beş soru bir sinyal listesi değil; tek mumu sonuç gibi görmek yerine davranışın önce–şimdi–\nsonra bağlantısını koruyan kısa okuma sırasıdır. \nAdım Sorulacak soru Neye bakıyoruz? \n1. Önceki hareket Hangi yönde, ne kadar rahat ilerliyordu? Bağlam / baskı \n2. Şimdiki mum Ne denendi, ne geri verildi, kapanışta ne kaldı? Gövde / fitil / kapanış \n3. Sonraki cevap İlk mesaj korundu mu, geri mi alındı? Takip davranışı \n4. Gerçek ilerleme Yeni alan mı kazanıldı, aynı bölgeye mi dönüldü? Net mesafe \n5. Net özet Toplam sonuç neydi; oraya nasıl ulaşıldı? Özet + gerçek sıra",
+    "source_extract_summary": [
+      "Açılış İlk mumun açılışı Dizinin başlangıç referansı Kapanış Son mumun kapanışı Net sonucun başlangıca göre yeri En yüksek Dizideki en yüksek fiyat Ulaşılan en yüksek nokta En düşük Dizideki en düşük fiyat Ulaşılan en düşük nokta Birleşik mum bize net sonucu hızlı gösterir; fakat iç yolu saklar.",
+      "Aynı açılış, kapanış, en yüksek ve en düşük değerlere sahip iki dizi, o noktalara çok farklı sırayla ulaşmış olabilir.",
+      "Biri küçük geri çekilmelerle temiz biçimde ilerlerken diğeri aynı fiyat alanında birkaç kez gidip gelebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Veri sözleşmesi ve mum özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0017",
+    "source_id": "PTA-C2-2026",
+    "page": 17,
+    "chapter": 3,
+    "section": "3.1 — Fitille geri itilme tek başına dönüş değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n17 \nBÖLÜM 3 \nMomentum Kaybı ve Tükenme: \nFiyat Neden Yavaşlar? \nDönüşü tahmin etmeye değil, fiyatın eskisi kadar rahat ilerleyemediğini görmeye \nçalışın. \n \nBölüm 2’de hareketin mevcut kalitesini karşılaştırdık. Şimdi aynı ölçülerin zaman içinde \nbozulup bozulmadığını izleyeceğiz. Bir hareket aynı yönde sürerken mumların küçülmesi, aynı \nseviyenin tekrar tekrar geçilememesi veya karşı yöndeki mumların büyümesi bize ilerlemenin \nzorlaştığını gösterebilir. Bu bölümde amacımız “dönüşü bulmak” değil, önceki rahat ilerleyişin \nne zaman zayıflamaya başladığını fark etmektir. \nBU BÖLÜMÜN ANA FİKRİ \nZayıflama ile dönüş aynı şey değildir. Önce yalnızca şunu soracağız: Fiyat hâlâ aynı yönde eskisi \nkadar rahat ilerleyebiliyor mu? Cevap hayır olmaya başlıyorsa, sonraki mumları daha dikkatli izlemek \ngerekir. \n \n3.1 — Fitille geri itilme tek başına dönüş değildir \nUzun bir fitil, fiyatın bir yöne gitmeyi denediğini ama orada kalamadığını gösterir. Bu yararlı \nbir bilgidir; fakat tek başına yön değişti demek değildir. Fiyat bir seviyede birkaç kez geri itilse \nbile ana hareket bir süre daha devam edebilir. \nBu yüzden fitili gördüğümüzde hemen ters yön beklemek yerine sonrasına bakarız. Mumlar \nhâlâ aynı yönde büyük gövdelerle ilerliyor mu? Yoksa her yeni denemede alınan mesafe \nazalıyor mu? Karşı yöndeki mumlar belirginleşmeye başladı mı? Fitilin anlamı, bu soruların \ncevabıyla güçlenir veya zayıflar. \n \nŞekil 3.1 — Fitil tek başına yeterli değildir. Solda geri itilmelere rağmen hareket sürüyor; sağda ise fitillere küçülen \ngövdeler ve karşı yönde daha belirgin bir mum eşlik ediyor.",
+    "source_extract_summary": [
+      "BÖLÜM 3 Momentum Kaybı ve Tükenme: Fiyat Neden Yavaşlar?",
+      "Dönüşü tahmin etmeye değil, fiyatın eskisi kadar rahat ilerleyemediğini görmeye çalışın.",
+      "Bölüm 2’de hareketin mevcut kalitesini karşılaştırdık."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0018",
+    "source_id": "PTA-C2-2026",
+    "page": 18,
+    "chapter": 3,
+    "section": "3.3 — Mumlar adım adım küçülüyorsa ne değişir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n18 \nKOLAY KURAL \nFitili ilk uyarı olarak görün. Asıl soru şudur: Fitilden sonra fiyatın ilerlemesi gerçekten yavaşladı mı? \n \n3.2 — Zayıflama tek mumda oluşmaz \nTek bir küçük mum yalnızca kısa bir duraklama olabilir. Güçlü hareketlerde de zaman zaman \nküçük mumlar görülür. Bu nedenle bir mumun zayıf görünmesiyle bütün hareketi “tükendi” \ndiye okumayacağız. \nDaha anlamlı olan, birkaç mum boyunca aynı sorunun tekrar etmesidir. Örneğin fiyat yeni bir \ntepeye doğru ilerlerken önce büyük, sonra daha küçük ve sonra daha da küçük mumlar \noluşturuyorsa, her yeni mum önceki kadar mesafe alamıyor demektir. Bu, hareketin hız \nkaybettiğine dair daha düzenli bir işarettir. \nGörüntü Basit okuma \nTek küçük mum Kısa bir duraklama olabilir. \n2–3 mum boyunca küçülme İlerleme gücü azalıyor olabilir. \nKüçülmeye geri itilme de ekleniyor Zayıflama daha görünür hale gelir. \n \nACELE ETMEYİN \nBir zayıf mum yerine birkaç mumun birlikte ne yaptığına bakın. Tükenme çoğu zaman tek bir anda \ndeğil, adım adım gelişir. \n \n3.3 — Mumlar adım adım küçülüyorsa ne değişir? \nFiyat önemli bir seviyeye yaklaşırken mumların giderek küçülmesi, aynı yönde ilerlemek için \ndaha fazla zorlandığını gösterebilir. Büyük bir mumun ardından daha küçük, sonra daha da \nküçük mumlar geliyorsa alınan mesafe azalıyor demektir. \nBu durum özellikle fiyat belirgin bir destek veya direnç bölgesine yaklaşırken dikkat çekicidir. \nSon mumlarda fitiller de uzamaya başlıyorsa, yalnız hız kaybı değil geri itilme de görünür hale \ngelir. Yine de burada sonuç “kesin dönüş” değildir; yalnızca önceki rahat ilerleyişin \nbozulduğunu söyleriz.",
+    "source_extract_summary": [
+      "KOLAY KURAL Fitili ilk uyarı olarak görün.",
+      "Asıl soru şudur: Fitilden sonra fiyatın ilerlemesi gerçekten yavaşladı mı?",
+      "3.2 — Zayıflama tek mumda oluşmaz Tek bir küçük mum yalnızca kısa bir duraklama olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0022",
+    "source_id": "PTA-C2-2026",
+    "page": 22,
+    "chapter": 3,
+    "section": "3.7 — Zayıflamayı okurken hangi sırayı izleyelim?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n22 \nBakılacak nokta Ne görürsek dikkat artar? \nFitiller Aynı bölgede tekrar eden geri itilme. \nMum boyutu Aynı yöndeki gövdelerin adım adım küçülmesi. \nİlerleme Yeni mumların daha az mesafe alması. \nTekrarlanan denemeler Aynı seviyenin birkaç kez geçilememesi. \nKarşı taraf Karşı yöndeki mumların büyümeye başlaması. \nHareketin bütünü Yön sürse bile hareketin daha yavaş ve sıkışık hale gelmesi. \n \nHEPSİ AYNI ANDA GEREKMEZ \nBu işaretleri puanlama sistemi gibi kullanmayın. Ama birkaç tanesi aynı bölgede birlikte görülüyorsa, \nönceki hareketin eskisi kadar rahat ilerlemediğini söylemek için daha fazla nedenimiz olur. \n \nBÖLÜM SONUCU \nMomentum kaybı çoğu zaman “bir anda dönüş” şeklinde başlamaz. Önce mumlar küçülebilir, aynı \nseviye tekrar tekrar geçilemeyebilir ve karşı tarafın mumları büyüyebilir. Bir sonraki bölümde bu \nzayıflamanın kısa dönüş dizilerine nasıl dönüştüğünü inceleyeceğiz.",
+    "source_extract_summary": [
+      "Bakılacak nokta Ne görürsek dikkat artar?",
+      "Fitiller Aynı bölgede tekrar eden geri itilme.",
+      "Mum boyutu Aynı yöndeki gövdelerin adım adım küçülmesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  }
+]

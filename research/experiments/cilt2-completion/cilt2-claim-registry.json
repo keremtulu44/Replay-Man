@@ -218,7 +218,8 @@
         "breakout_failure"
       ],
       "linked_rules": [
-        "BR-016-candle-geometry"
+        "BR-016-candle-geometry",
+        "BR-024-single-candle-geometry"
       ],
       "target_package": "C2-P2-single-candle",
       "disposition": "tested_initial",
@@ -276,7 +277,8 @@
         "breakout_failure"
       ],
       "linked_rules": [
-        "BR-016-candle-geometry"
+        "BR-016-candle-geometry",
+        "BR-024-single-candle-geometry"
       ],
       "target_package": "C2-P2-single-candle",
       "disposition": "tested_initial",
@@ -451,7 +453,8 @@
         "momentum"
       ],
       "linked_rules": [
-        "BR-007-probe-rejection"
+        "BR-007-probe-rejection",
+        "BR-024-single-candle-geometry"
       ],
       "target_package": "C2-P4-pressure-quality",
       "disposition": "tested_initial",
@@ -478,7 +481,8 @@
         "pressure_decay"
       ],
       "linked_rules": [
-        "BR-011-pressure-decay"
+        "BR-011-pressure-decay",
+        "BR-024-single-candle-geometry"
       ],
       "target_package": "C2-P4-pressure-quality",
       "disposition": "tested_initial",
@@ -574,7 +578,8 @@
         "pressure_decay"
       ],
       "linked_rules": [
-        "BR-011-pressure-decay"
+        "BR-011-pressure-decay",
+        "BR-024-single-candle-geometry"
       ],
       "target_package": "C2-P4-pressure-quality",
       "disposition": "tested_initial",

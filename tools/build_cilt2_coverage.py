@@ -28,10 +28,10 @@ def main():
   claim={'claim_id':f"C2-P{c['page']:03d}-C01",'source_card':c['id'],'page':c['page'],'chapter':c.get('chapter'),'section':c.get('section'),'source_summary':c['source_extract_summary'],'inference':c['inference'],'possible_uses':c['possible_uses'],'topics':[t['id'] for t in c['topics']],'linked_rules':linked,'target_package':package,'disposition':disposition,'coverage_state':state}
   claims.append(claim)
   if state in {'open','linked_needs_exhaustive_review'}:unresolved.append({'claim_id':claim['claim_id'],'page':c['page'],'section':c.get('section'),'target_package':package,'current_state':state,'linked_rules':'|'.join(linked),'next_action':'Sayfadaki bütün ayrı iddiaları atomik kurallara ayır ve sonuç disposition ata'})
- with (OUT/'cilt2-page-coverage.csv').open('w',encoding='utf-8',newline='') as f:w=csv.DictWriter(f,fieldnames=FIELDS);w.writeheader();w.writerows(rows)
+ with (OUT/'cilt2-page-coverage.csv').open('w',encoding='utf-8',newline='') as f:w=csv.DictWriter(f,fieldnames=FIELDS,lineterminator='\n');w.writeheader();w.writerows(rows)
  (OUT/'cilt2-claim-registry.json').write_text(json.dumps({'schema_version':1,'source_id':'PTA-C2-2026','claims':claims},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
  with (OUT/'cilt2-unresolved-claims.csv').open('w',encoding='utf-8',newline='') as f:
-  fields=['claim_id','page','section','target_package','current_state','linked_rules','next_action'];w=csv.DictWriter(f,fieldnames=fields);w.writeheader();w.writerows(unresolved)
+  fields=['claim_id','page','section','target_package','current_state','linked_rules','next_action'];w=csv.DictWriter(f,fieldnames=fields,lineterminator='\n');w.writeheader();w.writerows(unresolved)
  counts={}
  for r in rows:counts[r['disposition']]=counts.get(r['disposition'],0)+1
  summary={'schema_version':1,'pages':len(rows),'pages_with_rule_links':sum(bool(r['linked_rule_ids']) for r in rows),'unique_linked_rules':len({x for r in rows for x in r['linked_rule_ids'].split('|') if x}),'disposition_counts':counts,'unresolved_claim_rows':len(unresolved),'blank_dispositions':sum(not r['disposition'] for r in rows),'completion_rule':'Cilt 2 tamamlanması için unresolved_claim_rows sıfır olmalı'}

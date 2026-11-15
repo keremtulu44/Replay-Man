@@ -388,6 +388,22 @@
       "decision": "1 ATR hedef/stop sayıları yaklaşık eşit; 2.037 aynı-bar sonucu belirsiz tutuldu.",
       "source_link": "research/experiments/book-rule-results/BR-023-risk-management/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-023-risk-management"
+    },
+    {
+      "id": "BR-024-single-candle-geometry",
+      "title": "Tek mum gövde fitil ve kapanış geometrisi",
+      "sources": [
+        "PTA-C2-2026.p0008",
+        "PTA-C2-2026.p0010",
+        "PTA-C2-2026.p0017",
+        "PTA-C2-2026.p0018",
+        "PTA-C2-2026.p0022"
+      ],
+      "events": [],
+      "status": "tek_basina_kararsiz",
+      "decision": "912.810 varyant olayı ölçüldü; pin, marubozu, uzun kapanış ve fitil reddi eğitim/test arasında işaret değiştirdi.",
+      "source_link": "research/experiments/book-rule-results/BR-024-single-candle-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-024-single-candle-geometry"
     }
   ]
 }

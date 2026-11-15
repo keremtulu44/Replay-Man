@@ -32,6 +32,7 @@ RULES = {
  "BR-021-formations": {"title":"İkili tepe ve dip geometrisi", "sources":["PTA-C2-2026.p0066","PTA-C2-2026.p0068"], "events":[], "status":"baglam_gerekli", "decision":"Yalnız eşit iki uç avantaj değil; boyun kırılımı ve yerleşim gerekli."},
  "BR-022-session-timing": {"title":"Seans ve gün içi zaman bağlamı", "sources":["ATK-TR-D1.0-2026-08.p0107"], "events":[], "status":"olay_bazinda_gerekli", "decision":"Tek seans bütün olaylarda üstün değil."},
  "BR-023-risk-management": {"title":"MFE MAE hedef stop ve bar içi belirsizlik", "sources":["ATK-TR-D1.0-2026-08.p0001"], "events":[], "status":"yazi_tura", "decision":"1 ATR hedef/stop sayıları yaklaşık eşit; 2.037 aynı-bar sonucu belirsiz tutuldu."},
+ "BR-024-single-candle-geometry": {"title":"Tek mum gövde fitil ve kapanış geometrisi", "sources":["PTA-C2-2026.p0008","PTA-C2-2026.p0010","PTA-C2-2026.p0017","PTA-C2-2026.p0018","PTA-C2-2026.p0022"], "events":[], "status":"tek_basina_kararsiz", "decision":"912.810 varyant olayı ölçüldü; pin, marubozu, uzun kapanış ve fitil reddi eğitim/test arasında işaret değiştirdi."},
 }
 
 def cards():
@@ -50,6 +51,7 @@ def main():
  batch_tables={name:pd.read_csv(batch_base/name) for name in ["time_regime_mtf_study.csv","pullback_depth_study.csv"]} if batch_base.exists() else {}
  advanced_base=ROOT/"measurements/book-batch2"
  advanced_files=["event_study.csv","cross_market_study.csv","risk_study.csv","summary.json"]
+ candle_base=ROOT/"measurements/cilt2-single-candles"
  registry=[]
  for slug,rule in RULES.items():
   folder=OUT/slug; folder.mkdir(parents=True,exist_ok=True)
@@ -75,6 +77,9 @@ def main():
   if slug.startswith(("BR-019","BR-020","BR-021","BR-022","BR-023")) and advanced_base.exists():
    for filename in advanced_files:
     (folder/filename).write_bytes((advanced_base/filename).read_bytes())
+  if slug.startswith("BR-024") and candle_base.exists():
+   for filename in ("event_study.csv","inventory.csv","summary.json"):
+    (folder/filename).write_bytes((candle_base/filename).read_bytes())
   record={"id":slug,**rule,"source_link":str(folder/"source-links.json"),"result_directory":str(folder)}
   registry.append(record)
  (OUT/"registry.json").write_text(json.dumps({"schema_version":1,"rules":registry},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
