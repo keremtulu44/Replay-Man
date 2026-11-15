@@ -18,24 +18,6 @@
     ]
   },
   {
-    "id": "PTA-C2-2026.p0019",
-    "source_id": "PTA-C2-2026",
-    "page": 19,
-    "chapter": 3,
-    "section": "3.5 — Karşı tarafın mumları büyümeye başlıyorsa",
-    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n19 \nŞekil 3.2 — Fiyat seviyeye yaklaşmaya devam ediyor; ancak her yeni mum daha az mesafe alıyor. Son bölümde küçük \ngövde ve daha uzun fitil, ilerlemenin zorlaştığını gösteriyor. \nSıra Ne görüyoruz? Ne değişiyor? \n1 Büyük yönlü mum Hareket rahat ilerliyor. \n2 Daha küçük mum Aynı yöndeki mesafe azalıyor. \n3 Biraz daha küçük mum Yavaşlama sürüyor. \n4 Küçük gövde + uzun fitil İlerleme az, geri itilme daha belirgin. \n \n3.4 — Aynı seviyede tekrar tekrar geri itilmek \nBir seviyede tek bir uzun fitil görmek başka, aynı seviyede birkaç kez geri itilmek başkadır. \nTekrar eden üst fitiller, alıcıların yukarı çıkmayı birkaç kez denediğini fakat fiyatı o bölgenin \nüzerinde tutamadığını gösterir. Alt fitillerde aynı mantık ters yönde geçerlidir. \nBurada önemli olan yalnız fitillerin uzunluğu değil, denemelerin sonucudur. Fiyat her seferinde \naynı bölgeyi geçmeye çalışıyor ama kapanışlar o alanın gerisine dönüyorsa, o taraf istediği \nilerlemeyi üretmekte zorlanıyor demektir. \n \nŞekil 3.3 — Aynı seviyeye yapılan birden fazla deneme sonuçsuz kalıyor. Tek bir fitilden çok, tekrar eden başarısız \ndenemelerin oluşturduğu davranış önemlidir. \nAKLINDA KALSIN \nBir fitil tek bir olaydır. Aynı bölgede tekrar eden fitiller ise o seviyede süren mücadelenin daha güçlü \nbir işaretidir. \n \n3.5 — Karşı tarafın mumları büyümeye başlıyorsa \nZayıflamayı yalnız eski tarafın küçülmesiyle okumayız. Bazen daha önemli değişim, karşı \nyöndeki mumların büyümeye başlamasıdır. Örneğin yükseliş mumları giderek küçülürken satış \nmumları önce küçük, sonra daha büyük gövdeler oluşturmaya başlıyorsa satıcılar mum başına \ndaha fazla mesafe almaya başlamış olabilir.",
-    "source_extract_summary": [
-      "Son bölümde küçük gövde ve daha uzun fitil, ilerlemenin zorlaştığını gösteriyor.",
-      "1 Büyük yönlü mum Hareket rahat ilerliyor.",
-      "2 Daha küçük mum Aynı yöndeki mesafe azalıyor."
-    ],
-    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
-    "possible_uses": [
-      "Mum geometrisi ve davranış özellikleri",
-      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri"
-    ]
-  },
-  {
     "id": "PTA-C2-2026.p0022",
     "source_id": "PTA-C2-2026",
     "page": 22,

@@ -19,7 +19,10 @@ RULES = {
  "BR-008-movement-quality": {"title":"Temiz hareket, örtüşme ve ilerleme verimliliği", "sources":["PTA-C2-2026.p0013","PTA-C2-2026.p0015","PTA-C2-2026.p0016","PTA-C2-2026.p0094"], "events":["acceptance"], "context":"movement_quality_band", "status":"olumlu_baglam", "decision":"4h aşağı acceptance içinde düşük ve yüksek verim bantları üç zaman bölümünde pozitif; orta bant doğrulamada negatif."},
  "BR-009-overlap": {"title":"Örtüşme arttıkça hareketin sıkışması", "sources":["PTA-C2-2026.p0015","PTA-C2-2026.p0038","PTA-C2-2026.p0044"], "events":["acceptance"], "context":"overlap_band", "status":"ornek_yetersiz_bant_var", "decision":"Düşük örtüşme testte güçlü; yüksek örtüşme testinde 60 bar hazır gözlem yok."},
  "BR-010-volatility-context": {"title":"Sıkışma, genişleme ve kırılım bağlamı", "sources":["PTA-C2-2026.p0038","PTA-C2-2026.p0041","PTA-C2-2026.p0044"], "events":["acceptance"], "context":"volatility_band", "status":"devam_et", "decision":"4h aşağı acceptance öncesi contracted bant üç zaman bölümünde pozitif ve testte belirgin; normal/expanded testte negatif."},
- "BR-011-pressure-decay": {"title":"Gövde ve ilerleme küçülmesiyle baskı kaybı", "sources":["PTA-C2-2026.p0018","PTA-C2-2026.p0019","PTA-C2-2026.p0022","PTA-C2-2026.p0033"], "events":["acceptance"], "context":"body_pressure_band", "status":"olumlu_baglam", "decision":"Decaying gövde baskısı 4h aşağı acceptance içinde üç bölümde pozitif ve testte expanding gruptan daha güçlü."},
+ "BR-011-pressure-decay": {"title":"Gövde ve ilerleme küçülmesiyle baskı kaybı", "sources":["PTA-C2-2026.p0018","PTA-C2-2026.p0022","PTA-C2-2026.p0033"], "events":["acceptance"], "context":"body_pressure_band", "status":"olumlu_baglam", "decision":"Decaying gövde baskısı 4h aşağı acceptance içinde üç bölümde pozitif ve testte expanding gruptan daha güçlü."},
+ "BR-012-second-attempt": {"title":"İkinci denemeyi ilk bacakla mesafe, süre ve hız açısından karşılaştır", "sources":["PTA-C2-2026.p0063","PTA-C2-2026.p0064","PTA-C2-2026.p0065","PTA-C2-2026.p0071","PTA-C2-2026.p0097"], "events":[], "attempt_events":["new_extreme_success","new_extreme_failure"], "status":"altyapi_tamam", "decision":"112.790 ikinci deneme olayı üretildi; çıplak sonuçlar dönem/yön bağımlı, oran bağlamları ayrıca korunuyor."},
+ "BR-013-new-extreme-success": {"title":"İkinci denemenin beklenen yeni ucu üretmesi", "sources":["PTA-C2-2026.p0064","PTA-C2-2026.p0067","PTA-C2-2026.p0097"], "events":[], "attempt_events":["new_extreme_success"], "status":"rejime_bagli", "decision":"Başarı etiketi tek başına devam avantajı değil; yön ve zaman bölümü arasında işaret değişiyor."},
+ "BR-014-new-extreme-failure": {"title":"İkinci denemenin yeni uç üretememesi", "sources":["PTA-C2-2026.p0065","PTA-C2-2026.p0070","PTA-C2-2026.p0071","PTA-C2-2026.p0097"], "events":[], "attempt_events":["new_extreme_failure"], "status":"baglam_gerekli", "decision":"4h yukarı deneme failure sonrası aşağı hipotezinde daha zayıf mesafe, uzun süre veya benzer hız alt grupları üç zaman bölümünde pozitif; çıplak olay kararlı değil."},
 }
 
 def cards():
@@ -32,6 +35,8 @@ def cards():
 def main():
  OUT.mkdir(parents=True,exist_ok=True); card_map=cards()
  tables={name:pd.read_csv(MEASURE/name) for name in ["structure_event_study.csv","structure_time_split_study.csv","structure_symbol_results.csv","book_context_rule_study.csv"]}
+ attempt_base=ROOT/"measurements/attempts"
+ attempt_tables={name:pd.read_csv(attempt_base/name) for name in ["attempt_time_split_study.csv","attempt_symbol_results.csv","attempt_context_study.csv"]} if attempt_base.exists() else {}
  registry=[]
  for slug,rule in RULES.items():
   folder=OUT/slug; folder.mkdir(parents=True,exist_ok=True)
@@ -48,6 +53,9 @@ def main():
     elif filename=="book_context_rule_study.csv":
      continue
     subset.to_csv(folder/filename,index=False)
+  if rule.get("attempt_events"):
+   for filename,table in attempt_tables.items():
+    table[table.event.isin(rule["attempt_events"])].to_csv(folder/filename,index=False)
   record={"id":slug,**rule,"source_link":str(folder/"source-links.json"),"result_directory":str(folder)}
   registry.append(record)
  (OUT/"registry.json").write_text(json.dumps({"schema_version":1,"rules":registry},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

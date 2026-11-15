@@ -174,7 +174,6 @@
       "title": "Gövde ve ilerleme küçülmesiyle baskı kaybı",
       "sources": [
         "PTA-C2-2026.p0018",
-        "PTA-C2-2026.p0019",
         "PTA-C2-2026.p0022",
         "PTA-C2-2026.p0033"
       ],
@@ -186,6 +185,61 @@
       "decision": "Decaying gövde baskısı 4h aşağı acceptance içinde üç bölümde pozitif ve testte expanding gruptan daha güçlü.",
       "source_link": "research/experiments/book-rule-results/BR-011-pressure-decay/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-011-pressure-decay"
+    },
+    {
+      "id": "BR-012-second-attempt",
+      "title": "İkinci denemeyi ilk bacakla mesafe, süre ve hız açısından karşılaştır",
+      "sources": [
+        "PTA-C2-2026.p0063",
+        "PTA-C2-2026.p0064",
+        "PTA-C2-2026.p0065",
+        "PTA-C2-2026.p0071",
+        "PTA-C2-2026.p0097"
+      ],
+      "events": [],
+      "attempt_events": [
+        "new_extreme_success",
+        "new_extreme_failure"
+      ],
+      "status": "altyapi_tamam",
+      "decision": "112.790 ikinci deneme olayı üretildi; çıplak sonuçlar dönem/yön bağımlı, oran bağlamları ayrıca korunuyor.",
+      "source_link": "research/experiments/book-rule-results/BR-012-second-attempt/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-012-second-attempt"
+    },
+    {
+      "id": "BR-013-new-extreme-success",
+      "title": "İkinci denemenin beklenen yeni ucu üretmesi",
+      "sources": [
+        "PTA-C2-2026.p0064",
+        "PTA-C2-2026.p0067",
+        "PTA-C2-2026.p0097"
+      ],
+      "events": [],
+      "attempt_events": [
+        "new_extreme_success"
+      ],
+      "status": "rejime_bagli",
+      "decision": "Başarı etiketi tek başına devam avantajı değil; yön ve zaman bölümü arasında işaret değişiyor.",
+      "source_link": "research/experiments/book-rule-results/BR-013-new-extreme-success/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-013-new-extreme-success"
+    },
+    {
+      "id": "BR-014-new-extreme-failure",
+      "title": "İkinci denemenin yeni uç üretememesi",
+      "sources": [
+        "PTA-C2-2026.p0065",
+        "PTA-C2-2026.p0070",
+        "PTA-C2-2026.p0071",
+        "PTA-C2-2026.p0097"
+      ],
+      "events": [],
+      "attempt_events": [
+        "new_extreme_failure"
+      ],
+      "status": "baglam_gerekli",
+      "decision": "4h yukarı deneme failure sonrası aşağı hipotezinde daha zayıf mesafe, uzun süre veya benzer hız alt grupları üç zaman bölümünde pozitif; çıplak olay kararlı değil.",
+      "source_link": "research/experiments/book-rule-results/BR-014-new-extreme-failure/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-014-new-extreme-failure"
     }
   ]
 }

@@ -212,6 +212,36 @@ bulunur. Rapor özetler; CSV'ler azaltılmamış sonuç tablolarını korur.
 5. Pivotu geometrik barında biliniyormuş gibi işlem yapmak: geleceği gösterir.
 6. Fitil/rejection'ı tek başına dönüş kabul etmek: dönem ve periyot arasında işaret değiştiriyor.
 
+## BR-012 — İlk ve ikinci deneme karşılaştırması
+
+**Kitap bağlantıları:** Cilt 2 s.63–65, 71 ve 97.
+
+**Uygulama:** Aynı yöndeki ardışık minor swing bacakları mesafe, süre, hız ve yol verimliliği oranlarıyla karşılaştırıldı. Olay ikinci bacağın bitiş swing'i teyit edildiğinde yayımlandı.
+
+**Kapsam:** 112.790 olay; 60.400 yeni uç başarısızlığı ve 52.390 yeni uç başarısı.
+
+**Karar:** `altyapi_tamam`. Çıplak sonuç yerine bacak oranları ve yeni uç sonucu ayrı kaydediliyor.
+
+## BR-013 — Beklenen yeni ucun üretilmesi
+
+**Uygulama:** İkinci yönlü bacak önceki aynı yönlü bacağın ucunu 0,10 ATR toleransla geçti; hipotez devam yönüdür.
+
+**4h/60 bar test:** Aşağı başarı→aşağı devam 217 olayda -%0,92 XU100-aşırı medyan ve %48,85 pozitif; yukarı başarı→yukarı devam 172 olayda %1,97 ve %58,14.
+
+**Kontrol:** Eğitim döneminde işaretler bunun tersidir. Dolayısıyla “yeni uç yaptıysa devam eder” genel kuralı kararlı değildir.
+
+**Karar:** `rejime_bagli`.
+
+## BR-014 — Beklenen yeni ucun üretilememesi
+
+**Uygulama:** İkinci deneme önceki ucu 0,10 ATR ötesinde geçemedi; hipotez denemenin ters yönüdür.
+
+**4h/60 bar test:** Aşağı deneme failure→yukarı 203 olayda %1,46 ve %57,64 pozitif; yukarı failure→aşağı 259 olayda -%0,70 ve %47,10 pozitif. Çıplak olay yönler arasında kararlı değildir.
+
+**Daha düzenli fakat küçük alt gruplar:** Yukarı deneme failure sonrası aşağı hipotezinde ikinci bacağın daha zayıf mesafeli olması eğitim/doğrulama/testte %4,02 / %0,04 / %1,68; daha uzun sürmesi %2,99 / %0,69 / %1,17; benzer hızlı olması %3,24 / %3,98 / %0,73 medyan verdi. Test örnekleri sırasıyla 42, 18 ve 29'dur.
+
+**Karar:** `baglam_gerekli`; alt gruplar olumlu işaret taşıyor fakat örnek sınırlı ve kombinasyon testi yapılmadı.
+
 # Sonraki kitap kuralları
 
-Sıradaki ölçüm paketi ilk/ikinci deneme, yeni uç üretimi, pullback mesafe/süre/hız ve swing bacak karşılaştırmasıdır. Sonrasında trend/range, çoklu zaman dilimi, seans ve göreceli güç eklenecektir. Her paket aynı kaynak bağlantı ve azaltılmamış CSV düzeninde kaydedilecektir.
+Sıradaki ölçüm paketi pullback mesafe/süre/hız, geri alma derinliği, tek/iki bacak ve eski kırılım bölgesine dönüş ölçümüdür. Sonrasında mum dizileri, trend/range, çoklu zaman dilimi, seans ve göreceli güç eklenecektir.
