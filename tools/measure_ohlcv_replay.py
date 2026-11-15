@@ -38,7 +38,7 @@ def main() -> int:
         event_results = attach_event_outcomes(events, bars, (5, 20))
         if len(event_results):
             event_results.insert(0, "group", path.parts[-5]); event_results.insert(1, "asset_id", str(bars.get("asset_id", pd.Series([path.parts[-4]])).iloc[0])); event_results.insert(2, "interval", path.stem)
-            event_samples.append(event_results[["group", "asset_id", "interval", "direction", "thesis_direction", "event", "directional_return_5", "directional_mfe_5", "directional_mae_5", "directional_return_20", "directional_mfe_20", "directional_mae_20"]])
+            event_samples.append(event_results[["group", "asset_id", "interval", "event_ts", "direction", "thesis_direction", "event", "directional_return_5", "directional_mfe_5", "directional_mae_5", "directional_return_20", "directional_mfe_20", "directional_mae_20"]])
         event_counts = events.event.value_counts()
         finite = features.select_dtypes("number").notna().sum()
         rows.append({
@@ -70,6 +70,14 @@ def main() -> int:
             median_mfe_20=("directional_mfe_20", "median"), median_mae_20=("directional_mae_20", "median"),
         ).reset_index()
         event_study.to_csv(args.output / "structure_event_study.csv", index=False)
+        symbol_grouped = all_events.groupby(["group", "asset_id", "interval", "event", "thesis_direction"], dropna=False)
+        symbol_results = symbol_grouped.agg(
+            observations=("event_ts", "size"), first_event=("event_ts", "min"), last_event=("event_ts", "max"),
+            median_return_5=("directional_return_5", "median"), win_rate_5=("directional_return_5", lambda x: float((x > 0).mean())),
+            median_return_20=("directional_return_20", "median"), win_rate_20=("directional_return_20", lambda x: float((x > 0).mean())),
+            median_mfe_20=("directional_mfe_20", "median"), median_mae_20=("directional_mae_20", "median"),
+        ).reset_index()
+        symbol_results.to_csv(args.output / "structure_symbol_results.csv", index=False)
     event_columns = ("probe_rejections", "close_breaks", "follow_throughs", "acceptances", "retest_holds", "failures")
     summary = {
         "schema_version": 1, "series": len(inventory), "assets": int(inventory.asset_id.nunique()) if len(inventory) else 0,
