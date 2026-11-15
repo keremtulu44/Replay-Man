@@ -1,0 +1,9 @@
+{
+  "assets": 125,
+  "files": 500,
+  "rows": 620094,
+  "errors": 0,
+  "warnings": 0,
+  "status": "passed",
+  "index": "data/ohlcv/index.csv"
+}

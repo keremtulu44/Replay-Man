@@ -104,16 +104,18 @@ python run.py --force-unlock
 
 ## Çıktılar
 
+Varlıklar fiziksel olarak altı gruba ayrılır: `bist_equities` (100), `bist_indices` (10), `global_indices` (6), `fx` (2), `metals` (5), `energy` (2). Böylece hisse, endeks, döviz ve emtia serileri birbirine karışmaz.
+
 | Yol | İçerik |
 |---|---|
-| `data/ohlcv/<asset_id>/<series_id>/series.json` | Enstrüman ve fiyat politikası manifesti |
+| `data/ohlcv/<group>/<asset_id>/<series_id>/series.json` | Enstrüman ve fiyat politikası manifesti |
 | `data/ohlcv/index.csv` | Tüm varlık/periyot dosyalarının satır, tarih, SHA-256 ve kalite indeksi |
-| `data/ohlcv/<asset_id>/<series_id>/bars/1h.csv` | Saatlik OHLCV + temettü/bölünme kolonları |
-| `data/ohlcv/<asset_id>/<series_id>/bars/2h.csv` | 1s veriden matematiksel olarak türetilmiş 2s |
-| `data/ohlcv/<asset_id>/<series_id>/bars/4h.csv` | 1s veriden matematiksel olarak türetilmiş 4s |
-| `data/ohlcv/<asset_id>/<series_id>/bars/1d.csv` | Sağlayıcının native günlük OHLCV serisi |
-| `data/ohlcv/<asset_id>/<series_id>/quality/1d_from_1h.csv` | Yalnızca kalite kontrolü için 1s'den günlük |
-| `data/ohlcv/<asset_id>/<series_id>/quality/daily_comparison.csv` | Native günlük/türetilmiş günlük karşılaştırması |
+| `data/ohlcv/<group>/<asset_id>/<series_id>/bars/1h.csv` | Saatlik OHLCV + temettü/bölünme kolonları |
+| `data/ohlcv/<group>/<asset_id>/<series_id>/bars/2h.csv` | 1s veriden matematiksel olarak türetilmiş 2s |
+| `data/ohlcv/<group>/<asset_id>/<series_id>/bars/4h.csv` | 1s veriden matematiksel olarak türetilmiş 4s |
+| `data/ohlcv/<group>/<asset_id>/<series_id>/bars/1d.csv` | Sağlayıcının native günlük OHLCV serisi |
+| `data/ohlcv/<group>/<asset_id>/<series_id>/quality/1d_from_1h.csv` | Yalnızca kalite kontrolü için 1s'den günlük |
+| `data/ohlcv/<group>/<asset_id>/<series_id>/quality/daily_comparison.csv` | Native günlük/türetilmiş günlük karşılaştırması |
 | `data/reports/latest.md` | İnsan-okunur son rapor |
 | `data/reports/summary.json` | Makine-okunur özet |
 | `data/reports/tasks.csv` | Seçili varlık/seri/periyot görevleri, deneme sayıları, sonraki deneme zamanları |
@@ -135,7 +137,7 @@ timestamp_basis, session_date_basis, fetched_at
 
 Varsayılan olarak `auto_adjust=false`: ham OHLC korunur, sağlayıcının verdiği `adj_close` ayrı tutulur. Sağlayıcı `adj_close` vermezse veya NaN/sonsuz değer verirse `close` kopyalanmaz; değer boş kalır ve `adj_close_source=missing` yazılır. Sağlayıcının ilettiği sembol/para birimi/enstrüman türü uyuşmazlığı reddedilir; eksik metadata doğrulanmış sayılmaz. `POINTS` katalog biriminin para birimi/birim anlamı ayrıca doğrulanacaktır. Naive timestamp ancak sağlayıcı borsa zaman dilimi varsa yorumlanır; yoksa reddedilir.
 
-`series_id`; sembol, varlık sınıfı, katalog para birimi ve fiyat politikasının SHA-256 kimliğidir. Sembol veya `auto_adjust/back_adjust/repair/keepna/actions/prepost` değişirse yeni dizin ve yeni görev kuyruğu oluşur; eski seri silinmez. Seri kimliği olmayan eski SQLite görevleri `tasks_legacy_v1` tablosunda korunur ve yeni seriye otomatik `complete` olarak taşınmaz. Eski `/data/ohlcv/<asset_id>/1h.csv` düzenindeki dosyalar da yerinde bırakılır; yeni düzen sürümlü dizindir.
+`series_id`; sembol, varlık sınıfı, katalog para birimi ve fiyat politikasının SHA-256 kimliğidir. Sembol veya `auto_adjust/back_adjust/repair/keepna/actions/prepost` değişirse yeni dizin ve yeni görev kuyruğu oluşur; eski seri silinmez. Seri kimliği olmayan eski SQLite görevleri `tasks_legacy_v1` tablosunda korunur ve yeni seriye otomatik `complete` olarak taşınmaz. Eski `/data/ohlcv/<group>/<asset_id>/1h.csv` düzenindeki dosyalar da yerinde bırakılır; yeni düzen sürümlü dizindir.
 
 `--symbols`, `--limit`, `--interval` ve `--retry-failed` yalnızca seçili varlık/seri/periyot görevlerini etkiler. `task_counts` seçili koşuyu, `queue_task_counts` tüm veritabanını gösterir. `coverage.csv` yalnızca seçili kapsamı içerir; `task_rows` görev satırları toplamıdır, benzersiz fiziksel CSV satır sayısı değildir.
 
@@ -217,7 +219,15 @@ BIST 100 listesi 13 Kasım 2026 tarihli ikincil kaynak anlık listesidir; resmî
 
 ---
 
-## Testler
+## Tam veri denetimi ve testler
+
+Tüm 125 varlığın 500 ana OHLCV dosyasını; şema, zaman sırası, tekrar, OHLC matematiği ve 1s→2s/4s yeniden üretim eşitliği açısından denetlemek için:
+
+```bash
+python -m tools.audit_ohlcv
+```
+
+Sonuçlar `data/ohlcv/audit_summary.json` ve `audit_findings.csv` dosyalarına yazılır. Yazılım testleri:
 
 ```bash
 python -m pip install -r requirements-dev.txt

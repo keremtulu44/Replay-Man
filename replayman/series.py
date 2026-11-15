@@ -36,21 +36,42 @@ def build_series(asset: Asset, settings: Settings) -> Series:
     return Series(series_id, {**manifest, "series_id": series_id})
 
 
+DATA_GROUPS = {
+    "bist100_equity": "bist_equities",
+    "bist_index": "bist_indices",
+    "global_index": "global_indices",
+    "fx": "fx",
+    "metals": "metals",
+    "oil": "energy",
+}
+
+
+def data_group(asset: Asset) -> str:
+    try:
+        return DATA_GROUPS[asset.category]
+    except KeyError as exc:
+        raise ValueError(f"Bilinmeyen veri grubu kategorisi: {asset.category}") from exc
+
+
+def series_path(root: Path, asset: Asset, series: Series) -> Path:
+    return root / data_group(asset) / asset.id / series.id
+
+
 def price_path(settings: Settings, asset: Asset, series: Series, interval: str) -> Path:
-    return settings.output_dir / asset.id / series.id / "bars" / f"{interval}.csv"
+    return series_path(settings.output_dir, asset, series) / "bars" / f"{interval}.csv"
 
 
 def derived_path(settings: Settings, asset: Asset, series: Series) -> Path:
-    return settings.derived_dir / asset.id / series.id / "bars"
+    return series_path(settings.derived_dir, asset, series) / "bars"
 
 
 def quality_path(settings: Settings, asset: Asset, series: Series) -> Path:
-    return settings.derived_dir / asset.id / series.id / "quality"
+    return series_path(settings.derived_dir, asset, series) / "quality"
 
 
 def publish_manifest(settings: Settings, asset: Asset, series: Series) -> Path:
     """Aynı kimlikli manifesti doğrula; farklı içeriği sessizce değiştirme."""
-    directory = settings.output_dir / asset.id / series.id
+    directory = series_path(settings.output_dir, asset, series)
     directory.mkdir(parents=True, exist_ok=True)
     path = directory / "series.json"
     if path.exists():

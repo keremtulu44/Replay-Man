@@ -72,7 +72,7 @@ find data/ohlcv -name '1d.csv' -type f | head
 Bir CSV'yi görmek için, önce yukarıdaki `find` çıktısındaki gerçek yolu kullanın:
 
 ```bash
-head -n 5 data/ohlcv/BIST_ASELS/*/bars/1d.csv
+head -n 5 data/ohlcv/bist_equities/BIST_ASELS/*/bars/1d.csv
 ```
 
 CSV'de `ts_utc,session_date,open,high,low,close,adj_close,volume` alanları bulunur. Ham OHLC korunur (`auto_adjust=false`); düzeltilmiş kapanış ayrı kolondadır.

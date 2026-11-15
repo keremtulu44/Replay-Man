@@ -21,7 +21,7 @@ def build_dataset_index(settings: Settings) -> Path:
     for root in sorted(roots, key=str):
         if not root.exists():
             continue
-        for path in sorted(root.glob("*/*/bars/*.csv")):
+        for path in sorted(root.glob("*/*/*/bars/*.csv")):
             interval = path.stem
             if interval not in INTERVALS:
                 continue
@@ -43,7 +43,9 @@ def build_dataset_index(settings: Settings) -> Path:
                 raise InvalidData(f"Geçersiz OHLC satırı: {path}; adet={int(invalid.sum())}")
             complete = frame["complete"].astype(bool) if "complete" in frame else pd.Series(True, index=frame.index)
             payload = path.read_bytes()
+            relative = path.relative_to(root)
             rows.append({
+                "group": relative.parts[0],
                 "asset_id": frame["asset_id"].iloc[0],
                 "symbol": frame["symbol"].iloc[0],
                 "series_id": frame["series_id"].iloc[0],
@@ -58,7 +60,7 @@ def build_dataset_index(settings: Settings) -> Path:
             })
     if not rows:
         raise InvalidData("İndekslenecek OHLCV dosyası bulunamadı")
-    index = pd.DataFrame(rows).sort_values(["asset_id", "interval"])
+    index = pd.DataFrame(rows).sort_values(["group", "asset_id", "interval"])
     target = Path(settings.output_dir) / "index.csv"
     target.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.NamedTemporaryFile(dir=target.parent, delete=False, suffix=".tmp", mode="w", encoding="utf-8", newline="") as handle:

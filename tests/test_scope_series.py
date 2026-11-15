@@ -135,7 +135,7 @@ def test_derived_files_follow_source_series(settings, catalog_path):
     asset = load_catalog(catalog_path, symbols=["GOLD"])[0][0]
     series_id = summary["scope"]["series_ids"]["METAL_GOLD"]
     directory = derived_path(settings, asset, build_series(asset, settings))
-    assert directory == settings.derived_dir / "METAL_GOLD" / series_id / "bars"
+    assert directory == settings.derived_dir / "metals" / "METAL_GOLD" / series_id / "bars"
     assert (directory / "2h.csv").exists()
     assert (pd.read_csv(directory / "2h.csv")["series_id"] == series_id).all()
     assert (quality_path(settings, asset, build_series(asset, settings)) / "daily_comparison.csv").exists()
