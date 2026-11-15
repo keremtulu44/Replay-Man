@@ -1,0 +1,17 @@
+{
+  "events": 1350145,
+  "assets": 125,
+  "event_counts": {
+    "progress_decay_0.8": 217819,
+    "body_decay_0.8": 216311,
+    "body_progress_decay_0.8": 181432,
+    "overlap_rise_0.10": 165591,
+    "progress_decay_0.6": 150917,
+    "body_decay_0.6": 147931,
+    "body_progress_decay_0.6": 118256,
+    "triple_decay_0.8": 80573,
+    "triple_decay_0.6": 55979,
+    "confirmed_counter_0.8": 9440,
+    "confirmed_counter_0.6": 5896
+  }
+}

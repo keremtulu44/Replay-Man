@@ -34,6 +34,7 @@ RULES = {
  "BR-023-risk-management": {"title":"MFE MAE hedef stop ve bar içi belirsizlik", "sources":["ATK-TR-D1.0-2026-08.p0001"], "events":[], "status":"yazi_tura", "decision":"1 ATR hedef/stop sayıları yaklaşık eşit; 2.037 aynı-bar sonucu belirsiz tutuldu."},
  "BR-024-single-candle-geometry": {"title":"Tek mum gövde fitil ve kapanış geometrisi", "sources":["PTA-C2-2026.p0008","PTA-C2-2026.p0010","PTA-C2-2026.p0017","PTA-C2-2026.p0018","PTA-C2-2026.p0022"], "events":[], "status":"tek_basina_kararsiz", "decision":"912.810 varyant olayı ölçüldü; pin, marubozu, uzun kapanış ve fitil reddi eğitim/test arasında işaret değiştirdi."},
  "BR-025-multi-candle-sequences": {"title":"İki üç ve çok mumlu davranış dizileri", "sources":["PTA-C2-2026.p0023","PTA-C2-2026.p0026","PTA-C2-2026.p0027","PTA-C2-2026.p0029","PTA-C2-2026.p0030","PTA-C2-2026.p0034"], "events":[], "status":"cogu_rejime_bagli", "decision":"343.617 dizi ölçüldü; three crows üç zaman bölümünde pozitif, diğer çoğu dizi işaret değiştirdi."},
+ "BR-026-pressure-loss": {"title":"Gövde ilerleme ve örtüşmeyle baskı kaybı", "sources":["PTA-C2-2026.p0013","PTA-C2-2026.p0017","PTA-C2-2026.p0018","PTA-C2-2026.p0019","PTA-C2-2026.p0022","PTA-C2-2026.p0033"], "events":[], "status":"context_only_negative_as_reversal", "decision":"1.350.145 varyant ölçüldü; testte bütün çıplak ters-yön hipotezleri negatif. Zayıflama otomatik dönüş değil."},
 }
 
 def cards():
@@ -54,6 +55,7 @@ def main():
  advanced_files=["event_study.csv","cross_market_study.csv","risk_study.csv","summary.json"]
  candle_base=ROOT/"measurements/cilt2-single-candles"
  multi_candle_base=ROOT/"measurements/cilt2-multi-candles"
+ pressure_base=ROOT/"measurements/cilt2-pressure-quality"
  registry=[]
  for slug,rule in RULES.items():
   folder=OUT/slug; folder.mkdir(parents=True,exist_ok=True)
@@ -85,6 +87,9 @@ def main():
   if slug.startswith("BR-025") and multi_candle_base.exists():
    for filename in ("event_study.csv","inventory.csv","summary.json"):
     (folder/filename).write_bytes((multi_candle_base/filename).read_bytes())
+  if slug.startswith("BR-026") and pressure_base.exists():
+   for filename in ("event_study.csv","event_overall_study.csv","inventory.csv","summary.json"):
+    (folder/filename).write_bytes((pressure_base/filename).read_bytes())
   record={"id":slug,**rule,"source_link":str(folder/"source-links.json"),"result_directory":str(folder)}
   registry.append(record)
  (OUT/"registry.json").write_text(json.dumps({"schema_version":1,"rules":registry},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

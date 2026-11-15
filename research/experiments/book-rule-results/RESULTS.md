@@ -282,6 +282,12 @@ XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün o
 
 **Karar:** Three crows `devam_et_ornek_sinirli`; diğer çoğu dizi `rejime_bagli/kararsiz`.
 
+## BR-026 — Baskı kaybı ve hareket kalitesi
+
+1.350.145 gövde küçülmesi, ilerleme küçülmesi, örtüşme artışı ve birleşik varyant ölçüldü. 4h/60 testte önceki yükseliş sonrası ters-yön medyanları yaklaşık -%3,1 ile -%5,4; önceki düşüş sonrası yaklaşık -%0,8 ile -%6,0 arasındadır. Güçlü karşı mum eklemek de avantaj üretmedi.
+
+**Karar:** Baskı kaybı `context_only`; bağımsız dönüş sinyali olarak `negative`. Kitabın “zayıflama dönüş değildir” uyarısı desteklendi.
+
 # Sonraki kitap kuralları
 
-Cilt 2 P4 baskı, zayıflama ve hareket kalitesi bileşenlerinin tekil ve birleşik katkısıyla devam edecektir.
+Cilt 2 P5 sıkışma, genişleme, ilk taşma ve karşı tarafa genişleme zinciriyle devam edecektir.

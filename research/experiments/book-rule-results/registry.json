@@ -421,6 +421,23 @@
       "decision": "343.617 dizi ölçüldü; three crows üç zaman bölümünde pozitif, diğer çoğu dizi işaret değiştirdi.",
       "source_link": "research/experiments/book-rule-results/BR-025-multi-candle-sequences/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-025-multi-candle-sequences"
+    },
+    {
+      "id": "BR-026-pressure-loss",
+      "title": "Gövde ilerleme ve örtüşmeyle baskı kaybı",
+      "sources": [
+        "PTA-C2-2026.p0013",
+        "PTA-C2-2026.p0017",
+        "PTA-C2-2026.p0018",
+        "PTA-C2-2026.p0019",
+        "PTA-C2-2026.p0022",
+        "PTA-C2-2026.p0033"
+      ],
+      "events": [],
+      "status": "context_only_negative_as_reversal",
+      "decision": "1.350.145 varyant ölçüldü; testte bütün çıplak ters-yön hipotezleri negatif. Zayıflama otomatik dönüş değil.",
+      "source_link": "research/experiments/book-rule-results/BR-026-pressure-loss/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-026-pressure-loss"
     }
   ]
 }

@@ -344,7 +344,8 @@
         "pressure_decay"
       ],
       "linked_rules": [
-        "BR-008-movement-quality"
+        "BR-008-movement-quality",
+        "BR-026-pressure-loss"
       ],
       "target_package": "C2-P2-single-candle",
       "disposition": "tested_initial",
@@ -454,7 +455,8 @@
       ],
       "linked_rules": [
         "BR-007-probe-rejection",
-        "BR-024-single-candle-geometry"
+        "BR-024-single-candle-geometry",
+        "BR-026-pressure-loss"
       ],
       "target_package": "C2-P4-pressure-quality",
       "disposition": "tested_initial",
@@ -482,7 +484,8 @@
       ],
       "linked_rules": [
         "BR-011-pressure-decay",
-        "BR-024-single-candle-geometry"
+        "BR-024-single-candle-geometry",
+        "BR-026-pressure-loss"
       ],
       "target_package": "C2-P4-pressure-quality",
       "disposition": "tested_initial",
@@ -508,10 +511,12 @@
         "candle_behavior",
         "movement_quality"
       ],
-      "linked_rules": [],
+      "linked_rules": [
+        "BR-026-pressure-loss"
+      ],
       "target_package": "C2-P4-pressure-quality",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "disposition": "tested_initial",
+      "coverage_state": "linked_needs_exhaustive_review"
     },
     {
       "claim_id": "C2-P020-C01",
@@ -579,7 +584,8 @@
       ],
       "linked_rules": [
         "BR-011-pressure-decay",
-        "BR-024-single-candle-geometry"
+        "BR-024-single-candle-geometry",
+        "BR-026-pressure-loss"
       ],
       "target_package": "C2-P4-pressure-quality",
       "disposition": "tested_initial",
@@ -870,7 +876,8 @@
       ],
       "linked_rules": [
         "BR-011-pressure-decay",
-        "BR-017-trend-range-regime"
+        "BR-017-trend-range-regime",
+        "BR-026-pressure-loss"
       ],
       "target_package": "C2-P3-multi-candle",
       "disposition": "tested_initial",
