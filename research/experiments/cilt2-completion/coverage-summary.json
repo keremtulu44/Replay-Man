@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "pages": 109,
+  "pages_with_rule_links": 51,
+  "unique_linked_rules": 19,
+  "disposition_counts": {
+    "reference_only": 3,
+    "pending_package": 54,
+    "tested_initial": 51,
+    "deferred_ob_fvg": 1
+  },
+  "unresolved_claim_rows": 105,
+  "blank_dispositions": 0,
+  "completion_rule": "Cilt 2 tamamlanması için unresolved_claim_rows sıfır olmalı"
+}
