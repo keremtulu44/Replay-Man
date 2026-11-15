@@ -1,5 +1,7 @@
 # Replay-Man — Yahoo Veri İndirme Sistemi
 
+Araştırma/replay tasarım kaynakları, sürümlü kitap kataloğu ve kavram haritası [`research/library/README.md`](research/library/README.md) altında tutulur.
+
 BIST odaklı replay/araştırma havuzu için **tek Python komutuyla çalışan**, beklemeli, yeniden denemeli ve kaldığı yerden devam eden veri indirici.
 
 Bu sürümün kapsamı:
