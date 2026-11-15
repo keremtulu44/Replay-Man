@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PTA-C2-2026.p0057",
+    "source_id": "PTA-C2-2026",
+    "page": 57,
+    "chapter": 8,
+    "section": "8.4 — Geri çekilme eski kırılım bölgesine döndü mü?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n57 \n \nŞekil 8.3 — Kaynaktaki yaklaşık %25–30 ve %50+ oranları katı eşik değil, göreli derinliği anlatan \nreferanslardır. Aynı yön devam etse bile ikinci yapı önceki hareketin çok daha büyük bölümünü geri verir. \nGeri çekilme Bize ne söyler? Tek başına ne söylemez? \nDaha sığ Önceki ilerlemenin daha büyük bölümü \nkorunuyor \nTrend kesin devam eder \nOrta derinlik Kazançların daha fazla bölümü geri \nveriliyor \nDönüş kesinleşti \nDaha derin Karşı taraf önceki harekete daha fazla \nnüfuz ediyor \nEski yön mutlaka bitti \n \nYÜZDELERI YASA GIBI KULLANMAYIN \nKaynak yaklaşık %25–30 ve %50+ örnekleri verir; fakat asıl fikir oranların kendisi değil, geri çekilmenin önceki \nhareket bacağına göre ne kadar alan geri verdiğidir. \n \n8.4 — Geri çekilme eski kırılım bölgesine döndü mü? \nDerinlik kadar önemli ikinci soru, geri çekilmenin eski kırılım noktasına göre nerede \ndurduğudur. Kaynak, yükseliş örneğinde geri çekilme tabanı ile önceki kırılım noktasını \nkarşılaştırır. Geri çekilme kırılım bölgesine kadar dönüyor veya o bölgeyle örtüşüyorsa, fiyat \nönceki genişlemenin daha büyük kısmını geri vermiş olur. \nBuna karşılık pullback açık biçimde eski kırılım noktasının üzerinde kalıyor ve hareket yeniden \nyukarı devam ediyorsa geometri daha güçlü görünür. Çünkü satıcılar fiyatı eski kırılım alanına \ngeri taşıyamamıştır. Bu, “her kırılım mutlaka seviyeyi retest etmelidir” fikrinin tersidir: bazen \nseviyeye hiç dönmemek, hareketin daha güçlü olduğuna dair bilgidir.",
+    "source_extract_summary": [
+      "Aynı yön devam etse bile ikinci yapı önceki hareketin çok daha büyük bölümünü geri verir.",
+      "Daha sığ Önceki ilerlemenin daha büyük bölümü korunuyor Trend kesin devam eder Orta derinlik Kazançların daha fazla bölümü geri veriliyor Dönüş kesinleşti Daha derin Karşı taraf önceki harekete daha fazla nüfuz ediyor Eski yön mutlaka bitti YÜZDELERI YASA GIBI KULLANMAYIN Kaynak yaklaşık %25–30 ve %50+ örnekleri verir; fakat asıl fikir oranların kendisi değil, geri çekilmenin önceki hareket bacağına göre ne kadar alan geri verdiğidir.",
+      "8.4 — Geri çekilme eski kırılım bölgesine döndü mü?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0076",
+    "source_id": "PTA-C2-2026",
+    "page": 76,
+    "chapter": 10,
+    "section": "10.5 — Başarısız ikinci deneme, kırılım ve geri test aynı zincirde nasıl",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n76 \n \nŞekil 10.4 — Aynı büyük yükseliş mumundan sonra üç farklı ikinci mum. Küçük aynı yön, küçük karşı \nyön ve büyük karşı yön mumları farklı takip kalitesi taşır; ikinci mumun boyutu ve kapanışı ilk mesajın \ngüçlenip güçlenmediğini gösterir. \nSORUYU DEĞIŞTIRIN \n“İkinci mum yeşil mi kırmızı mı?” yerine “İlk güçlü mumun verdiği bilginin ne kadarını korudu, ne kadarını geri \naldı?” diye sorun. \n \n10.5 — Başarısız ikinci deneme, kırılım ve geri test aynı zincirde nasıl \nbirleşir? \nBölüm 9’da ikinci denemenin başarısızlığını ayrı bir geometri olarak ele aldık. Pullback sonunu \ndeğerlendirirken bu bilgi daha geniş bir teyit zincirinin ilk halkası olabilir. Kaynak 50’de ikinci \naşağı deneme kısa süre yeni dip üretse bile devam edemeyip hızla yukarı döner. Bu, eski yönün \nikinci kez denediği halde kalıcı mesafe üretemediğini gösterir. Ancak yeni yönün gerçekten \nkontrol kazandığını söylemek için karşı tarafın ne yaptığına da bakmak gerekir. \nKaynak 54 bu devamı tamamlar: beklenen yeni dip üretilemez, ardından fiyat yerel sıkışmanın \nüzerine kırılır, kırılan alan geri test edilir ve fiyat yeniden yukarı devam eder. Böylece pullback \nsonu yalnız başarısız bir eski yön denemesine değil; yeni yönün alan kazanması, o alanı \nkoruması ve yeniden ilerlemesi üzerine kurulmuş olur. Bu zincir tek mumlu dönüş aramaktan \ndaha seçici bir okuma sağlar. \nAşama Eski yön açısından Yeni yön açısından Bozulma işareti \n1. İkinci deneme Beklenen yeni uç üretilemiyor Henüz yalnız fırsat doğuyor Eski yön güçlü yeni uç üretir \n2. Kırılım Eski yön yerel sınırı koruyamıyor Yeni yön ilk kez belirgin alan kazanıyor Kırılım hemen geri alınır \n3. Geri test Eski yön kırılan bölgeyi geri alamıyor Yeni yön kazanılan alanı koruyor Fiyat eski bölgenin içine yerleşir \n4. Devam Eski yön yeniden baskı kuramıyor Takip davranışı oluşuyor Yeni yön tekrar ilerleyemez",
+    "source_extract_summary": [
+      "Küçük aynı yön, küçük karşı yön ve büyük karşı yön mumları farklı takip kalitesi taşır; ikinci mumun boyutu ve kapanışı ilk mesajın güçlenip güçlenmediğini gösterir.",
+      "SORUYU DEĞIŞTIRIN “İkinci mum yeşil mi kırmızı mı?” yerine “İlk güçlü mumun verdiği bilginin ne kadarını korudu, ne kadarını geri aldı?” diye sorun.",
+      "10.5 — Başarısız ikinci deneme, kırılım ve geri test aynı zincirde nasıl birleşir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0091",
+    "source_id": "PTA-C2-2026",
+    "page": 91,
+    "chapter": 12,
+    "section": "12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n91 \n12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız? \nKaynak 66, bir seviyenin yalnızca temas edildiği için “çalıştığını” kabul etmez. Fiyat desteğe \nveya dirence değebilir, kısa süre durabilir ve sonra eski yönde ilerlemeye devam edebilir. Bu \ndurumda seviye grafikte vardır ama fiyat davranışı henüz karşı tarafın kontrol kazandığını \ngöstermemiştir. \nBölüm 9 ve 10’da gördüğümüz başarısız yeni uç → yerel kırılım → daha iyi geri test zincirini \nburada yeni bir dönüş modeli olarak tekrar etmiyoruz. Bu bölümde aynı davranışın görevi \nfarklıdır: üst zaman dilimindeki bir desteğin veya direncin yalnız temasla değil, fiyat \ndavranışıyla gerçekten tutulup tutulmadığını sınamak. Eski yön beklenen yeni ucu üretemiyor, \nkarşı taraf yerel sınırı aşıyor ve geri çekilmede daha iyi geometri kuruyorsa seviye için fiyat \ntemelli kanıt artar. \n \nŞekil 12.5 — Solda fiyat seviyeye temas ediyor fakat eski yön yeni dip üretmeye devam ediyor. Sağda ise \nyeni dip üretimi duruyor, yerel sınır kırılıyor ve daha yüksek dip oluşuyor. İkinci yapı, seviyenin \ntutulduğuna dair daha güçlü davranış kanıtı verir. \nGözlem Sadece temas Davranışla tutulma yönünde daha güçlü kanıt \nYeni uç üretimi Eski yön yeni tepe/dip üretmeye devam \neder \nEski yön beklenen yeni ucu üretemez \nYerel yapı Önceki LH/HL dizisi bozulmaz Karşı taraf önemli yerel sınırı aşar \nGeri çekilme Eski yön hızla geri gelir Yeni yön geri çekilme’te daha iyi geometri kurar \nTakip davranışı Karşı hareket kısa kalır Yeni yönde ilerleme sürdürülebilir",
+    "source_extract_summary": [
+      "12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız?",
+      "Kaynak 66, bir seviyenin yalnızca temas edildiği için “çalıştığını” kabul etmez.",
+      "Fiyat desteğe veya dirence değebilir, kısa süre durabilir ve sonra eski yönde ilerlemeye devam edebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0096",
+    "source_id": "PTA-C2-2026",
+    "page": 96,
+    "chapter": 13,
+    "section": "13.5 — Kırılım gerçekten kabul gördü mü?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n96 \n \nŞekil 13.4 — Üç temel davranış ailesi. Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra \nyeniden güçlenir, sıkışmada ise iki taraf da temiz yeni alan üretmekte zorlanır. \nDavranış ailesi Eski yön ne yapıyor? Karşı taraf ne yapıyor? Sonraki kritik soru \nDönüş İlerleme kaybediyor Daha fazla alan kazanıyor Yerel yapı kırılıyor mu? \nDevam Kısa süre duruyor ama bozulmuyor Tepki sınırlı kalıyor Ana yön yeniden güçleniyor mu? \nSıkışma Yeni uç üretemiyor O da üstünlük kuramıyor İlk genişleme hangi yönde kabul \ngörecek? \n \n13.5 — Kırılım gerçekten kabul gördü mü? \nYapı bir sınıra geldiğinde, yalnız “kırdı” kelimesiyle yetinmeyiz. Fiyat seviyeyi fitille aşmış \nolabilir fakat kapanışta yeniden içeri dönmüş olabilir. Dışarıda kapanış gelmiş olsa bile sonraki \nbüyük karşı mum ilk hareketi tamamen geri alabilir. Daha güçlü kırılım okumasında sınır \ndışında kapanış, sonraki mumların yeni alanı koruması ve mümkünse geri testte eski bölgenin \ntamamının geri alınamaması birlikte değerlendirilir. \nBu adım, özellikle sahte kırılım ile gerçek kabulü ayırır. Kırılımın kalitesi ilk mumda başlar \nama sonraki tepe-dip yerleşimiyle kesinleşir. Fiyat eski fiyat aralığının içine kolayca dönüyorsa \nilk hareketin ağırlığı azalır; yeni bölgede kalıp yeniden genişliyorsa kırılım bir olaydan davranış \ndizisine dönüşür.",
+    "source_extract_summary": [
+      "Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra yeniden güçlenir, sıkışmada ise iki taraf da temiz yeni alan üretmekte zorlanır.",
+      "Davranış ailesi Eski yön ne yapıyor?",
+      "Sonraki kritik soru Dönüş İlerleme kaybediyor Daha fazla alan kazanıyor Yerel yapı kırılıyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

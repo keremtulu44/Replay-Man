@@ -1,0 +1,80 @@
+[
+  {
+    "id": "PTA-C2-2026.p0045",
+    "source_id": "PTA-C2-2026",
+    "page": 45,
+    "chapter": 7,
+    "section": "7.1 — Seviyeyi geçmek yetmez: mum nerede kapandı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n45 \nBÖLÜM 7 \nSahte Kırılım, Gerçek Kırılım \nve Takip Davranışı \nBir seviyenin aşılması başlangıçtır. Asıl bilgi, fiyatın o seviyenin dışında kalıp \nkalamadığı ve sonraki mumların bu hareketi destekleyip desteklemediğidir. \nBölüm 6’da fiyatın dar bir alandan nasıl çıktığını gördük. Fakat sınırın geçilmesi ile kırılımın \ngerçekten kabul görmesi aynı olay değildir. Fiyat bir tepenin üstünü yalnız fitille görebilir ve \nkapanışta yeniden altına dönebilir. Ya da seviyenin dışında kapanabilir; buna rağmen bir \nsonraki mum güçlü biçimde ters yöne dönerek ilk kırılım fikrini zayıflatabilir. Bu bölümde \nkırılımı tek bir an değil, birkaç aşamalı bir süreç olarak okuyacağız. \nBU BÖLÜMÜN ANA FİKRİ \nKırılımı dört adımda okuyun: seviye aşıldı mı → mum nerede kapandı → sonraki mum ne yaptı → \nfiyat yeni bölgede yapı kurabildi mi? İlk güçlü mum tek başına son karar değildir. \n \n7.1 — Seviyeyi geçmek yetmez: mum nerede kapandı? \nBir önceki tepenin üstüne çıkmak iki farklı sonuç üretebilir. Fiyat seviyenin üstünü görür ama \nmum kapanmadan yeniden altına dönerse, yukarı deneme kalıcı olmamıştır. Grafikte çoğu \nzaman üst fitil kalır. Buna karşılık mum seviyenin üzerinde kapanırsa, fiyat o sınırın ötesinde \ndaha fazla alan korumuştur. Kaynak bu iki durumu özellikle birbirinden ayırır. \nBu ayrımı “fitil kötü, kapanış iyi” şeklinde mekanik bir kurala çevirmemek gerekir. Fitil, bir \ntarafın seviyeyi aşmayı denediğini fakat o mum içinde geri itildiğini gösterir. Dışarıda kapanış \nise ilk kabul işaretidir; fakat devam garantisi değildir. Bir sonraki mum ve sonraki yapı hâlâ \nkontrol edilmelidir. Aynı mantık önceki diplerin altında da ters yönde geçerlidir. \n \nŞekil 7.1 — Aynı seviye iki farklı biçimde aşılabilir. Fitille geçip yeniden içeride kapanmak ile seviyenin \ndışında kapanmak aynı güçte bilgi değildir.",
+    "source_extract_summary": [
+      "BÖLÜM 7 Sahte Kırılım, Gerçek Kırılım ve Takip Davranışı Bir seviyenin aşılması başlangıçtır.",
+      "Asıl bilgi, fiyatın o seviyenin dışında kalıp kalamadığı ve sonraki mumların bu hareketi destekleyip desteklemediğidir.",
+      "Bölüm 6’da fiyatın dar bir alandan nasıl çıktığını gördük."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0048",
+    "source_id": "PTA-C2-2026",
+    "page": 48,
+    "chapter": 7,
+    "section": "7.5 — İlk kapanıştan sonra ikinci mum ne yaptı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n48 \n7.4 — İlk kırılımı sonraki tepe ve diplerle sınayın \nBir fiyat aralığının dışına çıkan ilk mum hâlâ başarısız olabilir. Kaynak, aşağı kırılım örneğinde \nilk hareketten sonra iki yeni yapısal bilgiye dikkat eder. Fiyat önce eski alt sınıra doğru geri \ndöner fakat orayı geri alamaz ve daha düşük bir tepe oluşturur. Ardından yeniden aşağı dönerek \nilk kırılım dibinin altına iner. Böylece ilk kırılım tek bir mum olmaktan çıkar, yeni tepe-dip \nyerleşimiyle desteklenir. \nBu ayrım özellikle önemlidir çünkü ilk kırılım ile gerçek devam arasına zaman girer. Kırılım \nmumu güçlü görünse bile fiyat eski alanın içine rahatça dönebiliyorsa yeni bölgenin kabulü \nzayıftır. Buna karşılık geri test eski sınırda duruyor ve sonraki hareket yeniden kırılım yönünde \nyeni uç üretiyorsa, fiyat eski fiyat aralığından uzaklaşmayı başarıyor demektir. \n \nŞekil 7.4 — İlk aşağı kırılım B noktasında tek başına yeterli değildir. C’de eski alt sınır geri alınamıyor; \nD’de B’nin altına yeni hareket gelince devam davranışı daha belirgin hale geliyor. \nKontrol noktası Zayıf kırılımda ne görebiliriz? Daha güçlü devamda ne ararız? \nİlk çıkış Bir mum sınırın dışına çıkar. Dışarıda kapanış ve yeni alan. \nGeri test Fiyat eski fiyat aralığı’e kolayca döner. Eski sınırın tamamı geri alınamaz. \nYeni tepe/dip Yapı eski fiyat aralığı yönüne döner. Kırılım yönünde yeni uç oluşur. \nSonuç İlk hareket tek olay olarak kalır. Kırılım bir diziye dönüşür. \n \n7.5 — İlk kapanıştan sonra ikinci mum ne yaptı? \nBir seviyenin üzerinde ilk kapanış geldiğinde iş bitmez. Al Brooks’un örneğinde, direnç \nüzerindeki ilk kapanıştan sonra ikinci mumun da yükseliş yönlü olması ve yeniden direnç \nüzerinde kapanması daha güçlü takip davranışı (follow-through) kanıtı sayılır. Buna karşılık ilk \ndış kapanışın hemen ardından satış yönlü bir mum gelirse, ilk kırılım bir tuzağa veya başarısız \ntepe denemesine dönüşebilir.",
+    "source_extract_summary": [
+      "7.4 — İlk kırılımı sonraki tepe ve diplerle sınayın Bir fiyat aralığının dışına çıkan ilk mum hâlâ başarısız olabilir.",
+      "Kaynak, aşağı kırılım örneğinde ilk hareketten sonra iki yeni yapısal bilgiye dikkat eder.",
+      "Fiyat önce eski alt sınıra doğru geri döner fakat orayı geri alamaz ve daha düşük bir tepe oluşturur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0052",
+    "source_id": "PTA-C2-2026",
+    "page": 52,
+    "chapter": 7,
+    "section": "7.9 — Kırılımı tek mum değil, dört aşamalı bir zincir olarak okuyun",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n52 \n \nŞekil 7.8 — Sağlıklı takip her zaman kesintisiz yükseliş değildir. Yeni alan kazanımı, kısa ve kontrollü \nsıkışma, ardından yeniden genişleme basamaklı bir devam yapısı oluşturabilir. \nDURAKLAMA İLE BAŞARISIZLIĞI AYIRIN \nDaralma sırasında fiyat önceki kırılım alanını büyük ölçüde koruyorsa bu yapı kontrollü dinlenme \nolabilir. Fiyat hızla eski fiyat aralığı’in içine dönüyor ve güçlü karşı mumlarla alanı geri veriyorsa \nkırılım kalitesi farklıdır. \n \n7.9 — Kırılımı tek mum değil, dört aşamalı bir zincir olarak okuyun \nBu bölümdeki sekiz kaynak parçasının ortak noktası, kırılımı ilk sınır aşımıyla bitirmemesidir. \nÖnce seviyenin nasıl geçildiğine bakıyoruz. Sonra kapanışın yeni bölgede kalıp kalmadığını \nkontrol ediyoruz. Üçüncü aşamada bir sonraki mum veya birkaç mumluk takip davranışını \nokuyoruz. Son olarak fiyatın eski bölgeye dönüp dönmediğini ve yeni tepe/dip düzeni kurup \nkuramadığını inceliyoruz.",
+    "source_extract_summary": [
+      "Yeni alan kazanımı, kısa ve kontrollü sıkışma, ardından yeniden genişleme basamaklı bir devam yapısı oluşturabilir.",
+      "DURAKLAMA İLE BAŞARISIZLIĞI AYIRIN Daralma sırasında fiyat önceki kırılım alanını büyük ölçüde koruyorsa bu yapı kontrollü dinlenme olabilir.",
+      "Fiyat hızla eski fiyat aralığı’in içine dönüyor ve güçlü karşı mumlarla alanı geri veriyorsa kırılım kalitesi farklıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0096",
+    "source_id": "PTA-C2-2026",
+    "page": 96,
+    "chapter": 13,
+    "section": "13.5 — Kırılım gerçekten kabul gördü mü?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n96 \n \nŞekil 13.4 — Üç temel davranış ailesi. Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra \nyeniden güçlenir, sıkışmada ise iki taraf da temiz yeni alan üretmekte zorlanır. \nDavranış ailesi Eski yön ne yapıyor? Karşı taraf ne yapıyor? Sonraki kritik soru \nDönüş İlerleme kaybediyor Daha fazla alan kazanıyor Yerel yapı kırılıyor mu? \nDevam Kısa süre duruyor ama bozulmuyor Tepki sınırlı kalıyor Ana yön yeniden güçleniyor mu? \nSıkışma Yeni uç üretemiyor O da üstünlük kuramıyor İlk genişleme hangi yönde kabul \ngörecek? \n \n13.5 — Kırılım gerçekten kabul gördü mü? \nYapı bir sınıra geldiğinde, yalnız “kırdı” kelimesiyle yetinmeyiz. Fiyat seviyeyi fitille aşmış \nolabilir fakat kapanışta yeniden içeri dönmüş olabilir. Dışarıda kapanış gelmiş olsa bile sonraki \nbüyük karşı mum ilk hareketi tamamen geri alabilir. Daha güçlü kırılım okumasında sınır \ndışında kapanış, sonraki mumların yeni alanı koruması ve mümkünse geri testte eski bölgenin \ntamamının geri alınamaması birlikte değerlendirilir. \nBu adım, özellikle sahte kırılım ile gerçek kabulü ayırır. Kırılımın kalitesi ilk mumda başlar \nama sonraki tepe-dip yerleşimiyle kesinleşir. Fiyat eski fiyat aralığının içine kolayca dönüyorsa \nilk hareketin ağırlığı azalır; yeni bölgede kalıp yeniden genişliyorsa kırılım bir olaydan davranış \ndizisine dönüşür.",
+    "source_extract_summary": [
+      "Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra yeniden güçlenir, sıkışmada ise iki taraf da temiz yeni alan üretmekte zorlanır.",
+      "Davranış ailesi Eski yön ne yapıyor?",
+      "Sonraki kritik soru Dönüş İlerleme kaybediyor Daha fazla alan kazanıyor Yerel yapı kırılıyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "PTA-C2-2026.p0018",
+    "source_id": "PTA-C2-2026",
+    "page": 18,
+    "chapter": 3,
+    "section": "3.3 — Mumlar adım adım küçülüyorsa ne değişir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n18 \nKOLAY KURAL \nFitili ilk uyarı olarak görün. Asıl soru şudur: Fitilden sonra fiyatın ilerlemesi gerçekten yavaşladı mı? \n \n3.2 — Zayıflama tek mumda oluşmaz \nTek bir küçük mum yalnızca kısa bir duraklama olabilir. Güçlü hareketlerde de zaman zaman \nküçük mumlar görülür. Bu nedenle bir mumun zayıf görünmesiyle bütün hareketi “tükendi” \ndiye okumayacağız. \nDaha anlamlı olan, birkaç mum boyunca aynı sorunun tekrar etmesidir. Örneğin fiyat yeni bir \ntepeye doğru ilerlerken önce büyük, sonra daha küçük ve sonra daha da küçük mumlar \noluşturuyorsa, her yeni mum önceki kadar mesafe alamıyor demektir. Bu, hareketin hız \nkaybettiğine dair daha düzenli bir işarettir. \nGörüntü Basit okuma \nTek küçük mum Kısa bir duraklama olabilir. \n2–3 mum boyunca küçülme İlerleme gücü azalıyor olabilir. \nKüçülmeye geri itilme de ekleniyor Zayıflama daha görünür hale gelir. \n \nACELE ETMEYİN \nBir zayıf mum yerine birkaç mumun birlikte ne yaptığına bakın. Tükenme çoğu zaman tek bir anda \ndeğil, adım adım gelişir. \n \n3.3 — Mumlar adım adım küçülüyorsa ne değişir? \nFiyat önemli bir seviyeye yaklaşırken mumların giderek küçülmesi, aynı yönde ilerlemek için \ndaha fazla zorlandığını gösterebilir. Büyük bir mumun ardından daha küçük, sonra daha da \nküçük mumlar geliyorsa alınan mesafe azalıyor demektir. \nBu durum özellikle fiyat belirgin bir destek veya direnç bölgesine yaklaşırken dikkat çekicidir. \nSon mumlarda fitiller de uzamaya başlıyorsa, yalnız hız kaybı değil geri itilme de görünür hale \ngelir. Yine de burada sonuç “kesin dönüş” değildir; yalnızca önceki rahat ilerleyişin \nbozulduğunu söyleriz.",
+    "source_extract_summary": [
+      "KOLAY KURAL Fitili ilk uyarı olarak görün.",
+      "Asıl soru şudur: Fitilden sonra fiyatın ilerlemesi gerçekten yavaşladı mı?",
+      "3.2 — Zayıflama tek mumda oluşmaz Tek bir küçük mum yalnızca kısa bir duraklama olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0019",
+    "source_id": "PTA-C2-2026",
+    "page": 19,
+    "chapter": 3,
+    "section": "3.5 — Karşı tarafın mumları büyümeye başlıyorsa",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n19 \nŞekil 3.2 — Fiyat seviyeye yaklaşmaya devam ediyor; ancak her yeni mum daha az mesafe alıyor. Son bölümde küçük \ngövde ve daha uzun fitil, ilerlemenin zorlaştığını gösteriyor. \nSıra Ne görüyoruz? Ne değişiyor? \n1 Büyük yönlü mum Hareket rahat ilerliyor. \n2 Daha küçük mum Aynı yöndeki mesafe azalıyor. \n3 Biraz daha küçük mum Yavaşlama sürüyor. \n4 Küçük gövde + uzun fitil İlerleme az, geri itilme daha belirgin. \n \n3.4 — Aynı seviyede tekrar tekrar geri itilmek \nBir seviyede tek bir uzun fitil görmek başka, aynı seviyede birkaç kez geri itilmek başkadır. \nTekrar eden üst fitiller, alıcıların yukarı çıkmayı birkaç kez denediğini fakat fiyatı o bölgenin \nüzerinde tutamadığını gösterir. Alt fitillerde aynı mantık ters yönde geçerlidir. \nBurada önemli olan yalnız fitillerin uzunluğu değil, denemelerin sonucudur. Fiyat her seferinde \naynı bölgeyi geçmeye çalışıyor ama kapanışlar o alanın gerisine dönüyorsa, o taraf istediği \nilerlemeyi üretmekte zorlanıyor demektir. \n \nŞekil 3.3 — Aynı seviyeye yapılan birden fazla deneme sonuçsuz kalıyor. Tek bir fitilden çok, tekrar eden başarısız \ndenemelerin oluşturduğu davranış önemlidir. \nAKLINDA KALSIN \nBir fitil tek bir olaydır. Aynı bölgede tekrar eden fitiller ise o seviyede süren mücadelenin daha güçlü \nbir işaretidir. \n \n3.5 — Karşı tarafın mumları büyümeye başlıyorsa \nZayıflamayı yalnız eski tarafın küçülmesiyle okumayız. Bazen daha önemli değişim, karşı \nyöndeki mumların büyümeye başlamasıdır. Örneğin yükseliş mumları giderek küçülürken satış \nmumları önce küçük, sonra daha büyük gövdeler oluşturmaya başlıyorsa satıcılar mum başına \ndaha fazla mesafe almaya başlamış olabilir.",
+    "source_extract_summary": [
+      "Son bölümde küçük gövde ve daha uzun fitil, ilerlemenin zorlaştığını gösteriyor.",
+      "1 Büyük yönlü mum Hareket rahat ilerliyor.",
+      "2 Daha küçük mum Aynı yöndeki mesafe azalıyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0022",
+    "source_id": "PTA-C2-2026",
+    "page": 22,
+    "chapter": 3,
+    "section": "3.7 — Zayıflamayı okurken hangi sırayı izleyelim?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n22 \nBakılacak nokta Ne görürsek dikkat artar? \nFitiller Aynı bölgede tekrar eden geri itilme. \nMum boyutu Aynı yöndeki gövdelerin adım adım küçülmesi. \nİlerleme Yeni mumların daha az mesafe alması. \nTekrarlanan denemeler Aynı seviyenin birkaç kez geçilememesi. \nKarşı taraf Karşı yöndeki mumların büyümeye başlaması. \nHareketin bütünü Yön sürse bile hareketin daha yavaş ve sıkışık hale gelmesi. \n \nHEPSİ AYNI ANDA GEREKMEZ \nBu işaretleri puanlama sistemi gibi kullanmayın. Ama birkaç tanesi aynı bölgede birlikte görülüyorsa, \nönceki hareketin eskisi kadar rahat ilerlemediğini söylemek için daha fazla nedenimiz olur. \n \nBÖLÜM SONUCU \nMomentum kaybı çoğu zaman “bir anda dönüş” şeklinde başlamaz. Önce mumlar küçülebilir, aynı \nseviye tekrar tekrar geçilemeyebilir ve karşı tarafın mumları büyüyebilir. Bir sonraki bölümde bu \nzayıflamanın kısa dönüş dizilerine nasıl dönüştüğünü inceleyeceğiz.",
+    "source_extract_summary": [
+      "Bakılacak nokta Ne görürsek dikkat artar?",
+      "Fitiller Aynı bölgede tekrar eden geri itilme.",
+      "Mum boyutu Aynı yöndeki gövdelerin adım adım küçülmesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0033",
+    "source_id": "PTA-C2-2026",
+    "page": 33,
+    "chapter": 5,
+    "section": "5.5 — Yapı korunurken hareket gücü azalabilir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n33 \n \nŞekil 5.4 — İki hareket aynı yönde ilerleyebilir; ancak az örtüşmeli ve aynı yönlü kapanışların sürdüğü \ndizi daha temiz, yoğun örtüşmeli dizi ise daha iki taraflıdır. \nGözlem Devam hakkında ne söyler? Ne söylemez? \nArt arda aynı yönlü kapanış Bir tarafın baskıyı daha sürekli taşıdığını gösterir. Hareketin sonsuza kadar süreceğini \nAz gövde örtüşmesi İlerlemenin daha temiz ve tek taraflı olduğunu gösterir. Tek başına giriş zamanını \nYoğun örtüşme İki tarafın daha sık karşılık verdiğini ve ilerlemenin yavaşladığını gösterir. Mutlaka dönüş olacağını \n \nSABİT EŞİK YOK \nKaynaklar “üç kapanış yeterlidir” veya “örtüşme yüzde şu kadar olmalı” gibi sabit bir sınır vermiyor. \nBuradaki amaç sayısal bir formül kurmak değil, aynı grafikteki hareketleri birbirine göre \nkarşılaştırmaktır. \n5.5 — Yapı korunurken hareket gücü azalabilir \nMikro kanalın en önemli ayrımlarından biri şudur: yapı ile hareket gücü aynı anda bozulmak \nzorunda değildir. Kaynaktaki yedi mumluk yükseliş mikro kanalı hâlâ kısa vadede yukarı \nyapısını korurken, son mumların gövdeleri küçülmeye başlar. Dizi içinde küçük bir satış mumu \nda görünür. Yani fiyat hâlâ yukarı tarafta ilerliyor olsa bile, her yeni mum önceki kadar güçlü \nmesafe üretmemektedir. \nBu durum “yükseliş bitti” demek değildir. Kaynağın çıkardığı daha temkinli sonuç, temiz \ndevamın iç gücünü kaybettiği ve fiyatın daha dar, iki taraflı bir işlem alanına geçme ihtimalinin \narttığıdır. Burada Bölüm 3’te öğrendiğimiz momentum kaybı ile bu bölümdeki mikro kanal \nyapısı birleşir: dipler hâlâ korunabilir, fakat gövdeler küçülüyorsa devamın kalitesi eskisi kadar \ngüçlü değildir.",
+    "source_extract_summary": [
+      "Art arda aynı yönlü kapanış Bir tarafın baskıyı daha sürekli taşıdığını gösterir.",
+      "Hareketin sonsuza kadar süreceğini Az gövde örtüşmesi İlerlemenin daha temiz ve tek taraflı olduğunu gösterir.",
+      "Tek başına giriş zamanını Yoğun örtüşme İki tarafın daha sık karşılık verdiğini ve ilerlemenin yavaşladığını gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  }
+]

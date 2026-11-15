@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "id": "BR-001-confirmed-swing",
+      "title": "Swing ancak sağ taraf oluştuktan sonra kesinleşir",
+      "sources": [
+        "PTA-C2-2026.p0054",
+        "PTA-C2-2026.p0055",
+        "PTA-C2-2026.p0058",
+        "PTA-C2-2026.p0059"
+      ],
+      "events": [],
+      "status": "altyapi_kurali",
+      "decision": "Replay motorunda pivot zamanı ve teyit zamanı ayrı tutuldu.",
+      "source_link": "research/experiments/book-rule-results/BR-001-confirmed-swing/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-001-confirmed-swing"
+    },
+    {
+      "id": "BR-002-close-break",
+      "title": "Seviyeyi geçmek yetmez; kapanış konumu gerekir",
+      "sources": [
+        "PTA-C2-2026.p0045",
+        "PTA-C2-2026.p0047",
+        "PTA-C2-2026.p0052"
+      ],
+      "events": [
+        "close_break"
+      ],
+      "status": "baglam_filtresi_gerekli",
+      "decision": "Çıplak kırılım kısa ufukta benchmark sonrası zayıf; 4h 60 barda test pozitif ama doğrulama yaklaşık sıfır.",
+      "source_link": "research/experiments/book-rule-results/BR-002-close-break/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-002-close-break"
+    },
+    {
+      "id": "BR-003-follow-through",
+      "title": "İlk kapanıştan sonra takip davranışı",
+      "sources": [
+        "PTA-C2-2026.p0048",
+        "PTA-C2-2026.p0050",
+        "PTA-C2-2026.p0051",
+        "PTA-C2-2026.p0052"
+      ],
+      "events": [
+        "follow_through"
+      ],
+      "status": "bilgi_tekrari",
+      "decision": "4h aşağı sonuç olumlu; mevcut tanım acceptance ile neredeyse aynı olayları üretiyor.",
+      "source_link": "research/experiments/book-rule-results/BR-003-follow-through/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-003-follow-through"
+    },
+    {
+      "id": "BR-004-acceptance",
+      "title": "Kırılımın yeni alanda kabul görmesi",
+      "sources": [
+        "PTA-C2-2026.p0045",
+        "PTA-C2-2026.p0048",
+        "PTA-C2-2026.p0052",
+        "PTA-C2-2026.p0096"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "status": "devam_et",
+      "decision": "4h aşağı acceptance 60 barda eğitim/doğrulama/test bölümlerinin üçünde de pozitif XU100-aşırı medyan verdi.",
+      "source_link": "research/experiments/book-rule-results/BR-004-acceptance/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-004-acceptance"
+    },
+    {
+      "id": "BR-005-retest-hold",
+      "title": "Kırılım bölgesine dönüş ve seviyenin tutulması",
+      "sources": [
+        "PTA-C2-2026.p0057",
+        "PTA-C2-2026.p0076",
+        "PTA-C2-2026.p0091",
+        "PTA-C2-2026.p0096"
+      ],
+      "events": [
+        "retest_hold"
+      ],
+      "status": "yazi_turaya_yakin",
+      "decision": "Benchmark sonrası çoğu bölümde sıfır çevresi; tek başına belirgin ayrıştırma sağlamadı.",
+      "source_link": "research/experiments/book-rule-results/BR-005-retest-hold/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-005-retest-hold"
+    },
+    {
+      "id": "BR-006-failure",
+      "title": "Başarısız kırılım ve eski alana dönüş",
+      "sources": [
+        "PTA-C2-2026.p0041",
+        "PTA-C2-2026.p0043",
+        "PTA-C2-2026.p0046",
+        "PTA-C2-2026.p0049",
+        "PTA-C2-2026.p0070"
+      ],
+      "events": [
+        "failure"
+      ],
+      "status": "rejime_bagli",
+      "decision": "4h aşağı kırılım failure sonrası yukarı hipotezi doğrulama/testte olumlu, eğitimde belirgin olumsuz.",
+      "source_link": "research/experiments/book-rule-results/BR-006-failure/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-006-failure"
+    },
+    {
+      "id": "BR-007-probe-rejection",
+      "title": "Fitille taşma tek başına dönüş değildir",
+      "sources": [
+        "PTA-C2-2026.p0017",
+        "PTA-C2-2026.p0043",
+        "PTA-C2-2026.p0073"
+      ],
+      "events": [
+        "probe_rejection"
+      ],
+      "status": "kararsiz",
+      "decision": "Yön ve zaman bölümüne göre işaret değiştiriyor; bağlamsız kullanım güvenilir değil.",
+      "source_link": "research/experiments/book-rule-results/BR-007-probe-rejection/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-007-probe-rejection"
+    },
+    {
+      "id": "BR-008-movement-quality",
+      "title": "Temiz hareket, örtüşme ve ilerleme verimliliği",
+      "sources": [
+        "PTA-C2-2026.p0013",
+        "PTA-C2-2026.p0015",
+        "PTA-C2-2026.p0016",
+        "PTA-C2-2026.p0094"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "movement_quality_band",
+      "status": "olumlu_baglam",
+      "decision": "4h aşağı acceptance içinde düşük ve yüksek verim bantları üç zaman bölümünde pozitif; orta bant doğrulamada negatif.",
+      "source_link": "research/experiments/book-rule-results/BR-008-movement-quality/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-008-movement-quality"
+    },
+    {
+      "id": "BR-009-overlap",
+      "title": "Örtüşme arttıkça hareketin sıkışması",
+      "sources": [
+        "PTA-C2-2026.p0015",
+        "PTA-C2-2026.p0038",
+        "PTA-C2-2026.p0044"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "overlap_band",
+      "status": "ornek_yetersiz_bant_var",
+      "decision": "Düşük örtüşme testte güçlü; yüksek örtüşme testinde 60 bar hazır gözlem yok.",
+      "source_link": "research/experiments/book-rule-results/BR-009-overlap/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-009-overlap"
+    },
+    {
+      "id": "BR-010-volatility-context",
+      "title": "Sıkışma, genişleme ve kırılım bağlamı",
+      "sources": [
+        "PTA-C2-2026.p0038",
+        "PTA-C2-2026.p0041",
+        "PTA-C2-2026.p0044"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "volatility_band",
+      "status": "devam_et",
+      "decision": "4h aşağı acceptance öncesi contracted bant üç zaman bölümünde pozitif ve testte belirgin; normal/expanded testte negatif.",
+      "source_link": "research/experiments/book-rule-results/BR-010-volatility-context/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-010-volatility-context"
+    },
+    {
+      "id": "BR-011-pressure-decay",
+      "title": "Gövde ve ilerleme küçülmesiyle baskı kaybı",
+      "sources": [
+        "PTA-C2-2026.p0018",
+        "PTA-C2-2026.p0019",
+        "PTA-C2-2026.p0022",
+        "PTA-C2-2026.p0033"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "body_pressure_band",
+      "status": "olumlu_baglam",
+      "decision": "Decaying gövde baskısı 4h aşağı acceptance içinde üç bölümde pozitif ve testte expanding gruptan daha güçlü.",
+      "source_link": "research/experiments/book-rule-results/BR-011-pressure-decay/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-011-pressure-decay"
+    }
+  ]
+}

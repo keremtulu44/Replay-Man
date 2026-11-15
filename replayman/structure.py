@@ -41,6 +41,8 @@ def structure_events(bars: pd.DataFrame, features: pd.DataFrame, swings: pd.Data
         active.extend({"swing": s, "state": "active", "break_position": None, "outside_closes": 0, "retest_emitted": False, "follow_emitted": False} for s in activations.get(position, []))
         bar = bars.iloc[position]
         tolerance = float(atr.iloc[position]) * config.tolerance_atr if pd.notna(atr.iloc[position]) else 0.0
+        feature_row = features.iloc[position]
+        context_features = {name: feature_row.get(name, np.nan) for name in ("body_ratio", "close_location", "range_atr", "path_efficiency", "directional_persistence", "mean_overlap", "body_decay_ratio", "progress_decay_ratio")}
         survivors: list[dict] = []
         for item in active:
             swing = item["swing"]
@@ -58,6 +60,7 @@ def structure_events(bars: pd.DataFrame, features: pd.DataFrame, swings: pd.Data
                 "event_position": position, "event_ts": bar.ts_utc, "level_age_bars": age,
                 "distance_close_atr": ((float(bar.close) - price) / float(atr.iloc[position])) if pd.notna(atr.iloc[position]) and atr.iloc[position] else np.nan,
             }
+            event_base.update(context_features)
             if item["state"] == "active":
                 if extreme_outside and not close_outside:
                     rows.append({**event_base, "event": "probe_rejection", "bars_since_break": np.nan})
@@ -89,7 +92,7 @@ def structure_events(bars: pd.DataFrame, features: pd.DataFrame, swings: pd.Data
                     continue
             survivors.append(item)
         active = survivors
-    columns = ["level", "direction", "event", "level_price", "source_pivot_position", "source_confirmed_position", "event_position", "event_ts", "level_age_bars", "bars_since_break", "distance_close_atr"]
+    columns = ["level", "direction", "event", "level_price", "source_pivot_position", "source_confirmed_position", "event_position", "event_ts", "level_age_bars", "bars_since_break", "distance_close_atr", "body_ratio", "close_location", "range_atr", "path_efficiency", "directional_persistence", "mean_overlap", "body_decay_ratio", "progress_decay_ratio"]
     return pd.DataFrame(rows, columns=columns)
 
 

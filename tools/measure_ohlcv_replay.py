@@ -43,7 +43,7 @@ def main() -> int:
         event_results = attach_event_outcomes(events, bars, (5, 20, 40, 60))
         if len(event_results):
             event_results.insert(0, "group", path.parts[-5]); event_results.insert(1, "asset_id", str(bars.get("asset_id", pd.Series([path.parts[-4]])).iloc[0])); event_results.insert(2, "interval", path.stem)
-            result_columns = ["group", "asset_id", "interval", "event_ts", "direction", "thesis_direction", "event"]
+            result_columns = ["group", "asset_id", "interval", "event_ts", "direction", "thesis_direction", "event", "body_ratio", "close_location", "range_atr", "path_efficiency", "directional_persistence", "mean_overlap", "body_decay_ratio", "progress_decay_ratio"]
             for horizon in (5, 20, 40, 60):
                 result_columns += [f"directional_return_{horizon}", f"directional_mfe_{horizon}", f"directional_mae_{horizon}"]
             event_samples.append(event_results[result_columns])
@@ -86,6 +86,10 @@ def main() -> int:
             thesis_sign = all_events.thesis_direction.map({"up": 1, "down": -1})
             for horizon in (5, 20, 40, 60):
                 all_events[f"directional_excess_{horizon}"] = all_events[f"directional_return_{horizon}"] - thesis_sign * all_events[f"benchmark_return_{horizon}"]
+        all_events["movement_quality_band"] = pd.cut(all_events.path_efficiency, [-float("inf"), .30, .60, float("inf")], labels=["low", "medium", "high"])
+        all_events["overlap_band"] = pd.cut(all_events.mean_overlap, [-float("inf"), .25, .55, float("inf")], labels=["low", "medium", "high"])
+        all_events["volatility_band"] = pd.cut(all_events.range_atr, [-float("inf"), .80, 1.50, float("inf")], labels=["contracted", "normal", "expanded"])
+        all_events["body_pressure_band"] = pd.cut(all_events.body_decay_ratio, [-float("inf"), .80, 1.20, float("inf")], labels=["decaying", "stable", "expanding"])
         order_fraction = all_events.groupby(["asset_id", "interval"])["event_ts"].rank(method="first", pct=True)
         all_events["time_split"] = pd.cut(order_fraction, bins=[0, .6, .8, 1.0], labels=["train", "validation", "test"], include_lowest=True)
         grouped = all_events.groupby(["group", "interval", "event", "direction", "thesis_direction"], dropna=False)
@@ -113,6 +117,17 @@ def main() -> int:
             median_mfe_60=("directional_mfe_60", "median"), median_mae_60=("directional_mae_60", "median"),
         ).reset_index()
         split_study.to_csv(args.output / "structure_time_split_study.csv", index=False)
+        context_parts = []
+        for dimension in ("movement_quality_band", "overlap_band", "volatility_band", "body_pressure_band"):
+            context_grouped = all_events.groupby(["group", "interval", "time_split", "event", "thesis_direction", dimension], observed=True)
+            part = context_grouped.agg(
+                observations=("asset_id", "size"), assets=("asset_id", "nunique"),
+                ready_excess_20=("directional_excess_20", "count"), median_excess_20=("directional_excess_20", "median"), excess_win_rate_20=("directional_excess_20", positive_rate),
+                ready_excess_60=("directional_excess_60", "count"), median_excess_60=("directional_excess_60", "median"), excess_win_rate_60=("directional_excess_60", positive_rate),
+            ).reset_index().rename(columns={dimension: "band"})
+            part.insert(5, "context_dimension", dimension)
+            context_parts.append(part)
+        pd.concat(context_parts, ignore_index=True).to_csv(args.output / "book_context_rule_study.csv", index=False)
         symbol_grouped = all_events.groupby(["group", "asset_id", "interval", "event", "thesis_direction"], dropna=False)
         symbol_results = symbol_grouped.agg(
             observations=("event_ts", "size"), first_event=("event_ts", "min"), last_event=("event_ts", "max"),

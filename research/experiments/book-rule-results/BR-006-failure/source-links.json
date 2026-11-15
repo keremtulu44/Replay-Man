@@ -1,0 +1,98 @@
+[
+  {
+    "id": "PTA-C2-2026.p0041",
+    "source_id": "PTA-C2-2026",
+    "page": 41,
+    "chapter": 6,
+    "section": "6.7 — İlk genişleme başarısız olursa yapı bitmiş sayılır mı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n41 \nalındığını görüyoruz. Böylece daralma ve genişleme aynı grafikte art arda okunabilir hale gelir. \nİlk büyük mum önemli bir değişimdir; fakat onun devam edip etmeyeceği bir sonraki bölümde \nele alacağımız kırılım kalitesi ve takip davranışıyla ayrıca değerlendirilecektir. \n \nŞekil 6.5 — Birkaç küçük mum fiyatın geçici dengede kaldığını gösterir; ardından gelen büyük yönlü \nmum önceki dar alanın dışına genişlemeyi başlatır. \nÜÇ MUM BİR YASA DEĞİLDİR \nKaynak küçük mum kümesini en az üç mumla örnekliyor. Burada “3 mum = kırılım” şeklinde \nmekanik bir kural üretmiyoruz; birkaç mum boyunca daralma görüldükten sonra genişlemenin nasıl \nortaya çıktığını gösteriyoruz. \n \n6.7 — İlk genişleme başarısız olursa yapı bitmiş sayılır mı? \nHayır. Kaynak, ilk kırılım denemesinin başarısız olmasından sonra fiyatın geri çekilip yeniden \ndar bir aralık oluşturabildiği bir yapı gösterir. Bu ikinci sıkışmada tepeler birbirine yakınlaşır ve \nfiyat yeni bir deneme için tekrar daralır. Dizinin önemli kısmı “ilk kırılım başarısız oldu” \ncümlesi değil; başarısız genişleme → yeniden sıkışma → ikinci deneme sırasıdır. \nBu davranış bize sıkışmanın tek hamlede çözülmek zorunda olmadığını gösterir. İlk genişleme \nfiyatı yeni alana taşıyamazsa piyasa yeniden denge kurabilir. Bu yeni daralma, önceki başarısız \ndenemeden sonra tarafların yeniden karşılaşma alanıdır. İkinci denemenin başarısını burada \npeşinen kabul etmeyiz; yalnız fiyatın resetlenip tekrar bir genişleme hazırlığına girdiğini \nokuruz.",
+    "source_extract_summary": [
+      "Böylece daralma ve genişleme aynı grafikte art arda okunabilir hale gelir.",
+      "İlk büyük mum önemli bir değişimdir; fakat onun devam edip etmeyeceği bir sonraki bölümde ele alacağımız kırılım kalitesi ve takip davranışıyla ayrıca değerlendirilecektir.",
+      "ÜÇ MUM BİR YASA DEĞİLDİR Kaynak küçük mum kümesini en az üç mumla örnekliyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0043",
+    "source_id": "PTA-C2-2026",
+    "page": 43,
+    "chapter": 6,
+    "section": "6.8 — Alt sınırı kısa süre aşmak, geri almak ve karşı tarafa genişlemek",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n43 \nAşama Fiyat ne yapıyor? Okuma \n1. İlk genişleme Dar alanın dışına çıkmayı deniyor. Yeni alan kazanma girişimi \n2. Başarısızlık / \ngeri dönüş İlk hareket sürdürülemiyor. İlk genişleme yeterli değil \n3. Yeniden sıkışma Fiyat tekrar dar bir alana giriyor. Piyasa yeniden dengeleniyor \n4. İkinci deneme Dar alandan yeniden çıkış aranıyor. Yeni genişleme girişimi \n \n6.8 — Alt sınırı kısa süre aşmak, geri almak ve karşı tarafa genişlemek \nSıkışma her zaman temiz bir şekilde üst veya alt sınırdan çıkmaz. Kaynakta dar fiyat aralığının \nalt sınırı kısa süre aşılır; ardından fiyat yeniden aralığın içine döner ve daha sonra üst taraftan \ngenişler. Bu sıra, tek adımlı bir kırılım yerine üç parçalı bir davranış gösterir: alt sınırı aşma \n(undercut), aralığı geri alma (reclaim) ve karşı yönde genişleme. \nBu örneğin değeri “altı süpürdü, o halde kesin yukarı gider” gibi bir kural üretmesi değildir. \nAsıl bilgi, ilk aşağı denemenin dar alanın altında kalıcı hareket üretememesi ve fiyatın tekrar \nfiyat aralığının içine dönmesidir. Ardından üst taraftaki genişleme yeni bir aşamadır. Bir \nsonraki bölümde, bu tür sınır aşımlarında fitille geçmek ile dışarıda kapanmak arasındaki farkı \ndaha ayrıntılı inceleyeceğiz. \n \nŞekil 6.7 — Fiyat dar alanın alt sınırını kısa süre aşıyor, yeniden aralığın içine dönüyor ve daha sonra karşı \ntarafa doğru genişliyor. Bu, tek adımlı değil çok aşamalı bir çözülmedir. \nBÖLÜM 7’YE KÖPRÜ \nBu bölümde sıkışmanın nasıl çözüldüğünü gördük. Ancak “sınır aşıldı” ile “fiyat o sınırın dışında \nkabul gördü” aynı şey değildir. Bir sonraki bölüm bu ayrımı kapanış ve takip davranışıyla ele alacak.",
+    "source_extract_summary": [
+      "İlk genişleme Dar alanın dışına çıkmayı deniyor.",
+      "Başarısızlık / geri dönüş İlk hareket sürdürülemiyor.",
+      "Yeniden sıkışma Fiyat tekrar dar bir alana giriyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0046",
+    "source_id": "PTA-C2-2026",
+    "page": 46,
+    "chapter": 7,
+    "section": "7.2 — Aşağı kırılım başarısız, yukarı kırılım başarılıysa ne değişir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n46 \nOlay Mumun sonunda ne kaldı? Daha doğru okuma \nFitille üstünü aşma Kapanış yeniden seviyenin altında Yukarı deneme oldu; fiyat orada kalamadı. \nÜstünde kapanma Kapanış seviyenin dışında İlk kabul işareti var; takip hâlâ gerekli. \nFitille altını aşma Kapanış yeniden seviyenin üstünde Aşağı deneme oldu; fiyat orada kalamadı. \nAltında kapanma Kapanış seviyenin dışında Aşağı yönde ilk kabul işareti var; devam henüz kesin değil. \n \nKRİTİK AYRIM \n“Seviyeyi geçti” ile “seviyenin dışında kapandı” aynı cümle değildir. Bu bölüm boyunca kırılım \nkelimesini kullanırken kapanışın nerede olduğunu ayrıca kontrol edeceğiz. \n \n7.2 — Aşağı kırılım başarısız, yukarı kırılım başarılıysa ne değişir? \nKaynakta güçlü bir davranış dizisi iki ayrı sınır üzerinden kuruluyor. Fiyat önce yakın bir dibin \naltına iner fakat mum kapanışında yeniden o seviyenin üstüne döner. Bu, satıcıların aşağıdaki \nfiyatları o mum içinde koruyamadığını gösterir. Ardından fiyat yükselir ve yakın tepenin \nüzerinde kapanırsa ikinci bilgi eklenir: aşağı yöndeki deneme tutmamış, karşı yöndeki deneme \nise kapanışla alan kazanmıştır. \nBurada önemli olan yalnız son yeşil mum değildir. Dizinin sırası anlam taşır: önce aşağı yönün \nsürdürülememesi, sonra fiyatın aralığı geri alması, ardından yukarı tarafta dışarıda kapanış. Bu \nnedenle yapı “alt fitil gördüm, alıcılar kazandı” kadar basit değildir. Eski yönün başarısızlığı ile \nyeni yönün kendi başarısını aynı dizide görmek daha güçlü bir okuma sağlar. \n \nŞekil 7.2 — Fiyat önce eski dibin altına sarkıyor fakat aşağıda kalamıyor; daha sonra yakın tepenin \nüzerinde kapanarak karşı yönde alan kazanıyor.",
+    "source_extract_summary": [
+      "Daha doğru okuma Fitille üstünü aşma Kapanış yeniden seviyenin altında Yukarı deneme oldu; fiyat orada kalamadı.",
+      "Üstünde kapanma Kapanış seviyenin dışında İlk kabul işareti var; takip hâlâ gerekli.",
+      "Fitille altını aşma Kapanış yeniden seviyenin üstünde Aşağı deneme oldu; fiyat orada kalamadı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0049",
+    "source_id": "PTA-C2-2026",
+    "page": 49,
+    "chapter": 7,
+    "section": "7.6 — Karşı yönde büyük mumlar geldiğinde eski senaryoya bağlı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n49 \nBurada ikinci mumun görevi “mutlaka aynı renk olsun” değildir. Ana soru, ilk kırılımın ürettiği \nyeni alan korunuyor mu? İkinci kapanış seviyenin dışında kalıyorsa fiyat yeni bölgeyi \nkullanmaya devam ediyor demektir. Güçlü karşı mum eski alanın içine dönüyorsa ilk kırılımın \nverdiği mesaj ciddi biçimde zayıflar. \n \nŞekil 7.5 — İlk dış kapanıştan sonra ikinci mum yeni alanı korursa takip güçlenir. Güçlü karşı mum fiyatı \nyeniden eski bölgeye taşıyorsa ilk kırılım fikri zayıflar. \nİKİ KAPANIŞ BİR GARANTİ DEĞİLDİR \nİkinci dış kapanış, tek kapanışa göre daha fazla devam kanıtıdır; geleceği garanti etmez. Ama fiyatın \nyeni bölgeyi yalnız bir mum değil, birden fazla mum boyunca koruyabildiğini gösterir. \n \n7.6 — Karşı yönde büyük mumlar geldiğinde eski senaryoya bağlı \nkalmayın \nKırılım sonrası değerlendirme yalnız küçük tereddüt mumlarıyla ilgili değildir. Kaynakta \nardışık büyük satış mumlarının diplerine yakın kapanması, önceki yükseliş fikrinin terk \nedildiğine ve satıcıların kontrol kazandığına dair güçlü bir değişim olarak okunur. Üstelik aynı \nbölgede benzer büyüklükte güçlü bir alıcı cevabı görülmüyorsa bu asimetri daha da dikkat \nçekicidir. \nBu nokta, “bir kere kırıldıysa artık o yönde düşünmeliyim” hatasını önler. Piyasa yeni bilgi \nüretir. İlk kırılım fikri, sonraki mumlar tarafından desteklenmek zorundadır. Ardışık ve geniş \ngövdeli karşı mumlar, özellikle kapanışları kendi uçlarına yakınsa, önceki senaryodan daha \ngüçlü yeni bir davranış ortaya koyabilir. Böyle bir durumda eski kırılımı savunmak yerine \ngüncel diziyi okumak gerekir.",
+    "source_extract_summary": [
+      "Burada ikinci mumun görevi “mutlaka aynı renk olsun” değildir.",
+      "Ana soru, ilk kırılımın ürettiği yeni alan korunuyor mu?",
+      "İkinci kapanış seviyenin dışında kalıyorsa fiyat yeni bölgeyi kullanmaya devam ediyor demektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0070",
+    "source_id": "PTA-C2-2026",
+    "page": 70,
+    "chapter": 9,
+    "section": "9.9 — Başarısız yeni dipten yeni yön teyidine tam akış",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n70 \nSıra Gözlem Okunan değişim \n1 Birden fazla aşağı itiş Satıcılar aynı yönde tekrar tekrar deniyor \n2 Yeni dip uzamıyor / mikro çift dip Her deneme daha az yeni alan üretiyor \n3 Güçlü yukarı dönüş mumları Alıcılar artık yalnız savunmuyor; mesafe kazanıyor \n4 Geri test daha yüksek dipte kalıyor Satıcıların sonraki denemesi daha da zayıf kalıyor \n \n9.9 — Başarısız yeni dipten yeni yön teyidine tam akış \nKaynak 54, bu bölümdeki parçaları tek bir akışta birleştirir. Önce güçlü satış baskısına rağmen \nfiyat beklenen daha düşük dibi üretemez. Bu yalnız ilk uyarıdır. Ardından fiyat yerel sıkışmanın \nüzerine çıkarak yukarı yönlü bir kırılım yapar. Daha sonra kırılan alan geri test edilir ve fiyat \nyeniden yukarı devam ederse, yeni yön için birden fazla aşamada teyit oluşmuş olur. \nBu sıralamanın değeri, dönüş fikrini tek bir muma yüklememesidir. Başarısız yeni dip bize \nsatıcıların ilerleyemediğini söyler. Yukarı kırılım, alıcıların yalnız savunmadan çıkıp yeni alan \nkazandığını gösterir. Geri test, kırılan bölgenin korunup korunamadığını sınar. Sonraki devam \nise yeni yönün ilk kırılımı sürdürebildiğini gösterir. Her aşama aynı hikâyeye yeni bir parça \nekler. \n \nŞekil 9.9 — Tam akış: (1) beklenen yeni dip gelmiyor, (2) fiyat yerel yapının üzerine kırılıyor, (3) kırılan \nalan geri test ediliyor, (4) yeni yön tekrar ilerliyor. Tek bir dönüş mumundan daha zengin bir teyit zinciri \noluşuyor. \nAşama Ana soru Olumlu cevap ne ekler? Bozulma işareti \n1. Başarısız uç Eski yön yeni dip/tepe üretebiliyor \nmu? \nEski momentumun ilerleme kaybı Eski yön güçlü yeni uç üretir \n2. Kırılım Karşı taraf yerel sınırı aşabiliyor mu? Yeni yön ilk kez alan kazanır Kırılım hemen geri alınır",
+    "source_extract_summary": [
+      "Sıra Gözlem Okunan değişim 1 Birden fazla aşağı itiş Satıcılar aynı yönde tekrar tekrar deniyor 2 Yeni dip uzamıyor / mikro çift dip Her deneme daha az yeni alan üretiyor 3 Güçlü yukarı dönüş mumları Alıcılar artık yalnız savunmuyor; mesafe kazanıyor 4 Geri test daha yüksek dipte kalıyor Satıcıların sonraki denemesi daha da zayıf kalıyor 9.9 — Başarısız yeni dipten yeni yön teyidine tam akış Kaynak 54, bu bölümdeki parçaları tek bir akışta birleştirir.",
+      "Önce güçlü satış baskısına rağmen fiyat beklenen daha düşük dibi üretemez.",
+      "Ardından fiyat yerel sıkışmanın üzerine çıkarak yukarı yönlü bir kırılım yapar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "PTA-C2-2026.p0017",
+    "source_id": "PTA-C2-2026",
+    "page": 17,
+    "chapter": 3,
+    "section": "3.1 — Fitille geri itilme tek başına dönüş değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n17 \nBÖLÜM 3 \nMomentum Kaybı ve Tükenme: \nFiyat Neden Yavaşlar? \nDönüşü tahmin etmeye değil, fiyatın eskisi kadar rahat ilerleyemediğini görmeye \nçalışın. \n \nBölüm 2’de hareketin mevcut kalitesini karşılaştırdık. Şimdi aynı ölçülerin zaman içinde \nbozulup bozulmadığını izleyeceğiz. Bir hareket aynı yönde sürerken mumların küçülmesi, aynı \nseviyenin tekrar tekrar geçilememesi veya karşı yöndeki mumların büyümesi bize ilerlemenin \nzorlaştığını gösterebilir. Bu bölümde amacımız “dönüşü bulmak” değil, önceki rahat ilerleyişin \nne zaman zayıflamaya başladığını fark etmektir. \nBU BÖLÜMÜN ANA FİKRİ \nZayıflama ile dönüş aynı şey değildir. Önce yalnızca şunu soracağız: Fiyat hâlâ aynı yönde eskisi \nkadar rahat ilerleyebiliyor mu? Cevap hayır olmaya başlıyorsa, sonraki mumları daha dikkatli izlemek \ngerekir. \n \n3.1 — Fitille geri itilme tek başına dönüş değildir \nUzun bir fitil, fiyatın bir yöne gitmeyi denediğini ama orada kalamadığını gösterir. Bu yararlı \nbir bilgidir; fakat tek başına yön değişti demek değildir. Fiyat bir seviyede birkaç kez geri itilse \nbile ana hareket bir süre daha devam edebilir. \nBu yüzden fitili gördüğümüzde hemen ters yön beklemek yerine sonrasına bakarız. Mumlar \nhâlâ aynı yönde büyük gövdelerle ilerliyor mu? Yoksa her yeni denemede alınan mesafe \nazalıyor mu? Karşı yöndeki mumlar belirginleşmeye başladı mı? Fitilin anlamı, bu soruların \ncevabıyla güçlenir veya zayıflar. \n \nŞekil 3.1 — Fitil tek başına yeterli değildir. Solda geri itilmelere rağmen hareket sürüyor; sağda ise fitillere küçülen \ngövdeler ve karşı yönde daha belirgin bir mum eşlik ediyor.",
+    "source_extract_summary": [
+      "BÖLÜM 3 Momentum Kaybı ve Tükenme: Fiyat Neden Yavaşlar?",
+      "Dönüşü tahmin etmeye değil, fiyatın eskisi kadar rahat ilerleyemediğini görmeye çalışın.",
+      "Bölüm 2’de hareketin mevcut kalitesini karşılaştırdık."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0043",
+    "source_id": "PTA-C2-2026",
+    "page": 43,
+    "chapter": 6,
+    "section": "6.8 — Alt sınırı kısa süre aşmak, geri almak ve karşı tarafa genişlemek",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n43 \nAşama Fiyat ne yapıyor? Okuma \n1. İlk genişleme Dar alanın dışına çıkmayı deniyor. Yeni alan kazanma girişimi \n2. Başarısızlık / \ngeri dönüş İlk hareket sürdürülemiyor. İlk genişleme yeterli değil \n3. Yeniden sıkışma Fiyat tekrar dar bir alana giriyor. Piyasa yeniden dengeleniyor \n4. İkinci deneme Dar alandan yeniden çıkış aranıyor. Yeni genişleme girişimi \n \n6.8 — Alt sınırı kısa süre aşmak, geri almak ve karşı tarafa genişlemek \nSıkışma her zaman temiz bir şekilde üst veya alt sınırdan çıkmaz. Kaynakta dar fiyat aralığının \nalt sınırı kısa süre aşılır; ardından fiyat yeniden aralığın içine döner ve daha sonra üst taraftan \ngenişler. Bu sıra, tek adımlı bir kırılım yerine üç parçalı bir davranış gösterir: alt sınırı aşma \n(undercut), aralığı geri alma (reclaim) ve karşı yönde genişleme. \nBu örneğin değeri “altı süpürdü, o halde kesin yukarı gider” gibi bir kural üretmesi değildir. \nAsıl bilgi, ilk aşağı denemenin dar alanın altında kalıcı hareket üretememesi ve fiyatın tekrar \nfiyat aralığının içine dönmesidir. Ardından üst taraftaki genişleme yeni bir aşamadır. Bir \nsonraki bölümde, bu tür sınır aşımlarında fitille geçmek ile dışarıda kapanmak arasındaki farkı \ndaha ayrıntılı inceleyeceğiz. \n \nŞekil 6.7 — Fiyat dar alanın alt sınırını kısa süre aşıyor, yeniden aralığın içine dönüyor ve daha sonra karşı \ntarafa doğru genişliyor. Bu, tek adımlı değil çok aşamalı bir çözülmedir. \nBÖLÜM 7’YE KÖPRÜ \nBu bölümde sıkışmanın nasıl çözüldüğünü gördük. Ancak “sınır aşıldı” ile “fiyat o sınırın dışında \nkabul gördü” aynı şey değildir. Bir sonraki bölüm bu ayrımı kapanış ve takip davranışıyla ele alacak.",
+    "source_extract_summary": [
+      "İlk genişleme Dar alanın dışına çıkmayı deniyor.",
+      "Başarısızlık / geri dönüş İlk hareket sürdürülemiyor.",
+      "Yeniden sıkışma Fiyat tekrar dar bir alana giriyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0073",
+    "source_id": "PTA-C2-2026",
+    "page": 73,
+    "chapter": 10,
+    "section": "10.2 — İlk geri itilme (red) neden sonraki güçlü mumla birlikte daha",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n73 \n \nŞekil 10.1 — Solda karşı tepki var fakat yerel sınır aşılamıyor. Sağda yeni yön mumu yakındaki mumlara \ngöre daha geniş gövdeli, fitilleri daha küçük ve yerel sınırın dışında kapanıyor. Güç yalnız mum \nboyutundan değil, boyut + kapanış + yapı birlikteliğinden okunur. \nGözlem Ne ekler? Neden tek başına yetmez? \nYakındaki mumlardan daha büyük \ngövde \nYeni yön mum başına daha fazla mesafe \nalıyor \nBüyük tepki sınırın içinde kalabilir \nKüçük fitiller Mum içinde karşı baskı sınırlı kalmış Tek mum sonraki devamı garanti etmez \nYerel sınırın dışında kapanış Yeni yön yalnız tepki vermiyor, alan da \nkazanıyor \nKırılım sonraki mumda geri alınabilir \nÜçü birlikte Kontrol değişimi daha tutarlı görünür Yine de takip davranışı kontrol edilir \n \nTEKNIK AYRIM \n“Büyük yeşil/kırmızı mum” ile “yeni yönün güçlü trend mumu” aynı şey değildir. Kaynakta en güçlü bilgi; ilgili \nyapının kırılması, gövdenin çevreye göre büyük olması ve fitillerin sınırlı kalmasıyla oluşur. \n \n10.2 — İlk geri itilme (red) neden sonraki güçlü mumla birlikte daha \nanlamlı hale gelir? \nPullback bir seviyeye ulaştığında uzun fitil veya önceki küçük hareketi geri alan karşı mum, \nfiyatın o yönde tutulamadığını gösterebilir. Kaynak 56’da ise asıl ağırlık bu ilk geri itilmede \ndeğil, hemen sonrasında gelen güçlü teyit mumundadır. Yükseliş örneğinde fiyat desteğin altına \nsarkar, uzun alt fitille geri alınır ve sonraki mum geniş gövdeli biçimde yukarı kapanır. Düşüş \nörneğinde de ilk satış yönlü geri itilmenin ardından ikinci güçlü aşağı mum gelir. \nİkinci mumun önemi şudur: ilk geri itilme bize “eski yön burada zorlandı” der; sonraki güçlü \nmum ise “karşı taraf bu zayıflıktan gerçekten yararlanabildi” bilgisini ekler. Böylece yalnız",
+    "source_extract_summary": [
+      "Sağda yeni yön mumu yakındaki mumlara göre daha geniş gövdeli, fitilleri daha küçük ve yerel sınırın dışında kapanıyor.",
+      "Güç yalnız mum boyutundan değil, boyut + kapanış + yapı birlikteliğinden okunur.",
+      "Yakındaki mumlardan daha büyük gövde Yeni yön mum başına daha fazla mesafe alıyor Büyük tepki sınırın içinde kalabilir Küçük fitiller Mum içinde karşı baskı sınırlı kalmış Tek mum sonraki devamı garanti etmez Yerel sınırın dışında kapanış Yeni yön yalnız tepki vermiyor, alan da kazanıyor Kırılım sonraki mumda geri alınabilir Üçü birlikte Kontrol değişimi daha tutarlı görünür Yine de takip davranışı kontrol edilir TEKNIK AYRIM “Büyük yeşil/kırmızı mum” ile “yeni yönün güçlü trend mumu” aynı şey değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  }
+]
