@@ -1,58 +1,45 @@
-# OHLCV Replay — Başlangıç Ölçümü
-
-Bu klasör Replay-Man'in ilk çalışan, gelecek sızıntısız ölçüm turudur.
+# OHLCV Replay Başlangıç Ölçümü
 
 ## Kapsam
 
-- 125 varlık
-- 500 seri (`1h`, `2h`, `4h`, `1d`)
-- Tamamlanmamış türetilmiş barlar dışarıda bırakıldıktan sonra 558.121 bar
-- Mum geometrisi, örtüşme, volatilite, göreceli hacim, hareket kalitesi ve baskı kaybı adayları
-- Karar özelliklerinden fiziksel olarak ayrı ileri getiri ve MFE/MAE sonuç katmanı
+- 125 varlık, 500 seri ve 558.121 tamamlanmış bar
+- 1h: 315.801; 2h: 142.618; 4h: 69.846; 1d: 29.856 bar
+- Mum geometrisi, örtüşme, volatilite, göreceli hacim, hareket kalitesi ve baskı kaybı
+- Teyit zamanı ayrı minor/major swingler ve karşıt swing bacakları
+- Karar özelliklerinden ayrı ileri getiri ve MFE/MAE sonuçları
 
-## İlk sonuç kapsamı
+## İlk swing ölçümü
 
-| Periyot | Bar | ATR hazır | Hareket kalitesi hazır | 20 bar sonuç hazır |
-|---|---:|---:|---:|---:|
-| 1h | 315.801 | 314.176 | 314.551 | 313.301 |
-| 2h | 142.618 | 140.993 | 141.368 | 140.118 |
-| 4h | 69.846 | 68.221 | 68.596 | 67.346 |
-| 1d | 29.856 | 28.303 | 28.660 | 27.470 |
+| Olay | Sayı |
+|---|---:|
+| Minor swing (2 sol + 2 sağ) | 151.450 |
+| Major swing (5 sol + 5 sağ) | 67.705 |
+| Karşıt minor swing bacağı | 113.778 |
+| Higher high | 51.331 |
+| Higher low | 50.471 |
+| Lower high | 50.713 |
+| Lower low | 50.474 |
 
-Pencerenin başındaki ve sonuç ufkunun sonundaki boşluklar beklenir; bunlar ileri/geri doldurulmaz.
-
-## Hacim uyarısı
-
-Sıfır hacim oranı yaklaşık olarak:
-
-- BIST hisseleri: `%6,25`
-- BIST endeksleri: `%97,39`
-- Küresel endeksler: `%71,38`
-- Döviz: `%100`
-- Madenler: `%2,65`
-- Enerji: `%2,38`
-
-Bu nedenle hacim özellikleri tüm evrene kör biçimde uygulanmayacaktır. Endeks ve FX için Yahoo `volume=0`, “işlem olmadı” değil, kullanılabilir merkezi hacim bulunmadığı anlamına gelir. Hacim deneyleri veri uygunluk filtresi isteyecektir.
+Bunlar başarı sonucu değil, bütün evrende üretilen olay envanteridir. Aynı geometrik uç minor ve major seviyede ayrı olay olabilir.
 
 ## Gelecek sızıntısı sözleşmesi
 
-- `causal_features` yalnız mevcut ve geçmiş barı kullanır.
-- Negatif `shift` ve merkezlenmiş pencere özellik katmanında yasaktır.
-- `ReplayEngine.history`, yalnız açılmış bara kadar savunmalı kopya verir.
-- İleri getiri ve MFE/MAE `forward_outcomes` içinde ayrı üretilir; karar girdisi değildir.
-- Türetilmiş 2h/4h serilerinde `complete=false` barlar varsayılan olarak kullanılmaz.
+- Pivotun geçmişte ait olduğu bar `pivot_position` olarak saklanır.
+- Olay ancak sağ teyit barları kapandığında `confirmed_position` zamanında yayımlanır.
+- Minor swing için teyit gecikmesi 2, major swing için 5 bardır.
+- HH/HL/LH/LL ilişkisi yalnız o ana kadar teyit edilmiş aynı tür swinglerle karşılaştırılır.
+- Swing bacağı bitiş pivotunda değil, bitiş pivotu teyit edildiğinde bilinir (`known_at_position`).
+- Özellikler yalnız mevcut/geçmiş barı kullanır; ileri sonuçlar ayrı sonuç tablosudur.
+
+## Hacim uyarısı
+
+Sıfır hacim oranı BIST hisselerinde yaklaşık %6,25, BIST endekslerinde %97,39, küresel endekslerde %71,38, FX'te %100, madenlerde %2,65 ve enerjide %2,38'dir. Endeks/FX sıfırları işlemsizlik değil, kullanılabilir merkezi hacim olmamasıdır. Hacim deneyleri uygunluk filtresi gerektirir.
 
 ## Dosyalar
 
-- `summary.json`: Kapsam özeti
-- `series_inventory.csv`: Her seri için bar, dönem, hazır özellik/sonuç sayısı ve sıfır hacim oranı
-
-Bu ilk tur strateji başarısı iddiası değildir. Yalnız ölçüm altyapısının tüm evrende çalıştığını ve sonuç etiketlerinin üretilebildiğini doğrular.
+- `summary.json`: Genel kapsam ve olay sayıları
+- `series_inventory.csv`: Seri bazında bar, hazır ölçüm, swing ve yapı ilişkisi sayıları
 
 ## Sonraki adım
 
-1. Teyitli swing motoru
-2. Hareket kalitesi ve baskı kaybı için olay adayları
-3. Kırılım/takip/failure durum makinesi
-4. Olayların 70–80+ sembolde MFE/MAE dağılımı
-5. Eğitim/doğrulama dönem ayrımı ve parametre hassasiyeti
+Teyitli swinglerden seviyeler üretilecek; seviye yaklaşımı, dışarı çıkış, dış kapanış, takip, kabul, retest ve failure durum makinesi kurulacaktır. Daha sonra olay anındaki özellikler ileri MFE/MAE ile 70–80+ sembolde ölçülecektir.

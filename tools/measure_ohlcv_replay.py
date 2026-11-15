@@ -8,6 +8,7 @@ from pathlib import Path
 import pandas as pd
 
 from replayman.replay import causal_features, forward_outcomes, load_bars
+from replayman.swings import multi_level_swings, swing_legs
 
 
 def discover(root: Path, intervals: set[str]) -> list[Path]:
@@ -29,6 +30,8 @@ def main() -> int:
             continue
         features = causal_features(bars)
         outcomes = forward_outcomes(bars)
+        swings = multi_level_swings(bars, features)
+        legs = swing_legs(swings, bars)
         finite = features.select_dtypes("number").notna().sum()
         rows.append({
             "group": path.parts[-5], "asset_id": str(bars.get("asset_id", pd.Series([path.parts[-4]])).iloc[0]),
@@ -37,6 +40,10 @@ def main() -> int:
             "feature_columns": len(features.columns) - len(set(features.columns) & {"ts_utc", "open", "high", "low", "close", "volume", "asset_id", "symbol", "interval", "session_date"}),
             "atr_ready": int(finite.get("atr", 0)), "quality_ready": int(finite.get("path_efficiency", 0)),
             "outcome_20_ready": int(outcomes["return_fwd_20"].notna().sum()),
+            "minor_swings": int((swings.level == "minor").sum()), "major_swings": int((swings.level == "major").sum()),
+            "swing_legs": len(legs), "higher_highs": int((swings.relation == "higher_high").sum()),
+            "higher_lows": int((swings.relation == "higher_low").sum()), "lower_highs": int((swings.relation == "lower_high").sum()),
+            "lower_lows": int((swings.relation == "lower_low").sum()),
             "zero_volume_ratio": float((bars.volume.fillna(0) == 0).mean()),
         })
     inventory = pd.DataFrame(rows)
@@ -45,7 +52,8 @@ def main() -> int:
         "schema_version": 1, "series": len(inventory), "assets": int(inventory.asset_id.nunique()) if len(inventory) else 0,
         "bars": int(inventory.bars.sum()) if len(inventory) else 0,
         "intervals": inventory.groupby("interval").agg(series=("asset_id", "count"), bars=("bars", "sum")).to_dict("index") if len(inventory) else {},
-        "measurement_families": ["candle_geometry", "overlap", "volatility", "volume_relative", "movement_quality", "pressure_decay", "forward_return", "mfe_mae"],
+        "swing_events": {column: int(inventory[column].sum()) for column in ("minor_swings", "major_swings", "swing_legs", "higher_highs", "higher_lows", "lower_highs", "lower_lows")} if len(inventory) else {},
+        "measurement_families": ["candle_geometry", "overlap", "volatility", "volume_relative", "movement_quality", "pressure_decay", "confirmed_swings", "swing_legs", "forward_return", "mfe_mae"],
         "causality": "features use current/past bars; forward outcomes are isolated research labels",
     }
     (args.output / "summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -21,6 +21,15 @@
       "bars": 69846
     }
   },
+  "swing_events": {
+    "minor_swings": 151450,
+    "major_swings": 67705,
+    "swing_legs": 113778,
+    "higher_highs": 51331,
+    "higher_lows": 50471,
+    "lower_highs": 50713,
+    "lower_lows": 50474
+  },
   "measurement_families": [
     "candle_geometry",
     "overlap",
@@ -28,6 +37,8 @@
     "volume_relative",
     "movement_quality",
     "pressure_decay",
+    "confirmed_swings",
+    "swing_legs",
     "forward_return",
     "mfe_mae"
   ],
