@@ -1,25 +1,19 @@
 # OHLCV Replay Ölçüm Arşivi
 
-Bu klasör 125 varlık ve 500 seride çalışan ilk nedensel replay ölçümlerini içerir.
-
-## Kapsam
-
-- 558.121 tamamlanmış OHLCV barı
-- Mum geometrisi, volatilite, örtüşme, hareket kalitesi ve baskı kaybı
-- 151.450 minor, 67.705 major swing ve 113.778 swing bacağı
-- Swing seviyelerinde probe, kapanış kırılımı, takip, kabul, retest ve failure
-- Karar özelliklerinden ayrı ileri getiri, MFE ve MAE
+125 varlık, 500 seri ve 558.121 tamamlanmış barda çalışan nedensel replay ölçümleri.
 
 ## Dosyalar
 
-- `summary.json`: Toplam kapsam ve olay sayıları
-- `series_inventory.csv`: 500 seri bazında ölçüm ve olay envanteri
-- `structure_event_study.csv`: Grup/periyot/olay/yön bazında havuzlanmış finansal sonuçlar
-- `structure_symbol_results.csv`: Her sembolde olay sonucu ve semboller arası tutarlılık girdisi
-- `FINANCIAL_RESULTS.md`: BIST hisseleri 1h için okunabilir ilk finansal değerlendirme
+- `summary.json`: Kapsam ve olay sayıları
+- `series_inventory.csv`: Seri bazında ölçüm envanteri
+- `structure_event_study.csv`: Havuzlanmış 5/20/40/60 bar sonuçları
+- `structure_symbol_results.csv`: Sembol bazlı tutarlılık sonuçları
+- `structure_time_split_study.csv`: Kronolojik `%60/%20/%20` eğitim/doğrulama/test sonuçları ve XU100-aşırı getiriler
+- `FINANCIAL_RESULTS.md`: İlk kısa ufuk finansal raporu
+- `LONG_HORIZON_RESULTS.md`: Uzun ufuk, benchmark ve zaman-dışı doğrulama raporu
 
-## Zaman ve yön sözleşmesi
+## Kritik sözleşme
 
-Pivot geometrik barında değil teyit barında bilinir; seviye ancak teyitten sonraki barda aktiftir. Failure ve probe rejection sonuçları ilk denemenin ters yönünde; kırılım, takip, kabul ve retest sonuçları kırılım yönünde ölçülür.
+Pivot ancak teyit barında bilinir; seviye teyitten sonraki barda aktiftir. İleri sonuç özellik girdisi değildir. BIST hisse avantajı değerlendirilirken aynı ufuktaki XU100 getirisi çıkarılır. Eksik ileri ufuklar kazanma oranında başarısız sayılmaz, hesaplamadan çıkarılır.
 
-Bu çıktılar işlem maliyetsiz keşifsel olay çalışmasıdır; yürütülebilir strateji veya portföy backtesti değildir.
+Yaklaşık bir yıllık veri çok yıllı uzun dönem kanıtı değildir. En uzun günlük test ufuklarında yeterli gelecek barı olmayan olaylar ayrıca sayılır ve karar için kullanılmaz.

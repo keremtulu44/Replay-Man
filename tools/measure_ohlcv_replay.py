@@ -12,6 +12,11 @@ from replayman.swings import multi_level_swings, swing_legs
 from replayman.structure import attach_event_outcomes, structure_events
 
 
+def positive_rate(series: pd.Series) -> float:
+    valid = series.dropna()
+    return float((valid > 0).mean()) if len(valid) else float("nan")
+
+
 def discover(root: Path, intervals: set[str]) -> list[Path]:
     return sorted(path for path in root.glob("*/*/*/bars/*.csv") if path.stem in intervals)
 
@@ -35,10 +40,13 @@ def main() -> int:
         swings = multi_level_swings(bars, features)
         legs = swing_legs(swings, bars)
         events = structure_events(bars, features, swings)
-        event_results = attach_event_outcomes(events, bars, (5, 20))
+        event_results = attach_event_outcomes(events, bars, (5, 20, 40, 60))
         if len(event_results):
             event_results.insert(0, "group", path.parts[-5]); event_results.insert(1, "asset_id", str(bars.get("asset_id", pd.Series([path.parts[-4]])).iloc[0])); event_results.insert(2, "interval", path.stem)
-            event_samples.append(event_results[["group", "asset_id", "interval", "event_ts", "direction", "thesis_direction", "event", "directional_return_5", "directional_mfe_5", "directional_mae_5", "directional_return_20", "directional_mfe_20", "directional_mae_20"]])
+            result_columns = ["group", "asset_id", "interval", "event_ts", "direction", "thesis_direction", "event"]
+            for horizon in (5, 20, 40, 60):
+                result_columns += [f"directional_return_{horizon}", f"directional_mfe_{horizon}", f"directional_mae_{horizon}"]
+            event_samples.append(event_results[result_columns])
         event_counts = events.event.value_counts()
         finite = features.select_dtypes("number").notna().sum()
         rows.append({
@@ -61,21 +69,60 @@ def main() -> int:
     inventory.to_csv(args.output / "series_inventory.csv", index=False)
     all_events = pd.concat(event_samples, ignore_index=True) if event_samples else pd.DataFrame()
     if len(all_events):
+        all_events["event_ts"] = pd.to_datetime(all_events["event_ts"], utc=True)
+        # BIST hisselerinde piyasa rejimini olay avantajından ayırmak için XU100 ileri getirisi.
+        benchmark_parts = []
+        for benchmark_path in discover(args.root, set(args.intervals.split(","))):
+            if benchmark_path.parts[-4] != "IDX_XU100":
+                continue
+            benchmark = load_bars(benchmark_path)
+            part = pd.DataFrame({"interval": benchmark_path.stem, "event_ts": benchmark.ts_utc})
+            for horizon in (5, 20, 40, 60):
+                part[f"benchmark_return_{horizon}"] = benchmark.close.shift(-horizon).div(benchmark.close).sub(1)
+            benchmark_parts.append(part)
+        if benchmark_parts:
+            benchmarks = pd.concat(benchmark_parts, ignore_index=True)
+            all_events = all_events.merge(benchmarks, on=["interval", "event_ts"], how="left")
+            thesis_sign = all_events.thesis_direction.map({"up": 1, "down": -1})
+            for horizon in (5, 20, 40, 60):
+                all_events[f"directional_excess_{horizon}"] = all_events[f"directional_return_{horizon}"] - thesis_sign * all_events[f"benchmark_return_{horizon}"]
+        order_fraction = all_events.groupby(["asset_id", "interval"])["event_ts"].rank(method="first", pct=True)
+        all_events["time_split"] = pd.cut(order_fraction, bins=[0, .6, .8, 1.0], labels=["train", "validation", "test"], include_lowest=True)
         grouped = all_events.groupby(["group", "interval", "event", "direction", "thesis_direction"], dropna=False)
         event_study = grouped.agg(
             observations=("asset_id", "size"), assets=("asset_id", "nunique"),
-            median_return_5=("directional_return_5", "median"), win_rate_5=("directional_return_5", lambda x: float((x > 0).mean())),
+            median_return_5=("directional_return_5", "median"), win_rate_5=("directional_return_5", positive_rate),
             median_mfe_5=("directional_mfe_5", "median"), median_mae_5=("directional_mae_5", "median"),
-            median_return_20=("directional_return_20", "median"), win_rate_20=("directional_return_20", lambda x: float((x > 0).mean())),
+            ready_20=("directional_return_20", "count"), median_return_20=("directional_return_20", "median"), win_rate_20=("directional_return_20", positive_rate),
             median_mfe_20=("directional_mfe_20", "median"), median_mae_20=("directional_mae_20", "median"),
+            ready_40=("directional_return_40", "count"), median_return_40=("directional_return_40", "median"), win_rate_40=("directional_return_40", positive_rate),
+            ready_60=("directional_return_60", "count"), median_return_60=("directional_return_60", "median"), win_rate_60=("directional_return_60", positive_rate),
+            ready_excess_20=("directional_excess_20", "count"), median_excess_20=("directional_excess_20", "median"), excess_win_rate_20=("directional_excess_20", positive_rate),
+            ready_excess_60=("directional_excess_60", "count"), median_excess_60=("directional_excess_60", "median"), excess_win_rate_60=("directional_excess_60", positive_rate),
+            median_mfe_60=("directional_mfe_60", "median"), median_mae_60=("directional_mae_60", "median"),
         ).reset_index()
         event_study.to_csv(args.output / "structure_event_study.csv", index=False)
+        split_grouped = all_events.groupby(["group", "interval", "time_split", "event", "thesis_direction"], observed=True)
+        split_study = split_grouped.agg(
+            observations=("asset_id", "size"), assets=("asset_id", "nunique"),
+            ready_20=("directional_return_20", "count"), median_return_20=("directional_return_20", "median"), win_rate_20=("directional_return_20", positive_rate),
+            ready_40=("directional_return_40", "count"), median_return_40=("directional_return_40", "median"), win_rate_40=("directional_return_40", positive_rate),
+            ready_60=("directional_return_60", "count"), median_return_60=("directional_return_60", "median"), win_rate_60=("directional_return_60", positive_rate),
+            ready_excess_20=("directional_excess_20", "count"), median_excess_20=("directional_excess_20", "median"), excess_win_rate_20=("directional_excess_20", positive_rate),
+            ready_excess_60=("directional_excess_60", "count"), median_excess_60=("directional_excess_60", "median"), excess_win_rate_60=("directional_excess_60", positive_rate),
+            median_mfe_60=("directional_mfe_60", "median"), median_mae_60=("directional_mae_60", "median"),
+        ).reset_index()
+        split_study.to_csv(args.output / "structure_time_split_study.csv", index=False)
         symbol_grouped = all_events.groupby(["group", "asset_id", "interval", "event", "thesis_direction"], dropna=False)
         symbol_results = symbol_grouped.agg(
             observations=("event_ts", "size"), first_event=("event_ts", "min"), last_event=("event_ts", "max"),
-            median_return_5=("directional_return_5", "median"), win_rate_5=("directional_return_5", lambda x: float((x > 0).mean())),
-            median_return_20=("directional_return_20", "median"), win_rate_20=("directional_return_20", lambda x: float((x > 0).mean())),
+            median_return_5=("directional_return_5", "median"), win_rate_5=("directional_return_5", positive_rate),
+            ready_20=("directional_return_20", "count"), median_return_20=("directional_return_20", "median"), win_rate_20=("directional_return_20", positive_rate),
             median_mfe_20=("directional_mfe_20", "median"), median_mae_20=("directional_mae_20", "median"),
+            ready_40=("directional_return_40", "count"), median_return_40=("directional_return_40", "median"), win_rate_40=("directional_return_40", positive_rate),
+            ready_60=("directional_return_60", "count"), median_return_60=("directional_return_60", "median"), win_rate_60=("directional_return_60", positive_rate),
+            ready_excess_20=("directional_excess_20", "count"), median_excess_20=("directional_excess_20", "median"), excess_win_rate_20=("directional_excess_20", positive_rate),
+            ready_excess_60=("directional_excess_60", "count"), median_excess_60=("directional_excess_60", "median"), excess_win_rate_60=("directional_excess_60", positive_rate),
         ).reset_index()
         symbol_results.to_csv(args.output / "structure_symbol_results.csv", index=False)
     event_columns = ("probe_rejections", "close_breaks", "follow_throughs", "acceptances", "retest_holds", "failures")
