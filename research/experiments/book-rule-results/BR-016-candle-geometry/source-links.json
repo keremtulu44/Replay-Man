@@ -1,0 +1,94 @@
+[
+  {
+    "id": "PTA-C2-2026.p0008",
+    "source_id": "PTA-C2-2026",
+    "page": 8,
+    "chapter": 1,
+    "section": "1.2 — Mumun adı değil, davranışı önemlidir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n8 \n \nŞekil 1.2 — Büyük gövde ve küçük fitil mum içinde daha temiz ilerlemeyi; uzun fitil denenen fiyatların geri verildiğini; \nküçük gövde ve iki yönlü fitiller ise düşük net ilerlemeyi gösterir. \nDavranış Nasıl görünür? Mum içinde ne oldu? Tek başına söylemez \nGüç Yakındaki mumlara göre \nbüyük gövde, küçük fitiller \nBir taraf aldığı mesafenin büyük \nbölümünü kapanışa taşıdı. \nBu üstünlüğün \nsonraki mumlarda \nsüreceğini \nGeri itilme Belirgin uzun fitil, gövde \ndaha sınırlı \nFiyat bir yönde deneme yaptı ama o \nalanın önemli bölümü geri verildi. \nKarşı tarafın artık \ntam kontrolü aldığını \nKararsızlık Küçük gövde, iki yönlü \nfitiller \nİki yönde hareket oldu fakat \nkapanışta net ilerleme sınırlı kaldı. \nSonraki hareketin \nmutlaka kırılım veya \ndönüş olacağını \n \nGüçlü mumda gövde, yakınındaki mumlara göre belirgin biçimde daha büyüktür ve fitiller çoğu \nzaman daha küçüktür. Gövde büyürken fitiller küçülüyorsa, mum içinde alınan mesafenin daha \nbüyük bölümü kapanışta korunmuştur. Fitilin çok az olması da o mum içinde karşı tarafın fiyatı \ngeri itmekte zorlandığını gösterebilir. Yine de “büyük” ve “küçük” her zaman çevredeki \nmumlarla karşılaştırılır; bu göreli güç fikrini Bölüm 2’de ayrıntılandıracağız. \nUzun fitil, fiyatın bir yöne kadar gittiğini fakat kapanıştan önce o hareketin önemli bölümünün \ngeri verildiğini gösterir. Üst fitil yukarı denemenin, alt fitil aşağı denemenin geri itilmesidir. \nAncak fitilin yönü bize bir sonraki mumun yönünü garanti etmez; yalnız o mum içinde hangi \nfiyatların korunamadığını söyler. \nKararsız mumda gövde küçüktür ve iki tarafta da fitil görülebilir. Burada önemli fikir “iki taraf \neşit” demekten çok, mum içinde hareket olmasına rağmen net ilerlemenin sınırlı kalmasıdır. Bu \nnedenle kararsızlık kendi başına yön sinyali değildir; bir sonraki mumun hangi tarafta gerçek \nmesafe ürettiği daha değerlidir. \nAKLINDA KALSIN \nGüç, geri itilme ve kararsızlık birer işlem sinyali değil, o mumda gözlenen davranışın kısa adlarıdır. \nÖzellikle geri itilme ve kararsızlıkta asıl ağırlık, sonraki mumların hangi yönde gerçek ilerleme \nürettiğiyle ortaya çıkar.",
+    "source_extract_summary": [
+      "Tek başına söylemez Güç Yakındaki mumlara göre büyük gövde, küçük fitiller Bir taraf aldığı mesafenin büyük bölümünü kapanışa taşıdı.",
+      "Bu üstünlüğün sonraki mumlarda süreceğini Geri itilme Belirgin uzun fitil, gövde daha sınırlı Fiyat bir yönde deneme yaptı ama o alanın önemli bölümü geri verildi.",
+      "Karşı tarafın artık tam kontrolü aldığını Kararsızlık Küçük gövde, iki yönlü fitiller İki yönde hareket oldu fakat kapanışta net ilerleme sınırlı kaldı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0010",
+    "source_id": "PTA-C2-2026",
+    "page": 10,
+    "chapter": 1,
+    "section": "1.5 — Bir mum dizisine bakarken 5 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n10 \n \nŞekil 1.4 — Birleşik mum dizinin ilk açılışını, son kapanışını ve tüm dizinin en yüksek–en düşük fiyatını özetler; \nmumların bu sonuca hangi sırayla ulaştığını ise göstermez. \nBakılan nokta Nereden alınır? Bize ne söyler? \nAçılış İlk mumun açılışı Dizinin başlangıç referansı \nKapanış Son mumun kapanışı Net sonucun başlangıca göre yeri \nEn yüksek Dizideki en yüksek fiyat Ulaşılan en yüksek nokta \nEn düşük Dizideki en düşük fiyat Ulaşılan en düşük nokta \n \nBirleşik mum bize net sonucu hızlı gösterir; fakat iç yolu saklar. Aynı açılış, kapanış, en yüksek \nve en düşük değerlere sahip iki dizi, o noktalara çok farklı sırayla ulaşmış olabilir. Biri küçük \ngeri çekilmelerle temiz biçimde ilerlerken diğeri aynı fiyat alanında birkaç kez gidip gelebilir. \nÖzet mum aynı görünse bile hareketin kalitesi aynı değildir. \nBu nedenle birleşik mumu iki ayrı sorudan yalnız birine cevap vermek için kullanacağız: \n“Birkaç mumun net sonucu neydi?” İkinci soru — “Bu sonuca nasıl ulaşıldı?” — ancak gerçek \nmumların sırasına bakılarak cevaplanabilir. Kitabın geri kalanında bu iki bakışı birlikte \nkullanacağız. \nKULLANIM NOTU \nBirleşik mum bir özetleme aracıdır, dizinin yerine geçmez. Özet mum net sonucu gösterir; hız, \nörtüşme, ara geri çekilmeler ve hangi tarafın ne zaman güçlendiği gibi bilgileri görebilmek için gerçek \nmum sırasına geri dönün. \n \n1.5 — Bir mum dizisine bakarken 5 soru \nBu beş soru bir sinyal listesi değil; tek mumu sonuç gibi görmek yerine davranışın önce–şimdi–\nsonra bağlantısını koruyan kısa okuma sırasıdır. \nAdım Sorulacak soru Neye bakıyoruz? \n1. Önceki hareket Hangi yönde, ne kadar rahat ilerliyordu? Bağlam / baskı \n2. Şimdiki mum Ne denendi, ne geri verildi, kapanışta ne kaldı? Gövde / fitil / kapanış \n3. Sonraki cevap İlk mesaj korundu mu, geri mi alındı? Takip davranışı \n4. Gerçek ilerleme Yeni alan mı kazanıldı, aynı bölgeye mi dönüldü? Net mesafe \n5. Net özet Toplam sonuç neydi; oraya nasıl ulaşıldı? Özet + gerçek sıra",
+    "source_extract_summary": [
+      "Açılış İlk mumun açılışı Dizinin başlangıç referansı Kapanış Son mumun kapanışı Net sonucun başlangıca göre yeri En yüksek Dizideki en yüksek fiyat Ulaşılan en yüksek nokta En düşük Dizideki en düşük fiyat Ulaşılan en düşük nokta Birleşik mum bize net sonucu hızlı gösterir; fakat iç yolu saklar.",
+      "Aynı açılış, kapanış, en yüksek ve en düşük değerlere sahip iki dizi, o noktalara çok farklı sırayla ulaşmış olabilir.",
+      "Biri küçük geri çekilmelerle temiz biçimde ilerlerken diğeri aynı fiyat alanında birkaç kez gidip gelebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Veri sözleşmesi ve mum özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0023",
+    "source_id": "PTA-C2-2026",
+    "page": 23,
+    "chapter": 4,
+    "section": "4.1 — İki mumluk dönüş: ikinci mum ilk baskıyı geri alabiliyor mu?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n23 \nBÖLÜM 4 \nKısa Dönüş Dizileri: \n2–4 Mum ve Çoklu İtiş \nDönüşü tek bir mumla değil, eski yönün zayıflaması ve karşı tarafın baskıyı ne kadar \ngeri alabildiğiyle okuyun. \nBölüm 3’te bir hareketin içeriden nasıl yavaşlayabildiğini gördük. Şimdi bir adım daha ileri \ngideceğiz: Bu zayıflama ne zaman kısa bir dönüş dizisine dönüşüyor? İki, üç veya dört mumluk \nyapılar aynı şeyi anlatmaz. Bazıları ani bir karşı baskıyı, bazıları ise eski yönün birkaç adım \nboyunca güç kaybettiğini gösterir. Çoklu itiş yapılarında ise asıl bilgi mum sayısı değil, aynı \nyönde yapılan tekrar eden denemelerin hangi aşamaya geldiğidir. \nBU BÖLÜMÜN ANA FİKRİ \nKısa dönüş dizilerini formasyon adı ezberlemek için değil, güç sırasının nasıl değiştiğini görmek \niçin kullanacağız. İlk soru “Kaç mum var?” değil; “Eski yön ne kadar ilerleyebildi ve karşı taraf \nbu baskının ne kadarını geri alabildi?” olacak. \n \n4.1 — İki mumluk dönüş: ikinci mum ilk baskıyı geri alabiliyor mu? \nİki mumluk dönüşte yapı çok kısadır. Yükseliş yönlü örnekte önce satış baskısını taşıyan bir \nmum, hemen ardından bu baskıyı geri alan güçlü bir yükseliş mumu gelir. Düşüş yönlü örnekte \nise sıralama tersidir: önce alıcıların taşıdığı mum, ardından bu hareketi geri alan satış mumu \ngörülür. \nBurada ikinci mumun yalnız karşı renkte olması yeterli değildir. Önemli olan, ilk mumun \nyarattığı baskıyı anlamlı biçimde geri itmesidir. Bu nedenle iki mumluk diziyi “kırmızıdan \nsonra yeşil geldi” şeklinde değil, “ilk baskı sürdürülemedi ve karşı taraf önemli miktarda \nmesafeyi geri aldı” şeklinde okumak daha doğrudur. \n \nŞekil 4.1 — İki mumluk dönüşte ikinci mumun görevi yalnız renk değiştirmek değil, ilk mumun taşıdığı \nbaskıyı geri almaktır.",
+    "source_extract_summary": [
+      "BÖLÜM 4 Kısa Dönüş Dizileri: 2–4 Mum ve Çoklu İtiş Dönüşü tek bir mumla değil, eski yönün zayıflaması ve karşı tarafın baskıyı ne kadar geri alabildiğiyle okuyun.",
+      "Bölüm 3’te bir hareketin içeriden nasıl yavaşlayabildiğini gördük.",
+      "Şimdi bir adım daha ileri gideceğiz: Bu zayıflama ne zaman kısa bir dönüş dizisine dönüşüyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0027",
+    "source_id": "PTA-C2-2026",
+    "page": 27,
+    "chapter": 4,
+    "section": "4.6 — Farklı dizilerin ortak iskeleti nedir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n27 \nyönde küçük bir ek itiş daha yapabilir ve ancak bundan sonra geri dönebilir. Bu son küçük \ntaşma, overshoot olarak düşünülebilir. \nBu bilgi özellikle dönüş yapılarını fazla mekanik okumamayı sağlar. Geç evrede bir yapı oluştu \ndiye fiyatın tam o noktada ve tek mum içinde yön değiştirmesini beklemek gerçekçi değildir. \nÖte yandan ek itişin varlığı da otomatik olarak yapının bozulduğu anlamına gelmez; önemli \nolan bunun küçük bir son deneme olarak mı kaldığı, yoksa eski yönün yeniden güçlü biçimde \ndevam edip etmediğidir. \n \nŞekil 4.5 — Dördüncü itişten sonra küçük bir ek taşma görülebilir. Bu nedenle geç evre dönüş yapıları \nkusursuz bir “nokta dönüşü” gibi düşünülmemelidir. \nTETİK ≠ ANINDA DÖNÜŞ \nBir dönüş yapısının görülmesi yalnızca dikkat seviyesini yükseltir. Fiyat küçük bir son deneme \ndaha yapabilir. Bu bölümün amacı tam tepe veya dibi nokta atışı bulmak değil, eski yönün \ngücünün nasıl değiştiğini okumaktır. \n \n4.6 — Farklı dizilerin ortak iskeleti nedir? \nİki mumluk dönüş, üç mumluk dönüş, küçülen mum dizisi ve dört itişli yapı farklı görünür. \nYine de aralarında ortak bir okuma sırası vardır. Önce eski yönün ilerlemesi zorlaşır veya \nyaptığı denemeler daha fazla geri itilir. Ardından karşı taraf ilk anlamlı cevabı verir. Eğer karşı \nyöndeki mumlar birden fazla mum boyunca büyümeye ve daha fazla mesafe almaya başlarsa, \nkontrol değişimi daha görünür hale gelir. \nBu nedenle tek bir uzun fitil ile güçlü bir dönüş dizisini aynı ağırlıkta değerlendirmeyiz. Tek \nfitil veya tek zayıf mum erken uyarıdır. Birkaç mum boyunca süren zayıflama daha fazla bilgi \nverir. Karşı yönde genişleyen ve art arda gelen mumlar ise yeni tarafın yalnız tepki vermediğini, \ngiderek daha fazla mesafe alabildiğini gösterir.",
+    "source_extract_summary": [
+      "yönde küçük bir ek itiş daha yapabilir ve ancak bundan sonra geri dönebilir.",
+      "Bu son küçük taşma, overshoot olarak düşünülebilir.",
+      "Bu bilgi özellikle dönüş yapılarını fazla mekanik okumamayı sağlar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0030",
+    "source_id": "PTA-C2-2026",
+    "page": 30,
+    "chapter": 5,
+    "section": "5.1 — Üç mumluk devam: ana yön baskıyı yeniden kurabiliyor mu?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n30 \nBÖLÜM 5 \nKısa Devam Dizileri ve \nMikro Kanallar \nKarşı yöndeki her mum dönüş değildir. Ana yönün kısa bir kesintiden sonra baskıyı \nyeniden kurup kuramadığına bakın. \nBölüm 4’te kısa dönüş dizilerini inceledik. Ancak fiyatın karşı yönde bir veya birkaç mum \nüretmesi her zaman yön değişimi anlamına gelmez. Bazen ana hareket kısa süre durur, karşı \ntaraf sınırlı bir tepki verir ve ardından önceki yön yeniden güç kazanır. Devam yapılarında asıl \nmesele, karşı hareketin varlığı değil; bu karşı hareketin ana baskıyı gerçekten bozup \nbozamadığıdır. \nBU BÖLÜMÜN ANA FİKRİ \nDevam yapısını üç soruyla okuyacağız: Karşı hareket ne kadar sınırlı kaldı? Ana yön ne kadar güçlü \ngeri döndü? Mumlar ilerlerken kısa dönem yapı ve hareket kalitesi korunuyor mu? Tek bir karşı mum, \nbu üç sorunun yerini tutmaz. \n5.1 — Üç mumluk devam: ana yön baskıyı yeniden kurabiliyor mu? \nÜç mumluk devam dizisi üç ayrı görevin art arda görülmesine dayanır. İlk mum mevcut yönü \ngüçlü biçimde taşır. İkinci mum karşı yönde hareket eder ancak ilk muma göre daha küçüktür; \nyani karşı taraf fiyatı geri iter fakat önceki baskıyı bütünüyle geri alamaz. Üçüncü mum yeniden \nilk yönle aynı tarafa güçlü biçimde ilerler. Böylece kısa karşı hareketin ardından ana tarafın \nkontrolü yeniden kurduğu görülür. \nBurada renk sırasını ezberlemek yeterli değildir. İkinci mumun küçük kalması ve üçüncü \nmumun yeniden anlamlı mesafe alması yapının esas bilgisidir. Yükseliş örneğinde “yeşil–\nkırmızı–yeşil” dizisi ancak ortadaki geri çekilme sınırlı kaldığında ve son mum alıcıların \nbaskıyı yeniden taşıdığını gösterdiğinde kaynakta tarif edilen devam davranışına yaklaşır. Aynı \nmantık düşüş yönünde ters sırayla okunur. \n \nŞekil 5.1 — Üç mumluk devamda ortadaki mum sınırlı bir karşı hareketi, üçüncü mum ise ana yönün \nbaskıyı yeniden kurmasını gösterir.",
+    "source_extract_summary": [
+      "BÖLÜM 5 Kısa Devam Dizileri ve Mikro Kanallar Karşı yöndeki her mum dönüş değildir.",
+      "Ana yönün kısa bir kesintiden sonra baskıyı yeniden kurup kuramadığına bakın.",
+      "Bölüm 4’te kısa dönüş dizilerini inceledik."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

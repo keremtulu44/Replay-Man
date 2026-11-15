@@ -240,6 +240,91 @@
       "decision": "4h yukarı deneme failure sonrası aşağı hipotezinde daha zayıf mesafe, uzun süre veya benzer hız alt grupları üç zaman bölümünde pozitif; çıplak olay kararlı değil.",
       "source_link": "research/experiments/book-rule-results/BR-014-new-extreme-failure/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-014-new-extreme-failure"
+    },
+    {
+      "id": "BR-015-pullback-geometry",
+      "title": "Pullback derinlik, süre, hız ve örtüşmeyle ölçülür",
+      "sources": [
+        "PTA-C2-2026.p0056",
+        "PTA-C2-2026.p0057",
+        "PTA-C2-2026.p0058",
+        "PTA-C2-2026.p0063",
+        "PTA-C2-2026.p0077",
+        "PTA-C2-2026.p0082"
+      ],
+      "events": [],
+      "batch_events": [
+        "pullback_confirmed"
+      ],
+      "status": "rejime_bagli",
+      "decision": "Çıplak pullback yön ve dönem arasında kararlı değil; sığ yukarı pullback testte güçlü fakat yalnız 18 olay.",
+      "source_link": "research/experiments/book-rule-results/BR-015-pullback-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-015-pullback-geometry"
+    },
+    {
+      "id": "BR-016-candle-geometry",
+      "title": "Mum adı yerine gövde, kapanış ve engulfing geometrisi",
+      "sources": [
+        "PTA-C2-2026.p0008",
+        "PTA-C2-2026.p0010",
+        "PTA-C2-2026.p0023",
+        "PTA-C2-2026.p0027",
+        "PTA-C2-2026.p0030"
+      ],
+      "events": [],
+      "batch_events": [
+        "strong_bull_close",
+        "strong_bear_close",
+        "bullish_engulfing",
+        "bearish_engulfing"
+      ],
+      "status": "tek_basina_kararsiz",
+      "decision": "4h mum olayları eğitim ve test arasında işaret değiştiriyor; tek mum/dizi bağımsız avantaj değil.",
+      "source_link": "research/experiments/book-rule-results/BR-016-candle-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-016-candle-geometry"
+    },
+    {
+      "id": "BR-017-trend-range-regime",
+      "title": "Trend, range ve geçiş bağlamı",
+      "sources": [
+        "PTA-C2-2026.p0033",
+        "PTA-C2-2026.p0034",
+        "PTA-C2-2026.p0082",
+        "PTA-C2-2026.p0095"
+      ],
+      "events": [],
+      "batch_events": [
+        "pullback_confirmed",
+        "strong_bull_close",
+        "strong_bear_close",
+        "bullish_engulfing",
+        "bearish_engulfing"
+      ],
+      "status": "baglam_gerekli",
+      "decision": "Rejim olay sonuçlarını değiştiriyor fakat tek rejim bütün olay ve dönemlerde üstün değil.",
+      "source_link": "research/experiments/book-rule-results/BR-017-trend-range-regime/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-017-trend-range-regime"
+    },
+    {
+      "id": "BR-018-multi-timeframe",
+      "title": "Alt zaman olayı tamamlanmış üst zaman bağlamıyla okunur",
+      "sources": [
+        "PTA-C2-2026.p0089",
+        "PTA-C2-2026.p0090",
+        "PTA-C2-2026.p0099"
+      ],
+      "events": [],
+      "batch_events": [
+        "pullback_confirmed",
+        "strong_bull_close",
+        "strong_bear_close",
+        "bullish_engulfing",
+        "bearish_engulfing"
+      ],
+      "status": "olumlu_baglam",
+      "decision": "1h güçlü aşağı kapanış + tamamlanmış 4h düşüş hizası eğitim/doğrulama/testte pozitif XU100-aşırı 20 bar medyan verdi.",
+      "source_link": "research/experiments/book-rule-results/BR-018-multi-timeframe/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-018-multi-timeframe"
     }
   ]
 }

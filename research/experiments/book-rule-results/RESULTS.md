@@ -242,6 +242,30 @@ bulunur. Rapor özetler; CSV'ler azaltılmamış sonuç tablolarını korur.
 
 **Karar:** `baglam_gerekli`; alt gruplar olumlu işaret taşıyor fakat örnek sınırlı ve kombinasyon testi yapılmadı.
 
+## BR-015 — Pullback geometrisi
+
+85.475 teyitli pullback ölçüldü. 4h/60 bar testte yukarı devam 297 olayda %1,57 XU100-aşırı medyan, aşağı devam 285 olayda -%2,11 verdi; eğitimde işaretler ters olduğu için çıplak sonuç rejime bağlıdır. Sığ pullback sonuçları güçlü görünse de test örnekleri yalnız 18–21'dir.
+
+**Karar:** `rejime_bagli`; sığlık adayı `ornek_yetersiz`.
+
+## BR-016 — Mum geometrisi ve dizileri
+
+223.992 güçlü kapanış ve engulfing olayı ölçüldü. 4h/60 testte güçlü boğa kapanışı %1,30, bullish engulfing %1,15; güçlü ayı kapanışı -%0,76, bearish engulfing -%0,78 XU100-aşırı medyan verdi. Eğitim dönemi işaretleri ters olduğundan tek mum/dizi kararlı avantaj değildir.
+
+**Karar:** `tek_basina_kararsiz`; mum adı bağlam yerine geçmez.
+
+## BR-017 — Trend/range rejimi
+
+EMA20/EMA50, ATR-normalize eğim ve yol verimliliğiyle trend_up, trend_down, range ve transition üretildi. Rejim olay sonuçlarını değiştiriyor fakat bütün olay/yön/dönemlerde üstün tek rejim yok.
+
+**Karar:** `baglam_gerekli`; rejim tek başına sinyal değil.
+
+## BR-018 — Çoklu zaman dilimi
+
+1h/2h olayları yalnız 4h bar süresi tamamlandıktan sonra üst-zaman rejimiyle eşlendi. 1h güçlü aşağı kapanış + tamamlanmış 4h düşüş hizası 20 barda eğitim/doğrulama/testte %0,18 / %0,07 / %0,45 XU100-aşırı medyan verdi; pozitif oranlar %53,1 / %51,4 / %55,3. Yukarı hizalı karşılık kararlı değil.
+
+**Karar:** `olumlu_baglam`, fakat avantaj küçük ve maliyet testi gerekli.
+
 # Sonraki kitap kuralları
 
-Sıradaki ölçüm paketi pullback mesafe/süre/hız, geri alma derinliği, tek/iki bacak ve eski kırılım bölgesine dönüş ölçümüdür. Sonrasında mum dizileri, trend/range, çoklu zaman dilimi, seans ve göreceli güç eklenecektir.
+Sıradaki paket göreceli güç/çapraz piyasa ve ardından Cilt 1 indikatör aileleridir. Sonrasında formasyon, seans ve risk/pozisyon yönetimi gelir.

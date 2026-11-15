@@ -23,6 +23,10 @@ RULES = {
  "BR-012-second-attempt": {"title":"İkinci denemeyi ilk bacakla mesafe, süre ve hız açısından karşılaştır", "sources":["PTA-C2-2026.p0063","PTA-C2-2026.p0064","PTA-C2-2026.p0065","PTA-C2-2026.p0071","PTA-C2-2026.p0097"], "events":[], "attempt_events":["new_extreme_success","new_extreme_failure"], "status":"altyapi_tamam", "decision":"112.790 ikinci deneme olayı üretildi; çıplak sonuçlar dönem/yön bağımlı, oran bağlamları ayrıca korunuyor."},
  "BR-013-new-extreme-success": {"title":"İkinci denemenin beklenen yeni ucu üretmesi", "sources":["PTA-C2-2026.p0064","PTA-C2-2026.p0067","PTA-C2-2026.p0097"], "events":[], "attempt_events":["new_extreme_success"], "status":"rejime_bagli", "decision":"Başarı etiketi tek başına devam avantajı değil; yön ve zaman bölümü arasında işaret değişiyor."},
  "BR-014-new-extreme-failure": {"title":"İkinci denemenin yeni uç üretememesi", "sources":["PTA-C2-2026.p0065","PTA-C2-2026.p0070","PTA-C2-2026.p0071","PTA-C2-2026.p0097"], "events":[], "attempt_events":["new_extreme_failure"], "status":"baglam_gerekli", "decision":"4h yukarı deneme failure sonrası aşağı hipotezinde daha zayıf mesafe, uzun süre veya benzer hız alt grupları üç zaman bölümünde pozitif; çıplak olay kararlı değil."},
+ "BR-015-pullback-geometry": {"title":"Pullback derinlik, süre, hız ve örtüşmeyle ölçülür", "sources":["PTA-C2-2026.p0056","PTA-C2-2026.p0057","PTA-C2-2026.p0058","PTA-C2-2026.p0063","PTA-C2-2026.p0077","PTA-C2-2026.p0082"], "events":[], "batch_events":["pullback_confirmed"], "status":"rejime_bagli", "decision":"Çıplak pullback yön ve dönem arasında kararlı değil; sığ yukarı pullback testte güçlü fakat yalnız 18 olay."},
+ "BR-016-candle-geometry": {"title":"Mum adı yerine gövde, kapanış ve engulfing geometrisi", "sources":["PTA-C2-2026.p0008","PTA-C2-2026.p0010","PTA-C2-2026.p0023","PTA-C2-2026.p0027","PTA-C2-2026.p0030"], "events":[], "batch_events":["strong_bull_close","strong_bear_close","bullish_engulfing","bearish_engulfing"], "status":"tek_basina_kararsiz", "decision":"4h mum olayları eğitim ve test arasında işaret değiştiriyor; tek mum/dizi bağımsız avantaj değil."},
+ "BR-017-trend-range-regime": {"title":"Trend, range ve geçiş bağlamı", "sources":["PTA-C2-2026.p0033","PTA-C2-2026.p0034","PTA-C2-2026.p0082","PTA-C2-2026.p0095"], "events":[], "batch_events":["pullback_confirmed","strong_bull_close","strong_bear_close","bullish_engulfing","bearish_engulfing"], "status":"baglam_gerekli", "decision":"Rejim olay sonuçlarını değiştiriyor fakat tek rejim bütün olay ve dönemlerde üstün değil."},
+ "BR-018-multi-timeframe": {"title":"Alt zaman olayı tamamlanmış üst zaman bağlamıyla okunur", "sources":["PTA-C2-2026.p0089","PTA-C2-2026.p0090","PTA-C2-2026.p0099"], "events":[], "batch_events":["pullback_confirmed","strong_bull_close","strong_bear_close","bullish_engulfing","bearish_engulfing"], "status":"olumlu_baglam", "decision":"1h güçlü aşağı kapanış + tamamlanmış 4h düşüş hizası eğitim/doğrulama/testte pozitif XU100-aşırı 20 bar medyan verdi."},
 }
 
 def cards():
@@ -37,6 +41,8 @@ def main():
  tables={name:pd.read_csv(MEASURE/name) for name in ["structure_event_study.csv","structure_time_split_study.csv","structure_symbol_results.csv","book_context_rule_study.csv"]}
  attempt_base=ROOT/"measurements/attempts"
  attempt_tables={name:pd.read_csv(attempt_base/name) for name in ["attempt_time_split_study.csv","attempt_symbol_results.csv","attempt_context_study.csv"]} if attempt_base.exists() else {}
+ batch_base=ROOT/"measurements/book-batch1"
+ batch_tables={name:pd.read_csv(batch_base/name) for name in ["time_regime_mtf_study.csv","pullback_depth_study.csv"]} if batch_base.exists() else {}
  registry=[]
  for slug,rule in RULES.items():
   folder=OUT/slug; folder.mkdir(parents=True,exist_ok=True)
@@ -56,6 +62,9 @@ def main():
   if rule.get("attempt_events"):
    for filename,table in attempt_tables.items():
     table[table.event.isin(rule["attempt_events"])].to_csv(folder/filename,index=False)
+  if rule.get("batch_events"):
+   for filename,table in batch_tables.items():
+    table[table.event.isin(rule["batch_events"])].to_csv(folder/filename,index=False)
   record={"id":slug,**rule,"source_link":str(folder/"source-links.json"),"result_directory":str(folder)}
   registry.append(record)
  (OUT/"registry.json").write_text(json.dumps({"schema_version":1,"rules":registry},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "PTA-C2-2026.p0033",
+    "source_id": "PTA-C2-2026",
+    "page": 33,
+    "chapter": 5,
+    "section": "5.5 — Yapı korunurken hareket gücü azalabilir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n33 \n \nŞekil 5.4 — İki hareket aynı yönde ilerleyebilir; ancak az örtüşmeli ve aynı yönlü kapanışların sürdüğü \ndizi daha temiz, yoğun örtüşmeli dizi ise daha iki taraflıdır. \nGözlem Devam hakkında ne söyler? Ne söylemez? \nArt arda aynı yönlü kapanış Bir tarafın baskıyı daha sürekli taşıdığını gösterir. Hareketin sonsuza kadar süreceğini \nAz gövde örtüşmesi İlerlemenin daha temiz ve tek taraflı olduğunu gösterir. Tek başına giriş zamanını \nYoğun örtüşme İki tarafın daha sık karşılık verdiğini ve ilerlemenin yavaşladığını gösterir. Mutlaka dönüş olacağını \n \nSABİT EŞİK YOK \nKaynaklar “üç kapanış yeterlidir” veya “örtüşme yüzde şu kadar olmalı” gibi sabit bir sınır vermiyor. \nBuradaki amaç sayısal bir formül kurmak değil, aynı grafikteki hareketleri birbirine göre \nkarşılaştırmaktır. \n5.5 — Yapı korunurken hareket gücü azalabilir \nMikro kanalın en önemli ayrımlarından biri şudur: yapı ile hareket gücü aynı anda bozulmak \nzorunda değildir. Kaynaktaki yedi mumluk yükseliş mikro kanalı hâlâ kısa vadede yukarı \nyapısını korurken, son mumların gövdeleri küçülmeye başlar. Dizi içinde küçük bir satış mumu \nda görünür. Yani fiyat hâlâ yukarı tarafta ilerliyor olsa bile, her yeni mum önceki kadar güçlü \nmesafe üretmemektedir. \nBu durum “yükseliş bitti” demek değildir. Kaynağın çıkardığı daha temkinli sonuç, temiz \ndevamın iç gücünü kaybettiği ve fiyatın daha dar, iki taraflı bir işlem alanına geçme ihtimalinin \narttığıdır. Burada Bölüm 3’te öğrendiğimiz momentum kaybı ile bu bölümdeki mikro kanal \nyapısı birleşir: dipler hâlâ korunabilir, fakat gövdeler küçülüyorsa devamın kalitesi eskisi kadar \ngüçlü değildir.",
+    "source_extract_summary": [
+      "Art arda aynı yönlü kapanış Bir tarafın baskıyı daha sürekli taşıdığını gösterir.",
+      "Hareketin sonsuza kadar süreceğini Az gövde örtüşmesi İlerlemenin daha temiz ve tek taraflı olduğunu gösterir.",
+      "Tek başına giriş zamanını Yoğun örtüşme İki tarafın daha sık karşılık verdiğini ve ilerlemenin yavaşladığını gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0034",
+    "source_id": "PTA-C2-2026",
+    "page": 34,
+    "chapter": 5,
+    "section": "5.6 — Devam yapısını dönüşten ayırırken hangi sırayı izleyelim?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n34 \n \nŞekil 5.5 — Yedi mumluk mikro kanal kısa vadede yukarı yapısını korurken gövdeler küçülüyor ve küçük \nkarşı mum görülüyor. Yapı devam ederken hareket gücü içeriden azalabilir. \n5.6 — Devam yapısını dönüşten ayırırken hangi sırayı izleyelim? \nDevam dizilerinde en sık hata, tek bir karşı mumu olduğundan fazla önemsemektir. Üç mumluk \ndevam örneğinde karşı mum zaten yapının ortasındadır. Beş mumluk mikro kanalda da kısa bir \ngeri çekilme işareti, önceki güçlü diziyi tek başına silmez. Buna karşılık karşı hareket büyüyor, \nana yön yeniden güçlü mum üretemiyor, kapanış sürekliliği azalıyor ve gövdeler küçülüyorsa \ndevamın kalitesi sorgulanmaya başlar. \nBu nedenle devamı tek bir kalıp yerine birkaç katmanı birlikte okuyarak değerlendireceğiz. \nÖnce ana yönün ne kadar güçlü geldiğine, sonra karşı hareketin ne kadarını geri aldığına, \nardından ana yönün yeniden ilerleyip ilerleyemediğine bakacağız. Mikro kanal varsa diplerin \nkorunmasını; dizinin kalitesinde ise ardışık kapanışları, gövde örtüşmesini ve son mumların \nbüyüklüğünü karşılaştıracağız. \nSıra Sorulacak soru Aranan bilgi \n1 İlk itiş güçlü mü? Ana yön başlangıçta anlamlı mesafe alıyor mu? \n2 Karşı hareket ne kadar etkili? Sınırlı mı, yoksa ilk baskıyı geri almaya mı başlıyor? \n3 Ana yön yeniden güçleniyor mu? Sonraki mumlar tekrar aynı yönde ilerliyor mu? \n4 Kısa dönem yapı korunuyor mu? Mikro kanalda dipler/tepeler önceki sınırları koruyor mu? \n5 Hareket hâlâ temiz mi? Kapanış sürekliliği, örtüşme ve gövde boyları ne söylüyor? \n \nBÖLÜM SONUCU \nKısa devam dizilerinde amaç “karşı mum çıktı, ama trend devam eder” gibi basit bir kural kurmak \ndeğildir. Daha güçlü devam; karşı hareketin sınırlı kalması, ana yönün yeniden anlamlı mesafe alması \nve kısa dönem yapının korunmasıyla görünür. Buna karşılık yapı henüz bozulmasa bile gövdelerin",
+    "source_extract_summary": [
+      "Yapı devam ederken hareket gücü içeriden azalabilir.",
+      "5.6 — Devam yapısını dönüşten ayırırken hangi sırayı izleyelim?",
+      "Devam dizilerinde en sık hata, tek bir karşı mumu olduğundan fazla önemsemektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0082",
+    "source_id": "PTA-C2-2026",
+    "page": 82,
+    "chapter": 11,
+    "section": "11.4 — Güçlü trend ile kanal aynı pullback derinliğini üretmek zorunda",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n82 \n \nŞekil 11.3 — Solda fiyat direncin üzerine kısa süre taşsa da seviyenin üstünde kalamıyor ve geri itiliyor. \nSağda ise dışarıda kapanışın ardından ilerleme sürüyor. Aynı çizgiye temas edilmiş olsa da seviyeye \nverilen tepki farklıdır. \nSeviye testi Fiyat davranışı Okunan bilgi Sonraki kontrol \nZorlanma / geri itilme Seviye aşılır ama kapanış tekrar içeri gelir O yöndeki ilerleme tutulamadı Karşı taraf gerçekten alan kazanıyor mu? \nKararsızlık \nMumlar seviye \nçevresinde küçülür ve \nbirbirine girer \nHenüz belirgin kabul \nveya geri itilme yok \nSıkışma hangi tarafa \nçözülüyor? \nBelirgin geçiş Mum seviye dışında güçlü kapanır Seviyenin ötesinde kabul artıyor Takip davranışı var mı? \nGeçiş sonrası geri dönüş İlk kırılım hızla geri alınır İlk kabul kalıcı olmayabilir Eski bölge yeniden mi tutuldu? \n \n11.4 — Güçlü trend ile kanal aynı pullback derinliğini üretmek zorunda \ndeğildir \nKaynak 60, geri çekilme beklentisinin piyasa ortamına göre değiştiğini açık biçimde vurgular. \nÇok güçlü bir trendde fiyat uzun süre ortalamadan uzak kalabilir ve geri çekilmeler sığ olabilir. \nKaynaktaki örnekte fiyatın yaklaşık 30 mum boyunca hareketli ortalamanın üzerinde kaldığı \nbelirtilir; mesaj bu sayıyı kural yapmak değil, güçlü trendde “mutlaka derin geri çekilme \ngelecek” beklentisinin gerçekçi olmayabileceğini göstermektir. \nDaha geniş bir kanalda ise yukarı ve aşağı bacaklar büyür, karşı hareketler daha görünür hale \ngelir ve fiyatın önceki ilerlemenin daha büyük bölümünü geri vermesi daha olağandır. Bu \nnedenle Bölüm 8’de öğrendiğimiz pullback derinliği tek başına okunmaz. Aynı yüzde veya aynı \nmesafe, çok güçlü trendde olağandışı görünebilirken geniş kanalda normal bir salınımın parçası \nolabilir.",
+    "source_extract_summary": [
+      "Sağda ise dışarıda kapanışın ardından ilerleme sürüyor.",
+      "Aynı çizgiye temas edilmiş olsa da seviyeye verilen tepki farklıdır.",
+      "Seviye testi Fiyat davranışı Okunan bilgi Sonraki kontrol Zorlanma / geri itilme Seviye aşılır ama kapanış tekrar içeri gelir O yöndeki ilerleme tutulamadı Karşı taraf gerçekten alan kazanıyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0095",
+    "source_id": "PTA-C2-2026",
+    "page": 95,
+    "chapter": 13,
+    "section": "13.4 — Gördüğünüz şey dönüş mü, devam mı, yoksa sıkışma mı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n95 \n \n13.3 — Eski yön gerçekten zayıflıyor mu? \nBir tarafın güçlü olduğunu gördükten sonra sıradaki soru, bu gücün değişmeye başlayıp \nbaşlamadığıdır. Zayıflama çoğu zaman tek bir mumla başlamaz. Aynı yöndeki gövdeler \nküçülebilir, yeni mumlar daha az mesafe alabilir, aynı seviye tekrar tekrar geçilemeyebilir veya \nkarşı tarafın mumları büyümeye başlayabilir. Fitil reddi bu parçaların yalnız biridir. \nBurada önemli olan işaret saymak değil, ilerleme kabiliyetindeki değişimi görmektir. Fiyat hâlâ \naynı yönde yeni uçlar üretmeye devam ediyorsa birkaç küçük mum normal olabilir. Fakat yeni \nuçlar giderek kısalıyor, aynı bölge birkaç kez test ediliyor ve karşı taraf artık daha fazla mesafe \nalıyorsa eski yönün üstünlüğü azalıyor olabilir. \n \nŞekil 13.3 — Zayıflama zinciri: küçülen gövdeler, aynı bölgenin tekrar test edilmesi, yeni uç üretiminin \nyavaşlaması ve karşı yöndeki mumların büyümesi. Tek bir işaret değil, ilerleme kaybı önemlidir. \n13.4 — Gördüğünüz şey dönüş mü, devam mı, yoksa sıkışma mı? \nZayıflamayı gördükten sonra hemen “dönüş başladı” demeyiz. Aynı kısa mum dizisi üç farklı \naileye girebilir. Eski yön zayıflar ve karşı taraf giderek daha fazla alan kazanırsa dönüş \ndavranışı gelişebilir. Karşı hareket sınırlı kalır ve ana yön yeniden güçlü biçimde devreye \ngirerse devam yapısı vardır. İki taraf da yeni alan üretemiyor ve mumlar birbirinin içine \ngiriyorsa sıkışma öne çıkar. \nBu sınıflandırma, iki veya üç mumluk şekilleri ezberlemekten daha kullanışlıdır. Çünkü aynı \ngörsel yapı farklı yerde farklı görevi üstlenebilir. Önce dizinin fiyatı ne yaptırdığına bakar, \nformasyon adını ancak gerekirse sonra kullanırız.",
+    "source_extract_summary": [
+      "13.3 — Eski yön gerçekten zayıflıyor mu?",
+      "Bir tarafın güçlü olduğunu gördükten sonra sıradaki soru, bu gücün değişmeye başlayıp başlamadığıdır.",
+      "Zayıflama çoğu zaman tek bir mumla başlamaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  }
+]

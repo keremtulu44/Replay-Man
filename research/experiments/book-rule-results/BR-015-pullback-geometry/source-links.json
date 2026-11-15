@@ -1,0 +1,122 @@
+[
+  {
+    "id": "PTA-C2-2026.p0056",
+    "source_id": "PTA-C2-2026",
+    "page": 56,
+    "chapter": 8,
+    "section": "8.3 — Geri çekilme ne kadarını geri aldı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n56 \n \nŞekil 8.2 — Aynı dip kırılım öncesinde yalnız adaydır. Önceki major tepenin üzerinde kapanış geldikten \nsonra, kırılımdan önceki en düşük geçerli dip major swing low olarak teyit edilir. \nAşama Dip/tepe nasıl görülür? Neden? \nSınır kırılmadan önce Aday swing Daha büyük yapı henüz yeni sınır \nüretmedi \nÖnemli tepe/dip test \nedilirken \nAday olmaya devam eder Test ile teyit aynı şey değildir \nSınır dışında kapanış sonrası Major referans swing olarak teyit \nedilebilir \nBüyük yapının eski sınırı değişmiştir \nSonradan değerlendirme Kırılımdan önceki geçerli uç seçilir Referans noktası kurala bağlanır \n \nPRATIK SONUÇ \nMajor swing işaretlerken yalnız “en belirgin görünen” noktayı aramayın. Önce hangi önemli sınırın kırıldığını \nbelirleyin; sonra o kırılımdan önceki geçerli dip veya tepeyi referans alın. \n \n8.3 — Geri çekilme ne kadarını geri aldı? \nBir hareket bacağını değerlendirirken yalnız “geri çekilme oldu” demek yeterli değildir. \nKaynak, geri çekilmenin derinliğini önceki hareket bacağına göre ölçer. Yaklaşık %25–30 \ncivarındaki geri çekilmeyi sığ, yaklaşık %50 veya üzerini daha derin geri çekilme olarak \nörnekler. Buradaki amaç yeni sabit kurallar üretmek değil, geri verilen mesafeyi önceki \nilerlemeye göre karşılaştırmaktır. \nÖrneğin 3 birimlik geri çekilme tek başına fazla ya da az değildir. Öncesindeki hareket 4 \nbirimse geri verilen pay büyüktür; 12 birimse aynı 3 birim çok daha sınırlı kalır. Bu nedenle \nsayıdan çok oran önem kazanır. Derinlik, önceki tarafın kazandığı alanın ne kadarını \nkoruyabildiğini gösteren geometrik bir ölçüdür.",
+    "source_extract_summary": [
+      "Önceki major tepenin üzerinde kapanış geldikten sonra, kırılımdan önceki en düşük geçerli dip major swing low olarak teyit edilir.",
+      "Sınır kırılmadan önce Aday swing Daha büyük yapı henüz yeni sınır üretmedi Önemli tepe/dip test edilirken Aday olmaya devam eder Test ile teyit aynı şey değildir Sınır dışında kapanış sonrası Major referans swing olarak teyit edilebilir Büyük yapının eski sınırı değişmiştir Sonradan değerlendirme Kırılımdan önceki geçerli uç seçilir Referans noktası kurala bağlanır PRATIK SONUÇ Major swing işaretlerken yalnız “en belirgin görünen” noktayı aramayın.",
+      "Önce hangi önemli sınırın kırıldığını belirleyin; sonra o kırılımdan önceki geçerli dip veya tepeyi referans alın."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0057",
+    "source_id": "PTA-C2-2026",
+    "page": 57,
+    "chapter": 8,
+    "section": "8.4 — Geri çekilme eski kırılım bölgesine döndü mü?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n57 \n \nŞekil 8.3 — Kaynaktaki yaklaşık %25–30 ve %50+ oranları katı eşik değil, göreli derinliği anlatan \nreferanslardır. Aynı yön devam etse bile ikinci yapı önceki hareketin çok daha büyük bölümünü geri verir. \nGeri çekilme Bize ne söyler? Tek başına ne söylemez? \nDaha sığ Önceki ilerlemenin daha büyük bölümü \nkorunuyor \nTrend kesin devam eder \nOrta derinlik Kazançların daha fazla bölümü geri \nveriliyor \nDönüş kesinleşti \nDaha derin Karşı taraf önceki harekete daha fazla \nnüfuz ediyor \nEski yön mutlaka bitti \n \nYÜZDELERI YASA GIBI KULLANMAYIN \nKaynak yaklaşık %25–30 ve %50+ örnekleri verir; fakat asıl fikir oranların kendisi değil, geri çekilmenin önceki \nhareket bacağına göre ne kadar alan geri verdiğidir. \n \n8.4 — Geri çekilme eski kırılım bölgesine döndü mü? \nDerinlik kadar önemli ikinci soru, geri çekilmenin eski kırılım noktasına göre nerede \ndurduğudur. Kaynak, yükseliş örneğinde geri çekilme tabanı ile önceki kırılım noktasını \nkarşılaştırır. Geri çekilme kırılım bölgesine kadar dönüyor veya o bölgeyle örtüşüyorsa, fiyat \nönceki genişlemenin daha büyük kısmını geri vermiş olur. \nBuna karşılık pullback açık biçimde eski kırılım noktasının üzerinde kalıyor ve hareket yeniden \nyukarı devam ediyorsa geometri daha güçlü görünür. Çünkü satıcılar fiyatı eski kırılım alanına \ngeri taşıyamamıştır. Bu, “her kırılım mutlaka seviyeyi retest etmelidir” fikrinin tersidir: bazen \nseviyeye hiç dönmemek, hareketin daha güçlü olduğuna dair bilgidir.",
+    "source_extract_summary": [
+      "Aynı yön devam etse bile ikinci yapı önceki hareketin çok daha büyük bölümünü geri verir.",
+      "Daha sığ Önceki ilerlemenin daha büyük bölümü korunuyor Trend kesin devam eder Orta derinlik Kazançların daha fazla bölümü geri veriliyor Dönüş kesinleşti Daha derin Karşı taraf önceki harekete daha fazla nüfuz ediyor Eski yön mutlaka bitti YÜZDELERI YASA GIBI KULLANMAYIN Kaynak yaklaşık %25–30 ve %50+ örnekleri verir; fakat asıl fikir oranların kendisi değil, geri çekilmenin önceki hareket bacağına göre ne kadar alan geri verdiğidir.",
+      "8.4 — Geri çekilme eski kırılım bölgesine döndü mü?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0058",
+    "source_id": "PTA-C2-2026",
+    "page": 58,
+    "chapter": 8,
+    "section": "8.5 — Aynı mesafe, farklı süre: swing hızını da geometriye ekleyin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n58 \n \nŞekil 8.4 — Solda geri çekilme kırılım bölgesinin üzerinde kalıyor; sağda ise eski kırılım alanıyla \nörtüşüyor. İki hareket de yukarı devam edebilir, fakat korunan alan miktarı aynı değildir. \nGeri çekilme konumu Geometrik anlam Sorulacak soru \nKırılım noktasının belirgin \nüstünde \nÖnceki genişleme daha çok \nkorunuyor \nKarşı taraf eski alana ne kadar \nyaklaşabildi? \nKırılım bölgesine temas / \nörtüşme \nDaha fazla alan geri veriliyor Bölge tutuluyor mu, yoksa içine mi \ndönülüyor? \nKırılım bölgesinin içine geri \ndönüş \nİlk genişlemenin önemli bölümü \ngeri alınmış olabilir \nYeni yön gerçekten kabul gördü \nmü? \n \nRETEST ZORUNLU DEĞILDIR \nKırılım sonrası eski seviyeye dönülmemesi “eksik retest” olmak zorunda değildir. Kaynağın vurgusu, geri çekilme \ntabanının kırılım noktasına göre nerede kaldığıdır; açık mesafe bazen daha güçlü geometriyi gösterir. \n \n8.5 — Aynı mesafe, farklı süre: swing hızını da geometriye ekleyin \nSwingleri yalnız yüksekten düşüğe çizilen çizgiler gibi görmek eksik kalır. Multi-candle \nmomentum kaynağı, tamamlanmış hareket bacaklarını mesafe ve süre açısından da karşılaştırır. \nAynı fiyat mesafesi bir yönde üç mumda, karşı yönde yedi mumda alınıyorsa iki bacağın hızı \naynı değildir. Daha az mumda aynı mesafeyi kat eden taraf daha hızlı ilerlemiştir. \nBu ölçü özellikle pullback ile ana hareketi karşılaştırırken yararlıdır. Ana hareket daha uzun \ngövdelerle, daha az kesintiyle ve daha kısa sürede ilerlerken geri çekilme daha çok mum \nkullanıyor ve daha az mesafe alıyorsa, yalnız yön değil hareketin verimliliği de farklıdır. Tersi \ndurumda geri çekilmenin hızlanması önceki hareketin üstünlüğünün azaldığını gösterebilir.",
+    "source_extract_summary": [
+      "İki hareket de yukarı devam edebilir, fakat korunan alan miktarı aynı değildir.",
+      "Geri çekilme konumu Geometrik anlam Sorulacak soru Kırılım noktasının belirgin üstünde Önceki genişleme daha çok korunuyor Karşı taraf eski alana ne kadar yaklaşabildi?",
+      "Kırılım bölgesine temas / örtüşme Daha fazla alan geri veriliyor Bölge tutuluyor mu, yoksa içine mi dönülüyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0063",
+    "source_id": "PTA-C2-2026",
+    "page": 63,
+    "chapter": 9,
+    "section": "9.3 — Pullback ilk karşı harekette bitmek zorunda değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n63 \n \nŞekil 9.2 — Solda yukarı tepki zayıf olsa da önceki dip korunuyor. Sağda aynı dip kaybedildiğinde, eski \nyükseliş denemesi artık yalnız zayıf değil, yapısal olarak başarısız hale geliyor. \nDurum Eski yön açısından anlamı Yeni yön açısından anlamı \nDaha düşük tepe var, dip \nkorunuyor \nÖnceki güç tekrarlanamadı Henüz yalnız erken uyarı \nDip test ediliyor Eski yapı kritik sınırda Kırılım bekleniyor \nDip altında yeni LL Eski yöndeki geri çekilme başarısız Yeni yön ilk yapısal alanını \nkazanıyor \n \n9.3 — Pullback ilk karşı harekette bitmek zorunda değildir \nGeri çekilmeleri tek hamle gibi düşünmek, ikinci denemeleri kaçırmamıza yol açar. Kaynak, \nbirçok pullback’in iki bacaklı gelişebileceğini vurgular. Fiyat önce ana yöne karşı bir hareket \nyapar, ardından kısa bir tepki gelir ve daha sonra aynı karşı yönde ikinci bir itiş oluşabilir. Bu \nnedenle ilk geri çekilme bittiğinde “düzeltme tamamlandı” varsayımı yapmak yerine, ikinci bir \ndeneme olasılığı da izlenir. \nİki bacak kavramının önemli tarafı sayı saymak değildir. Asıl soru, ikinci bacağın ilkinden \nsonra ne kadar ilerleyebildiğidir. İkinci itiş yeni uç üretiyor ve güçlü kapanışlarla devam \nediyorsa düzeltme hâlâ canlıdır. İkinci itiş daha az mesafe alıyor, yeni uç yapamıyor veya hızla \ngeri çevriliyorsa düzeltmenin gücü azalıyor olabilir.",
+    "source_extract_summary": [
+      "Sağda aynı dip kaybedildiğinde, eski yükseliş denemesi artık yalnız zayıf değil, yapısal olarak başarısız hale geliyor.",
+      "Durum Eski yön açısından anlamı Yeni yön açısından anlamı Daha düşük tepe var, dip korunuyor Önceki güç tekrarlanamadı Henüz yalnız erken uyarı Dip test ediliyor Eski yapı kritik sınırda Kırılım bekleniyor Dip altında yeni LL Eski yöndeki geri çekilme başarısız Yeni yön ilk yapısal alanını kazanıyor 9.3 — Pullback ilk karşı harekette bitmek zorunda değildir Geri çekilmeleri tek hamle gibi düşünmek, ikinci denemeleri kaçırmamıza yol açar.",
+      "Kaynak, birçok pullback’in iki bacaklı gelişebileceğini vurgular."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0077",
+    "source_id": "PTA-C2-2026",
+    "page": 77,
+    "chapter": 10,
+    "section": "10.6 — Pullback sonunu altı adımda okuyun",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n77 \n \n \nŞekil 10.5 — İkinci aşağı deneme kalıcı yeni dip üretmiyor; ardından yerel sınır yukarı kırılıyor, kırılan \nalan geri testte korunuyor ve yeni yön yeniden devam ediyor. Eski yönün başarısızlığı ile yeni yönün \nbaşarısı aynı zincirde okunuyor. \n10.6 — Pullback sonunu altı adımda okuyun \nBu bölümdeki kaynaklar tek bir formasyon öğretmiyor; aynı kontrol değişiminin farklı \naşamalarını gösteriyor. Bu nedenle pratikte önce bir “dönüş mumu” aramak yerine aşağıdaki \nsırayı izlemek daha tutarlıdır. Her aşama oluşmak zorunda değildir ve eksik bir aşama otomatik \nolarak senaryoyu geçersiz kılmaz. Ama kanıtların aynı yönde birikmesi, pullback’in gerçekten \nsona erdiği yorumunu güçlendirir. \n \nŞekil 10.6 — Pullback sonu için kanıt zinciri: eski yönün yavaşlaması → başarısız deneme veya geri \nitilme → yeni yönün güçlü mumu → yerel kırılım → sonraki mum / geri test → devam. Amaç bütün \nkutuları zorla bulmak değil, aynı hikâyeyi destekleyen parçaları sırayla toplamaktır. \nAdım Sorulacak soru Olumlu işaret",
+    "source_extract_summary": [
+      "Eski yönün başarısızlığı ile yeni yönün başarısı aynı zincirde okunuyor.",
+      "10.6 — Pullback sonunu altı adımda okuyun Bu bölümdeki kaynaklar tek bir formasyon öğretmiyor; aynı kontrol değişiminin farklı aşamalarını gösteriyor.",
+      "Bu nedenle pratikte önce bir “dönüş mumu” aramak yerine aşağıdaki sırayı izlemek daha tutarlıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Şekil yerine ölçülebilir davranış dizileri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0082",
+    "source_id": "PTA-C2-2026",
+    "page": 82,
+    "chapter": 11,
+    "section": "11.4 — Güçlü trend ile kanal aynı pullback derinliğini üretmek zorunda",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n82 \n \nŞekil 11.3 — Solda fiyat direncin üzerine kısa süre taşsa da seviyenin üstünde kalamıyor ve geri itiliyor. \nSağda ise dışarıda kapanışın ardından ilerleme sürüyor. Aynı çizgiye temas edilmiş olsa da seviyeye \nverilen tepki farklıdır. \nSeviye testi Fiyat davranışı Okunan bilgi Sonraki kontrol \nZorlanma / geri itilme Seviye aşılır ama kapanış tekrar içeri gelir O yöndeki ilerleme tutulamadı Karşı taraf gerçekten alan kazanıyor mu? \nKararsızlık \nMumlar seviye \nçevresinde küçülür ve \nbirbirine girer \nHenüz belirgin kabul \nveya geri itilme yok \nSıkışma hangi tarafa \nçözülüyor? \nBelirgin geçiş Mum seviye dışında güçlü kapanır Seviyenin ötesinde kabul artıyor Takip davranışı var mı? \nGeçiş sonrası geri dönüş İlk kırılım hızla geri alınır İlk kabul kalıcı olmayabilir Eski bölge yeniden mi tutuldu? \n \n11.4 — Güçlü trend ile kanal aynı pullback derinliğini üretmek zorunda \ndeğildir \nKaynak 60, geri çekilme beklentisinin piyasa ortamına göre değiştiğini açık biçimde vurgular. \nÇok güçlü bir trendde fiyat uzun süre ortalamadan uzak kalabilir ve geri çekilmeler sığ olabilir. \nKaynaktaki örnekte fiyatın yaklaşık 30 mum boyunca hareketli ortalamanın üzerinde kaldığı \nbelirtilir; mesaj bu sayıyı kural yapmak değil, güçlü trendde “mutlaka derin geri çekilme \ngelecek” beklentisinin gerçekçi olmayabileceğini göstermektir. \nDaha geniş bir kanalda ise yukarı ve aşağı bacaklar büyür, karşı hareketler daha görünür hale \ngelir ve fiyatın önceki ilerlemenin daha büyük bölümünü geri vermesi daha olağandır. Bu \nnedenle Bölüm 8’de öğrendiğimiz pullback derinliği tek başına okunmaz. Aynı yüzde veya aynı \nmesafe, çok güçlü trendde olağandışı görünebilirken geniş kanalda normal bir salınımın parçası \nolabilir.",
+    "source_extract_summary": [
+      "Sağda ise dışarıda kapanışın ardından ilerleme sürüyor.",
+      "Aynı çizgiye temas edilmiş olsa da seviyeye verilen tepki farklıdır.",
+      "Seviye testi Fiyat davranışı Okunan bilgi Sonraki kontrol Zorlanma / geri itilme Seviye aşılır ama kapanış tekrar içeri gelir O yöndeki ilerleme tutulamadı Karşı taraf gerçekten alan kazanıyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  }
+]

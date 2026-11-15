@@ -1,0 +1,65 @@
+[
+  {
+    "id": "PTA-C2-2026.p0089",
+    "source_id": "PTA-C2-2026",
+    "page": 89,
+    "chapter": 12,
+    "section": "12.4 — Davranış zaman dilimi ne işe yarar?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n89 \nkanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı \nkırılımı veya takip davranışı değişimi. \n \nŞekil 12.3 — Fiyat yeni tepeler üretmeye devam ederken hacim azalıyor. Bu durum otomatik dönüş \nsinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır. \nTEKNİK AYRIM \nFiyat hâlâ yeni tepe/dip üretiyorsa “ilerleme bitti” demeyin. Hacim azalması, ilerlemenin arkasındaki \nkatılımın zayıfladığını gösterebilir. Dönüş için fiyat davranışının da değişmesini bekleyin. \n \n12.4 — Davranış zaman dilimi ne işe yarar? \nKaynak 64 “davranış zaman dilimi”ni, daha büyük yapının içinde fiyatın şu anda ne yaptığını \ngörmek için kullanır. Burada amaç üst zaman diliminin yönünü yeniden tanımlamak değildir. \nAlt ölçekte tekrarlanan fitil reddi var mı, yerel yapı kırılıyor mu, pullback daha yüksek dip veya \ndaha düşük tepe üretmeye başladı mı gibi sorular sorulur. \nBu ayrım özellikle fiyat önemli bir üst zaman bölgesine geldiğinde önemlidir. Üst zaman dilimi \nbize bağlam ve referans alanı verir; davranış zaman dilimi ise fiyatın o alanda gerçekten tepki \nverip vermediğini gösterir. Böylece “fiyat bölgeye ulaştı” cümlesi ile “fiyat o bölgede davranış \ndeğiştirdi” cümlesi birbirinden ayrılır. \nKatman Görevi Sormamız gereken soru Tek başına ne yapmaz? \nÜst zaman / ana bağlam Trend, swing ve önemli alanı \ngösterir \nFiyat hangi büyük yapının içinde? Alt zamanın yön değiştirdiğini \nkanıtlamaz \nDavranış zaman dilimi Bölgedeki gerçek tepkiyi \nayrıntılandırır \nGeri itilme, kırılım, HL/LH veya \nmomentum değişimi var mı? \nDaha büyük yapıyı tek başına \nyeniden tanımlamaz",
+    "source_extract_summary": [
+      "kanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı kırılımı veya takip davranışı değişimi.",
+      "Bu durum otomatik dönüş sinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır.",
+      "TEKNİK AYRIM Fiyat hâlâ yeni tepe/dip üretiyorsa “ilerleme bitti” demeyin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0090",
+    "source_id": "PTA-C2-2026",
+    "page": 90,
+    "chapter": 12,
+    "section": "12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n90 \n \nŞekil 12.4 — Üst zaman diliminde yükseliş bağlamı korunurken alt zaman dilimi bölgeye düşüş yönlü \ngelebilir. Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum ve yapının \ngerçekten yön değiştirmesi ayrıca görülmelidir. \n12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne \nyaparız? \nKaynak 65 bu noktada net bir ayrım yapar. Üst zaman dilimi yükseliş yönlü olsa bile giriş veya \ndavranış zaman dilimi hâlâ daha düşük tepe ve daha düşük dip üretiyorsa, yalnızca fiyat üst \nzaman desteğine geldi diye alt zaman yükseliş kabul edilmez. Alt ölçekte eski yönün \nilerlemesinin durması ve yeni yönde momentum/yapı değişiminin ortaya çıkması beklenir. \nBu yaklaşım iki sık yapılan hatayı azaltır. Birincisi, büyük zaman dilimindeki seviyeyi \ngördüğümüz anda alt zaman davranışını görmezden gelmek. İkincisi ise alt zamandaki ilk yeşil \nmumu yapı değişimi sanmak. Daha sağlam okuma, eski yönün yeni uç üretme kabiliyetini \nkaybedip kaybetmediğine ve karşı tarafın yerel sınırı aşarak yeni bir geometri kurup \nkurmadığına bakar. \nAşama Üst zaman bilgisi Alt zaman davranışı Okuma \n1. Bölgeye yaklaşım Ana yapı yükseliş LL/LH ile düşüş sürüyor Henüz alt zaman dönüşü yok \n2. Bölge teması Destek alanına ulaşıldı Satış yavaşlayabilir ama yapı aynı Temas, yön değişimi değildir \n3. Yerel değişim Üst bağlam aynı Yeni dip zorlaşıyor, yerel LH kırılıyor İlk davranış değişimi \n4. Yeni geometri Üst ve alt taraf yakınlaşıyor HL / güçlü takip davranışı oluşuyor Yönler daha fazla hizalanıyor",
+    "source_extract_summary": [
+      "Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum ve yapının gerçekten yön değiştirmesi ayrıca görülmelidir.",
+      "12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne yaparız?",
+      "Kaynak 65 bu noktada net bir ayrım yapar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Hareket gücü özellik ailesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0099",
+    "source_id": "PTA-C2-2026",
+    "page": 99,
+    "chapter": 13,
+    "section": "13.8 — Hacim ve çoklu zaman dilimini en son ekleyin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n99 \n \nŞekil 13.7 — Pullback sonu: eski yönün beklenen yeni ucu üretememesi → yeni yönün güçlü hareketi ve \nkırılımı → geri testte alanın korunması → devam. Tek bir mum yerine iki tarafın başarısı ve başarısızlığı \nbirlikte okunur. \nSıra Eski yönde ne arıyoruz? Yeni yönde ne arıyoruz? \n1. İlerleme Yeni uç üretimi azalıyor / başarısız oluyor Karşı tepki büyümeye başlıyor \n2. Kontrol değişimi Geri itilmeden sonra eski yön hızlanamıyor Geniş gövde ve güçlü kapanış \n3. Yapı Yerel sınır korunamıyor Sınır dışında kapanış \n4. Takip Eski alan kolayca geri alınamıyor Takip davranışı veya kontrollü geri test \n5. Devam Eski yön tekrar üstünlük kuramıyor Yeni yön yeniden genişliyor \n \n13.8 — Hacim ve çoklu zaman dilimini en son ekleyin \nFiyat davranışı kendi başına yön, yapı ve ilerleme hakkında yeterince güçlü bir hikâye \nkurmadan hacim veya alt zaman dilimiyle sonucu kurtarmaya çalışmayın. Hacim, hareketin \narkasındaki kayıtlı katılımı ekler. Alt zaman dilimi ise önemli bölgede fiyatın gerçekten \ndavranış değiştirip değiştirmediğini daha ayrıntılı gösterir. İkisi de ana fiyat okumasının yerine \ngeçmez. \nÖrneğin üst zaman diliminde önemli destek bölgesine ulaşmak tek başına yükseliş değildir. Alt \nzaman hâlâ daha düşük tepe ve dip üretiyorsa davranış henüz dönmemiştir. Aynı şekilde yüksek \nhacim de kötü yerleşimli veya takip davranışı zayıf bir kırılımı otomatik olarak güçlü hale \ngetirmez. Son kontrol katmanı, zaten kurduğumuz fiyat hikâyesini desteklemeli; onunla \nçelişiyorsa nedenini araştırmalıyız.",
+    "source_extract_summary": [
+      "Tek bir mum yerine iki tarafın başarısı ve başarısızlığı birlikte okunur.",
+      "İlerleme Yeni uç üretimi azalıyor / başarısız oluyor Karşı tepki büyümeye başlıyor 2.",
+      "Kontrol değişimi Geri itilmeden sonra eski yön hızlanamıyor Geniş gövde ve güçlü kapanış 3."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]
