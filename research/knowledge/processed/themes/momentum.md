@@ -1,6 +1,6 @@
 # momentum
 
-**Kapsam:** 198 sayfa eşleşmesi
+**Kapsam:** 159 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -18,7 +18,7 @@ Hareket gücü özellik ailesi
 
 **Bölüm/alt başlık:** 8 / 8.9 — CCI: Ortalamadan Sapma ve Rejim
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 141 DIVERGENCE REPAINT ETMESE BILE GERIYE DÖNÜK SEÇILEBILIR Swing noktası henüz tamamlanmadan çizilen divergence değişebilir. Ayrıca grafikte çalışan örnekleri seçmek, başarısız uyumsuzlukları görmezden gelme riski yaratır. 8.8 Stochastic RSI: Daha Hassas Momentum Okuması Stochastic RSI, doğrudan fiyatı değil RSI’nın kendi yakın aralığındaki konumunu ölçer.
+**Kaynak özeti (`source`):** DIVERGENCE REPAINT ETMESE BILE GERIYE DÖNÜK SEÇILEBILIR Swing noktası henüz tamamlanmadan çizilen divergence değişebilir. Ayrıca grafikte çalışan örnekleri seçmek, başarısız uyumsuzlukları görmezden gelme riski yaratır. 8.8 Stochastic RSI: Daha Hassas Momentum Okuması Stochastic RSI, doğrudan fiyatı değil RSI’nın kendi yakın aralığındaki konumunu ölçer.
 
 ### 2. PTA-C1-2026 — PDF s. 25
 
@@ -26,7 +26,7 @@ Hareket gücü özellik ailesi
 
 **Bölüm/alt başlık:** 4 / 4.6 — Stochastic RSI neden daha hassastır?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 25 AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu değerler “Stochastic’in doğru ayarı” değildir. Ayar, strateji ve zaman dilimiyle birlikte değerlendirilmelidir.
+**Kaynak özeti (`source`):** AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu değerler “Stochastic’in doğru ayarı” değildir. Ayar, strateji ve zaman dilimiyle birlikte değerlendirilmelidir.
 
 ### 3. PTA-C1-2026 — PDF s. 20
 
@@ -34,7 +34,7 @@ Hareket gücü özellik ailesi
 
 **Bölüm/alt başlık:** 3 / 3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 20 Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır.
+**Kaynak özeti (`source`):** Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır.
 
 ### 4. ATK-TR-D1.0-2026-08 — PDF s. 155
 
@@ -42,7 +42,7 @@ Hareket gücü özellik ailesi
 
 **Bölüm/alt başlık:** 8 / 8.7 — Divergence: Regular ve Hidden Uyumsuzluk
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 140 Tablo 8.6 – RSI alanlarının koşullu anlamı Trend ve range ayrımı Range piyasasında 70/30 bölgeleri uçlara yakın dönüş uyarısı olarak daha kullanışlı olabilir. Güçlü trendde ise RSI’nın aşırı bölgede kalması hareketin gücünü doğrulayabilir. Bu nedenle ilk soru RSI kaç değil, piyasa trend mi range mi sorusudur.
+**Kaynak özeti (`source`):** Güçlü trendde ise RSI’nın aşırı bölgede kalması hareketin gücünü doğrulayabilir. Bu nedenle ilk soru RSI kaç değil, piyasa trend mi range mi sorusudur. EN BÜYÜK RSI HATASI “Overbought = pahalı = düşmek zorunda” ve “oversold = ucuz = yükselmek zorunda” zinciri.
 
 ### 5. PTA-C1-2026 — PDF s. 26
 
@@ -50,7 +50,7 @@ Hareket gücü özellik ailesi
 
 **Bölüm/alt başlık:** 4 / 4.9 — 50 orta çizgisi ne anlatır?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 26 4.7 — Daha hassas = daha iyi değildir Stoch RSI’nın yüksek hassasiyeti daha erken tepki sağlayabilir; aynı özellik yatay veya gürültülü piyasada daha fazla yanlış sinyal üretir. Daha hızlı tepki, daha yüksek doğruluk değildir. Araç Neyi 0–100 aralığına dönüştürür?
+**Kaynak özeti (`source`):** 4.7 — Daha hassas = daha iyi değildir Stoch RSI’nın yüksek hassasiyeti daha erken tepki sağlayabilir; aynı özellik yatay veya gürültülü piyasada daha fazla yanlış sinyal üretir. Daha hızlı tepki, daha yüksek doğruluk değildir. Araç Neyi 0–100 aralığına dönüştürür?
 
 ### 6. PTA-C1-2026 — PDF s. 33
 
@@ -58,39 +58,39 @@ Hareket gücü özellik ailesi
 
 **Bölüm/alt başlık:** 5 / 5.10 — MACD uyumsuzluğunda hız ve fiyat yapısı
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 33 Şekil 5.3 — Şematik uyumsuzluk: fiyat daha yüksek tepe oluştururken MACD-benzeri hareket gücü daha düşük tepe yapıyor. Bu uyuşmazlık dönüşün tam zamanını vermez. DOĞRU SIRALAMA Uyumsuzluk → “hareket gücü teyidi zayıfladı” uyarısı.
+**Kaynak özeti (`source`):** Bu uyuşmazlık dönüşün tam zamanını vermez. DOĞRU SIRALAMA Uyumsuzluk → “hareket gücü teyidi zayıfladı” uyarısı. Ardından fiyat yapısı / önemli seviye / kırılım veya yeniden test gibi doğrudan fiyat teyidi aranır.
 
-### 7. ATK-TR-D1.0-2026-08 — PDF s. 153
-
-> ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 138 8.5 MACD: Trend ile Momentumu Birleştirmek MACD, iki üssel hareketli ortalama arasındaki farkı izler. Standart yapıda MACD çizgisi 12 periyot EMA ile 26 periyot EMA farkıdır; signal çizgisi MACD’nin 9 periyot EMA’sıdır. Histogram ise bu iki çizgi arasındaki farkı görselleştirir. Şekil 8.3 – MACD bileşenleri ve zero line Bileşen Ne anlatır? Yanlış kullanım MACD çizgisi Hızlı ve yavaş EMA arasındaki momentum farkı. Tek başına pozitif olduğunda otomatik buy. Signal çizgisi MACD çizgisinin yumuşatılmış ortalaması. Her kesişimi işlem tetikleyicisi yapmak. Histogram MACD ile signal arasındaki farkın genişleyip daralması. Histogram küçülmesini trend dönüşü sanmak. Zero line Hızlı EMA ile yavaş EMA’nın göreli konumu. Zero-line geçişini erken sinyal beklemek. Tablo 8.5 – MACD’nin dört okuma katmanı MACD nasıl bağlama yerleştirilir?  Trend filtresi: MACD’nin zero line tarafı ve ana eğimi.  Momentum: histogramın genişlemesi veya daralması.  Tetik adayı: signal crossover; yalnız yapı ve bölgede anlamlı.  Dönüş uyarısı: fiyat ile MACD arasındaki divergence.  Geçersizlik: price action’ın beklenen yönde close ve follow-through üretememesi.
-
-**Bölüm/alt başlık:** 8 / 8.5 — MACD: Trend ile Momentumu Birleştirmek
-
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 138 8.5 MACD: Trend ile Momentumu Birleştirmek MACD, iki üssel hareketli ortalama arasındaki farkı izler. Standart yapıda MACD çizgisi 12 periyot EMA ile 26 periyot EMA farkıdır; signal çizgisi MACD’nin 9 periyot EMA’sıdır. Histogram ise bu iki çizgi arasındaki farkı görselleştirir.
-
-### 8. ATK-TR-D1.0-2026-08 — PDF s. 163
+### 7. ATK-TR-D1.0-2026-08 — PDF s. 163
 
 > ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 148 9. Ayar değişikliğini replay/backtest ile farklı rejimlerde test et. 10. Giriş, stop, hedef ve pozisyon büyüklüğünü Bölüm 12–13 sistemiyle tamamla. Göreve göre araç seçimi İhtiyaç Birincil aday Aynı ailede gereksiz tekrar Ana trendi yumuşatmak SMA / EMA / HMA / RMA’dan biri Aynı uzunlukta dört MA Trend + momentum farkı MACD MACD yanında benzer MA cross ve çoklu oscillator Momentum rejimi RSI RSI + CCI + Stoch RSI’yı üç oy saymak Hassas zamanlama Stochastic RSI Her crossover’ı giriş saymak Ortalamadan sapma CCI Trend filtresi olmadan ±100 ters işlemi Volatilite daralması/genişlemesi Bollinger Bands Band touch’ı yön sinyali saymak Hareket genişliği ve stop ölçeği ATR ATR’yi yön göstergesi yapmak Tek grafikte trend haritası Ichimoku Bileşenleri bağımsız beş teyit saymak Mekanik trend takibi Parabolic SAR Range’de flip kovalamak Hacim ağırlıklı ortalama / katılım VWAP veya OBV Bölüm 7 araçlarını fiyat indikatörüyle karıştırmak Dış duyarlılık / portföy ilişkisi VIX / correlation coefficient Sabit ve kalıcı ilişki varsaymak Tablo 8.15 – Sorudan indikatöre seçim Örnek koşullu analiz cümleleri  “Günlük yapı yükseliş trendinde; fiyat yukarı eğimli EMA üzerinde kalıyor ve RSI 50 üzerini koruyor. Pullback’in bölgede bullish close üretmesi hâlinde trend devam senaryosu güçlenir; yalnız RSI overbought olduğu için satış aranmaz.”  “Range daralırken Bollinger bantları sıkışıyor ve ATR düşüyor. …
 
 **Bölüm/alt başlık:** 8 / 8.15 — İndikatör Seçme ve Birleştirme İş Akışı
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 148 9. Ayar değişikliğini replay/backtest ile farklı rejimlerde test et. Giriş, stop, hedef ve pozisyon büyüklüğünü Bölüm 12–13 sistemiyle tamamla.
+**Kaynak özeti (`source`):** Ayar değişikliğini replay/backtest ile farklı rejimlerde test et. Giriş, stop, hedef ve pozisyon büyüklüğünü Bölüm 12–13 sistemiyle tamamla. Göreve göre araç seçimi İhtiyaç Birincil aday Aynı ailede gereksiz tekrar Ana trendi yumuşatmak SMA / EMA / HMA / RMA’dan biri Aynı uzunlukta dört MA Trend + momentum farkı MACD MACD yanında benzer MA cross ve çoklu oscillator Momentum rejimi RSI RSI + CCI + Stoch RSI’yı üç oy saymak Hassas zamanlama Stochastic RSI Her crossover’ı giriş saymak Ortalamadan sapma CCI Trend filtresi olmadan ±100 ters işlemi Volatilite daralması/genişlemesi Bollinger Bands Band touch’ı yön sinyali saymak Hareket genişliği ve stop ölçeği ATR ATR’yi yön göstergesi yapmak Tek grafikte trend haritası Ichimoku Bileşenleri bağımsız beş teyit saymak Mekanik trend takibi Parabolic SAR Range’de flip kovalamak Hacim ağırlıklı ortalama / katılım VWAP veya OBV Bölüm 7 araçlarını fiyat indikatörüyle karıştırmak Dış duyarlılık / portföy ilişkisi VIX / correlation coefficient Sabit ve kalıcı ilişki varsaymak Tablo 8.15 – Sorudan indikatöre seçim Örnek koşullu analiz cümleleri  “Günlük yapı yükseliş trendinde; fiyat yukarı eğimli EMA üzerinde kalıyor ve RSI 50 üzerini koruyor.
 
-### 9. PTA-C2-2026 — PDF s. 75
+### 8. ATK-TR-D1.0-2026-08 — PDF s. 153
 
-> PROFESYONEL TEKNİK ANALİZ — CİLT 2 75 Şekil 10.3 — Solda fiyat geri itiliyor fakat eski yön yeni dip üretmeye devam ediyor. Sağda ise geri itilmenin ardından karşı yöndeki hareket büyüyor ve her adım daha fazla mesafe alıyor. Pullback sonunu belirleyen fitil değil, sonrasında kontrolün gerçekten değişip değişmediğidir. Geri itilmeden sonra ne oluyor? Okuma Eski yön yeniden hızlanıp yeni uç üretiyor Geri itilme geçici kalmış olabilir; geri çekilme henüz bitmemiştir Fiyat sıkışıyor, iki taraf da ilerleyemiyor Kontrol henüz net değildir Karşı mumlar büyüyor ve daha fazla mesafe alıyor Yeni yön momentum kazanmaya başlıyor Karşı hareket yerel sınırı da aşıyor Momentum değişimine yapısal ilerleme ekleniyor 10.4 — İlk güçlü mumdan sonraki mum ne söylüyor? Pullback sonunda geniş gövdeli bir yeni yön mumu oluştuğunda analiz bitmez. Kaynak 40, hemen sonraki mumun niteliğinin önemli takip davranışı bilgisi taşıdığını belirtir. Küçük aynı yönlü mum, küçük karşı yönlü mum ve büyük karşı yönlü mum aynı anlama gelmez. Bu nedenle ikinci mumu yalnız rengiyle değil; boyutu, kapanış yeri, yönü ve yakın tepe-diplere göre konumuyla birlikte okumak gerekir. Örneğin güçlü bir yükseliş mumundan sonra küçük bir kırmızı mum gelmesi tek başına ilk hareketi bozmaz; bu yalnız kısa bir soluklanma olabilir. Fakat hemen ardından geniş gövdeli bir satış mumu oluşup ilk yükseliş mumunun önemli bölümünü geri alır ve dibine yakın kapanırsa, ilk kontrol değişimi sorgulanır. Tersi durumda ikinci güçlü yükseliş mumu, ilk mumun yalnız tek seferlik tepki olmadığını destekler.
+> ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 138 8.5 MACD: Trend ile Momentumu Birleştirmek MACD, iki üssel hareketli ortalama arasındaki farkı izler. Standart yapıda MACD çizgisi 12 periyot EMA ile 26 periyot EMA farkıdır; signal çizgisi MACD’nin 9 periyot EMA’sıdır. Histogram ise bu iki çizgi arasındaki farkı görselleştirir. Şekil 8.3 – MACD bileşenleri ve zero line Bileşen Ne anlatır? Yanlış kullanım MACD çizgisi Hızlı ve yavaş EMA arasındaki momentum farkı. Tek başına pozitif olduğunda otomatik buy. Signal çizgisi MACD çizgisinin yumuşatılmış ortalaması. Her kesişimi işlem tetikleyicisi yapmak. Histogram MACD ile signal arasındaki farkın genişleyip daralması. Histogram küçülmesini trend dönüşü sanmak. Zero line Hızlı EMA ile yavaş EMA’nın göreli konumu. Zero-line geçişini erken sinyal beklemek. Tablo 8.5 – MACD’nin dört okuma katmanı MACD nasıl bağlama yerleştirilir?  Trend filtresi: MACD’nin zero line tarafı ve ana eğimi.  Momentum: histogramın genişlemesi veya daralması.  Tetik adayı: signal crossover; yalnız yapı ve bölgede anlamlı.  Dönüş uyarısı: fiyat ile MACD arasındaki divergence.  Geçersizlik: price action’ın beklenen yönde close ve follow-through üretememesi.
 
-**Bölüm/alt başlık:** 10 / 10.4 — İlk güçlü mumdan sonraki mum ne söylüyor?
+**Bölüm/alt başlık:** 8 / 8.5 — MACD: Trend ile Momentumu Birleştirmek
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 75 Şekil 10.3 — Solda fiyat geri itiliyor fakat eski yön yeni dip üretmeye devam ediyor. Sağda ise geri itilmenin ardından karşı yöndeki hareket büyüyor ve her adım daha fazla mesafe alıyor. Pullback sonunu belirleyen fitil değil, sonrasında kontrolün gerçekten değişip değişmediğidir.
+**Kaynak özeti (`source`):** 8.5 MACD: Trend ile Momentumu Birleştirmek MACD, iki üssel hareketli ortalama arasındaki farkı izler. Standart yapıda MACD çizgisi 12 periyot EMA ile 26 periyot EMA farkıdır; signal çizgisi MACD’nin 9 periyot EMA’sıdır. Histogram ise bu iki çizgi arasındaki farkı görselleştirir.
 
-### 10. PTA-C2-2026 — PDF s. 29
+### 9. PTA-C2-2026 — PDF s. 29
 
 > PROFESYONEL TEKNİK ANALİZ — CİLT 2 29 4.7 — Dönüş dizilerini birbirinden nasıl ayıralım? Bu bölümdeki yapıların hepsini tek bir “dönüş formasyonu” altında toplamak yerine, hangi bilginin hangi aşamada geldiğini ayırmak daha kullanışlıdır. İki mumluk dönüş hızlı bir baskı değişimini, üç mumluk dönüş kısa bir zayıflama ve karşı cevabı, küçülen dört mumluk yapı daha kademeli bir momentum kaybını, dört itişli yapı ise hareketin geç evresindeki tekrar eden denemeleri gösterir. Yapı Ana bilgi En kritik ayrım İki mumluk dönüş İlk baskının ikinci mum tarafından geri alınması. Şekil aynı olsa da bağlam önemlidir. Üç mumluk dönüş Eski yön zayıflar; üçüncü mum karşı kontrolü gösterir. Üçüncü mumun gücü önemlidir. Üç küçülen + karşı mum Momentum birkaç mum boyunca adım adım azalır. Karşı genişleme olmadan yalnız zayıflama vardır. Dört itiş Aynı yönde dört ayrı deneme ve geç evre yorulma ihtimali. Dört mum değildir; anında dönüş garantisi vermez. BÖLÜM SONUCU Kısa dönüş dizilerinde ezberlenecek asıl şey mum sayısı değildir. Eski yönün baskısı ne kadar sürdürülebildi, ilerleme nerede yavaşladı, karşı taraf baskının ne kadarını geri aldı ve bu karşı hareket tek mumda mı kaldı, yoksa güçlenerek devam mı etti? Bir sonraki bölümde aynı mantığın dönüş değil devam tarafına bakacağız: kısa karşı hareketlere rağmen ana yönün nasıl korunduğunu inceleyeceğiz.
 
 **Bölüm/alt başlık:** 4 / 4.7 — Dönüş dizilerini birbirinden nasıl ayıralım?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 29 4.7 — Dönüş dizilerini birbirinden nasıl ayıralım? Bu bölümdeki yapıların hepsini tek bir “dönüş formasyonu” altında toplamak yerine, hangi bilginin hangi aşamada geldiğini ayırmak daha kullanışlıdır. İki mumluk dönüş hızlı bir baskı değişimini, üç mumluk dönüş kısa bir zayıflama ve karşı cevabı, küçülen dört mumluk yapı daha kademeli bir momentum kaybını, dört itişli yapı ise hareketin geç evresindeki tekrar eden denemeleri gösterir.
+**Kaynak özeti (`source`):** 4.7 — Dönüş dizilerini birbirinden nasıl ayıralım? Bu bölümdeki yapıların hepsini tek bir “dönüş formasyonu” altında toplamak yerine, hangi bilginin hangi aşamada geldiğini ayırmak daha kullanışlıdır. İki mumluk dönüş hızlı bir baskı değişimini, üç mumluk dönüş kısa bir zayıflama ve karşı cevabı, küçülen dört mumluk yapı daha kademeli bir momentum kaybını, dört itişli yapı ise hareketin geç evresindeki tekrar eden denemeleri gösterir.
+
+### 10. PTA-C2-2026 — PDF s. 75
+
+> PROFESYONEL TEKNİK ANALİZ — CİLT 2 75 Şekil 10.3 — Solda fiyat geri itiliyor fakat eski yön yeni dip üretmeye devam ediyor. Sağda ise geri itilmenin ardından karşı yöndeki hareket büyüyor ve her adım daha fazla mesafe alıyor. Pullback sonunu belirleyen fitil değil, sonrasında kontrolün gerçekten değişip değişmediğidir. Geri itilmeden sonra ne oluyor? Okuma Eski yön yeniden hızlanıp yeni uç üretiyor Geri itilme geçici kalmış olabilir; geri çekilme henüz bitmemiştir Fiyat sıkışıyor, iki taraf da ilerleyemiyor Kontrol henüz net değildir Karşı mumlar büyüyor ve daha fazla mesafe alıyor Yeni yön momentum kazanmaya başlıyor Karşı hareket yerel sınırı da aşıyor Momentum değişimine yapısal ilerleme ekleniyor 10.4 — İlk güçlü mumdan sonraki mum ne söylüyor? Pullback sonunda geniş gövdeli bir yeni yön mumu oluştuğunda analiz bitmez. Kaynak 40, hemen sonraki mumun niteliğinin önemli takip davranışı bilgisi taşıdığını belirtir. Küçük aynı yönlü mum, küçük karşı yönlü mum ve büyük karşı yönlü mum aynı anlama gelmez. Bu nedenle ikinci mumu yalnız rengiyle değil; boyutu, kapanış yeri, yönü ve yakın tepe-diplere göre konumuyla birlikte okumak gerekir. Örneğin güçlü bir yükseliş mumundan sonra küçük bir kırmızı mum gelmesi tek başına ilk hareketi bozmaz; bu yalnız kısa bir soluklanma olabilir. Fakat hemen ardından geniş gövdeli bir satış mumu oluşup ilk yükseliş mumunun önemli bölümünü geri alır ve dibine yakın kapanırsa, ilk kontrol değişimi sorgulanır. Tersi durumda ikinci güçlü yükseliş mumu, ilk mumun yalnız tek seferlik tepki olmadığını destekler.
+
+**Bölüm/alt başlık:** 10 / 10.4 — İlk güçlü mumdan sonraki mum ne söylüyor?
+
+**Kaynak özeti (`source`):** Sağda ise geri itilmenin ardından karşı yöndeki hareket büyüyor ve her adım daha fazla mesafe alıyor. Pullback sonunu belirleyen fitil değil, sonrasında kontrolün gerçekten değişip değişmediğidir. Okuma Eski yön yeniden hızlanıp yeni uç üretiyor Geri itilme geçici kalmış olabilir; geri çekilme henüz bitmemiştir Fiyat sıkışıyor, iki taraf da ilerleyemiyor Kontrol henüz net değildir Karşı mumlar büyüyor ve daha fazla mesafe alıyor Yeni yön momentum kazanmaya başlıyor Karşı hareket yerel sınırı da aşıyor Momentum değişimine yapısal ilerleme ekleniyor 10.4 — İlk güçlü mumdan sonraki mum ne söylüyor?
 
 ## Test fikri (`hypothesis`)
 

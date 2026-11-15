@@ -12,10 +12,10 @@ SOURCE = ROOT / "research/knowledge/source-pages"
 OUTPUT = ROOT / "research/knowledge/processed"
 
 TOPICS = {
-    "market_basics": {"keywords": ["piyasa", "borsa", "broker", "ürün", "long", "short", "emir", "bid", "ask"], "use": "Referans ve işlem simülasyonu varsayımları"},
-    "ohlcv_data": {"keywords": ["ohlc", "veri kaynağı", "mum", "açılış", "kapanış", "yüksek", "düşük"], "use": "Veri sözleşmesi ve mum özellikleri"},
+    "market_basics": {"keywords": ["finansal piyasa", "borsa", "broker", "long", "short", "emir tür", "bid", "ask", "kaldıraç", "marjin"], "use": "Referans ve işlem simülasyonu varsayımları"},
+    "ohlcv_data": {"keywords": ["ohlc", "veri kaynağı", "grafik verisi", "açılış fiyatı", "kapanış fiyatı", "yüksek fiyat", "düşük fiyat", "bar verisi"], "use": "Veri sözleşmesi ve mum özellikleri"},
     "candle_behavior": {"keywords": ["gövde", "fitil", "mum diz", "kapanış konumu", "örtüşme", "inside bar", "engulf"], "use": "Mum geometrisi ve davranış özellikleri"},
-    "market_structure": {"keywords": ["piyasa yapısı", "swing", "bos", "choch", "tepe", "dip", "hh", "hl", "lh", "ll"], "use": "Gelecek sızıntısız yapı ve swing motoru"},
+    "market_structure": {"keywords": ["piyasa yapısı", "swing high", "swing low", "swing geometr", "structure", "bos", "choch", "higher high", "higher low", "lower high", "lower low", "yapı kırılım", "tepe-dip dizisi", "major swing", "minor swing"], "use": "Gelecek sızıntısız yapı ve swing motoru"},
     "trend_regime": {"keywords": ["trend", "yatay piyasa", "range", "rejim", "kanal", "hareketli ortalama"], "use": "Bağlam ve piyasa rejimi sınıflaması"},
     "support_resistance": {"keywords": ["destek", "direnç", "yatay seviye", "arz", "talep", "supply", "demand", "zone"], "use": "Konum ve seviye yaşam döngüsü"},
     "liquidity_imbalance": {"keywords": ["likidite", "sweep", "fvg", "fair value gap", "order block", "dengesizlik", "gap"], "use": "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"},
@@ -66,16 +66,29 @@ CHAPTER = re.compile(r"(?:^|\n)B[ÖO]L[ÜU]M\s+(\d+)\b", re.I)
 SECTION = re.compile(r"(?:^|\n)(\d{1,2}\.\d{1,2})\s*[—-]?\s*([^\n]{3,120})", re.I)
 
 
+def content_text(text: str) -> str:
+    lines = [line.strip() for line in text.splitlines() if line.strip()]
+    if lines and (lines[0].startswith("ANA TRADING KİTABI") or lines[0].startswith("PROFESYONEL TEKNİK ANALİZ")):
+        lines = lines[1:]
+        if lines and (lines[0].isdigit() or "•" in lines[0]):
+            lines = lines[1:]
+    return " ".join(lines)
+
+
 def sentences(text: str) -> list[str]:
-    cleaned = re.sub(r"\s+", " ", text).strip()
-    return [s.strip() for s in re.split(r"(?<=[.!?])\s+", cleaned) if len(s.strip()) >= 35]
+    cleaned = re.sub(r"\s+", " ", content_text(text)).strip()
+    candidates = [s.strip() for s in re.split(r"(?<=[.!?])\s+", cleaned) if len(s.strip()) >= 35]
+    return [s for s in candidates if not s.startswith(("Şekil ", "Tablo ", "İçindekiler"))]
 
 
 def classify(text: str) -> list[tuple[str, int]]:
-    low = " " + text.casefold() + " "
+    low = text.casefold()
     scores = []
     for topic, spec in TOPICS.items():
-        score = sum(low.count(k.casefold()) for k in spec["keywords"])
+        score = 0
+        for keyword in spec["keywords"]:
+            pattern = rf"(?<!\w){re.escape(keyword.casefold().strip())}(?!\w)"
+            score += len(re.findall(pattern, low))
         if score:
             scores.append((topic, score))
     return sorted(scores, key=lambda item: (-item[1], item[0]))[:5]
@@ -110,6 +123,8 @@ def main() -> int:
                 if chapter_match and chapter_match.start() < 100:
                     number = int(chapter_match.group(1))
                     if current_chapter is None or number == current_chapter + 1 or number == current_chapter:
+                        if number != current_chapter:
+                            current_section = None
                         current_chapter = number
                 section_hits = SECTION.findall(text)
                 if section_hits:
@@ -124,7 +139,8 @@ def main() -> int:
                     "page": record["page"],
                     "chapter": current_chapter,
                     "section": current_section,
-                    "relevance": relevance(topic_scores),
+                    "page_kind": "chapter_content" if current_chapter is not None else "front_matter",
+                    "relevance": relevance(topic_scores) if current_chapter is not None else "reference",
                     "topics": [{"id": t, "score": s} for t, s in topic_scores],
                     "source_excerpt": text,
                     "source_extract_summary": source_summary,
@@ -186,6 +202,36 @@ def main() -> int:
         target.write_text("\n".join(lines), encoding="utf-8")
         master.append(f"- [{topic}](themes/{topic}.md) — {len(refs)} sayfa — {spec['use']}")
     (OUTPUT / "master-synthesis.md").write_text("\n".join(master) + "\n", encoding="utf-8")
+
+    # Bölüm dosyaları: her bölümün sayfa aralığı, alt başlıkları, baskın
+    # konuları ve sayfa sayfa kaynak özetleri. Tam alıntılar kart JSONL'lerinde.
+    chapter_root = OUTPUT / "chapters"
+    chapter_root.mkdir(exist_ok=True)
+    chapter_groups: dict[tuple[str, int], list[dict]] = defaultdict(list)
+    for card in card_lookup.values():
+        if card["chapter"] is not None:
+            chapter_groups[(card["source_id"], card["chapter"])].append(card)
+    for (source_id, chapter), cards in sorted(chapter_groups.items()):
+        cards.sort(key=lambda c: c["page"])
+        topics = Counter(item["id"] for card in cards for item in card["topics"])
+        sections = []
+        for card in cards:
+            if card["section"] and card["section"] not in sections:
+                sections.append(card["section"])
+        directory = chapter_root / source_id
+        directory.mkdir(exist_ok=True)
+        lines = [f"# {source_id} — Bölüm {chapter}", "", f"**PDF sayfaları:** {cards[0]['page']}–{cards[-1]['page']}",
+                 f"**Sayfa kartları:** {len(cards)}", "", "## Alt başlıklar", ""]
+        lines.extend(f"- {section}" for section in sections)
+        lines.extend(["", "## Konu dağılımı", ""])
+        lines.extend(f"- `{topic}`: {count} sayfa" for topic, count in topics.most_common())
+        lines.extend(["", "## Sayfa şeritleri", ""])
+        for card in cards:
+            summary = " ".join(card["source_extract_summary"]) or "Özet cümlesi otomatik ayrılamadı; tam kaynak şeridi kart JSONL kaydında korunuyor."
+            lines.extend([f"### PDF s. {card['page']} — {card['section'] or 'Bölüm girişi/devamı'}", "", summary, "",
+                          f"**Konular:** {', '.join(item['id'] for item in card['topics']) or 'referans'}", "",
+                          f"**Kart:** `{card['id']}`", ""])
+        (directory / f"chapter-{chapter:02d}.md").write_text("\n".join(lines), encoding="utf-8")
     print(json.dumps(coverage, ensure_ascii=False, indent=2))
     return 0
 

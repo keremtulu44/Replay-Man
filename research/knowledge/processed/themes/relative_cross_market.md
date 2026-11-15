@@ -1,6 +1,6 @@
 # relative_cross_market
 
-**Kapsam:** 45 sayfa eşleşmesi
+**Kapsam:** 80 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -18,31 +18,31 @@ Endeks/FX/maden/enerji olay ve lead-lag araştırması
 
 **Bölüm/alt başlık:** 1 / 1.3 — Finansal Piyasaların Haritası
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 1 Piyasalar, Trading Mekaniği ve Grafik Temelleri • 6 Döviz piyasası (Forex) Döviz piyasasında tek bir para birimi bağımsız olarak değil, başka bir para birimine karşı fiyatlanır. EUR/USD veya USD/TRY gibi gösterimler birer döviz çiftidir. İlk para birimi baz (base), ikinci para birimi karşıt veya fiyatlama (quote) para birimidir.
+**Kaynak özeti (`source`):** Döviz piyasası (Forex) Döviz piyasasında tek bir para birimi bağımsız olarak değil, başka bir para birimine karşı fiyatlanır. EUR/USD veya USD/TRY gibi gösterimler birer döviz çiftidir. İlk para birimi baz (base), ikinci para birimi karşıt veya fiyatlama (quote) para birimidir.
 
-### 2. ATK-TR-D1.0-2026-08 — PDF s. 431
+### 2. ATK-TR-D1.0-2026-08 — PDF s. 162
 
-> ANA TRADING KİTABI | BÖLÜM 20 Tahviller, Faizler ve Piyasalar Arası İlişkiler • 416 Uygulama Görseli 20.3 – 10Y yield, NASDAQ/growth endeksi ve banka endeksi aynı tarih aralığında; yield hareketinin kaynağı ve earnings dönemleri işaretlenecek.. Temsilî eğitim şeması. 20.12 Döviz, Altın, Gümüş ve Kripto Bağlantısı Dövizde önemli kanal iki para birimi arasındaki beklenen faiz farkıdır. Ancak yüksek yield tek başına currency talebi garantilemez; inflation, fiscal risk, current account, güvenli liman talebi ve piyasanın daha önce ne fiyatladığı sonucu değiştirebilir. Gold ve silver faiz ödemediği için real yield yükselişi fırsat maliyeti baskısı yaratabilir. Buna karşılık inflation, geopolitical risk, USD hareketi, physical demand ve silver için industrial demand aynı anda çalışır. Crypto ise liquidity, leverage ve risk appetite değişimine hassas olabilir; fakat ağ ve ürün özelindeki gelişmeler makro etkiyi bozabilir. Varlık Faiz/yield kanalı Alternatif sürücüler USD / FX Rate differential ve beklenen policy yolu. Inflation, fiscal risk, current account, risk- off. Gold Real yield ve opportunity cost. USD, inflation, central-bank/physical demand, risk. Silver Real yield + USD; ayrıca cyclical/industrial kanal. Industrial demand, supply, gold–silver ilişkisi. Crypto Liquidity, leverage maliyeti ve risk appetite. Regulation, adoption, network, positioning. Equity index Discount rate ve financing. Earnings, sector composition, growth.
+> ANA TRADING KİTABI | BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer • 147 correlation coefficient ise doğrudan mevcut fiyatın momentum göstergesi değil, dış duyarlılık ve varlıklar arası ilişki katmanıdır. Araç Kısa görev Bu bölümdeki sınır VWAP Seçilen session veya anchor içindeki hacim ağırlıklı ortalama fiyat. MA gibi yalnız fiyat ortalaması değildir; ayrıntı Bölüm 7. OBV Kapanış yönüne göre hacmi kümülatif izleyerek katılım teyidi ve divergence üretir. Gerçek bid–ask agresyonu değildir; ayrıntı Bölüm 7. VIX ABD hisse piyasası bağlamında korku/oynaklık beklentisine ilişkin yardımcı gösterge. Her varlığın evrensel buy/sell göstergesi değildir; sabit eşik garanti sayılmaz. Correlation coefficient İki serinin seçilen rolling dönemde aynı veya zıt hareket derecesini −1 ile +1 arasında özetler. İlişki zamanla değişir; nedensellik ve gerçek hedge garantisi değildir. Tablo 8.14 – Yardımcı indikatörlerin görev sınırları Korelasyon ve çeşitlendirme +1’e yakın değerler iki serinin aynı yönde, −1’e yakın değerler zıt yönde hareket ettiğini; sıfıra yakın değerler ise doğrusal ilişkinin zayıf olduğunu gösterir. Ancak korelasyon dönem seçimine bağlıdır ve krizlerde değişebilir. Bir varlığın geçmişte zıt hareket etmesi, gelecekte portföyü kesin koruyacağı anlamına gelmez. VIX IÇIN SINIR VIX, piyasa korkusunu ve beklenen volatiliteyi izleyen bağlam göstergelerinden biridir; tek bir yüksek VIX değeri otomatik dip veya alış sinyali değildir. 8.15 İndikatör Seçme ve Birleştirme İş Akışı İyi bir indikatör sistemi, ekranda en fazla çizgi bulunan sistem değildir. …
 
-**Bölüm/alt başlık:** 20 / 20.12 — Döviz, Altın, Gümüş ve Kripto Bağlantısı
+**Bölüm/alt başlık:** 8 / 8.15 — İndikatör Seçme ve Birleştirme İş Akışı
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 20 Tahviller, Faizler ve Piyasalar Arası İlişkiler • 416 Uygulama Görseli 20.3 – 10Y yield, NASDAQ/growth endeksi ve banka endeksi aynı tarih aralığında; yield hareketinin kaynağı ve earnings dönemleri işaretlenecek.. 20.12 Döviz, Altın, Gümüş ve Kripto Bağlantısı Dövizde önemli kanal iki para birimi arasındaki beklenen faiz farkıdır. Ancak yüksek yield tek başına currency talebi garantilemez; inflation, fiscal risk, current account, güvenli liman talebi ve piyasanın daha önce ne fiyatladığı sonucu değiştirebilir.
+**Kaynak özeti (`source`):** correlation coefficient ise doğrudan mevcut fiyatın momentum göstergesi değil, dış duyarlılık ve varlıklar arası ilişki katmanıdır. Araç Kısa görev Bu bölümdeki sınır VWAP Seçilen session veya anchor içindeki hacim ağırlıklı ortalama fiyat. MA gibi yalnız fiyat ortalaması değildir; ayrıntı Bölüm 7.
 
-### 3. ATK-TR-D1.0-2026-08 — PDF s. 436
+### 3. ATK-TR-D1.0-2026-08 — PDF s. 275
+
+> ANA TRADING KİTABI | BÖLÜM 13 Risk Yönetimi ve Pozisyon Boyutlandırma • 260 Şekil 13.7 – Korelasyon kümeleri ve tam risk kontrol akışı Görünüm Nominal risk Gerçek yorum Üç bağımsız setup, her biri 0,5R 1,5R Farklı sürücü ve zaman ufkuysa gerçek çeşitlendirme olabilir. XAGTRYG, XAU ve metal madencisi long 1,5R Aynı metal/USD teması nedeniyle tek kümede yoğunlaşabilir. Aynı endeks içindeki üç yüksek beta hisse 1,5R Piyasa düşüşünde birlikte hareket etme riski yüksektir. Long ve karşı hedge Brüt risk iki pozisyon Net risk hedge oranı, basis ve maliyete bağlıdır; sıfır değildir. Tablo 13.11 – Nominal pozisyon sayısı ile risk kümesi farkı EKRANDA NE ARIYORUM? • Açık işlemler aynı para birimi, sektör, endeks veya emtia sürücüsüne bağlı mı? • Korelasyon hangi zaman dilimi ve dönemde ölçülüyor? • Aynı tema ters giderse toplam stop kaybı kaç R olur? • Yeni işlem gerçekten yeni edge mi, mevcut pozisyonun tekrarı mı? DOĞRU BİLİNEN YANLIŞ Mit: Beş farklı sembol taşımak çeşitlendirmedir. Gerçeklik: Aynı ekonomik sürücüye bağlı beş sembol tek büyük pozisyon gibi davranabilir. Korelasyon da zaman içinde değişebilir.
+
+**Bölüm/alt başlık:** 13 / 13.11 — Portföy Isısı, Korelasyon ve Yoğunlaşma
+
+**Kaynak özeti (`source`):** XAGTRYG, XAU ve metal madencisi long 1,5R Aynı metal/USD teması nedeniyle tek kümede yoğunlaşabilir. Aynı endeks içindeki üç yüksek beta hisse 1,5R Piyasa düşüşünde birlikte hareket etme riski yüksektir. Long ve karşı hedge Brüt risk iki pozisyon Net risk hedge oranı, basis ve maliyete bağlıdır; sıfır değildir.
+
+### 4. ATK-TR-D1.0-2026-08 — PDF s. 436
 
 > ANA TRADING KİTABI | BÖLÜM 20 Tahviller, Faizler ve Piyasalar Arası İlişkiler • 421 Hızlı Başvuru: Tahvil ve Faiz Okuma Tablosu Gözlem İlk hipotez Kontrol edilmeden karar verilmez Bond price düşüyor, yield yükseliyor Piyasa daha yüksek getiri talep ediyor. Maturity, duration, policy, inflation, credit. 2Y hızlı yükseliyor Yakın policy yolu daha sıkı fiyatlanıyor olabilir. Meeting expectations, data, 10Y tepkisi. 10Y yükseliyor Growth/inflation/term premium/supply etkisi olabilir. Real yield, curve, credit, USD. Curve flattening Short end baskısı veya long growth kaygısı. Hangi uç hareket ediyor? Curve steepening Easing, inflation veya term-premium senaryosu. Bull/bear steepening ayrımı. Real yield yükseliyor Faiz ödemeyen varlıklarda opportunity-cost baskısı. USD, inflation, risk, demand. Credit spread genişliyor Risk tazminatı artıyor. Default, liquidity, equity/earnings. Yield düşüyor, equity düşüyor Safety/growth korkusu olabilir. VIX, credit spread, market structure. Yield yükseliyor, equity yükseliyor Growth beklentisi güçlü olabilir. Earnings, breadth, inflation. Tablo 20.14 – Hızlı başvuru Grafik Başı Kontrol Listesi  Issuer, currency, maturity ve price/yield serisini doğruladım.  Coupon rate, current yield ve YTM’yi karıştırmadım.  2Y, 10Y ve curve spread değişimini birlikte kontrol ettim.  Nominal ve real yield ayrımını yaptım.  Yield hareketi için en az iki alternatif neden yazdım.  FX, equity, credit, metal ve volatility teyidini inceledim.  XAGTRYG’de XAGUSD ve USDTRY bacaklarını ayrı değerlendirdim. …
 
 **Bölüm/alt başlık:** 20 / 20.15 — Tam Intermarket İzleme İş Akışı
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 20 Tahviller, Faizler ve Piyasalar Arası İlişkiler • 421 Hızlı Başvuru: Tahvil ve Faiz Okuma Tablosu Gözlem İlk hipotez Kontrol edilmeden karar verilmez Bond price düşüyor, yield yükseliyor Piyasa daha yüksek getiri talep ediyor. Maturity, duration, policy, inflation, credit. 2Y hızlı yükseliyor Yakın policy yolu daha sıkı fiyatlanıyor olabilir.
-
-### 4. ATK-TR-D1.0-2026-08 — PDF s. 452
-
-> ANA TRADING KİTABI | BÖLÜM 21 Opsiyonlar, Hedge ve Portföy Koruma Stratejileri • 437 VAKA ANALİZİ — XAGTRYG CROSS-HEDGE XAGTRYG pozisyonunu yalnız XAGUSD short ile korumak gümüş dolar bacağını azaltabilir; USDTRY bacağı açık kalır. XAGTRYG ≈ XAGUSD × USDTRY ilişkisi nedeniyle hedge hedefini önce “metal fiyatı mı, TL kur riski mi, ikisi mi?” diye ayırırım. Tek bacakla tüm TL fiyat riskinin kapandığını varsaymam. 21.13 Çeşitlendirme ve Korelasyonun Sınırları Diversification, doğrudan karşı pozisyon açmak yerine portföyü farklı risk sürücülerine dağıtır. Correlation coefficient iki getiri serisinin seçilen lookback içindeki birlikte hareketini özetler; nedensellik, gelecekteki ilişki veya kriz koruması garantisi vermez. Korelasyon gözlemi Doğru yorum Yanlış sonuç +1’e yakın Seçilen dönemde benzer yönde hareket eğilimi. Her zaman aynı gider. 0’a yakın Doğrusal birlikte hareket zayıf. Bağımsız veya risksizdir. −1’e yakın Seçilen dönemde zıt yönde hareket eğilimi. Kesin hedge olur. Rejim değişimi İlişki enflasyon, likidite, kriz ve politika ile değişebilir. Geçmiş katsayı sabit kalır. Tablo 21.13 – Korelasyonun doğru kullanımı EKRANDA NE ARIYORUM?  Korelasyon price değil return serisi üzerinden mi hesaplanıyor?  Lookback ve timeframe yatırım ufkumla uyumlu mu?  Normal dönem ve stres döneminde sonuç farklı mı?  İki ürün aynı currency, sektör veya liquidity faktörüne mi bağlı?  Çeşitlendirme görünen sembol sayısını mı, gerçek risk sürücülerini mi artırıyor? DOĞRU BİLİNEN YANLIŞ Mit: Negatif korelasyonlu varlık bulursam portföyüm korunur. …
-
-**Bölüm/alt başlık:** 21 / 21.14 — Hedge Maliyeti, Geçersizlik ve Kapatma
-
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 21 Opsiyonlar, Hedge ve Portföy Koruma Stratejileri • 437 VAKA ANALİZİ — XAGTRYG CROSS-HEDGE XAGTRYG pozisyonunu yalnız XAGUSD short ile korumak gümüş dolar bacağını azaltabilir; USDTRY bacağı açık kalır. XAGTRYG ≈ XAGUSD × USDTRY ilişkisi nedeniyle hedge hedefini önce “metal fiyatı mı, TL kur riski mi, ikisi mi?” diye ayırırım. Tek bacakla tüm TL fiyat riskinin kapandığını varsaymam.
+**Kaynak özeti (`source`):** Hızlı Başvuru: Tahvil ve Faiz Okuma Tablosu Gözlem İlk hipotez Kontrol edilmeden karar verilmez Bond price düşüyor, yield yükseliyor Piyasa daha yüksek getiri talep ediyor. Maturity, duration, policy, inflation, credit. 2Y hızlı yükseliyor Yakın policy yolu daha sıkı fiyatlanıyor olabilir.
 
 ### 5. PTA-C1-2026 — PDF s. 92
 
@@ -50,7 +50,7 @@ Endeks/FX/maden/enerji olay ve lead-lag araştırması
 
 **Bölüm/alt başlık:** 15 / 15.6 — Trend Strength Index: trendin ne kadar düzenli ilerlediğini ölçer
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 92 İkisi de göreli güç ailesindedir; ancak hesapları ve çıktıları aynı değildir. Bu nedenle bir RS çizgisi ile “RS 90” gibi bir göreli güç puanını aynı gösterge sanmayın. Göreli liderlik mutlak yükseliş gerektirmez Genel piyasa düşerken bir varlık daha az düşüyor, yatay kalıyor veya pozitif kalabiliyorsa karşılaştırma ölçütüne göre göreli güç gösterebilir.
+**Kaynak özeti (`source`):** İkisi de göreli güç ailesindedir; ancak hesapları ve çıktıları aynı değildir. Bu nedenle bir RS çizgisi ile “RS 90” gibi bir göreli güç puanını aynı gösterge sanmayın. Göreli liderlik mutlak yükseliş gerektirmez Genel piyasa düşerken bir varlık daha az düşüyor, yatay kalıyor veya pozitif kalabiliyorsa karşılaştırma ölçütüne göre göreli güç gösterebilir.
 
 ## Test fikri (`hypothesis`)
 

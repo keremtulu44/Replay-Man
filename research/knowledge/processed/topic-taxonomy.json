@@ -4,15 +4,16 @@
     {
       "id": "market_basics",
       "keywords": [
-        "piyasa",
+        "finansal piyasa",
         "borsa",
         "broker",
-        "ürün",
         "long",
         "short",
-        "emir",
+        "emir tür",
         "bid",
-        "ask"
+        "ask",
+        "kaldıraç",
+        "marjin"
       ],
       "use": "Referans ve işlem simülasyonu varsayımları"
     },
@@ -21,11 +22,12 @@
       "keywords": [
         "ohlc",
         "veri kaynağı",
-        "mum",
-        "açılış",
-        "kapanış",
-        "yüksek",
-        "düşük"
+        "grafik verisi",
+        "açılış fiyatı",
+        "kapanış fiyatı",
+        "yüksek fiyat",
+        "düşük fiyat",
+        "bar verisi"
       ],
       "use": "Veri sözleşmesi ve mum özellikleri"
     },
@@ -46,15 +48,20 @@
       "id": "market_structure",
       "keywords": [
         "piyasa yapısı",
-        "swing",
+        "swing high",
+        "swing low",
+        "swing geometr",
+        "structure",
         "bos",
         "choch",
-        "tepe",
-        "dip",
-        "hh",
-        "hl",
-        "lh",
-        "ll"
+        "higher high",
+        "higher low",
+        "lower high",
+        "lower low",
+        "yapı kırılım",
+        "tepe-dip dizisi",
+        "major swing",
+        "minor swing"
       ],
       "use": "Gelecek sızıntısız yapı ve swing motoru"
     },

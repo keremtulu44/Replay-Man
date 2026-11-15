@@ -1,6 +1,6 @@
 # support_resistance
 
-**Kapsam:** 111 sayfa eşleşmesi
+**Kapsam:** 150 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -18,7 +18,7 @@ Konum ve seviye yaşam döngüsü
 
 **Bölüm/alt başlık:** 4 / 4.12 — Aggressive Supply–Demand Zones
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 4 Destek–Direnç, Arz–Talep ve Önemli Bölgeler • 75 4.11 Arz–Talep, Denge ve Fiyatın Ayrılışı Arz ve talep yaklaşımının temel fikri, belirli fiyatlarda alım ve satım isteğinin dengelenmesi veya bu dengenin değişmesidir. Talebin göreli olarak artması fiyatı yukarı, arzın göreli olarak artması fiyatı aşağı itebilir. Equilibrium, alım ve satım baskısının geçici denge noktası; shift ise bu dengenin bir tarafa kayması olarak anlatılır.
+**Kaynak özeti (`source`):** 4.11 Arz–Talep, Denge ve Fiyatın Ayrılışı Arz ve talep yaklaşımının temel fikri, belirli fiyatlarda alım ve satım isteğinin dengelenmesi veya bu dengenin değişmesidir. Talebin göreli olarak artması fiyatı yukarı, arzın göreli olarak artması fiyatı aşağı itebilir. Equilibrium, alım ve satım baskısının geçici denge noktası; shift ise bu dengenin bir tarafa kayması olarak anlatılır.
 
 ### 2. ATK-TR-D1.0-2026-08 — PDF s. 91
 
@@ -26,7 +26,7 @@ Konum ve seviye yaşam döngüsü
 
 **Bölüm/alt başlık:** 4 / 4.13 — Strong-Low Demand ve Strong-High
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 4 Destek–Direnç, Arz–Talep ve Önemli Bölgeler • 76 Tablo 4.12 – Aggressive demand ve supply zone filtreleri Her büyük mum zone oluşturmaz Momentum mumu zaten çok ilerlemiş ve doğrudan karşı major bölgeye çarpmış olabilir. Haber sırasında oluşan tek büyük mum follow-through bulmayabilir. Bu nedenle yalnızca mum büyüklüğüne bakılmaz; hareketin başladığı alan, önceki yapı, sonraki takip ve kırılan swing birlikte değerlendirilir.
+**Kaynak özeti (`source`):** Haber sırasında oluşan tek büyük mum follow-through bulmayabilir. Bu nedenle yalnızca mum büyüklüğüne bakılmaz; hareketin başladığı alan, önceki yapı, sonraki takip ve kırılan swing birlikte değerlendirilir. Zone başlangıcı Sade ve tutarlı yaklaşım, bölgeyi güçlü hareketin başladığı alan boyunca sağa uzatmaktır.
 
 ### 3. ATK-TR-D1.0-2026-08 — PDF s. 83
 
@@ -34,7 +34,7 @@ Konum ve seviye yaşam döngüsü
 
 **Bölüm/alt başlık:** 4 / 4.2 — Seviye, Bölge ve Dinamik Alan
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 4 Destek–Direnç, Arz–Talep ve Önemli Bölgeler • 68 Tablo 4.1 – Yapı, bölge ve price action görev ayrımı Bölge sinyal değildir Destek, direnç, trendline veya demand zone yalnızca bir izleme alanıdır. Fiyat bölgeye momentumla girip güçlü kapanışla dışına yerleşebilir. Bu nedenle bölgeye temas, otomatik alış veya satış emri olarak kullanılmamalıdır.
+**Kaynak özeti (`source`):** Fiyat bölgeye momentumla girip güçlü kapanışla dışına yerleşebilir. Bu nedenle bölgeye temas, otomatik alış veya satış emri olarak kullanılmamalıdır. Önemli alanların ortak kaynakları  Geçmiş reaksiyon: Fiyat aynı alandan daha önce belirgin biçimde uzaklaşmıştır.
 
 ### 4. ATK-TR-D1.0-2026-08 — PDF s. 105
 
@@ -42,7 +42,7 @@ Konum ve seviye yaşam döngüsü
 
 **Bölüm/alt başlık:** 5 / 5.13 — FVG, Order Block ve Supply–Demand
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 5 Likidite, FVG ve Fiyat Boşlukları • 90 Durum Grafikte görülen Temkinli yorum Tepki üretti FVG’den beklenen yönde close ve takip oluşur. Tepkinin yapı ilerlemesine dönüşüp dönüşmediği izlenir. Tam dolum Birinci ve üçüncü mum arasındaki bütün alan işlem görür.
+**Kaynak özeti (`source`):** Durum Grafikte görülen Temkinli yorum Tepki üretti FVG’den beklenen yönde close ve takip oluşur. Tepkinin yapı ilerlemesine dönüşüp dönüşmediği izlenir. Tam dolum Birinci ve üçüncü mum arasındaki bütün alan işlem görür.
 
 ### 5. PTA-C1-2026 — PDF s. 101
 
@@ -50,7 +50,7 @@ Konum ve seviye yaşam döngüsü
 
 **Bölüm/alt başlık:** 16 / 16.10 — Çoklu zaman diliminde çizim sırası
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 101 16.9 — Yatay seviye, trend çizgisi ve yapı birlikte nasıl kullanılır? Önce belirgin tepe/diplerle fiyat yapısını okuyun; ardından destek/direnç bölgelerini ve gerekiyorsa trend kanalını ekleyin. Çizim konumu gösterir, giriş ise fiyatın o bölgede verdiği davranışla doğrulanmalıdır.
+**Kaynak özeti (`source`):** 16.9 — Yatay seviye, trend çizgisi ve yapı birlikte nasıl kullanılır? Önce belirgin tepe/diplerle fiyat yapısını okuyun; ardından destek/direnç bölgelerini ve gerekiyorsa trend kanalını ekleyin. Çizim konumu gösterir, giriş ise fiyatın o bölgede verdiği davranışla doğrulanmalıdır.
 
 ### 6. PTA-C1-2026 — PDF s. 95
 
@@ -58,31 +58,31 @@ Konum ve seviye yaşam döngüsü
 
 **Bölüm/alt başlık:** 16 / 16.1 — Destek ve direnç: çizgiden önce bölge düşünün
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 95 BÖLÜM 16 Trend Çizgileri, Yatay Seviyeler ve Kanallar Çizgi çizmek kolaydır. Zor olan, hangi iki noktanın neden seçildiğini ve çizginin neyi kanıtlamadığını bilmektir. HIZLI ROL — Ana görev: fiyat hareketini çizgiler ve bölgelerle daha kolay okumak.
+**Kaynak özeti (`source`):** BÖLÜM 16 Trend Çizgileri, Yatay Seviyeler ve Kanallar Çizgi çizmek kolaydır. Zor olan, hangi iki noktanın neden seçildiğini ve çizginin neyi kanıtlamadığını bilmektir. HIZLI ROL — Ana görev: fiyat hareketini çizgiler ve bölgelerle daha kolay okumak.
 
-### 7. PTA-C2-2026 — PDF s. 81
-
-> PROFESYONEL TEKNİK ANALİZ — CİLT 2 81 Şekil 11.2 — Aynı yönlü dönüş fikri iki farklı yerde oluşuyor. Solda bir sonraki belirgin engel uzakta olduğu için fiyatın önünde daha geniş hareket alanı bulunuyor. Sağda ise yakın önceki tepe/direnç, ilk ilerlemenin hemen karşısına çıkıyor. HAREKET ALANI SORUSU Bir mum gördüğünüzde yalnız “hangi yöne işaret ediyor?” diye sormayın. Aynı anda “bu yönde ilk belirgin engel nerede?” sorusunu da sorun. Mumun yönü ile önündeki alan birlikte okunmalıdır. 11.3 — Destek veya dirençte asıl bilgi: seviye fiyatı durdurdu mu, yoksa fiyat seviyeyi kabul ederek geçti mi? Kaynak 59, destek veya direnci test eden mumların açık alandaki benzer mumlardan daha fazla bilgi taşıyabileceğini söyler. Bunun nedeni mum adının değişmesi değil, fiyatın bilinen bir sınırla karşı karşıya gelmesidir. Test sırasında iki temel davranış izlenebilir: fiyat seviyeyi aşmakta zorlanıp geri itilebilir veya seviyeyi belirgin biçimde geçip dışında kapanabilir. Bu iki davranış aynı değildir. Uzun fitille kısa süreli aşma ve tekrar seviyenin içine kapanma, o tarafta kalıcılığın oluşmadığını gösterir. Buna karşılık seviyenin dışında güçlü kapanış ve sonraki ilerleme, fiyatın o bölgenin ötesinde kabul gördüğüne dair daha fazla kanıt üretir. Böylece destek/direnç yalnız yatay çizgi olmaktan çıkar; mum dizisinin seviyeye nasıl tepki verdiğini ölçtüğümüz bir test alanına dönüşür.
-
-**Bölüm/alt başlık:** 11 / 11.3 — Destek veya dirençte asıl bilgi: seviye fiyatı durdurdu mu, yoksa
-
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 81 Şekil 11.2 — Aynı yönlü dönüş fikri iki farklı yerde oluşuyor. Solda bir sonraki belirgin engel uzakta olduğu için fiyatın önünde daha geniş hareket alanı bulunuyor. Sağda ise yakın önceki tepe/direnç, ilk ilerlemenin hemen karşısına çıkıyor.
-
-### 8. PTA-C1-2026 — PDF s. 87
-
-> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 87 Tenkan/Kijun kesişimi tek başına alış sinyali değildir. Fiyatın buluta göre konumu, ana yapı ve diğer Ichimoku katmanları aynı bağlamda okunmalıdır. 14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir Tenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir. Kesişim sırasında fiyatın Kumo’ya göre konumu da okunabilir. Kesişim Fiyatın Kumo’ya göre konumu Bağlama göre yorum Yükseliş yönlü Kumo üstünde Mevcut yükseliş ortamıyla aynı yönde Yükseliş yönlü Kumo altında Bulut bağlamına karşı Düşüş yönlü Kumo altında Mevcut düşüş ortamıyla aynı yönde Düşüş yönlü Kumo üstünde Bulut bağlamına karşı Chikou’nun da aynı yönü desteklemesi Ichimoku’nun kendi bileşenlerinin benzer bir piyasa ortamını gösterdiğini düşündürebilir. Ancak bunu “üç bağımsız teyit” diye saymayın; bütün bileşenler aynı fiyat verisinden türetilir. 14.8 — Kumo kalınlığı ve Kumo Twist Kumo kalınlığı Senkou Span A ile Senkou Span B arasındaki mesafedir. Mesafe büyüdükçe iki denge hesabı birbirinden daha fazla ayrışır; mesafe küçüldükçe bulut incelir. Kalın bulutu “kesin güçlü destek/direnç”, ince bulutu “kesin zayıf destek/direnç” olarak yorumlamak doğru değildir. Kalınlık öncelikle iki farklı denge hesabı arasındaki ayrışmanın büyüklüğünü gösterir. Kumo Twist geleceği tahmin etmez Senkou Span A ile Senkou Span B birbirini geçtiğinde geleceğe kaydırılmış bulutun rengi değişir. Bu olay Kumo Twist olarak adlandırılır. Twist ileri tarafta çiziliyor olsa da iki Span geçmiş ve mevcut fiyatlardan hesaplanmıştır. …
-
-**Bölüm/alt başlık:** 14 / 14.9 — Kumo kırılımı ve çoklu zaman dilimi
-
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 87 Tenkan/Kijun kesişimi tek başına alış sinyali değildir. Fiyatın buluta göre konumu, ana yapı ve diğer Ichimoku katmanları aynı bağlamda okunmalıdır. 14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir Tenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir.
-
-### 9. PTA-C1-2026 — PDF s. 96
+### 7. PTA-C1-2026 — PDF s. 96
 
 > PROFESYONEL TEKNİK ANALİZ ARAÇLARI 96 Şekil 16.1 — 99,8; 100,0; 100,2 ve 100,4 çevresindeki reaksiyonları tek 100,00 çizgisine zorlamak yerine aynı davranış kümesini bir bölge olarak okumak daha gerçekçidir. SAYISAL ÖRNEK Dört belirgin reaksiyon 99,80 / 100,20 / 100,40 / 100,00 seviyelerinde oluşsun. “Doğru destek 100,00’dır” demek gereksiz hassasiyettir. 99,60–100,50 gibi önceden tanımlanmış bir reaksiyon bölgesi dağılımı daha dürüst temsil eder. Bölge genişliği fiyat yapısı ve normal hareket genişliğiyle uyumlu olmalıdır. TEKNİK SORUN Destek/direnç çizgisi fiyatı fiziksel olarak itmez. Geçmiş reaksiyonların aynı bölgede kümelenmesi, gelecekte yeniden tepki olasılığını araştırmak için bağlam sağlar; tepkiyi garanti etmez. “Üç temas oldu, dördüncü kesin çalışır” şeklinde otomatik bir kural yoktur. 16.2 — Seviyeyi temas sayısıyla değil, fiyatın verdiği tepkiyle değerlendirin Bir yatay bölgeye kaç kez temas edildiği tek başına yeterli değildir. Her temas sonrasında fiyatın bölgeden ne kadar hızlı ve ne kadar uzağa ayrıldığı da izlenebilir. İlk temaslarda güçlü biçimde uzaklaşan fiyat sonraki testlerde giderek daha az mesafe kat ediyor, daha hızlı geri dönüyor ve bölgenin çevresinde daha uzun süre kalıyorsa önceki reaksiyon gücü zayıflıyor olabilir. Bu davranış “seviye kesin kırılacak” anlamına gelmez. Yalnız çok temasın otomatik olarak daha güçlü seviye demek olmadığını gösterir. TEKNİK AYRIM — FİYATIN BÖLGEDE NE KADAR KALDIĞI Bölgeye ulaşma, bölgede geçirilen süre ve bölgeden ayrılma hızı üç ayrı gözlemdir. …
 
 **Bölüm/alt başlık:** 16 / 16.2 — Seviyeyi temas sayısıyla değil, fiyatın verdiği tepkiyle değerlendirin
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 96 Şekil 16.1 — 99,8; 100,0; 100,2 ve 100,4 çevresindeki reaksiyonları tek 100,00 çizgisine zorlamak yerine aynı davranış kümesini bir bölge olarak okumak daha gerçekçidir. SAYISAL ÖRNEK Dört belirgin reaksiyon 99,80 / 100,20 / 100,40 / 100,00 seviyelerinde oluşsun. “Doğru destek 100,00’dır” demek gereksiz hassasiyettir.
+**Kaynak özeti (`source`):** SAYISAL ÖRNEK Dört belirgin reaksiyon 99,80 / 100,20 / 100,40 / 100,00 seviyelerinde oluşsun. “Doğru destek 100,00’dır” demek gereksiz hassasiyettir. 99,60–100,50 gibi önceden tanımlanmış bir reaksiyon bölgesi dağılımı daha dürüst temsil eder.
+
+### 8. PTA-C2-2026 — PDF s. 81
+
+> PROFESYONEL TEKNİK ANALİZ — CİLT 2 81 Şekil 11.2 — Aynı yönlü dönüş fikri iki farklı yerde oluşuyor. Solda bir sonraki belirgin engel uzakta olduğu için fiyatın önünde daha geniş hareket alanı bulunuyor. Sağda ise yakın önceki tepe/direnç, ilk ilerlemenin hemen karşısına çıkıyor. HAREKET ALANI SORUSU Bir mum gördüğünüzde yalnız “hangi yöne işaret ediyor?” diye sormayın. Aynı anda “bu yönde ilk belirgin engel nerede?” sorusunu da sorun. Mumun yönü ile önündeki alan birlikte okunmalıdır. 11.3 — Destek veya dirençte asıl bilgi: seviye fiyatı durdurdu mu, yoksa fiyat seviyeyi kabul ederek geçti mi? Kaynak 59, destek veya direnci test eden mumların açık alandaki benzer mumlardan daha fazla bilgi taşıyabileceğini söyler. Bunun nedeni mum adının değişmesi değil, fiyatın bilinen bir sınırla karşı karşıya gelmesidir. Test sırasında iki temel davranış izlenebilir: fiyat seviyeyi aşmakta zorlanıp geri itilebilir veya seviyeyi belirgin biçimde geçip dışında kapanabilir. Bu iki davranış aynı değildir. Uzun fitille kısa süreli aşma ve tekrar seviyenin içine kapanma, o tarafta kalıcılığın oluşmadığını gösterir. Buna karşılık seviyenin dışında güçlü kapanış ve sonraki ilerleme, fiyatın o bölgenin ötesinde kabul gördüğüne dair daha fazla kanıt üretir. Böylece destek/direnç yalnız yatay çizgi olmaktan çıkar; mum dizisinin seviyeye nasıl tepki verdiğini ölçtüğümüz bir test alanına dönüşür.
+
+**Bölüm/alt başlık:** 11 / 11.3 — Destek veya dirençte asıl bilgi: seviye fiyatı durdurdu mu, yoksa
+
+**Kaynak özeti (`source`):** Solda bir sonraki belirgin engel uzakta olduğu için fiyatın önünde daha geniş hareket alanı bulunuyor. Sağda ise yakın önceki tepe/direnç, ilk ilerlemenin hemen karşısına çıkıyor. HAREKET ALANI SORUSU Bir mum gördüğünüzde yalnız “hangi yöne işaret ediyor?” diye sormayın.
+
+### 9. PTA-C1-2026 — PDF s. 47
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 47 Şekil 7.4 — Bant Genişliği temsili döngüsü: sıkışma, genişleme, aşırı genişleme ve daralma yön değil hareketlilik evreleridir. 7.6 — İlk bant kırılımı gerçek yön olmak zorunda değildir: sahte ilk kırılım Sıkışma sonrasında fiyat önce bantlardan birinin dışına çıkabilir fakat orada kalıcı olamayarak yeniden bantların içine dönebilir. Daha sonraki belirgin hareket ilk kırılımın ters yönünde gelişebilir. Bu davranış Bollinger literatüründe “Head Fake” olarak da adlandırılır; burada sahte ilk kırılım ifadesini kullanacağız. Bu nedenle “sıkışma bitti ve ilk dışa hareket oldu” bilgisi tek başına gerçek kırılım teyidi değildir. Fiyatın bant dışında kabul görüp görmediği ayrıca izlenmelidir. TEKNİK AYRIM Banda temas, bandın dışında kapanış ve sonrasında yeniden bandın içine kapanış üç farklı olaydır. Özellikle hızlı geri dönüş, ilk genişlemenin devam edemediğini gösteren ayrı bir fiyat davranışıdır. 7.7 — %B uyumsuzluğu Fiyat yeni bir daha düşük dip oluştururken ikinci dipteki %B değeri ilk diptekinden daha yüksek kalabilir. Bu durumda fiyat mutlak olarak yeni dip üretmiş olsa da Bollinger bantlarına göre göreli konumu önceki dip kadar zayıf değildir. Bu gözlem tek başına dönüş sinyali değildir. Fiyat yapısı ve sonraki davranışla birlikte değerlendirilmelidir. 7.8 — Orta bant destek/direnç midir? Orta bant bir hareketli ortalamadır. Trend içinde geri çekilme referansı olabilir; fakat destek/direnç garantisi değildir. Geçmişte çalışmış olması bir sonraki temasın da çalışacağını kanıtlamaz. …
+
+**Bölüm/alt başlık:** 7 / 7.9 — Bollinger + ATR birlikte kullanılabilir mi?
+
+**Kaynak özeti (`source`):** 7.6 — İlk bant kırılımı gerçek yön olmak zorunda değildir: sahte ilk kırılım Sıkışma sonrasında fiyat önce bantlardan birinin dışına çıkabilir fakat orada kalıcı olamayarak yeniden bantların içine dönebilir. Daha sonraki belirgin hareket ilk kırılımın ters yönünde gelişebilir. Bu davranış Bollinger literatüründe “Head Fake” olarak da adlandırılır; burada sahte ilk kırılım ifadesini kullanacağız.
 
 ### 10. PTA-C2-2026 — PDF s. 39
 
@@ -90,7 +90,7 @@ Konum ve seviye yaşam döngüsü
 
 **Bölüm/alt başlık:** 6 / 6.4 — Inside barın daha derin anlamı: yeni tepe veya dip üretememek
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 39 Şekil 6.3 — Yoğun örtüşmede mumlar aynı fiyat alanını tekrar tekrar kullanır. Az örtüşmeli harekette ise her yeni mum önceki alanın ötesinde daha fazla mesafe kazanır. ÖRTÜŞMEYİ DOĞRU OKUYUN Yoğun örtüşme “mutlaka dönüş” demek değildir.
+**Kaynak özeti (`source`):** Az örtüşmeli harekette ise her yeni mum önceki alanın ötesinde daha fazla mesafe kazanır. ÖRTÜŞMEYİ DOĞRU OKUYUN Yoğun örtüşme “mutlaka dönüş” demek değildir. Kaynağın desteklediği daha sınırlı sonuç şudur: yönlü momentum hakkında daha az kanıt vardır ve fiyat son aralıkların içinde daha fazla zaman geçirir.
 
 ## Test fikri (`hypothesis`)
 

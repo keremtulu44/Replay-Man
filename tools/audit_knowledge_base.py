@@ -29,8 +29,11 @@ def main() -> int:
                 if not topic["id"] or topic["score"] <= 0: errors.append(f"{row['id']}: konu kaydı")
     theme_count = len(list((BASE / "processed/themes").glob("*.md")))
     if theme_count != 22: errors.append(f"tema={theme_count} beklenen=22")
+    chapter_files = len(list((BASE / "processed/chapters").glob("*/*.md")))
+    expected_chapters = sum(value[1] for value in EXPECTED.values())
+    if chapter_files != expected_chapters: errors.append(f"bölüm dosyası={chapter_files} beklenen={expected_chapters}")
     report = {"status": "passed" if not errors else "failed", "sources": 3, "pages_and_cards": total,
-              "chapters": sum(value[1] for value in EXPECTED.values()), "topic_dossiers": theme_count,
+              "chapters": expected_chapters, "chapter_dossiers": chapter_files, "topic_dossiers": theme_count,
               "errors": errors}
     (BASE / "processed/audit.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(report, ensure_ascii=False, indent=2))

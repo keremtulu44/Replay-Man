@@ -1,6 +1,6 @@
 # fundamental_derivatives
 
-**Kapsam:** 144 sayfa eşleşmesi
+**Kapsam:** 170 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -18,7 +18,7 @@ Bu alanlar ilk replay çekirdeğinde referans katmanıdır; ürün ve risk varsa
 
 **Bölüm/alt başlık:** 21 / 21.14 — Hedge Maliyeti, Geçersizlik ve Kapatma
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 21 Opsiyonlar, Hedge ve Portföy Koruma Stratejileri • 437 VAKA ANALİZİ — XAGTRYG CROSS-HEDGE XAGTRYG pozisyonunu yalnız XAGUSD short ile korumak gümüş dolar bacağını azaltabilir; USDTRY bacağı açık kalır. XAGTRYG ≈ XAGUSD × USDTRY ilişkisi nedeniyle hedge hedefini önce “metal fiyatı mı, TL kur riski mi, ikisi mi?” diye ayırırım. Tek bacakla tüm TL fiyat riskinin kapandığını varsaymam.
+**Kaynak özeti (`source`):** VAKA ANALİZİ — XAGTRYG CROSS-HEDGE XAGTRYG pozisyonunu yalnız XAGUSD short ile korumak gümüş dolar bacağını azaltabilir; USDTRY bacağı açık kalır. XAGTRYG ≈ XAGUSD × USDTRY ilişkisi nedeniyle hedge hedefini önce “metal fiyatı mı, TL kur riski mi, ikisi mi?” diye ayırırım. Tek bacakla tüm TL fiyat riskinin kapandığını varsaymam.
 
 ### 2. ATK-TR-D1.0-2026-08 — PDF s. 453
 
@@ -26,7 +26,7 @@ Bu alanlar ilk replay çekirdeğinde referans katmanıdır; ürün ve risk varsa
 
 **Bölüm/alt başlık:** 21 / 21.15 — Tam Portföy Koruma İş Akışı
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 21 Opsiyonlar, Hedge ve Portföy Koruma Stratejileri • 438 Hedge kapatma tetikleyicisi Eylem Expiration yaklaştı Kapat, exercise, allow expire veya roll seçenekleri ürün kuralıyla incelenir. Basis/korelasyon bozuldu Koruma aracı değiştirilir veya pozisyon azaltılır. Tablo 21.15 – Hedge geçersizlik ve çıkış kartı DOĞRU BİLİNEN YANLIŞ Mit: Hedge para kaybediyorsa başarısızdır.
+**Kaynak özeti (`source`):** Hedge kapatma tetikleyicisi Eylem Expiration yaklaştı Kapat, exercise, allow expire veya roll seçenekleri ürün kuralıyla incelenir. Basis/korelasyon bozuldu Koruma aracı değiştirilir veya pozisyon azaltılır. Gerçeklik: Ana pozisyon yükselirken hedge maliyet yazabilir; bu, sigortanın çalışmadığı anlamına gelmez.
 
 ### 3. ATK-TR-D1.0-2026-08 — PDF s. 486
 
@@ -34,7 +34,7 @@ Bu alanlar ilk replay çekirdeğinde referans katmanıdır; ürün ve risk varsa
 
 **Bölüm/alt başlık:** 23 / 23.14 — Hedge Kapatma, Roll ve Tam Pozisyon
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 23 Pozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri • 471 23.13 PSAR ve Heikin Ashi ile Yardımcı Çıkış Teyidi Parabolic SAR, trend boyunca fiyatın arkasında noktalar üretip flip olduğunda olası dönüş/exit uyarısı verebilir. Heikin Ashi ise OHLC’nin ortalanmış dönüşümünü kullanarak trendi daha pürüzsüz gösterir. Her ikisi de yardımcı filtre olabilir; gerçek işlem fiyatı ve ana yapı yerine geçmez.
+**Kaynak özeti (`source`):** 23.13 PSAR ve Heikin Ashi ile Yardımcı Çıkış Teyidi Parabolic SAR, trend boyunca fiyatın arkasında noktalar üretip flip olduğunda olası dönüş/exit uyarısı verebilir. Heikin Ashi ise OHLC’nin ortalanmış dönüşümünü kullanarak trendi daha pürüzsüz gösterir. Her ikisi de yardımcı filtre olabilir; gerçek işlem fiyatı ve ana yapı yerine geçmez.
 
 ### 4. ATK-TR-D1.0-2026-08 — PDF s. 276
 
@@ -42,39 +42,55 @@ Bu alanlar ilk replay çekirdeğinde referans katmanıdır; ürün ve risk varsa
 
 **Bölüm/alt başlık:** 13 / 13.13 — Kaldıraç, Marjin ve Likidasyon
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 13 Risk Yönetimi ve Pozisyon Boyutlandırma • 261 13.12 Stop, Hedge ve Çeşitlendirme Hedge (ana pozisyona zıt veya dengeleyici risk alarak geçici kaybı azaltma), stopun eş anlamlısı değildir. Stop tezi sonlandırır; hedge ana pozisyonu açık tutarken ek maliyet ve yeni bir yönetim kararı yaratır. Diversification (farklı risk sürücülerine dağılım) ise tek olaya bağımlılığı azaltmayı amaçlar.
+**Kaynak özeti (`source`):** 13.12 Stop, Hedge ve Çeşitlendirme Hedge (ana pozisyona zıt veya dengeleyici risk alarak geçici kaybı azaltma), stopun eş anlamlısı değildir. Stop tezi sonlandırır; hedge ana pozisyonu açık tutarken ek maliyet ve yeni bir yönetim kararı yaratır. Diversification (farklı risk sürücülerine dağılım) ise tek olaya bağımlılığı azaltmayı amaçlar.
 
-### 5. PTA-C1-2026 — PDF s. 64
+### 5. PTA-C2-2026 — PDF s. 32
+
+> PROFESYONEL TEKNİK ANALİZ — CİLT 2 32 Bu yapı bize yalnız “beş yükseliş mumu var” bilgisini vermez. Daha önemli bilgi, geri çekilme denemelerinin her mumda sınırlı kalmasıdır. Fiyat kısa süreli karşı hareketler üretse bile diplerin korunması, kısa vadeli yukarı baskının devam ettiğini gösterir. Bu nedenle mikro kanalı okurken mum renklerini saymaktan çok, her yeni mumun önceki mumun dibine göre nerede kaldığına bakmak daha anlamlıdır. Şekil 5.3 — Beş mumluk yükseliş mikro kanalında her yeni dip, önceki dip seviyesinin altında kalmıyor. Kısa vadeli baskı yalnız renklerden değil, diplerin korunmasından okunuyor. MİKRO KANALDA KRİTİK NOKTA Kaynak, beş mumluk dizide diplerin korunmasını öne çıkarır. Bu nedenle tek bir geri çekilme işareti görüldüğünde bütün önceki baskıyı hemen yok saymak doğru değildir; önce kısa dönem dizinin gerçekten bozulup bozulmadığına bakılır. 5.4 — Devamın kalitesi: kapanışlar ve örtüşme ne ekler? Bölüm 2’de tanımladığımız ardışık kapanış ve örtüşmeyi burada yeniden tanımlamıyoruz; bu iki ölçüyü devam yapısının kalitesini sınamak için kullanıyoruz. Aynı yönde uzayan kapanış dizisi, ana yönün baskıyı birden fazla mum boyunca sürdürebildiğine dair ek bilgi verir. Örtüşmede de aynı kural geçerlidir. Gövdeler birbirine az giriyorsa devam daha temiz görünür; fiyat her mumda önceki alanın büyük bölümüne dönüyorsa karşı taraf daha sık cevap veriyor demektir. Burada örtüşme yön seçmek için değil, mevcut devamın ne kadar rahat sürdüğünü ölçmek için kullanılır.
+
+**Bölüm/alt başlık:** 5 / 5.4 — Devamın kalitesi: kapanışlar ve örtüşme ne ekler?
+
+**Kaynak özeti (`source`):** Bu yapı bize yalnız “beş yükseliş mumu var” bilgisini vermez. Daha önemli bilgi, geri çekilme denemelerinin her mumda sınırlı kalmasıdır. Fiyat kısa süreli karşı hareketler üretse bile diplerin korunması, kısa vadeli yukarı baskının devam ettiğini gösterir.
+
+### 6. PTA-C1-2026 — PDF s. 20
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 20 Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır. Fiyat önceki dibi kaybeder ve daha düşük dip oluşturursa bu gizli yükseliş uyumsuzluğunun temel şartı ortadan kalkar. UYUMSUZLUK = GİRİŞ DEĞİLDİR Bu yapı da tek başına giriş işareti değildir; hazırlık ve bağlam bilgisi verir. Giriş için fiyatın yeniden trend yönünde davranması gerekir. 3.10 — Parametre ve seviye stratejiye aittir RSI(10), 30 üzeri giriş veya 60 üzeri çıkış gibi kurallar belirli strateji tercihleri olabilir; RSI’nın evrensel doğru ayarı değildir. Bir parametreyi genel kural haline getirmek için yalnız geçmişte iyi görünmesi yeterli değildir. SAYISAL ÖRNEK — AYNI GÖSTERGE, FARKLI GÖREV RSI(14) bir belirgin fiyat hareketi stratejisinde daha yumuşak davranırken daha kısa bir periyot kısa vadeli harekete daha hassas olabilir. Hassasiyet arttığında daha erken sinyal kadar daha fazla gürültü de beklenir. “Daha hızlı” ile “daha iyi” aynı şey değildir. 3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi? Hayır. Üçü de hareket gücü/osilatör ailesindedir. Özellikle Stochastic RSI doğrudan RSI’nın kendi yakın dönem aralığındaki konumunu ölçer; yani RSI’nın türevidir. Bu nedenle RSI + Stoch RSI iki bağımsız veri katmanı gibi sayılamaz. …
+
+**Bölüm/alt başlık:** 3 / 3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi?
+
+**Kaynak özeti (`source`):** Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır.
+
+### 7. PTA-C1-2026 — PDF s. 41
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 41 DOĞRU ÇEVİRİ Düşük ATR = sakin piyasa. Donchian/fiyat yapısı kırılımı = yönlü giriş işareti. İlki yön vermez; ikincisi kırılımı gösterir. 6.8 — ATR’yi tek sayı yerine fiyat hareketliliği rejimi olarak okumak Piyasanın hareket genişliği zaman içinde sabit değildir. Düşük fiyat hareketliliği dönemlerini genişleme, yüksek hareketlilik ve yeniden sakinleşme dönemleri izleyebilir. ATR bu değişimin yönünü değil, hareket genişliğinin hangi evrede olduğunu izlemeye yardım eder. ATR uzun süre düşüyorsa fiyatın tipik hareket genişliği daralıyor; daha sonra yükselmeye başlıyorsa hareket genişliği yeniden büyüyor olabilir. Bu süreç yukarı veya aşağı yönde gerçekleşebilir. Dolayısıyla fiyat hareketliliği rejimi ile fiyat yönü ayrı tutulmalıdır. Güncel ATR ayrıca enstrümanın kendi geçmiş ATR değerleriyle karşılaştırılabilir. Tarihsel olarak sıra dışı derecede düşük ATR, piyasanın kendi yakın geçmişine göre sıkıştığını gösterir; hangi yönde kırılacağını söylemez. 6.9 — Hareketi ATR birimiyle ifade etmek Aynı yüzde hareket iki farklı enstrümanda aynı büyüklükte davranış anlamına gelmeyebilir. Bunun yerine güncel hareket, enstrümanın kendi ATR’sine bölünerek “normal” hareket genişliğine göre ifade edilebilir: Hareket büyüklüğü / ATR Örneğin 0,5 ATR’lik bir hareket son dönem tipik genişliğin yaklaşık yarısı, 2 ATR’lik bir hareket ise tipik genişliğin yaklaşık iki katıdır. Bu oran yön veya dönüş söylemez; yalnız hareketin enstrümanın kendi son dönem davranışına göre sıradan mı, olağan dışı mı olduğunu gösterir. …
+
+**Bölüm/alt başlık:** 6 / 6.10 — ATR penceresi ve zaman dilimi “normal” tanımını değiştirir
+
+**Kaynak özeti (`source`):** DOĞRU ÇEVİRİ Düşük ATR = sakin piyasa. Donchian/fiyat yapısı kırılımı = yönlü giriş işareti. İlki yön vermez; ikincisi kırılımı gösterir.
+
+### 8. PTA-C1-2026 — PDF s. 64
 
 > PROFESYONEL TEKNİK ANALİZ ARAÇLARI 64 10.7 — AVWAP’ın seviyesi kadar eğimi ve başlangıç noktasının yaşı da önemlidir Fiyatın AVWAP’ın üzerinde veya altında olması bir konum bilgisidir. Buna ek olarak AVWAP’ın kendisinin yükselmesi, düşmesi veya yataylaşması da izlenebilir. Yükselen AVWAP, seçilen başlangıç noktasından sonraki hacim ağırlıklı ortalama fiyatın yukarı taşındığını; düşen AVWAP aşağı taşındığını gösterir. Yatay AVWAP’ta ortalama fiyatın değişim hızı azalır ve fiyat çizgiyi sık sık iki yönde kesebilir. Kısa dönemli bir AVWAP’ın yükselmesi daha büyük zaman dilimindeki trendin yükselişe döndüğü anlamına gelmez. AVWAP kendi başlangıç noktasından sonraki maliyet yapısını anlatır; ana trend ayrı bir bilgidir. Başlangıç noktası eskidikçe AVWAP neden daha yavaş değişir? AVWAP birikimli hesaplanır. Başlangıç noktasından sonra veri arttıkça yeni gelen tek bir barın toplam hesap üzerindeki etkisi küçülür. Bu nedenle eski bir AVWAP, daha yeni bir AVWAP’a göre son fiyat ve hacim değişikliklerine daha yavaş tepki verebilir. Bu durum eski AVWAP’ın otomatik olarak geçersiz olduğu anlamına gelmez. Yalnız çizginin duyarlılığının zamanla değiştiğini gösterir. 10.8 — Birden fazla anlamlı AVWAP ve çizginin yeniden aşılması Yeni önemli olaylar oluştuğunda eski AVWAP’ı silmek zorunlu değildir. Farklı belirgin tepe/dip, fiyat boşluğu veya takvim başlangıçlarından başlatılmış AVWAP’lar farklı maliyet referanslarını gösterebilir. Farklı başlangıçlardan gelen iki AVWAP aynı fiyat bölgesine yaklaşırsa farklı dönemlerin hacim ağırlıklı ortalama maliyetleri benzer bölgede buluşmuş olur. …
 
 **Bölüm/alt başlık:** 10 / 10.8 — Birden fazla anlamlı AVWAP ve çizginin yeniden aşılması
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 64 10.7 — AVWAP’ın seviyesi kadar eğimi ve başlangıç noktasının yaşı da önemlidir Fiyatın AVWAP’ın üzerinde veya altında olması bir konum bilgisidir. Buna ek olarak AVWAP’ın kendisinin yükselmesi, düşmesi veya yataylaşması da izlenebilir. Yükselen AVWAP, seçilen başlangıç noktasından sonraki hacim ağırlıklı ortalama fiyatın yukarı taşındığını; düşen AVWAP aşağı taşındığını gösterir.
+**Kaynak özeti (`source`):** 10.7 — AVWAP’ın seviyesi kadar eğimi ve başlangıç noktasının yaşı da önemlidir Fiyatın AVWAP’ın üzerinde veya altında olması bir konum bilgisidir. Buna ek olarak AVWAP’ın kendisinin yükselmesi, düşmesi veya yataylaşması da izlenebilir. Yükselen AVWAP, seçilen başlangıç noktasından sonraki hacim ağırlıklı ortalama fiyatın yukarı taşındığını; düşen AVWAP aşağı taşındığını gösterir.
 
-### 6. PTA-C1-2026 — PDF s. 90
+### 9. PTA-C1-2026 — PDF s. 90
 
 > PROFESYONEL TEKNİK ANALİZ ARAÇLARI 90 Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir. Bu konum tek başına AL/SAT üretmez; fiyat yapısı ve diğer karar katmanları ayrıca değerlendirilmelidir. Ardışık dönemlerin CPR bölgeleri karşılaştırıldığında merkez referans bölgesinin yukarı, aşağı veya yatay taşındığı görülebilir. CPR’ın yukarı taşınması önceki dönem OHLC verilerinden türetilen merkez bölgenin daha yüksek fiyatlara kaydığını gösterir; fiyatın mutlaka yükseleceği anlamına gelmez. CPR genişliği dönemler arasında karşılaştırılabilir; fakat dar CPR’ı otomatik olarak “yarın büyük hareket”, geniş CPR’ı “yarın yatay piyasa” tahminine dönüştürmeyin. 15.3 — Pivot “Auto” ayarı hangi zaman dilimini kullanır? Grafik zaman dilimi TradingView Auto pivot zaman dilimi ≤ 15 dakika 1D > 15 dakika ve < 1 gün 1W ≥ 1 gün 1M Pivotun “Auto” dönemi grafik zaman dilimine göre değişebilir. Ayrıca günlük veriyi kullanma seçeneği ve veri oturumları OHLC girdilerini değiştirebildiği için aynı sembolde küçük seviye farkları oluşabilir. TEKNİK VERİ SORUNU Hisselerde seans dışı işlemler günlük muma dahil olmayabilir; vadeli işlemlerde günlük kapanış uzlaşma fiyatını kullanabilir. Bu nedenle gün içi veriden türetilen OHLC ile günlük bazlı OHLC her zaman aynı değildir. TEKNİK HATA Pivot seviyeleri geçmiş OHLC’den türetilir. Aralığın daralmasını gelecekteki fiyat hareketliliğinin doğrudan tahmini gibi sunmayın. 15.4 — RS Line: RSI değil, karşılaştırma ölçütüne göre performans RS Line, varlığın seçilen karşılaştırma ölçütüne göre daha iyi mi daha kötü mü performans gösterdiğini izler. …
 
 **Bölüm/alt başlık:** 15 / 15.4 — RS Line: RSI değil, karşılaştırma ölçütüne göre performans
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 90 Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir. Bu konum tek başına AL/SAT üretmez; fiyat yapısı ve diğer karar katmanları ayrıca değerlendirilmelidir. Ardışık dönemlerin CPR bölgeleri karşılaştırıldığında merkez referans bölgesinin yukarı, aşağı veya yatay taşındığı görülebilir.
+**Kaynak özeti (`source`):** Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir. Bu konum tek başına AL/SAT üretmez; fiyat yapısı ve diğer karar katmanları ayrıca değerlendirilmelidir. Ardışık dönemlerin CPR bölgeleri karşılaştırıldığında merkez referans bölgesinin yukarı, aşağı veya yatay taşındığı görülebilir.
 
-### 7. PTA-C1-2026 — PDF s. 99
-
-> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 99 Ardışık temaslar arasındaki süre kısalıyor, fiyat çizgiden eskisi kadar uzaklaşamıyor ve çizginin çevresinde daha fazla zaman geçiriyorsa fiyatın çizgiden önceki kadar güçlü uzaklaşmadığı görülür. Bu yapı kırılım garantisi değildir. Daha doğru okuma, mevcut trend çizgisi geometrisinin reaksiyon gücünün zayıfladığıdır. Kırılım ve yeniden test iki ayrı olaydır Trend çizgisinin dışına kapanış, çizginin daha sonra karşı taraftan yeniden test edilmesiyle aynı olay değildir. Kırılım sonrasında fiyat eski çizgi/kırılım alanına döndüğünde şu soru sorulabilir: Fiyat yeni tarafta kalabiliyor mu, yoksa yeniden eski geometrinin içine mi dönüyor? Bu ayrım “trend çizgisi kırıldı = trend kesin döndü” hatasını azaltır. Yeniden test de kendi başına zorunlu bir işlem kuralı değildir. 16.7 — Ekrandaki açı bir piyasa sabiti değildir Ekranda görülen çizgi açısı; fiyat ekseni ölçeğine, yakınlaştırmaya, pencere oranına ve doğrusal/logaritmik eksen seçimine bağlıdır. Aynı fiyat hareketi ekranda farklı eğimlerle görünebilir; bu nedenle görsel açı tek başına trend gücü ölçüsü değildir. Şekil 16.4 — Aynı üstel fiyat serisi doğrusal eksende giderek dikleşirken logaritmik eksende daha düzenli görünür. Ölçek sabitlenmeden görsel açı karşılaştırılamaz. SAYISAL ÖRNEK 10 → 20 hareketi +10 birim ama +%100’dür. 100 → 110 hareketi de +10 birim ama yalnız +%10’dur. Doğrusal eksen mutlak farkı, logaritmik eksen oransal değişimi daha doğal gösterir. Uzun vadeli grafiklerde çizgi açısını yorumlamadan önce ölçeği bilin. …
-
-**Bölüm/alt başlık:** 16 / 16.7 — Ekrandaki açı bir piyasa sabiti değildir
-
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 99 Ardışık temaslar arasındaki süre kısalıyor, fiyat çizgiden eskisi kadar uzaklaşamıyor ve çizginin çevresinde daha fazla zaman geçiriyorsa fiyatın çizgiden önceki kadar güçlü uzaklaşmadığı görülür. Bu yapı kırılım garantisi değildir. Daha doğru okuma, mevcut trend çizgisi geometrisinin reaksiyon gücünün zayıfladığıdır.
-
-### 8. PTA-C2-2026 — PDF s. 21
+### 10. PTA-C2-2026 — PDF s. 21
 
 > PROFESYONEL TEKNİK ANALİZ — CİLT 2 21 Eski taraf Karşı taraf Basit okuma Mumlar küçülüyor Karşı mumlar küçük Yavaşlama var; yeni taraf henüz belirgin değil. Mumlar küçülüyor Karşı mumlar büyüyor Kontrol dengesi değişmeye başlıyor olabilir. İlerleme tekrar büyüyor Karşı mumlar zayıf kalıyor Eski yön gücünü yeniden toplamış olabilir. 3.6 — Hareket sürüyor ama içeriden zayıflıyor Bir hareketin zayıflaması için önce yönün tamamen bozulması gerekmez. Fiyat hâlâ yeni tepeler üretebilir veya kısa vadeli yükseliş düzenini koruyabilir. Buna rağmen gövdeler küçülüyor ve araya küçük karşı mumlar giriyorsa hareket içeriden yavaşlıyor olabilir. Kaynak örneğinde yedi mumluk yükseliş dizisi hâlâ yukarı yönlü yapısını korurken son mumların gövdeleri küçülür. Ardından küçük bir satış mumu görünür. Buradaki ana mesaj yapının adını ezberlemek değildir. Önemli olan, yön sürerken bile ilerleme hızının azalabileceğini görebilmektir. Şekil 3.5 — Dipler yükselmeye devam ediyor; yani kısa hareket henüz bozulmuş değil. Buna rağmen gövdelerin küçülmesi ve küçük karşı mum, hareketin içeriden yavaşladığını gösteriyor. ÖNEMLİ AYRIM Zayıflama = dönüş değildir. Fiyat yavaşlayıp bir süre yataya da geçebilir, sonra aynı yönde yeniden güçlenebilir. Bu bölümde yalnız önceki hareketin gücünün azalıp azalmadığını okuyoruz. 3.7 — Zayıflamayı okurken hangi sırayı izleyelim? Bu bölümde tek bir “dönüş formülü” kurmadık. Bunun yerine, aynı yönün ilerlemesi zorlaşırken ortaya çıkabilecek birkaç basit işareti bir araya getirdik. …
 
 **Bölüm/alt başlık:** 3 / 3.7 — Zayıflamayı okurken hangi sırayı izleyelim?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 21 Eski taraf Karşı taraf Basit okuma Mumlar küçülüyor Karşı mumlar küçük Yavaşlama var; yeni taraf henüz belirgin değil. Mumlar küçülüyor Karşı mumlar büyüyor Kontrol dengesi değişmeye başlıyor olabilir. İlerleme tekrar büyüyor Karşı mumlar zayıf kalıyor Eski yön gücünü yeniden toplamış olabilir.
+**Kaynak özeti (`source`):** Eski taraf Karşı taraf Basit okuma Mumlar küçülüyor Karşı mumlar küçük Yavaşlama var; yeni taraf henüz belirgin değil. Mumlar küçülüyor Karşı mumlar büyüyor Kontrol dengesi değişmeye başlıyor olabilir. İlerleme tekrar büyüyor Karşı mumlar zayıf kalıyor Eski yön gücünü yeniden toplamış olabilir.
 
 ## Test fikri (`hypothesis`)
 

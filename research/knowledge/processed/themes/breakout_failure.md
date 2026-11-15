@@ -1,6 +1,6 @@
 # breakout_failure
 
-**Kapsam:** 182 sayfa eşleşmesi
+**Kapsam:** 244 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -18,31 +18,31 @@ Kırılım/kabul/başarısızlık durum makinesi
 
 **Bölüm/alt başlık:** 6 / 6.13 — Fakeout, Failure Test ve Bozulan
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 6 Mum ve Grafik Formasyonları • 107 Şekil 6.7 – Kırılım, retest ve fakeout ayrımı yeni alandaki kabul davranışıyla yapılır. Ölçüt Güçlü breakout Zayıf breakout / fakeout riski Mum gövdesi Yakın geçmişe göre geniş body. Sınır üzerinde/altında çok yakın veya eski alan içinde.
+**Kaynak özeti (`source`):** Ölçüt Güçlü breakout Zayıf breakout / fakeout riski Mum gövdesi Yakın geçmişe göre geniş body. Sınır üzerinde/altında çok yakın veya eski alan içinde. Fitil Kırılım yönündeki fitil sınırlı.
 
-### 2. ATK-TR-D1.0-2026-08 — PDF s. 75
-
-> ANA TRADING KİTABI | BÖLÜM 3 Trend, Price Action ve Piyasa Yapısı • 60 İç baskı değişimini okumak Range içinde diplerin yükselmesi, her satış dalgasının daha erken karşılandığını; tepelerin düşmesi ise her alım dalgasının daha erken satıldığını gösterebilir. Bu davranış kırılım ihtimalini etkiler, ancak sınırın gerçekten aşılıp kabul edilmesi ayrı olaydır. Baskı “hazırlık”, BOS ise “sonuç” olarak görülmelidir. Formasyon adından önce fiyat mantığı Ascending triangle, descending triangle veya symmetrical triangle gibi isimler yardımcı olabilir. Fakat asıl soru şudur: Hangi taraf giderek daha yüksek veya daha düşük fiyatları kabul ediyor ve hangi sınır henüz korunuyor? 3.12 Başarısız Yapı, Fakeout ve Failure Test Bir seviye aşımı her zaman kabul edilmiş yapısal kırılım değildir. Fiyat swing veya range sınırının ötesine çıkıp kapanışta geri dönebilir ya da kısa süre sonra tamamen eski alanın içine yerleşebilir. Bu davranış başarısız kırılım, fakeout veya bağlama göre failure test olarak adlandırılabilir. Aşama Başarılı kırılım Başarısız kırılım Yaklaşım Seviyeye doğru artan veya yeterli momentum. Yavaşlama, aşırı fitil veya düzensiz yaklaşım olabilir. Aşım Gövde seviye ötesinde ilerler. Çoğunlukla fitil veya kısa süreli aşım. Kapanış Seviye ötesinde anlamlı kapanış. Yeniden eski alan içinde kapanış. Takip Yeni alan korunur ve hareket genişler. Sonraki mumlar kırılımı geri alır. Geri test Kırılan seviye yeni yönde tutulur. Fiyat eski yapıya döner veya ters yönde hızlanır. …
-
-**Bölüm/alt başlık:** 3 / 3.12 — Başarısız Yapı, Fakeout ve Failure Test
-
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 3 Trend, Price Action ve Piyasa Yapısı • 60 İç baskı değişimini okumak Range içinde diplerin yükselmesi, her satış dalgasının daha erken karşılandığını; tepelerin düşmesi ise her alım dalgasının daha erken satıldığını gösterebilir. Bu davranış kırılım ihtimalini etkiler, ancak sınırın gerçekten aşılıp kabul edilmesi ayrı olaydır. Baskı “hazırlık”, BOS ise “sonuç” olarak görülmelidir.
-
-### 3. ATK-TR-D1.0-2026-08 — PDF s. 253
+### 2. ATK-TR-D1.0-2026-08 — PDF s. 253
 
 > ANA TRADING KİTABI | BÖLÜM 12 İşlem Kurulumu, Strateji Tasarımı ve Doğrulama • 238 Uygulama Görseli 12.6 – Breakout quality karşılaştırması: fitil aşımı, zayıf close, güçlü close+volume ve başarılı retest. Temsilî eğitim şeması. 12.11 Range, Failure Test ve False Breakout Setup’ı Range setup’ında avantaj orta bölgede tahmin yapmak değil, sınırdaki asimetrik davranışı işlemektir. Failure test (range veya önemli seviyenin kısa süre aşılması ve yeniden içeri kapanış), breakout traderlarını yanlış tarafta bırakabilen bir trigger’dır. Niyet iddiası yerine gözlenebilir aşım, reclaim ve takip davranışını kullanırım. Aşama Bullish range failure Bearish range failure Konum Range support / sell-side liquidity. Range resistance / buy-side liquidity. Aşım Support altına fitil veya kısa gövdeli taşma. Resistance üstüne fitil veya kısa taşma. Reclaim Mum yeniden range içinde kapanır. Mum yeniden range altında kapanır. Teyit Bullish follow-through, micro CHoCH veya retest. Bearish follow-through, micro CHoCH veya retest. Stop Failure extreme altı + uygulama payı. Failure extreme üstü + uygulama payı. Hedef Önce range ortası, sonra karşı sınır bağlama göre. Önce range ortası, sonra karşı sınır bağlama göre. Tablo 12.12 – Range failure setup’ı EKRANDA NE ARIYORUM? • Range sınırlarını en az iki anlamlı reaksiyonla tanımlıyorum. • Orta bölgede işlem aramıyorum. • Sınır aşımından sonra kapanışın nereye döndüğünü izliyorum. • Reclaim sonrası takip yoksa failure test’i aktif saymıyorum.
 
 **Bölüm/alt başlık:** 12 / 12.11 — Range, Failure Test ve False Breakout
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 12 İşlem Kurulumu, Strateji Tasarımı ve Doğrulama • 238 Uygulama Görseli 12.6 – Breakout quality karşılaştırması: fitil aşımı, zayıf close, güçlü close+volume ve başarılı retest. 12.11 Range, Failure Test ve False Breakout Setup’ı Range setup’ında avantaj orta bölgede tahmin yapmak değil, sınırdaki asimetrik davranışı işlemektir. Failure test (range veya önemli seviyenin kısa süre aşılması ve yeniden içeri kapanış), breakout traderlarını yanlış tarafta bırakabilen bir trigger’dır.
+**Kaynak özeti (`source`):** Uygulama Görseli 12.6 – Breakout quality karşılaştırması: fitil aşımı, zayıf close, güçlü close+volume ve başarılı retest. 12.11 Range, Failure Test ve False Breakout Setup’ı Range setup’ında avantaj orta bölgede tahmin yapmak değil, sınırdaki asimetrik davranışı işlemektir. Failure test (range veya önemli seviyenin kısa süre aşılması ve yeniden içeri kapanış), breakout traderlarını yanlış tarafta bırakabilen bir trigger’dır.
 
-### 4. PTA-C2-2026 — PDF s. 48
+### 3. PTA-C2-2026 — PDF s. 48
 
 > PROFESYONEL TEKNİK ANALİZ — CİLT 2 48 7.4 — İlk kırılımı sonraki tepe ve diplerle sınayın Bir fiyat aralığının dışına çıkan ilk mum hâlâ başarısız olabilir. Kaynak, aşağı kırılım örneğinde ilk hareketten sonra iki yeni yapısal bilgiye dikkat eder. Fiyat önce eski alt sınıra doğru geri döner fakat orayı geri alamaz ve daha düşük bir tepe oluşturur. Ardından yeniden aşağı dönerek ilk kırılım dibinin altına iner. Böylece ilk kırılım tek bir mum olmaktan çıkar, yeni tepe-dip yerleşimiyle desteklenir. Bu ayrım özellikle önemlidir çünkü ilk kırılım ile gerçek devam arasına zaman girer. Kırılım mumu güçlü görünse bile fiyat eski alanın içine rahatça dönebiliyorsa yeni bölgenin kabulü zayıftır. Buna karşılık geri test eski sınırda duruyor ve sonraki hareket yeniden kırılım yönünde yeni uç üretiyorsa, fiyat eski fiyat aralığından uzaklaşmayı başarıyor demektir. Şekil 7.4 — İlk aşağı kırılım B noktasında tek başına yeterli değildir. C’de eski alt sınır geri alınamıyor; D’de B’nin altına yeni hareket gelince devam davranışı daha belirgin hale geliyor. Kontrol noktası Zayıf kırılımda ne görebiliriz? Daha güçlü devamda ne ararız? İlk çıkış Bir mum sınırın dışına çıkar. Dışarıda kapanış ve yeni alan. Geri test Fiyat eski fiyat aralığı’e kolayca döner. Eski sınırın tamamı geri alınamaz. Yeni tepe/dip Yapı eski fiyat aralığı yönüne döner. Kırılım yönünde yeni uç oluşur. Sonuç İlk hareket tek olay olarak kalır. Kırılım bir diziye dönüşür. 7.5 — İlk kapanıştan sonra ikinci mum ne yaptı? Bir seviyenin üzerinde ilk kapanış geldiğinde iş bitmez. …
 
 **Bölüm/alt başlık:** 7 / 7.5 — İlk kapanıştan sonra ikinci mum ne yaptı?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 48 7.4 — İlk kırılımı sonraki tepe ve diplerle sınayın Bir fiyat aralığının dışına çıkan ilk mum hâlâ başarısız olabilir. Kaynak, aşağı kırılım örneğinde ilk hareketten sonra iki yeni yapısal bilgiye dikkat eder. Fiyat önce eski alt sınıra doğru geri döner fakat orayı geri alamaz ve daha düşük bir tepe oluşturur.
+**Kaynak özeti (`source`):** 7.4 — İlk kırılımı sonraki tepe ve diplerle sınayın Bir fiyat aralığının dışına çıkan ilk mum hâlâ başarısız olabilir. Kaynak, aşağı kırılım örneğinde ilk hareketten sonra iki yeni yapısal bilgiye dikkat eder. Fiyat önce eski alt sınıra doğru geri döner fakat orayı geri alamaz ve daha düşük bir tepe oluşturur.
+
+### 4. ATK-TR-D1.0-2026-08 — PDF s. 75
+
+> ANA TRADING KİTABI | BÖLÜM 3 Trend, Price Action ve Piyasa Yapısı • 60 İç baskı değişimini okumak Range içinde diplerin yükselmesi, her satış dalgasının daha erken karşılandığını; tepelerin düşmesi ise her alım dalgasının daha erken satıldığını gösterebilir. Bu davranış kırılım ihtimalini etkiler, ancak sınırın gerçekten aşılıp kabul edilmesi ayrı olaydır. Baskı “hazırlık”, BOS ise “sonuç” olarak görülmelidir. Formasyon adından önce fiyat mantığı Ascending triangle, descending triangle veya symmetrical triangle gibi isimler yardımcı olabilir. Fakat asıl soru şudur: Hangi taraf giderek daha yüksek veya daha düşük fiyatları kabul ediyor ve hangi sınır henüz korunuyor? 3.12 Başarısız Yapı, Fakeout ve Failure Test Bir seviye aşımı her zaman kabul edilmiş yapısal kırılım değildir. Fiyat swing veya range sınırının ötesine çıkıp kapanışta geri dönebilir ya da kısa süre sonra tamamen eski alanın içine yerleşebilir. Bu davranış başarısız kırılım, fakeout veya bağlama göre failure test olarak adlandırılabilir. Aşama Başarılı kırılım Başarısız kırılım Yaklaşım Seviyeye doğru artan veya yeterli momentum. Yavaşlama, aşırı fitil veya düzensiz yaklaşım olabilir. Aşım Gövde seviye ötesinde ilerler. Çoğunlukla fitil veya kısa süreli aşım. Kapanış Seviye ötesinde anlamlı kapanış. Yeniden eski alan içinde kapanış. Takip Yeni alan korunur ve hareket genişler. Sonraki mumlar kırılımı geri alır. Geri test Kırılan seviye yeni yönde tutulur. Fiyat eski yapıya döner veya ters yönde hızlanır. …
+
+**Bölüm/alt başlık:** 3 / 3.12 — Başarısız Yapı, Fakeout ve Failure Test
+
+**Kaynak özeti (`source`):** İç baskı değişimini okumak Range içinde diplerin yükselmesi, her satış dalgasının daha erken karşılandığını; tepelerin düşmesi ise her alım dalgasının daha erken satıldığını gösterebilir. Bu davranış kırılım ihtimalini etkiler, ancak sınırın gerçekten aşılıp kabul edilmesi ayrı olaydır. Baskı “hazırlık”, BOS ise “sonuç” olarak görülmelidir.
 
 ### 5. ATK-TR-D1.0-2026-08 — PDF s. 252
 
@@ -50,7 +50,7 @@ Kırılım/kabul/başarısızlık durum makinesi
 
 **Bölüm/alt başlık:** 12 / 12.10 — Breakout–Retest ve Momentum Setup’ı
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 12 İşlem Kurulumu, Strateji Tasarımı ve Doğrulama • 237 hacim ve follow-through birlikte değerlendirilir. Retest, breakout’ın yeni alanda kalıp kalamadığını sınar. Bileşen Güçlü işaret Zayıf / false breakout riski Sınır Birden fazla görünür reaksiyon, range/pattern boundary.
+**Kaynak özeti (`source`):** hacim ve follow-through birlikte değerlendirilir. Retest, breakout’ın yeni alanda kalıp kalamadığını sınar. Bileşen Güçlü işaret Zayıf / false breakout riski Sınır Birden fazla görünür reaksiyon, range/pattern boundary.
 
 ### 6. PTA-C2-2026 — PDF s. 71
 
@@ -58,31 +58,31 @@ Kırılım/kabul/başarısızlık durum makinesi
 
 **Bölüm/alt başlık:** 9 / 9.10 — İkinci denemeleri tek bir okuma zincirinde birleştirin
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 71 Aşama Ana soru Olumlu cevap ne ekler? Geri test Kırılan alan korunuyor mu? Eski bölge yeni yön lehine tutulur Fiyat eski yapının içine döner 4.
+**Kaynak özeti (`source`):** Aşama Ana soru Olumlu cevap ne ekler? Geri test Kırılan alan korunuyor mu? Eski bölge yeni yön lehine tutulur Fiyat eski yapının içine döner 4.
 
-### 7. PTA-C1-2026 — PDF s. 51
-
-> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 51 SAYISAL ÖRNEK 20 periyotluk üst bant 120, alt bant 100 ise orta bant = (120+100)/2 = 110. Yeni fiyat 121’e çıkar ve yöntem güncel barı kırılım için hesaba katıyorsa yeni 20-periyot zirvesi oluşur. Bu olay bir giriş işareti olabilir; kârlı işlem garantisi değildir. 8.2 — Üst sınıra temas dönüş mü, kırılım mı? Donchian üst bandı “aşırı fiyat” seviyesi değildir; son N periyodun en yüksek sınırıdır. Trend takip yaklaşımında bu seviyeye ulaşmak zayıflık değil, yeni kırılım bilgisi olabilir. AYNI GÖRSEL, FARKLI MATEMATİK Bollinger üst bant = ortalama + standart sapma katı. Donchian üst bant = doğrudan son N periyodun en yükseği. İkisi grafikte “üst kanal” gibi görünse de hesap mantıkları farklıdır; bu yüzden aynı yorum kuralı uygulanamaz. 8.3 — Donchian kırılımı neden stratejinin tamamı değildir? Donchian kırılımı bir giriş işareti olabilir; fakat yön filtresi, risk, pozisyon büyüklüğü ve başarısız kırılım kuralı ayrıca tanımlanmalıdır. Aksi halde yatay piyasada çok sayıda otomatik ve başarısız sinyal üretilebilir. Şekil 8.2 — Şematik başarısız kırılım: yeni yüksek oluşuyor fakat fiyat kanal dışında kabul görmeden geri dönüyor. Eksik parça Sadece Donchian varsa sorun Tamamlayıcı Piyasa ortamı / yön Her iki yöne kırılım kovalanabilir Fiyat yapısı veya tek trend filtresi Fiyat hareketliliği Daralma/genişleme koşulu bilinmez ATR Katılım Kırılıma katılım bilinmez Hacim
-
-**Bölüm/alt başlık:** 8 / 8.3 — Donchian kırılımı neden stratejinin tamamı değildir?
-
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 51 SAYISAL ÖRNEK 20 periyotluk üst bant 120, alt bant 100 ise orta bant = (120+100)/2 = 110. Yeni fiyat 121’e çıkar ve yöntem güncel barı kırılım için hesaba katıyorsa yeni 20-periyot zirvesi oluşur. Bu olay bir giriş işareti olabilir; kârlı işlem garantisi değildir.
-
-### 8. PTA-C2-2026 — PDF s. 58
+### 7. PTA-C2-2026 — PDF s. 58
 
 > PROFESYONEL TEKNİK ANALİZ — CİLT 2 58 Şekil 8.4 — Solda geri çekilme kırılım bölgesinin üzerinde kalıyor; sağda ise eski kırılım alanıyla örtüşüyor. İki hareket de yukarı devam edebilir, fakat korunan alan miktarı aynı değildir. Geri çekilme konumu Geometrik anlam Sorulacak soru Kırılım noktasının belirgin üstünde Önceki genişleme daha çok korunuyor Karşı taraf eski alana ne kadar yaklaşabildi? Kırılım bölgesine temas / örtüşme Daha fazla alan geri veriliyor Bölge tutuluyor mu, yoksa içine mi dönülüyor? Kırılım bölgesinin içine geri dönüş İlk genişlemenin önemli bölümü geri alınmış olabilir Yeni yön gerçekten kabul gördü mü? RETEST ZORUNLU DEĞILDIR Kırılım sonrası eski seviyeye dönülmemesi “eksik retest” olmak zorunda değildir. Kaynağın vurgusu, geri çekilme tabanının kırılım noktasına göre nerede kaldığıdır; açık mesafe bazen daha güçlü geometriyi gösterir. 8.5 — Aynı mesafe, farklı süre: swing hızını da geometriye ekleyin Swingleri yalnız yüksekten düşüğe çizilen çizgiler gibi görmek eksik kalır. Multi-candle momentum kaynağı, tamamlanmış hareket bacaklarını mesafe ve süre açısından da karşılaştırır. Aynı fiyat mesafesi bir yönde üç mumda, karşı yönde yedi mumda alınıyorsa iki bacağın hızı aynı değildir. Daha az mumda aynı mesafeyi kat eden taraf daha hızlı ilerlemiştir. Bu ölçü özellikle pullback ile ana hareketi karşılaştırırken yararlıdır. Ana hareket daha uzun gövdelerle, daha az kesintiyle ve daha kısa sürede ilerlerken geri çekilme daha çok mum kullanıyor ve daha az mesafe alıyorsa, yalnız yön değil hareketin verimliliği de farklıdır. …
 
 **Bölüm/alt başlık:** 8 / 8.5 — Aynı mesafe, farklı süre: swing hızını da geometriye ekleyin
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 58 Şekil 8.4 — Solda geri çekilme kırılım bölgesinin üzerinde kalıyor; sağda ise eski kırılım alanıyla örtüşüyor. İki hareket de yukarı devam edebilir, fakat korunan alan miktarı aynı değildir. Geri çekilme konumu Geometrik anlam Sorulacak soru Kırılım noktasının belirgin üstünde Önceki genişleme daha çok korunuyor Karşı taraf eski alana ne kadar yaklaşabildi?
+**Kaynak özeti (`source`):** İki hareket de yukarı devam edebilir, fakat korunan alan miktarı aynı değildir. Geri çekilme konumu Geometrik anlam Sorulacak soru Kırılım noktasının belirgin üstünde Önceki genişleme daha çok korunuyor Karşı taraf eski alana ne kadar yaklaşabildi? Kırılım bölgesine temas / örtüşme Daha fazla alan geri veriliyor Bölge tutuluyor mu, yoksa içine mi dönülüyor?
 
-### 9. PTA-C2-2026 — PDF s. 70
+### 8. PTA-C2-2026 — PDF s. 57
 
-> PROFESYONEL TEKNİK ANALİZ — CİLT 2 70 Sıra Gözlem Okunan değişim 1 Birden fazla aşağı itiş Satıcılar aynı yönde tekrar tekrar deniyor 2 Yeni dip uzamıyor / mikro çift dip Her deneme daha az yeni alan üretiyor 3 Güçlü yukarı dönüş mumları Alıcılar artık yalnız savunmuyor; mesafe kazanıyor 4 Geri test daha yüksek dipte kalıyor Satıcıların sonraki denemesi daha da zayıf kalıyor 9.9 — Başarısız yeni dipten yeni yön teyidine tam akış Kaynak 54, bu bölümdeki parçaları tek bir akışta birleştirir. Önce güçlü satış baskısına rağmen fiyat beklenen daha düşük dibi üretemez. Bu yalnız ilk uyarıdır. Ardından fiyat yerel sıkışmanın üzerine çıkarak yukarı yönlü bir kırılım yapar. Daha sonra kırılan alan geri test edilir ve fiyat yeniden yukarı devam ederse, yeni yön için birden fazla aşamada teyit oluşmuş olur. Bu sıralamanın değeri, dönüş fikrini tek bir muma yüklememesidir. Başarısız yeni dip bize satıcıların ilerleyemediğini söyler. Yukarı kırılım, alıcıların yalnız savunmadan çıkıp yeni alan kazandığını gösterir. Geri test, kırılan bölgenin korunup korunamadığını sınar. Sonraki devam ise yeni yönün ilk kırılımı sürdürebildiğini gösterir. Her aşama aynı hikâyeye yeni bir parça ekler. Şekil 9.9 — Tam akış: (1) beklenen yeni dip gelmiyor, (2) fiyat yerel yapının üzerine kırılıyor, (3) kırılan alan geri test ediliyor, (4) yeni yön tekrar ilerliyor. Tek bir dönüş mumundan daha zengin bir teyit zinciri oluşuyor. Aşama Ana soru Olumlu cevap ne ekler? Bozulma işareti 1. Başarısız uç Eski yön yeni dip/tepe üretebiliyor mu? Eski momentumun ilerleme kaybı Eski yön güçlü yeni uç üretir 2. …
+> PROFESYONEL TEKNİK ANALİZ — CİLT 2 57 Şekil 8.3 — Kaynaktaki yaklaşık %25–30 ve %50+ oranları katı eşik değil, göreli derinliği anlatan referanslardır. Aynı yön devam etse bile ikinci yapı önceki hareketin çok daha büyük bölümünü geri verir. Geri çekilme Bize ne söyler? Tek başına ne söylemez? Daha sığ Önceki ilerlemenin daha büyük bölümü korunuyor Trend kesin devam eder Orta derinlik Kazançların daha fazla bölümü geri veriliyor Dönüş kesinleşti Daha derin Karşı taraf önceki harekete daha fazla nüfuz ediyor Eski yön mutlaka bitti YÜZDELERI YASA GIBI KULLANMAYIN Kaynak yaklaşık %25–30 ve %50+ örnekleri verir; fakat asıl fikir oranların kendisi değil, geri çekilmenin önceki hareket bacağına göre ne kadar alan geri verdiğidir. 8.4 — Geri çekilme eski kırılım bölgesine döndü mü? Derinlik kadar önemli ikinci soru, geri çekilmenin eski kırılım noktasına göre nerede durduğudur. Kaynak, yükseliş örneğinde geri çekilme tabanı ile önceki kırılım noktasını karşılaştırır. Geri çekilme kırılım bölgesine kadar dönüyor veya o bölgeyle örtüşüyorsa, fiyat önceki genişlemenin daha büyük kısmını geri vermiş olur. Buna karşılık pullback açık biçimde eski kırılım noktasının üzerinde kalıyor ve hareket yeniden yukarı devam ediyorsa geometri daha güçlü görünür. Çünkü satıcılar fiyatı eski kırılım alanına geri taşıyamamıştır. Bu, “her kırılım mutlaka seviyeyi retest etmelidir” fikrinin tersidir: bazen seviyeye hiç dönmemek, hareketin daha güçlü olduğuna dair bilgidir.
 
-**Bölüm/alt başlık:** 9 / 9.9 — Başarısız yeni dipten yeni yön teyidine tam akış
+**Bölüm/alt başlık:** 8 / 8.4 — Geri çekilme eski kırılım bölgesine döndü mü?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 70 Sıra Gözlem Okunan değişim 1 Birden fazla aşağı itiş Satıcılar aynı yönde tekrar tekrar deniyor 2 Yeni dip uzamıyor / mikro çift dip Her deneme daha az yeni alan üretiyor 3 Güçlü yukarı dönüş mumları Alıcılar artık yalnız savunmuyor; mesafe kazanıyor 4 Geri test daha yüksek dipte kalıyor Satıcıların sonraki denemesi daha da zayıf kalıyor 9.9 — Başarısız yeni dipten yeni yön teyidine tam akış Kaynak 54, bu bölümdeki parçaları tek bir akışta birleştirir. Önce güçlü satış baskısına rağmen fiyat beklenen daha düşük dibi üretemez. Ardından fiyat yerel sıkışmanın üzerine çıkarak yukarı yönlü bir kırılım yapar.
+**Kaynak özeti (`source`):** Aynı yön devam etse bile ikinci yapı önceki hareketin çok daha büyük bölümünü geri verir. Daha sığ Önceki ilerlemenin daha büyük bölümü korunuyor Trend kesin devam eder Orta derinlik Kazançların daha fazla bölümü geri veriliyor Dönüş kesinleşti Daha derin Karşı taraf önceki harekete daha fazla nüfuz ediyor Eski yön mutlaka bitti YÜZDELERI YASA GIBI KULLANMAYIN Kaynak yaklaşık %25–30 ve %50+ örnekleri verir; fakat asıl fikir oranların kendisi değil, geri çekilmenin önceki hareket bacağına göre ne kadar alan geri verdiğidir. 8.4 — Geri çekilme eski kırılım bölgesine döndü mü?
+
+### 9. PTA-C1-2026 — PDF s. 51
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 51 SAYISAL ÖRNEK 20 periyotluk üst bant 120, alt bant 100 ise orta bant = (120+100)/2 = 110. Yeni fiyat 121’e çıkar ve yöntem güncel barı kırılım için hesaba katıyorsa yeni 20-periyot zirvesi oluşur. Bu olay bir giriş işareti olabilir; kârlı işlem garantisi değildir. 8.2 — Üst sınıra temas dönüş mü, kırılım mı? Donchian üst bandı “aşırı fiyat” seviyesi değildir; son N periyodun en yüksek sınırıdır. Trend takip yaklaşımında bu seviyeye ulaşmak zayıflık değil, yeni kırılım bilgisi olabilir. AYNI GÖRSEL, FARKLI MATEMATİK Bollinger üst bant = ortalama + standart sapma katı. Donchian üst bant = doğrudan son N periyodun en yükseği. İkisi grafikte “üst kanal” gibi görünse de hesap mantıkları farklıdır; bu yüzden aynı yorum kuralı uygulanamaz. 8.3 — Donchian kırılımı neden stratejinin tamamı değildir? Donchian kırılımı bir giriş işareti olabilir; fakat yön filtresi, risk, pozisyon büyüklüğü ve başarısız kırılım kuralı ayrıca tanımlanmalıdır. Aksi halde yatay piyasada çok sayıda otomatik ve başarısız sinyal üretilebilir. Şekil 8.2 — Şematik başarısız kırılım: yeni yüksek oluşuyor fakat fiyat kanal dışında kabul görmeden geri dönüyor. Eksik parça Sadece Donchian varsa sorun Tamamlayıcı Piyasa ortamı / yön Her iki yöne kırılım kovalanabilir Fiyat yapısı veya tek trend filtresi Fiyat hareketliliği Daralma/genişleme koşulu bilinmez ATR Katılım Kırılıma katılım bilinmez Hacim
+
+**Bölüm/alt başlık:** 8 / 8.3 — Donchian kırılımı neden stratejinin tamamı değildir?
+
+**Kaynak özeti (`source`):** SAYISAL ÖRNEK 20 periyotluk üst bant 120, alt bant 100 ise orta bant = (120+100)/2 = 110. Yeni fiyat 121’e çıkar ve yöntem güncel barı kırılım için hesaba katıyorsa yeni 20-periyot zirvesi oluşur. Bu olay bir giriş işareti olabilir; kârlı işlem garantisi değildir.
 
 ### 10. PTA-C1-2026 — PDF s. 57
 
@@ -90,7 +90,7 @@ Kırılım/kabul/başarısızlık durum makinesi
 
 **Bölüm/alt başlık:** 9 / 9.4 — Yüksek hacim neden bazen yanıltır?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 57 RVOL oran gibi okunabilir. Örneğin RVOL = 3, güncel hacmin kullanılan normal hacim referansının yaklaşık üç katı olduğunu ifade eder. Böylece mutlak hacmi yüksek olan bir enstrüman ile bugün kendi normalinin çok üzerinde işlem gören bir enstrüman ayrılabilir.
+**Kaynak özeti (`source`):** Örneğin RVOL = 3, güncel hacmin kullanılan normal hacim referansının yaklaşık üç katı olduğunu ifade eder. Böylece mutlak hacmi yüksek olan bir enstrüman ile bugün kendi normalinin çok üzerinde işlem gören bir enstrüman ayrılabilir. RVOL’un kullandığı “normal” hacim penceresi platforma veya göstergeye göre değişebilir.
 
 ## Test fikri (`hypothesis`)
 

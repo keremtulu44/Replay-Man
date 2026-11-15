@@ -1,6 +1,6 @@
 # multi_timeframe
 
-**Kapsam:** 41 sayfa eşleşmesi
+**Kapsam:** 59 sayfa eşleşmesi
 
 ## Proje yorumu (`inference`)
 
@@ -18,23 +18,23 @@ Kapanmış bar semantiğiyle periyot senkronizasyonu
 
 **Bölüm/alt başlık:** 10 / 10.15 — Tam Top-Down İş Akışı
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz • 198 Terim Aksiyon tanımı Counter-trend Ana zaman dilimi yönüne karşı sınırlı tepki veya işlem. Protected swing Ana yapının devamı için korunması gereken major tepe/dip. Acceptance Fiyatın yeni alanın ötesinde kapanış ve takip üretmesi.
+**Kaynak özeti (`source`):** Terim Aksiyon tanımı Counter-trend Ana zaman dilimi yönüne karşı sınırlı tepki veya işlem. Protected swing Ana yapının devamı için korunması gereken major tepe/dip. Acceptance Fiyatın yeni alanın ötesinde kapanış ve takip üretmesi.
 
-### 2. ATK-TR-D1.0-2026-08 — PDF s. 205
-
-> ANA TRADING KİTABI | BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz • 190 Tablo 10.11 – Çatışmada karar standardı DOĞRU BILINEN YANLIŞ Mit: En güvenli işlem için bütün zaman dilimleri aynı anda aynı yönde trend olmalıdır. Gerçeklik: Alt zamanın HTF yönüne dönmesini beklemek faydalıdır; ancak MTF’nin pullback sırasında karşı yönde olması normaldir. Tam aynı yön bazen hareketin çoktan ilerlediği ve girişin geciktiği anlamına gelir. 10.12 Pullback mı, Reversal mı? Alt zaman trend değişimi, üst zaman pullback’inin sona erdiğini veya derinleştiğini gösterebilir; tek başına üst zaman reversal’ı değildir. Pullback–reversal ayrımında yapısal hiyerarşiyi korurum: minor structure önce değişir, sonra major swing tehdit edilir, en son üst zaman yeni yönde kabul üretirse ana dönüş ihtimali güçlenir. Şekil 10.6 – Alt zaman değişimi ile üst zaman dönüşü farkı Aşama Gözlem Kullanacağım dil 1. Mikro zayıflama LTF momentum azalır/divergence oluşur. “Pullback yavaşlıyor.” 2. LTF shift Minor CHoCH/BOS ve güçlü close. “Alt zaman dönüş teyidi.” 3. MTF structure sonucu Setup yönünde yeni swing/BOS. “Continuation güçleniyor” veya “dönüş riski büyüyor.” 4. HTF protected swing kırılımı Major yapı karşı yönde bozulur. “Üst zaman trend dönüşü adayı.”
-
-**Bölüm/alt başlık:** 10 / 10.12 — Pullback mı, Reversal mı?
-
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz • 190 Tablo 10.11 – Çatışmada karar standardı DOĞRU BILINEN YANLIŞ Mit: En güvenli işlem için bütün zaman dilimleri aynı anda aynı yönde trend olmalıdır. Gerçeklik: Alt zamanın HTF yönüne dönmesini beklemek faydalıdır; ancak MTF’nin pullback sırasında karşı yönde olması normaldir. Tam aynı yön bazen hareketin çoktan ilerlediği ve girişin geciktiği anlamına gelir.
-
-### 3. ATK-TR-D1.0-2026-08 — PDF s. 204
+### 2. ATK-TR-D1.0-2026-08 — PDF s. 204
 
 > ANA TRADING KİTABI | BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz • 189 10.11 Zaman Dilimi Çatışmaları Çatışma gördüğümde analiz bozulmuş değildir; piyasanın hangi aşamada olduğunu öğrenirim. Üst zaman ile orta zamanın farklı yönleri çoğunlukla pullback, range veya geçiş bilgisi verir. Karar, “hangi grafik doğru?” sorusuyla değil, “hangi grafik hangi görevi yapıyor?” sorusuyla verilir. Şekil 10.5 – Zaman dilimi çatışması karar matrisi Çatışma Risk Uygulama HTF uptrend / MTF downtrend Normal pullback veya derinleşen correction. HTF protected low ve MTF momentum izlenir. HTF uptrend / LTF bearish BOS Mikro devam aşağı; entry erken olabilir. Bullish LTF shift beklenir. HTF range / LTF strong trend Range içinde geçici impulse. Hedef karşı sınır; breakout kabulü yoksa uzatılmaz. HTF downtrend / LTF bullish divergence Counter-trend tepki adayı. Daha kısa hedef, küçük risk veya bekleme. HTF ve MTF belirsiz / LTF sinyal Bağlamsız tetik. İşlem yok veya yalnız test kategorisi.
 
 **Bölüm/alt başlık:** 10 / 10.11 — Zaman Dilimi Çatışmaları
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz • 189 10.11 Zaman Dilimi Çatışmaları Çatışma gördüğümde analiz bozulmuş değildir; piyasanın hangi aşamada olduğunu öğrenirim. Üst zaman ile orta zamanın farklı yönleri çoğunlukla pullback, range veya geçiş bilgisi verir. Karar, “hangi grafik doğru?” sorusuyla değil, “hangi grafik hangi görevi yapıyor?” sorusuyla verilir.
+**Kaynak özeti (`source`):** 10.11 Zaman Dilimi Çatışmaları Çatışma gördüğümde analiz bozulmuş değildir; piyasanın hangi aşamada olduğunu öğrenirim. Üst zaman ile orta zamanın farklı yönleri çoğunlukla pullback, range veya geçiş bilgisi verir. Karar, “hangi grafik doğru?” sorusuyla değil, “hangi grafik hangi görevi yapıyor?” sorusuyla verilir.
+
+### 3. ATK-TR-D1.0-2026-08 — PDF s. 205
+
+> ANA TRADING KİTABI | BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz • 190 Tablo 10.11 – Çatışmada karar standardı DOĞRU BILINEN YANLIŞ Mit: En güvenli işlem için bütün zaman dilimleri aynı anda aynı yönde trend olmalıdır. Gerçeklik: Alt zamanın HTF yönüne dönmesini beklemek faydalıdır; ancak MTF’nin pullback sırasında karşı yönde olması normaldir. Tam aynı yön bazen hareketin çoktan ilerlediği ve girişin geciktiği anlamına gelir. 10.12 Pullback mı, Reversal mı? Alt zaman trend değişimi, üst zaman pullback’inin sona erdiğini veya derinleştiğini gösterebilir; tek başına üst zaman reversal’ı değildir. Pullback–reversal ayrımında yapısal hiyerarşiyi korurum: minor structure önce değişir, sonra major swing tehdit edilir, en son üst zaman yeni yönde kabul üretirse ana dönüş ihtimali güçlenir. Şekil 10.6 – Alt zaman değişimi ile üst zaman dönüşü farkı Aşama Gözlem Kullanacağım dil 1. Mikro zayıflama LTF momentum azalır/divergence oluşur. “Pullback yavaşlıyor.” 2. LTF shift Minor CHoCH/BOS ve güçlü close. “Alt zaman dönüş teyidi.” 3. MTF structure sonucu Setup yönünde yeni swing/BOS. “Continuation güçleniyor” veya “dönüş riski büyüyor.” 4. HTF protected swing kırılımı Major yapı karşı yönde bozulur. “Üst zaman trend dönüşü adayı.”
+
+**Bölüm/alt başlık:** 10 / 10.12 — Pullback mı, Reversal mı?
+
+**Kaynak özeti (`source`):** Gerçeklik: Alt zamanın HTF yönüne dönmesini beklemek faydalıdır; ancak MTF’nin pullback sırasında karşı yönde olması normaldir. Tam aynı yön bazen hareketin çoktan ilerlediği ve girişin geciktiği anlamına gelir. Alt zaman trend değişimi, üst zaman pullback’inin sona erdiğini veya derinleştiğini gösterebilir; tek başına üst zaman reversal’ı değildir.
 
 ### 4. ATK-TR-D1.0-2026-08 — PDF s. 211
 
@@ -42,7 +42,7 @@ Kapanmış bar semantiğiyle periyot senkronizasyonu
 
 **Bölüm/alt başlık:** 10 / 10.15 — Tam Top-Down İş Akışı
 
-**Kaynak özeti (`source`):** ANA TRADING KİTABI | BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz • 196 TOP-DOWN NOT ŞABLONU HTF: Piyasa hâli + konum + protected seviye + major hedef. MTF: Setup türü + alan + kalite + geçersizlik. LTF: Tetik olayı + kapanış/takip + uygulama riski.
+**Kaynak özeti (`source`):** TOP-DOWN NOT ŞABLONU HTF: Piyasa hâli + konum + protected seviye + major hedef. MTF: Setup türü + alan + kalite + geçersizlik. LTF: Tetik olayı + kapanış/takip + uygulama riski.
 
 ### 5. PTA-C2-2026 — PDF s. 90
 
@@ -50,23 +50,23 @@ Kapanmış bar semantiğiyle periyot senkronizasyonu
 
 **Bölüm/alt başlık:** 12 / 12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 90 Şekil 12.4 — Üst zaman diliminde yükseliş bağlamı korunurken alt zaman dilimi bölgeye düşüş yönlü gelebilir. Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum ve yapının gerçekten yön değiştirmesi ayrıca görülmelidir. 12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne yaparız?
+**Kaynak özeti (`source`):** Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum ve yapının gerçekten yön değiştirmesi ayrıca görülmelidir. 12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne yaparız? Kaynak 65 bu noktada net bir ayrım yapar.
 
-### 6. PTA-C2-2026 — PDF s. 89
-
-> PROFESYONEL TEKNİK ANALİZ — CİLT 2 89 kanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı kırılımı veya takip davranışı değişimi. Şekil 12.3 — Fiyat yeni tepeler üretmeye devam ederken hacim azalıyor. Bu durum otomatik dönüş sinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır. TEKNİK AYRIM Fiyat hâlâ yeni tepe/dip üretiyorsa “ilerleme bitti” demeyin. Hacim azalması, ilerlemenin arkasındaki katılımın zayıfladığını gösterebilir. Dönüş için fiyat davranışının da değişmesini bekleyin. 12.4 — Davranış zaman dilimi ne işe yarar? Kaynak 64 “davranış zaman dilimi”ni, daha büyük yapının içinde fiyatın şu anda ne yaptığını görmek için kullanır. Burada amaç üst zaman diliminin yönünü yeniden tanımlamak değildir. Alt ölçekte tekrarlanan fitil reddi var mı, yerel yapı kırılıyor mu, pullback daha yüksek dip veya daha düşük tepe üretmeye başladı mı gibi sorular sorulur. Bu ayrım özellikle fiyat önemli bir üst zaman bölgesine geldiğinde önemlidir. Üst zaman dilimi bize bağlam ve referans alanı verir; davranış zaman dilimi ise fiyatın o alanda gerçekten tepki verip vermediğini gösterir. Böylece “fiyat bölgeye ulaştı” cümlesi ile “fiyat o bölgede davranış değiştirdi” cümlesi birbirinden ayrılır. …
-
-**Bölüm/alt başlık:** 12 / 12.4 — Davranış zaman dilimi ne işe yarar?
-
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 89 kanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı kırılımı veya takip davranışı değişimi. Şekil 12.3 — Fiyat yeni tepeler üretmeye devam ederken hacim azalıyor. Bu durum otomatik dönüş sinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır.
-
-### 7. PTA-C2-2026 — PDF s. 86
+### 6. PTA-C2-2026 — PDF s. 86
 
 > PROFESYONEL TEKNİK ANALİZ — CİLT 2 86 BÖLÜM 12 Hacim ve Çoklu Zaman Dilimi: İkinci Katman Fiyat davranışını önce okuyun. Hacmi ve zaman dilimini, gördüğünüz davranışın gücünü ve bağlamını desteklemek için kullanın. Bu bölüm yeni bir sinyal sistemi kurmuyor. Önceki bölümlerde olduğu gibi ana bilgi hâlâ fiyatın kendisidir: mumların nasıl ilerlediği, nerede zorlandığı, hangi yapıyı kırdığı ve sonraki mumların bu hareketi sürdürüp sürdüremediği. Hacim ve çoklu zaman dilimi bu okumanın üzerine eklenen ikinci katmandır. Hacim, fiyat hareketine ne kadar katılım eşlik ettiğini gösterir. Çoklu zaman dilimi ise aynı fiyat davranışının hangi ölçekte oluştuğunu ayırmamıza yardım eder. İkisini de ana karar mekanizmasının yerine koyarsak kitap boyunca kurduğumuz davranış okuması zayıflar; fiyatı önce, destekleyici katmanı sonra okumak daha tutarlı bir sıradır. BU BÖLÜMÜN ANA FİKRİ Fiyat “ne oldu?” sorusunu cevaplar. Hacim “bu harekete ne kadar katılım eşlik etti?” sorusuna ek bilgi verir. Alt zaman dilimi ise “fiyat bu bölgede gerçekten davranış değiştirdi mi?” sorusunu ayrıntılandırır. 12.1 — Hacim neyi ekler? Kaynak 61 hacmi yön üreten bağımsız bir sinyal gibi değil, fiyat hareketine eşlik eden katılımın ikinci ölçüsü olarak ele alır. Örneğin iki grafikte de benzer büyüklükte bir yükseliş mumu oluşabilir. Birinde hareket yüksek hacimle, diğerinde daha düşük hacimle gerçekleşmişse fiyatın kat ettiği mesafe benzerdir fakat bu harekete eşlik eden kayıtlı aktivite aynı değildir. …
 
 **Bölüm/alt başlık:** 12 / 12.1 — Hacim neyi ekler?
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 86 BÖLÜM 12 Hacim ve Çoklu Zaman Dilimi: İkinci Katman Fiyat davranışını önce okuyun. Hacmi ve zaman dilimini, gördüğünüz davranışın gücünü ve bağlamını desteklemek için kullanın. Bu bölüm yeni bir sinyal sistemi kurmuyor.
+**Kaynak özeti (`source`):** BÖLÜM 12 Hacim ve Çoklu Zaman Dilimi: İkinci Katman Fiyat davranışını önce okuyun. Hacmi ve zaman dilimini, gördüğünüz davranışın gücünü ve bağlamını desteklemek için kullanın. Bu bölüm yeni bir sinyal sistemi kurmuyor.
+
+### 7. PTA-C2-2026 — PDF s. 89
+
+> PROFESYONEL TEKNİK ANALİZ — CİLT 2 89 kanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı kırılımı veya takip davranışı değişimi. Şekil 12.3 — Fiyat yeni tepeler üretmeye devam ederken hacim azalıyor. Bu durum otomatik dönüş sinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır. TEKNİK AYRIM Fiyat hâlâ yeni tepe/dip üretiyorsa “ilerleme bitti” demeyin. Hacim azalması, ilerlemenin arkasındaki katılımın zayıfladığını gösterebilir. Dönüş için fiyat davranışının da değişmesini bekleyin. 12.4 — Davranış zaman dilimi ne işe yarar? Kaynak 64 “davranış zaman dilimi”ni, daha büyük yapının içinde fiyatın şu anda ne yaptığını görmek için kullanır. Burada amaç üst zaman diliminin yönünü yeniden tanımlamak değildir. Alt ölçekte tekrarlanan fitil reddi var mı, yerel yapı kırılıyor mu, pullback daha yüksek dip veya daha düşük tepe üretmeye başladı mı gibi sorular sorulur. Bu ayrım özellikle fiyat önemli bir üst zaman bölgesine geldiğinde önemlidir. Üst zaman dilimi bize bağlam ve referans alanı verir; davranış zaman dilimi ise fiyatın o alanda gerçekten tepki verip vermediğini gösterir. Böylece “fiyat bölgeye ulaştı” cümlesi ile “fiyat o bölgede davranış değiştirdi” cümlesi birbirinden ayrılır. …
+
+**Bölüm/alt başlık:** 12 / 12.4 — Davranış zaman dilimi ne işe yarar?
+
+**Kaynak özeti (`source`):** kanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı kırılımı veya takip davranışı değişimi. Bu durum otomatik dönüş sinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır. TEKNİK AYRIM Fiyat hâlâ yeni tepe/dip üretiyorsa “ilerleme bitti” demeyin.
 
 ### 8. PTA-C2-2026 — PDF s. 99
 
@@ -74,7 +74,7 @@ Kapanmış bar semantiğiyle periyot senkronizasyonu
 
 **Bölüm/alt başlık:** 13 / 13.8 — Hacim ve çoklu zaman dilimini en son ekleyin
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ — CİLT 2 99 Şekil 13.7 — Pullback sonu: eski yönün beklenen yeni ucu üretememesi → yeni yönün güçlü hareketi ve kırılımı → geri testte alanın korunması → devam. Tek bir mum yerine iki tarafın başarısı ve başarısızlığı birlikte okunur. İlerleme Yeni uç üretimi azalıyor / başarısız oluyor Karşı tepki büyümeye başlıyor 2.
+**Kaynak özeti (`source`):** Tek bir mum yerine iki tarafın başarısı ve başarısızlığı birlikte okunur. İlerleme Yeni uç üretimi azalıyor / başarısız oluyor Karşı tepki büyümeye başlıyor 2. Kontrol değişimi Geri itilmeden sonra eski yön hızlanamıyor Geniş gövde ve güçlü kapanış 3.
 
 ### 9. PTA-C1-2026 — PDF s. 88
 
@@ -82,15 +82,15 @@ Kapanmış bar semantiğiyle periyot senkronizasyonu
 
 **Bölüm/alt başlık:** 14 / 14.11 — Ichimoku’nun üzerine neden dört trend göstergesi
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 88 Çoklu zaman diliminde önce üst zaman dilimindeki Ichimoku görünümü, ardından alt zaman dilimindeki daha ayrıntılı fiyat davranışı incelenebilir. Belirli zaman dilimi eşleşmeleri evrensel değildir; amaç büyük resmi giriş zamanlamasından ayırmaktır. 14.10 — Bulut destek/direnç duvarı değildir Bulut çevresinde geçmiş reaksiyonlar görülebilir; ancak bulut geçmiş en yüksek/en düşük fiyatların orta noktalarından türetilir.
+**Kaynak özeti (`source`):** Çoklu zaman diliminde önce üst zaman dilimindeki Ichimoku görünümü, ardından alt zaman dilimindeki daha ayrıntılı fiyat davranışı incelenebilir. Belirli zaman dilimi eşleşmeleri evrensel değildir; amaç büyük resmi giriş zamanlamasından ayırmaktır. 14.10 — Bulut destek/direnç duvarı değildir Bulut çevresinde geçmiş reaksiyonlar görülebilir; ancak bulut geçmiş en yüksek/en düşük fiyatların orta noktalarından türetilir.
 
-### 10. PTA-C1-2026 — PDF s. 87
+### 10. PTA-C1-2026 — PDF s. 41
 
-> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 87 Tenkan/Kijun kesişimi tek başına alış sinyali değildir. Fiyatın buluta göre konumu, ana yapı ve diğer Ichimoku katmanları aynı bağlamda okunmalıdır. 14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir Tenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir. Kesişim sırasında fiyatın Kumo’ya göre konumu da okunabilir. Kesişim Fiyatın Kumo’ya göre konumu Bağlama göre yorum Yükseliş yönlü Kumo üstünde Mevcut yükseliş ortamıyla aynı yönde Yükseliş yönlü Kumo altında Bulut bağlamına karşı Düşüş yönlü Kumo altında Mevcut düşüş ortamıyla aynı yönde Düşüş yönlü Kumo üstünde Bulut bağlamına karşı Chikou’nun da aynı yönü desteklemesi Ichimoku’nun kendi bileşenlerinin benzer bir piyasa ortamını gösterdiğini düşündürebilir. Ancak bunu “üç bağımsız teyit” diye saymayın; bütün bileşenler aynı fiyat verisinden türetilir. 14.8 — Kumo kalınlığı ve Kumo Twist Kumo kalınlığı Senkou Span A ile Senkou Span B arasındaki mesafedir. Mesafe büyüdükçe iki denge hesabı birbirinden daha fazla ayrışır; mesafe küçüldükçe bulut incelir. Kalın bulutu “kesin güçlü destek/direnç”, ince bulutu “kesin zayıf destek/direnç” olarak yorumlamak doğru değildir. Kalınlık öncelikle iki farklı denge hesabı arasındaki ayrışmanın büyüklüğünü gösterir. Kumo Twist geleceği tahmin etmez Senkou Span A ile Senkou Span B birbirini geçtiğinde geleceğe kaydırılmış bulutun rengi değişir. Bu olay Kumo Twist olarak adlandırılır. Twist ileri tarafta çiziliyor olsa da iki Span geçmiş ve mevcut fiyatlardan hesaplanmıştır. …
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 41 DOĞRU ÇEVİRİ Düşük ATR = sakin piyasa. Donchian/fiyat yapısı kırılımı = yönlü giriş işareti. İlki yön vermez; ikincisi kırılımı gösterir. 6.8 — ATR’yi tek sayı yerine fiyat hareketliliği rejimi olarak okumak Piyasanın hareket genişliği zaman içinde sabit değildir. Düşük fiyat hareketliliği dönemlerini genişleme, yüksek hareketlilik ve yeniden sakinleşme dönemleri izleyebilir. ATR bu değişimin yönünü değil, hareket genişliğinin hangi evrede olduğunu izlemeye yardım eder. ATR uzun süre düşüyorsa fiyatın tipik hareket genişliği daralıyor; daha sonra yükselmeye başlıyorsa hareket genişliği yeniden büyüyor olabilir. Bu süreç yukarı veya aşağı yönde gerçekleşebilir. Dolayısıyla fiyat hareketliliği rejimi ile fiyat yönü ayrı tutulmalıdır. Güncel ATR ayrıca enstrümanın kendi geçmiş ATR değerleriyle karşılaştırılabilir. Tarihsel olarak sıra dışı derecede düşük ATR, piyasanın kendi yakın geçmişine göre sıkıştığını gösterir; hangi yönde kırılacağını söylemez. 6.9 — Hareketi ATR birimiyle ifade etmek Aynı yüzde hareket iki farklı enstrümanda aynı büyüklükte davranış anlamına gelmeyebilir. Bunun yerine güncel hareket, enstrümanın kendi ATR’sine bölünerek “normal” hareket genişliğine göre ifade edilebilir: Hareket büyüklüğü / ATR Örneğin 0,5 ATR’lik bir hareket son dönem tipik genişliğin yaklaşık yarısı, 2 ATR’lik bir hareket ise tipik genişliğin yaklaşık iki katıdır. Bu oran yön veya dönüş söylemez; yalnız hareketin enstrümanın kendi son dönem davranışına göre sıradan mı, olağan dışı mı olduğunu gösterir. …
 
-**Bölüm/alt başlık:** 14 / 14.9 — Kumo kırılımı ve çoklu zaman dilimi
+**Bölüm/alt başlık:** 6 / 6.10 — ATR penceresi ve zaman dilimi “normal” tanımını değiştirir
 
-**Kaynak özeti (`source`):** PROFESYONEL TEKNİK ANALİZ ARAÇLARI 87 Tenkan/Kijun kesişimi tek başına alış sinyali değildir. Fiyatın buluta göre konumu, ana yapı ve diğer Ichimoku katmanları aynı bağlamda okunmalıdır. 14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir Tenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir.
+**Kaynak özeti (`source`):** DOĞRU ÇEVİRİ Düşük ATR = sakin piyasa. Donchian/fiyat yapısı kırılımı = yönlü giriş işareti. İlki yön vermez; ikincisi kırılımı gösterir.
 
 ## Test fikri (`hypothesis`)
 
