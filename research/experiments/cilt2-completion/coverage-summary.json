@@ -2,7 +2,7 @@
   "schema_version": 1,
   "pages": 109,
   "pages_with_rule_links": 54,
-  "unique_linked_rules": 22,
+  "unique_linked_rules": 23,
   "disposition_counts": {
     "reference_only": 3,
     "pending_package": 51,

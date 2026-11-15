@@ -288,6 +288,12 @@ XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün o
 
 **Karar:** Baskı kaybı `context_only`; bağımsız dönüş sinyali olarak `negative`. Kitabın “zayıflama dönüş değildir” uyarısı desteklendi.
 
+## BR-027 — Sıkışma ve genişleme
+
+245.802 adet 6/10/15 bar sıkışma, kapanış kırılımı, probe rejection ve karşı tarafa genişleme olayı ölçüldü. Testte bazı alt gruplar güçlü görünse de eğitim/doğrulamada işaret değiştiriyor. Üç bölümde pozitif kalan karşı-genişleme alt gruplarında test örneği yalnız 1–8. Probe rejection çoğunlukla yazı-turaya yakın.
+
+**Karar:** Kırılım `rejime_bagli`; rejection `chance_like/context_only`; karşı genişleme `insufficient_sample`.
+
 # Sonraki kitap kuralları
 
-Cilt 2 P5 sıkışma, genişleme, ilk taşma ve karşı tarafa genişleme zinciriyle devam edecektir.
+Cilt 2 P6 kırılım yaşam döngüsünde mesafe, dışarıda kalma, retest kalitesi ve failure sonrası karşı genişleme ayrıntılarıyla devam edecektir.

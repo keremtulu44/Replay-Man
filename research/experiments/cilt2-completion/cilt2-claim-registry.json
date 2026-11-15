@@ -1015,7 +1015,8 @@
       ],
       "linked_rules": [
         "BR-009-overlap",
-        "BR-010-volatility-context"
+        "BR-010-volatility-context",
+        "BR-027-compression-expansion"
       ],
       "target_package": "C2-P5-compression-expansion",
       "disposition": "tested_initial",
@@ -1105,7 +1106,8 @@
       ],
       "linked_rules": [
         "BR-006-failure",
-        "BR-010-volatility-context"
+        "BR-010-volatility-context",
+        "BR-027-compression-expansion"
       ],
       "target_package": "C2-P5-compression-expansion",
       "disposition": "tested_initial",
@@ -1154,7 +1156,8 @@
       ],
       "linked_rules": [
         "BR-006-failure",
-        "BR-007-probe-rejection"
+        "BR-007-probe-rejection",
+        "BR-027-compression-expansion"
       ],
       "target_package": "C2-P5-compression-expansion",
       "disposition": "tested_initial",
@@ -1188,7 +1191,8 @@
       ],
       "linked_rules": [
         "BR-009-overlap",
-        "BR-010-volatility-context"
+        "BR-010-volatility-context",
+        "BR-027-compression-expansion"
       ],
       "target_package": "C2-P5-compression-expansion",
       "disposition": "tested_initial",
