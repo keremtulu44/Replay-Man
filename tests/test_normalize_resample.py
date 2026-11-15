@@ -71,11 +71,20 @@ def test_bist_session_derive_complete_flags():
     assert all((frame["series_id"] == "series-test").all() for frame in derived.values())
     two = derived["2h"]
     assert len(two) == 4
-    assert bool(two.iloc[1]["complete"])
+    assert list(two["bar_count"]) == [2, 2, 2, 1]
+    assert list(two["complete"]) == [True, True, True, False]
     four = derived["4h"]
     assert len(four) == 2
-    assert four.iloc[0]["bar_count"] == 3
-    assert four.iloc[1]["bar_count"] == 4
+    assert list(four["bar_count"]) == [4, 3]
+    assert list(four["complete"]) == [True, False]
+    # Hiçbir kaynak bar düşmemeli; her tam bar matematiksel ardışık parçadır.
+    assert int(two["bar_count"].sum()) == len(frame)
+    assert int(four["bar_count"].sum()) == len(frame)
+    assert two.iloc[0]["open"] == frame.iloc[0]["open"]
+    assert two.iloc[0]["high"] == frame.iloc[:2]["high"].max()
+    assert two.iloc[0]["low"] == frame.iloc[:2]["low"].min()
+    assert two.iloc[0]["close"] == frame.iloc[1]["close"]
+    assert two.iloc[0]["volume"] == frame.iloc[:2]["volume"].sum()
 
 
 def test_non_bist_derive_uses_utc(settings):

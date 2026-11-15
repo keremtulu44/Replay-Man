@@ -183,10 +183,12 @@ Bu değerler erişim garantisi vermez. Yahoo hız sınırı/erişim politikası 
 
 - Saatlik istekler 55 günlük parçalara bölünür.
 - Günlük veri ayrı çekilir.
-- BIST için 2s/4s türetimi `Europe/Istanbul` seansına göre yapılır:
-  - 2s sınırları: 10:00, 12:00, 14:00, 16:00.
-  - 4s sınırları: 10:00, 14:00.
-  - Mevcut, **doğrulanmamış** öğle arası varsayımı 12:00–14:00 arasıdır. `bar_count` ve `expected_bars` yalnızca sayı karşılaştırır; `complete` yanlış/eksik saat kimliklerini veya yarım günü güvenilir biçimde ayırt etmez (E03/E04).
+- BIST için 2s/4s türetimi `Europe/Istanbul` işlem günü içinde sıralanan saatlik barların matematiksel parçalarıyla yapılır:
+  - 2s: ardışık ikişer 1s bar; 4s: ardışık dörder 1s bar.
+  - Yahoo'nun 09:30 damgalı ilk BIST barı dahil hiçbir kaynak bar sabit saat veya öğle arası varsayımıyla düşürülmez.
+  - Gün sonundaki 2/4 bara tamamlanmayan kısa parça korunur ve `complete=false` işaretlenir.
+  - `open=ilk`, `high=max`, `low=min`, `close=son`; hacim kaynak barların toplamıdır. Hacmin native günlük Yahoo hacmiyle eşleşmesi beklenmez.
+  - `complete` bar sayısını doğrular; resmî seans takvimi/yarım gün doğrulaması ayrıca gereklidir (E03/E04).
 - BIST olmayan varlıklarda UTC tabanlı genel birleştirme kullanılır; bu, doğrulanmış borsa işlem günü değildir.
 - Türetilmiş günlük ile native günlük `daily_comparison.csv` içinde karşılaştırılır. Şimdilik yalnızca ortak günlerde close/hacim karşılaştırılır; eksik günler ve OHLC farkları için E06 açıktır. Bu rapor tam doğrulama yerine geçmez.
 

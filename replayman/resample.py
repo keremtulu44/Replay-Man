@@ -40,45 +40,34 @@ def _finish(groups: pd.core.groupby.DataFrameGroupBy, counts: pd.Series, expecte
 
 
 def _bist_derive(df: pd.DataFrame, asset: Asset, hours: int, label: str) -> pd.DataFrame:
+    """BIST barlarını seans içinde ardışık N adet 1s bar olarak birleştir.
+
+    Yahoo'nun BIST saatlik damgaları çoğunlukla 09:30'dan başlar. Sabit duvar
+    saati/öğle arası varsaymak ilk barı kaybettiriyordu. Bu yöntem her işlem
+    gününü kendi içinde sıralar ve [0:N], [N:2N] ... matematiksel parçalarını
+    alır. Gün sonundaki kısa parça korunur, fakat complete=false işaretlenir.
+    """
     tz = "Europe/Istanbul"
-    local = df.index.tz_convert(tz)
-    boundaries = [10, 12, 14, 16] if hours == 2 else [10, 14]
-    expected_map = {10: 2, 12: 1, 14: 2, 16: 2} if hours == 2 else {10: 3, 14: 4}
-    keys = []
-    expected = []
-    labels = []
-    for ts in local:
-        hour = ts.hour + ts.minute / 60.0
-        if not (10 <= hour < 18):
-            keys.append(None)
-            expected.append(0)
-            labels.append(pd.NaT)
-            continue
-        boundary = max(b for b in boundaries if b <= hour)
-        keys.append((ts.strftime("%Y-%m-%d"), boundary))
-        expected.append(expected_map[boundary])
-        labels.append(pd.Timestamp(f"{ts.strftime('%Y-%m-%d')} {boundary:02d}:00:00", tz=tz))
-    work = df.copy()
-    work["_key"] = keys
-    work["_expected"] = expected
-    work["_label"] = labels
-    work = work[work["_key"].notna()]
-    if work.empty:
-        return pd.DataFrame()
-    grouped = work.groupby("_label", sort=True)
+    work = df.sort_index().copy()
+    local = work.index.tz_convert(tz)
+    work["_session"] = local.strftime("%Y-%m-%d")
+    work["_position"] = work.groupby("_session", sort=False).cumcount()
+    work["_bucket"] = work["_position"] // hours
+    work["_label"] = work.index
+    grouped = work.groupby(["_session", "_bucket"], sort=True)
     out = grouped.agg(AGG)
     out["bar_count"] = grouped.size()
-    out["expected_bars"] = grouped["_expected"].first()
-    out["complete"] = out["bar_count"] == out["expected_bars"]
+    out["expected_bars"] = hours
+    out["complete"] = out["bar_count"] == hours
     out["derived_from"] = "1h"
     out["asset_id"] = asset.id
     out["symbol"] = asset.yahoo_symbol
     out["interval"] = label
     out["currency"] = asset.currency
-    out.index = out.index.tz_convert("UTC")
-    local_out = out.index.tz_convert(tz)
-    out["session_date"] = local_out.strftime("%Y-%m-%d")
-    out["ts_utc"] = out.index.strftime("%Y-%m-%dT%H:%M:%SZ")
+    # Türetilmiş barın zamanı, parçadaki ilk kaynak barın zamanıdır.
+    labels = grouped["_label"].first()
+    out["session_date"] = out.index.get_level_values("_session")
+    out["ts_utc"] = pd.DatetimeIndex(labels.to_numpy()).tz_convert("UTC").strftime("%Y-%m-%dT%H:%M:%SZ")
     return out.reset_index(drop=True)
 
 
