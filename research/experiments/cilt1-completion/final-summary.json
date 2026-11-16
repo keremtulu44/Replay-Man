@@ -1,5 +1,5 @@
 {
-  "status": "passed",
+  "status": "conditional_gap_found",
   "packages_complete": 12,
   "pages": 139,
   "atomic_claims": 403,
