@@ -1,0 +1,568 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0081",
+    "page": 81,
+    "chapter": 4,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli \nBölgeler",
+    "source_extract_summary": [
+      "BÖLÜM 4 Destek–Direnç, Arz–Talep ve Önemli Bölgeler"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0082",
+    "page": 82,
+    "chapter": 4,
+    "section": "4.1 — Önemli Bölge Ne Demektir?",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  67\nFiyatın Karar Vermesi Beklenen Yerler\nGrafikte her fiyat aynı bilgi değerine sahip değildir. Bir mum, daha önce güçlü tepki \ngörülmüş bir range sınırında, son kırılan swing seviyesinde veya sert hareketin \nbaşladığı arz–talep alanında oluştuğunda daha anlamlı hâle gelebilir. Aynı mum \ngrafiğin ortasında ve yapısal referanstan uzakta oluştuğunda yalnızca piyasa \ngürültüsü olabilir.\nÖnemli bölge analizi gelecekte fiyatın kesin döneceği noktayı bulmak değildir. \nAmaç, fiyatın karar vermesi beklenen alanları önceden işaretlemek; bu alanlara nasıl \nyaklaştığını, bölgede nasıl tepki verdiğini ve bölgeyi kabul ederek mi yoksa \nreddederek mi terk ettiğini gözlemlemektir.\nBu bölümde yatay destek–direnç, trendline ve channel gibi dinamik alanlar ile arz–\ntalep bölgeleri ayrı görevlerle ele alınacaktır. Bütün yapılar ortak bir prensipte \nbirleşir: Bölge yalnızca konum sağlar; karar, price action, yapı, kapanış ve takip \ndavranışıyla verilir.\nBu bölümün sonunda\nYatay destek–direnç ile arz–talep bölgesini ayırabilecek, range ve trend içinde doğru alanları seçebilecek, bölge \nkalitesi ve zayıflamasını değerlendirebilecek, trendline’ı dinamik alan olarak kullanabilecek ve fiyatın bölgeyi \nkabul veya reddetmesini standart bir iş akışıyla okuyabileceksiniz.\n4.1 Önemli Bölge Ne Demektir?\nÖnemli bölge, geçmiş fiyat davranışı veya güncel piyasa yapısı nedeniyle traderın yeni tepki, hızlanma, \nkırılım ya da rol değişimi beklemek için dikkatini yoğunlaştırdığı fiyat alanıdır. Bu alan bir garanti \nnoktası değildir. “Burada kesin döner” yerine “buraya geldiğinde davranışı yeniden \ndeğerlendireceğim” cümlesi kullanılmalıdır.\nBölüm 2’de price action’ın mikro davranışı, Bölüm 3’te market structure’ın büyük haritası kuruldu. \nÖnemli bölge bu iki bilgiyi birleştirir. Yapı “hangi yöndeyiz?” sorusuna, bölge “karar nerede anlamlı?” \nsorusuna, price action ise “fiyat burada ne yapıyor?” sorusuna cevap verir.\nKatman Soru Örnek çıktı\nMarket structure Ana durum trend, range veya geçiş mi? Günlük HH–HL yükseliş yapısı.\nÖnemli bölge Fiyatın anlamlı tepki vermesi beklenen alan neresi? Kırılan günlük swing high’ın retest bölgesi.\nPrice action Fiyat bölgeye geldiğinde nasıl davranıyor? Alt fitil reddi ve güçlü bullish kapanış.\nTeyit / karar Bölge tutuldu mu, kırıldı mı, belirsiz mi? Bölge korunuyor; takip mumu bekleniyor.",
+    "source_extract_summary": [
+      "Fiyatın Karar Vermesi Beklenen Yerler Grafikte her fiyat aynı bilgi değerine sahip değildir.",
+      "Bir mum, daha önce güçlü tepki görülmüş bir range sınırında, son kırılan swing seviyesinde veya sert hareketin başladığı arz–talep alanında oluştuğunda daha anlamlı hâle gelebilir.",
+      "Aynı mum grafiğin ortasında ve yapısal referanstan uzakta oluştuğunda yalnızca piyasa gürültüsü olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0083",
+    "page": 83,
+    "chapter": 4,
+    "section": "4.2 — Seviye, Bölge ve Dinamik Alan",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  68\nTablo 4.1 – Yapı, bölge ve price action görev ayrımı\nBölge sinyal değildir\nDestek, direnç, trendline veya demand zone yalnızca bir izleme alanıdır. Fiyat bölgeye momentumla girip güçlü \nkapanışla dışına yerleşebilir. Bu nedenle bölgeye temas, otomatik alış veya satış emri olarak kullanılmamalıdır.\nÖnemli alanların ortak kaynakları\n Geçmiş reaksiyon: Fiyat aynı alandan daha önce belirgin biçimde uzaklaşmıştır.\n Yapısal swing: Önceki major tepe/dip, protected swing veya kırılan yapı referansıdır.\n Range sınırı: Yatay piyasanın alıcı ve satıcı reaksiyonlarının yoğunlaştığı uç bölgedir.\n Departure kökeni: Fiyatın güçlü ve tek yönlü ayrıldığı supply–demand alanıdır.\n Dinamik yapı: Trendline, channel veya yardımcı ortalama gibi zamanla hareket eden \nreferanstır.\n4.2 Seviye, Bölge ve Dinamik Alan\nDestek ve direnç bazen tek çizgi, bazen dikdörtgen bölge olarak gösterilir. Gerçek piyasada fiyat aynı \nnoktadan milimetrik biçimde dönmez. Spread, volatilite, farklı veri sağlayıcıları ve mum fitilleri \nnedeniyle tepki çoğu zaman bir alan içinde oluşur. Bu nedenle analizde “seviye” kelimesi kullanılsa \nbile ana uygulama çoğunlukla bölge mantığıyla yapılır.\nTür Nasıl oluşur? Ana görev Temel sınır\nYatay seviye/bölge Geçmişte benzer fiyatlarda tekrar eden \nreaksiyonlar.\nSupport, resistance, range sınırı ve \nflip alanı.\nHer geçmiş temas \ngelecekte aynı sonucu \nüretmez.\nDinamik alan Yükselen dipler veya düşen tepeler boyunca \neğimli referans.\nTrendline ve channel ile hareket eden \ndestek/direnç.\nÇizgi kırılması tek \nbaşına trend dönüşü \ndeğildir.\nSupply–demand zone Güçlü departure’ın başladığı fiyat alanı. Denge değişiminin kökenini izlemek. Görünmeyen \nemirlerin hâlâ \nbulunduğu kesin \nbilinmez.\nYapısal swing alanı BOS/CHoCH için referans olan major tepe veya \ndip.\nYapının korunması, kırılması veya \nretesti.\nKüçük minor pivotlar \nana bölgeyle \nkarıştırılmamalıdır.\nTablo 4.2 – Önemli fiyat alanlarının görev farkı\nÇizgi ne zaman yararlıdır?\nTek fiyat referansı gerektiğinde yatay çizgi kullanışlıdır: önceki swing’in tam high/low seviyesi, \nbreakout kapanışının ölçümü veya alarm seviyesi gibi. Fakat tepki alanını değerlendirirken çizgi, fiyatın \nçok az altında ya da üstünde oluşan geçerli reaksiyonları yanlış biçimde dışlayabilir. Bu durumda \nrectangle veya gölgeli bölge daha doğru görsel çerçeve sağlar.",
+    "source_extract_summary": [
+      "Fiyat bölgeye momentumla girip güçlü kapanışla dışına yerleşebilir.",
+      "Bu nedenle bölgeye temas, otomatik alış veya satış emri olarak kullanılmamalıdır.",
+      "Önemli alanların ortak kaynakları  Geçmiş reaksiyon: Fiyat aynı alandan daha önce belirgin biçimde uzaklaşmıştır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Gereksinim, semantik test ve sürümleme",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0084",
+    "page": 84,
+    "chapter": 4,
+    "section": "4.4 — Bölgeyi Doğru Çizmek",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  69\nBölgeyi fazla genişletme hatası\nZone mantığı esneklik sağlar; sınırsız belirsizlik hakkı vermez. Bölge bütün fiyat hareketini kapsayacak \nkadar genişletilirse her temas “başarılı tepki” gibi gösterilebilir. Bölgenin sınırları, gerçekten anlamlı \nreaksiyonları içerecek kadar geniş; karar ve risk mesafesini anlamsızlaştırmayacak kadar dar \ntutulmalıdır.\n4.3 Yatay Destek ve Direnç\nDestek, fiyat düştüğünde alıcı tepkisinin görülme ihtimalinin arttığı potansiyel alandır. Direnç ise fiyat \nyükseldiğinde satıcı tepkisinin görülme ihtimalinin arttığı potansiyel alandır. “Potansiyel” kelimesi \nönemlidir: Her support kırılabilir, her resistance aşılabilir.\nBir yatay alanın varlığı geçmişteki davranıştan çıkarılır. Fiyat aynı bölgeden bir veya daha fazla kez \nbelirgin biçimde uzaklaşmışsa trader bu alanı gelecekte yeniden izleyebilir. Ancak bölgenin gücü \nyalnızca kaç kez dokunulduğuna değil, dokunuşların sonucuna bağlıdır.\nGözlem Daha anlamlı bölge Daha zayıf / şüpheli bölge\nReaksiyon mesafesi Fiyat bölgeden belirgin impulse ile uzaklaşır. Yalnızca küçük ve rastgele sıçrama.\nKapanış davranışı Mumlar alanı reddederek yeniden içeri/üstüne \nkapanır.\nKapanışlar sürekli bölgenin içinde veya ötesinde.\nTakip Sonraki mumlar reaksiyon yönünü korur. Tepki hemen geri alınır.\nGörünürlük Major swing, range sınırı veya birçok traderın \ngörebileceği açık alan.\nGrafiğe zorla uydurulan küçük kıvrım.\nZaman dilimi Ana işlem ölçeğinde veya üst ölçekte anlamlı. Yalnızca çok küçük ölçekte görülen gürültü.\nTablo 4.3 – Yatay bölge kalitesini ilk bakışta ayırmak\nGeçmiş tepki geleceği garanti etmez\nBölge geçmişte çalışmış olsa bile yeni bilgi, artan momentum veya değişen yapı nedeniyle kırılabilir. Support ve \nresistance “fiyatın dönmesi gereken duvar” değil, karar davranışının yeniden ölçüleceği alanlardır.\nMum şekli bölgenin içinde anlam kazanır\nUzun alt fitil, bullish engulfing veya momentum mumu destek alanında ve düşüşün yavaşladığı \nbağlamda oluştuğunda alıcı reaksiyonuna dair kanıt sağlar. Aynı şekil grafiğin ortasında oluşursa yönlü \navantajı çok daha düşüktür. Bu nedenle önce bölge, sonra mum sırası korunur.\n4.4 Bölgeyi Doğru Çizmek\nBölge çizimi kesin bir matematik formülü değildir; buna rağmen keyfî olmamalıdır. Tutarlı bir \nuygulama, önce en belirgin reaksiyonları bulmak, sonra rectangle sınırlarını bu reaksiyonların anlamlı \nhigh/low ve kapanış kümelerini içerecek biçimde ayarlamaktır.\n1. Önce grafiği uzaklaştırın ve major trend/range bağlamını görün.",
+    "source_extract_summary": [
+      "Bölgeyi fazla genişletme hatası Zone mantığı esneklik sağlar; sınırsız belirsizlik hakkı vermez.",
+      "Bölge bütün fiyat hareketini kapsayacak kadar genişletilirse her temas “başarılı tepki” gibi gösterilebilir.",
+      "Bölgenin sınırları, gerçekten anlamlı reaksiyonları içerecek kadar geniş; karar ve risk mesafesini anlamsızlaştırmayacak kadar dar tutulmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0085",
+    "page": 85,
+    "chapter": 4,
+    "section": "4.5 — Range Piyasasında Bölgeler",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  70\n2. Belirgin biçimde fiyatı uzaklaştıran swing veya range uçlarını seçin.\n3. İlk sınırı en dış anlamlı fitil veya ekstremle belirleyin.\n4. Diğer sınırı tekrar eden gövde, kapanış ve reaksiyon kümesini kapsayacak şekilde ayarlayın.\n5. Bölgeyi sağa uzatın; fiyatın gelecekteki yaklaşımını ayrı gözlemleyin.\n6. Aynı alanda gereksiz ikinci ve üçüncü çizgileri silin.\nÇizim hatası Neden sorun? Düzeltme\nHer küçük tepkiyi işaretlemek Grafik çizgi yığınına dönüşür ve öncelik kaybolur. Yalnızca major swing, range ucu veya güçlü \ndeparture alanlarını tutun.\nTek fitile aşırı bağlı kalmak Bir sonraki reaksiyon birkaç tik farklı olduğunda bölge \n“çalışmadı” sanılır.\nAnlamlı fitil ve gövde kümesini alan olarak \ndüşünün.\nBölgeyi çok geniş çizmek Risk mesafesi büyür; her fiyat davranışı açıklanabilir \nhâle gelir.\nGerçek reaksiyon yoğunluğuna göre yakın ve \nuzak kenarı daraltın.\nGeleceği görerek sınır \ndeğiştirmek\nBacktest sonucu yapay biçimde güzelleşir. Bölgeyi oluştuğu anda sabitleyin; sonra \nyalnızca geçerli/invalid durumunu \ngüncelleyin.\nTablo 4.4 – Bölge çiziminde sık hatalar\nAz çizgi, net karar\nBir grafikte çok sayıda doğru bölge bulunabilir; hepsi işlem için eşit önemde değildir. En yakın üst ve alt major \nbölge, güncel range sınırları ve yapısal swing’ler çoğu karar için yeterlidir.\n4.5 Range Piyasasında Bölgeler\nRange piyasasında ilk görev, fiyatın gidip geldiği uç bölgeleri belirlemektir. Üst uç resistance, alt uç \nsupport rolündedir. Range’in ortası çoğu zaman iki tarafın da kalıcı kontrol kuramadığı, mumların üst \nüste bindiği ve yanlış sinyallerin arttığı alandır.\nRange konumu Genel davranış Analiz önceliği\nAlt sınır Alıcı reaksiyonu veya aşağı kırılım denemesi. Rejection, failure test, kapanış ve takip.\nOrta alan İki yönlü gürültü, overlap ve kısa dönüşler. Çoğu durumda işlemden kaçın; yalnızca \nbelirgin iç seviye varsa izle.\nÜst sınır Satıcı reaksiyonu veya yukarı kırılım denemesi. Rejection, breakout close, takip ve retest.\nTablo 4.5 – Range içinde bölge önceliği\nİç seviyeler ne zaman tutulur?\nRange içinde geçmişte birden fazla güçlü reaksiyon üreten, daha sonra support–resistance rolü \ndeğiştiren veya fiyatı belirgin mesafeyle uzaklaştıran bir iç bölge bulunabilir. Böyle bir alan tutulabilir. \nFakat küçük ve düzensiz tepkilerden çok sayıda iç çizgi üretmek, range’in zaten zor olan yapısını daha \nda karmaşıklaştırır.",
+    "source_extract_summary": [
+      "Belirgin biçimde fiyatı uzaklaştıran swing veya range uçlarını seçin.",
+      "İlk sınırı en dış anlamlı fitil veya ekstremle belirleyin.",
+      "Diğer sınırı tekrar eden gövde, kapanış ve reaksiyon kümesini kapsayacak şekilde ayarlayın."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Konum ve seviye yaşam döngüsü",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0086",
+    "page": 86,
+    "chapter": 4,
+    "section": "4.6 — Trend Piyasasında Bölgeler ve Role",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  71\nRange sınırı zamanla zayıflayabilir\nAlt sınırdaki her yeni bounce küçülüyor ve tepeler giderek düşüyorsa satıcı baskısı support’a daha \nyakın seviyelerde kabul görüyor olabilir. Üst sınırda dipler giderek yükseliyorsa alıcılar resistance’a \ndaha yakın fiyatlardan işlem yapmaya razıdır. Bu iç baskı, kırılım hazırlığıdır; sınır ötesinde kapanış ve \ntakip gelmeden sonuç değildir.\nRange ortasında sabır\nRange’in ortasında fiyat davranışı daha rastgele olabilir. İşlem gerekmiyorsa kenarlara yaklaşmayı beklemek, \nbölge sayısını artırmaktan daha işlevseldir.\n4.6 Trend Piyasasında Bölgeler ve Role \nReversal\nTrend içinde yatay bölgeler range’den farklı seçilir. Yükseliş yapısında son kırılan swing high, geri \nçekilmede potansiyel support olabilir. Düşüş yapısında son kırılan swing low, tepki yükselişinde \npotansiyel resistance olabilir. Bu yaklaşım market structure ile support–resistance flip mantığını \nbirleştirir.\nPiyasa yapısı Öncelikli referans Beklenen rol\nHH–HL yükseliş Yakın zamanda kırılmış major swing high ve son protected \nlow çevresi.\nKırılan resistance’ın support olarak \ntutulması; trendin devam alanı.\nLH–LL düşüş Yakın zamanda kırılmış major swing low ve son protected \nhigh çevresi.\nKırılan support’un resistance olarak \ntutulması; düşüşün devam alanı.\nGeçiş / CHoCH sonrası Eski protected swing ve yeni kırılım alanı. Flip başarısı yeni yapının kalitesini \nsınar; range ihtimali korunur.\nTablo 4.6 – Trend yapısına göre yatay bölge seçimi\nSupport neden resistance’a dönüşebilir?\nFiyat support’un altına indiğinde bu alandan alım yapan bazı katılımcılar zararda kalabilir. Fiyat daha \nsonra aynı seviyeye döndüğünde başabaş çıkmak isteyenlerin satışları ve eski support’un artık \nresistance olacağını düşünen yeni satıcılar baskı oluşturabilir. Bu davranış role reversal veya support–\nresistance flip olarak adlandırılır. Tersi, kırılan resistance’ın support olmasıdır.\nFlip ancak davranışla doğrulanır\nBir seviye kırıldı diye otomatik olarak rol değiştirmez. Fiyat eski alana döndüğünde yeni yönde \nreddedilme, güçlü kapanış veya takip üretmelidir. Eski bölge kolayca geri alınıyor ve fiyat yeniden \nönceki yapıya yerleşiyorsa breakout başarısız olabilir.",
+    "source_extract_summary": [
+      "Range sınırı zamanla zayıflayabilir Alt sınırdaki her yeni bounce küçülüyor ve tepeler giderek düşüyorsa satıcı baskısı support’a daha yakın seviyelerde kabul görüyor olabilir.",
+      "Üst sınırda dipler giderek yükseliyorsa alıcılar resistance’a daha yakın fiyatlardan işlem yapmaya razıdır.",
+      "Bu iç baskı, kırılım hazırlığıdır; sınır ötesinde kapanış ve takip gelmeden sonuç değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0087",
+    "page": 87,
+    "chapter": 4,
+    "section": "4.8 — Bölgenin Zayıflaması ve Kırılım Baskısı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  72\nYakın swing daha günceldir\nTrend içinde çok eski seviyeler hâlâ önemli olabilir; ancak güncel pullback ve devam kararında en son kırılan \nmajor swing çoğu zaman daha doğrudan referanstır. Eski bölgeler öncelik sırasını bozacak kadar \nçoğaltılmamalıdır.\n4.7 Bölge Kalitesi Nasıl Ölçülür?\nBölge kalitesi tek bir ölçüte indirgenemez. Değerlendirme çoğunlukla reaksiyonun gücü, alanın \ngörünürlüğü, yaklaşım davranışı ve yapı bağlamı üzerinde kurulur. Temas sayısı yardımcı bilgidir; fakat \ndört zayıf temas, iki güçlü reaksiyondan daha değerli olmak zorunda değildir.\nÖlçüt Olumlu işaret Uyarı işareti\nDeparture / reaksiyon Bölgeden geniş ve takipli hareket. Küçük, kısa ve hemen geri alınan tepki.\nGörünürlük Major swing, range sınırı veya üst zaman alanı. Yalnızca yakınlaştırınca görülen küçük zikzak.\nTemas aralığı Tepkiler arasında anlamlı zaman ve mesafe. Kısa aralıkta peş peşe bölgeyi delme.\nKapanış Bölgenin beklenen tarafında net close. Sürekli bölge içinde kapanış ve acceptance.\nTakip Tepki yönünde yeni mumlar ve yapısal ilerleme. İlk mum güçlü, devam tamamen yok.\nYapı uyumu Trend/range görevi ve protected swing ile uyum. Ana yapıya karşı ve hedef bölgeye çok yakın.\nZaman dilimi Ana veya üst zaman diliminde açık alan. Çok alt zaman diliminde gürültü.\nTablo 4.7 – Bölge kalitesinin çoklu ölçütleri\nConfluence bölgeyi garantiye dönüştürmez\nYatay support, trendline, moving average ve Fibonacci aynı alana yaklaşabilir. Bu örtüşme bölgeyi \nizlemeye değer kılabilir; ancak aynı fiyat verisinden türeyen çok sayıda aracın birbirini tekrar etmesi \nbağımsız kanıt sayılmaz. Ana kanıt yine fiyatın alana geliş ve alandan ayrılış davranışıdır.\nÜst zaman alanının ağırlığı\nDaha uzun zaman dilimindeki bölge daha fazla fiyat verisini ve daha geniş katılımcı grubunu temsil \nedebilir. Bu, her üst zaman bölgesinin mutlaka çalışacağı anlamına gelmez. Uygulamada ana işlem \nzaman diliminden bir üst ölçekteki bölge bağlam; ana veya alt ölçekteki price action ise teyit olarak \nkullanılabilir. Tam top-down sistem Bölüm 10’da kurulacaktır.\n4.8 Bölgenin Zayıflaması ve Kırılım Baskısı\nBir bölge geçmişte güçlü tepki üretmiş olabilir; bu gücün sonsuza kadar sürdüğü varsayılmaz. Fiyat her \ndönüşte daha az uzaklaşıyor, karşı taraf bölgeye daha yakın swing’ler kuruyor ve mumlar sınır \nüzerinde daha uzun süre kalıyorsa bölgenin savunma gücü azalıyor olabilir.",
+    "source_extract_summary": [
+      "Yakın swing daha günceldir Trend içinde çok eski seviyeler hâlâ önemli olabilir; ancak güncel pullback ve devam kararında en son kırılan major swing çoğu zaman daha doğrudan referanstır.",
+      "Eski bölgeler öncelik sırasını bozacak kadar çoğaltılmamalıdır.",
+      "Bölge kalitesi tek bir ölçüte indirgenemez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0088",
+    "page": 88,
+    "chapter": 4,
+    "section": "4.9 — Trendline ve Channel: Dinamik Destek–",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  73\nDavranış Resistance için anlam Support için anlam\nHigher lows / lower highs Dipler yükselir; alıcılar giderek daha yüksek \nfiyatları kabul eder.\nTepeler düşer; satıcılar giderek daha düşük \nfiyatları kabul eder.\nReaksiyon küçülmesi Her satış dalgası daha kısa kalır. Her alış dalgası daha kısa kalır.\nHugging / sınırda kalma Fiyat resistance’a yakın kapanır; güçlü reddedilme \nazalır.\nFiyat support’a yakın kapanır; güçlü bounce \nazalır.\nTekrarlanan penetrasyon Fitil ve gövdeler bölgenin içine daha derin girer. Fitil ve gövdeler bölgenin içine daha derin girer.\nKarşı momentum Yukarı impulse’lar büyür ve takip bulur. Aşağı impulse’lar büyür ve takip bulur.\nTablo 4.8 – Bölge zayıflamasının simetrik işaretleri\nÇok temas her zaman daha güçlü değildir\nİlk temaslar bölgenin gerçekten görünür olduğunu doğrulayabilir. Fakat her yeni testte tepki küçülüyor ve fiyat \nalanı daha derin kabul ediyorsa temas sayısının artması güç değil tükenme göstergesi olabilir.\nApproach, bölgeden önce bilgi verir\nFiyat bölgeye tek yönlü büyük mumlarla ve az geri çekilmeyle yaklaşıyorsa karşı momentum güçlüdür. \nBuna karşılık bölgeye yaklaşırken hız azalıyor, karşı fitiller büyüyor ve gövdeler küçülüyorsa ilk temas \nreaksiyon ihtimali artabilir. Yine de yaklaşım yalnızca ön bilgi sağlar; sonuç kapanış ve takipte görülür.\n4.9 Trendline ve Channel: Dinamik Destek–\nDirenç\nTrendline, yükseliş yapısındaki anlamlı higher low’ları veya düşüş yapısındaki lower high’ları birleştiren \neğimli referanstır. Yatay support–resistance belirli fiyat alanında sabit kalırken trendline zaman \nilerledikçe farklı fiyat seviyelerine taşınır; bu nedenle dinamik destek veya dinamik direnç olarak \nadlandırılır.\nBir trendline çizmek için en az iki temas gerekir. Üçüncü temas birçok trader tarafından doğrulama \nolarak kullanılır. Fakat temas sayısından çok temasların kalitesi önemlidir: güçlü reaksiyon, iyi aralıklı \nswing, makul eğim ve görünürlük.\nAraç Çizim Görev\nYükselen trendline Anlamlı higher low’ları birleştirir. Pullback’lerde dinamik support referansı.\nDüşen trendline Anlamlı lower high’ları birleştirir. Tepki yükselişlerinde dinamik resistance \nreferansı.\nChannel Trendline’a paralel karşı sınır eklenir. Hareketin eğimli aralığını ve aşırı uçlarını \ngörselleştirmek.",
+    "source_extract_summary": [
+      "Davranış Resistance için anlam Support için anlam Higher lows / lower highs Dipler yükselir; alıcılar giderek daha yüksek fiyatları kabul eder.",
+      "Tepeler düşer; satıcılar giderek daha düşük fiyatları kabul eder.",
+      "Reaksiyon küçülmesi Her satış dalgası daha kısa kalır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0089",
+    "page": 89,
+    "chapter": 4,
+    "section": "4.10 — Trendline Kalitesi, Zayıflama ve Kırılım",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  74\nTablo 4.9 – Trendline ve channel görevleri\nTrendline da bölge gibi düşünülmelidir\nGerçek piyasada bütün dipler tek eğimli çizgiye kusursuz oturmaz. Bir swing çizginin biraz altına fitil \nbırakabilir, diğeri biraz üzerinde dönebilir. Bu nedenle trendline’ın çevresinde dar bir dinamik alan \ndüşünmek daha işlevseldir. Fakat çizgiyi her yeni mumda yeniden eğerek geçmişe uydurmak analizi \ngeçersizleştirir.\nTrendline trendin tanımı değildir\nBölüm 3’te trend HH–HL veya LH–LL swing dizisiyle tanımlandı. Fiyat trendline’ı kısa süre kırabilir ve major \nyapıyı koruyabilir. Trendline, yapıyı görselleştiren yardımcıdır; yapının yerine geçmez.\n4.10 Trendline Kalitesi, Zayıflama ve Kırılım\nGüçlü trendline işareti Zayıflama / şüphe işareti\nTemaslarda belirgin reaksiyon ve mümkünse artan katılım. Temasların küçük, kararsız ve kolayca geri alınması.\nSwing’lerin zaman ve mesafe bakımından iyi aralıklı olması. Çok kısa aralıkta kümelenen temaslar ve fiyatın çizgiyi kucaklaması.\nOrta eğim; sürdürülebilir impulse–pullback ritmi. Aşırı dik/parabolik eğim veya çizginin zorla uydurulması.\nBirden fazla ölçekte görünür ve uzun süre geçerli olması. Yalnızca çok kısa bir kesitte görülen çizgi.\nTrend yapısı ve price action ile uyum. Swing yapısına ters düşen, tek başına kullanılan çizgi.\nTablo 4.10 – Trendline kalitesini belirleyen davranışlar\nKırılımı üç aşamada değerlendirin\n1. Aşım: Fiyat çizginin veya dinamik alanın ötesine geçer. Fitil tek başına yalnızca denemedir.\n2. Kapanış: Mum çizginin ötesinde anlamlı gövde ve close üretir.\n3. Kabul / retest: Fiyat yeni tarafta kalır, retestte eski trendline yeni rolüyle tutulur veya karşı yapısal \nswing kırılır.\nTrendline kırılımı momentum kaybı veya yön değişimi uyarısıdır. Yeni trend teyidi için major swing’in \nbozulması, CHoCH/BOS veya en azından yeni karşı swing dizisi gerekir. Çizgi kırıldıktan sonra fiyat hızla \neski alanına dönüyorsa bu bir false break olabilir.\nÇizgiyi kurtarmaya çalışma\nFiyat trendline’ı kırdığında çizgiyi yeni dibe veya tepeye taşıyarak “hâlâ çalışıyor” göstermek geriye dönük \nuydurmadır. Eski çizgiyi koruyun, kırılımı kaydedin; gerekiyorsa yeni swing dizisi oluştuktan sonra ayrı trendline \nçizin.",
+    "source_extract_summary": [
+      "Bir swing çizginin biraz altına fitil bırakabilir, diğeri biraz üzerinde dönebilir.",
+      "Bu nedenle trendline’ın çevresinde dar bir dinamik alan düşünmek daha işlevseldir.",
+      "Fakat çizgiyi her yeni mumda yeniden eğerek geçmişe uydurmak analizi geçersizleştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Mum geometrisi ve davranış özellikleri",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0090",
+    "page": 90,
+    "chapter": 4,
+    "section": "4.12 — Aggressive Supply–Demand Zones",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  75\n4.11 Arz–Talep, Denge ve Fiyatın Ayrılışı\nArz ve talep yaklaşımının temel fikri, belirli fiyatlarda alım ve satım isteğinin dengelenmesi veya bu \ndengenin değişmesidir. Talebin göreli olarak artması fiyatı yukarı, arzın göreli olarak artması fiyatı \naşağı itebilir. Equilibrium, alım ve satım baskısının geçici denge noktası; shift ise bu dengenin bir tarafa \nkayması olarak anlatılır.\nGrafikte gerçek arz ve talep eğrileri doğrudan görülmez. Trader, güçlü price departure üzerinden \ndengenin değiştiğini çıkarır. Demand zone, sert yükselişin başladığı; supply zone ise sert düşüşün \nbaşladığı fiyat alanıdır. Bölge, görünmeyen emirlerin kesin kaydı değil, geçmişte belirgin baskı farkı \noluştuğuna dair gözlenebilir fiyat kanıtıdır.\nKavram Grafikte gözlenen Temkinli yorum\nEquilibrium / denge Fiyat sıkışır, overlap artar, iki taraf kalıcı ilerleyemez. Alım ve satım baskısı geçici olarak \ndengeleniyor.\nDemand shift Yukarı momentum, geniş bullish gövde ve follow-\nthrough.\nTalep tarafı mevcut fiyatlarda baskınlaşmış \nolabilir.\nSupply shift Aşağı momentum, geniş bearish gövde ve follow-\nthrough.\nArz tarafı mevcut fiyatlarda baskınlaşmış \nolabilir.\nDeparture Fiyat bölgeden hızlı ve tek yönlü uzaklaşır. Bölgenin gelecekte izlenmesini haklı çıkaran \nkanıt.\nTablo 4.11 – Arz–talep dilinin grafik karşılıkları\nGörünmeyen emirler hakkında kesin konuşmayın\nBir bölgeden güçlü hareket başlaması, o alanda hâlâ doldurulmamış kurumsal emirler bulunduğunu \nkanıtlamaz. Kitap bölgeyi geçmiş price action’dan türetilen olasılık alanı olarak kullanır.\n4.12 Aggressive Supply–Demand Zones\nAggressive demand zone, fiyatın kısa bir taban veya dönüş alanından güçlü biçimde yukarı ayrıldığı \nbölgedir. Aggressive supply zone bunun tersidir: fiyat bir tepe veya kısa tabandan güçlü biçimde aşağı \nayrılır. Bu bölgeleri tanımlamak için üç ortak filtre öne çıkar: belirgin momentum, karşı mumun \ngövdesini geri alan kontrol değişimi ve devam hareketi.\nFiltre Demand zone Supply zone\nİlk güçlü mum Geniş bullish momentum gövdesi. Geniş bearish momentum gövdesi.\nKontrol değişimi Bullish engulfing veya güçlü karşı kapanış. Bearish engulfing veya güçlü karşı kapanış.\nFollow-through Sonraki mumlar yukarı alan kazanır. Sonraki mumlar aşağı alan kazanır.\nZone kökeni Aggressive yükselişin başladığı kısa fiyat alanı. Aggressive düşüşün başladığı kısa fiyat alanı.",
+    "source_extract_summary": [
+      "4.11 Arz–Talep, Denge ve Fiyatın Ayrılışı Arz ve talep yaklaşımının temel fikri, belirli fiyatlarda alım ve satım isteğinin dengelenmesi veya bu dengenin değişmesidir.",
+      "Talebin göreli olarak artması fiyatı yukarı, arzın göreli olarak artması fiyatı aşağı itebilir.",
+      "Equilibrium, alım ve satım baskısının geçici denge noktası; shift ise bu dengenin bir tarafa kayması olarak anlatılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Hareket gücü özellik ailesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0091",
+    "page": 91,
+    "chapter": 4,
+    "section": "4.13 — Strong-Low Demand ve Strong-High",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  76\nTablo 4.12 – Aggressive demand ve supply zone filtreleri\nHer büyük mum zone oluşturmaz\nMomentum mumu zaten çok ilerlemiş ve doğrudan karşı major bölgeye çarpmış olabilir. Haber \nsırasında oluşan tek büyük mum follow-through bulmayabilir. Bu nedenle yalnızca mum büyüklüğüne \nbakılmaz; hareketin başladığı alan, önceki yapı, sonraki takip ve kırılan swing birlikte değerlendirilir.\nZone başlangıcı\nSade ve tutarlı yaklaşım, bölgeyi güçlü hareketin başladığı alan boyunca sağa uzatmaktır. Bazı \nyöntemler son karşı renkli mumu, bazıları kısa base’in tamamını kullanır. Bu kitap tek bir evrensel \nmum sınırı dayatmayacaktır. Amaç, departure öncesindeki dar fiyat alanını tutarlı biçimde işaretlemek \nve aynı kuralı geçmiş testlerde değiştirmemektir.\nAggressive zone ≠ erken fakat daha seçici kanıt gerektirir\nBu bölgeler güçlü hareketin kökenini yakalamaya çalışır. Yanlış pozitifleri azaltmak için momentum, \nengulfing/karşı kapanış ve follow-through birlikte aranmalıdır.\n4.13 Strong-Low Demand ve Strong-High \nSupply Zones\nBölüm 3’te strong low, kendisinden başlayan hareketin önceki anlamlı tepeyi kırdığı; strong high ise \nkendisinden başlayan hareketin önceki anlamlı dibi kırdığı swing olarak tanımlandı. Supply–demand \nyaklaşımında bu yapısal bilgi, zone seçiminde ek filtre olarak kullanılır.\nZone türü Yapısal şart Price action şartı\nStrong-low demand Dipten başlayan hareket yukarı BOS üretir. Dipten belirgin ve sürdürülebilir upward \ndeparture.\nStrong-high supply Tepeden başlayan hareket aşağı BOS üretir. Tepeden belirgin ve sürdürülebilir downward \ndeparture.\nZayıf swing alanı Hareket yeni ekstrem üretemez. Departure küçük veya takip yoktur; zone önceliği \ndüşer.\nTablo 4.13 – Strong swing ile supply–demand zone bağlantısı\nYapısal kırılım tek başına yeterli değildir\nBir swing teknik olarak önceki seviyeyi çok az aşabilir; fakat hareket hemen geri alınabilir. Strong-\nhigh/low zone sınıflandırmasında yalnızca BOS değil, aynı zamanda güçlü departure aranır. Yapı alanın \nneden önemli olabileceğini, price action ise o alandan gerçekten baskı çıkıp çıkmadığını gösterir.\nAggressive zone ile strong-swing zone farkı\nAggressive zone güçlü mum ve kontrol değişimini doğrudan yakalar; strong-swing zone ise önce \nswing’in yapısal sonucunu inceler. Aynı alan iki sınıfa birden girebilir. Etiketlerin amacı daha fazla çizgi \nüretmek değil, zone seçiminin hangi kanıta dayandığını açıklamaktır.",
+    "source_extract_summary": [
+      "Haber sırasında oluşan tek büyük mum follow-through bulmayabilir.",
+      "Bu nedenle yalnızca mum büyüklüğüne bakılmaz; hareketin başladığı alan, önceki yapı, sonraki takip ve kırılan swing birlikte değerlendirilir.",
+      "Zone başlangıcı Sade ve tutarlı yaklaşım, bölgeyi güçlü hareketin başladığı alan boyunca sağa uzatmaktır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Hareket gücü özellik ailesi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0092",
+    "page": 92,
+    "chapter": 4,
+    "section": "4.14 — Fresh, Tested, Flip ve Failure Test:",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  77\nÖnce Bölüm 3 ölçeğini sabitleyin\nBeş dakikalık bir strong low ile günlük strong low aynı ağırlıkta değildir. Strong/weak etiketi seçilen yapısal \nzaman dilimine aittir; zone da aynı ölçekle değerlendirilmelidir.\n4.14 Fresh, Tested, Flip ve Failure Test: \nBölgenin Yaşam Döngüsü\nBir supply–demand bölgesi oluşturulduktan sonra fiyat o alana henüz dönmediyse fresh zone olarak \nadlandırılır. İlk dönüşle bölge tested hâle gelir. Fresh bölge genellikle daha güçlü veya tercih edilir \nkabul edilir; çünkü bölgenin ilk reaksiyon kapasitesi henüz sınanmamıştır. Bu bir istatistiksel garanti \ndeğil, seçim önceliğidir.\nDurum Tanım Uygulama yorumu\nFresh Departure sonrası fiyat bölgeyi yeniden test etmemiştir. İlk dönüş dikkatle izlenir; otomatik işlem değildir.\nTested Fiyat bölgeye en az bir kez dönmüş ve reaksiyon vermiştir. Hâlâ çalışabilir; tepkilerin kalitesi ve derin penetrasyon \nönemlidir.\nWeakening Her testte tepki küçülür, acceptance ve penetrasyon artar. Bir sonraki temasın kırılma riski yükselir.\nInvalidated Fiyat bölgenin karşı tarafında anlamlı kapanış ve kabul \nüretir.\nEski zone artık aynı yönde kullanılmaz; flip ihtimali \nayrıca sınanır.\nFlip Kırılan zone retestte ters rol üstlenir. Yeni rol ancak reaction ve takip ile doğrulanır.\nFailure test Fiyat bölgeyi kısa süre aşar, sonra hızla eski tarafa döner. Aşım reddedilmiştir; ters reaction ve close önemlidir.\nTablo 4.14 – Bölgenin fresh durumdan geçersizliğe uzanan yaşam döngüsü\nTested ile invalidated aynı şey değildir\nFiyat demand zone içine girip yukarı tepki verirse bölge tested olur; geçersiz olmaz. Bölge içine derin \ngirmek riski artırabilir, fakat asıl geçersizlik seçilen kurala göre uzak kenarın ötesinde kapanış ve \nacceptance oluşmasıdır. Tek fitil aşımı failure test veya likidite davranışı olabilir; ayrıntılı likidite analizi \nBölüm 5’e bırakılacaktır.\nKırılım kalitesi\nBölgenin ötesinde güçlü momentum, net kapanış, takip ve mümkünse retestte yeni tarafta tutunma \ngörülüyorsa kabul edilmiş kırılım olasılığı artar. Fiyat yalnızca fitille alanı aşar, kapanışta geri döner ve \nters yönde hızlanırsa failure test veya fakeout olasılığı güçlenir.\nİlk temas avantajdır, zorunlu kural değil\nFresh zone tercih edilebilir; ancak temiz yapı ve güçlü reaction olmadan yalnızca “ilk test” etiketi işlem gerekçesi \ndeğildir. Tested zone da yeni price action ve yapı desteğiyle geçerli olabilir.",
+    "source_extract_summary": [
+      "Önce Bölüm 3 ölçeğini sabitleyin Beş dakikalık bir strong low ile günlük strong low aynı ağırlıkta değildir.",
+      "Strong/weak etiketi seçilen yapısal zaman dilimine aittir; zone da aynı ölçekle değerlendirilmelidir.",
+      "4.14 Fresh, Tested, Flip ve Failure Test: Bölgenin Yaşam Döngüsü Bir supply–demand bölgesi oluşturulduktan sonra fiyat o alana henüz dönmediyse fresh zone olarak adlandırılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0093",
+    "page": 93,
+    "chapter": 4,
+    "section": "4.15 — Önemli Bölge Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  78\n4.15 Önemli Bölge Okuma İş Akışı\nBölge analizi, grafikte geçmişte çalışan bütün fiyatları boyamak değildir. Amaç, güncel karar için gerekli \naz sayıdaki alanı seçmek; fiyat yaklaşırken beklentiyi değil davranışı takip etmek ve sınıflandırmayı \nkapanışla güncellemektir.\nAdım Görev Çıktı\n1 Ana zaman dilimi ve piyasa durumunu seç Trend, range veya transition.\n2 Major swing ve range uçlarını işaretle Yapısal support/resistance adayları.\n3 Departure alanlarını belirle Supply–demand zone adayları.\n4 Bölge sayısını azalt En yakın üst/alt major alan ve gerekli flip zone.\n5 Tür ve ölçek etiketi koy Yatay, dinamik, supply/demand; günlük, 4S vb.\n6 Kaliteyi puanla Reaksiyon, görünürlük, spacing, structure ve freshness.\n7 Yaklaşımı izle Momentum, sıkışma, higher lows/lower highs, hugging.\n8 Bölgedeki sonucu oku Wick, body, close, follow-through ve hacim.\n9 Durumu güncelle Held, tested, weakening, breakout, flip veya invalid.\n10 Koşullu cümle kur “X bölgesi korunurken Y; Z kapanışı sınıflandırmayı değiştirir.”\nTablo 4.15 – Grafik başında on adımlı önemli bölge iş akışı\nKoşullu analiz örnekleri\n “Günlük HH–HL yapısında son kırılan swing high bölgesi support adayıdır; bölge \nüzerinde bullish reaction ve takip oluşursa trend devamı güçlenir, uzak kenar altında \nkabul yapıyı zayıflatır.”\n “Range üst sınırına higher lows ile yaklaşım resistance’ın zayıfladığını gösterir; yukarı \nkapanış ve retest olmadan breakout teyitli değildir.”\n “Fresh demand zone ilk kez test ediliyor; temas tek başına giriş değildir. Alt fitil reddi, \ngüçlü close ve minor yapı dönüşü beklenir.”\n “Düşen trendline kırıldı; ancak major lower high henüz aşılmadığı için bu yalnızca \nmomentum değişimi uyarısıdır.”\nSon karar dili\nBölgeyi “çalıştı/çalışmadı” biçiminde ikili yorumlamayın. Held, reaction weak, tested, weakening, breakout \ncandidate, accepted break, flip ve invalidated gibi aşamalı ifadeler canlı piyasadaki belirsizliği daha doğru taşır.\nBölüm Özeti — Destek–Direnç, Arz–Talep ve Önemli Bölgeler\nAna ilke Kısa karşılığı\nKonum önce gelir Price action önemli bölgede daha anlamlıdır.\nZone, duvar değildir Her bölge kırılabilir; davranış izlenir.",
+    "source_extract_summary": [
+      "4.15 Önemli Bölge Okuma İş Akışı Bölge analizi, grafikte geçmişte çalışan bütün fiyatları boyamak değildir.",
+      "Amaç, güncel karar için gerekli az sayıdaki alanı seçmek; fiyat yaklaşırken beklentiyi değil davranışı takip etmek ve sınıflandırmayı kapanışla güncellemektir.",
+      "Adım Görev Çıktı 1 Ana zaman dilimi ve piyasa durumunu seç Trend, range veya transition."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0094",
+    "page": 94,
+    "chapter": 4,
+    "section": "4.15 — Önemli Bölge Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  79\nAna ilke Kısa karşılığı\nTemas kalitesi önemlidir Reaksiyon ve takip, temas sayısından daha değerlidir.\nYaklaşım bilgi taşır Higher lows, lower highs ve hugging kırılım baskısını gösterir.\nTrendline yardımcıdır Swing yapısının yerine geçmez.\nDeparture zone oluşturur Supply–demand alanı güçlü ayrılışın kökeninden türetilir.\nStructure + departure Strong-high/low zone için iki kanıt birlikte aranır.\nFresh avantaj, garanti değil İlk test yalnızca seçim önceliğidir.\nKapanış ve takip Breakout ile failure test ayrımının ana kanıtıdır.\nAz ve öncelikli bölge Grafik okunabilirliği ve karar disiplini korunur.\nTablo 4.16 – Bölüm 4 hızlı tekrar tablosu\nGrafik Başı Kontrol Listesi\n Ana piyasa durumu trend mi, range mi, geçiş mi?\n En yakın major support ve resistance bölgeleri hangileri?\n Bölge yatay reaksiyon alanı mı, trendline mı, supply–demand zone mu?\n Bölgenin seçilme gerekçesi güçlü reaksiyon, swing veya departure ile açıklanabiliyor \nmu?\n Temaslar gerçekten güçlü mü; yoksa yalnızca çok mu?\n Fiyat bölgeye hızlanarak mı, yavaşlayarak mı, sıkışarak mı geliyor?\n Bölgede fitil, gövde, kapanış ve follow-through ne söylüyor?\n Bölge fresh, tested, weakening, flip veya invalidated durumlarından hangisinde?\n Bir üst/alt major bölge hedef veya engel olarak nerede?\n Analiz tek bir koşullu cümleyle ifade edilebiliyor mu?\nTemel Sözlük\nTerim Bu bölümdeki anlamı\nSupport Fiyat düşerken alıcı reaksiyonunun görülme ihtimalinin arttığı potansiyel alan.\nResistance Fiyat yükselirken satıcı reaksiyonunun görülme ihtimalinin arttığı potansiyel alan.\nZone Tek fiyat yerine reaksiyonun gerçekleşebileceği sınırlı fiyat aralığı.\nDynamic support/resistance Zamanla fiyat seviyesi değişen trendline, channel veya yardımcı referans.\nRole reversal / flip Kırılan support’un resistance veya resistance’ın support olarak sınanması.\nEquilibrium Alım ve satım baskısının geçici denge hâli.\nDeparture Fiyatın bir alandan güçlü ve tek yönlü biçimde uzaklaşması.\nDemand zone Güçlü yükseliş departure’ının başladığı alan.\nSupply zone Güçlü düşüş departure’ının başladığı alan.\nFresh zone Oluştuktan sonra fiyatın henüz yeniden test etmediği bölge.",
+    "source_extract_summary": [
+      "Ana ilke Kısa karşılığı Temas kalitesi önemlidir Reaksiyon ve takip, temas sayısından daha değerlidir.",
+      "Yaklaşım bilgi taşır Higher lows, lower highs ve hugging kırılım baskısını gösterir.",
+      "Trendline yardımcıdır Swing yapısının yerine geçmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0095",
+    "page": 95,
+    "chapter": 4,
+    "section": "4.15 — Önemli Bölge Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 4\nDestek–Direnç, Arz–Talep ve Önemli Bölgeler  •  80\nTerim Bu bölümdeki anlamı\nTested zone Fiyatın en az bir kez geri dönüp reaksiyon ürettiği bölge.\nFailure test Bölgenin kısa süre aşılması ve fiyatın yeniden eski tarafa dönmesi.\nAcceptance Fiyatın bölge ötesinde kapanıp yeni alanda kalıcılık göstermesi.\nHugging Fiyatın güçlü tepki vermeden support/resistance yakınında uzun süre kalması.\nTablo 4.17 – Bölüm 4 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Önemli bölge neden kendi başına işlem sinyali değildir?\n2. Yatay çizgi ile rectangle bölgesi hangi farklı görevlerde kullanılır?\n3. Range içinde neden önce uç bölgeler işaretlenir?\n4. Trend piyasasında son kırılan swing seviyesi nasıl support/resistance adayı olur?\n5. Temas sayısının artması hangi durumda bölgeyi güçlendirmek yerine zayıflatır?\n6. Higher lows into resistance ve lower highs into support ne anlatır?\n7. Trendline’ın güçlü sayılması için hangi kalite ölçütleri aranır?\n8. Trendline kırılması neden tek başına trend dönüşü değildir?\n9. Demand/supply zone grafikte hangi gözlenebilir davranıştan türetilir?\n10. Aggressive zone ile strong-high/low zone arasındaki temel fark nedir?\n11. Fresh, tested ve invalidated zone nasıl ayrılır?\n12. Breakout ile failure test arasında kapanış ve takip bakımından ne fark vardır?\n13. Support–resistance flip hangi davranışla doğrulanır?\n14. Bölgeye yaklaşım biçimi neden temas öncesinde bilgi verir?\n15. Bir grafik için yazılabilecek örnek koşullu bölge cümlesi nedir?\nBölüm 4 tamamlandı\nArtık fiyatın yalnızca nasıl hareket ettiğini değil, bu hareketin nerede daha anlamlı olduğunu da \nsınıflandırabilirsiniz. Bölüm 5, önemli bölgelerin çevresinde biriken emirleri, stopları, likidite havuzlarını, \nsweep/grab/run davranışlarını ve FVG bağlantısını ele alacaktır.",
+    "source_extract_summary": [
+      "Terim Bu bölümdeki anlamı Tested zone Fiyatın en az bir kez geri dönüp reaksiyon ürettiği bölge.",
+      "Failure test Bölgenin kısa süre aşılması ve fiyatın yeniden eski tarafa dönmesi.",
+      "Acceptance Fiyatın bölge ötesinde kapanıp yeni alanda kalıcılık göstermesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0096",
+    "page": 96,
+    "chapter": 5,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları",
+    "source_extract_summary": [
+      "BÖLÜM 5 Likidite, FVG ve Fiyat Boşlukları"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0097",
+    "page": 97,
+    "chapter": 5,
+    "section": "5.1 — Likidite: İki Farklı Anlam",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  82\nFiyatın Hızlandığı ve Karar Verdiği Alanlar\nGrafikte belirgin bir tepenin birkaç tik üzerinde oluşan ani fitil neden sert düşüşe \ndönüşür? Aynı tepe başka bir gün güçlü gövdeli mumla kırıldığında fiyat neden \nilerlemeye devam eder? Bir impulsun ortasında kalan ince fiyat alanı neden bazen \nretest bölgesi olurken bazen tamamen görmezden gelinir?\nBu soruların ortak noktası likidite, emir tetiklenmesi ve fiyatın belirli alanlarda kabul \ngörüp görmemesidir. Fakat likidite geleceği kesin olarak açıklayan gizli bir güç \ndeğildir. Trader yalnızca görünür yapıyı, olası emir kümelerini ve fiyatın bu alanlara \ngeldiğinde gerçekten ne yaptığını gözleyebilir.\nBu bölümde market order, limit order ve stop emirlerinin likiditeyle ilişkisi kısa \nbiçimde kurulacak; buy-side ve sell-side liquidity adayları haritalanacak; sweep, grab \nve run davranışları ayrılacak; ardından displacement, FVG ve klasik fiyat gap’leri tek \nbir karşılaştırmalı sistem içinde ele alınacaktır.\nBu bölümün sonunda\nPiyasa likiditesi ile grafik likiditesini ayırabilecek, olası BSL/SSL alanlarını belirleyebilecek, likidite aşımını \nsweep/grab/run olarak sınıflandırabilecek, displacement ve FVG kalitesini değerlendirebilecek ve klasik gap \ntürlerini FVG’den ayırarak koşullu analiz cümlesi kurabileceksiniz.\n5.1 Likidite: İki Farklı Anlam\nTrading dilinde likidite iki bağlantılı fakat farklı anlamda kullanılır. Birinci anlam, bir varlığın önemli \nfiyat bozulması oluşturmadan ne kadar kolay alınıp satılabildiğidir. İkinci anlam ise grafikte belirli \nseviyelerin çevresinde tetiklenmesi veya gerçekleşmesi beklenen emir kümeleridir. Bu iki anlamı \nayırmak, “yüksek likidite”, “likidite havuzu” ve “likidite alındı” ifadelerini doğru anlamanın temelidir.\nAnlam Ne anlatır? Grafikte/işlemde sonucu\nPiyasa likiditesi Enstrümanda yeterli karşı taraf, order book derinliği ve işlem \nhacmi bulunması.\nDaha dar spread, daha düşük slippage \nve büyük emrin fiyatı daha az bozması.\nGrafikte likidite adayı Belirgin high/low, equal highs/lows veya diğer görünür \nreferansların çevresinde stop ve breakout emirlerinin kümelenme \nihtimali.\nSeviye aşıldığında geçici veya kalıcı \nalış/satış akışı oluşabilir.\nTarihsel işlem yoğunluğu Volume profile veya footprint gibi araçların geçmişte nerede işlem \nolduğunu göstermesi.\nGelecekte bekleyen emirle aynı şey \ndeğildir; Bölüm 7’de ayrıntılandırılır.",
+    "source_extract_summary": [
+      "Fiyatın Hızlandığı ve Karar Verdiği Alanlar Grafikte belirgin bir tepenin birkaç tik üzerinde oluşan ani fitil neden sert düşüşe dönüşür?",
+      "Aynı tepe başka bir gün güçlü gövdeli mumla kırıldığında fiyat neden ilerlemeye devam eder?",
+      "Bir impulsun ortasında kalan ince fiyat alanı neden bazen retest bölgesi olurken bazen tamamen görmezden gelinir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0098",
+    "page": 98,
+    "chapter": 5,
+    "section": "5.3 — Buy-Side ve Sell-Side Liquidity",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  83\nTablo 5.1 – Likidite kelimesinin üç farklı kullanım alanı\nAynı kelime, farklı soru\n“Bu piyasa likit mi?” sorusu işlem maliyeti ve order book derinliğiyle ilgilidir. “Bu tepenin üzerinde likidite var \nmı?” sorusu ise görünür yapının çevresinde tetiklenebilir emir kümelenmesi ihtimaliyle ilgilidir.\nLikidite görünmez; etkisi gözlenir\nStop emirleri tetiklenmeden önce çoğu standart grafikte görünmez. Iceberg veya dark-pool işlemleri \nde bütünüyle gözlenemeyebilir. Bu nedenle traderın görevi “burada kesin şu kadar emir var” demek \ndeğil; belirgin seviyelerin neden emir çekebileceğini anlamak ve fiyat o seviyeye geldiğinde kapanış ile \ntakip davranışını ölçmektir.\n5.2 Emirler Likiditeyi Nasıl Oluşturur?\nBölüm 1’de emir türlerinin temel görevleri anlatıldı. Likidite açısından üçlü ayrım yeniden kısa biçimde \nkullanılmalıdır: limit emirler bekleyen pasif likidite sağlar, market emirler mevcut limitleri tüketerek \nfiyatı hareket ettirir, stop emirleri ise belirli fiyat görüldüğünde market veya limit emrine dönüşerek \nyeni akış oluşturur.\nEmir türü Likidite görevi Fiyata etkisi\nLimit emir Order book’a alış veya satış teklifi koyar; gerçekleşene kadar \npasif bekler.\nKarşı market emir geldiğinde doldurulur; \nderinlik sağlar.\nMarket emir Mevcut en iyi limit emirleri tüketir; likidite alır. Yeterli derinlik yoksa birden fazla fiyat \nseviyesini geçerek slippage yaratır.\nStop emir Tetik fiyatına kadar latent/gizli bekler; tetiklenince aktif emre \ndönüşür.\nStop kümesi aynı anda tetiklenirse kısa süreli \nyoğun alış veya satış akışı oluşabilir.\nTablo 5.2 – Emir türlerinin likiditeye katkısı\nDerin ve sığ order book\nDerin order book’ta yakın fiyatlarda çok sayıda limit emir bulunur. Tek bir market emir daha az fiyat \nseviyesi tüketir. Sığ order book’ta ise aynı büyüklükte emir fiyatı daha fazla hareket ettirebilir. Bu fark, \ndüşük likiditeli enstrümanlarda ani fitil, geniş spread ve beklenenden kötü gerçekleşme riskini artırır.\nBuy-side kelimesine dikkat\nOrder book’taki bid/buy side ile “buy-side liquidity” aynı ifade değildir. Bu bölümde BSL, belirgin tepelerin \nüzerinde tetiklenmesi beklenen alış yönlü stop/breakout emirlerini anlatacaktır.\n5.3 Buy-Side ve Sell-Side Liquidity\nBuy-side liquidity (BSL), çoğunlukla belirgin tepelerin üzerinde bulunan ve fiyat o alanı geçtiğinde alış \nyönlü akış üretmesi beklenen emir kümelerini ifade eder. Short pozisyonların stopları buy order’a \ndönüşür; breakout alıcıları da aynı anda piyasaya katılabilir. Sell-side liquidity (SSL) ise belirgin diplerin",
+    "source_extract_summary": [
+      "“Bu tepenin üzerinde likidite var mı?” sorusu ise görünür yapının çevresinde tetiklenebilir emir kümelenmesi ihtimaliyle ilgilidir.",
+      "Likidite görünmez; etkisi gözlenir Stop emirleri tetiklenmeden önce çoğu standart grafikte görünmez.",
+      "Iceberg veya dark-pool işlemleri de bütünüyle gözlenemeyebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0099",
+    "page": 99,
+    "chapter": 5,
+    "section": "5.4 — Likidite Havuzları ve Görünürlük",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  84\naltında bulunan ve tetiklendiğinde satış yönlü akış üreten emir kümeleridir. Long stopları satış emrine \ndönüşür; breakdown satıcıları da akışa eklenebilir.\nAlan Muhtemel emirler Tetiklenince ilk akış\nBelirgin tepe üstü / BSL Short stop-loss, buy stop, breakout market buy. Alış yönlü akış; fiyat yukarı itilebilir.\nBelirgin dip altı / SSL Long stop-loss, sell stop, breakdown market sell. Satış yönlü akış; fiyat aşağı itilebilir.\nTablo 5.3 – BSL ve SSL’nin emir yönü\nTetiklenme yönü, sonraki yön değildir\nBSL tetiklenmesi ilk anda alış baskısı üretir; fakat fiyatın mutlaka yükselmeye devam edeceği anlamına \ngelmez. Bu alış akışı büyük satışların karşı tarafı olabilir ve fiyat hızla geri dönebilir. Aynı şekilde SSL \ntetiklenmesi satış akışı üretse de güçlü alıcılar bu satışları karşılayabilir. Sonuç, tetikleme sonrasındaki \nkabul veya reddetme davranışıyla anlaşılır.\nAna soru\nLikidite seviyesine ulaşıldı mı sorusundan sonra mutlaka şunu sorun: Fiyat yeni alanda kapandı ve orada kaldı \nmı; yoksa emirleri tetikledikten sonra eski yapıya geri mi döndü?\n5.4 Likidite Havuzları ve Görünürlük\nLikidite havuzu, belirli bir fiyat çevresinde çok sayıda stop veya tetikleyici emrin kümelenme \nihtimalinin yüksek görüldüğü alandır. Kesin emir sayısı bilinmez. Havuzun olası derinliği, seviyenin ne \nkadar açık, yaygın ve yapısal olarak önemli olduğuyla değerlendirilir.\nLikidite adayı Neden görünür? Genel ağırlık\nMajor swing high/low Ana trend veya range içinde açık dönüm noktasıdır. Yüksek; özellikle üst zaman diliminde.\nEqual highs / equal lows Birden fazla tepe/dip yaklaşık aynı fiyatı işaret eder. Stop yerleşimi öngörülebilir \nolduğundan artabilir.\nRange sınırı Uzun süreli yatay piyasanın herkesçe görülen uçlarıdır. Kırılım ve fakeout davranışı açısından \nönemlidir.\nTarihî yüksek/düşük All-time high, çok aylık high/low veya önceki seans ekstremi. Katılımcı görünürlüğü yüksek olabilir.\nTemiz trendline Birçok trader stopunu eğimli referansın arkasına yerleştirebilir. Yatay seviyeden daha zor ölçülür; \nyardımcı adaydır.\nKüçük iç pivot Yalnız yakınlaştırınca görülen minor salınımdır. Daha düşük; ana yapı içinde iç likidite \nolabilir.",
+    "source_extract_summary": [
+      "altında bulunan ve tetiklendiğinde satış yönlü akış üreten emir kümeleridir.",
+      "Long stopları satış emrine dönüşür; breakdown satıcıları da akışa eklenebilir.",
+      "Alan Muhtemel emirler Tetiklenince ilk akış Belirgin tepe üstü / BSL Short stop-loss, buy stop, breakout market buy."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0100",
+    "page": 100,
+    "chapter": 5,
+    "section": "5.6 — Stop Hunt: Hipotez ve Kanıt Sınırı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  85\nTablo 5.4 – Görünürlük ve olası likidite yoğunluğu\nEqual highs/lows kusursuz eşit olmak zorunda değildir\nGerçek piyasada spread ve volatilite nedeniyle tepeler veya dipler birkaç tik farkla oluşabilir. Önemli \nolan, traderların bunları aynı yapısal tavan veya taban olarak görebileceği kadar yakın olmasıdır. Bölge \nyaklaşımı burada da tek çizgiden daha gerçekçidir.\nHavuz “mıknatıs” değildir\nBelirgin seviyeler fiyatın tepki verme ihtimalini artırabilir; fakat fiyatın mutlaka oraya gitmesini sağlayan fiziksel \nbir çekim yoktur. Havuz, senaryo hedefi veya dikkat alanıdır; kesin rota değildir.\n5.5 External, Internal ve Inducement\nExternal liquidity, seçilen ana yapının dışında kalan belirgin major high ve low çevresindeki likidite \nadaylarıdır. Internal liquidity ise aynı yapının içindeki minor swing, pullback high/low veya kısa süreli \nsıkışma sınırlarında oluşur. Ayrım daima seçilen zaman dilimine bağlıdır: günlük grafikte internal olan \nseviye, bir saatlik trader için external olabilir.\nKatman Konum Tipik görev\nExternal liquidity Ana range veya trend ekstremi dışında. Daha büyük yapısal hedef, breakout veya \nreversal sınaması.\nInternal liquidity Ana ekstremlerin arasında kalan küçük swing’lerde. Pullback içi stopların alınması, kısa vadeli \nhızlanma veya giriş zamanlaması.\nInducement / bait Ana bölge veya external hedef öncesindeki görünür \nküçük pivot.\nErken giriş yapan traderları çekip stoplarını \nöngörülebilir alanda toplama ihtimali.\nTablo 5.5 – External, internal ve inducement görevleri\nInducement niyet değil, yapı etiketidir\nInducement çoğu zaman kurumların bilinçli tuzağı olarak anlatılır. Grafikten niyet kanıtlanamaz. Daha \ngüvenilir tanım şudur: Ana demand/supply veya major swing öncesindeki küçük ve görünür pivot, \nerken işlem alanı gibi davranır; fiyat bu pivotu aşıp asıl bölgeye ilerleyebilir. Trader bunu “bait seviyesi \nadayı” olarak işaretleyebilir, fakat gerçek teyit yine sonraki reaksiyondur.\nÖlçek etiketi kullanın\n“Internal SSL alındı” ifadesini tek başına yazmayın. “4 saatlik yükseliş yapısı içinde 15 dakikalık internal SSL \naşıldı; günlük protected low korunuyor” gibi ölçeği açık cümle kurun.\n5.6 Stop Hunt: Hipotez ve Kanıt Sınırı\nStop hunt, fiyatın görünür stop kümelerine doğru hareket ederek bu emirleri tetiklemesi ve ardından \nters tarafa dönmesi için kullanılan yaygın bir terimdir. Ancak grafikten belirli bir kurumun fiyatı kasıtlı",
+    "source_extract_summary": [
+      "Önemli olan, traderların bunları aynı yapısal tavan veya taban olarak görebileceği kadar yakın olmasıdır.",
+      "Bölge yaklaşımı burada da tek çizgiden daha gerçekçidir.",
+      "Havuz “mıknatıs” değildir Belirgin seviyeler fiyatın tepki verme ihtimalini artırabilir; fakat fiyatın mutlaka oraya gitmesini sağlayan fiziksel bir çekim yoktur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0101",
+    "page": 101,
+    "chapter": 5,
+    "section": "5.7 — Sweep, Grab ve Run",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  86\nbiçimde ittiği kesin olarak kanıtlanamaz. Aynı görüntü haber, düşük order book derinliği, doğal emir \nakışı veya büyük bir piyasa emri sonucunda da oluşabilir.\nGözlenebilir veri Doğrudan gözlenemeyen iddia\nBelirgin high/low çevresinde stop kümelenmesi ihtimali. Tam olarak kaç stop emri bulunduğu.\nFiyatın seviyeyi fitil veya gövdeyle aşması. Aşımın tek bir kurum tarafından planlandığı.\nAşım sonrası eski alan içine kapanış ve ters momentum. Bütün hareketin “retail avlamak” amacıyla yapıldığı.\nKırılım alıcı/satıcılarının zarara düşmesi ve ek akış üretmesi. Hangi aktörün ne kadar pozisyon aldığı.\nTablo 5.6 – Stop hunt yorumunda kanıt sınırı\nKitabın dili\n“Kurumlar stopları kesin avladı” yerine “Belirgin likidite seviyesi aşıldı, fiyat eski alan içine kapandı ve ters yönde \ntakip geldi; hareket başarısız kırılım/sweep davranışı gösteriyor” denecektir.\nStopu görünür seviyeye çok yakın koymak\nBu bölüm stop yerleşim sistemi kurmaz; ancak likidite mantığı, herkesin gördüğü high/low’un hemen \nbirkaç tik arkasındaki stopların öngörülebilir olabileceğini gösterir. Çözüm yalnızca stopu daha uzağa \ntaşımak değildir. Geçersizlik seviyesi, volatilite, pozisyon büyüklüğü ve kabul edilen kayıp Bölüm 13’te \nbirlikte hesaplanacaktır.\n5.7 Sweep, Grab ve Run\nSweep, grab ve run aynı başlangıç olayını paylaşır: fiyat belirgin likidite seviyesini aşar ve tetiklenebilir \nemirler devreye girer. Ayrım, fiyatın yeni alanda kalıp kalmamasına ve geri alma hızına göre yapılır. \nSweep ile grab arasında tam bir terminoloji birliği yoktur; bu kitap pratik bir çalışma standardı kullanır.\nDavranış Aşım biçimi Kapanış ve takip Ana yorum\nLiquidity grab Çok hızlı, çoğunlukla tek mum/uzun fitil. Eski alan içine hızlı close; ters yönde güçlü tepki. Likidite alındı ve fiyat \nreddedildi.\nLiquidity sweep Bir veya birkaç mum boyunca seviye \nötesinde dolaşma.\nYeni alan kabul edilmez; süreç sonunda eski \nyapıya dönüş.\nDaha yavaş/karmaşık \nbaşarısız kırılım.\nLiquidity run Gövdeyle güçlü aşım, genellikle \nmomentum ve bazen yüksek hacim.\nSeviye ötesinde close, acceptance, continuation \nveya başarılı retest.\nLikidite alındı ve kırılım \nsürdü.\nTablo 5.7 – Sweep, grab ve run ayrımı\nSınıflandırma kapanmadan yapılmaz\nAçık mum seviyenin üzerinde güçlü breakout gibi görünebilir; kapanışta uzun fitille geri dönebilir. Bu \nnedenle intrabar aşımı “run” olarak etiketlenmemelidir. En azından ana mum kapanışı, mümkünse \nsonraki bir veya iki mumun takip/acceptance davranışı izlenmelidir.",
+    "source_extract_summary": [
+      "biçimde ittiği kesin olarak kanıtlanamaz.",
+      "Aynı görüntü haber, düşük order book derinliği, doğal emir akışı veya büyük bir piyasa emri sonucunda da oluşabilir.",
+      "Gözlenebilir veri Doğrudan gözlenemeyen iddia Belirgin high/low çevresinde stop kümelenmesi ihtimali."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0102",
+    "page": 102,
+    "chapter": 5,
+    "section": "5.9 — Displacement ve Imbalance",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  87\nHızlı karar sırası\n1) Seviye aşıldı mı? 2) Mum nerede kapandı? 3) Yeni alan korundu mu? 4) Retest hangi tarafta tutuldu? Bu dört \nsoru, aktör niyeti hakkında hikâye kurmaktan daha güvenilirdir.\n5.8 Liquidity Pool ve Liquidity Void\nLiquidity pool ile liquidity void zıt fiyat ortamlarını ifade eder. Pool, olası emir kümelerinin yoğunlaştığı \ngörünür alandır. Void ise fiyatın çok hızlı geçtiği, iki yönlü işlemin ve mum overlap’inin sınırlı kaldığı \nince alandır. Pool çevresinde tetikleme ve mücadele; void içinde ise hızlı geçiş görülebilir.\nÖzellik Liquidity pool Liquidity void\nTemel fikir Stop/trigger emirlerinin kümelenebileceği görünür \nseviye.\nFiyatın az karşılıkla hızlı geçtiği ince fiyat alanı.\nGrafik örneği Major high/low, equal high/low, range sınırı. Geniş tek yönlü momentum dizisi, az overlap.\nBeklenen davranış Aşım, stop tetiklenmesi, rejection veya breakout. Yeniden girişte hızlı hareket veya kısmi dengeleme.\nKesin olmayan iddia Emir sayısı ve niyet bilinmez. Bütün fiyatların hiç işlem görmediği söylenemez.\nTablo 5.8 – Pool ve void karşılaştırması\nVoid gerçek gap değildir\nLiquidity void’da mumlar arasında tamamen boş fiyat alanı olmak zorunda değildir. Fiyat güçlü \ngövdelerle bütün seviyelerden geçmiş olabilir; ancak hareket tek yönlü ve kısa süreli olduğu için iki \ntaraflı denge sınırlıdır. Gerçek klasik gap’te ise bir seansın high/low’u ile sonraki seans arasında hiç \nişlem görünmeyen fiyat aralığı vardır.\nDoldurulma garantisi yok\nVoid veya FVG’nin gelecekte mutlaka tamamen doldurulacağı varsayılmamalıdır. Fiyat alanı hiç test etmeyebilir, \nyalnızca kısmi doldurabilir veya doğrudan geçersiz kılabilir.\n5.9 Displacement ve Imbalance\nDisplacement, fiyatın yakın geçmişteki normal davranışından belirgin biçimde ayrılarak güçlü, hızlı ve \nyönlü hareket etmesidir. Geniş gövdeler, yönün ekstremine yakın kapanış, sınırlı karşı fitil, düşük mum \noverlap’i ve takip displacement kalitesini artırır. Imbalance ise bu tek yönlü hareket sırasında alış ve \nsatışın dengeli biçimde karşılaşmadığı düşünülen fiyat alanını anlatan genel terimdir.\nÖlçüt Güçlü displacement Zayıf aday\nGövde Önceki 3–5 muma göre belirgin büyük. Normal büyüklük veya yalnız fitil genişliği.\nKapanış Hareket yönünün ekstremine yakın. Mum ortasında veya ters fitille geri alınmış.\nOverlap Ardışık mumlar az örtüşür. Mumlar iç içe geçer ve yön sık değişir.",
+    "source_extract_summary": [
+      "Hızlı karar sırası 1) Seviye aşıldı mı?",
+      "Bu dört soru, aktör niyeti hakkında hikâye kurmaktan daha güvenilirdir.",
+      "5.8 Liquidity Pool ve Liquidity Void Liquidity pool ile liquidity void zıt fiyat ortamlarını ifade eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0103",
+    "page": 103,
+    "chapter": 5,
+    "section": "5.10 — Fair Value Gap Geometrisi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  88\nÖlçüt Güçlü displacement Zayıf aday\nTakip Sonraki mumlar alan kazanımını sürdürür. İlk güçlü mum hemen tamamen geri alınır.\nYapı etkisi Swing/range sınırı kırar veya güçlü departure üretir. Grafiğin ortasında yapısal sonuç üretmez.\nTablo 5.9 – Displacement kalitesinin ölçülmesi\nDisplacement her zaman sağlıklı trend değildir\nHaber mumu veya düşük likidite anı da çok geniş displacement oluşturabilir. Hareketin \nsürdürülebilirliği, sonraki acceptance, yapı kırılımı ve retest davranışıyla anlaşılır. Tek güçlü mum \n“kurumsal yön kesinleşti” anlamına gelmez.\nGeometri öncesi davranış\nFVG aramadan önce orta mumun gerçekten displacement üretip üretmediğini sorun. Zayıf, overlap içindeki üç \nmum boşluğu yalnızca geometrik adaydır.\n5.10 Fair Value Gap Geometrisi\nFair Value Gap (FVG), üç mumluk dizide birinci ve üçüncü mumun fitil aralıklarının örtüşmemesiyle \ntanımlanan fiyat alanıdır. Bullish FVG’de birinci mumun high’ı üçüncü mumun low’undan aşağıda kalır. \nBearish FVG’de birinci mumun low’u üçüncü mumun high’ından yukarıda kalır. Aradaki alan \nçoğunlukla güçlü ikinci mumun yalnızca kısa süre geçtiği bölgedir.\nTür Geometrik sınır Alan\nBullish FVG Candle 1 high < Candle 3 low Candle 1 high ile Candle 3 low arasındaki bölge.\nBearish FVG Candle 1 low > Candle 3 high Candle 3 high ile Candle 1 low arasındaki bölge.\nTablo 5.10 – Bullish ve bearish FVG geometrisi\nFitil–fitil standardı\nBu kitap FVG sınırını birinci ve üçüncü mumun wick ekstremleriyle tanımlar. Yalnız gövdeler arasındaki boşluk, \nbody imbalance olarak ayrıca görülebilir; fakat standart FVG etiketiyle karıştırılmayacaktır.\nNeden “fair value” adı yanıltıcı olabilir?\nFVG, temel analizdeki adil değer hesabı değildir. “Fair value” burada fiyatın dengeli iki yönlü işlem \ngörmediği varsayılan alan için kullanılan terminolojidir. Kitapta gerektiğinde “üç mumlu fiyat \ndengesizliği” ifadesiyle birlikte kullanılacaktır.\nFVG ile gerçek gap arasındaki ilk fark\nFVG’nin içinde ikinci mumun fiyatı işlem görmüştür; grafik tamamen boş değildir. Gerçek seans \ngap’inde ise önceki barın high/low’u ile sonraki barın açılış aralığı arasında işlem görülmeyen bir \nboşluk bulunur. Ayrıntılı karşılaştırma 5.15’te yapılacaktır.",
+    "source_extract_summary": [
+      "Ölçüt Güçlü displacement Zayıf aday Takip Sonraki mumlar alan kazanımını sürdürür.",
+      "İlk güçlü mum hemen tamamen geri alınır.",
+      "Yapı etkisi Swing/range sınırı kırar veya güçlü departure üretir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Mum geometrisi ve davranış özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0104",
+    "page": 104,
+    "chapter": 5,
+    "section": "5.12 — FVG Test, Dolum ve Geçersizlik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  89\n5.11 FVG Kalitesi ve Bağlam\nFVG grafikte çok sık oluşur. Bu nedenle yalnız üç mum geometrisi, alanı işlem açısından önemli hâle \ngetirmez. FVG, price action, market structure ve önemli bölgeyle birlikte değerlendirilmelidir.\nKalite ölçütü Olumlu işaret Uyarı işareti\nDisplacement Orta mum belirgin büyük, güçlü close ve takip. Normal mum, uzun karşı fitil, takip yok.\nYapısal sonuç BOS, range breakout veya güçlü departure üretir. Grafiğin ortasında hiçbir swing sonucu yok.\nKonum Trend yönündeki pullback alanı, major zone veya flip ile \nörtüşür.\nKarşı yönde, hedef bölgeye çok yakın veya \nchoppy orta alanda.\nTazelik Henüz test edilmemiş veya ilk kontrollü test. Defalarca derin test edilmiş ve acceptance \nartmış.\nBoyut Volatiliteye göre anlamlı ama yönetilebilir. Çok küçük gürültü veya stopu anlamsızlaştıracak \nkadar geniş.\nTakip FVG sonrası fiyat alanı hızla terk eder. Fiyat hemen gap içine dönüp iki yönlü işlem \nyapar.\nTablo 5.11 – FVG kalite filtresi\nHer FVG’ye isim vermek analiz değildir\nGrafiğe onlarca FVG kutusu çizmek, hangi alanın güncel karar için önemli olduğunu gizler. Uygulamada \nana yapı yönüyle uyumlu, güçlü displacement ve yapısal sonuç üretmiş en yakın bir veya iki aktif FVG \nçoğu zaman yeterlidir. Eski, defalarca test edilmiş veya bağlam dışı alanlar kaldırılmalıdır.\nYön garantisi değildir\nBullish FVG fiyatın mutlaka yükseleceğini, bearish FVG mutlaka düşeceğini söylemez. Alan yalnızca geçmiş \nyönlü hareketin izi ve gelecekte test edilirse değerlendirilecek potansiyel konumdur.\n5.12 FVG Test, Dolum ve Geçersizlik\nFVG oluşturulduktan sonra alanın durumu zaman içinde değişir. En yararlı yaklaşım, yalnız “var/yok” \netiketi yerine yaşam döngüsü kullanmaktır. Alanın ilk teması, kısmi dolumu, derin testi, tam dolumu \nve yönlü işlevini kaybetmesi farklı bilgi taşır.\nDurum Grafikte görülen Temkinli yorum\nAktif / fresh FVG oluşmuş, henüz test edilmemiş. İlk test adayı; tepki garanti değildir.\nİlk test Fiyat alanın yakın sınırına ilk kez girer. Kapanış ve takip teyidi aranır.\nKısmi dolum Alan bir bölümüyle işlem görür, karşı sınır korunur. Denge artıyor; eski yön hâlâ mümkün fakat \nzayıflayabilir.\nDerin test Fiyat FVG’nin büyük kısmını geçer. Alan işlevi sorgulanır; acceptance ve tam dolum \nriski artar.",
+    "source_extract_summary": [
+      "5.11 FVG Kalitesi ve Bağlam FVG grafikte çok sık oluşur.",
+      "Bu nedenle yalnız üç mum geometrisi, alanı işlem açısından önemli hâle getirmez.",
+      "FVG, price action, market structure ve önemli bölgeyle birlikte değerlendirilmelidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0105",
+    "page": 105,
+    "chapter": 5,
+    "section": "5.13 — FVG, Order Block ve Supply–Demand",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  90\nDurum Grafikte görülen Temkinli yorum\nTepki üretti FVG’den beklenen yönde close ve takip oluşur. Tepkinin yapı ilerlemesine dönüşüp dönüşmediği \nizlenir.\nTam dolum Birinci ve üçüncü mum arasındaki bütün alan işlem \ngörür.\nGeometrik boşluk kapanmıştır; bu tek başına ters \ntrend değildir.\nGeçersiz / flipped Fiyat alanı karşı yönde aşar, ötesinde kabul ve takip \noluşturur.\nEski FVG yönlü referans olmaktan çıkar; bazı \nyöntemlerde ters rol adayı olabilir.\nTablo 5.12 – FVG yaşam döngüsü\nYüzde 50 seviyesi\nBazı yöntemler FVG’nin orta noktasını “consequent encroachment” olarak izler. Bu seviye yardımcı \nreferans olabilir; bu kitapta bütün piyasalarda geçerli zorunlu bir kural olarak kullanılmamaktadır. \nKitapta orta nokta, tam alanın yerine geçen sihirli fiyat değil, dolum derinliğini ölçen görsel \nyardımcıdır.\nDolum ≠ dönüş değildir\nBullish FVG’nin tamamen dolması yalnızca üç mumlu geometrik boşluğun kapanmasıdır. Düşüş trendinin \nbaşladığını söylemek için karşı yönde yapı, kapanış ve takip kanıtı gerekir.\n5.13 FVG, Order Block ve Supply–Demand\nFVG, order block ve supply–demand zone çoğu zaman aynı güçlü hareket çevresinde oluştuğu için üst \nüste gelebilir. Yine de görevleri farklıdır. FVG hareketin hızlı geçtiği dengesizlik alanını; order block \ngüçlü hareketten önceki base veya son karşı mum alanını; supply–demand zone ise güçlü departure’ın \nbaşladığı daha geniş fiyat kökenini temsil eder.\nKavram Köken Ana görev Sınır\nFVG Üç mumda wick aralıklarının örtüşmemesi. Hızlı geçiş/dengesizlik alanını izlemek. Çok sık oluşur; tek başına \nemir varlığını kanıtlamaz.\nOrder block Güçlü move öncesindeki base veya yöntemsel \nson karşı mum.\nHareket kökenini daha dar tanımlamak. Tanımlar yöntemler \narasında değişir.\nSupply–demand zone Belirgin demand/supply shift ve departure \nbaşlangıcı.\nGeniş potansiyel reaksiyon alanı. Görünmeyen kurum \nemirlerinin kaldığı kesin \nbilinmez.\nTablo 5.13 – FVG, order block ve supply–demand görev ayrımı\nÖrtüşme ne sağlar?\nAynı displacement bir yapısal kırılım üretmiş, arkasında FVG bırakmış ve hareket kökeni Bölüm 4’teki \nkaliteli demand/supply zone ile örtüşmüşse alan daha dikkat çekici olabilir. Fakat bunların hepsi aynı \nfiyat hareketinden türediği için üç bağımsız kanıt gibi sayılmamalıdır. Asıl yeni kanıt, fiyat geri \ngeldiğinde oluşan reaksiyon ve takiptir.",
+    "source_extract_summary": [
+      "Durum Grafikte görülen Temkinli yorum Tepki üretti FVG’den beklenen yönde close ve takip oluşur.",
+      "Tepkinin yapı ilerlemesine dönüşüp dönüşmediği izlenir.",
+      "Tam dolum Birinci ve üçüncü mum arasındaki bütün alan işlem görür."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Konum ve seviye yaşam döngüsü",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0106",
+    "page": 106,
+    "chapter": 5,
+    "section": "5.15 — Gap–FVG Ayrımı ve Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  91\nİsimden önce fiyat davranışı\nBir alanı “order block”, “demand zone” veya “FVG” diye adlandırmak onu çalışır hâle getirmez. Önce güçlü \ndeparture, yapısal sonuç, tazelik ve dönüşteki price action değerlendirilmelidir.\n5.14 Klasik Fiyat Boşlukları\nKlasik gap, bir barın işlem aralığı ile sonraki barın işlem aralığı arasında gerçek fiyat boşluğu \nbulunmasıdır. Seanslı hisse piyasalarında gece, hafta sonu, haber veya kazanç açıklaması sonrasında \nsık görülür. Kesintisiz kripto spot piyasasında daha nadirdir; ancak seanslı futures grafiklerinde gap \noluşabilir.\nGap türü Trend konumu Hacim/takip Genel beklenti\nCommon gap Range veya sıradan yatay alan içinde. Genellikle düşük önem, sınırlı takip. Sık ve hızlı dolabilir; güçlü \nyön sinyali değildir.\nBreakaway gap Konsolidasyon, pattern veya major S/R kırılımında. Tercihen yüksek hacim ve güçlü devam. Yeni trend/move başlangıcı \nolabilir; hızlı dolmama \nihtimali daha yüksek.\nRunaway / continuation gap Başlamış trendin orta evresinde. Trend yönünde momentum ve takip. Mevcut move’un hızlandığını \ngösterebilir; retest/fill olsa \nda trend sürebilir.\nExhaustion gap Uzamış trendin sonlarına yakın. Görece zayıf follow-through, bazen düşen \nhacim ve reversal price action.\nMomentumun tükendiği \nyerel tepe/dip adayı; teyit \ngerekir.\nTablo 5.14 – Dört klasik gap türü\nGap türü ilk anda kesin bilinmeyebilir\nAçılışta görülen büyük gap’in breakaway mi exhaustion mı olduğu yalnız konum ve sonraki davranışla \nanlaşılır. Major range’den yüksek hacimle ayrılıp yeni alanı koruyan gap breakaway lehinedir. Uzamış \ntrend sonunda zayıf takip ve bearish/bullish reversal mumlarıyla oluşan gap exhaustion lehinedir.\nGap’i trend konumundan koparmayın\nAynı büyüklükteki boşluk range içinde common, major kırılımda breakaway, trend ortasında runaway veya \ntrend sonunda exhaustion olabilir. Şekil değil bağlam sınıflandırır.\n5.15 Gap–FVG Ayrımı ve Okuma İş Akışı\nFVG, liquidity void ve klasik gap hızlı fiyat hareketiyle bağlantılıdır; fakat aynı şey değildir. Son analizde \nönce yapıyı ve bölgeyi, sonra likidite seviyesini, aşım davranışını ve varsa fiyat boşluğunun türünü \nsınıflandırmak gerekir.",
+    "source_extract_summary": [
+      "İsimden önce fiyat davranışı Bir alanı “order block”, “demand zone” veya “FVG” diye adlandırmak onu çalışır hâle getirmez.",
+      "Önce güçlü departure, yapısal sonuç, tazelik ve dönüşteki price action değerlendirilmelidir.",
+      "5.14 Klasik Fiyat Boşlukları Klasik gap, bir barın işlem aralığı ile sonraki barın işlem aralığı arasında gerçek fiyat boşluğu bulunmasıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0107",
+    "page": 107,
+    "chapter": 5,
+    "section": "5.15 — Gap–FVG Ayrımı ve Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  92\nÖzellik Klasik gap FVG Liquidity void\nGrafik boşluğu İki bar/seans arasında gerçek işlem \nboşluğu.\nÜç mum içinde Candle 1–3 wick’leri \nörtüşmez; Candle 2 alanı geçmiştir.\nTam boşluk gerekmez; hızlı, az \noverlap’li geçiş.\nSık görüldüğü piyasa Seanslı hisseler ve futures. Bütün mum grafiklerinde oluşabilir. Bütün piyasalarda güçlü impuls \niçinde.\nAna sınıflandırma Common, breakaway, runaway, \nexhaustion.\nBullish/bearish ve yaşam döngüsü. İnce/hızlı fiyat koridoru.\nFill yorumu Gap türüne göre fill hızı değişir. Kısmi/tam dolum olabilir; garanti değildir. Yeniden girişte hızlı geçiş \nolabilir; garanti değildir.\nTablo 5.15 – Klasik gap, FVG ve liquidity void ayrımı\nOn adımlı likidite ve boşluk iş akışı\nAdım Görev Çıktı\n1 Ana yapıyı seç Trend, range veya transition; major timeframe.\n2 En yakın önemli bölgeleri işaretle Bölüm 4’ten support/resistance veya supply–demand.\n3 Görünür likidite adaylarını bul Major high/low, equal high/low, range sınırı, trendline.\n4 External/internal etiketi koy Ana hedef mi, iç pullback seviyesi mi?\n5 Fiyat yaklaşımını izle Momentum artıyor mu, hugging/sıkışma mı var?\n6 Aşımı sınıflandır Fitil, gövde, kapanış ve seviye ötesi mesafe.\n7 Takibi bekle Grab/sweep ile run ayrımı; acceptance veya rejection.\n8 Displacement/FVG kontrol et Yapısal sonuç üreten anlamlı dengesizlik var mı?\n9 Gap türünü belirle Gerçek gap ise trend konumu, hacim ve follow-through.\n10 Koşullu cümle kur “X korunurken Y; Z close/acceptance senaryoyu değiştirir.”\nTablo 5.16 – Grafik başında on adımlı likidite ve boşluk iş akışı\nÖrnek koşullu cümleler\n “Günlük range üstünde BSL adayı bulunuyor. Üst sınır yalnız fitille aşılıp range içine \nkapanırsa sweep/rejection; gövdeli close ve başarılı retest gelirse liquidity run/breakout \nlehine sınıflandırılacaktır.”\n “Dört saatlik bearish displacement bir bearish FVG bıraktı. Alan ilk testte satış kapanışı \nüretirse düşüş devamı izlenecek; FVG tamamen aşılıp üzerinde acceptance oluşursa eski \nbearish referans geçersiz sayılacaktır.”\n “Hisse major direnç üzerinde gap açtı. Yüksek hacim ve seviye üstünde takip breakaway \ngap lehine; gap’in hızla doldurulup eski range içine dönmesi başarısız kırılım riskini \nartıracaktır.”\nBölümün karar ilkesi\nLikidite seviyesi hedefi, FVG konumu ve gap etiketi tek başına işlem değildir. Karar; yapı + önemli bölge + \nyaklaşım + aşım + kapanış + takip zinciri tamamlandığında anlamlıdır.",
+    "source_extract_summary": [
+      "Özellik Klasik gap FVG Liquidity void Grafik boşluğu İki bar/seans arasında gerçek işlem boşluğu.",
+      "Üç mum içinde Candle 1–3 wick’leri örtüşmez; Candle 2 alanı geçmiştir.",
+      "Tam boşluk gerekmez; hızlı, az overlap’li geçiş."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0108",
+    "page": 108,
+    "chapter": 5,
+    "section": "5.15 — Gap–FVG Ayrımı ve Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  93\nBölüm Özeti — Likiditeden Kabul veya Redde\nKavram Kısa tanım Ana hata\nPiyasa likiditesi Varlığın fiyatı çok bozmadan alınıp satılabilmesi. Grafikteki stop kümeleriyle aynı anlamda \nkullanmak.\nBSL / SSL Tepe üstünde alış, dip altında satış yönlü tetiklenebilir emir \nadayları.\nTetiklenme yönünü sonraki trend yönü \nsanmak.\nLiquidity pool Görünür seviyede olası emir yoğunluğu. Fiyatın mutlaka oraya gideceğini varsaymak.\nInducement Ana alan öncesindeki bait/minor likidite adayı. Aktör niyetini kesin bildiğini düşünmek.\nGrab / sweep Likidite aşımı sonrası eski alana geri alma. Mum kapanmadan reversal ilan etmek.\nLiquidity run Seviye ötesinde close, acceptance ve continuation. İlk fitili breakout saymak.\nDisplacement Normal davranıştan ayrılan güçlü yönlü fiyat genişlemesi. Tek büyük mumu sürdürülebilir trend \nsanmak.\nFVG Üç mumda Candle 1–3 wick aralıklarının örtüşmediği alan. Her FVG’yi aynı güçte ve fill garantili görmek.\nKlasik gap Ardışık seans/bar aralığında gerçek işlem boşluğu. Gap türünü trend bağlamından koparmak.\nTablo 5.17 – Bölüm 5 hızlı tekrar tablosu\nGrafik Başı Kontrol Listesi\n Kullandığım “likidite” kelimesi piyasa derinliğini mi, grafikteki emir adayını mı ifade \nediyor?\n Ana trend/range ve önemli bölgeler önceden belirlendi mi?\n En görünür major high/low ve equal high/low alanları hangileri?\n BSL/SSL etiketi doğru emir yönüyle kullanıldı mı?\n Seviye external mı, internal mı; timeframe etiketi yazıldı mı?\n Aşım fitille mi, gövdeyle mi oldu ve mum nerede kapandı?\n Sonraki mumlar yeni alanı kabul etti mi, eski yapıya mı döndü?\n Displacement gerçekten normal davranıştan ayrılıyor mu?\n FVG yapısal sonuç ve takip üretti mi; fresh/tested/invalid durumu nedir?\n Görülen boşluk gerçek gap mi, FVG mi, liquidity void mı?\n Gap’in türü trend konumu, hacim ve follow-through ile uyumlu mu?\n Analiz koşullu cümleyle ve açık geçersizlik ölçütüyle yazıldı mı?\nTemel Sözlük\nTerim Tanım\nAcceptance Fiyatın yeni alanın ötesinde kapanışlar ve takip oluşturarak alanı kabul etmesi.\nBSL Belirgin tepelerin üzerinde tetiklenmesi beklenen alış yönlü emir kümeleri.\nDisplacement Yakın fiyat davranışından belirgin biçimde ayrılan güçlü ve yönlü hareket.\nEqual highs/lows Yaklaşık aynı fiyat çevresinde oluşan birden fazla tepe veya dip.",
+    "source_extract_summary": [
+      "Bölüm Özeti — Likiditeden Kabul veya Redde Kavram Kısa tanım Ana hata Piyasa likiditesi Varlığın fiyatı çok bozmadan alınıp satılabilmesi.",
+      "Grafikteki stop kümeleriyle aynı anlamda kullanmak.",
+      "BSL / SSL Tepe üstünde alış, dip altında satış yönlü tetiklenebilir emir adayları."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0109",
+    "page": 109,
+    "chapter": 5,
+    "section": "5.15 — Gap–FVG Ayrımı ve Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 5\nLikidite, FVG ve Fiyat Boşlukları  •  94\nTerim Tanım\nExternal liquidity Seçilen ana yapının dışındaki major ekstrem çevresindeki likidite adayı.\nFVG Üç mumda birinci ve üçüncü mum wick aralıklarının örtüşmediği fiyat alanı.\nGap fill Fiyatın klasik gap veya işaretli dengesizlik alanına geri dönerek alanı işlemesi.\nInducement Ana alan öncesinde erken işlemleri ve stopları çekebilecek minor bait seviyesi.\nInternal liquidity Ana yapının içinde kalan minor swing çevresindeki likidite adayı.\nLiquidity grab Seviyenin hızlı, çoğunlukla fitilli aşımı ve derhal geri alınması.\nLiquidity pool Belirgin fiyat alanında stop/trigger emirlerinin kümelenme ihtimali.\nLiquidity run Likidite seviyesi aşıldıktan sonra yeni alanda kabul ve devam oluşması.\nLiquidity sweep Seviye ötesindeki emirler tetiklendikten sonra fiyatın eski yapıya dönmesi; grab’a göre daha geniş süreç \nolabilir.\nLiquidity void Fiyatın az overlap ve güçlü momentumla hızlı geçtiği ince alan.\nSSL Belirgin diplerin altında tetiklenmesi beklenen satış yönlü emir kümeleri.\nTablo 5.18 – Bölüm 5 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Piyasa likiditesi ile grafikteki likidite adayı arasındaki fark nedir?\n2. Limit, market ve stop emirleri likiditeyi nasıl farklı biçimde etkiler?\n3. Bir tepenin üzerindeki BSL tetiklendiğinde ilk emir akışı neden alış yönlüdür?\n4. BSL tetiklenmesi neden fiyatın yükselmeye devam edeceğini garanti etmez?\n5. Major swing ile minor iç pivotun likidite ağırlığı nasıl ayrılır?\n6. Equal highs/lows neden stop kümelenmesi adayıdır?\n7. Inducement terimi neden kesin kurum niyeti olarak kullanılmamalıdır?\n8. Stop hunt yorumunda hangi veriler gözlenebilir, hangileri spekülasyondur?\n9. Liquidity grab, sweep ve run kapanış/takip bakımından nasıl ayrılır?\n10. Liquidity pool ile liquidity void arasındaki temel fark nedir?\n11. Displacement kalitesini hangi beş ölçütle değerlendirirsiniz?\n12. Bullish ve bearish FVG sınırları nasıl çizilir?\n13. FVG’nin tam dolması neden otomatik ters trend sinyali değildir?\n14. FVG, order block ve supply–demand zone hangi görevlerde ayrılır?\n15. Common, breakaway, runaway ve exhaustion gap trend konumuna göre nasıl ayrılır?\n16. Klasik gap ile FVG arasındaki en temel geometrik fark nedir?\n17. Bir likidite seviyesi için örnek koşullu analiz cümlesi kurabilir misiniz?\nBölüm 5 tamamlandı\nArtık önemli bölgelerin çevresinde olası emir kümelerini, seviye aşımının reddedilip reddedilmediğini, \ndisplacement ve FVG’nin kalitesini ve gerçek fiyat gap’lerinin trend içindeki görevini ayırabilirsiniz. Bölüm 6, bu \nyapı ve bağlam bilgisinin üzerine mum ve grafik formasyonlarını yerleştirecektir.",
+    "source_extract_summary": [
+      "Terim Tanım External liquidity Seçilen ana yapının dışındaki major ekstrem çevresindeki likidite adayı.",
+      "FVG Üç mumda birinci ve üçüncü mum wick aralıklarının örtüşmediği fiyat alanı.",
+      "Gap fill Fiyatın klasik gap veya işaretli dengesizlik alanına geri dönerek alanı işlemesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  }
+]

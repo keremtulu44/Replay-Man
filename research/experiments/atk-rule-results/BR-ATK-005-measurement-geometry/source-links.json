@@ -1,0 +1,493 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0167",
+    "page": 167,
+    "chapter": 9,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü \nHareketler\nPullback derinliği, hedef projection, dalga haritası ve koşullu uygulama",
+    "source_extract_summary": [
+      "BÖLÜM 9 Fibonacci, Elliott Wave ve Ölçülü Hareketler Pullback derinliği, hedef projection, dalga haritası ve koşullu uygulama"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0168",
+    "page": 168,
+    "chapter": 9,
+    "section": "9.1 — Ölçmek, Tahmin Etmemek",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  153\nBu Bölümün Amacı\nGrafikte iyi bir impulse gördüğümde iki temel soru sorarım: “Pullback ne kadar derinleşti?” ve \n“Hareket devam ederse hangi fiyat alanları hedef olabilir?” Fibonacci ve ölçülü hareket araçları bu \nsoruları sayısallaştırır. Elliott Wave ise hareketi motive ve corrective aşamalar hâlinde sınıflandırarak \nolası yol haritası kurar. Bu araçların hiçbiri geleceği garanti etmez; görevleri, fiyatın verdiği kanıtı \ndüzenlemek ve senaryoyu ölçülebilir hâle getirmektir.\nBÖLÜM SONUNDA\nDoğru impulse’u seçebilecek, Fibonacci retracement ve extension’ı tutarlı anchor’larla çizebilecek, \ngolden zone/pocket kavramlarını eleştirel okuyabilecek, measured move hedeflerini \nsınıflandırabilecek ve Elliott count’u kural–alternatif–geçersizlik düzeniyle kullanabileceksiniz.\nUygulama Görseli 9.1 – XAGTRYG günlük grafikte impulse, pullback, Fib alanı ve yapı hedeflerinin birlikte \ngösterildiği bölüm açılış grafiği. Temsilî eğitim şeması.\n9.1 Ölçmek, Tahmin Etmemek\nFibonacci retracement (pullback derinliğini ölçme), Fibonacci extension (önceki impulse’u pullback \nsonundan hedefe projekte etme) ve measured move (önceki hareket boyunu yeni başlangıçtan \nkopyalama) aynı amaca hizmet etmez. İlk adımım, çözmek istediğim soruyu açıkça yazmaktır. Giriş \nalanı mı arıyorum, hedef mi projekte ediyorum, yoksa dalga dizisini mi sınıflandırıyorum?\nAraç Sorduğum soru Çıktı\nFib retracement Pullback, ölçülen impulse’un \nne kadarını geri aldı?\n0–1 arasında derinlik oranları.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Grafikte iyi bir impulse gördüğümde iki temel soru sorarım: “Pullback ne kadar derinleşti?” ve “Hareket devam ederse hangi fiyat alanları hedef olabilir?” Fibonacci ve ölçülü hareket araçları bu soruları sayısallaştırır.",
+      "Elliott Wave ise hareketi motive ve corrective aşamalar hâlinde sınıflandırarak olası yol haritası kurar.",
+      "Bu araçların hiçbiri geleceği garanti etmez; görevleri, fiyatın verdiği kanıtı düzenlemek ve senaryoyu ölçülebilir hâle getirmektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0169",
+    "page": 169,
+    "chapter": 9,
+    "section": "0.61 — 8 Daha derin pullback ve golden",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  154\nAraç Sorduğum soru Çıktı\nTrend-based extension A–B impulse’u B–C \npullback’inden sonra ne kadar \nuzayabilir?\n1.000, 1.272, 1.618 gibi \nprojection seviyeleri.\nMeasured move Önceki impulse veya yapı \nyüksekliği yeni noktadan \nkopyalanırsa alan neresi?\nEşit hareket / yapı yüksekliği \nhedefi.\nElliott count Hareket motive mi corrective \nmi; hangi kurallar count’u \neliyor?\nBirincil ve alternatif yol \nharitası.\nTablo 9.1 – Ölçüm araçlarının farklı görevleri\nEKRANDA NE ARIYORUM?\n• Grafikte önce swing ve impulse’u çıplak fiyatla belirleyin.\n• Araç eklemeden önce soruyu yazın: derinlik, hedef veya dalga mı?\n• Aynı hareketi çok sayıda Fib çizgisiyle doldurmayın.\n• Çıkan seviyeyi önemli bölge ve yapı ile karşılaştırın.\n• Fiyat teyidi yoksa alanı yalnız “izleme alanı” olarak bırakın.\nDOĞRU BILINEN YANLIŞ\nMit: Fibonacci seviyeleri piyasanın gelecekte nerede döneceğini hesaplar.\nGerçeklik: Araç geçmişte seçtiğiniz iki veya üç fiyat noktası arasındaki oranları gösterir. Dönüş \nihtimali, seviyenin kendisinden değil bağlam ve katılımcı davranışından gelir.\n9.2 Fibonacci Oranları ve Araç Dili\nFibonacci aracındaki 0.382, 0.618 veya 1.618 gibi değerleri “gizemli fiyatlar” olarak değil yüzde olarak \nokurum. 0.382, ölçülen hareketin %38,2’si; 0.618, %61,8’i; 1.618 ise ölçülü hareketin %161,8’idir. 0.5 \nseviyesi yaygın ve faydalı bir midpoint’tir; fakat Fibonacci dizisinden türeyen oran değildir.\nSeviye Eylem tanımı Dikkat\n0.236 Çok sığ pullback’i ölçer. Güçlü trendde görülebilir; tek \nbaşına giriş alanı değildir.\n0.382 Sığ–orta pullback sınırını \nizlerim.\nStructure zone ile örtüşürse \nanlam kazanır.\n0.500 Impulse’un yarısını işaretlerim. Fib dizisi oranı değil, pratik \nmidpoint.\n0.618 Daha derin pullback ve golden \nratio referansı.\n“Kesin dönüş” seviyesi \ndeğildir.",
+    "source_extract_summary": [
+      "Araç Sorduğum soru Çıktı Trend-based extension A–B impulse’u B–C pullback’inden sonra ne kadar uzayabilir?",
+      "1.000, 1.272, 1.618 gibi projection seviyeleri.",
+      "Measured move Önceki impulse veya yapı yüksekliği yeni noktadan kopyalanırsa alan neresi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0170",
+    "page": 170,
+    "chapter": 9,
+    "section": "9.3 — Retracement’ı Doğru Çizmek",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  155\nSeviye Eylem tanımı Dikkat\n0.786 Çok derin pullback’i izlerim. Trend kalitesi ve invalidation \nmesafesi sorgulanır.\n1.000 Ölçülen hareketin eşit kopyası. Measured move projection.\n1.618 Eşit hareketin ötesindeki \nextension alanı.\nKâr alma ve direnç adayı; \nzorunlu hedef değil.\nTablo 9.2 – Fibonacci seviyelerini aksiyona çevirmek\nİLK KULLANIM AKSIYON TANIMLARI\nRetracement: impulse sonrasında fiyatın geri aldığı kısmı ölçün.\nExtension: A–B impulse’unu B–C pullback sonundan ileri projekte edin.\nConfluence: farklı yöntemlerin aynı fiyat bölgesini işaretleyip işaretlemediğini kontrol edin; fakat \naynı swing’den üretilen çizgileri bağımsız kanıt saymayın.\nUygulama Görseli 9.2 – Fib oranlarının yüzde mantığını gösteren basit cetvel ve fiyat hareketi. Temsilî \neğitim şeması.\n9.3 Retracement’ı Doğru Çizmek\nFibonacci retracement’ı çizmeden önce net bir impulse seçerim. Uptrend’de swing low’dan swing \nhigh’a; downtrend’de swing high’dan swing low’a anchor koyarım. Araç yalnız seçtiğim hareketi ölçer. \nYanlış swing seçersem kusursuz çizim bile yanlış soruya cevap verir.",
+    "source_extract_summary": [
+      "Seviye Eylem tanımı Dikkat 0.786 Çok derin pullback’i izlerim.",
+      "Trend kalitesi ve invalidation mesafesi sorgulanır.",
+      "1.000 Ölçülen hareketin eşit kopyası."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0171",
+    "page": 171,
+    "chapter": 9,
+    "section": "9.3 — Retracement’ı Doğru Çizmek",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  156\nŞekil 9.1 – Retracement’ın impulse ve pullback ilişkisi\nWick–wick mi, close–close mı?\nİki yöntem de kullanılır. Wick–wick, hareketin gerçekleşen tam fiyat aralığını; close–close ise \nkapanışlarla kabul edilen aralığı ölçer. Kitabın standardı tek yöntemi evrensel doğru ilan etmek değil, \naynı çalışma içinde yöntemi değiştirmemektir. Kendi piyasanızda replay ile hangisinin daha tutarlı \nçalıştığını test edin.\nEKRANDA NE ARIYORUM?\n• Önce major swing’i, sonra ölçülecek impulse’un başlangıç ve sonunu işaretleyin.\n• Uptrend’de low → high; downtrend’de high → low çizin.\n• Wick–wick veya close–close kararını baştan verin.\n• Pullback başlamadan rastgele küçük mumlara Fib çekmeyin.\n• Çizgiyi uzatın ve alanın gelecekteki fiyatla kesişmesini izleyin.\nDOĞRU BILINEN YANLIŞ\nMit: Grafikte en yakın iki uç noktaya Fib çekmek yeterlidir.\nGerçeklik: Seçilen iki uç nokta aynı impulse’un başlangıç ve bitişi olmalıdır. İç yapıdaki rastgele \nswing’ler farklı bir zaman ölçeğini ölçer ve ana senaryoyu bozar.",
+    "source_extract_summary": [
+      "Wick–wick, hareketin gerçekleşen tam fiyat aralığını; close–close ise kapanışlarla kabul edilen aralığı ölçer.",
+      "Kitabın standardı tek yöntemi evrensel doğru ilan etmek değil, aynı çalışma içinde yöntemi değiştirmemektir.",
+      "Kendi piyasanızda replay ile hangisinin daha tutarlı çalıştığını test edin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı",
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0172",
+    "page": 172,
+    "chapter": 9,
+    "section": "9.4 — Sığ Alan, Golden Zone ve Golden Pocket",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  157\nVAKA ANALIZI — XAGTRYG 4 SAATLIK RETRACEMENT\nXAGTRYG 4 saatlik grafikte 108 TL’den 116 TL’ye güçlü, geniş gövdeli bir impulse oluşuyor. Fiyat \n116 TL’den geri çekilmeye başlıyor.\nSonraki adımlarım:\n1. Önce 108–116 hareketinin gerçekten ana impulse olup olmadığını swing ve BOS ile kontrol \nederim.\n2. Fib retracement’ı 108’den 116’ya çizerim; yöntemimi wick–wick olarak sabitlerim.\n3. 0.382–0.618 arasını tek bir izleme bölgesi olarak renklendiririm.\n4. Bu bölgenin önceki demand, FVG veya kırılan dirençle örtüşüp örtüşmediğine bakarım.\n5. Fiyat bölgeye girse bile bullish kapanış ve takip gelmeden işlem açmam.\nUygulama Görseli 9.3 – XAGTRYG 4H: 108–116 impulse, 0.382–0.618 alanı, demand/FVG kesişimi ve teyit \nmumu. Temsilî eğitim şeması.\n9.4 Sığ Alan, Golden Zone ve Golden Pocket\nTek tek çizgilere odaklanmak yerine üç pratik alan kullanırım. Güçlü trendde 0.382–0.5 sığ alanını, \ndaha normal bir pullback’te 0.5–0.618 golden zone’u (orta–derin geri çekilme alanı), daha dar ve \nderin bir trader konvansiyonu olarak 0.618–0.65 golden pocket’ı izlerim. Bu alanların hiçbiri kendi \nbaşına alış veya satış emri değildir.",
+    "source_extract_summary": [
+      "VAKA ANALIZI — XAGTRYG 4 SAATLIK RETRACEMENT XAGTRYG 4 saatlik grafikte 108 TL’den 116 TL’ye güçlü, geniş gövdeli bir impulse oluşuyor.",
+      "Fiyat 116 TL’den geri çekilmeye başlıyor.",
+      "Önce 108–116 hareketinin gerçekten ana impulse olup olmadığını swing ve BOS ile kontrol ederim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0173",
+    "page": 173,
+    "chapter": 9,
+    "section": "0.78 — 6 ve ötesi Pullback çok derinleştiyse. Trend continuation varsayımını",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  158\nŞekil 9.2 – Sığ alan, golden zone ve golden pocket ayrımı\nAlan Ne zaman dikkat ederim? Ne ararım?\n0.382–0.50 Impulse güçlü, pullback \nmumları küçük ve hacim \ndüşüyorsa.\nKırılan bölgenin korunması, \nhidden divergence veya küçük \nbullish/bearish structure shift.\n0.50–0.618 Golden zone Trend devam ediyor fakat \npullback daha fazla alan \nkazandıysa.\nMajor zone, FVG, role reversal \nve net rejection/engulfing.\n0.618–0.65 Golden pocket Kendi testlerimde bu dar alan \nanlamlı sonuç veriyorsa.\nEk teyit ve yakın invalidation; \n0.65’i matematiksel zorunluluk \nsaymama.\n0.786 ve ötesi Pullback çok derinleştiyse. Trend continuation varsayımını \nyeniden sorgulama ve yapısal \ninvalidation.\nTablo 9.3 – Retracement bölgelerinin koşullu kullanımı\nDOĞRU BILINEN YANLIŞ\nMit: Golden pocket en güçlü ve matematiksel olarak kanıtlanmış Fibonacci bölgesidir.\nGerçeklik: 0.618 Fibonacci oranıdır; 0.65 ise traderlar arasında kullanılan ek bir sınırdır. 0.65 için \nevrensel matematiksel üstünlük varsayılmamalıdır; üstünlük iddiası yalnız kendi verinizle test \nedilebilir.",
+    "source_extract_summary": [
+      "0.382–0.50 Impulse güçlü, pullback mumları küçük ve hacim düşüyorsa.",
+      "Kırılan bölgenin korunması, hidden divergence veya küçük bullish/bearish structure shift.",
+      "0.50–0.618 Golden zone Trend devam ediyor fakat pullback daha fazla alan kazandıysa."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0174",
+    "page": 174,
+    "chapter": 9,
+    "section": "9.5 — Fib Confluence ve Geçersizlik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  159\n9.5 Fib Confluence ve Geçersizlik\nFib seviyesini çizdikten sonra “fiyat buraya gelecek” demem; “fiyat buraya gelirse neyi kontrol \nedeceğim?” diye sorarım. Confluence (aynı alanda farklı tür kanıtların kesişmesi), Fib alanını işlemlik \nhâle getirmez; yalnız dikkat önceliğini artırır.\nKanıt türü Fib alanında olumlu işaret Uyarı\nMarket structure Protected swing korunuyor; \npullback karşı yön BOS \nüretemiyor.\nAna trend swing’i kırılıyor.\nBölge Demand/supply, role reversal \nveya üst zaman zone ile \nörtüşme.\nFib alanı “middle of \nnowhere”.\nLikidite Bölgenin ötesinde sweep ve \nyeniden kabul.\nLikidite run ve yeni alanda \nacceptance.\nPrice action Reaction + momentum close + \nfollow-through.\nYalnız küçük fitil ve devam \nyok.\nHacim/momentum Pullback hacmi zayıf; dönüşte \nkatılım artıyor.\nKarşı yön momentum \nbüyüyor.\nRisk İnvalidation açık, hedefe kadar \ntemiz alan var.\nStop çok geniş veya major \nhedef çok yakın.\nTablo 9.4 – Fib confluence kontrolü\nEKRANDA NE ARIYORUM?\n• Fib alanını zone, FVG ve swing’lerle üst üste getirin.\n• Fiyat alana yaklaşırken momentumun hızlanıp hızlanmadığını izleyin.\n• Sweep varsa yeniden bölge içine kapanış bekleyin.\n• İnvalidation’ı Fib çizgisinden değil yapıdan belirleyin.\n• Hedefi extension’dan önce karşıdaki major bölgeyle sınayın.\nVAKA ANALIZI — BEARISH FVG + GOLDEN ZONE\nGünlük downtrend’de fiyat yeni lower low üretiyor ve düşüş impulse’u bearish FVG bırakıyor. \nPullback, 0.50–0.618 golden zone ile FVG’nin kesiştiği alana ulaşıyor.\nSonraki adımlarım:\n1. Alanı doğrudan short emri olarak görmem; yalnız yüksek öncelikli izleme alanı yaparım.\n2. Pullback’in higher high üretip ana bearish yapıyı bozup bozmadığını kontrol ederim.\n3. Alana gelen mumlarda bullish momentumun zayıflamasını ve rejection/engulfing ararım.\n4. Bearish close ve takip oluşursa senaryoyu aktive ederim.\n5. İnvalidation’ı FVG üstündeki kabul veya protected high kırılımıyla yazarım.",
+    "source_extract_summary": [
+      "9.5 Fib Confluence ve Geçersizlik Fib seviyesini çizdikten sonra “fiyat buraya gelecek” demem; “fiyat buraya gelirse neyi kontrol edeceğim?” diye sorarım.",
+      "Confluence (aynı alanda farklı tür kanıtların kesişmesi), Fib alanını işlemlik hâle getirmez; yalnız dikkat önceliğini artırır.",
+      "Kanıt türü Fib alanında olumlu işaret Uyarı Market structure Protected swing korunuyor; pullback karşı yön BOS üretemiyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Konum ve seviye yaşam döngüsü",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0175",
+    "page": 175,
+    "chapter": 9,
+    "section": "1.00 — 0 seviyesi eşit measured move’u, 1.618 ise daha uzun extension’ı gösterir.",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  160\nUygulama Görseli 9.4 – Downtrend’de golden zone + bearish FVG + supply kesişimi, rejection ve \ninvalidation. Temsilî eğitim şeması.\n9.6 Fibonacci Extension: Hedefi Projeksiyon \nOlarak Çizmek\nTrend-based Fibonacci extension (A–B impulse’unu B–C pullback sonundan ileri taşıma) üç anchor \nkullanır. Uptrend’de A swing low, B swing high, C pullback low’dur. Downtrend’de yön tersine döner. \n1.000 seviyesi eşit measured move’u, 1.618 ise daha uzun extension’ı gösterir.",
+    "source_extract_summary": [
+      "Uygulama Görseli 9.4 – Downtrend’de golden zone + bearish FVG + supply kesişimi, rejection ve invalidation.",
+      "9.6 Fibonacci Extension: Hedefi Projeksiyon Olarak Çizmek Trend-based Fibonacci extension (A–B impulse’unu B–C pullback sonundan ileri taşıma) üç anchor kullanır.",
+      "Uptrend’de A swing low, B swing high, C pullback low’dur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0176",
+    "page": 176,
+    "chapter": 9,
+    "section": "2.61 — 8 Çok uzamış projection. Düşük olasılıklı/uzak alan; kâr",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  161\nŞekil 9.3 – Fibonacci extension’ın üç anchor mantığı\nSeviye Pratik görev Yönetim notu\n0.786 Eşit hedefe varmadan önce ara \nreaction alanı.\nMajor zone varsa kısmi çıkış \ndüşünülebilir.\n1.000 A–B impulse’unun C’den eşit \nkopyası.\nBirinci measured-move hedefi.\n1.272 Eşit hareketin ötesindeki orta \nextension.\nTrend gücü ve boş alan \ngerekir.\n1.618 Güçlü devam veya price \ndiscovery hedef adayı.\nKesin fiyat değil; volatilite ve \nstructure ile yönetilir.\n2.618 Çok uzamış projection. Düşük olasılıklı/uzak alan; kâr \nbeklentisini şişirmemeli.\nTablo 9.5 – Extension seviyelerinin koşullu görevi\nEKRANDA NE ARIYORUM?\n• A–B impulse’unu seçin.\n• C pullback sonunu, fiyat gerçekten yön değiştirince belirleyin.\n• 1.000 ve 1.618’i ilk projection alanları olarak işaretleyin.\n• Aradaki major resistance/support bölgelerini öne alın.\n• Fiyat hız kaybederse hedefe körü körüne bağlı kalmayın.\nDOĞRU BILINEN YANLIŞ\nMit: 1.618 seviyesi fiyatın kesin olarak ulaşacağı ana hedeftir.\nGerçeklik: 1.618 yalnız oran projection’ıdır. Trend zayıflayabilir, önünde major supply/demand \nbulunabilir veya piyasa 1.000 civarında tamamlanabilir.",
+    "source_extract_summary": [
+      "Major zone varsa kısmi çıkış düşünülebilir.",
+      "1.000 A–B impulse’unun C’den eşit kopyası.",
+      "1.272 Eşit hareketin ötesindeki orta extension."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0177",
+    "page": 177,
+    "chapter": 9,
+    "section": "9.7 — Measured Move: Önceki Hareketi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  162\n9.7 Measured Move: Önceki Hareketi \nKopyalamak\nMeasured move (önceki hareket boyunu yeni başlangıçtan kopyalama), Fibonacci’siz de uygulanabilir. \nBir trend impulse’unun uzunluğunu ölçer, pullback sonundan aynı mesafeyi projekte ederim. Aynı \nprensip bayrak direği, range yüksekliği veya formasyon boyu için de kullanılır; fakat ölçülen nesnelerin \nbirbirinden farklı olduğunu yazarım.\nŞekil 9.4 – Trend impulse ve range yüksekliği projection’ı\nMeasured move türü Başlangıç ölçümü Projection başlangıcı\nTrend impulse equality Önceki swing low–high / high–\nlow impulse.\nSonraki pullback’in \ntamamlandığı swing.\nFlag/pennant pole Formasyon öncesindeki hızlı \ndirek hareketi.\nFormasyon kırılım noktası.\nRange height Range üst ve alt sınırı \narasındaki yükseklik.\nKabul edilmiş breakout sınırı.\nDouble top/bottom Tepe/dip ile neckline \narasındaki dikey mesafe.\nNeckline kırılım alanı.\nOBO/TOBO Baş ile neckline arasındaki \nyükseklik.\nOnaylanmış neckline kırılımı.\nTablo 9.6 – Ölçülü hareket türleri\nEYLEM DILI\nÖlçümü kopyalayın, hedef alanını işaretleyin, sonra bu alanın önündeki major bölgeyi ve \nvolatiliteyi kontrol edin. Projection, “fiyat mutlaka burada durur” demek değildir.",
+    "source_extract_summary": [
+      "9.7 Measured Move: Önceki Hareketi Kopyalamak Measured move (önceki hareket boyunu yeni başlangıçtan kopyalama), Fibonacci’siz de uygulanabilir.",
+      "Bir trend impulse’unun uzunluğunu ölçer, pullback sonundan aynı mesafeyi projekte ederim.",
+      "Aynı prensip bayrak direği, range yüksekliği veya formasyon boyu için de kullanılır; fakat ölçülen nesnelerin birbirinden farklı olduğunu yazarım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0178",
+    "page": 178,
+    "chapter": 9,
+    "section": "9.8 — Range, Formasyon ve Structure Projection",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  163\n9.8 Range, Formasyon ve Structure Projection\nAynı grafikte birden fazla hedef yöntemi farklı fiyatlar gösterebilir. Ben hedefleri “tek doğru fiyat” \nseçmek için değil, bir hedef kümesi oluşturmak için kullanırım. En yakın structure liquidity, formasyon \nprojection’ı, 1.000 measured move ve 1.618 extension birbirine yakınsa alanın önemi artabilir; fakat \nhepsi aynı swing geometrisinden türemişse bağımsız dört kanıt değildir.\nHedef katmanı Öncelik Neden?\nKarşıdaki major zone / liquidity Yüksek Gerçek fiyat yapısı ve emir \ndavranışıyla bağlantılı.\nProtected/weak swing hedefi Yüksek Trend yapısının doğal sonraki \nsınırı.\nPattern/range measured target Orta Yapının yüksekliğine dayalı \nprojection.\nFib 1.000 / 1.618 Orta Oran tabanlı objective alan.\nSabit R:R Risk planı Fiyatın doğal hedefinden \nbağımsız yönetim standardı; \nBölüm 13’te ayrıntı.\nTablo 9.7 – Hedef katmanlarının önceliği\nDOĞRU BILINEN YANLIŞ\nMit: Birden fazla hedef aynı noktayı gösterirse işlem kesinleşir.\nGerçeklik: Kesişim önemi artırabilir; fakat aynı hareketten hesaplanan araçlar korelasyonlu kanıttır. \nHedefe ulaşma olasılığını giriş kalitesi, trend, volatilite ve ara bölgeler belirler.\nVAKA ANALIZI — RANGE BREAKOUT HEDEFI\nXAGTRYG 1 saatlik grafikte 112–116 TL arasında dört gün süren range, 116 TL üzerinde yüksek \nhacimli kapanışla kırılıyor.\nSonraki adımlarım:\n1. Range yüksekliğini 4 TL olarak ölçer ve 116 üzerine projekte ederek 120 TL alanını işaretlerim.\n2. Breakout öncesi impulse ve pullback varsa Fib extension 1.000 alanını ayrıca çizerim.\n3. İki projection 119.5–120.5 arasında kümeleniyorsa burayı hedef bölgesi yaparım.\n4. 118.5 civarında üst zaman resistance varsa ilk kâr yönetimini orada planlarım.\n5. Fiyat 116 altına geri kabul olursa measured target’ı geçersiz sayarım.",
+    "source_extract_summary": [
+      "9.8 Range, Formasyon ve Structure Projection Aynı grafikte birden fazla hedef yöntemi farklı fiyatlar gösterebilir.",
+      "Ben hedefleri “tek doğru fiyat” seçmek için değil, bir hedef kümesi oluşturmak için kullanırım.",
+      "En yakın structure liquidity, formasyon projection’ı, 1.000 measured move ve 1.618 extension birbirine yakınsa alanın önemi artabilir; fakat hepsi aynı swing geometrisinden türemişse bağımsız dört kanıt değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0179",
+    "page": 179,
+    "chapter": 9,
+    "section": "9.9 — Elliott Wave Bir Yol Haritasıdır",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  164\nUygulama Görseli 9.5 – XAGTRYG 1H range breakout, range-height projection, Fib 1.000 ve ara resistance. \nTemsilî eğitim şeması.\n9.9 Elliott Wave Bir Yol Haritasıdır\nElliott Wave count (olası dalga sırasını etiketleme), grafiği kesin geleceğe kilitlemek için değil motive \nve corrective evreleri ayırmak için kullanılır. Önce formu, sonra kuralları, sonra oranları kontrol \nederim. Canlı sayım geriye dönük örnekten çok daha zordur ve iki analist aynı grafikte kuralları \nbozmadan farklı count üretebilir.\nKULLANIM STANDARDI\nGrafiğe tek bir count yazıp ona âşık olmayın. Birincil count, alternatif count ve ikisini geçersiz kılan \nfiyat olayını birlikte not edin.\nEKRANDA NE ARIYORUM?\n• Major swing ölçeğini seçin.\n• Trend yönündeki impulse’ları ve karşı yön pullback’leri sayın.\n• Önce beşli motive / üçlü corrective olasılığını kontrol edin.\n• Zorunlu kuralları ihlal eden count’u silin.\n• Alternatif count için ayrı invalidation seviyesi yazın.\nDOĞRU BILINEN YANLIŞ\nMit: Elliott Wave kurallarını öğrenince piyasadaki bütün dalgalar tek doğru sayımla görülebilir.\nGerçeklik: Kurallar bazı count’ları eler; fakat karmaşık ve fractal yapıda birden fazla geçerli yorum \nkalabilir. Sistem bir yol haritasıdır, holy grail değildir.",
+    "source_extract_summary": [
+      "Uygulama Görseli 9.5 – XAGTRYG 1H range breakout, range-height projection, Fib 1.000 ve ara resistance.",
+      "9.9 Elliott Wave Bir Yol Haritasıdır Elliott Wave count (olası dalga sırasını etiketleme), grafiği kesin geleceğe kilitlemek için değil motive ve corrective evreleri ayırmak için kullanılır.",
+      "Önce formu, sonra kuralları, sonra oranları kontrol ederim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0180",
+    "page": 180,
+    "chapter": 9,
+    "section": "9.10 — 5–3 Yapısı ve Fractal Piyasa",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  165\n9.10 5–3 Yapısı ve Fractal Piyasa\nTemel Elliott modelinde motive wave (ana trend yönündeki beş dalgalı ilerleme) 1–2–3–4–5; \ncorrective wave (önceki motive harekete karşı düzeltme) A–B–C olarak etiketlenir. Aynı hareket daha \nküçük zaman diliminde alt dalgalara, daha büyük zaman diliminde ise tek bir dalgaya dönüşebilir. Bu \nfractal yapı, count’un zaman dilimi belirtilmeden anlamlı olmadığını gösterir.\nŞekil 9.5 – Elliott 5–3 temel modeli\nDalga Tipik görev Psikoloji / fiyat davranışı\n1 Yeni motive hareketin ilk \nimpulse’u.\nŞüphe içinde başlar; eski \ntrendin tepki hareketi \nsanılabilir.\n2 Wave 1 pullback’i. Eski trendin döndüğü korkusu; \nbaşlangıcı aşamaz.\n3 En güçlü recognition \nimpulse’u.\nKatılım ve momentum artar; \nen kısa olamaz.\n4 Wave 3 sonrası düzeltme. Kâr realizasyonu ve \nkonsolidasyon; standart \nimpulse’ta wave 1 alanına \ngirmez.\n5 Son motive impulse. Euphoria ve momentum \ndivergence riski.",
+    "source_extract_summary": [
+      "9.10 5–3 Yapısı ve Fractal Piyasa Temel Elliott modelinde motive wave (ana trend yönündeki beş dalgalı ilerleme) 1–2–3–4–5; corrective wave (önceki motive harekete karşı düzeltme) A–B–C olarak etiketlenir.",
+      "Aynı hareket daha küçük zaman diliminde alt dalgalara, daha büyük zaman diliminde ise tek bir dalgaya dönüşebilir.",
+      "Bu fractal yapı, count’un zaman dilimi belirtilmeden anlamlı olmadığını gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0181",
+    "page": 181,
+    "chapter": 9,
+    "section": "9.11 — Temel Elliott Kuralları: Count’u Önce Ele",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  166\nDalga Tipik görev Psikoloji / fiyat davranışı\nA–B–C Motive harekete karşı \ncorrection.\nA ilk kırılma, B geçici umut, C \ndüzeltmenin tamamlanma \nadayı.\nTablo 9.8 – Dalga görevleri ve davranış dili\nEKRANDA NE ARIYORUM?\n• Count’un hangi zaman dilimine ait olduğunu başlığa yazın.\n• Wave 1–3–5’i trend yönündeki ilerlemeler olarak arayın.\n• Wave 2–4’ü aynı derecedeki pullback’ler olarak karşılaştırın.\n• A–B–C correction’ı ana motive dalgadan ayrı renklendirin.\n• Alt zaman gürültüsünü count’a zorla eklemeyin.\nUygulama Görseli 9.6 – Haftalık motive dalganın günlük alt dalgalara ayrıldığı fractal örnek. Temsilî eğitim \nşeması.\n9.11 Temel Elliott Kuralları: Count’u Önce Ele\nElliott analizinde oranlardan önce invalidation kuralları gelir. Bir count kuralı bozuyorsa “ama 0.618’e \nuydu” diyerek kurtarılmaz. Aşağıdaki kurallar standart impulse yapısı için count eleme filtresidir.",
+    "source_extract_summary": [
+      "Dalga Tipik görev Psikoloji / fiyat davranışı A–B–C Motive harekete karşı correction.",
+      "A ilk kırılma, B geçici umut, C düzeltmenin tamamlanma adayı.",
+      "• Count’un hangi zaman dilimine ait olduğunu başlığa yazın."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0182",
+    "page": 182,
+    "chapter": 9,
+    "section": "9.11 — Temel Elliott Kuralları: Count’u Önce Ele",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  167\nŞekil 9.6 – Temel Elliott count kuralları\nKural Grafikte yaptığım kontrol İhlal olduğunda\nWave 2, wave 1 başlangıcını \naşamaz.\nWave 2 low/high ile wave 1 \nbaşlangıcını karşılaştırırım.\nCount iptal; farklı degree veya \ncorrective yapı ararım.\nWave 3 en kısa impulse \nolamaz.\nWave 1, 3 ve 5 fiyat \nmesafesini karşılaştırırım.\nEtiketleme veya extension \ncount’u yeniden \ndeğerlendirilir.\nWave 3, wave 1 sonunu \naşmalıdır.\nWave 3 close/ilerleme wave 1 \nuç noktasının ötesinde mi?\nMotive continuation iddiası \nzayıflar.\nWave 4, standart impulse’ta \nwave 1 alanına giremez.\nWave 4 pullback’i wave 1 fiyat \naralığına giriyor mu?\nCount invalid; diagonal \nistisnası açıkça test edilir.\nMotive yapı beş alt dalgadır. Aynı degree’de 1–2–3–4–5 \ndizisi var mı?\nÜçlü/karmaşık correction \nolasılığına geçilir.\nTablo 9.9 – Zorunlu kural ve invalidation\nDOĞRU BILINEN YANLIŞ\nMit: Elliott’ta bütün oranlar ve şekiller değişmez kuraldır.\nGerçeklik: Wave 2 başlangıcı, wave 3 en kısa olamaz ve standart wave 4 overlap gibi koşullar \ninvalidation kuralıdır. 0.618, alternation veya wave 1=5 ise tipik beklentidir; her zaman \ngerçekleşmek zorunda değildir.",
+    "source_extract_summary": [
+      "Wave 2 low/high ile wave 1 başlangıcını karşılaştırırım.",
+      "Count iptal; farklı degree veya corrective yapı ararım.",
+      "Wave 1, 3 ve 5 fiyat mesafesini karşılaştırırım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Deney ve strateji kartı",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0183",
+    "page": 183,
+    "chapter": 9,
+    "section": "9.12 — Extension, Truncation, Alternation ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  168\n9.12 Extension, Truncation, Alternation ve \nEquality\nGerçek piyasa çoğu zaman eşit boyda beş temiz zikzak üretmez. Extension (impulse dalgasının kendi \nalt beşli yapısına ayrılıp olağan dışı uzaması), truncation (wave 5’in wave 3 ucunu aşamaması), \nalternation (wave 2 ve 4’ün biçim/derinlik bakımından farklılaşması) ve equality (özellikle wave 3 \nuzadığında wave 1 ile 5’in benzer boy üretmesi) bu farklılıkları sınıflandırır.\nKavram Ekranda ne ararım? Mesaj\nWave extension Genellikle wave 3 içinde güçlü, \nalt beşli impulse ve artan \nmomentum.\nTrend güçlü; count degree’sini \nkarıştırmama.\nTruncation Wave 5, wave 3 extreme’ini \naşamıyor; momentum \ndivergence oluşuyor.\nTrend exhaustion ve reversal \nriski.\nAlternation Wave 2 keskin ise wave 4 \nyatay/karmaşık; veya tersi.\nİki pullback’in birebir aynı \ngörünmesini beklememe.\nEquality Wave 3 uzamışsa wave 1 ve \nwave 5 benzer uzunlukta.\nMeasured move ile wave 5 \nprojection alanı.\nTablo 9.10 – Gelişmiş Elliott davranışları\nEKRANDA NE ARIYORUM?\n• Wave 3 olağan dışı uzunsa alt degree count’u kontrol edin.\n• Wave 5 yeni extreme yapamıyorsa truncation ve divergence arayın.\n• Wave 2 ile 4’ün derinlik ve süre karakterini karşılaştırın.\n• Equality’yi kural değil hedef projection adayı olarak kullanın.\n• Ana structure kırılmadan yalnız divergence ile ters işlem açmayın.\nVAKA ANALIZI — WAVE 5 TRUNCATION UYARISI\nGünlük yükselişte wave 3 güçlü hacim ve momentumla yeni tepe yapıyor. Wave 4 yatay düzeltme \nsonrası fiyat tekrar yükseliyor; ancak wave 5 adayı wave 3 tepesini aşamıyor ve RSI lower high \nüretiyor.\nSonraki adımlarım:\n1. Wave 5 etiketini kesinleştirmem; truncation adayı olarak yazarım.\n2. Protected low kırılmadan ana trend dönüşü ilan etmem.\n3. Mevcut long pozisyonda kâr yönetimini sıkılaştırırım.\n4. Wave 4 low altında close gelirse A dalgası olasılığını güçlendiririm.\n5. Alternatif count olarak uzayan wave 3 alt dalgası ihtimalini de açık tutarım.",
+    "source_extract_summary": [
+      "9.12 Extension, Truncation, Alternation ve Equality Gerçek piyasa çoğu zaman eşit boyda beş temiz zikzak üretmez.",
+      "Extension (impulse dalgasının kendi alt beşli yapısına ayrılıp olağan dışı uzaması), truncation (wave 5’in wave 3 ucunu aşamaması), alternation (wave 2 ve 4’ün biçim/derinlik bakımından farklılaşması) ve equality (özellikle wave 3 uzadığında wave 1 ile 5’in benzer boy üretmesi) bu farklılıkları sınıflandırır.",
+      "Mesaj Wave extension Genellikle wave 3 içinde güçlü, alt beşli impulse ve artan momentum."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kuralı önceden tanımlanmış konum/geometri adayları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0184",
+    "page": 184,
+    "chapter": 9,
+    "section": "9.13 — Corrective Şekiller ve Diagonaller",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  169\nUygulama Görseli 9.7 – Wave 3 tepe, yatay wave 4, başarısız wave 5, RSI/MACD divergence ve protected \nlow. Temsilî eğitim şeması.\n9.13 Corrective Şekiller ve Diagonaller\nCorrective hareketler tek bir A–B–C zikzak şeklinde olmak zorunda değildir. Zigzag daha yönlü ve \nkeskin; flat daha yatay; triangle ise çoğunlukla A–B–C–D–E sıkışmasıdır. Leading/ending diagonal \n(wedge benzeri motive yapı) wave 1 veya wave 5 gibi konumlarda görülebilir ve standart wave 1–4 \noverlap kuralının tanımlı istisnasıdır.\nŞekil Tanıma aksiyonu Risk\nZigzag A ve C yönlü, B sınırlı tepki; \ncorrection net mesafe alır.\nAlt dalga sayısını zorlamak.\nFlat A–B–C yatay alanda kalır; B \neski extreme’e yaklaşabilir.\nRange’i motive trend sanmak.\nTriangle A–B–C–D–E sıkışması; sınırlar \ndaralır veya genişler.\nKırılım yönünü önceden \nkesinleştirmek.\nLeading diagonal Yeni motive hareketin wave 1 \nbaşlangıcında wedge benzeri \nbeşli yapı.\nHer wedge’i diagonal \netiketlemek.\nEnding diagonal Wave 5/C sonunda sıkışan \nilerleme ve divergence.\nStructure teyidi olmadan \nhemen reversal açmak.\nCombination Birden fazla corrective şeklin \nbağlanması.\nCanlı grafikte aşırı karmaşık \ncount üretmek.",
+    "source_extract_summary": [
+      "Uygulama Görseli 9.7 – Wave 3 tepe, yatay wave 4, başarısız wave 5, RSI/MACD divergence ve protected low.",
+      "9.13 Corrective Şekiller ve Diagonaller Corrective hareketler tek bir A–B–C zikzak şeklinde olmak zorunda değildir.",
+      "Zigzag daha yönlü ve keskin; flat daha yatay; triangle ise çoğunlukla A–B–C–D–E sıkışmasıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0185",
+    "page": 185,
+    "chapter": 9,
+    "section": "9.14 — Elliott + Fibonacci + Alternatif Count",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  170\nTablo 9.11 – Corrective şekiller ve diagonal\nDOĞRU BILINEN YANLIŞ\nMit: Correction mutlaka temiz A–B–C ve üç hareketten oluşur.\nGerçeklik: A–B–C dış etiketleme altında zigzag, flat, triangle veya kombinasyonlar bulunabilir. \nPratikte dış structure’ı doğru okumak, her alt dalgayı etiketlemekten daha değerlidir.\n9.14 Elliott + Fibonacci + Alternatif Count\nElliott count’u kurduktan sonra Fibonacci oranlarını count’u “kanıtlamak” için değil olasılığı sınamak \niçin eklerim. Wave 2 için 0.5–0.618, wave 4 için yaklaşık 0.382; wave 3 için wave 1’in 1.618 extension’ı \nve wave 5 için wave 1 equality sık görülen ilişkiler olarak kullanılabilir. Bunlar tipik davranıştır, zorunlu \nkural değildir.\nİlişki Tipik oran / ölçüm Kullanım\nWave 2 / Wave 1 0.50–0.618 retracement Derin ilk pullback alanı; wave 1 \nbaşlangıcı invalidation.\nWave 4 / Wave 3 Yaklaşık 0.382 retracement Daha sığ pullback beklentisi; \nwave 1 overlap kuralı.\nWave 3 / Wave 1 1.618 extension sık görülür Recognition impulse hedef \nalanı.\nWave 5 / Wave 1 Equality veya extension Wave 3 uzadıysa measured \nmove adayı.\nCorrective C / A Equality veya extension A–B–C target projection; \nmajor zone ile sınanır.\nTablo 9.12 – Elliott–Fibonacci tipik ilişkileri\nAlternatif count tablosu nasıl tutulur?\nAlan Birincil count Alternatif count\nMevcut etiket Wave 4 tamamlandı, wave 5 \nbaşladı.\nHareket wave 3’ün iç alt \ndalgası.\nBeklenen fiyat davranışı Yeni high, fakat momentum \nwave 3’ten zayıf olabilir.\nGüçlü acceleration ve \ngenişleme devam eder.\nGeçersizlik Wave 4 low altında kabul. Alt dalga başlangıcının \nkırılması.\nFib alanı Wave 5 = wave 1 / 1.618 \nseçenekleri.\nWave 3 extension seviyeleri.\nTeyit Price action, volume, \ndivergence ve structure.\nAynı veriyle farklı senaryo \nkıyaslaması.",
+    "source_extract_summary": [
+      "Gerçeklik: A–B–C dış etiketleme altında zigzag, flat, triangle veya kombinasyonlar bulunabilir.",
+      "Pratikte dış structure’ı doğru okumak, her alt dalgayı etiketlemekten daha değerlidir.",
+      "9.14 Elliott + Fibonacci + Alternatif Count Elliott count’u kurduktan sonra Fibonacci oranlarını count’u “kanıtlamak” için değil olasılığı sınamak için eklerim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0186",
+    "page": 186,
+    "chapter": 9,
+    "section": "9.15 — Tam Ölçüm ve Dalga Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  171\nTablo 9.13 – Birincil ve alternatif count kaydı\nEKRANDA NE ARIYORUM?\n• Count’u önce kurallarla test edin.\n• Sonra retracement/extension oranlarını ekleyin.\n• Oran uyumsuzsa count’u otomatik silmeyin; tipik beklenti olduğunu hatırlayın.\n• Birincil ve alternatif count’un invalidation seviyesini ayrı yazın.\n• Fiyat teyidi gelmeden dalga etiketini işlem emrine çevirmeyin.\nDOĞRU BILINEN YANLIŞ\nMit: Fib oranı count’a uyuyorsa Elliott sayımı doğrudur.\nGerçeklik: Bir oran birçok farklı swing ve count üzerinde görülebilir. Form ve zorunlu kurallar önce, \noran ve zaman ilişkileri sonra gelir.\n9.15 Tam Ölçüm ve Dalga Okuma İş Akışı\nGrafiği ölçüm çizgileriyle doldurmadan önce çıplak fiyat haritasını kurarım. Sonra yalnız çözdüğüm \nsoruya uygun aracı eklerim. Aşağıdaki akış Fibonacci, measured move ve Elliott’ı tek ama sade bir \nsistemde birleştirir.\nŞekil 9.7 – Bölüm 9 bütünleşik iş akışı\n1. Zaman dilimini ve ana market structure’ı yaz: trend, range veya geçiş.\n2. Major swing ve ölçülecek impulse’u belirle.\n3. Giriş alanı arıyorsan retracement; hedef arıyorsan extension/measured move kullan.",
+    "source_extract_summary": [
+      "• Count’u önce kurallarla test edin.",
+      "• Sonra retracement/extension oranlarını ekleyin.",
+      "• Oran uyumsuzsa count’u otomatik silmeyin; tipik beklenti olduğunu hatırlayın."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0187",
+    "page": 187,
+    "chapter": 9,
+    "section": "9.15 — Tam Ölçüm ve Dalga Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  172\n4. Anchor yöntemini tutarlı uygula; çizginin hangi swing’i ölçtüğünü etikete yaz.\n5. Fib seviyelerini tek tek değil sığ, golden ve derin alanlar olarak grupla.\n6. Alanı support/resistance, supply–demand, FVG, liquidity ve hacimle karşılaştır.\n7. Fiyat alana geldiğinde close, follow-through ve micro structure teyidi bekle.\n8. Hedefleri major zone → weak/protected swing → measured target → extension sırasıyla kıyasla.\n9. Elliott kullanıyorsan birincil ve alternatif count’u kur; zorunlu kuralları test et.\n10. İnvalidation’ı Fib çizgisinden değil fiyat yapısından yaz.\n11. Senaryoyu replay ve farklı piyasa rejimlerinde test et.\n12. Giriş, stop, pozisyon büyüklüğü ve çıkışı Bölüm 12–13 sistemiyle tamamla.\nÖrnek koşullu analiz cümleleri\n “Günlük yapı yükseliş trendinde. Son impulse’un 0.50–0.618 alanı önceki breakout zone \nve bullish FVG ile örtüşüyor. Fiyat alanda bullish close ve takip üretirse continuation \nsenaryosu aktif olur; protected low altında kabul senaryoyu geçersiz kılar.”\n “Range üstü breakout sonrası range yüksekliği 120 TL, Fib 1.000 hedefi 119,70 TL \ngösteriyor. Bu küme hedef bölgesidir; 118,40 TL’deki üst zaman resistance nedeniyle \nkısmi yönetim daha önce başlatılır.”\n “Birincil Elliott count wave 4’ün tamamlandığını, alternatif count ise wave 3 içinde alt \ndüzeltme olduğunu söylüyor. Wave 4 low altında close birincil count’u iptal eder; yeni \nhigh ve momentum acceleration alternatif count’u destekler.”\n “Wave 5 adayı yeni high üretirken RSI ve MACD lower high oluşturuyor. Bu divergence \nyalnız exhaustion uyarısıdır; protected low kırılmadan A correction doğrulanmış \ndeğildir.”\nVAKA ANALIZI — BÜTÜNLEŞIK XAGTRYG SENARYOSU\nXAGTRYG günlük grafikte 96 TL’den 112 TL’ye impulse, ardından 104 TL’ye pullback yapıyor. 104 TL \nalanı 0.50 retracement, eski resistance flip ve bullish FVG ile kesişiyor. Fiyat 104 altında kısa sweep \nsonrası 105,20 üzerinde güçlü kapanıyor.\nSonraki adımlarım:\n1. 104–105,20 alanını teyit edilmiş reaction zone olarak kaydederim.\n2. Sweep low altında kabulü invalidation, 112 eski high’ı ilk structure hedefi yaparım.\n3. 96–112 impulse’unu 104 pullback low’dan projekte ederek 1.000 measured move alanını \nhesaplarım.\n4. Önce 112’deki likidite/direnci, sonra extension hedefini yönetim sırasına koyarım.\n5. Elliott count kullanıyorsam hareketi wave 3 adayı olarak yazar, wave 2 başlangıcı olan 96 altını \ncount invalidation olarak korurum.",
+    "source_extract_summary": [
+      "Anchor yöntemini tutarlı uygula; çizginin hangi swing’i ölçtüğünü etikete yaz.",
+      "Fib seviyelerini tek tek değil sığ, golden ve derin alanlar olarak grupla.",
+      "Alanı support/resistance, supply–demand, FVG, liquidity ve hacimle karşılaştır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Konum ve seviye yaşam döngüsü",
+      "Hareket gücü özellik ailesi",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0188",
+    "page": 188,
+    "chapter": 9,
+    "section": "9.15 — Tam Ölçüm ve Dalga Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  173\nUygulama Görseli 9.8 – XAGTRYG daily: impulse, 0.50 retracement, resistance flip, FVG, sweep, target \nhierarchy ve Elliott count. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Uygulama Görseli 9.8 – XAGTRYG daily: impulse, 0.50 retracement, resistance flip, FVG, sweep, target hierarchy ve Elliott count."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kuralı önceden tanımlanmış konum/geometri adayları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0189",
+    "page": 189,
+    "chapter": 9,
+    "section": "1.61 — 8’i zorunlu hedef saymak.",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  174\nHızlı Başvuru\nKavram Eylem En büyük hata\nFib retracement Impulse’u seç, pullback \nderinliğini ölç, alanı teyit et.\nRastgele swing’e çizmek veya \nseviyeden kör giriş.\nGolden zone 0.50–0.618 alanını \nzone/bölgeyle kesiştir.\nKesin dönüş kabul etmek.\nGolden pocket 0.618–0.65’i yalnız test edilmiş \nkonvansiyon olarak kullan.\n0.65’e matematiksel kutsallık \nvermek.\nFib extension A–B–C anchor ile 1.000/1.618 \nhedef alanı çiz.\n1.618’i zorunlu hedef saymak.\nMeasured move Önceki impulse veya yapı \nyüksekliğini kopyala.\nAra major bölgeleri \ngörmezden gelmek.\nElliott count Formu say, kurallarla ele, \nalternatif count yaz.\nTek count’a bağlanmak.\nExtension wave Uzayan impulse’un alt beşli \nyapısını kontrol et.\nDegree’leri karıştırmak.\nTruncation Wave 5 yeni extreme \nyapamazsa exhaustion izle.\nStructure kırılmadan ters \nişlem.\nAlternation Wave 2 ve 4 karakterini kıyasla. İkisini birebir aynı beklemek.\nCorrective shapes Zigzag/flat/triangle dış yapısını \nsınıflandır.\nHer alt dalgayı zorla \netiketlemek.\nTablo 9.14 – Bölüm 9 hızlı başvuru\nGrafik Başı Kontrol Listesi\n Ölçtüğüm swing ve zaman dilimi açık mı?\n Impulse gerçekten yapı sonucu üretti mi?\n Retracement mı, extension mı, measured move mu kullanıyorum?\n Anchor yönü ve wick/close yöntemi tutarlı mı?\n Fib seviyesini çizgi değil bölge olarak mı okuyorum?\n 0.5’in Fibonacci dizisi oranı olmadığını biliyor muyum?\n Golden pocket’ı kendi verimde test ettim mi?\n Fib alanı önemli zone/FVG/liquidity ile örtüşüyor mu?\n Fiyat alanda kapanış ve follow-through üretti mi?\n İnvalidation fiyat yapısına mı bağlı?\n Projection önünde major bölge var mı?\n Hedef yöntemleri aynı swing’den türeyen tekrar kanıt mı?\n Elliott count zorunlu kuralları ihlal ediyor mu?\n Birincil count yanında alternatif count var mı?\n Dalga oranını kural sanıyor muyum?",
+    "source_extract_summary": [
+      "Hızlı Başvuru Kavram Eylem En büyük hata Fib retracement Impulse’u seç, pullback derinliğini ölç, alanı teyit et.",
+      "Rastgele swing’e çizmek veya seviyeden kör giriş.",
+      "Golden zone 0.50–0.618 alanını zone/bölgeyle kesiştir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0190",
+    "page": 190,
+    "chapter": 9,
+    "section": "1.61 — 8’i zorunlu hedef saymak.",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  175\n Canlı sayım ile hindsight kolaylığını ayırıyor muyum?\nTemel Sözlük\nTerim Aksiyon tanımı\nRetracement Impulse sonrasında geri alınan mesafeyi yüzde \nolarak ölçme.\nExtension A–B impulse’unu B–C pullback sonundan ileri \nprojekte etme.\nAnchor Fib aracını swing başlangıç, bitiş ve gerekiyorsa \npullback sonuna sabitleme.\nGolden zone 0.50–0.618 orta–derin pullback izleme alanı.\nGolden pocket 0.618–0.65 dar trader konvansiyonu; 0.65 \nzorunlu oran değildir.\nConfluence Farklı tür kanıtların aynı fiyat bölgesinde \nbuluşması.\nMeasured move Önceki hareket veya yapı yüksekliğini yeni \nbaşlangıçtan kopyalama.\nProjection Kesin tahmin değil, olası hedef alanını ileri \ntaşıma.\nMotive wave Ana trend yönünde beş alt dalgalı ilerleme.\nCorrective wave Motive harekete karşı düzeltme yapısını \nsınıflandırma.\nWave count Olası dalga sırasını aynı degree içinde \netiketleme.\nWave degree Dalganın zaman/ölçek seviyesi.\nExtension wave Bir impulse dalgasının alt beşli yapıyla olağan \ndışı uzaması.\nTruncation Wave 5’in wave 3 extreme’ini aşamaması.\nAlternation Wave 2 ve wave 4’ün biçim veya derinlik \nbakımından farklılaşması.\nEquality İki dalganın benzer fiyat mesafesi üretmesi.\nZigzag Daha keskin, yönlü A–B–C correction.\nFlat Daha yatay A–B–C correction.\nTriangle A–B–C–D–E sıkışma correction’ı.\nDiagonal Wedge benzeri motive yapı ve overlap istisnası.",
+    "source_extract_summary": [
+      " Canlı sayım ile hindsight kolaylığını ayırıyor muyum?",
+      "Temel Sözlük Terim Aksiyon tanımı Retracement Impulse sonrasında geri alınan mesafeyi yüzde olarak ölçme.",
+      "Extension A–B impulse’unu B–C pullback sonundan ileri projekte etme."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0191",
+    "page": 191,
+    "chapter": 9,
+    "section": "1.61 — 8’i zorunlu hedef saymak.",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 9\nFibonacci, Elliott Wave ve Ölçülü Hareketler  •  176\nTablo 9.15 – Bölüm 9 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Fib retracement ve extension hangi farklı soruları yanıtlar?\n2. 0.382 veya 0.618 değeri grafikte neyi yüzde olarak ölçer?\n3. 0.5 seviyesi neden teknik olarak Fibonacci dizisi oranı değildir?\n4. Uptrend ve downtrend’de retracement anchor yönü nasıldır?\n5. Wick–wick ve close–close yöntemleri hangi farklı aralığı ölçer?\n6. Golden zone ve golden pocket arasındaki fark nedir?\n7. Golden pocket neden eleştirel ve test odaklı kullanılmalıdır?\n8. Fib alanı hangi fiyat kanıtlarıyla teyit edilir?\n9. İnvalidation neden doğrudan Fib seviyesine bağlanmamalıdır?\n10. Trend-based extension’ın üç anchor noktası nedir?\n11. 1.000 ve 1.618 extension seviyeleri nasıl yorumlanır?\n12. Measured move ile range-height projection arasındaki fark nedir?\n13. Birden fazla hedef yönteminin kesişmesi neden kesinlik üretmez?\n14. Elliott Wave neden yol haritası olarak kullanılmalıdır?\n15. Motive ve corrective wave arasındaki temel fark nedir?\n16. Fractal yapı wave count’u nasıl etkiler?\n17. Standart impulse için temel invalidation kuralları nelerdir?\n18. Wave extension ile normal uzun impulse nasıl ayrılır?\n19. Truncation hangi zayıflama mesajını verir?\n20. Alternation ve equality neden kural değil tipik beklentidir?\n21. Zigzag, flat ve triangle correction’ları nasıl ayrılır?\n22. Diagonal neden overlap kuralında istisna olabilir?\n23. Elliott count’ta alternatif senaryo nasıl kaydedilir?\n24. Fibonacci oranı neden tek başına wave count’u doğrulamaz?25. Tam ölçüm iş akışında fiyat teyidi hangi aşamada gelir?",
+    "source_extract_summary": [
+      "Fib retracement ve extension hangi farklı soruları yanıtlar?",
+      "0.382 veya 0.618 değeri grafikte neyi yüzde olarak ölçer?",
+      "0.5 seviyesi neden teknik olarak Fibonacci dizisi oranı değildir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  }
+]
