@@ -1,11 +1,9 @@
 {
-  "costs": [
-    0,
-    0.001,
-    0.0025,
-    0.005
+  "common_calendar_boundaries": [
+    "2026-06-24 14:30:00+00:00",
+    "2026-09-03 12:30:00+00:00"
   ],
-  "multiple_testing": "all variants retained; no winner selected on test",
-  "same_bar_target_stop": "ambiguous",
-  "decision": "pooled small edges are cost-sensitive; family contribution must be judged incrementally"
+  "parameter_variants": 106,
+  "volume_gate_in_overlap": true,
+  "status": "acceptance_supplement_generated"
 }

@@ -12,3 +12,10 @@ def test_cilt1_p1_p6_coverage_and_claims():
 
 def test_cilt1_final_unresolved_is_empty():
  b=Path('research/experiments/cilt1-completion'); assert len(list(csv.DictReader((b/'cilt1-unresolved-claims.csv').open())))==0
+
+def test_cilt1_acceptance_supplements_exist():
+ b=Path('research/measurements/cilt1-final-acceptance')
+ required={'parameter_study.csv','mfe_mae_common_calendar.csv','decision_chain_excess.csv','family_ablation.csv','family_signal_correlation.csv','summary.json'}
+ assert required <= {p.name for p in b.iterdir()}
+ summary=json.loads((b/'summary.json').read_text())
+ assert summary['parameter_variants']>=100 and summary['volume_gate_in_overlap'] is True

@@ -16,13 +16,13 @@ def paths():return sorted(DATA.glob('*/*/*/bars/*.csv'))
 def rate(x):x=x.dropna();return float((x>0).mean()) if len(x) else np.nan
 def cross_up(a,b):return (a>b)&(a.shift(1)<=b.shift(1))
 def cross_down(a,b):return (a<b)&(a.shift(1)>=b.shift(1))
-def profile(tp,v,w=60,bins=20):
+def profile(tp,v,w=60,bins=20,value_area=.70):
  n=len(tp);poc=np.full(n,np.nan);lo=np.full(n,np.nan);hi=np.full(n,np.nan)
  for i in range(w-1,n):
   x=tp[i-w+1:i+1];vv=v[i-w+1:i+1];mn=np.nanmin(x);mx=np.nanmax(x)
   if not np.isfinite(mn+mx) or mx<=mn or np.nansum(vv)<=0:continue
   edges=np.linspace(mn,mx,bins+1);idx=np.clip(np.searchsorted(edges,x,side='right')-1,0,bins-1);vol=np.bincount(idx,weights=np.nan_to_num(vv),minlength=bins);cent=(edges[:-1]+edges[1:])/2;j=int(vol.argmax());poc[i]=cent[j]
-  order=np.argsort(np.abs(np.arange(bins)-j));cum=0;chosen=[];target=.7*vol.sum()
+  order=np.argsort(np.abs(np.arange(bins)-j));cum=0;chosen=[];target=value_area*vol.sum()
   for z in order:chosen.append(z);cum+=vol[z];
   # En yakın POC-merkezli binleri hedefe ulaşana dek seç.
   cum=0;chosen=[]

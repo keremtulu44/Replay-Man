@@ -1,28 +1,18 @@
 {
   "audit_date": "2026-11-14",
-  "status": "conditional_gap_found",
-  "completed_artifacts": {
-    "pages": 139,
-    "atomic_claims": 403,
-    "rules": 22,
-    "measured_events_p2_p9": 3140304,
-    "unresolved_rows": 0,
-    "blank_dispositions": 0,
-    "claims_without_rule": 0,
-    "missing_rule_ids": 0,
-    "missing_result_directories": 0,
-    "software_tests": "66 passed",
-    "knowledge_audit": "passed",
-    "ohlcv_audit": "passed"
-  },
-  "acceptance_gaps": [
-    "parameter_neighbourhood_tables_missing",
-    "mfe_mae_missing",
-    "common_calendar_split_missing",
-    "decision_chain_xu100_excess_marginal_contribution_missing",
-    "family_return_correlation_and_ablation_missing",
-    "volume_gate_not_reapplied_in_family_overlap",
-    "volume_profile_window_and_bin_neighbourhood_missing"
-  ],
-  "conclusion": "Broad first-pass measurement exists, but strict C1 P10-P12 acceptance is not yet complete."
+  "status": "passed",
+  "pages": 139,
+  "atomic_claims": 403,
+  "rules": 22,
+  "unresolved_rows": 0,
+  "measured_events_p2_p9": 3140304,
+  "parameter_variants": 106,
+  "mfe_mae_horizons": [5, 20, 40, 60],
+  "common_calendar_boundaries": ["2026-06-24T14:30:00Z", "2026-09-03T12:30:00Z"],
+  "decision_chain_xu100_excess": true,
+  "family_ablation": true,
+  "family_signal_correlation": true,
+  "volume_gate_reapplied": true,
+  "volume_profile_neighbourhood": true,
+  "acceptance_gaps": []
 }
