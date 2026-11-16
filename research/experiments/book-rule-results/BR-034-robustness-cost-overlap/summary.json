@@ -1,0 +1,11 @@
+{
+  "costs": [
+    0,
+    0.001,
+    0.0025,
+    0.005
+  ],
+  "same_bar_target_stop": "ambiguous preserved by policy",
+  "corporate_action_filter": "extreme daily jumps excluded from tradable claims",
+  "multiple_testing": "no best-neighbour selection; all variants retained"
+}

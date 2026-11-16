@@ -37,6 +37,12 @@ RULES = {
  "BR-026-pressure-loss": {"title":"Gövde ilerleme ve örtüşmeyle baskı kaybı", "sources":["PTA-C2-2026.p0013","PTA-C2-2026.p0017","PTA-C2-2026.p0018","PTA-C2-2026.p0019","PTA-C2-2026.p0022","PTA-C2-2026.p0033"], "events":[], "status":"context_only_negative_as_reversal", "decision":"1.350.145 varyant ölçüldü; testte bütün çıplak ters-yön hipotezleri negatif. Zayıflama otomatik dönüş değil."},
  "BR-027-compression-expansion": {"title":"Sıkışma ilk taşma ve karşı tarafa genişleme", "sources":["PTA-C2-2026.p0038","PTA-C2-2026.p0041","PTA-C2-2026.p0043","PTA-C2-2026.p0044"], "events":[], "status":"rejime_bagli", "decision":"245.802 olay ölçüldü; bazı test alt grupları güçlü fakat eğitim/doğrulamada işaret değiştiriyor; karşı genişleme örnekleri yetersiz."},
  "BR-028-breakout-lifecycle-details": {"title":"Kırılım retest failure ve karşı genişleme ayrıntıları", "sources":["PTA-C2-2026.p0045","PTA-C2-2026.p0048","PTA-C2-2026.p0050","PTA-C2-2026.p0052","PTA-C2-2026.p0057","PTA-C2-2026.p0070","PTA-C2-2026.p0076","PTA-C2-2026.p0091","PTA-C2-2026.p0096"], "events":[], "status":"counter_expansion_continue", "decision":"556.255 olay ve 11 parametre varyantı ölçüldü; çıplak olaylar yazı-turaya yakın, failure sonrası karşı genişleme üç zaman bölümünde pozitif ayrıştı."},
+ "BR-029-swing-geometry": {"title":"Swing geometrisi hiyerarşi ve teyit gecikmesi", "sources":["PTA-C2-2026.p0054","PTA-C2-2026.p0055","PTA-C2-2026.p0058","PTA-C2-2026.p0059","PTA-C2-2026.p0060"], "events":[], "status":"parameter_neighbourhood_context", "decision":"1.582.677 olay; 1+1–7+7 ve 0,10–0,50 ATR komşuluğunda çıplak yeni uç sonuçları yön ve dönem bağımlı."},
+ "BR-030-second-attempt-pullback": {"title":"İkinci deneme çok bacak ve pullback zinciri", "sources":["PTA-C2-2026.p0063","PTA-C2-2026.p0064","PTA-C2-2026.p0065","PTA-C2-2026.p0066","PTA-C2-2026.p0067","PTA-C2-2026.p0068","PTA-C2-2026.p0069","PTA-C2-2026.p0070","PTA-C2-2026.p0071","PTA-C2-2026.p0077","PTA-C2-2026.p0082"], "events":[], "status":"context_dependent", "decision":"112.790 deneme ve 309.467 mum/pullback olayı yeniden bantlandı; küçük olumlu alt gruplar yetersiz örnek olarak korundu."},
+ "BR-031-location-context": {"title":"Şeklin trend range kanal ve uzamışlık içindeki yeri", "sources":["PTA-C2-2026.p0083","PTA-C2-2026.p0084","PTA-C2-2026.p0085","PTA-C2-2026.p0086","PTA-C2-2026.p0094","PTA-C2-2026.p0095"], "events":[], "status":"context_required", "decision":"309.467 olayda rejim, derinlik/kanal vekili ve ATR uzamışlığı sonucu değiştirdi; şekil tek başına yinelenen bilgi."},
+ "BR-032-volume-mtf": {"title":"Hacim uygunluk kapısı ve tamamlanmış üst zaman bağlamı", "sources":["PTA-C2-2026.p0087","PTA-C2-2026.p0088","PTA-C2-2026.p0089","PTA-C2-2026.p0090"], "events":[], "status":"mixed_data_suitability", "decision":"Hacim yalnız uygun gruplarda ölçüldü; endeks/FX veri-uygunsuz tutuldu; üst zaman yalnız tamamlanmış bardan geldi."},
+ "BR-033-decision-chain": {"title":"Bağlamdan çoklu zaman teyidine marjinal karar zinciri", "sources":["PTA-C2-2026.p0091","PTA-C2-2026.p0092","PTA-C2-2026.p0093","PTA-C2-2026.p0094","PTA-C2-2026.p0095","PTA-C2-2026.p0096","PTA-C2-2026.p0097","PTA-C2-2026.p0098","PTA-C2-2026.p0099"], "events":[], "status":"redundant_filters_detected", "decision":"Zincir 309.467 olaydan 5.895'e inerken medyan %0,02'den -%0,13'e düştü; ek filtreler genel avantaj yaratmadı."},
+ "BR-034-robustness-cost-overlap": {"title":"Maliyet olay örtüşmesi sembol ve yanlış keşif sağlamlığı", "sources":["PTA-C2-2026.p0100","PTA-C2-2026.p0101","PTA-C2-2026.p0102","PTA-C2-2026.p0103","PTA-C2-2026.p0104","PTA-C2-2026.p0105","PTA-C2-2026.p0106","PTA-C2-2026.p0107","PTA-C2-2026.p0108","PTA-C2-2026.p0109"], "events":[], "status":"completed", "decision":"%0–0,50 maliyet stresi ve Jaccard örtüşmesi saklandı; havuzlanmış avantajlar maliyetle negatife dönüyor, komşulukların tamamı korundu."},
 }
 
 def cards():
@@ -60,6 +66,7 @@ def main():
  pressure_base=ROOT/"measurements/cilt2-pressure-quality"
  compression_base=ROOT/"measurements/cilt2-compression"
  lifecycle_base=ROOT/"measurements/cilt2-lifecycle"
+ completion_bases={f"BR-{29+i:03d}":ROOT/f"measurements/{name}" for i,name in enumerate(["cilt2-swing-geometry","cilt2-second-attempt-pullback","cilt2-location-context","cilt2-volume-mtf","cilt2-decision-chain","cilt2-robustness"])}
  registry=[]
  for slug,rule in RULES.items():
   folder=OUT/slug; folder.mkdir(parents=True,exist_ok=True)
@@ -100,6 +107,10 @@ def main():
   if slug.startswith("BR-028") and lifecycle_base.exists():
    for filename in ("detailed_event_study.csv","parameter_study.csv","summary.json"):
     (folder/filename).write_bytes((lifecycle_base/filename).read_bytes())
+  for prefix,base in completion_bases.items():
+   if slug.startswith(prefix) and base.exists():
+    for source in base.iterdir():
+     if source.is_file(): (folder/source.name).write_bytes(source.read_bytes())
   record={"id":slug,**rule,"source_link":str(folder/"source-links.json"),"result_directory":str(folder)}
   registry.append(record)
  (OUT/"registry.json").write_text(json.dumps({"schema_version":1,"rules":registry},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

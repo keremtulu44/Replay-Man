@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PTA-C2-2026.p0087",
+    "source_id": "PTA-C2-2026",
+    "page": 87,
+    "chapter": 12,
+    "section": "12.2 — Mum boyutu ile hacmi birlikte okumak",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n87 \n \nŞekil 12.1 — Fiyat hareketi benzer olsa bile hacim farklı bir katılım profili gösterebilir. Hacim yönü tek \nbaşına belirlemez; fiyat hareketine eşlik eden aktiviteyi ikinci katman olarak ekler. \nFiyat bize ne söylüyor? Hacim ne ekliyor? Birlikte nasıl okunur? \nMum geniş ve yönlü ilerledi Katılım yüksek Geniş hareket yoğun aktiviteyle oluştu \nMum geniş ve yönlü ilerledi Katılım düşük Aynı mesafe daha düşük kayıtlı aktiviteyle \nalındı \nMum küçük kaldı Katılım yüksek Yoğun aktiviteye rağmen fiyat az ilerledi; \nnedenini bağlamda araştır \nMum küçük kaldı Katılım düşük Hem hareket hem aktivite sınırlı; tek başına \ngüçlü sonuç çıkarma \n \n12.2 — Mum boyutu ile hacmi birlikte okumak \nKaynak 62, mum boyutu ile hacmi tek bir ölçüye indirgemek yerine farklı kombinasyonlar \nhalinde karşılaştırır. Büyük mum + yüksek hacim, geniş fiyat hareketine yüksek katılım eşlik \nettiğini gösterir. Büyük mum + düşük hacim de geniş bir hareket olduğunu söyler; ancak aynı \nhareket daha düşük kayıtlı aktiviteyle gerçekleşmiştir ve yorumun devamı bağlama bağlıdır. \nDaha ilginç kombinasyon küçük mum + yüksek hacimdir. Burada aktivite yüksektir fakat fiyat \nfazla ilerleyememiştir. Kaynak bunu olası emilim olarak yorumlar. “Olası” kelimesi önemlidir: \ntek bir küçük mum ve yüksek hacimden otomatik dönüş sonucu çıkarılmaz. Mumun nerede \noluştuğu, hangi tarafın ilerleyemediği ve sonraki mumlarda fiyatın hangi yönde yapı kurduğu \nayrıca kontrol edilmelidir.",
+    "source_extract_summary": [
+      "Hacim yönü tek başına belirlemez; fiyat hareketine eşlik eden aktiviteyi ikinci katman olarak ekler.",
+      "Mum geniş ve yönlü ilerledi Katılım yüksek Geniş hareket yoğun aktiviteyle oluştu Mum geniş ve yönlü ilerledi Katılım düşük Aynı mesafe daha düşük kayıtlı aktiviteyle alındı Mum küçük kaldı Katılım yüksek Yoğun aktiviteye rağmen fiyat az ilerledi; nedenini bağlamda araştır Mum küçük kaldı Katılım düşük Hem hareket hem aktivite sınırlı; tek başına güçlü sonuç çıkarma 12.2 — Mum boyutu ile hacmi birlikte okumak Kaynak 62, mum boyutu ile hacmi tek bir ölçüye indirgemek yerine farklı kombinasyonlar halinde karşılaştırır.",
+      "Büyük mum + yüksek hacim, geniş fiyat hareketine yüksek katılım eşlik ettiğini gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0088",
+    "source_id": "PTA-C2-2026",
+    "page": 88,
+    "chapter": 12,
+    "section": "12.3 — Fiyat yeni tepe veya dip yaparken hacim azalırsa ne değişir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n88 \n \nŞekil 12.2 — Mum boyutu ile hacim dört temel biçimde eşleşebilir. Özellikle küçük mum + yüksek hacim, \nyüksek aktiviteye rağmen sınırlı fiyat ilerlemesi gösterir; bu durum ancak bağlam ve sonraki davranışla \nanlam kazanır. \nKombinasyon Doğrudan gözlem Yanlış kısa yol Sonraki soru \nBüyük mum + yüksek \nhacim \nGeniş hareket + yüksek katılım “Kesin devam eder” Takip davranışı ve konum \nhareketi destekliyor mu? \nBüyük mum + düşük \nhacim \nGeniş hareket + düşük aktivite “Hareket sahtedir” Fiyat yapısı ve sonraki mumlar \nne yapıyor? \nKüçük mum + yüksek \nhacim \nYüksek aktivite + az ilerleme “Kesin dönüş / emilim” Hangi taraf ilerleyemedi, sonra \nyapı değişti mi? \nKüçük mum + düşük \nhacim \nAz hareket + düşük aktivite “Önemsizdir” Sıkışmanın yeri ve sonraki \ngenişleme önemli mi? \n \n12.3 — Fiyat yeni tepe veya dip yaparken hacim azalırsa ne değişir? \nKaynak 63 hacmi tek mum üzerinden değil, ardışık swingler arasında karşılaştırır. Fiyat daha \nyüksek tepeler üretmeye devam ederken hacim adım adım düşüyorsa fiyat hâlâ ilerliyordur \nfakat bu ilerlemeye eşlik eden katılım zayıflıyordur. Düşüş yönünde de aynı mantık geçerlidir: \ndaha düşük dipler sürerken hacim geriliyorsa satış hareketinin arkasındaki katılım azalıyor \nolabilir. \nBu gözlem “trend birazdan dönecek” anlamına gelmez. Fiyat yeni uç üretmeye devam ettiği \nsürece yapı hâlâ devam ediyor olabilir. Hacimdeki azalma yalnızca ilerlemenin desteğinin \nzayıfladığına dair ikinci bir bilgi verir. Dönüş yorumu için önceki bölümlerdeki davranış",
+    "source_extract_summary": [
+      "Özellikle küçük mum + yüksek hacim, yüksek aktiviteye rağmen sınırlı fiyat ilerlemesi gösterir; bu durum ancak bağlam ve sonraki davranışla anlam kazanır.",
+      "Kombinasyon Doğrudan gözlem Yanlış kısa yol Sonraki soru Büyük mum + yüksek hacim Geniş hareket + yüksek katılım “Kesin devam eder” Takip davranışı ve konum hareketi destekliyor mu?",
+      "Büyük mum + düşük hacim Geniş hareket + düşük aktivite “Hareket sahtedir” Fiyat yapısı ve sonraki mumlar ne yapıyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0089",
+    "source_id": "PTA-C2-2026",
+    "page": 89,
+    "chapter": 12,
+    "section": "12.4 — Davranış zaman dilimi ne işe yarar?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n89 \nkanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı \nkırılımı veya takip davranışı değişimi. \n \nŞekil 12.3 — Fiyat yeni tepeler üretmeye devam ederken hacim azalıyor. Bu durum otomatik dönüş \nsinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır. \nTEKNİK AYRIM \nFiyat hâlâ yeni tepe/dip üretiyorsa “ilerleme bitti” demeyin. Hacim azalması, ilerlemenin arkasındaki \nkatılımın zayıfladığını gösterebilir. Dönüş için fiyat davranışının da değişmesini bekleyin. \n \n12.4 — Davranış zaman dilimi ne işe yarar? \nKaynak 64 “davranış zaman dilimi”ni, daha büyük yapının içinde fiyatın şu anda ne yaptığını \ngörmek için kullanır. Burada amaç üst zaman diliminin yönünü yeniden tanımlamak değildir. \nAlt ölçekte tekrarlanan fitil reddi var mı, yerel yapı kırılıyor mu, pullback daha yüksek dip veya \ndaha düşük tepe üretmeye başladı mı gibi sorular sorulur. \nBu ayrım özellikle fiyat önemli bir üst zaman bölgesine geldiğinde önemlidir. Üst zaman dilimi \nbize bağlam ve referans alanı verir; davranış zaman dilimi ise fiyatın o alanda gerçekten tepki \nverip vermediğini gösterir. Böylece “fiyat bölgeye ulaştı” cümlesi ile “fiyat o bölgede davranış \ndeğiştirdi” cümlesi birbirinden ayrılır. \nKatman Görevi Sormamız gereken soru Tek başına ne yapmaz? \nÜst zaman / ana bağlam Trend, swing ve önemli alanı \ngösterir \nFiyat hangi büyük yapının içinde? Alt zamanın yön değiştirdiğini \nkanıtlamaz \nDavranış zaman dilimi Bölgedeki gerçek tepkiyi \nayrıntılandırır \nGeri itilme, kırılım, HL/LH veya \nmomentum değişimi var mı? \nDaha büyük yapıyı tek başına \nyeniden tanımlamaz",
+    "source_extract_summary": [
+      "kanıtlarını ararız: yeni uç üretilememesi, momentum kaybı, karşı yönde büyüyen mumlar, yapı kırılımı veya takip davranışı değişimi.",
+      "Bu durum otomatik dönüş sinyali değildir; fiyat ilerlerken katılımın aynı ölçüde eşlik etmediğini gösteren bir uyarıdır.",
+      "TEKNİK AYRIM Fiyat hâlâ yeni tepe/dip üretiyorsa “ilerleme bitti” demeyin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0090",
+    "source_id": "PTA-C2-2026",
+    "page": 90,
+    "chapter": 12,
+    "section": "12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n90 \n \nŞekil 12.4 — Üst zaman diliminde yükseliş bağlamı korunurken alt zaman dilimi bölgeye düşüş yönlü \ngelebilir. Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum ve yapının \ngerçekten yön değiştirmesi ayrıca görülmelidir. \n12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne \nyaparız? \nKaynak 65 bu noktada net bir ayrım yapar. Üst zaman dilimi yükseliş yönlü olsa bile giriş veya \ndavranış zaman dilimi hâlâ daha düşük tepe ve daha düşük dip üretiyorsa, yalnızca fiyat üst \nzaman desteğine geldi diye alt zaman yükseliş kabul edilmez. Alt ölçekte eski yönün \nilerlemesinin durması ve yeni yönde momentum/yapı değişiminin ortaya çıkması beklenir. \nBu yaklaşım iki sık yapılan hatayı azaltır. Birincisi, büyük zaman dilimindeki seviyeyi \ngördüğümüz anda alt zaman davranışını görmezden gelmek. İkincisi ise alt zamandaki ilk yeşil \nmumu yapı değişimi sanmak. Daha sağlam okuma, eski yönün yeni uç üretme kabiliyetini \nkaybedip kaybetmediğine ve karşı tarafın yerel sınırı aşarak yeni bir geometri kurup \nkurmadığına bakar. \nAşama Üst zaman bilgisi Alt zaman davranışı Okuma \n1. Bölgeye yaklaşım Ana yapı yükseliş LL/LH ile düşüş sürüyor Henüz alt zaman dönüşü yok \n2. Bölge teması Destek alanına ulaşıldı Satış yavaşlayabilir ama yapı aynı Temas, yön değişimi değildir \n3. Yerel değişim Üst bağlam aynı Yeni dip zorlaşıyor, yerel LH kırılıyor İlk davranış değişimi \n4. Yeni geometri Üst ve alt taraf yakınlaşıyor HL / güçlü takip davranışı oluşuyor Yönler daha fazla hizalanıyor",
+    "source_extract_summary": [
+      "Bölgeye ulaşmak alt zamanı otomatik olarak yükseliş yapmaz; yerel momentum ve yapının gerçekten yön değiştirmesi ayrıca görülmelidir.",
+      "12.5 — Üst zaman yükseliş yönlüyken alt zaman hâlâ düşüyorsa ne yaparız?",
+      "Kaynak 65 bu noktada net bir ayrım yapar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Hareket gücü özellik ailesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

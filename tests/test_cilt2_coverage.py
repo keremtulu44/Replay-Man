@@ -12,6 +12,7 @@ def test_cilt2_claims_and_summary_match_coverage():
     base=Path('research/experiments/cilt2-completion')
     registry=json.loads((base/'cilt2-claim-registry.json').read_text())
     summary=json.loads((base/'coverage-summary.json').read_text())
-    assert len(registry['claims'])==summary['pages']==109
+    assert summary['pages']==109
+    assert len(registry['claims'])==summary['atomic_claims']>=109
     assert summary['blank_dispositions']==0
-    assert len({c['claim_id'] for c in registry['claims']})==109
+    assert len({c['claim_id'] for c in registry['claims']})==len(registry['claims'])

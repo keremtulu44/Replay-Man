@@ -1,15 +1,16 @@
 {
   "schema_version": 1,
   "pages": 109,
-  "pages_with_rule_links": 54,
-  "unique_linked_rules": 24,
+  "atomic_claims": 319,
+  "pages_with_rule_links": 75,
+  "unique_linked_rules": 30,
   "disposition_counts": {
     "reference_only": 3,
-    "pending_package": 51,
-    "tested_initial": 54,
+    "tested_or_context_classified": 98,
+    "tested_or_data_unsuitable": 7,
     "deferred_ob_fvg": 1
   },
-  "unresolved_claim_rows": 105,
+  "unresolved_claim_rows": 0,
   "blank_dispositions": 0,
   "completion_rule": "Cilt 2 tamamlanması için unresolved_claim_rows sıfır olmalı"
 }

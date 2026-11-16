@@ -1,0 +1,7 @@
+group,disposition
+bist_equities,tested
+fx,data_unsuitable
+global_indices,data_unsuitable
+bist_indices,data_unsuitable
+metals,tested
+energy,tested

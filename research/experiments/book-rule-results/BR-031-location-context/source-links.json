@@ -1,0 +1,128 @@
+[
+  {
+    "id": "PTA-C2-2026.p0083",
+    "source_id": "PTA-C2-2026",
+    "page": 83,
+    "chapter": 11,
+    "section": "11.5 — Sıkışmanın ve geri çekilmenin konumu, aynı şeklin ağırlığını",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n83 \n \nŞekil 11.4 — Solda ana yön baskısı güçlü olduğu için geri çekilmeler kısa ve sığ kalıyor. Sağda kanal \nyapısında karşı bacaklar daha geniş. Aynı “pullback ne kadar derin olmalı?” sorusunun cevabı piyasa \nortamına göre değişir. \nPiyasa ortamı Tipik davranış beklentisi Yanlış sabit beklenti Daha doğru soru \nÇok güçlü trend Sığ ve kısa geri çekilmeler görülebilir “Ortalamaya dönmeden hareket edemez” Fiyat eski yönün ne kadarını geri verebiliyor? \nDaha geniş kanal Karşı bacaklar daha derin olabilir “Her geri çekilme zayıflık demektir” Karşı bacak kanalın normal ritmi içinde mi? \nBağlam değişiyor Geri çekilme boyutu da değişebilir Tek derinliği her koşula uygulamak Trend hâlâ aynı güçte mi, yoksa kanal yapısına mı geçti? \n \n11.5 — Sıkışmanın ve geri çekilmenin konumu, aynı şeklin ağırlığını \ndeğiştirir \nBu bölümün ikincil kaynakları aynı fikri iki farklı yapı üzerinde gösterir. Double inside bar gibi \nbir sıkışma önemli bir teknik bölgenin hemen yanında oluştuğunda, fiyatın o sınırı aşmakta \nzorlandığını veya o bölgede duygu değişiminin başladığını gösterebilir. Aynı iki inside bar \nbelirgin bir engelden uzakta ve mevcut trendin içinde oluştuğunda ise yalnız kısa bir devam \nmolası olabilir. Burada belirleyici unsur iki mumun şekli değil, sıkışmanın grafikteki yeridir. \nBölüm 8’de geri çekilmenin tabanını önceki kırılım noktasına göre ölçmüştük. Burada aynı \nbilgiyi yeni bir geometri kuralı olarak tekrar etmiyoruz; onu yerleşim filtresi olarak \nkullanıyoruz. Geri çekilme eski kırılım bölgesinin içine derin biçimde dönüyorsa önceki \ngenişlemenin daha büyük bölümü geri verilmiştir. Belirgin biçimde dışında kalıyorsa karşı taraf",
+    "source_extract_summary": [
+      "Sağda kanal yapısında karşı bacaklar daha geniş.",
+      "Aynı “pullback ne kadar derin olmalı?” sorusunun cevabı piyasa ortamına göre değişir.",
+      "Piyasa ortamı Tipik davranış beklentisi Yanlış sabit beklenti Daha doğru soru Çok güçlü trend Sığ ve kısa geri çekilmeler görülebilir “Ortalamaya dönmeden hareket edemez” Fiyat eski yönün ne kadarını geri verebiliyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0084",
+    "source_id": "PTA-C2-2026",
+    "page": 84,
+    "chapter": 11,
+    "section": "11.6 — Yerleşimi altı soruyla okuyun",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n84 \nfiyatı eski alana kadar taşıyamamıştır. Böylece “ne kadar geri çekildi?” sorusuna “grafiğin \nneresine kadar geri döndü?” sorusu eklenir. \n \nŞekil 11.5 — Solda sıkışma önemli seviyenin hemen yanında oluştuğu için yerleşim ek bilgi sağlar. Sağda \niki pullback aynı yönde görünse de biri kırılım bölgesinin üstünde kalırken diğeri eski bölgenin içine geri \ndöner; geometri aynı değildir. \nYerleşim sorusu Daha güçlü/temiz davranışta Daha zayıf veya belirsiz davranışta \nSıkışma nerede? Önemli sınırda veya trend içindeki anlamlı mola noktasında Grafiğin ortasında bağlamsız sıkışma \nGeri çekilme kırılım alanına \ndöndü mü? \nKırılım bölgesinin \nüstünde/altında korunur \nEski bölgenin içine derin biçimde \ngeri girer \nÖnünde alan var mı? Bir sonraki engel uzaktadır Yakın tepe/dip hemen karşıdadır \nSeviye nasıl tepki verdi? Geri itilme veya kabul davranışı nettir Mumlar seviyenin iki tarafında karışır \n \n11.6 — Yerleşimi altı soruyla okuyun \nYerleşim analizi yeni bir formasyon adı eklemek için değil, daha önce öğrendiğimiz mum \ndizilerini yanlış yerde aşırı yorumlamamak için kullanılır. Bir dönüş mumu, sıkışma veya \npullback gördüğünüzde aşağıdaki sıra, şekilden önce bağlamı kontrol etmeyi sağlar. \nAdım Sorulacak soru Ne arıyoruz? \n1. Ana ortam Trend çok güçlü mü, kanal mı, daha dengeli bir alan mı? Geri çekilme ve karşı hareket için gerçekçi beklenti",
+    "source_extract_summary": [
+      "fiyatı eski alana kadar taşıyamamıştır.",
+      "Böylece “ne kadar geri çekildi?” sorusuna “grafiğin neresine kadar geri döndü?” sorusu eklenir.",
+      "Sağda iki pullback aynı yönde görünse de biri kırılım bölgesinin üstünde kalırken diğeri eski bölgenin içine geri döner; geometri aynı değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Şekil yerine ölçülebilir davranış dizileri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0085",
+    "source_id": "PTA-C2-2026",
+    "page": 85,
+    "chapter": 11,
+    "section": "11.6 — Yerleşimi altı soruyla okuyun",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n85 \nAdım Sorulacak soru Ne arıyoruz? \n2. Yön Mum mevcut yapıyla aynı yönde mi, güçlü harekete karşı mı? Şeklin hangi bağlamda oluştuğu \n3. Konum Mum swing, destek/direnç veya kırılım bölgesinin neresinde? Grafikteki anlamlı referans \n4. Hareket alanı İlk belirgin engel ne kadar yakın? Fiyatın ilerleyebileceği açık alan \n5. Tepki Seviye fiyatı geri itti mi, yoksa fiyat dışında kapanabildi mi? Geri itilme, kararsızlık veya kabul \n6. Sonraki davranış Yeni yön alanı koruyor mu? Geri çekilme nereye kadar dönüyor? Yerleşim fikrinin takip davranışı ile doğrulanması \n \nBÖLÜM SONUCU \nAynı mum her yerde aynı değildir. Mumun şekli ilk bilgiyi verir; trend yönü, swing ve seviye \nçevresindeki konumu, önündeki hareket alanı ve geri çekilme’in eski kırılım bölgesine göre yeri bu \nbilginin ağırlığını değiştirir. Bir sonraki bölümde fiyat davranışının kendisini değiştirmeden, hacim ve \nalt zaman dilimi gibi destekleyici katmanların bu okumaya ne ekleyebileceğini ele alacağız.",
+    "source_extract_summary": [
+      "Yön Mum mevcut yapıyla aynı yönde mi, güçlü harekete karşı mı?",
+      "Konum Mum swing, destek/direnç veya kırılım bölgesinin neresinde?",
+      "Hareket alanı İlk belirgin engel ne kadar yakın?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0086",
+    "source_id": "PTA-C2-2026",
+    "page": 86,
+    "chapter": 12,
+    "section": "12.1 — Hacim neyi ekler?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n86 \nBÖLÜM 12 \nHacim ve Çoklu Zaman Dilimi: \nİkinci Katman \nFiyat davranışını önce okuyun. Hacmi ve zaman dilimini, gördüğünüz davranışın \ngücünü ve bağlamını desteklemek için kullanın. \nBu bölüm yeni bir sinyal sistemi kurmuyor. Önceki bölümlerde olduğu gibi ana bilgi hâlâ \nfiyatın kendisidir: mumların nasıl ilerlediği, nerede zorlandığı, hangi yapıyı kırdığı ve sonraki \nmumların bu hareketi sürdürüp sürdüremediği. Hacim ve çoklu zaman dilimi bu okumanın \nüzerine eklenen ikinci katmandır. \nHacim, fiyat hareketine ne kadar katılım eşlik ettiğini gösterir. Çoklu zaman dilimi ise aynı fiyat \ndavranışının hangi ölçekte oluştuğunu ayırmamıza yardım eder. İkisini de ana karar \nmekanizmasının yerine koyarsak kitap boyunca kurduğumuz davranış okuması zayıflar; fiyatı \nönce, destekleyici katmanı sonra okumak daha tutarlı bir sıradır. \nBU BÖLÜMÜN ANA FİKRİ \nFiyat “ne oldu?” sorusunu cevaplar. Hacim “bu harekete ne kadar katılım eşlik etti?” sorusuna ek bilgi \nverir. Alt zaman dilimi ise “fiyat bu bölgede gerçekten davranış değiştirdi mi?” sorusunu \nayrıntılandırır. \n \n12.1 — Hacim neyi ekler? \nKaynak 61 hacmi yön üreten bağımsız bir sinyal gibi değil, fiyat hareketine eşlik eden katılımın \nikinci ölçüsü olarak ele alır. Örneğin iki grafikte de benzer büyüklükte bir yükseliş mumu \noluşabilir. Birinde hareket yüksek hacimle, diğerinde daha düşük hacimle gerçekleşmişse \nfiyatın kat ettiği mesafe benzerdir fakat bu harekete eşlik eden kayıtlı aktivite aynı değildir. \nBuradaki önemli ayrım şudur: yüksek hacim tek başına “hareket doğrudur”, düşük hacim de \n“hareket yanlıştır” anlamına gelmez. Hacim, mum dizisinin anlattığı hikâyeye katılım bilgisini \nekler. Bu nedenle önce yön, gövde, fitil, kapanış, ilerleme ve takip davranışı okunur; ardından \nhacmin bu hareketi hangi katılım profiliyle desteklediğine bakılır.",
+    "source_extract_summary": [
+      "BÖLÜM 12 Hacim ve Çoklu Zaman Dilimi: İkinci Katman Fiyat davranışını önce okuyun.",
+      "Hacmi ve zaman dilimini, gördüğünüz davranışın gücünü ve bağlamını desteklemek için kullanın.",
+      "Bu bölüm yeni bir sinyal sistemi kurmuyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0094",
+    "source_id": "PTA-C2-2026",
+    "page": 94,
+    "chapter": 13,
+    "section": "13.2 — Sonra mevcut kontrol: Hangi taraf daha rahat ilerliyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n94 \ndengeli bir alan mı? İncelediğimiz mum dizisi önemli bir swing, destek/direnç veya önceki \nkırılım bölgesine yakın mı? Önünde hareket edebileceği açık alan var mı? \nBu adım, sonraki bütün bilgilerin ağırlığını değiştirir. Aynı uzun fitil trendin ortasında sıradan \nkalabilir, fakat uzun bir hareketin sonunda önemli bir swing bölgesinde farklı anlam taşıyabilir. \nAynı sığ pullback çok güçlü trendde normal, geniş kanalda ise alışılmadık olabilir. Bu nedenle \nşekli yorumlamadan önce konumu ve piyasanın genel davranışını belirlemek gerekir. \nİlk bakışta sorulacak soru Neden önce bunu soruyoruz? \nAna ortam nedir? Trend gücü ve beklenen geri çekilme davranışı değişir. \nYapı hangi swing/seviyeye yakın? Aynı mumun konumsal ağırlığı değişir. \nÖnünde hareket alanı var mı? Doğru görünen yapı yakın engelde sıkışabilir. \nMevcut hareket ana yapıyla aynı yönde mi? Trend yönündeki ve karşı trend davranışları aynı okunmaz. \n \n13.2 — Sonra mevcut kontrol: Hangi taraf daha rahat ilerliyor? \nBağlamı belirledikten sonra grafiğin o anki kontrolünü ölçeriz. Burada yalnız mumların rengini \nsaymayız. Hangi taraf aynı mesafeyi daha az mumda alıyor? Hangi yönde gövdeler daha \nbüyük? Hangi hareket daha az geri çekiliyor ve daha az örtüşüyor? Karşı taraf her adımda fiyatı \ndurdurabiliyor mu, yoksa yalnız küçük tepkiler mi verebiliyor? \nBu sorular “trend yukarı” gibi genel bir etiketten daha ayrıntılı bilgi verir. Fiyat yükselebilir \nama her adımda sert satışlarla karşılaşıyorsa kontrol temiz değildir. Tersine birkaç küçük geri \nçekilmeye rağmen aynı yönde uzun gövdeler, az örtüşme ve hızlı mesafe kazanımı varsa o taraf \ndaha rahat ilerliyor olabilir. \n \nŞekil 13.2 — Yön aynı görünse bile hareket kalitesi farklı olabilir. Temiz ve hızlı ilerleme ile sık karşı \nhamle alan parçalı ilerleme aynı kontrol gücünü göstermez. \nKISA KURAL \nÖnce “fiyat hangi yönde?” değil, “hangi taraf daha az çabayla daha fazla sonuç alıyor?” sorusunu sorun.",
+    "source_extract_summary": [
+      "İncelediğimiz mum dizisi önemli bir swing, destek/direnç veya önceki kırılım bölgesine yakın mı?",
+      "Önünde hareket edebileceği açık alan var mı?",
+      "Bu adım, sonraki bütün bilgilerin ağırlığını değiştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0095",
+    "source_id": "PTA-C2-2026",
+    "page": 95,
+    "chapter": 13,
+    "section": "13.4 — Gördüğünüz şey dönüş mü, devam mı, yoksa sıkışma mı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n95 \n \n13.3 — Eski yön gerçekten zayıflıyor mu? \nBir tarafın güçlü olduğunu gördükten sonra sıradaki soru, bu gücün değişmeye başlayıp \nbaşlamadığıdır. Zayıflama çoğu zaman tek bir mumla başlamaz. Aynı yöndeki gövdeler \nküçülebilir, yeni mumlar daha az mesafe alabilir, aynı seviye tekrar tekrar geçilemeyebilir veya \nkarşı tarafın mumları büyümeye başlayabilir. Fitil reddi bu parçaların yalnız biridir. \nBurada önemli olan işaret saymak değil, ilerleme kabiliyetindeki değişimi görmektir. Fiyat hâlâ \naynı yönde yeni uçlar üretmeye devam ediyorsa birkaç küçük mum normal olabilir. Fakat yeni \nuçlar giderek kısalıyor, aynı bölge birkaç kez test ediliyor ve karşı taraf artık daha fazla mesafe \nalıyorsa eski yönün üstünlüğü azalıyor olabilir. \n \nŞekil 13.3 — Zayıflama zinciri: küçülen gövdeler, aynı bölgenin tekrar test edilmesi, yeni uç üretiminin \nyavaşlaması ve karşı yöndeki mumların büyümesi. Tek bir işaret değil, ilerleme kaybı önemlidir. \n13.4 — Gördüğünüz şey dönüş mü, devam mı, yoksa sıkışma mı? \nZayıflamayı gördükten sonra hemen “dönüş başladı” demeyiz. Aynı kısa mum dizisi üç farklı \naileye girebilir. Eski yön zayıflar ve karşı taraf giderek daha fazla alan kazanırsa dönüş \ndavranışı gelişebilir. Karşı hareket sınırlı kalır ve ana yön yeniden güçlü biçimde devreye \ngirerse devam yapısı vardır. İki taraf da yeni alan üretemiyor ve mumlar birbirinin içine \ngiriyorsa sıkışma öne çıkar. \nBu sınıflandırma, iki veya üç mumluk şekilleri ezberlemekten daha kullanışlıdır. Çünkü aynı \ngörsel yapı farklı yerde farklı görevi üstlenebilir. Önce dizinin fiyatı ne yaptırdığına bakar, \nformasyon adını ancak gerekirse sonra kullanırız.",
+    "source_extract_summary": [
+      "13.3 — Eski yön gerçekten zayıflıyor mu?",
+      "Bir tarafın güçlü olduğunu gördükten sonra sıradaki soru, bu gücün değişmeye başlayıp başlamadığıdır.",
+      "Zayıflama çoğu zaman tek bir mumla başlamaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  }
+]

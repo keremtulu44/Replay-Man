@@ -1,0 +1,100 @@
+[
+  {
+    "id": "PTA-C2-2026.p0054",
+    "source_id": "PTA-C2-2026",
+    "page": 54,
+    "chapter": 8,
+    "section": "8.1 — Her tepe ve dip aynı ağırlıkta değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n54 \nBÖLÜM 8 \nSwing Geometrisinin Temeli: \nHangi Dip ve Tepe Önemli? \nHer küçük dönüşü yeni yapı saymayın. Önce hangi sınırın gerçekten aşıldığını, sonra \ngeri çekilmenin ne kadarını geri verdiğini okuyun. \nÖnceki bölümlerde mumların hızını, sıkışmasını ve kırılım sonrası takibini okuduk. Şimdi aynı \ndavranışı daha büyük bir çerçeveye taşıyoruz. Grafikte çok sayıda küçük tepe ve dip oluşabilir; \nfakat bunların hepsi aynı ağırlıkta değildir. Bu bölümde amaç, önemli swingleri küçük iç \nhareketlerden ayırmak ve bir hareket bacağının kalitesini yalnız yönle değil; derinlik, süre, \nalınan mesafe ve kırılım bölgesiyle ilişkisi üzerinden değerlendirmektir. \nBU BÖLÜMÜN ANA FIKRI \nBir dip veya tepe, yalnız görünüşü nedeniyle “major” olmaz. Önce fiyatın hangi önemli sınırı aştığına bakılır. \nArdından geri çekilmenin önceki hareketin ne kadarını geri aldığı, eski kırılım bölgesine dönüp dönmediği ve bunu \nkaç mumda yaptığı birlikte değerlendirilir. \n \n8.1 — Her tepe ve dip aynı ağırlıkta değildir \nFiyat yükselirken veya düşerken arada küçük dönüşler üretir. Bunların bazıları yalnız mevcut \nhareketin içindeki kısa salınımlardır; bazıları ise daha büyük yapının sınırlarını belirler. \nKaynak, major ve minor swing ayrımını bu nedenle yapar: fiyat önemli bir önceki swing \nsınırının dışına çıkıp orada kapanmadan, içeride oluşan her yeni küçük tepe veya dibi yeni \nmajor yapı olarak kabul etmez. \nBuradaki ana ölçüt mumun büyüklüğü değil, hareketin hangi sınırı değiştirdiğidir. Büyük bir \nmum bile mevcut major tepe ile major dip arasında kalıyorsa, daha büyük yapıyı henüz \ndeğiştirmemiş olabilir. Buna karşılık daha sakin bir hareket, önceki önemli tepenin üzerinde \nkapanış ürettiğinde yapısal olarak daha değerli bilgi oluşturabilir.",
+    "source_extract_summary": [
+      "BÖLÜM 8 Swing Geometrisinin Temeli: Hangi Dip ve Tepe Önemli?",
+      "Her küçük dönüşü yeni yapı saymayın.",
+      "Önce hangi sınırın gerçekten aşıldığını, sonra geri çekilmenin ne kadarını geri verdiğini okuyun."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0055",
+    "source_id": "PTA-C2-2026",
+    "page": 55,
+    "chapter": 8,
+    "section": "8.2 — Major swing bazen ancak daha sonra kesinleşir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n55 \n \nŞekil 8.1 — Büyük yapının içinde çok sayıda minor tepe ve dip oluşabilir. Önceki önemli swing sınırının \ndışında kapanış gelmeden her küçük dönüşü yeni major swing saymak yapıyı gereğinden fazla parçalar. \nGözlem Ne değişti? Okuma \nKüçük tepe/dip major sınırlar \niçinde \nBüyük yapının sınırı değişmedi Minor swing / iç hareket olarak \nizlenir \nFiyat önceki major tepeye \nyaklaşıyor \nSınır test ediliyor Henüz yeni major yapı teyidi yok \nÖnceki major tepenin üzerinde \nkapanış \nÖnemli sınır aşıldı Yeni major yapı için teyit oluşur \nAynı mantığın düşüş yönü Önceki major dip altında kapanış Daha büyük aşağı yapı için yeni bilgi \noluşur \n \nÖNEMLI AYRIM \n“Swing gördüm” ile “major swing teyit edildi” aynı cümle değildir. Major/minor ayrımı, grafikteki her dönüşe aynı \nağırlığı vermemek için kullanılır. \n \n8.2 — Major swing bazen ancak daha sonra kesinleşir \nSwing geometrisinin ilk bakışta zor görünen tarafı şudur: önemli bir dip grafikte daha önce \noluşur, fakat onun gerçekten major swing low olduğunu bazen ancak daha sonra anlarız. \nKaynakta yükseliş örneğinde, fiyat önceki major tepenin üzerinde kapanınca kırılımdan önce \noluşan en düşük geçerli swing low geriye dönük olarak major referans dip seçilir. Önceki major \ndestek de bu süreçte bozulmamış olmalıdır. \nBu yaklaşım, grafiğe bakıp sonradan “en güzel görünen dibi” seçmekten farklıdır. Dip önce \nadaydır; önemli tepenin kırılması o adayın büyük yapı içindeki rolünü doğrular. Yani noktanın \nyeri geçmişte, teyidi ise gelecekte oluşabilir. Bu ayrım, swing işaretlemeyi daha tutarlı hale \ngetirir.",
+    "source_extract_summary": [
+      "Önceki önemli swing sınırının dışında kapanış gelmeden her küçük dönüşü yeni major swing saymak yapıyı gereğinden fazla parçalar.",
+      "Okuma Küçük tepe/dip major sınırlar içinde Büyük yapının sınırı değişmedi Minor swing / iç hareket olarak izlenir Fiyat önceki major tepeye yaklaşıyor Sınır test ediliyor Henüz yeni major yapı teyidi yok Önceki major tepenin üzerinde kapanış Önemli sınır aşıldı Yeni major yapı için teyit oluşur Aynı mantığın düşüş yönü Önceki major dip altında kapanış Daha büyük aşağı yapı için yeni bilgi oluşur ÖNEMLI AYRIM “Swing gördüm” ile “major swing teyit edildi” aynı cümle değildir.",
+      "Major/minor ayrımı, grafikteki her dönüşe aynı ağırlığı vermemek için kullanılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0058",
+    "source_id": "PTA-C2-2026",
+    "page": 58,
+    "chapter": 8,
+    "section": "8.5 — Aynı mesafe, farklı süre: swing hızını da geometriye ekleyin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n58 \n \nŞekil 8.4 — Solda geri çekilme kırılım bölgesinin üzerinde kalıyor; sağda ise eski kırılım alanıyla \nörtüşüyor. İki hareket de yukarı devam edebilir, fakat korunan alan miktarı aynı değildir. \nGeri çekilme konumu Geometrik anlam Sorulacak soru \nKırılım noktasının belirgin \nüstünde \nÖnceki genişleme daha çok \nkorunuyor \nKarşı taraf eski alana ne kadar \nyaklaşabildi? \nKırılım bölgesine temas / \nörtüşme \nDaha fazla alan geri veriliyor Bölge tutuluyor mu, yoksa içine mi \ndönülüyor? \nKırılım bölgesinin içine geri \ndönüş \nİlk genişlemenin önemli bölümü \ngeri alınmış olabilir \nYeni yön gerçekten kabul gördü \nmü? \n \nRETEST ZORUNLU DEĞILDIR \nKırılım sonrası eski seviyeye dönülmemesi “eksik retest” olmak zorunda değildir. Kaynağın vurgusu, geri çekilme \ntabanının kırılım noktasına göre nerede kaldığıdır; açık mesafe bazen daha güçlü geometriyi gösterir. \n \n8.5 — Aynı mesafe, farklı süre: swing hızını da geometriye ekleyin \nSwingleri yalnız yüksekten düşüğe çizilen çizgiler gibi görmek eksik kalır. Multi-candle \nmomentum kaynağı, tamamlanmış hareket bacaklarını mesafe ve süre açısından da karşılaştırır. \nAynı fiyat mesafesi bir yönde üç mumda, karşı yönde yedi mumda alınıyorsa iki bacağın hızı \naynı değildir. Daha az mumda aynı mesafeyi kat eden taraf daha hızlı ilerlemiştir. \nBu ölçü özellikle pullback ile ana hareketi karşılaştırırken yararlıdır. Ana hareket daha uzun \ngövdelerle, daha az kesintiyle ve daha kısa sürede ilerlerken geri çekilme daha çok mum \nkullanıyor ve daha az mesafe alıyorsa, yalnız yön değil hareketin verimliliği de farklıdır. Tersi \ndurumda geri çekilmenin hızlanması önceki hareketin üstünlüğünün azaldığını gösterebilir.",
+    "source_extract_summary": [
+      "İki hareket de yukarı devam edebilir, fakat korunan alan miktarı aynı değildir.",
+      "Geri çekilme konumu Geometrik anlam Sorulacak soru Kırılım noktasının belirgin üstünde Önceki genişleme daha çok korunuyor Karşı taraf eski alana ne kadar yaklaşabildi?",
+      "Kırılım bölgesine temas / örtüşme Daha fazla alan geri veriliyor Bölge tutuluyor mu, yoksa içine mi dönülüyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0059",
+    "source_id": "PTA-C2-2026",
+    "page": 59,
+    "chapter": 8,
+    "section": "8.6 — Swing geometrisini tek bir okuma zincirinde birleştirin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n59 \n \nŞekil 8.5 — İki hareket aynı fiyat mesafesini kat ediyor; soldaki bunu daha az mumda, sağdaki daha çok \nve daha parçalı adımda yapıyor. Swing geometrisinde süre de mesafe kadar bilgi taşır. \nÖlçüt Daha güçlü bacakta ne görebiliriz? Zayıflama işareti ne olabilir? \nMesafe Daha fazla alan kazanımı İlerleme sınırlı kalıyor \nSüre / mum sayısı Aynı mesafeyi daha az mumda alma Aynı mesafe için daha çok mum \ngerekmesi \nMum yapısı Daha uzun yönlü gövdeler, küçük kesintiler Daha küçük gövdeler, sık karşı hareket \nGeri çekilme derinliği Önceki hareketin daha azını geri verme Önceki hareketin daha fazlasını geri \nalma \n \nTEK ÖLÇÜTTEN KARAR VERMEYIN \nHız tek başına yeterli değildir. Mesafe, süre, mum yapısı ve geri çekilme derinliği aynı hareket bacağı üzerinde \nbirlikte okunmalıdır. \n \n8.6 — Swing geometrisini tek bir okuma zincirinde birleştirin \nBölümün sonunda artık bir swing çizgisini yalnız “dipten tepeye” görmüyoruz. Önce büyük \nyapının hangi sınırlarının önemli olduğunu belirliyoruz. Sonra kırılım gelmeden önce oluşan \naday swingin, sınır dışındaki kapanışla major referansa dönüşüp dönüşmediğini kontrol \nediyoruz. Ardından geri çekilmenin önceki hareketin ne kadarını geri verdiğine, eski kırılım \nbölgesine dönüp dönmediğine ve bunu ne kadar sürede yaptığına bakıyoruz. \nBu sıralama özellikle önemlidir çünkü tek bir olumlu özellik bütün yapıyı açıklamaz. Sığ \npullback güçlü görünebilir; fakat önceki major sınır hiç kırılmamışsa daha büyük yapı açısından \nyeni bilgi üretmeyebilir. Hızlı kırılım etkileyici olabilir; fakat fiyat hemen eski kırılım alanına \ngeri dönüyorsa kazanılan alan korunmamıştır. Geometri, bu parçaları aynı resimde \nbirleştirdiğimizde anlamlı hale gelir.",
+    "source_extract_summary": [
+      "Swing geometrisinde süre de mesafe kadar bilgi taşır.",
+      "Ölçüt Daha güçlü bacakta ne görebiliriz?",
+      "Mesafe Daha fazla alan kazanımı İlerleme sınırlı kalıyor Süre / mum sayısı Aynı mesafeyi daha az mumda alma Aynı mesafe için daha çok mum gerekmesi Mum yapısı Daha uzun yönlü gövdeler, küçük kesintiler Daha küçük gövdeler, sık karşı hareket Geri çekilme derinliği Önceki hareketin daha azını geri verme Önceki hareketin daha fazlasını geri alma TEK ÖLÇÜTTEN KARAR VERMEYIN Hız tek başına yeterli değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0060",
+    "source_id": "PTA-C2-2026",
+    "page": 60,
+    "chapter": 8,
+    "section": "8.6 — Swing geometrisini tek bir okuma zincirinde birleştirin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n60 \n \nŞekil 8.6 — Tam okuma: önce önemli sınır, sonra kırılımdan önceki aday dip, ardından sınır dışı kapanış, \ngeri çekilme derinliği ve kırılım bölgesine göre konum birlikte değerlendirilir. \nAdım Ana soru Güçlü tarafta ne arıyoruz? Uyarı işareti \n1. Referans Hangi dip/tepe gerçekten \nmajor? \nÖnemli sınırlar net Her küçük swing major \nsayılıyor \n2. Teyit Önemli sınır dışında kapanış \nvar mı? \nSınırın ötesinde kapanış Yalnız test veya fitil \n3. Derinlik Geri çekilme önceki legin ne \nkadarını aldı? \nDaha sınırlı geri verme Geri verilen pay \nbüyüyor \n4. Konum Geri çekilme kırılım bölgesine \ndöndü mü? \nEski bölgenin dışında kalma Eski alana belirgin \nörtüşme \n5. Hız Ana hareket ile geri çekilme \nkaç mum sürdü? \nAna yön daha verimli / hızlı Karşı hareket hız \nkazanıyor \n \nBÖLÜM SONUCU \nSwing geometrisinde amaç grafiğe daha fazla çizgi eklemek değildir. Amaç, hangi dip ve tepenin gerçekten yapısal \nreferans olduğunu ayırmak ve hareket bacaklarını mesafe, süre, derinlik ve kırılım bölgesiyle ilişkisi üzerinden \nkarşılaştırmaktır. Bir sonraki bölümde bu geometrinin üzerine ikinci deneme, iki bacaklı geri çekilme ve başarısız \nyeni uç davranışlarını ekleyeceğiz.",
+    "source_extract_summary": [
+      "Adım Ana soru Güçlü tarafta ne arıyoruz?",
+      "Referans Hangi dip/tepe gerçekten major?",
+      "Önemli sınırlar net Her küçük swing major sayılıyor 2."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"
+    ]
+  }
+]

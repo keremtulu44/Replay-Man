@@ -1,0 +1,205 @@
+[
+  {
+    "id": "PTA-C2-2026.p0100",
+    "source_id": "PTA-C2-2026",
+    "page": 100,
+    "chapter": 13,
+    "section": "13.9 — Tam uygulama: bir grafiği baştan sona nasıl okuruz?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n100 \n \nŞekil 13.8 — Son kontrol sırası: önce fiyatın yönü, yapısı, momentumu ve takip davranışı; sonra hacim; en \nson davranış zaman dilimi. Destekleyici katmanlar ana okumanın yerine geçmez. \n13.9 — Tam uygulama: bir grafiği baştan sona nasıl okuruz? \nŞimdi bütün kitabı tek örnekte birleştirelim. A noktasında ana yapı yükseliş yönlü ve yukarı \nhareket, aşağı geri çekilmelere göre daha rahat ilerliyor. B noktasında pullback başlıyor; burada \nhenüz dönüş aramıyoruz. Önce karşı hareketin derinliğini, hızını ve yapısını ölçüyoruz. C \nnoktasında ikinci aşağı deneme ilkine göre daha az sonuç üretiyor ve yeni dip uzamıyor. Bu, \nsatıcıların ilerleme kabiliyetinin azaldığı ilk ciddi bilgidir. \nD noktasında alıcılar yerel sınırın üzerinde kapanarak yalnız tepki vermekle kalmıyor, yeni alan \nda kazanıyor. E noktasındaki geri test kırılan bölgenin tamamını geri alamıyor ve daha iyi bir \ndip bırakıyor. F noktasında fiyat yeniden genişlediğinde artık tek bir “güzel mum” değil; \nbağlam, kontrol, başarısız ikinci deneme, kırılım, geri test ve takip davranışı aynı yönde \nbirleşmiştir. Hacim ve alt zaman dilimi varsa ancak bu aşamadan sonra ikinci kontrol olarak \neklenir.",
+    "source_extract_summary": [
+      "Destekleyici katmanlar ana okumanın yerine geçmez.",
+      "13.9 — Tam uygulama: bir grafiği baştan sona nasıl okuruz?",
+      "Şimdi bütün kitabı tek örnekte birleştirelim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Göreceli katılım ve hacim özellikleri",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0101",
+    "source_id": "PTA-C2-2026",
+    "page": 101,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n101 \n \nŞekil 13.9 — Baştan sona uygulama. A: ana bağlam, B: pullback, C: başarısız ikinci deneme, D: yerel \nkırılım, E: geri test, F: devam. İşlem fikrinin ağırlığı tek bir noktadan değil, zincirin tamamından gelir. \nNokta Okunan bölüm Sorulan ana soru Sonuç \nA Bağlam + kontrol Hangi taraf daha rahat ilerliyor? Ana yükseliş davranışı daha güçlü \nB Geri çekilme geometrisi Karşı hareket ne kadar derin ve hızlı? Henüz dönüş kararı yok \nC İkinci deneme Satıcılar beklenen yeni dibi üretebildi mi? İlerleme kaybı belirginleşiyor \nD Kırılım Alıcılar yalnız tepki mi verdi, alan mı kazandı? Yerel sınır dışında kapanış \nE Geri test Kazanılan alan korunuyor mu? Eski bölge tamamen geri alınmıyor \nF Takip davranışı Yeni yön yeniden genişleyebiliyor mu? Kontrol değişimi daha güçlü teyit \n \n13.10 — Son kontrol: karar vermeden önce 10 soru \nBu liste yeni bir puanlama sistemi değildir. Her işlemde on kutunun da işaretlenmesi gerekmez. \nAma grafiğe bakarken bilgilerin hangi sırada kontrol edileceğini hatırlatır. İlk sorular belirsizse \nson soruların verdiği ayrıntı gereğinden fazla önem kazanmamalıdır. \n# Soru \n1 Ana ortam trend, kanal veya sıkışma açısından nasıl? \n2 Hangi taraf daha hızlı, temiz ve az örtüşmeyle ilerliyor? \n3 Mevcut güçlü tarafın ilerleme kabiliyeti değişiyor mu? \n4 Dizi dönüş, devam veya sıkışma davranışından hangisine daha yakın? \n5 Önemli kırılım yalnız fitille mi oldu, dışarıda kapanış var mı?",
+    "source_extract_summary": [
+      "A: ana bağlam, B: pullback, C: başarısız ikinci deneme, D: yerel kırılım, E: geri test, F: devam.",
+      "İşlem fikrinin ağırlığı tek bir noktadan değil, zincirin tamamından gelir.",
+      "Nokta Okunan bölüm Sorulan ana soru Sonuç A Bağlam + kontrol Hangi taraf daha rahat ilerliyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0102",
+    "source_id": "PTA-C2-2026",
+    "page": 102,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n102 \n# Soru \n6 Sonraki mumlar yeni alanı koruyor mu? \n7 İkinci deneme beklenen yeni tepe/dibi üretebildi mi? \n8 Geri çekilme sonunda eski yön başarısız olurken yeni yön gerçekten alan kazanıyor mu? \n9 Kurulumun önünde yeterli hareket alanı var mı? \n10 Hacim ve alt zaman dilimi fiyat hikâyesini destekliyor mu, yoksa çelişiyor mu? \n \nCILT 2’NIN ANA SONUCU \nMum dizilerini okumak, tek tek formasyon isimlerini çoğaltmak değildir. Fiyatın ne kadar rahat ilerlediğini, nerede \nilerleme kaybettiğini, hangi denemenin başarısız olduğunu ve karşı tarafın bu zayıflığı gerçekten kullanıp \nkullanamadığını sırayla okumaktır. En güçlü kararlar tek bir işaretten değil, aynı hikâyeyi anlatan bağımsız davranış \nparçalarının birleşmesinden doğar.",
+    "source_extract_summary": [
+      "# Soru 6 Sonraki mumlar yeni alanı koruyor mu?",
+      "7 İkinci deneme beklenen yeni tepe/dibi üretebildi mi?",
+      "8 Geri çekilme sonunda eski yön başarısız olurken yeni yön gerçekten alan kazanıyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0103",
+    "source_id": "PTA-C2-2026",
+    "page": 103,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n103 \nEK 1 \nHızlı Mum Dizisi Okuma Kontrol Listesi \nBu sayfa kitabın kısa başvuru özetidir. Bir puanlama sistemi değildir; grafiğe bakarken hangi soruyu hangi \nsırada soracağınızı hatırlatır. \n# Kontrol Sorulacak soru \n1 Bağlam Trend, kanal, fiyat aralığı veya önemli swing bölgesi? \n2 Kontrol Hangi taraf daha az mumla daha fazla mesafe alıyor? \n3 Mum kalitesi Gövde, fitil, kapanış ve örtüşme ne söylüyor? \n4 Momentum Eski yön hızlanıyor mu, yoksa ilerleme azalıyor mu? \n5 Davranış ailesi Dönüş, devam veya sıkışma mı? \n6 Kırılım Yalnız fitil mi, dış kapanış ve takip var mı? \n7 Swing geometrisi Yeni tepe/dip gerçekten önemli mi; geri çekilme ne kadar derin? \n8 İkinci deneme Beklenen yeni uç geldi mi, ikinci hareket ilkinden güçlü mü? \n9 Geri çekilme sonu Yeni yön alan kazanıp geri testte koruyabiliyor mu? \n10 İkinci katman Hacim ve alt zaman fiyat okumasını destekliyor mu? \n \nSON SORU \nFikrinizi bozacak hangi fiyat davranışını görürseniz mevcut yorumunuzu değiştireceğinizi önceden biliyor \nmusunuz?",
+    "source_extract_summary": [
+      "EK 1 Hızlı Mum Dizisi Okuma Kontrol Listesi Bu sayfa kitabın kısa başvuru özetidir.",
+      "Bir puanlama sistemi değildir; grafiğe bakarken hangi soruyu hangi sırada soracağınızı hatırlatır.",
+      "# Kontrol Sorulacak soru 1 Bağlam Trend, kanal, fiyat aralığı veya önemli swing bölgesi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0104",
+    "source_id": "PTA-C2-2026",
+    "page": 104,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n104 \nEK 2 \nTerimler Sözlüğü \nTerimler önce kitapta kullanılan sade anlamıyla verilmiştir. İngilizce karşılık, grafik ve kaynaklarla çalışırken \naynı kavramı tanımanıza yardımcı olur. \nBlended candle / Birleşik mum — Birkaç mumun toplam açılış–kapanış sonucunu tek bir özet mum gibi düşünme \nyöntemi. \nBody / Gövde — Mumun açılış ile kapanış arasındaki bölümü. \nBreakout / Kırılım — Fiyatın belirli bir sınırın dışına çıkması. Kalitesi kapanış ve takip davranışıyla değerlendirilir. \nClose / Kapanış — Mumun dönem sonunda kapandığı fiyat; kırılımın kabulü açısından önemli referanstır. \nCompression / Sıkışma — Mum aralıklarının ve/veya ilerlemenin daraldığı, iki tarafın da temiz alan üretmekte \nzorlandığı dönem. \nExpansion / Genişleme — Sıkışma veya duraklama sonrasında fiyat aralığının ve yönlü ilerlemenin belirgin biçimde \nbüyümesi. \nFollow-through / Takip davranışı — İlk kırılım veya güçlü mumdan sonra sonraki mumların aynı fikri koruyup \nilerletebilmesi. \nHigher High (HH) — Önceki önemli tepenin üzerinde oluşan yeni tepe. \nHigher Low (HL) — Önceki önemli dibe göre daha yukarıda kalan yeni dip. \nInside bar — Tam fiyat aralığı önceki mumun yüksek–düşük aralığı içinde kalan mum. \nLeg / Bacak — Swingler arasında yönlü ilerleyen fiyat bölümü. \nLower High (LH) — Önceki önemli tepeye ulaşamadan daha aşağıda kalan yeni tepe. \nLower Low (LL) — Önceki önemli dibin altında oluşan yeni dip. \nMajor swing — Sonraki yapıyı gerçekten etkileyen, önemli kırılım veya yön değişimiyle teyit edilen swing.",
+    "source_extract_summary": [
+      "EK 2 Terimler Sözlüğü Terimler önce kitapta kullanılan sade anlamıyla verilmiştir.",
+      "İngilizce karşılık, grafik ve kaynaklarla çalışırken aynı kavramı tanımanıza yardımcı olur.",
+      "Blended candle / Birleşik mum — Birkaç mumun toplam açılış–kapanış sonucunu tek bir özet mum gibi düşünme yöntemi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0105",
+    "source_id": "PTA-C2-2026",
+    "page": 105,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n105 \nEK 2 · DEVAM \nTerimler Sözlüğü \nMicro channel / Mikro kanal — Ardışık mumların dip veya tepelerinin kısa süre boyunca düzenli biçimde \nkorunmasıyla oluşan dar yönlü yapı. \nMomentum — Fiyatın bir yönde ne kadar hızlı ve rahat ilerlediğini anlatan genel davranış. \nOverlap / Örtüşme — Ardışık mumların fiyat aralıklarının birbirinin içine ne kadar girdiği. \nPullback / Geri çekilme — Ana harekete karşı gelişen geçici karşı hareket. \nRange / Fiyat aralığı — Fiyatın iki sınır arasında gidip geldiği, yönlü ilerlemenin sınırlı olduğu alan. \nRejection / Geri itilme — Fiyatın belirli bölgeyi denedikten sonra mum içinde geri çevrilmesi; çoğu zaman fitille \ngörünür. \nRetest / Geri test — Kırılan bir sınırın daha sonra karşı yönden yeniden test edilmesi. \nSecond attempt / İkinci deneme — Aynı yönde ilk denemeden sonra gelen ikinci ilerleme girişimi; ilk denemeyle \nkarşılaştırılır. \nSwing high / Swing low — Fiyatın yön değiştirerek yerel tepe veya dip oluşturduğu nokta. \nTwo-legged pullback / İki bacaklı geri çekilme — Geri çekilmenin bir ara tepkiyle bölünmüş iki ayrı karşı itiş halinde \ngelişmesi. \nWick / Fitil — Mum döneminde görülüp kapanışta korunamayan fiyat aralığını gösteren üst veya alt uzantı. \nVolume / Hacim — Belirli sürede gerçekleşen işlem/aktivite miktarı; bu kitapta fiyat davranışını destekleyen ikinci \nkatman. \nMTF / Çoklu zaman dilimi — Aynı fiyat davranışını farklı zaman ölçeklerinde birlikte değerlendirme yaklaşımı. \nKULLANIM NOTU \nTerimleri tek başına sinyal adı gibi kullanmayın. Kitap boyunca aynı terimin ağırlığı bağlam, konum ve \nsonraki fiyat davranışıyla değişir.",
+    "source_extract_summary": [
+      "EK 2 · DEVAM Terimler Sözlüğü Micro channel / Mikro kanal — Ardışık mumların dip veya tepelerinin kısa süre boyunca düzenli biçimde korunmasıyla oluşan dar yönlü yapı.",
+      "Momentum — Fiyatın bir yönde ne kadar hızlı ve rahat ilerlediğini anlatan genel davranış.",
+      "Overlap / Örtüşme — Ardışık mumların fiyat aralıklarının birbirinin içine ne kadar girdiği."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0106",
+    "source_id": "PTA-C2-2026",
+    "page": 106,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n106 \nEK 3 \nKaynakça \nCilt 2 araştırma havuzu, aşağıdaki İngilizce eğitim videolarından çıkarılan ve editoryal olarak temizlenen fiyat davranışı \nnotlarına dayanır. Video başlıkları kaynak tanımlaması amacıyla özgün biçimleriyle korunmuştur. \n1. Reading markets with 'Multi-Candle' Momentum - Bootcamp Ep.9 [2iVkF_FVCXA] \n2. Candlestick Patterns Don't Work (Unless You Do This) [wIeYqqXcgtU] \n3. Candlestick Math – A Great Way to Spot Trading Opportunities [_7kTr0Tfyl8] \n4. The Price Action Strategy That Makes Trading Look Easy! [ySa6ANFvW5w] \n5. 3 Trading Entries That Will Change The Game - (Simple & Powerful) [5Znp5XcpvnE] \n6. Ultimate Candlestick Patterns Trading Course (PRO INSTANTLY) [UU4ZQF-X9jE] \n7. Scalping series: #02 Scalping 2-minute Emini chart [gOEDwTe4JuE] \n8. Chapter 1 - Price Action (Reading Price Charts Bar by Bar: Al Brooks) [cdOtRMWAJNg] \n9. The BEST Candlestick Pattern Guide You'll EVER FIND [m4WOwgUMQuc] \n10. Brooks Trading Course - Emini channels with H4 and L4 reversals [OQP8oJs4cIg] \n11. A Reliable Scalping Strategy I Discovered After 1 Month of Price Action Trading [sLfbqZq5LOA] \n12. Advanced Breakout Strategies - The Trade Lab with Richard Moglen [0Vpt3P2ATPQ] \n13. How to Avoid False Breakouts (Avoid The Trap) [2yePksvT64I] \n14. The 1st Pullback Trading HACK (HIGH WIN RATE Price Action Strategy For Beginners) [GeZq3qNMSnc]",
+    "source_extract_summary": [
+      "EK 3 Kaynakça Cilt 2 araştırma havuzu, aşağıdaki İngilizce eğitim videolarından çıkarılan ve editoryal olarak temizlenen fiyat davranışı notlarına dayanır.",
+      "Video başlıkları kaynak tanımlaması amacıyla özgün biçimleriyle korunmuştur.",
+      "Reading markets with 'Multi-Candle' Momentum - Bootcamp Ep.9 [2iVkF_FVCXA] 2."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0107",
+    "source_id": "PTA-C2-2026",
+    "page": 107,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n107 \nEK 3 · DEVAM \nKaynakça \n15. End-of-Day Bull and Bear Traps - Al Brooks [j3FYCyWBTqc] \n16. Trader Training Call With Price Action Trader Al Brooks [91h0Dw9jwQ0] \n17. How To Identify Swing Highs & Lows [AHvDE9TxFLU] \n18. 15 Best Price Action Strategies After 15 Years of Trading (The Holy Grail) [FBdN2L8SSyY] \n19. Trading When a Market Is in a Bull Channel | Al Brooks [RDJWHNwwI-M] \n20. Tutorial for Traders： How to Read a Price Chart [ebULiDW6O70] \n21. Live Price Action Trade Example 9-16-13 [31GUm-52k9o] \n22. Al Brooks on Probabilities, Timing, Scaling [J6lL2pdvV7w] \n23. Best Pullback Trading Strategy That Will Change The Way You Trade [cKKLujAdvzk] \n24. Trading Price Action Using PIN BARS (Best Forex Candlestick Reversal Pattern) [FQdOyANXSAM] \n25. The GOAT Teaches You How To Master Price Action (Ep 5: Al Brooks) [N-kr7PTO_wU] \n26. Volume Doesn't Work (Unless You Do This) [aVt0WUJuV6E] \n27. 3 Step Process To Finding The Best Trades - Keeping Trading Simple [bGKFvrjsnZA] \n \nKAYNAK KULLANIMI \nKaynak videolardaki reklam, kişisel performans anlatısı ve doğrulanmamış kesinlik iddiaları kitap metnine \ntaşınmamıştır. Kitapta kaynak fikirler Türkçe anlatımla yeniden kurulmuş; görseller öğretim amacıyla özgün \nhazırlanmıştır.",
+    "source_extract_summary": [
+      "End-of-Day Bull and Bear Traps - Al Brooks [j3FYCyWBTqc] 16.",
+      "Trader Training Call With Price Action Trader Al Brooks [91h0Dw9jwQ0] 17.",
+      "How To Identify Swing Highs & Lows [AHvDE9TxFLU] 18."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0108",
+    "source_id": "PTA-C2-2026",
+    "page": 108,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n108 \nEK 4 \nEditoryal Not \nBu cildin araştırma sürecinde 66 ayrı kaynak parçası çıkarıldı. Otomatik altyazı/ASR hataları temizlendi; \ntekrarlar, konuşma dolguları, reklam bölümleri ve konu dışı performans anlatıları çıkarıldı. Teknik \nterimler standartlaştırıldı; anlamı güvenilir biçimde çıkarılamayan ifadeler tahmin edilerek yeni teknik \niddiaya dönüştürülmedi. \nKitap metni transkript çevirisi değildir. Kaynakların desteklediği gözlenebilir fiyat davranışları; Türkçe, \nsade ve eğitim amaçlı bir anlatımla yeniden düzenlenmiştir. Aynı konu birden fazla kaynakta tekrar \nediyorsa içerik birleştirilmiş, gereksiz tekrar azaltılmıştır. \nKAPSAM SINIRI \nBu kitap FVG, Order Block, likidite veya belirli bir ekolün terminolojisini merkezine almaz. Odağı; mum \ndizisi, ilerleme kalitesi, swing geometrisi, ikinci deneme, kırılım, geri çekilme, bağlam ve takip davranışıdır. \n \nGörseller hakkında \nKitaptaki şematik grafikler gerçek piyasa verisinin birebir ekran görüntüsü değildir. Bir davranış farkını açık \nbiçimde göstermek için sadeleştirilmiş öğretim şemalarıdır. Bu nedenle bir görseldeki mum sayısı veya fiyat \noranı mekanik işlem kuralı olarak kullanılmamalıdır. \nYayın öncesi son kontrolde bölüm içi terminoloji, görsel etiketler, tablo başlıkları ve sayfa referansları tek \nbiçime getirilmelidir. İçerik değişirse içindekiler sayfa numaraları da yeniden güncellenmelidir.",
+    "source_extract_summary": [
+      "EK 4 Editoryal Not Bu cildin araştırma sürecinde 66 ayrı kaynak parçası çıkarıldı.",
+      "Otomatik altyazı/ASR hataları temizlendi; tekrarlar, konuşma dolguları, reklam bölümleri ve konu dışı performans anlatıları çıkarıldı.",
+      "Teknik terimler standartlaştırıldı; anlamı güvenilir biçimde çıkarılamayan ifadeler tahmin edilerek yeni teknik iddiaya dönüştürülmedi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0109",
+    "source_id": "PTA-C2-2026",
+    "page": 109,
+    "chapter": 13,
+    "section": "13.10 — Son kontrol: karar vermeden önce 10 soru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n109 \nSON SÖZ \nGrafiği isimlerle değil, davranışla okuyun \nBu cildin başında tek bir mumdan yola çıktık. Sonunda ise aynı mumu, kendisinden önce gelen \nhareketin ve kendisinden sonra oluşan fiyatın bir parçası olarak okumaya başladık. Aradaki \nfark, daha fazla formasyon bilmek değil; bilgiyi doğru sıraya koyabilmektir. \nBir hareket güçlü görünebilir ama ilerleme azalıyor olabilir. Bir kırılım gerçekleşebilir ama yeni \nbölgede kalıcılık oluşmayabilir. Bir pullback önemli seviyeye ulaşabilir ama kontrol henüz \ndeğişmemiş olabilir. Bu yüzden kitabın temel sorusu hep aynıdır: Fiyat ne yaptı, bunu ne kadar \nrahat yaptı ve bir sonraki denemede aynı şeyi sürdürebildi mi? \nHATIRLANACAK SON CÜMLE \nTek mum bir anı gösterir. Fiyatın hikâyesini ise mumların sırası, swinglerin yerleşimi ve sonraki davranış \ntamamlar. \n \n \nPROFESYONEL TEKNİK ANALİZ — CİLT 2 \nMum Dizileri ve Fiyat Davranışı",
+    "source_extract_summary": [
+      "SON SÖZ Grafiği isimlerle değil, davranışla okuyun Bu cildin başında tek bir mumdan yola çıktık.",
+      "Sonunda ise aynı mumu, kendisinden önce gelen hareketin ve kendisinden sonra oluşan fiyatın bir parçası olarak okumaya başladık.",
+      "Aradaki fark, daha fazla formasyon bilmek değil; bilgiyi doğru sıraya koyabilmektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

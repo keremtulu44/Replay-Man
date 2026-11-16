@@ -300,6 +300,15 @@ XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün o
 
 **Karar:** Çıplak yaşam döngüsü `context_required`; failure sonrası karşı genişleme `continue`.
 
-# Sonraki kitap kuralları
+## BR-029–BR-034 — Cilt 2 nihai paketleri
 
-Cilt 2 P7 swing hiyerarşisi, teyit gecikmesi ve parametre komşuluğuyla devam edecektir.
+- **BR-029:** 1.582.677 swing olayı; 18 geometri/tolerans komşuluğu. Karar `parameter_neighbourhood_context`.
+- **BR-030:** İkinci deneme ve pullback zinciri. Karar `context_dependent`; küçük olumlu alt gruplar `insufficient_sample`.
+- **BR-031:** Yerleşim ve uzamışlık sonuçları değiştiriyor. Karar `context_required`; çıplak şekil bilgisi çoğunlukla tekrarlı.
+- **BR-032:** Hacim yalnız uygun varlık gruplarında test edildi; endeks/FX `data_unsuitable`. Üst zaman yalnız tamamlanmış barlardan geldi.
+- **BR-033:** Karar zinciri 309.467 olayı 5.895'e indirirken genel medyanı iyileştirmedi. Karar `redundant_filters_detected`.
+- **BR-034:** Maliyet ve örtüşme denetiminde küçük havuz avantajları %0,10 maliyetle negatife döndü. Karar `completed`.
+
+# Cilt 2 durumu
+
+C2-P1–P12 tamamlandı. 109/109 sayfada nihai disposition, 319 atomik claim ve sıfır açık claim vardır. Ayrıntılı nihai rapor `research/experiments/cilt2-completion/final-results.md` içindedir.

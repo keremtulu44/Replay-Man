@@ -473,6 +473,117 @@
       "decision": "556.255 olay ve 11 parametre varyantı ölçüldü; çıplak olaylar yazı-turaya yakın, failure sonrası karşı genişleme üç zaman bölümünde pozitif ayrıştı.",
       "source_link": "research/experiments/book-rule-results/BR-028-breakout-lifecycle-details/source-links.json",
       "result_directory": "research/experiments/book-rule-results/BR-028-breakout-lifecycle-details"
+    },
+    {
+      "id": "BR-029-swing-geometry",
+      "title": "Swing geometrisi hiyerarşi ve teyit gecikmesi",
+      "sources": [
+        "PTA-C2-2026.p0054",
+        "PTA-C2-2026.p0055",
+        "PTA-C2-2026.p0058",
+        "PTA-C2-2026.p0059",
+        "PTA-C2-2026.p0060"
+      ],
+      "events": [],
+      "status": "parameter_neighbourhood_context",
+      "decision": "1.582.677 olay; 1+1–7+7 ve 0,10–0,50 ATR komşuluğunda çıplak yeni uç sonuçları yön ve dönem bağımlı.",
+      "source_link": "research/experiments/book-rule-results/BR-029-swing-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-029-swing-geometry"
+    },
+    {
+      "id": "BR-030-second-attempt-pullback",
+      "title": "İkinci deneme çok bacak ve pullback zinciri",
+      "sources": [
+        "PTA-C2-2026.p0063",
+        "PTA-C2-2026.p0064",
+        "PTA-C2-2026.p0065",
+        "PTA-C2-2026.p0066",
+        "PTA-C2-2026.p0067",
+        "PTA-C2-2026.p0068",
+        "PTA-C2-2026.p0069",
+        "PTA-C2-2026.p0070",
+        "PTA-C2-2026.p0071",
+        "PTA-C2-2026.p0077",
+        "PTA-C2-2026.p0082"
+      ],
+      "events": [],
+      "status": "context_dependent",
+      "decision": "112.790 deneme ve 309.467 mum/pullback olayı yeniden bantlandı; küçük olumlu alt gruplar yetersiz örnek olarak korundu.",
+      "source_link": "research/experiments/book-rule-results/BR-030-second-attempt-pullback/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-030-second-attempt-pullback"
+    },
+    {
+      "id": "BR-031-location-context",
+      "title": "Şeklin trend range kanal ve uzamışlık içindeki yeri",
+      "sources": [
+        "PTA-C2-2026.p0083",
+        "PTA-C2-2026.p0084",
+        "PTA-C2-2026.p0085",
+        "PTA-C2-2026.p0086",
+        "PTA-C2-2026.p0094",
+        "PTA-C2-2026.p0095"
+      ],
+      "events": [],
+      "status": "context_required",
+      "decision": "309.467 olayda rejim, derinlik/kanal vekili ve ATR uzamışlığı sonucu değiştirdi; şekil tek başına yinelenen bilgi.",
+      "source_link": "research/experiments/book-rule-results/BR-031-location-context/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-031-location-context"
+    },
+    {
+      "id": "BR-032-volume-mtf",
+      "title": "Hacim uygunluk kapısı ve tamamlanmış üst zaman bağlamı",
+      "sources": [
+        "PTA-C2-2026.p0087",
+        "PTA-C2-2026.p0088",
+        "PTA-C2-2026.p0089",
+        "PTA-C2-2026.p0090"
+      ],
+      "events": [],
+      "status": "mixed_data_suitability",
+      "decision": "Hacim yalnız uygun gruplarda ölçüldü; endeks/FX veri-uygunsuz tutuldu; üst zaman yalnız tamamlanmış bardan geldi.",
+      "source_link": "research/experiments/book-rule-results/BR-032-volume-mtf/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-032-volume-mtf"
+    },
+    {
+      "id": "BR-033-decision-chain",
+      "title": "Bağlamdan çoklu zaman teyidine marjinal karar zinciri",
+      "sources": [
+        "PTA-C2-2026.p0091",
+        "PTA-C2-2026.p0092",
+        "PTA-C2-2026.p0093",
+        "PTA-C2-2026.p0094",
+        "PTA-C2-2026.p0095",
+        "PTA-C2-2026.p0096",
+        "PTA-C2-2026.p0097",
+        "PTA-C2-2026.p0098",
+        "PTA-C2-2026.p0099"
+      ],
+      "events": [],
+      "status": "redundant_filters_detected",
+      "decision": "Zincir 309.467 olaydan 5.895'e inerken medyan %0,02'den -%0,13'e düştü; ek filtreler genel avantaj yaratmadı.",
+      "source_link": "research/experiments/book-rule-results/BR-033-decision-chain/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-033-decision-chain"
+    },
+    {
+      "id": "BR-034-robustness-cost-overlap",
+      "title": "Maliyet olay örtüşmesi sembol ve yanlış keşif sağlamlığı",
+      "sources": [
+        "PTA-C2-2026.p0100",
+        "PTA-C2-2026.p0101",
+        "PTA-C2-2026.p0102",
+        "PTA-C2-2026.p0103",
+        "PTA-C2-2026.p0104",
+        "PTA-C2-2026.p0105",
+        "PTA-C2-2026.p0106",
+        "PTA-C2-2026.p0107",
+        "PTA-C2-2026.p0108",
+        "PTA-C2-2026.p0109"
+      ],
+      "events": [],
+      "status": "completed",
+      "decision": "%0–0,50 maliyet stresi ve Jaccard örtüşmesi saklandı; havuzlanmış avantajlar maliyetle negatife dönüyor, komşulukların tamamı korundu.",
+      "source_link": "research/experiments/book-rule-results/BR-034-robustness-cost-overlap/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-034-robustness-cost-overlap"
     }
   ]
 }
