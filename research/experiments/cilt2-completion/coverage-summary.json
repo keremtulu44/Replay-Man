@@ -2,7 +2,7 @@
   "schema_version": 1,
   "pages": 109,
   "atomic_claims": 319,
-  "pages_with_rule_links": 75,
+  "pages_with_rule_links": 106,
   "unique_linked_rules": 30,
   "disposition_counts": {
     "reference_only": 3,
