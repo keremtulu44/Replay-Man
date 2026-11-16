@@ -1,0 +1,523 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0302",
+    "page": 302,
+    "chapter": 15,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 15\nTradingView, Grafik Araçları ve Test İş \nAkışı\nSembol doğrulamadan replay ve paper trading’e kadar görev bazlı platform sistemi",
+    "source_extract_summary": [
+      "BÖLÜM 15 TradingView, Grafik Araçları ve Test İş Akışı Sembol doğrulamadan replay ve paper trading’e kadar görev bazlı platform sistemi"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0303",
+    "page": 303,
+    "chapter": 15,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  288\nBu Bölümün Amacı\nÖnceki bölümlerde fiyatı okumayı, setup kurmayı, riski hesaplamayı ve duygusal süreç kapıları \noluşturmayı öğrendik. Bu bölümde aynı sistemi TradingView ekranına taşırız. Grafiği açtığım anda \nönce sembolü ve veri kaynağını doğrular, sonra bağlam–setup–tetik katmanlarını ayırır, işlem planını \nçizer, alarm kurar ve fikri replay ile paper trading ortamında sınarım.\nTradingView güçlü bir platformdur; fakat platformun sunduğu araç sayısı analiz kalitesini otomatik \nartırmaz. Temiz bir grafik, doğru veri ve açık bir görev sırası; rastgele eklenmiş çok sayıda indikatör, \nçizim veya ekran panelinden daha değerlidir.\nBÖLÜM SONUNDA\n• Aynı ticker altında farklı borsa, feed, para birimi ve kontratları ayırabileceksiniz.\n• Lineer/log ölçek, chart type, timeframe ve layout’u göreve göre seçebileceksiniz.\n• Çizim ve indikatörleri tek görevli katmanlar hâlinde düzenleyebileceksiniz.\n• Alarm koşulunu “neyin neyi hangi yönde geçtiği” diliyle kurabileceksiniz.\n• Bar Replay ve paper trading’i farklı test soruları için kullanabileceksiniz.\n• Multi-chart ve otomatik araçları bilgi tekrarı değil görev ayrımı için kullanabileceksiniz.\nARAYÜZ NOTU\nTradingView’in buton adları, plan limitleri, mobil/masaüstü görünümü ve bazı özelliklerin erişimi \nzamanla değişebilir. Bu bölüm kalıcı görev mantığını öğretir. Uygulamada güncel arayüz etiketlerini \nve bağlı broker koşullarını ayrıca kontrol edin.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Önceki bölümlerde fiyatı okumayı, setup kurmayı, riski hesaplamayı ve duygusal süreç kapıları oluşturmayı öğrendik.",
+      "Bu bölümde aynı sistemi TradingView ekranına taşırız.",
+      "Grafiği açtığım anda önce sembolü ve veri kaynağını doğrular, sonra bağlam–setup–tetik katmanlarını ayırır, işlem planını çizer, alarm kurar ve fikri replay ile paper trading ortamında sınarım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Deney ve strateji kartı",
+      "Gereksinim, semantik test ve sürümleme",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0304",
+    "page": 304,
+    "chapter": 15,
+    "section": "15.1 — Platformu Stratejiden Ayırmak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  289\nŞekil 15.1 – TradingView operasyon döngüsü\nUygulama Görseli 15.1 – TradingView ana ekranında watchlist, sembol adı, timeframe, drawing toolbar, \nindicator, alert, replay ve trading panel alanlarının numaralandırılmış genel görünümü. Temsilî eğitim \nşeması.\n15.1 Platformu Stratejiden Ayırmak\nTradingView (grafik, analiz, alarm, test ve bazı broker bağlantılarını tek çalışma alanında birleştiren \nplatform), bana veri ve araç sunar. Hangi koşulda işlem alacağımı platform değil, Bölüm 12’deki strateji \nkartım belirler. Platformun görevi, stratejiyi görünür ve uygulanabilir hâle getirmektir.\nKatman Platform ne sağlar? Platform ne sağlamaz?\nVeri Fiyat serisi, hacim ve sembol bilgisi. Her feed’in aynı veya hatasız olduğunu \ngaranti etmez.",
+    "source_extract_summary": [
+      "15.1 Platformu Stratejiden Ayırmak TradingView (grafik, analiz, alarm, test ve bazı broker bağlantılarını tek çalışma alanında birleştiren platform), bana veri ve araç sunar.",
+      "Hangi koşulda işlem alacağımı platform değil, Bölüm 12’deki strateji kartım belirler.",
+      "Platformun görevi, stratejiyi görünür ve uygulanabilir hâle getirmektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Deney ve strateji kartı",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0305",
+    "page": 305,
+    "chapter": 15,
+    "section": "15.2 — Watchlist, Sembol ve Veri Kaynağı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  290\nKatman Platform ne sağlar? Platform ne sağlamaz?\nAnaliz Çizim, indikatör, ölçüm ve çoklu grafik. Kavramı doğru yorumlama veya edge \nüretme garantisi vermez.\nBekleme Alarm ve watchlist. Alarmdan sonra setup’ın tamamlandığını \nkanıtlamaz.\nTest Replay ve paper trading. Gerçek fill, maliyet ve psikolojiyi eksiksiz \nkopyalamaz.\nEmir Uygun broker/paper bağlantısında emir \npaneli.\nBroker, saklayıcı veya piyasa yapıcı rolünü \nüstlenmez.\nKayıt Order history, screenshot ve düzen. İşlem günlüğündeki neden/ihlal analizini \notomatik tamamlamaz.\nTablo 15.1 – Platformun görevi ve sınırı\nEKRANDA NE ARIYORUM?\n• Bu ekrandaki her araç hangi karar sorusunu cevaplıyor?\n• Bir çizim veya indikatör kaldırıldığında gerçekten bilgi kaybediyor muyum?\n• Platforma mı güveniyorum, yoksa yazılı strateji kartına mı?\n• Analiz, bekleme, test ve emir adımlarını birbirinden ayırdım mı?\n• Aynı workspace’i tekrar açtığımda karar sıram anlaşılır mı?\nDOĞRU BİLİNEN YANLIŞ\nMit: Daha gelişmiş TradingView planı veya daha fazla indikatör daha iyi trader yapar.\nGerçeklik: Ek özellikler operasyon kapasitesini artırabilir; fakat veri doğrulama, edge, risk ve disiplin \neksikse araç sayısı yalnızca kalabalığı büyütür.\n15.2 Watchlist, Sembol ve Veri Kaynağı \nDoğrulaması\nWatchlist (izleyeceğim sembolleri tek listede toplayıp fiyat ve durum değişimini takip etme paneli), \nişlem evrenini daraltır. Listeye sembol eklerken yalnız ada bakmam. Ticker (varlığı veya kontratı \ntanımlayan kısa kod), exchange/data feed, quote currency, ürün tipi ve veri durumunu birlikte \ndoğrularım.",
+    "source_extract_summary": [
+      "Analiz Çizim, indikatör, ölçüm ve çoklu grafik.",
+      "Kavramı doğru yorumlama veya edge üretme garantisi vermez.",
+      "Alarmdan sonra setup’ın tamamlandığını kanıtlamaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Gereksinim, semantik test ve sürümleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Deney ve strateji kartı",
+      "Veri sözleşmesi ve mum özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0306",
+    "page": 306,
+    "chapter": 15,
+    "section": "15.2 — Watchlist, Sembol ve Veri Kaynağı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  291\nŞekil 15.2 – Sembol kimliğini doğrulama katmanları\nDoğrulama alanı Sorduğum soru Yanlış seçim riski\nTicker Aradığım varlığın doğru kısa kodu mu? Benzer isimli başka şirket/coin/kontrat.\nBorsa / feed Fiyat hangi kaynak veya piyasadan \ngeliyor?\nFarklı seans, likidite ve fiyat basamakları.\nQuote currency Fiyat hangi para biriminde ölçülüyor? USD, TRY, EUR veya stablecoin karışıklığı.\nÜrün tipi Spot, futures, perpetual, CFD veya endeks \nmi?\nVade, funding, kaldıraç ve gap farkı.\nVeri durumu Canlı, gecikmeli veya sınırlı geçmiş mi? Alarm ve replay sonucunun yanlış \nyorumlanması.\nZaman dilimi / seans Grafikteki mumlar hangi oturumu \niçeriyor?\nGünlük kapanış ve hacim uyumsuzluğu.\nTablo 15.2 – Sembol ve veri doğrulama kartı\nEYLEM DİLİ\nXAGTRYG yazıp ilk sonucu seçmem. Sonuç satırındaki sağlayıcı/feed etiketini, ürün tipini ve fiyat \nbirimini kontrol ederim. Analiz yaptığım sembol ile emir verdiğim ürünün aynı ekonomik \nmaruziyeti taşıdığını ayrıca doğrularım.\nVAKA ANALİZİ — XAGTRYG WATCHLIST\nWatchlist’te “XAGTRYG Ana”, “XAGTRYG Alternatif Feed” ve “XAGUSD + USDTRY Kontrol” grupları \noluşturduğumu varsayalım. Ana grafikte beklenmeyen bir gap görürsem doğrudan teknik sinyal \nsaymam. Önce alternatif feed ve bileşen fiyatlarını açar, hareketin veri farkı mı yoksa piyasa olayı \nmı olduğunu kontrol ederim. Ancak bu kontrolden sonra zone veya breakout çizimini güncellerim.",
+    "source_extract_summary": [
+      "Benzer isimli başka şirket/coin/kontrat.",
+      "Borsa / feed Fiyat hangi kaynak veya piyasadan geliyor?",
+      "Farklı seans, likidite ve fiyat basamakları."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Gereksinim, semantik test ve sürümleme",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0307",
+    "page": 307,
+    "chapter": 15,
+    "section": "15.3 — Chart Type, Zaman Dilimi, Ölçek ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  292\nDOĞRU BİLİNEN YANLIŞ\nMit: Ticker aynıysa grafik de aynıdır.\nGerçeklik: Aynı varlık farklı borsa, broker, quote currency veya kontratta farklı fiyat, hacim, seans ve \ngeçmiş veri üretebilir.\nUygulama Görseli 15.2 – XAGTRYG sembol aramasında ticker, sağlayıcı/feed, ürün türü ve para biriminin \nçerçevelendiği sembol doğrulama ekranı. Temsilî eğitim şeması.\n15.3 Chart Type, Zaman Dilimi, Ölçek ve \nNavigasyon\nChart type (fiyat verisini mum, çizgi, bar veya ortalama mum gibi farklı biçimde gösterme seçimi), \nveriyi değiştirmeden ya da bazı türlerde dönüştürerek sunar. Standart candlestick gerçek OHLC’yi; \nHeikin Ashi ise ortalamalı ve daha pürüzsüz bir görünümü öne çıkarır. Emir fiyatı ve gap gibi gerçek \nfiyat ayrıntıları için standart mumu referans alırım.\nKontrol Ne zaman kullanırım? Dikkat\nStandart mum Giriş, stop, kapanış, wick, gap ve gerçek \nfiyat.\nGrafik gürültüsü daha görünür olabilir.\nHeikin Ashi Trend streak’i ve görsel filtre. Ortalama değer; gerçek close/emir fiyatı \ndeğildir.\nLineer ölçek Kısa/orta dönem ve mutlak fiyat farkı. Uzun dönem yüzdesel karşılaştırma \nbozulabilir.\nLogarithmic scale Uzun dönem, büyük fiyat katları ve \nyüzdesel hareket.\nKısa dönem setup’ta alışkanlık dışı \ngörünüm yaratabilir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Ticker aynıysa grafik de aynıdır.",
+      "Gerçeklik: Aynı varlık farklı borsa, broker, quote currency veya kontratta farklı fiyat, hacim, seans ve geçmiş veri üretebilir.",
+      "Uygulama Görseli 15.2 – XAGTRYG sembol aramasında ticker, sağlayıcı/feed, ürün türü ve para biriminin çerçevelendiği sembol doğrulama ekranı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Veri sözleşmesi ve mum özellikleri",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0308",
+    "page": 308,
+    "chapter": 15,
+    "section": "15.3 — Chart Type, Zaman Dilimi, Ölçek ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  293\nKontrol Ne zaman kullanırım? Dikkat\nAuto scale Mevcut görünümü ekrandaki veri ve \nçizimlere sığdırma.\nUzak çizimler fiyatı sıkıştırabilir.\nTimeframe Bağlam, setup veya tetik görevi. Zaman dilimi değişince yapı sınıfı da \ndeğişebilir.\nTablo 15.3 – Chart type, timeframe ve ölçek görevleri\nEKRANDA NE ARIYORUM?\n• Üst sol köşede doğru sembol ve timeframe yazıyor mu?\n• Fiyat ekseni lineer mi log mu; neden?\n• Auto scale uzak bir çizim yüzünden grafiği sıkıştırıyor mu?\n• Heikin Ashi kullanıyorsam gerçek fiyatı ikinci grafikte doğruluyor muyum?\n• Zoom seviyesi yalnız son birkaç mumu gösterip ana yapıyı saklıyor mu?\nDOĞRU BİLİNEN YANLIŞ\nMit: Logaritmik ölçek daha doğru sinyal üretir.\nGerçeklik: Log ölçek yüzdesel hareketleri daha dengeli gösterir; sinyal üretmez. Hangi ölçeğin \nuygun olduğu analiz ufkuna bağlıdır.\nUygulama Görseli 15.3 – Aynı XAGTRYG haftalık grafiğinin lineer ve log ölçekle yan yana karşılaştırılması; \naynı swing noktalarının farklı görsel mesafeleri. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Dikkat Auto scale Mevcut görünümü ekrandaki veri ve çizimlere sığdırma.",
+      "Uzak çizimler fiyatı sıkıştırabilir.",
+      "Timeframe Bağlam, setup veya tetik görevi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Deney ve strateji kartı",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0309",
+    "page": 309,
+    "chapter": 15,
+    "section": "15.4 — Layout, Workspace ve Temiz Grafik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  294\n15.4 Layout, Workspace ve Temiz Grafik \nStandardı\nLayout/workspace (grafik sayısı, sembol, timeframe, çizim, indikatör ve görünüm düzenini kaydedip \nyeniden kullanma çalışma alanı), karar rutinimi standardize eder. Her strateji için ayrı bir görev \nşablonu oluştururum; tek grafiği bütün piyasalar ve bütün amaçlar için kalabalıklaştırmam.\nŞekil 15.3 – Temiz grafik katmanları\nWorkspace Gösterilecek katmanlar Gösterilmeyecek\nBağlam Ana trend, major swing, weekly/daily zone, \nhedef rota.\nMikro tetik ve çok sayıda oscillator.\nSetup Orta TF yapı, pullback/range/formasyon, \nhacim ve gerekli tek teyit.\nÜst TF’nin bütün tarihsel çizimleri.\nTetik Entry seviyesi, trigger, stop, hedef, \nspread/mesafe.\nİlgisiz uzun dönem notlar.\nReplay Kural kartı, kör başlangıç, karar ve sonuç \netiketi.\nGeleceği ele veren çizim veya not.\nPaper Gerçekçi balance, quantity, order type, \nstop/target ve maliyet kaydı.\nDeneme amacı olmayan rastgele emirler.\nTablo 15.4 – Göreve göre workspace standardı\nTEMİZ GRAFİK KURALI\n• Her renk tek anlam taşır.\n• Aynı bölgeyi tekrar eden çizimler birleştirilir.\n• Tamamlanan veya geçersiz kalan senaryolar arşivlenir/silinir.\n• İndikatör yalnız cevapladığı soru varsa ekranda kalır.\n• Entry–stop–target çizimleri analiz çizgilerinden görsel olarak ayrılır.",
+    "source_extract_summary": [
+      "15.4 Layout, Workspace ve Temiz Grafik Standardı Layout/workspace (grafik sayısı, sembol, timeframe, çizim, indikatör ve görünüm düzenini kaydedip yeniden kullanma çalışma alanı), karar rutinimi standardize eder.",
+      "Her strateji için ayrı bir görev şablonu oluştururum; tek grafiği bütün piyasalar ve bütün amaçlar için kalabalıklaştırmam.",
+      "Mikro tetik ve çok sayıda oscillator."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0310",
+    "page": 310,
+    "chapter": 15,
+    "section": "15.5 — Çizim Araçları: Seviye, Bölge, Trendline ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  295\nVAKA ANALİZİ — ÜÇ WORKSPACE\nXAGTRYG için “1G Bağlam”, “2S Setup” ve “30D Tetik” adlı üç layout kurarım. Günlükte yalnız major \nyapı ve bölgeler; 2 saatte pullback, FVG ve hacim; 30 dakikada trigger, stop ve hedef görünür. Aynı \nçizgiyi üç grafikte çoğaltmak yerine yalnız görev için gerekli referansları taşırım.\nDOĞRU BİLİNEN YANLIŞ\nMit: Profesyonel grafik çok çizgili ve çok renkli görünür.\nGerçeklik: Profesyonel çalışma alanı karar sırasını hızlandırır. Kalabalık, bilgi fazlası değil çoğu \nzaman görev ayrımı eksikliğidir.\n15.5 Çizim Araçları: Seviye, Bölge, Trendline ve \nAnnotation\nDrawing tools (fiyat seviyesini, alanı, eğimi, mesafeyi veya notu grafik üzerinde görünür kılma \naraçları), analiz kavramının yerine geçmez. Önce neyi işaretlediğimi tanımlar, sonra uygun şekli \nseçerim. Destek–direnç alanı için rectangle; tek kapanış/tetik seviyesi için horizontal line; eğimli sınır \niçin trendline veya ray kullanırım.\nŞekil 15.4 – Analiz görevine göre çizim aracı seçimi\nAraç Doğru kullanım Yaygın hata\nHorizontal line Tek fiyat: neckline, close trigger, POC veya \ninvalidation referansı.\nGeniş bölgeyi tek piksel kesinliğinde \ngöstermek.\nRectangle Support/resistance, supply–demand, FVG \nveya acceptance alanı.\nAlanı geçmişe göre sürekli genişletip tezi \nkurtarmak.\nTrendline / ray Anlamlı swing temaslarını ve eğimli sınırı \ngöstermek.\nHer fitile zorla temas ettirmek.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — ÜÇ WORKSPACE XAGTRYG için “1G Bağlam”, “2S Setup” ve “30D Tetik” adlı üç layout kurarım.",
+      "Günlükte yalnız major yapı ve bölgeler; 2 saatte pullback, FVG ve hacim; 30 dakikada trigger, stop ve hedef görünür.",
+      "Aynı çizgiyi üç grafikte çoğaltmak yerine yalnız görev için gerekli referansları taşırım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0311",
+    "page": 311,
+    "chapter": 15,
+    "section": "15.6 — Fibonacci, Ölçüm ve Koordinat Disiplini",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  296\nAraç Doğru kullanım Yaygın hata\nChannel Paralel yön/volatilite koridoru. Paralelliği kaybolmuş yapıyı kanal diye \nsürdürmek.\nPath / brush Eğitim, olası rota veya serbest açıklama. Gerçek tahmin gibi görmek.\nText / note Tez, trigger, no-trade, invalidation ve tarih. Belirsiz “al”, “sat” etiketleri bırakmak.\nTablo 15.5 – Çizim araçlarının görev ve hata tablosu\nEKRANDA NE ARIYORUM?\n• Çizginin dayandığı swing noktaları anlamlı ve zaman dilimine uygun mu?\n• Bölgeyi line yerine rectangle ile göstermem gerekiyor mu?\n• Trendline temasları güçlü reaksiyon ve aralıklı swing üretiyor mu?\n• Fiyat çizgiyi “hug” ediyor veya tepkiler zayıflıyor mu?\n• Çizimi tezi doğrulamak için sonradan mı kaydırıyorum?\nDOĞRU BİLİNEN YANLIŞ\nMit: Trendline mümkün olduğunca fazla wick’e değmelidir.\nGerçeklik: Temas sayısı tek başına kalite değildir. Anlamlı swing, reaksiyon gücü, aralık, eğim, takip \nve yapı bağlamı birlikte değerlendirilir.\nUygulama Görseli 15.4 – XAGTRYG 2 saatlik grafikte doğru rectangle bölgesi, yatay trigger çizgisi, kaliteli \ntrendline ve açıklayıcı annotation örneği. Temsilî eğitim şeması.\n15.6 Fibonacci, Ölçüm ve Koordinat Disiplini\nFibonacci tool (seçtiğim impulse’ın iki ucu arasında retracement ve extension oranlarını çizme), Bölüm \n9’daki ölçüm mantığını ekrana taşır. Araç otomatik doğru anchor seçmez; başlangıç ve bitiş swing’ini",
+    "source_extract_summary": [
+      "Araç Doğru kullanım Yaygın hata Channel Paralel yön/volatilite koridoru.",
+      "Paralelliği kaybolmuş yapıyı kanal diye sürdürmek.",
+      "Path / brush Eğitim, olası rota veya serbest açıklama."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0312",
+    "page": 312,
+    "chapter": 15,
+    "section": "15.7 — İndikatör Kurulumu, Ayarları ve Şablon",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  297\nben belirlerim. Aynı şekilde price range, date range ve measure araçları da yalnız seçtiğim \nkoordinatları hesaplar.\nAraç İlk tıklama / ikinci tıklama Çıktı\nFib retracement Impulse başlangıcı → impulse sonu Pullback derinliği ve retracement alanları.\nFib extension Tanımlı swing yapısına göre anchor \nnoktaları\nProjection ve extension referansları.\nPrice range Başlangıç fiyatı → bitiş fiyatı Mutlak ve yüzdesel hareket.\nDate range Başlangıç zamanı → bitiş zamanı Bar/gün sayısı ve süre.\nMeasure Seçilen iki koordinat Fiyat + yüzde + bar süresi.\nTablo 15.6 – Ölçüm araçlarının koordinat mantığı\nEYLEM DİLİ\nFib çizmeden önce impulse’ı bir cümleyle tanımlarım: “Günlük bullish BOS’u üreten son düşükten \ndisplacement tepesine ölçüyorum.” Anchor’ı değiştirdiğimde nedenini güncellerim; istediğim oranı \nbulmak için swing seçmem.\nEKRANDA NE ARIYORUM?\n• Ölçtüğüm hareket gerçekten tek impulse mı?\n• Anchor wick mi body mi; strateji kartım ne diyor?\n• Timeframe değişince aynı swing hâlâ anlamlı mı?\n• Fib seviyesi yapı, bölge veya likiditeyle bağımsız confluence oluşturuyor mu?\n• Ölçüm etiketi grafiği kapatıyor mu; yalnız gerekli oranlar açık mı?\nDOĞRU BİLİNEN YANLIŞ\nMit: TradingView Fibonacci aracı doğru swing’i ve dönüş seviyesini kendisi bulur.\nGerçeklik: Araç yalnız seçtiğim iki/üç noktaya oran uygular. Anchor seçimi ve bağlam hatalıysa \nçizim matematiksel olarak doğru, analitik olarak yanlış olabilir.\n15.7 İndikatör Kurulumu, Ayarları ve Şablon \nYönetimi\nIndicator template (belirli bir görev için seçtiğim indikatörleri ve ayarları birlikte kaydetme), aynı \nanalizi farklı sembollerde standartlaştırır. Önce built-in (platformun yerleşik aracı) ile community \nscript’i (başka kullanıcı tarafından yayımlanan özel kod) ayırırım. Sonra source, length, timeframe ve \ngörsel ayarların strateji kartımla uyumunu kontrol ederim.\nKontrol alanı Soracağım soru Örnek hata\nKaynak Close, hl2, volume veya başka seri mi? Farklı source ile geçmiş sonuç değişir.\nLength / sensitivity Hangi zaman ufkunu yumuşatıyor? Daha hassas ayarı daha doğru sanmak.\nTimeframe Chart TF mi, üst TF verisi mi? MTF bar kapanmadan değişen değer.",
+    "source_extract_summary": [
+      "Aynı şekilde price range, date range ve measure araçları da yalnız seçtiğim koordinatları hesaplar.",
+      "Araç İlk tıklama / ikinci tıklama Çıktı Fib retracement Impulse başlangıcı → impulse sonu Pullback derinliği ve retracement alanları.",
+      "Fib extension Tanımlı swing yapısına göre anchor noktaları Projection ve extension referansları."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Deney ve strateji kartı",
+      "Gereksinim, semantik test ve sürümleme",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0313",
+    "page": 313,
+    "chapter": 15,
+    "section": "15.7 — İndikatör Kurulumu, Ayarları ve Şablon",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  298\nKontrol alanı Soracağım soru Örnek hata\nSession Hangi seans verisi kullanılıyor? VWAP/session aracını yanlış oturumda \nçalıştırmak.\nGörsel Hangi plot karar için gerekli? Bütün plotları açıp grafiği kapatmak.\nTemplate Ayar adı ve sürümü kayıtlı mı? Farklı testlerde ayarın farkında olmadan \ndeğişmesi.\nTablo 15.7 – İndikatör kurulum ve ayar kontrolü\nEKRANDA NE ARIYORUM?\n• İndikatör adı yanında built-in veya yayıncı bilgisi ne?\n• Settings içindeki source, length ve timeframe değerleri yazılı planımla aynı mı?\n• İndikatör fiyatın hangi sorusunu cevaplıyor?\n• Aynı aileden üç indikatör bilgi tekrarına mı yol açıyor?\n• Template adı sürüm ve kullanım amacı içeriyor mu?\nDOĞRU BİLİNEN YANLIŞ\nMit: Default ayar herkes ve her piyasa için optimumdur.\nGerçeklik: Varsayılan ayar ortak bir başlangıçtır. Uygunluk sembol, timeframe, rejim ve test edilen \nstratejiye göre değerlendirilir; geçmişe uydurularak sürekli değiştirilmez.\nUygulama Görseli 15.5 – TradingView indicator settings ekranında source, length, timeframe, style ve \ntemplate adının işaretlendiği ayar kontrol şeması. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Kontrol alanı Soracağım soru Örnek hata Session Hangi seans verisi kullanılıyor?",
+      "VWAP/session aracını yanlış oturumda çalıştırmak.",
+      "Görsel Hangi plot karar için gerekli?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0314",
+    "page": 314,
+    "chapter": 15,
+    "section": "15.8 — Community Script, Repaint ve Otomatik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  299\n15.8 Community Script, Repaint ve Otomatik \nAraç Sınırları\nCommunity script, yararlı fikirler ve özel araçlar sağlayabilir; ancak yayınlanmış veya popüler olması \nmetodolojiyi doğrulamaz. Repaint (geçmişte görünen sinyalin yeni veri geldikçe değişmesi, silinmesi \nveya konum değiştirmesi), özellikle MTF, pivot, future-looking veya açık bar kullanan araçlarda test \nsonucunu yanıltabilir.\nDenetim Kontrol edeceğim\nAçıklama Araç ne ölçüyor, sinyal hangi bar kapanışında kesinleşiyor?\nKaynak kod / şeffaflık Kod açık mı; hesap mantığı açıklanmış mı?\nRepaint davranışı Canlı bar, geçmiş bar ve replay’de işaret değişiyor mu?\nVeri bağımlılığı Volume/feed/session eksikse ne olur?\nAlarm Alarm koşulu plotla aynı anda ve aynı kapanış kuralında mı?\nSürüm Güncelleme geçmiş testi sessizce değiştiriyor mu?\nBağımsız test Farklı dönem, sembol ve rejimde kayıt var mı?\nTablo 15.8 – Community script ve repaint denetimi\nEYLEM DİLİ\nBir script’i grafiğe eklediğimde önce sinyale bakmam. Açıklamasını, ayarlarını, bar kapanış \ndavranışını ve replay/live farkını incelerim. “Non-repainting” yazısını kanıt saymam; kendi ekran \nkaydı ve bar replay testiyle doğrularım.\nDOĞRU BİLİNEN YANLIŞ\nMit: Çok kullanılan veya yüksek beğenili community indikatörü güvenilir ve kârlıdır.\nGerçeklik: Popülerlik yalnız görünürlük ve ilgi göstergesidir. Veri, metodoloji, repaint, maliyet ve \nbağımsız test ayrıca incelenmelidir.\nVAKA ANALİZİ — OTOMATİK SİNYAL\nBir community script XAGTRYG 2S grafikte geçmişte kusursuz dip okları gösteriyor. Bar Replay’i \nsinyalden önce başlatır, barları tek tek ilerletirim. Ok yalnız üç bar sonra geçmişteki dip üzerine \nyerleşiyorsa bunu erken giriş kanıtı saymam. Aracın gerçek kullanım zamanı ile geçmişte görünen \nkonumu arasındaki farkı günlüğe kaydederim.",
+    "source_extract_summary": [
+      "15.8 Community Script, Repaint ve Otomatik Araç Sınırları Community script, yararlı fikirler ve özel araçlar sağlayabilir; ancak yayınlanmış veya popüler olması metodolojiyi doğrulamaz.",
+      "Repaint (geçmişte görünen sinyalin yeni veri geldikçe değişmesi, silinmesi veya konum değiştirmesi), özellikle MTF, pivot, future-looking veya açık bar kullanan araçlarda test sonucunu yanıltabilir.",
+      "Denetim Kontrol edeceğim Açıklama Araç ne ölçüyor, sinyal hangi bar kapanışında kesinleşiyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Gereksinim, semantik test ve sürümleme",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0315",
+    "page": 315,
+    "chapter": 15,
+    "section": "15.9 — Long–Short Position Araçlarıyla İşlem",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  300\n15.9 Long–Short Position Araçlarıyla İşlem \nPlanı\nLong/short position tool (giriş, stop ve hedef seviyelerini görsel olarak yerleştirip fiyat mesafesi ve R:R \ntaslağını gösterme), emir değildir. Önce teknik seviyeleri belirlerim; aracı bu seviyelere yerleştirir, \nsonra Bölüm 13 formülüyle gerçek quantity hesaplarım.\nAlan Araçta neyi gösterir? Ayrıca ne kontrol edilir?\nEntry Planlanan aktivasyon fiyatı. Order type, spread ve olası slippage.\nStop Setup invalidation ötesindeki çıkış. Gap/fill riski ve toplam para kaybı.\nTarget Teknik hedef veya R referansı. Yakın engel, partial ve gerçek fill.\nR:R Fiyat mesafesi oranı. Maliyet sonrası net expectancy.\nQuantity / risk Bazı ayarlarda tahmini büyüklük. Sözleşme, puan değeri, lot adımı ve para \nbirimi.\nTablo 15.9 – Long/short position aracının plan alanları\nEKRANDA NE ARIYORUM?\n• Stop teknik invalidation’a mı, istediğim R:R’ye mi göre yerleşti?\n• İlk hedefe kadar yeterli boş alan var mı?\n• Spread/slippage giriş ve stop mesafesine göre önemli mi?\n• Tool ayarındaki account size ve risk yüzdesi doğru mu?\n• Grafikteki quantity broker ürününün lot/contract kuralıyla uyumlu mu?\nVAKA ANALİZİ — XAGTRYG PLAN\nXAGTRYG 2S grafikte 111,20 retest giriş, 109,90 invalidation ve 114,50 ilk hedef belirledim. Long \ntool bana fiyat mesafesi ve yaklaşık R:R’yi gösterir. Ancak gerçek pozisyon büyüklüğünü 1,30 TL \nbirim risk, tahmini maliyet ve işlem yaptığım ürünün lot/gram kuralıyla ayrıca hesaplarım. Tool’daki \ngüzel yeşil alan, işlemin otomatik olarak yapılabilir olduğunu göstermez.\nDOĞRU BİLİNEN YANLIŞ\nMit: Long/short position tool yerleştirince işlem açılmış olur.\nGerçeklik: Bu bir çizim ve planlama aracıdır. Paper veya bağlı broker panelinde order oluşturulup \nonaylanmadıkça emir yoktur.",
+    "source_extract_summary": [
+      "15.9 Long–Short Position Araçlarıyla İşlem Planı Long/short position tool (giriş, stop ve hedef seviyelerini görsel olarak yerleştirip fiyat mesafesi ve R:R taslağını gösterme), emir değildir.",
+      "Önce teknik seviyeleri belirlerim; aracı bu seviyelere yerleştirir, sonra Bölüm 13 formülüyle gerçek quantity hesaplarım.",
+      "Order type, spread ve olası slippage."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0316",
+    "page": 316,
+    "chapter": 15,
+    "section": "15.10 — Alarm Tasarımı: Koşul, Sıklık, Mesaj ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  301\nUygulama Görseli 15.6 – XAGTRYG grafiğinde long position tool; entry, invalidation, target, R:R, ilk engel ve \ntahmini maliyet notlarının birlikte gösterimi. Temsilî eğitim şeması.\n15.10 Alarm Tasarımı: Koşul, Sıklık, Mesaj ve \nEylem\nAlert (tanımladığım fiyat, çizim veya uygun indikatör koşulu gerçekleştiğinde bildirim üretme), ekrana \nsürekli bakma ihtiyacını azaltır. Alarm kurarken “fiyat 112 olunca” gibi eksik bir cümle yerine hangi \nserinin hangi seviyeyi hangi yönde ve hangi doğrulama sıklığında geçeceğini yazarım.\nŞekil 15.5 – TradingView alarm anatomisi\nAlarm bileşeni Örnek Neden gerekli?\nCondition / hareket eden seri XAGTRYG close Fiyat mı indikatör mü hareket ediyor?",
+    "source_extract_summary": [
+      "Uygulama Görseli 15.6 – XAGTRYG grafiğinde long position tool; entry, invalidation, target, R:R, ilk engel ve tahmini maliyet notlarının birlikte gösterimi.",
+      "15.10 Alarm Tasarımı: Koşul, Sıklık, Mesaj ve Eylem Alert (tanımladığım fiyat, çizim veya uygun indikatör koşulu gerçekleştiğinde bildirim üretme), ekrana sürekli bakma ihtiyacını azaltır.",
+      "Alarm kurarken “fiyat 112 olunca” gibi eksik bir cümle yerine hangi serinin hangi seviyeyi hangi yönde ve hangi doğrulama sıklığında geçeceğini yazarım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0317",
+    "page": 317,
+    "chapter": 15,
+    "section": "15.10 — Alarm Tasarımı: Koşul, Sıklık, Mesaj ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  302\nAlarm bileşeni Örnek Neden gerekli?\nReference / geçilen şey 112,00 yatay seviye Neyin aşıldığı açık.\nDirection Crossing up Yukarı ve aşağı olay ayrılır.\nFrequency Bar close / once / every time Açık bar gürültüsü ve tekrar kontrolü.\nExpiration Belirli tarih veya senaryo sonu Geçersiz alarmın çalışmasını önler.\nMessage Sembol + TF + olay + sonraki adım Bildirim geldiğinde ne yapacağım belli.\nNotification channel App, popup, email vb. Uygun kanala ulaşır; özellik planlara göre \ndeğişebilir.\nTablo 15.10 – Alarm tasarım bileşenleri\nALARM MESAJ ŞABLONU\n{{Sembol}} | {{Timeframe}} | Olay: 112,00 üstü kapanış adayı. Sonraki adım: Günlük bağlamı, 2S \nhacmi ve 30D retest trigger’ını kontrol et. Alarm tek başına giriş izni değildir.\nEKRANDA NE ARIYORUM?\n• Condition’da fiyat mı, indikatör plotu mu seçili?\n• Crossing up/down yönü setup’ımla uyumlu mu?\n• Açık bar mı kapanış mı istediğimi frequency yansıtıyor mu?\n• Alarm geçerliliğini yitiren tarih/seviye var mı?\n• Mesaj bildirimi açınca sonraki kontrol sıramı söylüyor mu?\nVAKA ANALİZİ — ÜÇ AŞAMALI ALARM\nXAGTRYG için üç alarm kurarım: (1) fiyat günlük demand bölgesine girdi, (2) 2S grafikte 112,00 üstü \nkapanış oldu, (3) 30D retest bölgesine döndü. İlk alarm yalnız watchlist önceliğini artırır; ikinci \nsetup teyidini, üçüncü giriş zamanlamasını kontrol ettirir. Üç alarmı tek “AL” alarmına \ndönüştürmem.\nDOĞRU BİLİNEN YANLIŞ\nMit: Alarm çaldığında işlemi kaçırmamak için hemen emir vermek gerekir.\nGerçeklik: Alarm, önceden tanımlı karar noktasına ulaşıldığını bildirir. Bağlam, setup, risk ve güncel \nfiyat mesafesi yeniden kontrol edilir.",
+    "source_extract_summary": [
+      "Alarm bileşeni Örnek Neden gerekli?",
+      "Reference / geçilen şey 112,00 yatay seviye Neyin aşıldığı açık.",
+      "Direction Crossing up Yukarı ve aşağı olay ayrılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0318",
+    "page": 318,
+    "chapter": 15,
+    "section": "15.11 — Bar Replay ile Kör Karar Pratiği",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  303\nUygulama Görseli 15.7 – TradingView alert oluşturma penceresinde condition, crossing direction, \nfrequency, expiration, message ve notification alanlarının numaralandırılması. Temsilî eğitim şeması.\n15.11 Bar Replay ile Kör Karar Pratiği\nBar Replay (grafiği geçmişte seçtiğim tarihe götürüp sonraki barları adım adım açarak geleceği \ngörmeden karar pratiği yapma), geçmiş grafiğe bakıp “burada alırdım” deme yanılgısını azaltır. Replay \nbaşlamadan geleceği ele veren çizimleri, otomatik sinyalleri ve notları temizlerim.",
+    "source_extract_summary": [
+      "Uygulama Görseli 15.7 – TradingView alert oluşturma penceresinde condition, crossing direction, frequency, expiration, message ve notification alanlarının numaralandırılması.",
+      "15.11 Bar Replay ile Kör Karar Pratiği Bar Replay (grafiği geçmişte seçtiğim tarihe götürüp sonraki barları adım adım açarak geleceği görmeden karar pratiği yapma), geçmiş grafiğe bakıp “burada alırdım” deme yanılgısını azaltır.",
+      "Replay başlamadan geleceği ele veren çizimleri, otomatik sinyalleri ve notları temizlerim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0319",
+    "page": 319,
+    "chapter": 15,
+    "section": "15.11 — Bar Replay ile Kör Karar Pratiği",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  304\nŞekil 15.6 – Kuraldan replay ve paper testine doğrulama merdiveni\nReplay adımı Yapacağım\n1  Test kimliği Strateji sürümü, sembol, timeframe, dönem ve piyasa rejimi.\n2  Kör başlangıç Setup öncesine git; gelecek barları ve sonuç notlarını gizle.\n3  Karar kaydı Bağlam, setup, trigger, entry, stop, target ve no-trade.\n4  Bar ilerletme Sabit hız veya tek bar; karar sonradan değiştirilmez.\n5  Sonuç R, MFE/MAE, maliyet varsayımı ve kural ihlali.\n6  Örneklem Sadece iyi örnekleri değil uygun tüm oluşumları kaydet.\n7  Değerlendirme Tek trade değil yeterli seri ve rejim karşılaştırması.\nTablo 15.11 – Bar Replay test protokolü\nEKRANDA NE ARIYORUM?\n• Replay başlangıcı setup sonucunu saklıyor mu?\n• İndikatör veya pattern geçmişte geleceği kullanıyor olabilir mi?\n• Kararımı bar ilerlemeden önce ekran görüntüsüyle kaydettim mi?\n• No-trade örneklerini de sayıyor muyum?\n• Spread, slippage ve işlem saatini varsayıma ekledim mi?\nDOĞRU BİLİNEN YANLIŞ\nMit: Replay’de yüksek win rate stratejinin doğrulandığını kanıtlar.\nGerçeklik: Seçim yanlılığı, az örneklem, geleceği görme, maliyet eksikliği ve repaint sonucu \nşişirebilir. Replay karar pratiği ve veri toplama aracıdır; tam doğrulama zincirinin tek basamağıdır.",
+    "source_extract_summary": [
+      "2 Kör başlangıç Setup öncesine git; gelecek barları ve sonuç notlarını gizle.",
+      "3 Karar kaydı Bağlam, setup, trigger, entry, stop, target ve no-trade.",
+      "4 Bar ilerletme Sabit hız veya tek bar; karar sonradan değiştirilmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0320",
+    "page": 320,
+    "chapter": 15,
+    "section": "15.12 — Paper Trading, Emir Paneli ve Broker",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  305\nVAKA ANALİZİ — BREAKOUT/RETEST REPLAY\nXAGTRYG 2S breakout–retest modelini 2024 başından başlayan geçmiş bölümde test ettiğimi \nvarsayalım. Her valid breakout’tan önce grafiği durdurur, entry–stop–target çizimini kaydederim. \nRetest gelmeyen örnekleri “kaçtı” diye silmem; no-fill olarak kaydederim. Sadece kazanan \nretestleri seçmek yerine bütün uygun adayları aynı kuralla işlerim.\nUygulama Görseli 15.8 – Bar Replay ekranında gizlenmiş gelecek, replay kontrol çubuğu, karar öncesi \nscreenshot ve test kayıt alanı. Temsilî eğitim şeması.\n15.12 Paper Trading, Emir Paneli ve Broker \nBağlantısı\nPaper trading (sanal bakiye ve simüle emirlerle canlı piyasa akışında işlem uygulama), replay’den farklı \nolarak gelecek barı beklemeyi, alarm–emir–stop–target operasyonunu ve günlük rutini sınar. Ancak \ngerçek sermaye duygusu, tüm piyasa mikro yapısı ve broker fill davranışı eksiksiz kopyalanmaz.\nKonu Paper trading’de kontrol Canlıya taşınırken ek risk\nBakiye / leverage Gerçekçi account size ve mümkünse 1x \nbaşlangıç.\nBroker margin ve likidasyon kuralları.\nOrder type Market, limit, stop ve bracket emri doğru \nmu?\nSlippage, partial fill ve rejected order.\nQuantity Gerçek sözleşme/lot adımına yakın mı? Minimum emir, para birimi ve komisyon.\nStop / target Emre bağlı ve onaylı mı? Gap ve hızlı piyasa fill farkı.\nSession Gerçek işlem saatlerinde mi test ediliyor? Haber, spread ve likidite değişimi.\nKayıt Order history, P&L, R ve ihlal kaydı. Vergi, financing, funding ve gerçek maliyet.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — BREAKOUT/RETEST REPLAY XAGTRYG 2S breakout–retest modelini 2024 başından başlayan geçmiş bölümde test ettiğimi varsayalım.",
+      "Her valid breakout’tan önce grafiği durdurur, entry–stop–target çizimini kaydederim.",
+      "Retest gelmeyen örnekleri “kaçtı” diye silmem; no-fill olarak kaydederim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0321",
+    "page": 321,
+    "chapter": 15,
+    "section": "15.12 — Paper Trading, Emir Paneli ve Broker",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  306\nTablo 15.12 – Paper trading ile canlı uygulama farkları\nBROKER CONNECTION\nBroker connection (desteklenen kurum hesabını TradingView trading paneline bağlayıp emirleri \nplatform arayüzünden iletme), TradingView’in fonları sakladığı anlamına gelmez. Desteklenen \nürünler, emir tipleri, veri, ücret, yetki ve güvenlik bağlı kuruma göre değişir.\nEKRANDA NE ARIYORUM?\n• Trading panelde Paper Trading mi, gerçek broker hesabı mı bağlı?\n• Hesap para birimi, balance, leverage ve quantity gerçekçi mi?\n• Emir market/limit/stop olarak doğru seçildi mi?\n• TP/SL emirleri gerçekten aktif ve onaylı mı?\n• Open orders, positions ve history sekmeleri birbiriyle uyumlu mu?\nDOĞRU BİLİNEN YANLIŞ\nMit: Paper trading’de kârlı olmak canlı işlem için yeterlidir.\nGerçeklik: Paper, operasyon ve kural uygulamasını sınar. Canlı fill, maliyet, bağlantı, gerçek para \npsikolojisi ve piyasa etkisi farklı olabilir. Geçiş, kişisel plan ve küçük riskle ayrıca yönetilir.\nVAKA ANALİZİ — EMİR HATASI\nPaper hesabında XAGTRYG long planını uygularken quantity alanına fiyatı yazdığımı veya stop \nemrini aktif etmeden pencereyi kapattığımı varsayalım. Setup doğru olsa bile operasyon \nbaşarısızdır. Bu işlemi strateji kaybı değil “emir uygulama ihlali” olarak kaydeder, aynı hata için emir \nöncesi kontrol maddesi eklerim.",
+    "source_extract_summary": [
+      "Desteklenen ürünler, emir tipleri, veri, ücret, yetki ve güvenlik bağlı kuruma göre değişir.",
+      "• Trading panelde Paper Trading mi, gerçek broker hesabı mı bağlı?",
+      "• Hesap para birimi, balance, leverage ve quantity gerçekçi mi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0322",
+    "page": 322,
+    "chapter": 15,
+    "section": "15.13 — Dual/Multi-Chart Görev Ayrımı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  307\nUygulama Görseli 15.9 – Paper Trading panelinde account, order ticket, market/limit/stop seçimi, quantity, \ntake-profit, stop-loss, positions, orders ve history alanları. Temsilî eğitim şeması.\n15.13 Dual/Multi-Chart Görev Ayrımı\nDual-chart veya multi-chart layout (aynı ya da farklı sembol/timeframe’leri eşzamanlı panellerde \ngösterme), ancak her panelin görevi farklıysa değerlidir. Üst zaman bağlamı, orta zaman setup’ı ve alt \nzaman tetik grafiğini ayırabilirim. Alternatif olarak standard candlestick’i gerçek fiyat, Heikin Ashi’yi \ntrend filtresi için yan yana kullanabilirim.\nŞekil 15.7 – Çoklu grafiklerde görev ayrımı\nLayout modeli Panel görevleri Kullanım\nTop-down üçlü Günlük bağlam + 2S setup + 30D tetik Tek sembolde işlem akışı.\nStandart + Heikin Ashi Gerçek OHLC/emir + ortalamalı trend \ngörünümü\nTrend filtresi ve gerçek fiyat doğrulaması.\nAna + karşılaştırma XAGTRYG + XAGUSD/USDTRY veya \nbenchmark\nBileşen ve ilişki kontrolü.\nSetup + order flow Normal chart + footprint/profile Konum ve mikro katılım ayrımı.\nReplay + kayıt Kör grafik + strateji kartı/not paneli Test disiplini.\nTablo 15.13 – Çoklu grafik görev modelleri\nEKRANDA NE ARIYORUM?\n• Paneller aynı sembol ve doğru tarih noktasında senkron mu?\n• Her panel başka bir soru mu cevaplıyor, aynı bilgiyi mi tekrar ediyor?\n• Timeframe ve symbol başlıkları görünür mü?\n• Heikin Ashi panelindeki sinyali gerçek fiyat panelinde doğruladım mı?\n• Alt TF hareketi üst TF bağlamını ekrandan itiyor mu?",
+    "source_extract_summary": [
+      "Uygulama Görseli 15.9 – Paper Trading panelinde account, order ticket, market/limit/stop seçimi, quantity, take-profit, stop-loss, positions, orders ve history alanları.",
+      "15.13 Dual/Multi-Chart Görev Ayrımı Dual-chart veya multi-chart layout (aynı ya da farklı sembol/timeframe’leri eşzamanlı panellerde gösterme), ancak her panelin görevi farklıysa değerlidir.",
+      "Üst zaman bağlamı, orta zaman setup’ı ve alt zaman tetik grafiğini ayırabilirim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0323",
+    "page": 323,
+    "chapter": 15,
+    "section": "15.14 — Otomatik Pattern, Range ve Session",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  308\nDOĞRU BİLİNEN YANLIŞ\nMit: Daha fazla grafik aynı anda daha fazla teyit sağlar.\nGerçeklik: Aynı veri farklı panellerde tekrar ediliyorsa teyit sayısı artmaz. Multi-chart yalnız görev, \nveri kaynağı veya zaman ufku ayrımı sağladığında değerlidir.\nUygulama Görseli 15.10 – Üç panelli XAGTRYG layout: günlük bağlam, 2 saat setup, 30 dakika tetik; ortak \ncrosshair ve görünür panel etiketleri. Temsilî eğitim şeması.\n15.14 Otomatik Pattern, Range ve Session \nAraçları\nAutomatic pattern/range/session tools (grafikte belirli geometrileri, yatay sınırları veya işlem \noturumlarını otomatik işaretleyerek adayları tarama), zaman kazandırır. Ancak araç hangi bağlamı, \nswing önemini veya geçersizlik standardını kullandığını açıkça göstermeyebilir. Bu nedenle “buldu” ile \n“tamamlandı” ifadelerini ayırırım.\nAraç ailesi Aday olarak gösterir Manuel doğrulama\nCandlestick pattern Engulfing, hammer, inside bar vb. Trend, bölge, kapanış, hacim ve \ninvalidation.\nChart pattern Triangle, wedge, double top/bottom vb. Swing kalitesi, sınır, tamamlanma ve hedef \nalanı.\nRange detector Olası yatay üst/alt sınır. Yeterli temas, acceptance, sweep/failure \nve trend bağlamı.\nSession tool Asya/Londra/NY zaman blokları. Timezone, DST, piyasa ve strateji saati.\nTrendline tool Otomatik eğimli sınırlar. Anlamlı swing, temas kalitesi ve forced line \nriski.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Daha fazla grafik aynı anda daha fazla teyit sağlar.",
+      "Gerçeklik: Aynı veri farklı panellerde tekrar ediliyorsa teyit sayısı artmaz.",
+      "Multi-chart yalnız görev, veri kaynağı veya zaman ufku ayrımı sağladığında değerlidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0324",
+    "page": 324,
+    "chapter": 15,
+    "section": "15.14 — Otomatik Pattern, Range ve Session",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  309\nAraç ailesi Aday olarak gösterir Manuel doğrulama\nHeikin Ashi/auto filter Trend streak veya dönüş adayı. Gerçek OHLC, fiyat ve standart mum teyidi.\nTablo 15.14 – Otomatik araç aday–onay ayrımı\nEYLEM DİLİ\nOtomatik araç bir formasyon işaretlediğinde önce etiketi gizler ve aynı yapıyı kendi kurallarımla \nçizerim. Adayın önceki trendini, tamamlanma çizgisini, kapanışını, invalidation’ını ve hedefe kalan \nalanı kontrol ederim. Araç yalnız tarama süresini azaltır.\nVAKA ANALİZİ — OTOMATİK RANGE\nXAGTRYG 1S grafikte otomatik range aracı 110,00–112,20 alanını işaretliyor. Fiyat henüz yalnız iki \nkez üst sınıra yaklaşmış ve alt sınır net değil. Aracı “range teyidi” saymam. Manuel swingleri, \nkapanış kabulünü, hacmi ve failure test olasılığını izler; kurallarım tamamlanmadan range trade \nalarmı kurmam.\nDOĞRU BİLİNEN YANLIŞ\nMit: Otomatik pattern veya range aracı işaret koyduysa formasyon vardır.\nGerçeklik: İşaret bir algoritmanın eşiklerine uyan adaydır. Bağlam, tamamlanma, veri kalitesi ve \nişlem yapılabilirlik ayrıca doğrulanır.\nUygulama Görseli 15.11 – Otomatik pattern etiketi ile manuel çizilmiş neckline/boundary, completion close, \ninvalidation ve target alanının karşılaştırılması. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Araç ailesi Aday olarak gösterir Manuel doğrulama Heikin Ashi/auto filter Trend streak veya dönüş adayı.",
+      "Gerçek OHLC, fiyat ve standart mum teyidi.",
+      "Adayın önceki trendini, tamamlanma çizgisini, kapanışını, invalidation’ını ve hedefe kalan alanı kontrol ederim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0325",
+    "page": 325,
+    "chapter": 15,
+    "section": "15.15 — Tam TradingView Test ve Çalışma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  310\n15.15 Tam TradingView Test ve Çalışma İş Akışı\nPlatformu verimli kullanmak tek tek araçları bilmekten değil, her gün aynı sırayı tekrarlamaktan gelir. \nAşağıdaki akışta watchlist analiz evrenini, layout bağlamı, çizimler setup’ı, alarm beklemeyi, replay \ngeçmiş karar pratiğini, paper trading canlı operasyonu ve günlük öğrenmeyi yönetir.\nAşama TradingView eylemi Çıktı\n1  Evren Watchlist ve filtrelenmiş sembol grupları. Bugün izlenecek sınırlı liste.\n2  Veri Ticker, feed, quote, ürün ve session \nkontrolü.\nDoğru grafik kimliği.\n3  Bağlam Üst TF layout; major yapı ve bölge. Yön, rota ve no-trade.\n4  Setup Orta TF çizim/indikatör; aday ve \ninvalidation.\nSetup kartı.\n5  Plan Long/short tool; entry, stop, target, maliyet \nnotu.\nİşlem yapılabilirlik.\n6  Bekleme Fiyat/çizim/indikatör alarmı. Ekran bağımlılığını azaltma.\n7  Tetik Alt TF aç; kapanış, retest ve güncel R:R \nkontrolü.\nEmir veya no-trade kararı.\n8  Test Replay veya paper; order ve sonuç kaydı. Kural, operasyon ve veri örneği.\n9  Kayıt Screenshot, order history, R, ihlal ve not. Haftalık inceleme verisi.\n10  Temizlik Geçersiz çizim/alarmı sil; layout sürümünü \nkaydet.\nSonraki güne temiz başlangıç.\nTablo 15.15 – Tam TradingView çalışma akışı\nXAGTRYG TAM VAKA AKIŞI\n• Watchlist: XAGTRYG ana feed’i ve kontrol sembollerini açarım.\n• Günlük layout: major trend, protected swing ve ana demand alanını işaretlerim.\n• 2S layout: pullback yapısı, hacim ve olası FVG/retest bölgesini çizerim.\n• Long tool: entry, invalidation ve ilk hedefi yerleştirir; güncel R:R ve maliyeti kontrol ederim.\n• Alarm: fiyat setup bölgesine geldiğinde ve trigger seviyesi kapanışla aşıldığında ayrı bildirim \nkurarım.\n• 30D layout: alarm sonrası micro structure ve retest’i kontrol ederim; koşullar yoksa emir \nvermem.\n• Replay/paper: aynı modeli farklı dönemlerde ve canlı akışta uygularım.\n• Kayıt: screenshot, feed, timeframe, ayar sürümü, order ve süreç sonucunu saklarım.\nDOĞRU BİLİNEN YANLIŞ\nMit: TradingView’i öğrendikten sonra işlem süreci otomatikleşir.\nGerçeklik: Platform tekrar eden görevleri kolaylaştırır; karar kalitesi yazılı strateji, risk, psikoloji ve \nkayıt disiplinine bağlıdır.",
+    "source_extract_summary": [
+      "15.15 Tam TradingView Test ve Çalışma İş Akışı Platformu verimli kullanmak tek tek araçları bilmekten değil, her gün aynı sırayı tekrarlamaktan gelir.",
+      "Aşağıdaki akışta watchlist analiz evrenini, layout bağlamı, çizimler setup’ı, alarm beklemeyi, replay geçmiş karar pratiğini, paper trading canlı operasyonu ve günlük öğrenmeyi yönetir.",
+      "Aşama TradingView eylemi Çıktı 1 Evren Watchlist ve filtrelenmiş sembol grupları."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Gereksinim, semantik test ve sürümleme",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0326",
+    "page": 326,
+    "chapter": 15,
+    "section": "15.15 — Tam TradingView Test ve Çalışma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  311\nUygulama Görseli 15.12 – Bölüm 15’in tam iş akışını gösteren gerçek TradingView ekran serisi: watchlist → \ngünlük bağlam  2S setup  alarm  30D tetik  replay/paper  günlük. Temsilî eğitim şeması.→ → → → →\nHızlı Başvuru\nSorun Kontrol Varsayılan eylem\nFiyat başka grafikten farklı Feed/quote/contract/session Sembol kimliğini doğrula; çizimi \ngüncellemeden karşılaştır.\nGrafik sıkışık veya okunmuyor Auto scale, uzak çizim, indikatör sayısı İlgisiz katmanı kaldır; göreve özel layout aç.\nAlarm çok sık geliyor Condition, direction, frequency Kapanış/once ayarını ve geçerliliği düzelt.\nReplay sonucu aşırı iyi Future leak, seçim, repaint, maliyet Testi kör başlat; bütün adayları ve no-\nfill’leri kaydet.\nPaper sonucu canlıdan farklı Fill, slippage, psikoloji, ürün kuralı Paper’ı operasyon testi olarak yorumla.\nOtomatik formasyon çok sinyal üretiyor Sensitivity ve bağlam filtresi Aday taraması; manuel \ncompletion/invalidation kontrolü.\nMulti-chart kafa karıştırıyor Panel görevleri Her paneli bağlam/setup/tetik veya \ngerçek/ortalama fiyat diye etiketle.\nCommunity script geçmişi kusursuz Repaint ve sürüm Replay/live kayıtla doğrula; kaynak ve \naçıklamayı incele.\nTablo 15.16 – TradingView hızlı sorun çözme tablosu\nGrafik ve Platform Kontrol Listesi\n Sembol, borsa/feed, quote currency ve ürün tipi doğrulandı.\n Timeframe ve chart type görevle uyumlu; gerçek fiyat gerekiyorsa standart mum açık.\n Lineer/log ölçek bilinçli seçildi; auto scale grafiği bozacak uzak çizim yok.\n Workspace bağlam–setup–tetik görevlerinden yalnız birini veya açıkça ayrılmış panelleri \ngösteriyor.\n Çizimler tek görevli; geçersiz senaryo ve eski alarm temizlendi.",
+    "source_extract_summary": [
+      "Uygulama Görseli 15.12 – Bölüm 15’in tam iş akışını gösteren gerçek TradingView ekran serisi: watchlist → günlük bağlam 2S setup alarm 30D tetik replay/paper günlük.",
+      "Temsilî eğitim şeması.→ → → → → Hızlı Başvuru Sorun Kontrol Varsayılan eylem Fiyat başka grafikten farklı Feed/quote/contract/session Sembol kimliğini doğrula; çizimi güncellemeden karşılaştır.",
+      "Grafik sıkışık veya okunmuyor Auto scale, uzak çizim, indikatör sayısı İlgisiz katmanı kaldır; göreve özel layout aç."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Deney ve strateji kartı",
+      "Gereksinim, semantik test ve sürümleme",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0327",
+    "page": 327,
+    "chapter": 15,
+    "section": "15.15 — Tam TradingView Test ve Çalışma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  312\n İndikatör source, length, timeframe, session ve sürümü kayıtlı.\n Community script repaint ve canlı/replay davranışı açısından denetlendi.\n Long/short tool seviyeleri teknik; gerçek quantity ayrıca hesaplandı.\n Alarm condition, direction, frequency, expiration ve message açık.\n Replay geleceği gizliyor; paper account ve leverage gerçekçi.\n Trading panelde paper mı gerçek broker mı bağlı olduğu doğrulandı.\n İşlem sonrası screenshot, order history, R ve süreç notu kaydedilecek.\nTemel Sözlük\nTerim Aksiyon tanımı\nWatchlist İzlenecek sembolleri sınırlı gruplarda toplamak.\nTicker Doğru varlık/kontratı kısa kodla bulup kimliğini doğrulamak.\nData feed Fiyat ve hacmin geldiği borsa/broker/veri kaynağını kontrol etmek.\nQuote currency Varlığın hangi para biriminde fiyatlandığını belirlemek.\nChart type Fiyatı standart OHLC veya dönüştürülmüş görünümle göstermek.\nLogarithmic scale Uzun dönem yüzdesel hareketleri eşit oran mantığıyla göstermek.\nLayout / workspace Grafik, timeframe, çizim ve indikatör düzenini görev bazlı \nkaydetmek.\nDrawing tool Seviye, bölge, eğim, mesafe veya notu görünür kılmak.\nAnnotation Tez, koşul, tarih ve geçersizliği grafik üzerine yazmak.\nIndicator template Belirli görevde kullanılan indikatör ve ayar setini kaydetmek.\nCommunity script Başka kullanıcı tarafından yayımlanan özel göstergenin mantık ve \nriskini denetlemek.\nRepaint Sinyalin yeni veri geldikçe geçmişte değişmesi veya taşınması.\nLong/short position tool Entry–stop–target ve R:R planını görsel taslak olarak çizmek.\nAlert Tanımlı koşul oluştuğunda grafiği yeniden kontrol etmek için \nbildirim üretmek.\nBar Replay Gelecek barları gizleyip geçmişte adım adım karar pratiği yapmak.\nPaper trading Sanal bakiye ile canlı akışta emir ve süreç uygulamak.\nBroker connection Desteklenen kurum hesabından emirleri TradingView paneliyle \niletmek.\nDual/multi-chart Farklı görev, timeframe veya veri görünümünü eşzamanlı \npanellere ayırmak.\nCandidate scanner Otomatik aracın olası yapı adaylarını bulması; onay yerine geçmez.\nTablo 15.17 – Bölüm 15 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. TradingView neden stratejinin kendisi değildir?\n2. Watchlist işlem evrenini nasıl daraltır?\n3. Aynı ticker neden farklı fiyat serileri gösterebilir?\n4. Sembol kimliğinde hangi beş alan doğrulanmalıdır?",
+    "source_extract_summary": [
+      " İndikatör source, length, timeframe, session ve sürümü kayıtlı.",
+      " Community script repaint ve canlı/replay davranışı açısından denetlendi.",
+      " Long/short tool seviyeleri teknik; gerçek quantity ayrıca hesaplandı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Gereksinim, semantik test ve sürümleme",
+      "Veri sözleşmesi ve mum özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0328",
+    "page": 328,
+    "chapter": 15,
+    "section": "15.15 — Tam TradingView Test ve Çalışma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 15\nTradingView, Grafik Araçları ve Test İş Akışı  •  313\n5. Standart mum ile Heikin Ashi hangi farklı görevleri yapar?\n6. Lineer ve log ölçek ne zaman ayrılır?\n7. Auto scale hangi durumda grafiği sıkıştırabilir?\n8. Göreve özel workspace neden tek kalabalık grafikten üstündür?\n9. Horizontal line ile rectangle hangi farklı bilgiyi gösterir?\n10. Trendline kalitesini temas sayısı dışında hangi unsurlar belirler?\n11. Fibonacci aracında anchor seçimi neden analistin sorumluluğudur?\n12. Indicator template hangi test tutarlılığını sağlar?\n13. Built-in ve community script neden ayrılmalıdır?\n14. Repaint geçmiş performansı nasıl yanıltabilir?\n15. Long/short position tool neden gerçek emir değildir?\n16. Alarm tasarımında “ne hareket ediyor?” sorusu neden önemlidir?\n17. Bar close alarmı açık bar alarmından nasıl ayrılır?\n18. Alarm neden doğrudan giriş sinyali sayılmaz?\n19. Bar Replay hindsight bias’ı nasıl azaltır?\n20. Replay testinde no-trade ve no-fill örnekleri neden kaydedilir?\n21. Paper trading replay’den hangi açıdan farklıdır?\n22. Paper trading canlı fill ve psikolojiyi neden tam kopyalamaz?\n23. Broker connection durumunda fon ve emir sorumlulukları kimdedir?\n24. Multi-chart hangi durumda yalnız bilgi tekrarı üretir?\n25. Standart mum–Heikin Ashi çift grafiğinde emir seviyesi nerede doğrulanır?\n26. Otomatik pattern aracı neden yalnız aday tarayıcıdır?\n27. Session aracında timezone ve DST neden kontrol edilmelidir?\n28. Tam TradingView çalışma akışının on aşaması nelerdir?\n29. İşlem sonrası hangi platform kanıtları günlüğe eklenmelidir?30. Bölüm 15’in Bölüm 16’ya bıraktığı ana konular nelerdir?",
+    "source_extract_summary": [
+      "Standart mum ile Heikin Ashi hangi farklı görevleri yapar?",
+      "Lineer ve log ölçek ne zaman ayrılır?",
+      "Auto scale hangi durumda grafiği sıkıştırabilir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Gereksinim, semantik test ve sürümleme",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Kuralı önceden tanımlanmış konum/geometri adayları"
+    ]
+  }
+]

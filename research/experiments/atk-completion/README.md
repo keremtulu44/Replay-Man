@@ -1,24 +1,22 @@
 # Ana Trading Kitabı Tamamlama Durumu
 
-## Tamamlanan başlangıç aşaması
+## Tamamlanan paketler
 
-- ATK-P1 kapsam altyapısı
-- ATK-P2 price action ve piyasa yapısı
-- ATK-P3 bölge ve OHLCV likidite vekilleri
-- ATK-P4 formasyon ve mum aileleri
-- ATK-P5 hacim ve indikatör mimarisi
-- ATK-P6 ölçüm/geometrik araçlar
-- ATK-P7 çoklu zaman ve fractal bağlam
+ATK-P1–ATK-P12 tamamlandı.
 
-## Kapsam
-
-- 530/530 sayfa kapsam dosyasında.
+- 530/530 sayfa kapsamda.
 - 1.506 atomik claim.
-- 712 çapraz-kitap kural bağlantısı.
+- 868 çapraz-kitap/kural bağlantısı.
 - 250.809 yeni önceki gün/hafta bölge olayı.
-- 65 mevcut Cilt 1/Cilt 2 ölçüm dosyası envantere bağlandı.
-- P8–P16 henüz açık: 989 atomik claim bilinçli olarak unresolved tutuluyor.
+- Genel kullanıcı tanımlı Strategy Card şeması.
+- Risk/journal/data-replay/AI süreç sözleşmeleri.
+- P13–P16 için 539 atomik claim bilinçli olarak açık.
 
-## İlk karar
+## P8–P12 çıktıları
 
-Price action, formasyon, indikatör ve geometri claim’lerinin önemli bölümü Cilt 1/Cilt 2’de zaten ölçülmüştür; tekrar yeni avantaj sayılmamıştır. Önceki gün/hafta high-low break ve probe varyantlarının 4h BIST sonuçları eğitim/doğrulama/test arasında işaret değiştirmiştir. Bunlar `regime_dependent/context_only` kalır. Gerçek emir/stop likiditesi OHLCV’den çıkarılmaz; OB/FVG kullanıcının sistemi beklenerek ertelenir.
+- `research/specs/atk-strategy-card.schema.json`: context/setup/trigger/invalidation, özel indikatör, evren, sonuç ve doğrulama şeması.
+- `replayman/strategy_schema.py`: nedensellik, hacim uygunluğu ve negatif sonuç koruması doğrulayıcısı.
+- `research/specs/atk-process-contracts.json`: risk, günlük, veri/replay ve AI yönetişim sözleşmeleri.
+- BR-ATK-007–BR-ATK-011: kaynak bağlantılı karar kayıtları.
+
+Portföy/execution ayrıntısı `deferred_execution_portfolio`; OB/FVG `deferred_ob_fvg` kalır. Psikoloji ve AI ilkeleri finansal sinyal gibi ölçülmez; `process_rule` olarak saklanır.

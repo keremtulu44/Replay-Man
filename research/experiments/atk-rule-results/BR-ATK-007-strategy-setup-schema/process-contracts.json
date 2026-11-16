@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "risk_contract": {
+    "unit": "R",
+    "invalidation": ["confirmed_structure", "atr_distance", "explicit_rule"],
+    "required_research_outputs": ["directional_return", "benchmark_excess", "mfe", "mae", "same_bar_ambiguity", "cost_stress"],
+    "same_bar_target_stop": "ambiguous",
+    "costs": [0.0, 0.001, 0.0025, 0.005],
+    "portfolio_allocation": "deferred_execution_portfolio"
+  },
+  "journal_contract": {
+    "required_before_event": ["strategy_id", "rule_version", "hypothesis", "context", "setup", "trigger", "invalidation", "known_at", "data_snapshot_hash"],
+    "required_after_event": ["outcome", "mfe", "mae", "benchmark_excess", "rule_violation", "data_issue", "review_note"],
+    "quality_labels": ["followed_plan", "rule_violation", "unplanned", "data_invalid", "ambiguous"],
+    "principle": "decision_quality_is_scored_without_using_outcome"
+  },
+  "data_replay_contract": {
+    "bar_visibility": "closed_bars_only",
+    "pivot_visibility": "confirmed_position_only",
+    "higher_timeframe": "last_completed_bar_asof_event",
+    "browser_api": "relative_urls_only",
+    "identity": ["group", "asset_id", "source_hash", "interval", "ts_utc"],
+    "audits": ["ohlc_geometry", "duplicates", "missingness", "complete_flag", "timezone", "corporate_action_jump", "volume_suitability"],
+    "reproducibility": ["code_version", "rule_version", "parameter_set", "data_snapshot_hash", "random_seed_if_any"]
+  },
+  "ai_governance": {
+    "allowed_autonomous": ["source_linking", "formula_translation", "code_generation", "test_generation", "measurement_execution", "negative_result_preservation", "audit_reporting"],
+    "requires_user_authority": ["live_execution", "credential_change", "portfolio_allocation", "new_primary_ob_fvg_definition", "irreversible_external_action"],
+    "forbidden": ["future_data_leakage", "fabricated_result", "silent_rule_change_after_results", "deleting_negative_results", "guaranteed_return_claim", "treating_ai_as_oracle"],
+    "every_recommendation_records": ["source", "assumptions", "data_requirements", "validation_status", "known_limitations"]
+  }
+}

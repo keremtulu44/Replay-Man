@@ -1,0 +1,382 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0282",
+    "page": 282,
+    "chapter": 14,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve \nSüreç Disiplini\nDuygu baskısı altında olasılıksal düşünme, kural uygulama ve tutarlılık sistemi",
+    "source_extract_summary": [
+      "BÖLÜM 14 Trading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini Duygu baskısı altında olasılıksal düşünme, kural uygulama ve tutarlılık sistemi"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0283",
+    "page": 283,
+    "chapter": 14,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  268\nBu Bölümün Amacı\nBölüm 12’de hangi setup’ı işleyeceğimizi, Bölüm 13’te ise yanlış çıktığımızda ne kadar kaybedeceğimizi \nbelirledik. Fakat yazılı kuralın varlığı, gerçek para devreye girdiğinde kurala uyacağımızı garanti etmez. \nBu bölüm, duyguyu bir düşman gibi bastırmak yerine duygu ile emir arasına ölçülebilir karar kapıları \nkurar.\nGrafiği açtığımda yalnız fiyatı izlemem. Kendi dikkatimi, acele hissimi, haklı çıkma ihtiyacımı ve önceki \nişlemin sonraki kararı etkileyip etkilemediğini de izlerim. Amaç “hiçbir şey hissetmemek” değil; \nhissettiğim şey plan dışı bir davranış üretmeden önce bunu fark etmektir.\nBÖLÜM SONUNDA\n• Duygu, dürtü ve işlem davranışını birbirinden ayırabileceksiniz.\n• Tek işlem sonucunu edge’in kanıtı veya çürütülmesi saymadan olasılıksal düşünebileceksiniz.\n• Korku, FOMO, revenge ve overtrading için önceden yazılmış süreç kapıları kurabileceksiniz.\n• Piyasa duygusu şemasını teknik sinyal değil, karar baskısı bağlamı olarak kullanabileceksiniz.\n• Günlüğü P&L kaydı olmaktan çıkarıp davranış verisi ve süreç puanı sistemine \ndönüştürebileceksiniz.\nEĞİTİM NOTU\nBu bölüm psikolojik farkındalık ve işlem disiplini eğitimi sunar; tıbbi veya klinik değerlendirme \ndeğildir. Sürekli kontrol kaybı, yoğun sıkıntı veya kompulsif işlem davranışı varsa gerçek paradan \nuzaklaşmak ve uygun profesyonel destek almak gerekir.\nUygulama Görseli 14.1 – XAGTRYG grafik ekranı yanında traderın plan, duygu, dürtü ve süreç kapısı \nalanlarını gösteren çift panelli giriş kartı. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Bölüm 12’de hangi setup’ı işleyeceğimizi, Bölüm 13’te ise yanlış çıktığımızda ne kadar kaybedeceğimizi belirledik.",
+      "Fakat yazılı kuralın varlığı, gerçek para devreye girdiğinde kurala uyacağımızı garanti etmez.",
+      "Bu bölüm, duyguyu bir düşman gibi bastırmak yerine duygu ile emir arasına ölçülebilir karar kapıları kurar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0284",
+    "page": 284,
+    "chapter": 14,
+    "section": "14.1 — Psikoloji: Duyguyu Yok Etmek Değil",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  269\n14.1 Psikoloji: Duyguyu Yok Etmek Değil \nDavranışı Yönetmek\nTrading psychology (duygular, inançlar ve zihinsel alışkanlıkların işlem kararına nasıl dönüştüğünü \nyönetme), teknik analizin alternatifi değildir. Test edilmemiş sistemi “iyi psikolojiyle” kârlı yapamam. \nFakat test edilmiş bir edge’i korkuyla atlamak, açgözlülükle büyütmek veya kayıptan sonra değiştirmek \nmümkündür.\nŞekil 14.1 – Duygu ile emir arasındaki süreç kapısı\nKatman Sorduğum soru Gözlenebilir çıktı\nDuygu Şu anda ne hissediyorum? Korku, acele, öfke, coşku, pişmanlık.\nDürtü Bu duygu beni ne yapmaya itiyor? Erken çık, kovala, stopu taşı, miktarı artır.\nKural kapısı Teknik tez veya risk planı gerçekten değişti \nmi?\nEvet: kurallı eylem. Hayır: bekleme.\nDavranış Planın hangi maddesini uyguluyorum? Emir, iptal, no-trade veya izleme.\nKayıt Kararı nasıl değerlendireceğim? P&L + R + süreç puanı + duygu etiketi.\nTablo 14.1 – Psikolojiyi davranışa çevirme zinciri\nEKRANDA NE ARIYORUM?\n• Grafiğe bakarken bedenimde veya düşüncemde acele hissi var mı?\n• Emir vermek için teknik trigger mı, duygusal rahatlama mı arıyorum?\n• Bir önceki işlemi telafi etmeye mi çalışıyorum?\n• Planımın hangi maddesi şu anda eylem izni veriyor?\n• Teknik tez değişmediyse neden müdahale etmek istiyorum?\nDOĞRU BİLİNEN YANLIŞ\nMit: Profesyonel trader hiçbir duygu hissetmez.\nGerçeklik: Duygu doğal bir iç olaydır. Farkı yaratan, duygunun otomatik emir davranışına \ndönüşmesini engelleyen kural, boyut ve rutin sistemidir.",
+    "source_extract_summary": [
+      "14.1 Psikoloji: Duyguyu Yok Etmek Değil Davranışı Yönetmek Trading psychology (duygular, inançlar ve zihinsel alışkanlıkların işlem kararına nasıl dönüştüğünü yönetme), teknik analizin alternatifi değildir.",
+      "Test edilmemiş sistemi “iyi psikolojiyle” kârlı yapamam.",
+      "Fakat test edilmiş bir edge’i korkuyla atlamak, açgözlülükle büyütmek veya kayıptan sonra değiştirmek mümkündür."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0285",
+    "page": 285,
+    "chapter": 14,
+    "section": "14.3 — Olasılıksal Düşünme ve Tek İşlem",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  270\n14.2 Duygu–Dürtü–Davranış Zinciri\nAynı duygu farklı traderlarda farklı hata üretir. Korku bir traderı geç girişe, diğerini erken çıkışa; \naçgözlülük birini pozisyon büyütmeye, diğerini hedefi plansız taşımaya götürebilir. Bu nedenle günlüğe \nyalnız “korktum” yazmam; korkunun hangi davranış dürtüsünü ürettiğini kaydederim.\nDuygu / durum Tipik dürtü İşlem davranışı Süreç koruması\nKorku Zarardan hemen kaç Geçerli setup’ı atlamak veya \nerken çıkmak\nÖnceden kabul edilen risk + \ntrigger checklist.\nAçgözlülük Daha fazlasını al Miktarı artırmak, hedefi plansız \nuzatmak\nSabit risk kartı + exit plan.\nFOMO Hareket kaçıyor Uzak fiyattan kovalamak Maksimum giriş mesafesi + yeni \npullback bekleme.\nPişmanlık Kaçırdığını telafi et Plan dışı ikinci şans girişi Kaçan işlem kaydı; yeni setup \nbağımsızlığı.\nÖfke Kaybı geri al Revenge trade ve boyut artışı Cooldown + işlem izni sorusu.\nAşırı güven Artık çözdüm Leverage/size artışı, checklist \natlama\nRisk oranını sonuç serisine göre \ndeğiştirmeme.\nYorgunluk Hızlı karar ver Eksik analiz, yanlış sembol/emir Zihinsel no-trade koşulu.\nTablo 14.2 – Duygudan davranışa hata ve koruma eşleşmesi\nEYLEM DİLİ\nDuyguyu adlandırırım, dürtüyü bir cümleyle yazarım ve yalnız planımda tanımlı eylemi uygularım: \n“Şu anda FOMO hissediyorum; dürtüm market emirle kovalamak; planım pullback gelmeden girişe \nizin vermiyor.”\nVAKA ANALİZİ — XAGTRYG / TEMSİLİ\nXAGTRYG 1 saatlik grafikte 112,00 direncini güçlü mumla kırıyor ve 114,20’ye hızlanıyor. Benim \nbreakout planım kapanış sonrası en fazla 0,6 ATR mesafede girişe izin veriyor; fiyat 1,5 ATR \nuzaklaşmış durumda. “Kaçırıyorum” hissini teknik kanıt saymam. Emri vermem, alarmı kırılan \nbölgeye kurar ve retest/pullback gelmezse işlemi kaçmış kabul ederim. Kaçan işlem, kural \nihlalinden daha ucuzdur.\n14.3 Olasılıksal Düşünme ve Tek İşlem \nYanılsaması\nEdge (yeterli örneklemde maliyet sonrası olumlu beklenen değer üreten tekrar edilebilir avantaj), tek \nişlemi garanti etmez. İyi setup kaybedebilir; kötü işlem tesadüfen kazanabilir. Sonuç sırasını önceden \nbilemem. Bu nedenle “haklı mıyım?” yerine “tanımlı avantajımı aynı biçimde uyguluyor muyum?” \nsorusunu sorarım.",
+    "source_extract_summary": [
+      "14.2 Duygu–Dürtü–Davranış Zinciri Aynı duygu farklı traderlarda farklı hata üretir.",
+      "Korku bir traderı geç girişe, diğerini erken çıkışa; açgözlülük birini pozisyon büyütmeye, diğerini hedefi plansız taşımaya götürebilir.",
+      "Bu nedenle günlüğe yalnız “korktum” yazmam; korkunun hangi davranış dürtüsünü ürettiğini kaydederim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0286",
+    "page": 286,
+    "chapter": 14,
+    "section": "14.4 — Riskin Önceden Kabulü ve Sorumluluk",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  271\nŞekil 14.2 – Edge ve belirsiz işlem sırası\nYanlış düşünce Olasılıksal karşılık\nBu setup mükemmel; kaybetmemeli. Yüksek kalite yalnız olasılığı etkiler; tek sonucu garanti etmez.\nÜç kez kaybettim; sıradaki kesin kazanır. İşlemler bağımsız değilse bile mekanik “sıra borcu” yoktur.\nBu işlem kaybetti; sistem bozuldu. Önce kural uyumu, piyasa rejimi ve yeterli örneklem incelenir.\nKazandım; analizim doğruydu. Kazanç, plan dışı davranışı doğru hâle getirmez.\nTahmin etmeden para kazanamam. Doğru tahmin oranı ile ortalama kazanç/kayıp birlikte edge üretir.\nTablo 14.3 – Tek işlem yanılgısını olasılık diline çevirmek\nEKRANDA NE ARIYORUM?\n• Bu setup’ın kural kartı eksiksiz mi?\n• Son üç işlem yerine uzun dönem kayıt ne söylüyor?\n• İşlemi “kesin” yapan bir dil kullanıyor muyum?\n• Kayıp ihtimalini stop ve miktarla önceden kabul ettim mi?\n• Sonuçtan bağımsız olarak aynı setup’ı bir sonraki oluşumda uygulayabilir miyim?\nDOĞRU BİLİNEN YANLIŞ\nMit: Art arda kayıplardan sonra kazanma ihtimali otomatik yükselir.\nGerçeklik: Geçmiş sıra, tek başına sonraki işlemi “borçlu” hâle getirmez. Kural/rejim bozulması \nyoksa edge örneklem içinde uygulanır; risk telafi amacıyla artırılmaz.\n14.4 Riskin Önceden Kabulü ve Sorumluluk\nRisk acceptance (emirden önce stop sonucunun parasal ve duygusal olarak taşınabilir olduğunu \nonaylama), stopun nerede olduğunu bilmekten fazlasıdır. “Stop olursa ne yaparım?” sorusunun cevabı \nişlemden önce yazılı değilse, stop yaklaşınca planı pazarlık konusu yapabilirim.",
+    "source_extract_summary": [
+      "Yüksek kalite yalnız olasılığı etkiler; tek sonucu garanti etmez.",
+      "Üç kez kaybettim; sıradaki kesin kazanır.",
+      "İşlemler bağımsız değilse bile mekanik “sıra borcu” yoktur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0287",
+    "page": 287,
+    "chapter": 14,
+    "section": "14.4 — Riskin Önceden Kabulü ve Sorumluluk",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  272\nŞekil 14.3 – Kontrol alanı, risk kabulü ve sorumluluk\nİşlemden önce tamamlarım Kabul cümlesi\nStop ve tahmini slippage dâhil kayıp Bu tutar gerçekleşirse günlük karar kalitem bozulmayacak.\nSetup geçersizliği Stop, “haksız olduğum” değil, bu setup’ın çalışmadığı noktadır.\nTek işlem belirsizliği Bu işlem kaybedebilir; edge tek sonuçta ölçülmez.\nSorumluluk Emir, boyut ve kural seçimlerimden ben sorumluyum.\nSonuç sınırı Piyasanın ne yapacağını değil, benim ne yapacağımı belirledim.\nTablo 14.4 – Risk kabul kartı\nEYLEM DİLİ\nEmirden önce stop senaryosunu zihnimde tamamlarım: “XAGTRYG 109,80 altında kapanışla setup \nbozulur. Tahmini toplam kaybım 500 TL’dir. Bu sonuç gerçekleşirse stopu taşımayacak, aynı gün risk \nartırmayacak ve işlemi günlüğe kaydedeceğim.”\nDOĞRU BİLİNEN YANLIŞ\nMit: Stop olmak piyasanın beni hedeflediğini gösterir.\nGerçeklik: Standart grafik, hesaba özel niyet kanıtlamaz. Görünür seviyelerde likidite ve volatilite \nolabilir; görevim bunu stop, size ve setup kalitesiyle yönetmektir.",
+    "source_extract_summary": [
+      "Setup geçersizliği Stop, “haksız olduğum” değil, bu setup’ın çalışmadığı noktadır.",
+      "Tek işlem belirsizliği Bu işlem kaybedebilir; edge tek sonuçta ölçülmez.",
+      "Sorumluluk Emir, boyut ve kural seçimlerimden ben sorumluyum."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0288",
+    "page": 288,
+    "chapter": 14,
+    "section": "14.6 — Recency, Confirmation, Outcome ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  273\n14.5 Kayıptan Kaçınma, Umut, Pişmanlık ve \nBatık Maliyet\nLoss aversion (eşdeğer kazanca göre kaybı daha ağır hissetme eğilimi), stopu taşımak, zarar eden \nişlemi yatırım diye yeniden adlandırmak veya “başa başa gelsin” diye fırsat maliyetini görmezden \ngelmek şeklinde ortaya çıkabilir. Burada sorun üzülmek değil; geçmiş maliyeti gelecekteki kararı \nyönetir hâle getirmektir.\nZihinsel cümle Gizli hata Süreç sorusu\nBaşa başa gelmeden satmam. Geçmiş giriş fiyatına bağlanma. Bugün pozisyonum olmasa bu fiyattan \ntekrar alır mıydım?\nBu kadar bekledim; artık dönemeli. Batık zaman/maliyet etkisi. Setup bugün hâlâ geçerli mi?\nStop olursam yanlış çıkmış olurum. Kimliği tek işlemle birleştirme. Stop, tez geçersizliği mi yoksa benlik \ndeğerlendirmesi mi?\nKârı hemen alayım; kaybolmasın. Kazancı erken kapatma, kaybı taşıma \nasimetrisi.\nExit plan hangi koşulda değişiyor?\nKaçırdığım işlemi telafi etmeliyim. Pişmanlığı yeni işleme taşıma. Yeni setup bağımsız olarak var mı?\nTablo 14.5 – Kayıptan kaçınmanın işlem dilindeki izleri\nEKRANDA NE ARIYORUM?\n• Entry fiyatını teknik seviyeden daha önemli görüyor muyum?\n• Stop yaklaşırken yeni gerekçeler mi icat ediyorum?\n• Zarar eden trade’i farklı zaman dilimine taşıyor muyum?\n• Bugün sıfır pozisyonla aynı tezi tekrar kurar mıydım?\n• Fırsat maliyetini ve sermayenin kilitli kalmasını kaydediyor muyum?\nVAKA ANALİZİ — XAGTRYG / TEMSİLİ\n110,80’den açtığım long işlemin invalidation’ı 109,70 altı kapanış. Fiyat 109,55’te kapanıyor. \n“110,80’e dönünce çıkarım” diyerek stopu kaldırırsam yeni bir teknik tez değil, giriş fiyatına bağlı \numut üretmiş olurum. Kural gereği çıkar, gerçekleşen −1R’yi kaydeder ve sonraki setup’ı sıfır \npozisyon zihniyle değerlendiririm.\n14.6 Recency, Confirmation, Outcome ve \nOverconfidence\nRecency bias (yakın sonuçlara uzun dönem veriden fazla ağırlık verme) ve confirmation bias (tezimi \ndestekleyen kanıtı seçip zıt kanıtı dışlama), özellikle kazanç veya kayıp serilerinden sonra güçlenir. \nOutcome bias ise işlemin kalitesini yalnız kazanç/kayıpla değerlendirir. Overconfidence (kısa başarı \nserisini kalıcı yetenek kanıtı sayma) risk artışına yol açabilir.",
+    "source_extract_summary": [
+      "14.5 Kayıptan Kaçınma, Umut, Pişmanlık ve Batık Maliyet Loss aversion (eşdeğer kazanca göre kaybı daha ağır hissetme eğilimi), stopu taşımak, zarar eden işlemi yatırım diye yeniden adlandırmak veya “başa başa gelsin” diye fırsat maliyetini görmezden gelmek şeklinde ortaya çıkabilir.",
+      "Burada sorun üzülmek değil; geçmiş maliyeti gelecekteki kararı yönetir hâle getirmektir.",
+      "Zihinsel cümle Gizli hata Süreç sorusu Başa başa gelmeden satmam."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0289",
+    "page": 289,
+    "chapter": 14,
+    "section": "14.7 — Korku: Tereddüt, Donma ve Erken Çıkış",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  274\nYanlılık Grafikte/kararda görülen işaret Koruyucu kayıt\nRecency Son üç kayıptan sonra sistemi aniden \ndeğiştirme.\nRolling örneklem, rejim ve kural uyumu \nayrı incelenir.\nConfirmation Kırılan trendline’ı tezi korumak için yeniden \nçizme.\nİşlem öncesi ekran görüntüsü ve karşı \nkanıt alanı.\nOutcome Plan dışı kazancı “iyi trade” sayma. Süreç puanı P&L’den önce verilir.\nHindsight Sonucu gördükten sonra “zaten belliydi” \ndeme.\nEntry anındaki bilgi seti saklanır.\nOverconfidence Kazanç serisinden sonra size/leverage \nartırma.\nRisk oranı yalnız planlı dönemsel \nincelemede değişir.\nAnchoring İlk hedefe veya analist fiyatına takılma. Canlı yapı ve geçersizlik yeniden okunur.\nTablo 14.6 – Bilişsel yanlılıklar ve davranış korumaları\nDOĞRU BİLİNEN YANLIŞ\nMit: Kazanan işlem doğru analiz, kaybeden işlem yanlış analizdir.\nGerçeklik: Doğru uygulanmış olumlu expectancy işlemi kaybedebilir; plansız işlem kazanabilir. \nKalite, işlem anındaki bilgi ve kurala göre değerlendirilir.\nVAKA ANALİZİ — KURAL DEĞİŞTİRME\nDört zarar sonrası “breakout modeli artık çalışmıyor” diyorum. Önce dört işlemin de aynı model, \npiyasa rejimi ve kuralla gerçekleşip gerçekleşmediğini kontrol ederim. İki işlemde geç giriş, birinde \nhaber filtresi ihlali varsa sorun edge değil uygulamadır. Kural değişikliğini tek seriyle değil, tanımlı \ninceleme örneklemiyle yaparım.\n14.7 Korku: Tereddüt, Donma ve Erken Çıkış\nKorku yalnız zarar korkusu değildir. Haklı çıkamama, kârı geri verme, yanlış emir verme veya son \nkaybın tekrarlanması korkusu olabilir. Korkunun en görünür üç sonucu: geçerli setup’ı atlamak, \ngirişten sonra grafiği aşırı izlemek ve teknik tez değişmeden erken çıkmaktır.\nKorku türü Davranış Önceden yazılmış karşılık\nYeni kayıp korkusu Trigger oluşsa da emir verememek. Risk taşıyamıyorsam size azalt; setup’ı keyfî \natlama.\nKârı geri verme korkusu İlk küçük yeşil mumda çıkmak. Exit plan / partial kuralı; ayrıntı Bölüm 23.\nYanlış olma korkusu Stopu iptal etmek veya analizi savunmak. Stopu tez geçersizliği olarak görmek.\nVolatilite korkusu Her wick’te müdahale. Ana zaman dilimi kapanışı ve alarm \nkullanımı.\nKaçırma korkusu Teyit gelmeden erken giriş. Trigger şartı ve maksimum ön giriş riski.",
+    "source_extract_summary": [
+      "Yanlılık Grafikte/kararda görülen işaret Koruyucu kayıt Recency Son üç kayıptan sonra sistemi aniden değiştirme.",
+      "Rolling örneklem, rejim ve kural uyumu ayrı incelenir.",
+      "Confirmation Kırılan trendline’ı tezi korumak için yeniden çizme."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Gereksinim, semantik test ve sürümleme",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0290",
+    "page": 290,
+    "chapter": 14,
+    "section": "14.8 — Açgözlülük, Aşırı Güven ve FOMO",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  275\nTablo 14.7 – Korku davranışları ve süreç karşılıkları\nEKRANDA NE ARIYORUM?\n• Trigger oluştuğu hâlde hangi yeni kanıt yüzünden bekliyorum?\n• Pozisyon boyutu rahat düşünmemi engelliyor mu?\n• Fiyatı planladığım zaman diliminden daha sık mı kontrol ediyorum?\n• Çıkış isteğim teknik tez değişiminden mi, P&L dalgalanmasından mı geliyor?\n• Alarm ve checklist ile karar sayısını azaltabilir miyim?\nVAKA ANALİZİ — KAYIP SERİSİNDEN SONRA\nÜç planlı −1R işlemden sonra XAGTRYG günlük demand bölgesinde, 4S sweep ve 1S bullish CHoCH \nile aynı test edilmiş setup’ı üretiyor. Korkum geçerli; fakat setup kuralı ve risk bütçesi değişmediyse \niki seçenek vardır: planlanan boyutla uygularım veya risk kabul edemiyorsam önceden tanımlı \nküçültülmüş boyuta geçerim. Duygu nedeniyle rastgele atlayıp sonra fiyatı kovalamam.\n14.8 Açgözlülük, Aşırı Güven ve FOMO\nFOMO — fear of missing out (hareketin büyük kısmı geçtikten sonra kaçırma korkusuyla plan dışı \nkovalamak) — çoğu zaman teknik fırsat değil, sosyal kanıt ve hızlı P&L hayalinin ürettiği aceledir. \nAçgözlülük yalnız daha fazla kazanma isteği değildir; planlanmış riski “bu sefer farklı” diyerek \nartırmaktır.\nİşaret Kural ihlali riski Koruma\nParabolik hareket / büyük mumlar Uzak giriş ve kötü R:R ATR/structure tabanlı maksimum giriş \nmesafesi.\nSosyal medyada yoğun konuşulma Bağımsız analizi bırakma Grafik kartı tamamlanmadan emir yok.\nKazanç serisi Size/leverage artışı Risk oranı dönem içinde sabit.\nHedefe yaklaşan trade Hedefi plansız uzatma Önceden seçilmiş teknik/dinamik exit \nmodeli.\nKaçan işlem İkinci sınıf setup’a razı olma “Kaçtı” etiketi ve yeni pullback alarmı.\nTablo 14.8 – Açgözlülük ve FOMO işaretleri\nDOĞRU BİLİNEN YANLIŞ\nMit: Güçlü momentum gördüğümde geç de olsa girmek, hiç girmemekten iyidir.\nGerçeklik: Momentum devam edebilir; fakat giriş mesafesi, stop ve kalan hedef alanı bozulduysa \naynı setup değildir. Kaçan işlem, yeni setup oluşana kadar no-trade’dir.",
+    "source_extract_summary": [
+      "• Trigger oluştuğu hâlde hangi yeni kanıt yüzünden bekliyorum?",
+      "• Pozisyon boyutu rahat düşünmemi engelliyor mu?",
+      "• Fiyatı planladığım zaman diliminden daha sık mı kontrol ediyorum?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0291",
+    "page": 291,
+    "chapter": 14,
+    "section": "14.9 — Revenge Trading, Overtrading ve Duygusal",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  276\nUygulama Görseli 14.2 – XAGTRYG’de kontrollü trend, parabolik hızlanma, geç FOMO girişi ve ilk sert geri \nçekilmenin aynı grafikte karşılaştırılması. Temsilî eğitim şeması.\n14.9 Revenge Trading, Overtrading ve Duygusal \nBozulma\nRevenge trading (kaybı hemen geri alma dürtüsüyle plansız veya büyütülmüş işlem açma) ve \novertrading (planın izin verdiğinden daha sık, daha çok veya daha düşük kaliteli işlem yapma), \nçoğunlukla önceki sonucu yeni karara taşır. Trader jargonundaki tilt, duygusal uyarılmanın kural \nkontrolünü belirgin biçimde bozduğu durumu anlatmak için kullanılabilir.",
+    "source_extract_summary": [
+      "Uygulama Görseli 14.2 – XAGTRYG’de kontrollü trend, parabolik hızlanma, geç FOMO girişi ve ilk sert geri çekilmenin aynı grafikte karşılaştırılması.",
+      "14.9 Revenge Trading, Overtrading ve Duygusal Bozulma Revenge trading (kaybı hemen geri alma dürtüsüyle plansız veya büyütülmüş işlem açma) ve overtrading (planın izin verdiğinden daha sık, daha çok veya daha düşük kaliteli işlem yapma), çoğunlukla önceki sonucu yeni karara taşır.",
+      "Trader jargonundaki tilt, duygusal uyarılmanın kural kontrolünü belirgin biçimde bozduğu durumu anlatmak için kullanılabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0292",
+    "page": 292,
+    "chapter": 14,
+    "section": "14.10 — Piyasa Duygusu ve Duygusal Döngü",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  277\nŞekil 14.4 – FOMO’dan revenge ve overtrading’e duygusal tırmanış\nErken uyarı Zorunlu süreç kapısı\nStop sonrası emir ekranını hemen açmak Kişisel cooldown; ekranı kapat ve işlem notunu tamamla.\n“Sadece kaybı geri alacağım” cümlesi Günlük P&L hedefiyle işlem açmak yasak.\nPozisyon boyutunu artırma isteği Risk kartı sabit; ihlal varsa gün sonu.\nSetup kalitesini düşürme A/B/C setup sınıfı; yalnız izinli sınıf.\nSembol veya zaman dilimi değiştirme yarışı Watchlist dışı işlem yok.\nEmir sayısında hızlanma Önceden yazılmış günlük işlem/ihlal limiti.\nTablo 14.9 – Revenge ve overtrading reset kapıları\nRESET PROTOKOLÜ\n• Pozisyon kapandıktan sonra ekranı ve emir panelini belirlediğim süreyle bırakırım.\n• İşlemi P&L’den önce setup, risk ve süreç puanıyla kaydederim.\n• “Bu işlemi son kayıp olmasa da alır mıydım?” sorusuna yazılı yanıt veririm.\n• Yeni setup bağımsız değilse günün geri kalanında işlem yapmam.\n• Kural ihlali olduysa parasal kayıptan bağımsız olarak işlem iznini durdururum.\nDOĞRU BİLİNEN YANLIŞ\nMit: Kaybı hızlı geri almak psikolojik olarak rahatlatır.\nGerçeklik: Telafi amacı, yeni işlemin bağımsız kalitesini bozar. Plansız kazanç revenge davranışını \nödüllendirerek sonraki büyük ihlalin zeminini hazırlayabilir.\n14.10 Piyasa Duygusu ve Duygusal Döngü\nMarket sentiment (piyasa katılımcılarının baskın iyimserlik, korku veya belirsizlik hâli), fiyatın yanında \nhaber dili, sosyal konuşma, hacim ve volatilitede iz bırakabilir. Duygusal döngü şeması; disbelief,",
+    "source_extract_summary": [
+      "“Sadece kaybı geri alacağım” cümlesi Günlük P&L hedefiyle işlem açmak yasak.",
+      "Pozisyon boyutunu artırma isteği Risk kartı sabit; ihlal varsa gün sonu.",
+      "Setup kalitesini düşürme A/B/C setup sınıfı; yalnız izinli sınıf."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0293",
+    "page": 293,
+    "chapter": 14,
+    "section": "14.10 — Piyasa Duygusu ve Duygusal Döngü",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  278\noptimism, euphoria, anxiety, panic ve capitulation gibi aşamaları düşünmek için kullanılır. Bu şema \nkesin fiyat rotası veya zamanlama sinyali değildir.\nŞekil 14.5 – Piyasa duygusu şeması ve karar baskısı bölgeleri\nDuygu evresi Kalabalık dili Trader için psikolojik risk Teknik karşı kontrol\nİnançsızlık / umut Bu yükseliş yine bozulur. Erken karşı pozisyon veya \ntrendi reddetme.\nYapı, follow-through ve üst \nzaman bağlamı.\nİyimserlik / inanç Trend artık gerçek. Gerekçeli katılım; hâlâ normal \nrisk.\nPullback ve hedef alanı.\nHeyecan / öfori Artık herkes kazanıyor. FOMO, leverage ve risk \nbüyütme.\nUzaklık, volatilite, climax ve \nkalan R.\nRahatlık / inkâr Sadece sağlıklı düzeltme. Geçersizliği görmezden gelme. Protected swing, CHoCH ve \nkabul.\nKaygı / panik Hemen çıkmalıyım. Dipte plansız satış. Planlı stop, likidite ve yapı \nteyidi.\nKapitülasyon / depresyon Bir daha dönmem. Riskten tamamen kaçınma \nveya geç teslimiyet.\nTeknik dönüş zinciri; otomatik \nalış değil.\nTablo 14.10 – Piyasa duygusu ve kişisel hata riski\nEKRANDA NE ARIYORUM?\n• Fiyat hareketi normal trend mi, parabolik hızlanma mı?\n• Sosyal dil ve kendi düşüncem aşırı kesinleşti mi?\n• Volatilite/hacim artışı devam mı, climax mı; fiyat sonucu ne?\n• Piyasa duygusunu teknik teyit yerine mi kullanıyorum?\n• VIX veya fear/greed verisini otomatik al-sat sinyali sayıyor muyum?",
+    "source_extract_summary": [
+      "optimism, euphoria, anxiety, panic ve capitulation gibi aşamaları düşünmek için kullanılır.",
+      "Bu şema kesin fiyat rotası veya zamanlama sinyali değildir.",
+      "Erken karşı pozisyon veya trendi reddetme."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0294",
+    "page": 294,
+    "chapter": 14,
+    "section": "14.11 — Süreç–Sonuç Ayrımı ve İşlem Kalite Puanı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  279\nDOĞRU BİLİNEN YANLIŞ\nMit: Öfori gördüğümde hemen short, kapitülasyon gördüğümde hemen long açmalıyım.\nGerçeklik: Duygu evresi bağlam uyarısıdır. Yapı, fiyat davranışı, hacim ve geçersizlik olmadan \nzamanlama üretmez.\n14.11 Süreç–Sonuç Ayrımı ve İşlem Kalite Puanı\nProcess thinking (işlemi para kazanıp kazanmadığına göre değil, planın doğru uygulanıp \nuygulanmadığına göre değerlendirme), tek işlemde rastlantının etkisini azaltır. Bir işlem hem kazançlı \nhem kötü; hem kayıplı hem kaliteli olabilir.\nŞekil 14.6 – Süreç ve sonuç matrisi\nSüreç ölçütü 0 puan 1 puan 2 puan\nSetup Plan dışı Eksik/şüpheli Tanımlı setup eksiksiz\nTrigger Yok Geç/erken Kuraldaki tetik\nRisk İhlal Hesap/kayıt eksiği Önceden kabul ve doğru size\nGiriş/çıkış Duygusal müdahale Kısmi sapma Planla uyumlu\nDuygu yönetimi Fark etmeden ihlal Fark edildi ama geç Dürtü süreç kapısında durdu\nKayıt Yok Eksik Ekran görüntüsü + not + R",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Öfori gördüğümde hemen short, kapitülasyon gördüğümde hemen long açmalıyım.",
+      "Gerçeklik: Duygu evresi bağlam uyarısıdır.",
+      "Yapı, fiyat davranışı, hacim ve geçersizlik olmadan zamanlama üretmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Referans ve işlem simülasyonu varsayımları",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0295",
+    "page": 295,
+    "chapter": 14,
+    "section": "14.12 — İşlem Öncesi Zihinsel Kontrol ve No-",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  280\nTablo 14.11 – 12 puanlık işlem kalite kartı\nEYLEM DİLİ\nİşlem kapanınca önce P&L’yi değil süreç puanını yazarım. Kazanmış fakat 5/12 puan almış bir işlemi \n“iyi işlem” olarak ödüllendirmem; kaybetmiş fakat 12/12 puan almış işlemi edge örneklemine dâhil \nederim.\nVAKA ANALİZİ — İKİ KAZANÇ\nİşlem A: Planlı breakout, doğru risk, hedefte +1,8R; süreç 12/12. İşlem B: Trigger yokken FOMO \ngirişi, stop kaldırıldı, tesadüfen +2,4R; süreç 3/12. P&L İşlem B’yi daha kârlı gösterir; davranış \nsistemi İşlem A’yı tekrarlanabilir kabul eder.\n14.12 İşlem Öncesi Zihinsel Kontrol ve No-\nTrade Koşulları\nİşlem öncesi disiplin, emir anında irade toplamaya çalışmak değildir. Zihinsel ve operasyonel no-trade \nkoşullarını önceden belirleyerek karar hakkımı sınırlarım. Bir setup teknik olarak geçerli olsa bile onu \nsağlıklı uygulayamayacağım durumda işlem yapmayabilirim.\nKontrol alanı İşlem izni sorusu No-trade örneği\nFiziksel durum Uykum ve dikkat düzeyim yeterli mi? Belirgin yorgunluk, hastalık, alkol/ilaç \netkisi.\nDuygusal durum Öfke, acele veya telafi ihtiyacı var mı? Yeni kayıp sonrası yoğun revenge dürtüsü.\nPlan Setup, trigger, stop ve hedef yazılı mı? “Grafik güzel görünüyor” dışında tez yok.\nRisk kabulü Stop sonucu taşınabilir mi? Kayıp fikri bile planı değiştirme isteği \ndoğuruyor.\nPiyasa koşulu Spread/haber/volatilite plana uygun mu? Beklenmeyen haber veya uygulanamaz \nmaliyet.\nZaman Kararı izleyebilecek miyim? Toplantı/iş nedeniyle yönetim kuralı \nuygulanamayacak.\nTablo 14.12 – İşlem öncesi zihinsel ve operasyonel no-trade filtresi\nİŞLEM ÖNCESİ 30 SANİYELİK KART\n• Bu setup’ın adı ve edge’i nedir?\n• Stop olursa kaybı kabul ediyor muyum?\n• Son işlem olmasaydı bunu yine alır mıydım?\n• Fiyat giriş bölgesinde mi, yoksa kovalamak mı istiyorum?\n• Bugün zihinsel veya operasyonel no-trade koşulu var mı?",
+    "source_extract_summary": [
+      "Kazanmış fakat 5/12 puan almış bir işlemi “iyi işlem” olarak ödüllendirmem; kaybetmiş fakat 12/12 puan almış işlemi edge örneklemine dâhil ederim.",
+      "VAKA ANALİZİ — İKİ KAZANÇ İşlem A: Planlı breakout, doğru risk, hedefte +1,8R; süreç 12/12.",
+      "İşlem B: Trigger yokken FOMO girişi, stop kaldırıldı, tesadüfen +2,4R; süreç 3/12."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0296",
+    "page": 296,
+    "chapter": 14,
+    "section": "14.14 — Günlük, Rutin ve Davranış Verisi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  281\nDOĞRU BİLİNEN YANLIŞ\nMit: Disiplin güçlü iradeye sahip olmaktır.\nGerçeklik: İrade dalgalanır. Disiplin; alarm, checklist, sabit risk, no-trade koşulu ve işlem izni gibi \nçevresel/süreçsel sınırlar kurmaktır.\n14.13 İşlem Sırasında Duygu Protokolü\nPozisyon açıkken P&L sürekli yeni bir duygu üretir. Müdahale etmeden önce “teknik tez değişti mi, \nyoksa yalnız rahatlamak mı istiyorum?” sorusunu sorarım. Plan değişikliğine yalnız önceden \ntanımlanmış fiyat, yapı, zaman veya risk olayı izin verir.\nCanlı olay Yasak refleks İzinli süreç\nFiyat stopa yaklaşıyor Stopu uzaklaştırmak Stop kuralını uygulamak; slippage kaydını \nalmak.\nFiyat küçük kâra geçti Korkuyla tümünü kapatmak Önceden tanımlı target/partial/trailing \nkuralı.\nHızlı wick oluştu Alt zaman gürültüsünde panik Karar zaman dilimi kapanışını/tez olayını \nbeklemek.\nYeni haber geldi Plansız yorumla pozisyon büyütmek Haber acil durum kuralı varsa uygulamak.\nKaçırılan hedef geri dönüyor “Kârımı geri almalıyım” diyerek müdahale Planlı exit veya yapı tabanlı yönetim.\nBaşka sembol yükseliyor Mevcut trade’i bırakıp kovalamak Watchlist ve yeni bağımsız setup süreci.\nTablo 14.13 – İşlem sırası duygu protokolü\nÜÇ SORULU DURAKLATMA\n• Ne hissediyorum ve hangi dürtü oluştu?\n• İşleme girdiğim teknik tezde hangi gözlenebilir değişiklik oldu?\n• Planım bu değişiklik için hangi eyleme izin veriyor?\nVAKA ANALİZİ — ERKEN ÇIKIŞ DÜRTÜSÜ\nXAGTRYG 111,20’den long; stop 110,30, hedef 113,00. Fiyat 112,10’a çıktıktan sonra 111,70’e \nçekiliyor. P&L azalınca çıkmak istiyorum. Ana 1S yapı ve planlı trailing koşulu değişmediyse \nmüdahale etmem. Rahatsızlık teknik olay değildir. Böyle bir dalgalanma taşınamıyorsa çözüm \nsonraki işlemde boyutu azaltmaktır; canlı stopu rastgele değiştirmek değil.\n14.14 Günlük, Rutin ve Davranış Verisi\nTrading journal (işlemin yalnız sonucu değil, setup, karar, duygu ve kural uygulamasını saklayan kayıt \nsistemi), hafızanın seçici anlatısını somut veriye dönüştürür. Günlüğü “bugün ne kadar kazandım?” \ndefteri olarak değil, hangi koşulda edge’i bozduğumu gösteren davranış laboratuvarı olarak kullanırım.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Disiplin güçlü iradeye sahip olmaktır.",
+      "Disiplin; alarm, checklist, sabit risk, no-trade koşulu ve işlem izni gibi çevresel/süreçsel sınırlar kurmaktır.",
+      "14.13 İşlem Sırasında Duygu Protokolü Pozisyon açıkken P&L sürekli yeni bir duygu üretir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Gereksinim, semantik test ve sürümleme",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0297",
+    "page": 297,
+    "chapter": 14,
+    "section": "14.14 — Günlük, Rutin ve Davranış Verisi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  282\nŞekil 14.7 – İşlem öncesi, sırası ve sonrası geri besleme rutini\nKayıt grubu Alanlar\nKimlik Tarih, sembol, piyasa, zaman dilimi, seans.\nSetup Model adı, bağlam, trigger, giriş türü, ekran görüntüsü.\nRisk Entry, stop, hedef, planlanan R, boyut, maliyet.\nDuygu Önce/sıra/sonra duygu etiketi ve 0–5 yoğunluk.\nDürtü Kovalamak, erken çıkmak, stop taşımak, size artırmak vb.\nSüreç Checklist, ihlal, kalite puanı, no-trade olmasına rağmen işlem mi?\nSonuç Net P&L, R, MFE/MAE, exit nedeni.\nÖğrenme Tek davranış dersi ve bir sonraki if–then kuralı.\nTablo 14.14 – Davranış odaklı işlem günlüğü alanları\nDönem İnceleme soruları Üreteceğim çıktı\nİşlem sonrası Ne oldu? Planı nerede uyguladım/bozdum? Tek işlem kaydı; kural değiştirme yok.\nGün sonu Revenge, FOMO, yorgunluk veya \novertrading var mı?\nGünlük süreç puanı ve ihlal sayısı.\nHafta sonu Hangi duygu hangi setup/saate bağlanıyor? Bir davranış önceliği ve yeni guardrail.\nAylık/test dönemi Edge mi, rejim mi, uygulama mı bozuldu? Yeterli örneklemle sistem kararı.\nTablo 14.15 – Günlükten sistem iyileştirmeye inceleme katmanları\nEKRANDA NE ARIYORUM?\n• Aynı duygu etiketi tekrar eden kayıplarla ilişkili mi?\n• Plan dışı kazançlar hangi kötü alışkanlığı ödüllendiriyor?\n• Belirli saat, setup veya piyasa yorgunluk/acele üretiyor mu?\n• Kural ihlali P&L’den bağımsız sayılıyor mu?\n• Her hafta yalnız bir davranış değişkeni seçiyor muyum?",
+    "source_extract_summary": [
+      "Setup Model adı, bağlam, trigger, giriş türü, ekran görüntüsü.",
+      "Risk Entry, stop, hedef, planlanan R, boyut, maliyet.",
+      "Duygu Önce/sıra/sonra duygu etiketi ve 0–5 yoğunluk."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0298",
+    "page": 298,
+    "chapter": 14,
+    "section": "14.15 — Tutarlılık Sistemi: Sabır, Edge’e Bağlılık ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  283\nDOĞRU BİLİNEN YANLIŞ\nMit: İşlem günlüğü entry, exit ve kâr/zarar listesidir.\nGerçeklik: Bu alanlar gereklidir ama yetersizdir. Günlük, duygu–dürtü–ihlal bağlantısını ve süreç \nkalitesini görünür kıldığında davranış aracı olur.\n14.15 Tutarlılık Sistemi: Sabır, Edge’e Bağlılık ve \nReset\nConsistency (aynı edge, risk ve uygulama kurallarını yeterli örneklem boyunca tekrar edebilme), her \ngün işlem yapmak değildir. Sabır setup beklerken; disiplin setup oluşunca kurala göre hareket \nederken; reset ise ihlal veya duygusal bozulma sonrasında yeni kararları korurken görünür.\nTutarlılık ilkesi Eylem cümlem\nEdge’i bil Hangi setup’ın hangi koşulda avantaj sağladığını yazılı tutarım.\nRiski tanımla Her işlemden önce stop ve toplam kaybı hesaplarım.\nRiski kabul et Stop sonucunu taşıyamıyorsam emri küçültür veya almam.\nTereddütsüz uygula Kural eksiksizse son sonuç serisine göre keyfî atlamam.\nKârı planla yönet Piyasa sunduğunda önceden seçilmiş exit kuralını uygularım.\nKendimi izle Duygu ve ihlali P&L’den bağımsız kaydederim.\nBeklentisiz tekrar et Tek işlemin sonucu yerine süreç dağılımına odaklanırım.\nTablo 14.16 – Tutarlılık ilkelerinin eylem dili\nIF–THEN DAVRANIŞ KURALLARI\n• Eğer son işlemden sonra telafi dürtüsü hissedersem, emir panelini kapatır ve reset kaydını \ntamamlarım.\n• Eğer fiyat maksimum giriş mesafesini aşarsa, market emir vermem; retest alarmı kurarım.\n• Eğer stop sonucu uykumu veya sonraki kararımı bozacaksa, pozisyonu küçültür veya işlemi \nalmam.\n• Eğer teknik tez değişmeden çıkış isteği oluşursa, duygu yoğunluğunu kaydeder ve planlı karar \nzamanını beklerim.\n• Eğer bir kural ihlali yaparsam, aynı gün yeni risk almadan ihlalin nedenini incelerim.\nVAKA ANALİZİ — TAM RESET\nSabah ilk XAGTRYG işleminde plan dışı erken giriş yaptım ve −0,8R kaybettim. Parasal kayıp günlük \nlimiti aşmasa da süreç ihlali gerçekleşti. İkinci işlem hakkını otomatik kullanmam. Ekranı bırakır, \nsetup kartındaki eksik maddeyi işaretler, duygu/dürtü kaydını tamamlar ve planım “ihlal sonrası \ngün sonu” diyorsa işlemi bitiririm. Disiplin kaybı, parasal limitten önce işlem iznini durdurabilir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: İşlem günlüğü entry, exit ve kâr/zarar listesidir.",
+      "Gerçeklik: Bu alanlar gereklidir ama yetersizdir.",
+      "Günlük, duygu–dürtü–ihlal bağlantısını ve süreç kalitesini görünür kıldığında davranış aracı olur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0299",
+    "page": 299,
+    "chapter": 14,
+    "section": "14.15 — Tutarlılık Sistemi: Sabır, Edge’e Bağlılık ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  284\nUygulama Görseli 14.3 – XAGTRYG işlem günlüğünde süreç puanı, duygu yoğunluğu, dürtü, ihlal, R sonucu \nve haftalık davranış özeti. Temsilî eğitim şeması.\nHızlı Başvuru\nDurum Kendime sorarım Varsayılan süreç\nKorku / tereddüt Risk mi büyük, setup mı eksik? Size azalt veya kural eksikse bekle.\nFOMO Fiyat planlanan mesafede mi? Kovalama; retest/pullback alarmı.\nStop sonrası öfke Bu yeni işlem son kayıp olmasa da var \nmıydı?\nCooldown + bağımsız setup kontrolü.\nKazanç serisi Risk oranını sonuç heyecanıyla mı \nartırıyorum?\nDönem içinde risk sabit.\nKayıp serisi Edge, rejim veya uygulama mı? Yeterli örneklem + süreç denetimi.\nCanlı müdahale isteği Teknik tezde hangi somut değişiklik oldu? Plan izin vermiyorsa müdahale yok.\nPiyasa öforisi/paniği Duygu şemasını sinyal mi sanıyorum? Yapı ve fiyat teyidi bekle.\nKural ihlali Parasal sonuçtan bağımsız ne bozuldu? Reset ve işlem izni protokolü.\nTablo 14.17 – Psikolojik durum hızlı başvuru tablosu\nGrafik ve Zihinsel Durum Kontrol Listesi\n Setup, trigger, stop, hedef ve no-trade koşulu yazılı.\n Stop sonucu parasal ve zihinsel olarak önceden kabul edildi.\n Son işlem, mevcut kararın gerekçesi değil.\n Fiyat maksimum giriş mesafesinde; kovalamıyorum.\n Duygu ve dürtüyü adlandırabiliyorum.\n Canlı müdahale yalnız teknik tez olayına bağlı.\n Risk oranı kazanç/kayıp serisine göre keyfî değişmedi.\n İşlem sonrası süreç puanı P&L’den önce kaydedilecek.",
+    "source_extract_summary": [
+      "Uygulama Görseli 14.3 – XAGTRYG işlem günlüğünde süreç puanı, duygu yoğunluğu, dürtü, ihlal, R sonucu ve haftalık davranış özeti.",
+      "Hızlı Başvuru Durum Kendime sorarım Varsayılan süreç Korku / tereddüt Risk mi büyük, setup mı eksik?",
+      "Size azalt veya kural eksikse bekle."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0300",
+    "page": 300,
+    "chapter": 14,
+    "section": "14.15 — Tutarlılık Sistemi: Sabır, Edge’e Bağlılık ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  285\n Kural ihlali için reset ve işlem izni kuralım belli.\n Piyasa duygusu teknik teyidin yerine kullanılmıyor.\nTemel Sözlük\nTerim Aksiyon tanımı\nTrading psychology Duygunun işlem kararına nasıl dönüştüğünü yönetme.\nEdge Yeterli örneklemde maliyet sonrası olumlu beklenen değer \nsağlayan avantaj.\nRisk acceptance Stop sonucunu emirden önce parasal ve zihinsel olarak kabul \netme.\nLoss aversion Kaybı ağır hissedip stop/çıkış kararını bozma eğilimi.\nRecency bias Yakın sonuçları uzun dönem veriden fazla önemseme.\nConfirmation bias Tezi destekleyen kanıtı seçip zıt kanıtı dışlama.\nOutcome bias İşlem kalitesini yalnız sonuçla değerlendirme.\nHindsight bias Sonucu gördükten sonra geçmiş belirsizliği küçümseme.\nOverconfidence Kısa başarıyı kalıcı üstünlük sayıp risk artırma.\nFOMO Hareketi kaçırma korkusuyla plan dışı kovalamak.\nRevenge trading Kaybı hemen geri almak için bağımsız setup olmadan işlem açmak.\nOvertrading Planın izin verdiğinden fazla veya düşük kaliteli işlem yapmak.\nTilt / duygusal bozulma Duygusal uyarılmanın kural kontrolünü belirgin biçimde \nzayıflatması.\nProcess thinking Tek sonucu değil plan uygulamasını değerlendirmek.\nMarket sentiment Katılımcıların baskın iyimserlik/korku hâli.\nCooldown Duygusal olay sonrası yeni emir öncesi kişisel bekleme ve reset \nsüreci.\nConsistency Edge ve risk kurallarını yeterli örneklem boyunca tekrar \nedebilmek.\nTablo 14.18 – Bölüm 14 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Trading psikolojisi neden stratejinin alternatifi değildir?\n2. Duygu, dürtü ve davranış nasıl ayrılır?\n3. Edge neden tek işlemi garanti etmez?\n4. İyi setup’ın kaybetmesi ne anlama gelir?\n5. Risk acceptance yalnız stop seviyesini bilmekten nasıl farklıdır?\n6. Kayıptan kaçınma stop ve çıkış kararını nasıl bozabilir?\n7. “Başa başa gelsin” düşüncesi hangi fırsat maliyetini yaratır?\n8. Recency bias kayıp serisinde hangi yanlış kararı üretebilir?\n9. Confirmation bias grafik çizimlerini nasıl bozabilir?\n10. Outcome bias neden plan dışı kazancı tehlikeli hâle getirir?\n11. Korku geçerli setup’ta hangi üç davranışı oluşturabilir?",
+    "source_extract_summary": [
+      " Kural ihlali için reset ve işlem izni kuralım belli.",
+      " Piyasa duygusu teknik teyidin yerine kullanılmıyor.",
+      "Temel Sözlük Terim Aksiyon tanımı Trading psychology Duygunun işlem kararına nasıl dönüştüğünü yönetme."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0301",
+    "page": 301,
+    "chapter": 14,
+    "section": "14.15 — Tutarlılık Sistemi: Sabır, Edge’e Bağlılık ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 14\nTrading Psikolojisi, Piyasa Duygusu ve Süreç Disiplini  •  286\n12. FOMO giriş mesafesi ve R:R’yi nasıl bozar?\n13. Aşırı güven neden kazanç serilerinden sonra risklidir?\n14. Revenge trading ile yeni bağımsız setup nasıl ayrılır?\n15. Overtrading yalnız işlem sayısı mıdır?\n16. Cooldown kuralı neden kişiselleştirilebilir olmalıdır?\n17. Piyasa duygu döngüsü neden otomatik zamanlama sinyali değildir?\n18. VIX hangi sınırlı görevle kullanılmalıdır?\n19. Doğru süreç + kayıp neden kaliteli işlem olabilir?\n20. Yanlış süreç + kazanç neden tehlikelidir?\n21. 12 puanlık süreç kartında hangi alanlar bulunur?\n22. İşlem öncesi zihinsel no-trade koşulları nelerdir?\n23. Canlı pozisyonda “tez değişti mi?” sorusu neyi çözer?\n24. Davranış odaklı günlük P&L dışında ne kaydeder?\n25. Haftalık incelemede neden tek davranış değişkeni seçilir?\n26. Tutarlılık neden her gün işlem yapmak değildir?\n27. Kural ihlali parasal limit aşılmadan neden işlem iznini durdurabilir?28. Tam duygu yönetimi iş akışının sırası nasıldır?",
+    "source_extract_summary": [
+      "FOMO giriş mesafesi ve R:R’yi nasıl bozar?",
+      "Aşırı güven neden kazanç serilerinden sonra risklidir?",
+      "Revenge trading ile yeni bağımsız setup nasıl ayrılır?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  }
+]
