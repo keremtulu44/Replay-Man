@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "BIST_ALTNY",
+  "symbol": "ALTNY.IS",
+  "category": "bist100_equity",
+  "asset_type": "equity",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "4f81fff7db41e9c9402a50b9696fe5215b31b4950857fbf2732ebb1a217766aa"
+}

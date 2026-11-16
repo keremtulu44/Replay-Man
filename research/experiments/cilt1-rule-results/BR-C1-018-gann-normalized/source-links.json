@@ -1,0 +1,66 @@
+[
+  {
+    "id": "PTA-C1-2026.p0111",
+    "page": 111,
+    "chapter": 18,
+    "section": "18.2 — “1×1 = her zaman 45 derece” neden problemli?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n111 \nBÖLÜM 18 \nGann Fan, Box ve Square: Fiyat ve Zaman \nGeometrisi \nGann araçlarında en önemli konu çizginin kendisinden çok ölçek ayarıdır. Fiyat ile \nzamanın grafikte nasıl ölçeklendiği değişirse aynı Gann çizgisi farklı görünebilir. \nHIZLI ROL — Ana görev: fiyat ile zamanı belirli oranlarla birlikte incelemek. Tek başına \ntrend dönüşü, kesin tarih veya giriş sinyali vermez. Ana risk: grafik ölçeğini kontrol etmeden \nçizginin açısına anlam yüklemek ve her dönüş noktasına yeni çizim uydurmak. İyi eşleşme: \nfiyat yapısı + ATR. \n18.1 — 1×1 ne demektir? \n1×1 bir birim zaman başına bir birim fiyat ilişkisini; 2×1 veya 1×2 farklı fiyat/zaman oranlarını ifade \neder. Oran ile ekrandaki derece aynı şey değildir. \nSAYISAL ÖRNEK \nBaşlangıç noktası fiyatı 100 olsun. 1×1 oranını “bar başına +1 fiyat birimi” olarak kurduysak 10 bar \nsonra geometrik referans 110’dur. 2×1 aynı varsayımda 120 olur. Ekranda kaç derece göründüğü, \neksenlerin nasıl ölçeklendiğine bağlıdır. \n \n \nŞekil 18.1 — 1×1, 2×1 ve 1×2 aynı başlangıç noktasından farklı fiyat/zaman oranlarını gösterir. \n18.2 — “1×1 = her zaman 45 derece” neden problemli? \nBir çizginin ekrandaki açısı fiyat ekseninin sıkıştırılması/genişletilmesiyle değişir. Gann yorumunda \nönce fiyat/zaman oranını ve grafik ölçeğini kontrol edin; yalnız görsel dereceye dayanmayın.",
+    "source_extract_summary": [
+      "BÖLÜM 18 Gann Fan, Box ve Square: Fiyat ve Zaman Geometrisi Gann araçlarında en önemli konu çizginin kendisinden çok ölçek ayarıdır.",
+      "Fiyat ile zamanın grafikte nasıl ölçeklendiği değişirse aynı Gann çizgisi farklı görünebilir.",
+      "HIZLI ROL — Ana görev: fiyat ile zamanı belirli oranlarla birlikte incelemek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0112",
+    "page": 112,
+    "chapter": 18,
+    "section": "18.4 — Gann Box ve Square: önce alanı tanımla",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n112 \n \nŞekil 18.2 — Aynı 100→110 / 10 bar ilişkisi, farklı dikey fiyat ölçeklerinde farklı açıyla görünür. \nKİTAP KURALI \n“Grafikte tam 45° gördüm, demek 1×1 doğru” sonucunu kullanmayın. Önce fiyat/zaman oranının \nnasıl tanımlandığını ve grafik ölçeğinin görünümü nasıl etkilediğini kontrol edin. \n \n18.3 — Gann Fan’da fiyat, zaman ve ölçekleme aynı modelin parçalarıdır \nGann oranı yalnız fiyat farkı değildir. İkinci eksendeki zaman biriminin de açık biçimde \ntanımlanması gerekir. \nGünlük grafikte bir bar bir günlük zaman adımına, saatlik grafikte bir bar bir saatlik zaman \nadımına karşılık gelir. Bu nedenle aynı sayısal Gann tanımı başka bir zaman dilimine \ntaşındığında “bir zaman birimi ne?” sorusu yeniden cevaplanmalıdır. \nBu ayrım 1×1’in neden ekrandaki sabit bir açı olmadığını daha açık hale getirir. Önce fiyat ve \nzaman birimleri arasındaki oran tanımlanır; ekranda görülen açı bunun sonucudur. \nTEKNİK AYRIM — 45° ÖNCE GELMEZ \n“1×1 = 45°” ifadesi ancak fiyat ve zaman ölçekleri önceden belirli bir ilişkiye getirilmişse \nanlamlıdır. Grafiği yakınlaştırmak, doğrusal/logaritmik ölçeği değiştirmek veya zaman dilimini \ndeğiştirmek görsel açıyı etkileyebilir. \nGann çiziminde ölçekleme yöntemi de modelin parçasıdır \nGann Fan için birden fazla ölçekleme yaklaşımı bulunabilir. Bu nedenle “Fan’ı çizdim” demek \ntek başına yeterli değildir; fiyat ve zaman birimlerinin hangi ölçek ilişkisiyle eşleştirildiği de \nanalizin bir parçasıdır. \n18.4 — Gann Box ve Square: önce alanı tanımla \nGann Box bir fiyat aralığı ile zaman aralığını geometrik bölümlere ayırır. Bu nedenle kutunun anlamı \nseçilen büyük pivotlara bağlıdır. Rastgele küçük hareketlere yeni kutular çizmek yalnız çizgi sayısını \nartırır.",
+    "source_extract_summary": [
+      "KİTAP KURALI “Grafikte tam 45° gördüm, demek 1×1 doğru” sonucunu kullanmayın.",
+      "Önce fiyat/zaman oranının nasıl tanımlandığını ve grafik ölçeğinin görünümü nasıl etkilediğini kontrol edin.",
+      "18.3 — Gann Fan’da fiyat, zaman ve ölçekleme aynı modelin parçalarıdır Gann oranı yalnız fiyat farkı değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0113",
+    "page": 113,
+    "chapter": 18,
+    "section": "18.5 — Gann çizgisine temas veya kırılım ne söyler?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n113 \n \nŞekil 18.3 — Gann Box için analiz önce büyük fiyat-zaman alanını tanımlar; iç bölümler bu alandan sonra gelir. \nAdım Disiplin Neden? \n1 Fiyat yapısı ile büyük pivotu seç Geometri fiyat yapısından sonra gelir \n2 Fiyat ve zaman ölçeğini kontrol et Görsel açı/oran yanılsamasını azaltır \n3 Fan/Box/Square’ı kur Araç yalnız geometrik referans üretir \n4 Fiyat davranışını gözle Temas otomatik giriş işareti değildir \n5 Yapı ve ATR ile stop ve risk seviyesini \ntanımla \nGeometri stop mantığının yerine \ngeçmez \n \n18.5 — Gann çizgisine temas veya kırılım ne söyler? \nGann çizgisine temas seçilen fiyat-zaman geometrisine ulaşıldığını, kırılım ise bu geometrinin ihlal \nedildiğini gösterir. Bunlar tek başına trend dönüşü değildir; fiyat yapısının bozulması ayrıca \naranmalıdır.",
+    "source_extract_summary": [
+      "1 Fiyat yapısı ile büyük pivotu seç Geometri fiyat yapısından sonra gelir 2 Fiyat ve zaman ölçeğini kontrol et Görsel açı/oran yanılsamasını azaltır 3 Fan/Box/Square’ı kur Araç yalnız geometrik referans üretir 4 Fiyat davranışını gözle Temas otomatik giriş işareti değildir 5 Yapı ve ATR ile stop ve risk seviyesini tanımla Geometri stop mantığının yerine geçmez 18.5 — Gann çizgisine temas veya kırılım ne söyler?",
+      "Gann çizgisine temas seçilen fiyat-zaman geometrisine ulaşıldığını, kırılım ise bu geometrinin ihlal edildiğini gösterir.",
+      "Bunlar tek başına trend dönüşü değildir; fiyat yapısının bozulması ayrıca aranmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0114",
+    "page": 114,
+    "chapter": 18,
+    "section": "18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n114 \n \nŞekil 18.4 — Geometrik çizgi ihlal ediliyor fakat fiyat yapısı daha sonra yeni daha yüksek tepe üretmeye devam ediyor. \nYANLIŞ / DOĞRU \nYANLIŞ: “1×1 kırıldı → SAT.” DOĞRU: “1×1 geometrisi ihlal edildi. Şimdi korunan yapı bozuluyor \nmu ve karşı yönlü fiyat davranışı oluşuyor mu?” \n \n18.6 — Gann’da en sık yapılan hatalar \nHata Neden sorun? Daha güvenli yaklaşım \nHer küçük harekete yeni Fan Seçenek sayısı arttıkça sonradan \nçalışan çizgi bulunur \nYalnız önceden gerekçeli büyük pivot \n45° görsel açı takıntısı Eksen ölçeği açıyı değiştirir Fiyat/zaman oranı + ölçek kontrolü \nÇizgi teması = dönüş Geometri giriş işareti değildir Fiyat davranışı / fiyat yapısı teyidi \nZaman projeksiyonu = kesin tarih Olası zaman penceresi kesin olay \ndeğildir \nOlası gözlem penceresi \nAstrolojik/numerolojik iddiayı \nteknik gerçek sunmak \nÖlçülebilir fiyat-zaman analizinden \nkopar \nKitapta yalnız geometrik araç mantığı \n \n18.7 — Gann hangi araçlarla birlikte anlamlıdır? \nKombinasyon Rol Not \nGann + Fiyat yapısı Geometri + fiyat yapısı/bozulma En temiz tamamlayıcı \nGann + Volume Profile Fiyat-zaman geometrisi + fiyat \nseviyelerine göre hacim dağılımı \nFarklı bilgi sınıfları \nGann + ATR Geometri + fiyat hareketliliği/risk Stop/risk için tamamlayıcı \nGann + Fibonacci İki benzer geometri/projeksiyon aracı Örtüşme olabilir; iki bağımsız teyit \ndeğildir",
+    "source_extract_summary": [
+      "YANLIŞ / DOĞRU YANLIŞ: “1×1 kırıldı → SAT.” DOĞRU: “1×1 geometrisi ihlal edildi.",
+      "Şimdi korunan yapı bozuluyor mu ve karşı yönlü fiyat davranışı oluşuyor mu?” 18.6 — Gann’da en sık yapılan hatalar Hata Neden sorun?",
+      "Daha güvenli yaklaşım Her küçük harekete yeni Fan Seçenek sayısı arttıkça sonradan çalışan çizgi bulunur Yalnız önceden gerekçeli büyük pivot 45° görsel açı takıntısı Eksen ölçeği açıyı değiştirir Fiyat/zaman oranı + ölçek kontrolü Çizgi teması = dönüş Geometri giriş işareti değildir Fiyat davranışı / fiyat yapısı teyidi Zaman projeksiyonu = kesin tarih Olası zaman penceresi kesin olay değildir Olası gözlem penceresi Astrolojik/numerolojik iddiayı teknik gerçek sunmak Ölçülebilir fiyat-zaman analizinden kopar Kitapta yalnız geometrik araç mantığı 18.7 — Gann hangi araçlarla birlikte anlamlıdır?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0115",
+    "page": 115,
+    "chapter": 18,
+    "section": "18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n115 \nBÖLÜM SONUCU \nGann’da sıra: fiyat yapısı → büyük pivot → fiyat/zaman oranı ve ölçek → geometri → fiyat davranışı \n→ risk. Geometrik çizgiyi giriş veya kesin dönüş sinyali yapmayın.",
+    "source_extract_summary": [
+      "BÖLÜM SONUCU Gann’da sıra: fiyat yapısı → büyük pivot → fiyat/zaman oranı ve ölçek → geometri → fiyat davranışı → risk.",
+      "Geometrik çizgiyi giriş veya kesin dönüş sinyali yapmayın."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

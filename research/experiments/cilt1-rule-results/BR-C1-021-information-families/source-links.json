@@ -1,0 +1,181 @@
+[
+  {
+    "id": "PTA-C1-2026.p0126",
+    "page": 126,
+    "chapter": 21,
+    "section": "21.1 — Beş soruluk rol çakışması testi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n126 \nBÖLÜM 21 \nProfesyonel Kombinasyon Sistemi: \nAraçlardan Karar Sistemine \nİyi bir sistem çok sayıda gösterge kullanan sistem değildir. Her aracın ayrı bir soruya \ncevap verdiği, aynı bilgiyi tekrar eden araçların çıkarıldığı ve gerektiğinde “işlem \nyok” diyebilen sade bir karar sistemidir. \nHIZLI ÇERÇEVE — Önce piyasa ortamını ve yönü belirleyin. Sonra fiyatın uygun bir \nbölgede olup olmadığına, giriş işaretine, riske ve işlemin nasıl yönetileceğine bakın. Aynı işi \nyapan iki aracı üst üste kullanmayın. Temel parçalardan biri eksikse doğru karar “işlem yok” \nolabilir. \n \nŞekil 21.1 — Kitabın final karar modeli: bağlamdan yönetime kadar her aşama ayrı bir soruya cevap verir. \n21.1 — Beş soruluk rol çakışması testi \nSoru Amaç \n1. Araç 1 hangi problemi \nçözüyor? \nRolü isimle değil görevle tanımla. \n2. Araç 2 hangi problemi \nçözüyor? \nİkinci aracın gerçek işlevini ayır. \n3. Aynı veri ailesini mi tekrar \nediyorlar? \nAynı fiyat, hareket gücü veya trend bilgisinin tekrarını yakala. \n4. İkinci araç yeni bilgi getiriyor \nmu? \nGerçekten farklı bilgi verip vermediğini kontrol et. \n5. İkinci aracı çıkarırsam karar \nzayıflıyor mu? \nCevap hayırsa araç muhtemelen gürültüdür.",
+    "source_extract_summary": [
+      "BÖLÜM 21 Profesyonel Kombinasyon Sistemi: Araçlardan Karar Sistemine İyi bir sistem çok sayıda gösterge kullanan sistem değildir.",
+      "Her aracın ayrı bir soruya cevap verdiği, aynı bilgiyi tekrar eden araçların çıkarıldığı ve gerektiğinde “işlem yok” diyebilen sade bir karar sistemidir.",
+      "HIZLI ÇERÇEVE — Önce piyasa ortamını ve yönü belirleyin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0127",
+    "page": 127,
+    "chapter": 21,
+    "section": "21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n127 \nÇIKARMA TESTİ \nBir indikatörü eklemeden önce “ne katıyor?” diye sormak yeterli değildir. Daha güçlü soru şudur: “Bu \nindikatörü çıkarırsam hangi karar aşamasını artık veremiyorum?” Cevap yoksa araç yalnız görsel \ngüven hissi üretiyor olabilir. \n \n21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur \nRSI, Stochastic ve Stoch RSI aynı yönde hareket ettiğinde üç ayrı teyit varmış gibi görünebilir; \nancak aynı hareket gücü ailesinden bilgi taşırlar ve Stoch RSI doğrudan RSI’dan türetilir. Benzer \nbiçimde çoklu EMA, MACD ve Supertrend de trend bilgisini farklı biçimlerde tekrar edebilir. \n \nŞekil 21.2 — Üst panel gösterge sayısını, alt panel bilgi çeşitliliğini temsil eder. Sistem kalitesi için ikinci yaklaşım daha \ndeğerlidir.",
+    "source_extract_summary": [
+      "ÇIKARMA TESTİ Bir indikatörü eklemeden önce “ne katıyor?” diye sormak yeterli değildir.",
+      "Daha güçlü soru şudur: “Bu indikatörü çıkarırsam hangi karar aşamasını artık veremiyorum?” Cevap yoksa araç yalnız görsel güven hissi üretiyor olabilir.",
+      "21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur RSI, Stochastic ve Stoch RSI aynı yönde hareket ettiğinde üç ayrı teyit varmış gibi görünebilir; ancak aynı hareket gücü ailesinden bilgi taşırlar ve Stoch RSI doğrudan RSI’dan türetilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0128",
+    "page": 128,
+    "chapter": 21,
+    "section": "21.3 — Örnek sistem 1: trend içi geri çekilme",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n128 \n \nZayıf yığın Sorun Daha temiz alternatif \nRSI + Stochastic + Stoch RSI Benzer hareket gücü bilgisi Tek hareket gücü aracı + Fiyat yapısı + \nATR \n20/50/200 EMA + MACD + \nSupertrend \nAynı trend bilgisinin yoğun tekrarı Tek piyasa ortamı filtresi + konum + \nrisk \nATR + Bollinger bant genişliği + \nBollinger \nFiyat hareketliliğini üç biçimde saymak Bollinger sıkışması + fiyat \nyapısı/hacim; ATR yalnız riskte \nVRVP + FRVP aynı aralık Aynı profil ailesi Tek profil + Fiyat yapısı / AVWAP \n \n21.3 — Örnek sistem 1: trend içi geri çekilme \nTrend içi geri çekilmede amaç fiyatı “ucuz” diye otomatik almak değildir. Önce yön ve korunması \ngereken yapı belirlenir; ardından uygun konumda hareket gücünün yeniden trend yönüne dönmesi \nbeklenir. Stop, sinyalden değil işlem fikrinin bozulduğu yapısal seviyeden belirlenir; ATR yalnız \ngerektiğinde hareket genişliğine göre ek pay bırakmaya yardım eder. \n \nŞekil 21.3 — Trend filtresi yönü, geri çekilme bölgesi konumu, hareket gücü ise zamanlamayı temsil eder. Aynı görev iki kez \nölçülmez.",
+    "source_extract_summary": [
+      "Zayıf yığın Sorun Daha temiz alternatif RSI + Stochastic + Stoch RSI Benzer hareket gücü bilgisi Tek hareket gücü aracı + Fiyat yapısı + ATR 20/50/200 EMA + MACD + Supertrend Aynı trend bilgisinin yoğun tekrarı Tek piyasa ortamı filtresi + konum + risk ATR + Bollinger bant genişliği + Bollinger Fiyat hareketliliğini üç biçimde saymak Bollinger sıkışması + fiyat yapısı/hacim; ATR yalnız riskte VRVP + FRVP aynı aralık Aynı profil ailesi Tek profil + Fiyat yapısı / AVWAP 21.3 — Örnek sistem 1: trend içi geri çekilme Trend içi geri çekilmede amaç fiyatı “ucuz” diye otomatik almak değildir.",
+      "Önce yön ve korunması gereken yapı belirlenir; ardından uygun konumda hareket gücünün yeniden trend yönüne dönmesi beklenir.",
+      "Stop, sinyalden değil işlem fikrinin bozulduğu yapısal seviyeden belirlenir; ATR yalnız gerektiğinde hareket genişliğine göre ek pay bırakmaya yardım eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0129",
+    "page": 129,
+    "chapter": 21,
+    "section": "21.4 — Örnek sistem 2: düşük fiyat hareketliliğinden kırılım",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n129 \n \nAşama Örnek araç Sorduğu soru \nBağlam / yön Fiyat yapısı veya tek MA Ana trend hâlâ yukarı mı? \nKonum Önceki destek/direnç, AVWAP veya \nanlamlı geri çekilme bölgesi \nİşlem aramak için mantıklı yerde \nmiyiz? \nGiriş işareti RSI veya Stochastic Hareket gücü trend yönüne yeniden \ndönüyor mu? \nRisk Fikrin bozulduğu seviye + ATR ile ek \npay \nFikir nerede bozulur ve stop piyasa \ngürültüsüne göre makul mü? \n \nSAYISAL ÖRNEK \nVarsayalım fiyat 100’den 120’ye yükseldikten sonra 114 bölgesine çekildi. Korunan dip 111, güncel \nATR 1,2 olsun. Stopu yalnız “ATR 1,2” diyerek belirlemek yerine önce işlem fikrinin 111 altında \nbozulduğunu kabul ederiz. Strateji kuralı uygunsa stopa örneğin 0,5 ATR kadar ek pay bırakılabilir. \nBu katsayı sabit bir kural değildir; test edilmelidir. \n \n21.4 — Örnek sistem 2: düşük fiyat hareketliliğinden kırılım \nKırılım sisteminde Donchian yeni N-periyot en yüksek/en düşük sınırının aşılıp aşılmadığını, ATR \nsıkışma-genişleme ortamını, hacim ise harekete katılımı gösterir. Üçü farklı sorulara cevap verir; \nhiçbiri kırılımın başarılı olacağını garanti etmez. Başarısız kırılım kuralı ayrıca tanımlanmalıdır. \n \nŞekil 21.4 — Aynı olay üç ayrı açıdan okunuyor: fiyat kırılımı, hareket genişliği ve katılım. \nKatman Örnek gözlem Yanlış çıkarım",
+    "source_extract_summary": [
+      "Aşama Örnek araç Sorduğu soru Bağlam / yön Fiyat yapısı veya tek MA Ana trend hâlâ yukarı mı?",
+      "Konum Önceki destek/direnç, AVWAP veya anlamlı geri çekilme bölgesi İşlem aramak için mantıklı yerde miyiz?",
+      "Giriş işareti RSI veya Stochastic Hareket gücü trend yönüne yeniden dönüyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0130",
+    "page": 130,
+    "chapter": 21,
+    "section": "21.4 — Örnek sistem 2: düşük fiyat hareketliliğinden kırılım",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n130 \nKatman Örnek gözlem Yanlış çıkarım \nDonchian Son N mumun en yüksek seviyesinin \nüzerinde kapanış \n“Kesin trend başladı” \nATR Sıkışma sonrası genişleme “Yön yukarı olmak zorunda” \nHacim Göreli hacim belirgin arttı “Fiyat kesin devam eder” \nFiyat yapısı / stop Kırılan aralığın içine geri kapanış “İndikatörler olumlu; stopa gerek yok”",
+    "source_extract_summary": [
+      "Katman Örnek gözlem Yanlış çıkarım Donchian Son N mumun en yüksek seviyesinin üzerinde kapanış “Kesin trend başladı” ATR Sıkışma sonrası genişleme “Yön yukarı olmak zorunda” Hacim Göreli hacim belirgin arttı “Fiyat kesin devam eder” Fiyat yapısı / stop Kırılan aralığın içine geri kapanış “İndikatörler olumlu; stopa gerek yok”"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0131",
+    "page": 131,
+    "chapter": 21,
+    "section": "21.6 — Örnek sistem 4: geometrik işlem düzeni",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n131 \n21.5 — Örnek sistem 3: konum / değer odaklı geri çekilme \nVolume Profile ve AVWAP aynı hacim verisini kullansa da farklı sorular sorar: biri hacmin fiyat \nseviyelerine dağılımını, diğeri seçilen başlangıçtan sonraki hacim ağırlıklı ortalama maliyeti gösterir. \nİkisi de fiyat davranışının yerine geçmez; yapı desteklemiyorsa POC, HVN veya AVWAP teması tek \nbaşına alış gerekçesi değildir. \nRol Araç Doğru okuma \nYapı Fiyat yapısı Yükseliş yönlü tepe-dip dizisi / \nkorunması gereken dip \nKonum 1 Volume Profile VAH/VAL/POC/HVN/LVN \nçevresindeki kabul veya reddi izle \nKonum 2 AVWAP Önemli başlangıç noktasından ortalama \nmaliyet referansı \nGiriş işareti RSI / fiyat davranışı Konumda hareket gücü veya fiyat \nyapısı dönüşü \nRisk ATR + işlem fikrinin bozulduğu seviye Konum seviyesi ile stop seviyesini \nkarıştırma \n \nÖRTÜŞME ≠ BAĞIMSIZLIK \nİki farklı araç aynı fiyat bölgesini işaret edebilir ve bu bölgeyi daha dikkat çekici hale getirebilir. \nFakat “iki çizgi aynı yerde = iki bağımsız kanıt” sonucu otomatik değildir. Aynı girdiden veya aynı \ngeometri ailesinden türeyen örtüşme, bilgi çeşitliliği değildir. \n \n21.6 — Örnek sistem 4: geometrik işlem düzeni \nFibonacci oran ve hedef bölgeleri, Pitchfork ise orta çizgi geometrisi verir. İkisi de seçilen fiyat \nhareketi ve pivotlardan türediği için kesişmeleri yararlı bir konum işareti olabilir; fakat iki tamamen \nbağımsız teyit sayılmamalıdır. Fiyat yapısı ayrı kanıt katmanı olarak kalır. \nBileşen Rol Kontrol \nFiyat yapısı Bağlam ve fikrin bozulduğu seviye Belirgin dönüş noktaları önceden \nanlamlı mı? \nFibonacci Oran / geri çekilme konumu Başlangıç noktası fiyatın sağı \ngörünmeden seçilebilir miydi? \nPitchfork Orta çizgi geometrisi Classic veya varyant seçimi önceden \ntanımlı mı? \nATR Risk / fiyat hareketliliği Geometrik çizgi ile stop aynı şey mi \nsanılıyor?",
+    "source_extract_summary": [
+      "21.5 — Örnek sistem 3: konum / değer odaklı geri çekilme Volume Profile ve AVWAP aynı hacim verisini kullansa da farklı sorular sorar: biri hacmin fiyat seviyelerine dağılımını, diğeri seçilen başlangıçtan sonraki hacim ağırlıklı ortalama maliyeti gösterir.",
+      "İkisi de fiyat davranışının yerine geçmez; yapı desteklemiyorsa POC, HVN veya AVWAP teması tek başına alış gerekçesi değildir.",
+      "Rol Araç Doğru okuma Yapı Fiyat yapısı Yükseliş yönlü tepe-dip dizisi / korunması gereken dip Konum 1 Volume Profile VAH/VAL/POC/HVN/LVN çevresindeki kabul veya reddi izle Konum 2 AVWAP Önemli başlangıç noktasından ortalama maliyet referansı Giriş işareti RSI / fiyat davranışı Konumda hareket gücü veya fiyat yapısı dönüşü Risk ATR + işlem fikrinin bozulduğu seviye Konum seviyesi ile stop seviyesini karıştırma ÖRTÜŞME ≠ BAĞIMSIZLIK İki farklı araç aynı fiyat bölgesini işaret edebilir ve bu bölgeyi daha dikkat çekici hale getirebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0132",
+    "page": 132,
+    "chapter": 21,
+    "section": "21.8 — Kendi minimal sistemini kurma şablonu",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n132 \nGEÇMİŞE AŞIRI UYUM ALARMI \nFibonacci başlangıç noktasını, Pitchfork dönüş noktalarını ve varyantını fiyatın geçmişine en iyi \noturacak şekilde art arda değiştiriyorsanız sonradan çok sayıda “kesişim” bulmak kolaylaşır. Bu \ndurum öngörü gücünü değil, model esnekliğini gösterir. \n \n21.7 — “İşlem yok” sonucunu sistemin içine yaz \nHer grafikte işlem bulmak zorunda değilsiniz. Bağlam belirsiz, konum kötü, giriş işareti erken veya \nyapısal stop kabul edilemeyecek kadar uzaktaysa doğru çıktı “işlem yok” olabilir. Belirsizliği daha \nfazla gösterge ekleyerek zorla ortadan kaldırmaya çalışmayın. \n \nŞekil 21.5 — Karar zincirindeki herhangi bir temel halka eksikse sistem pozisyon üretmek zorunda değildir. \nDurum Karar \nTrend filtresi yükseliş yönlü, fakat fiyat doğrudan büyük \ndirenç bölgesinin altında \nAlış yönlü giriş aramak yerine konumun düzelmesini bekle. \nRSI aşırı satım bölgesinde, ancak fiyat yapısı sürekli \ndaha düşük dip ve daha düşük tepe (LL/LH) üretiyor \nOsilatör tek başına trend dönüşü değildir. \nDonchian kırılımı var, fakat fiyat hemen aralığın içine \ngeri kapandı \nBaşarısız kırılım senaryosunu uygula. \nFib + Pitchfork kesişiyor, fakat başlangıç \nnoktası/pivotlar sonradan değiştirildi \nBu işlemi değerlendirme veya ileriye dönük kuralla yeniden \ntanımla. \nStop yapısal olarak çok uzak; istenen pozisyon \nbüyüklüğü riski aşıyor \nİşlemi küçült veya tamamen geç. \n \n21.8 — Kendi minimal sistemini kurma şablonu \nAlan Yazılması gereken kural \nPiyasa / zaman dilimi Hangi enstrümanda ve hangi karar zaman diliminde?",
+    "source_extract_summary": [
+      "GEÇMİŞE AŞIRI UYUM ALARMI Fibonacci başlangıç noktasını, Pitchfork dönüş noktalarını ve varyantını fiyatın geçmişine en iyi oturacak şekilde art arda değiştiriyorsanız sonradan çok sayıda “kesişim” bulmak kolaylaşır.",
+      "Bu durum öngörü gücünü değil, model esnekliğini gösterir.",
+      "21.7 — “İşlem yok” sonucunu sistemin içine yaz Her grafikte işlem bulmak zorunda değilsiniz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0133",
+    "page": 133,
+    "chapter": 21,
+    "section": "21.9 — Sistemi kurduktan sonra: beklenen değer ve sermaye",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n133 \nAlan Yazılması gereken kural \nBağlam Trend veya yatay piyasa nasıl tanımlanıyor? \nYön Alış veya satış yönü hangi açık koşulla belirleniyor? \nKonum İşlem yalnız nerede aranacak? \nGiriş işareti Tam olarak hangi kapanış veya olay giriş izni veriyor? \nFikrin bozulduğu seviye Hangi fiyat davranışı fikri yanlışlıyor? \nRisk Stop, pozisyon büyüklüğü ve maksimum hesap riski nasıl hesaplanıyor? \nYönetim Takip eden stop, kâr alma veya çıkış kuralı ne? \nİşlem yok Hangi koşullarda sistem bilinçli olarak işlem üretmiyor? \nTest Hangi veri aralığı ve ölçülerle test edilecek? \n \nSON KONTROL \nBir işlem düzenini açıklamak için beş indikatörün adını söylemeniz gerekiyorsa sistemi yeniden \nsadeleştirin. İyi bir işlem planı birkaç net cümleyle bağlamı, yönü ve piyasa ortamını, konumu, giriş \nişaretini, fikrin nerede bozulacağını, riski ve yönetimi anlatabilmelidir. \n \n21.9 — Sistemi kurduktan sonra: beklenen değer ve sermaye \ndalgalanması \nSistemin kurallarını yazmak ilk adımdır. İkinci soru, geçmişte iyi görünen sonucun gerçekten \ndayanıklı bir avantaj mı, yoksa tesadüf ve geçmişe aşırı uyum mu olduğudur. Bu bölümde amaç \nileri istatistik yapmak değil; sistemin sonuçlarını birkaç temel ölçüyle daha gerçekçi sınamaktır. \nBir sistemin kalitesi yalnız kazanma oranıyla ölçülemez. Beklenen değer (expectancy), \nkazanma oranını ortalama kazanç ve ortalama kayıpla birlikte değerlendirir: \nBeklenen değer = (Kazanma Oranı × Ortalama Kazanç) − (Kaybetme Oranı × Ortalama Kayıp) \nBu nedenle düşük kazanma oranına sahip bir sistem daha büyük ortalama kazançlarla pozitif \nbeklenti üretebilir; yüksek kazanma oranına sahip bir sistem ise ortalama kayıpları çok büyükse \nzayıf kalabilir. \nBeklenen değer tek bir işlemin sonucunu tahmin etmez. Yeterince geniş ve temsil edici bir \nörneklemde işlem başına ortalama matematiksel sonucu tanımlamaya çalışır. Son birkaç işlemin \nkazanması veya kaybetmesi tek başına sistemin avantajını kanıtlamaz. \nİşlem maliyetleri de hesaba katılmalıdır. Alış-satış farkı (spread), komisyon ve emir kayması \n(slippage) kâğıt üzerindeki beklenen değeri düşürür. Bu nedenle teoride pozitif görünen bir \nsistem, gerçek maliyetler eklendiğinde avantajını kaybedebilir. \nTEKNİK AYRINTI — BAŞA BAŞ KAZANMA ORANI \nİşlem maliyetleri yok sayılır ve ortalama kayıp 1R kabul edilirse, başa baş kazanma oranı şu \nilişkiyle hesaplanabilir:",
+    "source_extract_summary": [
+      "Alan Yazılması gereken kural Bağlam Trend veya yatay piyasa nasıl tanımlanıyor?",
+      "Yön Alış veya satış yönü hangi açık koşulla belirleniyor?",
+      "Konum İşlem yalnız nerede aranacak?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0134",
+    "page": 134,
+    "chapter": 21,
+    "section": "21.10 — Geçmişe aşırı uyumu kontrol edin: tek “mükemmel” ayardan",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n134 \nBaşa baş kazanma oranı = 1 / (1 + Ortalama Kazanç R) \nÖrneğin 1R ortalama kazançta yaklaşık %50, 2R’de %33,3, 3R’de %25 ve 4R’de %20 kazanma \noranı başa baş noktasıdır. Gerçek sistemde komisyon, emir kayması, kısmi çıkış ve değişken \nsonuçlar bu hesabı değiştirir. \nKısa dönem sonuçların dalgalanması (variance): iyi bir sistem bile bir süre kötü görünebilir \nPozitif beklenen değer, işlemlerin düzenli sırayla kazanacağı anlamına gelmez. Aynı kurallar \ndoğru uygulanmasına rağmen kayıp serileri oluşabilir; tersi biçimde zayıf bir yöntem kısa süreli \nbirkaç kazanç üretebilir. \nBu nedenle kısa dönem sonuç ile sistemin uzun dönem avantajı ayrılmalıdır. Aynı beklenen \ndeğere sahip iki işlem dizisi farklı sırada gerçekleştiğinde farklı sermaye eğrisi ve sermaye \ndüşüşü davranışı üretebilir. \nPozitif beklenen değer tek başına sermayenin bu dalgalanmayı taşıyacağını garanti etmez. \nPozisyon büyüklüğü, normal kayıp serilerinde sistemin ayakta kalabileceği biçimde \nkurulmalıdır. \nTEKNİK AYRINTI — SERMAYE DÜŞÜŞÜNÜ (DRAWDOWN) TELAFİ ETMEK DAHA \nYÜKSEK GETİRİ GEREKTİREBİLİR \nBir kayıptan eski sermayeye dönmek için gereken getiri, kayıp yüzdesiyle aynı değildir: \nSermaye düşüşü Eski sermayeye dönmek için gereken artış \n%10 yaklaşık %11,1 \n%30 yaklaşık %42,9 \n%50 %100 \nBu nedenle büyük sermaye düşüşlerini sınırlamak yalnız psikolojik değil, matematiksel açıdan \nda önemlidir. \n21.10 — Geçmişe aşırı uyumu kontrol edin: tek “mükemmel” ayardan \nşüphe edin \nBir sistem yalnız tek bir parametre değerinde çok iyi, hemen yanındaki değerlerde belirgin \nbiçimde kötü çalışıyorsa geçmişe aşırı uyum riski artar. \nDaha sağlam yapı, yakın parametrelerin de benzer ve makul sonuçlar verdiği bir bölgedir. \nAmaç en parlak tek noktayı bulmak değil, küçük parametre değişikliklerinde sistemin tamamen \nçökmediği bir alan aramaktır. \nİki parametre birlikte değiştiriliyorsa sonuçlar bir ısı haritasında gösterilebilir. Amaç tek bir “en \niyi” kutuyu bulmak değil, yakın ayarlarda da benzer sonuç veren daha geniş ve tutarlı bir bölge \ngörmektir.",
+    "source_extract_summary": [
+      "Başa baş kazanma oranı = 1 / (1 + Ortalama Kazanç R) Örneğin 1R ortalama kazançta yaklaşık %50, 2R’de %33,3, 3R’de %25 ve 4R’de %20 kazanma oranı başa baş noktasıdır.",
+      "Gerçek sistemde komisyon, emir kayması, kısmi çıkış ve değişken sonuçlar bu hesabı değiştirir.",
+      "Kısa dönem sonuçların dalgalanması (variance): iyi bir sistem bile bir süre kötü görünebilir Pozitif beklenen değer, işlemlerin düzenli sırayla kazanacağı anlamına gelmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0135",
+    "page": 135,
+    "chapter": 21,
+    "section": "21.11 — Geliştirme dönemi, test dönemi ve zaman içinde ileri test",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n135 \n \nŞekil 21.6 — Temsili parametre duyarlılığı: geniş ve tutarlı performans bölgesi ile yalnız tek \nkombinasyonda oluşan keskin optimum aynı dayanıklılığı göstermez. \nBu ilke kitabın çizim araçlarında kullandığı “sağ tarafı görmeden aynı başlangıç noktasını \nseçebilir miydim?” disiplininin sistem optimizasyonundaki karşılığıdır: çok fazla indikatör, \nfiltre ve parametre denenirse geçmişte iyi görünen bir kombinasyon bulmak kolaylaşır; bu, \ngerçek avantajın arttığını göstermez. \n21.11 — Geliştirme dönemi, test dönemi ve zaman içinde ileri test \nSistemi kurarken kullanılan dönem ile onu sınamak için ayrılan dönem aynı görevi taşımaz. Bir \nmodelin geliştirildiği geçmişte iyi görünmesi, daha önce kullanılmamış bir dönemde de aynı \ndavranışı göstereceği anlamına gelmez. \nAşama Verinin görevi Temel soru \nGeliştirme dönemi (in-\nsample) Sistemi geliştirmek ve parametreleri seçmek Kurallar geçmiş veride nasıl davranıyor? \nKullanılmamış test \ndönemi (out-of-\nsample) \nGeliştirmede kullanılmamış dönemde \nsınamak \nModel yeni veride tamamen çöküyor \nmu? \nZaman içinde ileri test \n(walk-forward) \nGeliştirme ve test pencerelerini zaman içinde \nileri taşımak \nDavranış farklı dönemlere taşınabiliyor \nmu? \nKullanılan pencere uzunlukları evrensel değildir. Geliştirme ve test dönemlerinin uzunluğu \nişlem sıklığına, veri miktarına ve sistemin kullanım ufkuna göre gerekçelendirilmelidir.",
+    "source_extract_summary": [
+      "Bu ilke kitabın çizim araçlarında kullandığı “sağ tarafı görmeden aynı başlangıç noktasını seçebilir miydim?” disiplininin sistem optimizasyonundaki karşılığıdır: çok fazla indikatör, filtre ve parametre denenirse geçmişte iyi görünen bir kombinasyon bulmak kolaylaşır; bu, gerçek avantajın arttığını göstermez.",
+      "21.11 — Geliştirme dönemi, test dönemi ve zaman içinde ileri test Sistemi kurarken kullanılan dönem ile onu sınamak için ayrılan dönem aynı görevi taşımaz.",
+      "Bir modelin geliştirildiği geçmişte iyi görünmesi, daha önce kullanılmamış bir dönemde de aynı davranışı göstereceği anlamına gelmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0136",
+    "page": 136,
+    "chapter": 21,
+    "section": "21.12 — Kötü koşullarda dayanıklılık ve işlem sırası testi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n136 \n \nŞekil 21.7 — Zaman içinde ileri taşınan test: geliştirme ve daha önce kullanılmamış test \ndönemleri birlikte ileri taşınır; tek bir tarihsel ayrımın sonucuna bağlı kalınmaz. \n21.12 — Kötü koşullarda dayanıklılık ve işlem sırası testi \nGeçmiş veri testi (backtest) yalnız ideal koşullarda değerlendirilmemelidir. Komisyonun \nartması, emir kaymasının büyümesi veya işlemin biraz gecikmesi gibi daha kötü koşullarda \nsistemin nasıl değiştiği de incelenebilir. \nDayanıklılık kontrolü Ne değiştirilir? Sorulan soru \nMaliyetleri artırma \ntesti Komisyon artırılır Avantaj küçük maliyet artışında kayboluyor mu? \nEmir kayması Daha kötü gerçekleşme fiyatı varsayılır Sonuç fiyat gerçekleşmesine aşırı duyarlı mı? \nEmir gecikmesi Sinyal ile gerçekleşme arasına gecikme eklenir Sistem yalnız kusursuz hızda mı çalışıyor? \nİşlem sırası testi \n(Monte Carlo) \nAynı geçmiş sonuçlar farklı \nsıralara konur \nDaha kötü işlem sırası sermayeyi ne kadar \nzorluyor? \nAmaç performansın hiç düşmemesi değildir. Küçük gerçekçilik değişikliklerinde sistem \ntamamen çöküyorsa model kırılgan olabilir. \nEmir gerçekleşme gecikmesi özellikle kısa zaman dilimli sistemlerde ayrı bir dayanıklılık \ntestidir. Teorik sinyal anında çalışan sistem birkaç saniye veya dakika gecikmede tamamen \nbozuluyorsa gerçek uygulama koşullarına fazla duyarlı olabilir. \nAynı işlemler farklı sırayla gelseydi ne olurdu? (Monte Carlo) \nGeçmiş veri testinde kazanç ve kayıplar belirli bir sırada gerçekleşmiştir. Gelecekte aynı \nsıralamanın tekrarlanması gerekmez. \nMonte Carlo yaklaşımında geçmişteki kazanç ve kayıplar farklı sıralara yerleştirilerek çok \nsayıda olası sermaye yolu incelenir. Aynı işlemler farklı sırada geldiğinde en büyük sermaye \ndüşüşü ve art arda kayıp sayısı değişebilir.",
+    "source_extract_summary": [
+      "21.12 — Kötü koşullarda dayanıklılık ve işlem sırası testi Geçmiş veri testi (backtest) yalnız ideal koşullarda değerlendirilmemelidir.",
+      "Komisyonun artması, emir kaymasının büyümesi veya işlemin biraz gecikmesi gibi daha kötü koşullarda sistemin nasıl değiştiği de incelenebilir.",
+      "Dayanıklılık kontrolü Ne değiştirilir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0137",
+    "page": 137,
+    "chapter": 21,
+    "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n137 \nBu testin ana sorusu şudur: \nAynı matematiksel avantaj daha kötü bir işlem sırasıyla karşıma çıksaydı sermaye ne kadar \nzorlanırdı? \nBu nedenle bu test özellikle kötü bir işlem sırasının sermayeyi ne kadar zorlayabileceğini ve \npozisyon büyüklüğünün buna uygun olup olmadığını anlamaya yardım eder. \n \nŞekil 21.8 — Temsili Monte Carlo mantığı: aynı tarihsel işlem sonuçları farklı sıralara yerleştirildiğinde sermaye yolu \nve sermaye düşüşü değişebilir. \n21.13 — Veri uzunluğu ile güncellik arasında denge vardır \nDaha uzun tarih daha fazla işlem örneği sağlar; ancak çok eski veriler güncel piyasa davranışını \ndaha az temsil edebilir. \nDaha kısa ve güncel tarih bugünkü piyasa ortamına daha yakın olabilir; buna karşılık işlem \nsayısı azaldığı için sonuçlar daha kolay tesadüften etkilenebilir. \nBu nedenle “en uzun veri her zaman en iyi” veya “yalnız en güncel veri kullanılmalı” gibi iki uç \nyaklaşım da eksiktir. Parametre seçiminin güvenilirliği için yeterli örneklem gerekir; aynı \nzamanda piyasa davranışının zaman içinde değişebileceği unutulmamalıdır. \nGeçmişte en iyi görünen ayarların sonsuza kadar en iyi kalacağı varsayılmamalıdır. Ancak her \nküçük performans değişiminde ayarları yeniden değiştirmek de yeni bir geçmişe aşırı uyum \nriski yaratabilir. \n21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın \nGeçmişe bakarken başarılı ve hayatta kalmış örnekler görünür kalırken başarısız, kapanmış \nveya yok olmuş örnekler kolayca gözden kaybolabilir. Bu durum geçmiş resmi olduğundan \ndaha olumlu gösterebilir. \nBugün kazananı biliyor olmak, o dönemde kazananı seçmenin kolay olduğu anlamına gelmez. \nGeçmişte benzer biçimde umut veren fakat daha sonra başarısız olan alternatifler de analiz \nevreninin parçasıdır. \nAynı sorun performans tablolarında da görülür. Yalnız en yüksek getirileri görmek, bu \nsonuçların yanında alınan riski ve kaybeden/elenen örnekleri gizleyebilir. Bu nedenle sistem",
+    "source_extract_summary": [
+      "Bu testin ana sorusu şudur: Aynı matematiksel avantaj daha kötü bir işlem sırasıyla karşıma çıksaydı sermaye ne kadar zorlanırdı?",
+      "Bu nedenle bu test özellikle kötü bir işlem sırasının sermayeyi ne kadar zorlayabileceğini ve pozisyon büyüklüğünün buna uygun olup olmadığını anlamaya yardım eder.",
+      "21.13 — Veri uzunluğu ile güncellik arasında denge vardır Daha uzun tarih daha fazla işlem örneği sağlar; ancak çok eski veriler güncel piyasa davranışını daha az temsil edebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0138",
+    "page": 138,
+    "chapter": 21,
+    "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n138 \ndeğerlendirmesinde yalnız kazanan örnekleri değil, başarısız örnekleri, sermaye düşüşünü ve \nalınan riski de görünür tutun. \nBÖLÜM SONUCU \nİyi bir sistem, yalnız geçmişte güzel görünen sistem değildir. Her aracın görevi açık olmalı; işlem \nyapılmayacak koşullar, risk sınırı ve yönetim kuralı önceden tanımlanmalıdır. Sistem ayrıca farklı \ndönemlerde, gerçekçi maliyetlerle ve daha zor koşullarda sınanmalıdır. Amaç kusursuz bir yöntem \nbulmak değil, kuralları açıklanabilir ve dayanıklı bir karar süreci kurmaktır.",
+    "source_extract_summary": [
+      "değerlendirmesinde yalnız kazanan örnekleri değil, başarısız örnekleri, sermaye düşüşünü ve alınan riski de görünür tutun.",
+      "BÖLÜM SONUCU İyi bir sistem, yalnız geçmişte güzel görünen sistem değildir.",
+      "Her aracın görevi açık olmalı; işlem yapılmayacak koşullar, risk sınırı ve yönetim kuralı önceden tanımlanmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0139",
+    "page": 139,
+    "chapter": 21,
+    "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n139 \nSON SÖZ \nTeknik analizde profesyonellik, daha fazla çizgi görmek değil; hangi \nçizginin hangi soruya cevap verdiğini, hangi koşulda başarısız \nolabileceğini ve hangi bilgi eksikse işlem yapmamak gerektiğini \nbilmektir. \nBu kitapta kullanılan bütün araçların ortak amacı da budur: belirsizliği yok etmek değil, \nbelirsizlik içinde daha tutarlı karar kurmak.",
+    "source_extract_summary": [
+      "SON SÖZ Teknik analizde profesyonellik, daha fazla çizgi görmek değil; hangi çizginin hangi soruya cevap verdiğini, hangi koşulda başarısız olabileceğini ve hangi bilgi eksikse işlem yapmamak gerektiğini bilmektir.",
+      "Bu kitapta kullanılan bütün araçların ortak amacı da budur: belirsizliği yok etmek değil, belirsizlik içinde daha tutarlı karar kurmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

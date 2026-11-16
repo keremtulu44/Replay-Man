@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "BIST_KCHOL",
+  "symbol": "KCHOL.IS",
+  "category": "bist100_equity",
+  "asset_type": "equity",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "521c5aec776fd372914eb811031a2cb6bb81c921f7470e69f753c93cbee0b76c"
+}

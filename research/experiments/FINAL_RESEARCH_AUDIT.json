@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "books": {
+    "CILT2": {
+      "pages": 109,
+      "atomic_claims": 319,
+      "unresolved": 0,
+      "status": "passed"
+    },
+    "CILT1": {
+      "pages": 139,
+      "atomic_claims": 403,
+      "unresolved": 0,
+      "status": "passed"
+    },
+    "ATK": {
+      "pages": 530,
+      "atomic_claims": 1506,
+      "unresolved": 0,
+      "status": "passed"
+    }
+  },
+  "rules_total": 71,
+  "unique_rules": 71,
+  "external_contracts": [
+    "arbitrage_execution",
+    "crypto_derivatives",
+    "fundamentals",
+    "options",
+    "rates_bonds"
+  ],
+  "errors": []
+}

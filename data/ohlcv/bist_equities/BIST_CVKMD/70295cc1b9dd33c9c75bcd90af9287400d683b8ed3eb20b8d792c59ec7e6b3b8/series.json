@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "BIST_CVKMD",
+  "symbol": "CVKMD.IS",
+  "category": "bist100_equity",
+  "asset_type": "equity",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "70295cc1b9dd33c9c75bcd90af9287400d683b8ed3eb20b8d792c59ec7e6b3b8"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "BIST_TAVHL",
+  "symbol": "TAVHL.IS",
+  "category": "bist100_equity",
+  "asset_type": "equity",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "b64cc9815c15f7304d064af07e36c1f2fc0d070f6653f3753fdeefd4d7fb3d03"
+}

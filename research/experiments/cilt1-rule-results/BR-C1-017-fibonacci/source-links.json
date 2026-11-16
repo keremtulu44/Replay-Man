@@ -1,0 +1,89 @@
+[
+  {
+    "id": "PTA-C1-2026.p0104",
+    "page": 104,
+    "chapter": 17,
+    "section": "17.1 — Retracement aslında neyi hesaplar?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n104 \nBÖLÜM 17 \nFibonacci Ailesi: Oran, Başlangıç Noktası \nve Projeksiyon \nFibonacci tek başına al-sat sinyali üretmez. Seçtiğiniz belirgin fiyat hareketini belirli \noranlara böler. Bu nedenle asıl analiz, çizgiden önce “hangi fiyat hareketini neden \nölçüyorum?” sorusuyla başlar. \nHIZLI ROL — Ana görev: seçtiğiniz fiyat hareketinin ne kadar geri alındığını ve ileriye doğru \nhangi oranlara denk geldiğini görmek. Tek başına dönüş veya giriş zamanı söylemez. Ana risk: \nbaşlangıç noktalarını sonradan değiştirmek ve 0,618 / 1,618 seviyelerini kesin dönüş ya da \nhedef sanmak. İyi eşleşme: fiyat yapısı + hareket gücü. \nAraç Ne ölçer? Ana risk \nFib Retracement İki uç nokta arasındaki hareketin \nyüzdesel geri alım bölgeleri \nYanlış veya sonradan kaydırılmış \nbaşlangıç noktası \nTrend-Based Extension A→B hareketini C düzeltmesinden \nileri projekte eder \n1,272 / 1,618’i kesin hedef sanmak \nFib Time Zone Zaman ekseninde oranlı aralıklar Belirli tarihte kesin dönüş beklemek \n \n17.1 — Retracement aslında neyi hesaplar? \n100’den 160’a yükselen hareket 60 birimdir. Geri çekilme seviyeleri bu 60 birimin belirli \nyüzdelerinin tepeden geri alınmasıyla hesaplanır; sonuç yalnız ölçülen hareket içindeki konumu \ngösterir. \nSAYISAL ÖRNEK \n100 → 160 hareketinde: 0,382 geri çekilme = 160 − (60 × 0,382) = 137,08. 0,50 = 130,00. 0,618 = \n122,92. Bu seviyeler dönüş garantisi değil, ölçülen hareket içindeki konumlardır. \n \nTEKNİK AYRINTI \n0,50 piyasada yaygın kullanılır; ancak Fibonacci dizisinden türeyen özgün bir oran değildir. Burada \n0,50’yi “Fibonacci oranı” değil, ölçülen fiyat hareketinin matematiksel orta noktası olarak ele \nalıyoruz.",
+    "source_extract_summary": [
+      "BÖLÜM 17 Fibonacci Ailesi: Oran, Başlangıç Noktası ve Projeksiyon Fibonacci tek başına al-sat sinyali üretmez.",
+      "Seçtiğiniz belirgin fiyat hareketini belirli oranlara böler.",
+      "Bu nedenle asıl analiz, çizgiden önce “hangi fiyat hareketini neden ölçüyorum?” sorusuyla başlar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0105",
+    "page": 105,
+    "chapter": 17,
+    "section": "17.1 — Retracement aslında neyi hesaplar?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n105 \n \nŞekil 17.1 — 100’den 160’a yükselen fiyat hareketinin %38,2, %50 ve %61,8 geri çekilme seviyeleri.",
+    "source_extract_summary": [],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0106",
+    "page": 106,
+    "chapter": 17,
+    "section": "17.4 — Başlangıç noktası seçimi: en öznel karar",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n106 \n17.2 — Fibonacci oranları matematiksel olarak nereden gelir? \nFibonacci dizisi şu mantıkla ilerler: \n0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89... \nHer yeni sayı kendisinden önceki iki sayının toplamıdır. Dizide sayılar birbirine bölündüğünde \npiyasalarda kullanılan bazı oranlara yaklaşılır. \nOran Türetim mantığı Kullanım ailesi \n0,236 İki sayı atlanarak kurulan oran yaklaşık bu değere yaklaşır Geri çekilme \n0,382 Bir sayı atlanarak kurulan oran yaklaşık bu değere yaklaşır Geri çekilme \n0,618 Ardışık sayı oranı büyük sayılarda bu değere yaklaşır Geri çekilme \n0,786 Yaklaşık √0,618 Derin geri çekilme \n1,272 Yaklaşık √1,618 Genişleme / projeksiyon \n1,618 0,618’in ters yönlü temel oran ailesi Genişleme / projeksiyon \n2,618 / 4,236 Daha uzak Fibonacci oran ilişkileri İleri genişleme \nTEKNİK AYRIM \n1’in altındaki oranlar daha çok geri çekilme (retracement) ailesinde, 1’in üzerindekiler ise \ngenişleme/projeksiyon ailesinde kullanılır. 0,50 ise yaygın bir orta nokta seviyesidir fakat \nFibonacci dizisinden türeyen özgün bir oran değildir. \n17.3 — Geri çekilmenin derinliği ayrı bir bilgidir \nAynı trend içinde sığ bir geri çekilme ile çok derin bir geri çekilme aynı fiyat davranışı değildir. \nBazı uygulamalarda 23,6–38,2–50 bölgeleri daha sığ; 61,8 ve 78,6 çevresi daha derin geri \nçekilme olarak sınıflandırılır. \nBu sınıflandırma “güçlü trend mutlaka sığ geri çekilir” şeklinde evrensel yasa değildir. Asıl \nsoru fiyat yapısının korunup korunmadığıdır. Fiyat 61,8 veya 78,6 bölgesine geldi diye trend \notomatik bozulmuş sayılmaz; korunması gereken dip veya tepe kırıldığında ayrı bir yapısal olay \noluşur. \n%100 retracement ise ölçülen A→B hareketinin tamamen geri alınmasıdır. Bu, daha büyük \ntrendin mutlaka sona erdiği anlamına gelmez; yalnız ölçülen fiyat hareketinin başlangıç \nnoktasına dönüldüğünü gösterir. \n17.4 — Başlangıç noktası seçimi: en öznel karar \nİki uç nokta seçmek kolaydır; zor olan bu seçimi fiyatın devamını görmeden gerekçelendirmektir. \nHer küçük harekete yeni Fibonacci çizmek, bilgi değil seçenek sayısını artırır ve geriye dönük \nuyumu kolaylaştırır. \nKontrol Profesyonel seçim Sonradan bakarak seçme",
+    "source_extract_summary": [
+      "17.2 — Fibonacci oranları matematiksel olarak nereden gelir?",
+      "Fibonacci dizisi şu mantıkla ilerler: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...",
+      "Her yeni sayı kendisinden önceki iki sayının toplamıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0107",
+    "page": 107,
+    "chapter": 17,
+    "section": "17.5 — 0,618’e temas neden giriş işareti değildir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n107 \nBaşlangıç Yapıyı başlatan anlamlı dip/tepe İstenen Fib seviyesi çıksın diye birkaç \nbar kaydırılır \nBitiş Ana hareketin önceden belirlenebilir \nkarşı uç noktası \nSonraki fiyatı daha iyi yakalayan fitil \nseçilir \nTest Sağ taraf kapalıyken aynı başlangıç \nnoktası seçilebilir \nGelecek fiyat görüldükten sonra \nayarlanır \n \n \nŞekil 17.2 — Başlangıç noktasının yalnız birkaç bar veya fiyat birimi kayması bile 0,618 seviyesini değiştirir. \nKENDİNE SOR \nGrafiğin sağ tarafını kapatsaydım bu iki başlangıç noktasını yine seçer miydim? Cevap hayırsa, çizim \nanalizden çok geriye dönük uyuma yaklaşmıştır. \n \n17.5 — 0,618’e temas neden giriş işareti değildir? \nFibonacci bölgesi işlemin “nerede” aranabileceğini gösterebilir; “ne zaman” girileceğini göstermez. \nSeviyeye temas konum bilgisidir. Giriş için yapı, fiyat davranışı veya hareket gücünde ayrıca giriş \nişareti gerekir.",
+    "source_extract_summary": [
+      "Başlangıç Yapıyı başlatan anlamlı dip/tepe İstenen Fib seviyesi çıksın diye birkaç bar kaydırılır Bitiş Ana hareketin önceden belirlenebilir karşı uç noktası Sonraki fiyatı daha iyi yakalayan fitil seçilir Test Sağ taraf kapalıyken aynı başlangıç noktası seçilebilir Gelecek fiyat görüldükten sonra ayarlanır Şekil 17.2 — Başlangıç noktasının yalnız birkaç bar veya fiyat birimi kayması bile 0,618 seviyesini değiştirir.",
+      "KENDİNE SOR Grafiğin sağ tarafını kapatsaydım bu iki başlangıç noktasını yine seçer miydim?",
+      "Cevap hayırsa, çizim analizden çok geriye dönük uyuma yaklaşmıştır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0108",
+    "page": 108,
+    "chapter": 17,
+    "section": "17.7 — Trend-Based Extension: hedef değil, projeksiyon",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n108 \n \nŞekil 17.3 — Fiyat 0,618’e ilk temasından sonra aşağı devam ediyor; seviye tek başına dönüş zamanlaması vermiyor. \nYANLIŞ / DOĞRU \nYANLIŞ: “0,618 geldi, AL.” DOĞRU: “Ana yapı yükseliş; anlamlı hareketin 0,50–0,618 \nbölgesindeyiz. Şimdi fiyat burada yeniden yukarı yönlü yapı veya hareket gücü üretiyor mu?” \n \n17.6 — Fibonacci kümelenmesi: farklı ölçümlerin aynı bölgede buluşması \nFarklı, önceden gerekçelendirilmiş fiyat hareketlerine çizilen Fibonacci seviyeleri aynı bölgeye \nyaklaşabilir. Örneğin bir hareketin %50 seviyesi ile başka bir hareketin %78,6 seviyesi birbirine \nyakınsa Fibonacci kümelenmesi oluşur. \nKümelenme tek bir hassas fiyat olarak değil, yakın seviyelerin oluşturduğu bölge olarak \nokunmalıdır. Fiyatın birkaç kademe önce veya sonra tepki vermesi geometrinin “bozulduğu” \nanlamına gelmez. \nFarklı zaman dilimlerindeki Fibonacci seviyeleri de aynı bölgede kümelenebilir. Ancak haftalık \nFib + günlük Fib veya üç farklı Fib çizgisi “üç bağımsız teyit” değildir. Hepsi fiyat \ngeometrisinin farklı fiyat hareketleri veya zaman ölçeklerinden ölçülmüş biçimleridir. \nTEKNİK SORUN — ÇOK ÇİZGİYLE TEYİT ÜRETMEK \nNe kadar çok fiyat hareketi seçilirse geçmişte bir kümelenme bulmak o kadar kolaylaşır. \nKümelenme kullanılacaksa ölçülecek fiyat hareketi, grafiğin sağ tarafı görülmeden açıklanabilir \nolmalıdır. \n17.7 — Trend-Based Extension: hedef değil, projeksiyon \nTrend-Based Extension üç noktalıdır: A hareket başlangıcı, B hareket sonu, C düzeltme sonudur. \nA→B mesafesi C’den ileri taşınarak 1,272 veya 1,618 gibi projeksiyon bölgeleri oluşturulur. Bunlar \nkâr alma referansı olabilir; zorunlu hedef değildir.",
+    "source_extract_summary": [
+      "YANLIŞ / DOĞRU YANLIŞ: “0,618 geldi, AL.” DOĞRU: “Ana yapı yükseliş; anlamlı hareketin 0,50–0,618 bölgesindeyiz.",
+      "Şimdi fiyat burada yeniden yukarı yönlü yapı veya hareket gücü üretiyor mu?” 17.6 — Fibonacci kümelenmesi: farklı ölçümlerin aynı bölgede buluşması Farklı, önceden gerekçelendirilmiş fiyat hareketlerine çizilen Fibonacci seviyeleri aynı bölgeye yaklaşabilir.",
+      "Örneğin bir hareketin %50 seviyesi ile başka bir hareketin %78,6 seviyesi birbirine yakınsa Fibonacci kümelenmesi oluşur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0109",
+    "page": 109,
+    "chapter": 17,
+    "section": "17.9 — Fibonacci zaman araçları: fiyat değil zaman ekseni",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n109 \nSAYISAL ÖRNEK \nA=100, B=160, C=130 olsun. A→B hareketi 60 birimdir. 1,272 projeksiyon: 130 + (60×1,272) = \n206,32. 1,618 projeksiyon: 130 + (60×1,618) = 227,08. Projeksiyon matematiksel; gerçekleşme \nolasılığı ayrıca değerlendirilir. \n \n \nŞekil 17.4 — A→B ana hareketi, C düzeltmesinden 1,272 ve 1,618 oranlarıyla ileri projekte edilir. \n17.8 — Retracement ile projeksiyonu ve iki–üç noktalı araçları ayırın \nGeri çekilme (Retracement), seçilen fiyat hareketinin ne kadarının geri alındığını ölçer. \nGenişleme/projeksiyon (Extension/Projection) ise ölçülen hareketin sınırlarının ötesindeki oran \nbölgelerini gösterir. \nBir extension bölgesi aşıldığında bir sonraki oran yeni izleme/projeksiyon alanı olabilir; bu, \nfiyatın mutlaka oraya ulaşacağı anlamına gelmez. 1,272 veya 1,618 gibi seviyeleri kesin hedef \ndeğil, matematiksel projeksiyon bölgesi olarak okuyun. \nİki noktalı ve üç noktalı projeksiyon aynı araç değildir \nBazı Fibonacci araçları yalnız A–B hareketini alıp genişleme oranlarını bu hareketin dışına \ntaşır. Üç noktalı yaklaşımda ise A–B ana hareketine C düzeltme noktası eklenir ve A–B \nmesafesi C’den projekte edilir. \nBu nedenle platformdaki aracın adına değil, kaç nokta kullandığına ve hangi matematiği \nuyguladığına bakın. Bazı yazılımlar “Extension” ve “Projection” adlarını farklı biçimde \nkullanabilir. \nİki noktalı ve üç noktalı projeksiyonların veya retracement seviyelerinin aynı bölgede \nbuluşması yine bir Fibonacci kümelenmesi oluşturabilir; ancak bağımsız bilgi sınıfları değildir. \n17.9 — Fibonacci zaman araçları: fiyat değil zaman ekseni \nFib Time Zone ve benzeri araçlar fiyat seviyesi değil, zaman ekseninde oranlı bölgeler üretir. Bu \nnedenle “şu tarihte kesin tepe/dip” sonucu çıkarılamaz; yalnız izlenmesi gereken bir zaman penceresi \ntanımlanabilir.",
+    "source_extract_summary": [
+      "SAYISAL ÖRNEK A=100, B=160, C=130 olsun.",
+      "1,272 projeksiyon: 130 + (60×1,272) = 206,32.",
+      "1,618 projeksiyon: 130 + (60×1,618) = 227,08."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0110",
+    "page": 110,
+    "chapter": 17,
+    "section": "17.10 — En iyi kombinasyonlar ve tekrar riski",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n110 \nTEKNİK SORUN \nFiyat seviyesi ile zaman bölgesini aynı şeymiş gibi yorumlamak hatadır. Fibonacci zaman aracı yalnız \nbelirli bar/tarih çevresini gözlem penceresi olarak işaretler; kesin olay üretmez. \n \n17.10 — En iyi kombinasyonlar ve tekrar riski \nKombinasyon Rol ayrımı Değerlendirme \nFib + Fiyat yapısı Fib = konum; Fiyat yapısı = \ndavranış/bozulma \nGüçlü tamamlayıcı \nFib + AVWAP Fib = oran; AVWAP = hacim ağırlıklı \nmaliyet/konum \nFaydalı örtüşme; giriş işareti ayrı \nFib + Volume Profile Fib = geometri; VP = fiyat seviyelerine \ngöre hacim yoğunluğu \nFarklı veri sınıfları \nFib + RSI / hareket gücü Fib = nerede; RSI = hareket gücü ne \nyapıyor \nGiriş işareti desteği olabilir \nFib + Pitchfork İkisi de çizim ve hedef bölgesi üretir Kesişim faydalı olabilir ama iki \nbağımsız teyit değildir \n \nTEKRAR RİSKİ \nRetracement + Extension + Fib Fan aynı fiyat hareketinden türetiliyorsa, aynı bölgede birleşmeleri üç \nbağımsız teyit değildir. Araç sayısını değil, bilgi sınıfını sayın. \n \nBÖLÜM SONUCU \nFibonacci’nin ana rolü konum ve projeksiyondur. Sıra: fiyat yapısı → anlamlı hareket → başlangıç \nnoktaları → Fibonacci bölgesi → fiyat davranışı → giriş işareti → risk.",
+    "source_extract_summary": [
+      "TEKNİK SORUN Fiyat seviyesi ile zaman bölgesini aynı şeymiş gibi yorumlamak hatadır.",
+      "Fibonacci zaman aracı yalnız belirli bar/tarih çevresini gözlem penceresi olarak işaretler; kesin olay üretmez.",
+      "17.10 — En iyi kombinasyonlar ve tekrar riski Kombinasyon Rol ayrımı Değerlendirme Fib + Fiyat yapısı Fib = konum; Fiyat yapısı = davranış/bozulma Güçlü tamamlayıcı Fib + AVWAP Fib = oran; AVWAP = hacim ağırlıklı maliyet/konum Faydalı örtüşme; giriş işareti ayrı Fib + Volume Profile Fib = geometri; VP = fiyat seviyelerine göre hacim yoğunluğu Farklı veri sınıfları Fib + RSI / hareket gücü Fib = nerede; RSI = hareket gücü ne yapıyor Giriş işareti desteği olabilir Fib + Pitchfork İkisi de çizim ve hedef bölgesi üretir Kesişim faydalı olabilir ama iki bağımsız teyit değildir TEKRAR RİSKİ Retracement + Extension + Fib Fan aynı fiyat hareketinden türetiliyorsa, aynı bölgede birleşmeleri üç bağımsız teyit değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

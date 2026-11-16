@@ -1,0 +1,14 @@
+{
+  "events": 603297,
+  "assets": 125,
+  "events_by_type": [
+    "adx_trend_up",
+    "adx_trend_down",
+    "supertrend_flip_up",
+    "supertrend_flip_down",
+    "ichimoku_bull",
+    "ichimoku_bear",
+    "tenkan_kijun_up",
+    "tenkan_kijun_down"
+  ]
+}

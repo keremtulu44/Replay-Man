@@ -1,0 +1,77 @@
+[
+  {
+    "id": "PTA-C2-2026.p0013",
+    "source_id": "PTA-C2-2026",
+    "page": 13,
+    "chapter": 2,
+    "section": "2.3 — Temiz hareket mi, zorlanan hareket mi?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n13 \nMumların görünümü Basit okuma \nGövdeler büyüyor Mum başına alınan mesafe artıyor. \nGövdeler benzer Hareketin temposu büyük ölçüde korunuyor. \nGövdeler küçülüyor İlerleme yavaşlıyor olabilir. \n \nKOLAY KURAL \nMumu kendi başına değil, yakınındaki mumlarla kıyaslayın. “Büyük” ve “küçük” burada göreli \nkavramlardır. \n \n2.2 — Aynı yolu kim daha hızlı aldı? \nGücü yalnız mum boyutuyla değil, aynı zaman dilimindeki iki hareketin benzer mesafeyi kaç \nmumda aldığıyla da karşılaştırabiliriz. Bir yöndeki hareket birkaç mum sürerken karşı yöndeki \nhareket aynı mesafeyi tek mumda geri alabiliyorsa, ikinci hareket o bölümde daha hızlıdır. \n \nŞekil 2.2 — Aynı zaman diliminde benzer mesafeyi daha az mumda alan taraf o bölümde daha hızlı ilerlemiştir. \nBurada önemli olan “kaç kat güçlü?” diye sayı üretmek değildir. Daha basit bir soru yeterlidir: \nBenzer fiyat aralığını hangi taraf daha az mumda geçti? Bu, o bölümde kimin daha hızlı \nilerlediğini gösterir; sonraki hareketin de aynı şekilde süreceğini garanti etmez. \nHIZI NASIL OKUYACAĞIZ? \nTek mumun hızını ayrı ayrı ölçmek yerine, aynı zaman dilimindeki yukarı ve aşağı hareketleri \nkarşılaştırın: ne kadar mesafe aldılar ve bunu kaç mumda yaptılar? \n \n2.3 — Temiz hareket mi, zorlanan hareket mi? \nİki hareket aynı yöne gidebilir ama izledikleri yol çok farklı olabilir. Bir hareket küçük \nduraklamalarla düzenli biçimde ilerlerken, diğeri her birkaç mumda bir geri çekilip yeniden \ndenemek zorunda kalabilir.",
+    "source_extract_summary": [
+      "Mumların görünümü Basit okuma Gövdeler büyüyor Mum başına alınan mesafe artıyor.",
+      "Gövdeler benzer Hareketin temposu büyük ölçüde korunuyor.",
+      "Gövdeler küçülüyor İlerleme yavaşlıyor olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0015",
+    "source_id": "PTA-C2-2026",
+    "page": 15,
+    "chapter": 2,
+    "section": "2.6 — Mumlar birbirinin içine ne kadar giriyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n15 \n2.5 — Aynı yönde kaç mum var? \nArka arkaya aynı yönde kapanan mumlar, kısa vadede bir tarafın hareketi sürekli taşıdığını \ngösterebilir. Aynı yöndeki kapanış sayısı arttıkça, o bölümde yönlü hareketin daha kesintisiz \nsürdüğünü görürüz. \n \nŞekil 2.4 — Aynı yöndeki ardışık kapanışlar daha sürekli bir kısa hareketi; sık karşı kapanışlar ise daha fazla \nmücadeleyi gösterir. \nBurada da sayı tek başına işlem sinyali değildir. Beş yükseliş mumu gördüğümüz için fiyatın \nmutlaka yükselmeye devam edeceğini söylemeyiz. Yalnızca o kısa bölümde alıcıların hareketi \ndaha sürekli taşıdığını söyleriz. \n2.6 — Mumlar birbirinin içine ne kadar giriyor? \nBir başka basit ipucu, mumların birbirinin fiyat alanına ne kadar girdiğidir. Buna örtüşme \n(overlap) diyeceğiz. Yönlü hareketlerde mum gövdeleri bazen birbirine çok az girer. Fiyat bir \nmumdan diğerine daha temiz ilerler. \n \nŞekil 2.5 — Az örtüşmede fiyat daha temiz ilerler. Çok örtüşmede aynı fiyat alanında iki taraflı mücadele daha \nbelirgindir. \nMumlar sürekli aynı alanın içine dönüyorsa ilerleme yavaşlar ve iki taraflı mücadele daha \nbelirgin hale gelir. Az örtüşme ise o bölümde ilerlemenin daha temiz ve tek taraflı olduğunu \ngösterebilir.",
+    "source_extract_summary": [
+      "Arka arkaya aynı yönde kapanan mumlar, kısa vadede bir tarafın hareketi sürekli taşıdığını gösterebilir.",
+      "Aynı yöndeki kapanış sayısı arttıkça, o bölümde yönlü hareketin daha kesintisiz sürdüğünü görürüz.",
+      "Burada da sayı tek başına işlem sinyali değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0016",
+    "source_id": "PTA-C2-2026",
+    "page": 16,
+    "chapter": 2,
+    "section": "2.7 — Hangi taraf daha rahat ilerliyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n16 \nGörünüm Ne görüyoruz? Basit anlamı \nAz örtüşme Mumlar önceki gövdenin içine az giriyor. Daha temiz ve tek taraflı ilerleme. \nÇok örtüşme Mumlar aynı fiyat alanına sık sık dönüyor. Daha fazla iki taraflı mücadele. \n \n2.7 — Hangi taraf daha rahat ilerliyor? \nBu bölümde tek bir “güç formülü” kurmadık. Buradaki güç, yönün gelecekte mutlaka süreceği \nanlamına gelmez; yalnızca incelenen bölümde hangi tarafın daha rahat ilerlediğini anlatır. \nAşağıdaki tabloyu kısa kontrol listesi olarak kullanabilirsiniz. \nBakılacak nokta Daha rahat ilerleyen tarafta ne görebiliriz? \nMum boyutu Yakındaki mumlara göre daha büyük gövdeler. \nHız Benzer mesafeyi daha az mumda alma. \nHareketin yolu Daha az geri dönüş ve daha temiz ilerleme. \nGeri çekilme Önceki hareketin daha küçük bölümünü geri alma. \nKapanışlar Aynı yönde daha sürekli kapanışlar. \nÖrtüşme Mumların birbirinin içine daha az girmesi. \n \nHEPSİ AYNI ANDA GEREKMEZ \nBir harekette bu işaretlerin hepsini aynı anda görmek zorunda değilsiniz. Ama birkaç özellik aynı \ntarafı gösteriyorsa, hangi tarafın daha rahat ilerlediğini anlamak kolaylaşır. Tek bir maddeyi mekanik \nAL/SAT kuralına çevirmeyin. \n \nBÖLÜM SONUCU \nBu bölümde hareketin mevcut kalitesini karşılaştırdık: mum boyutu, benzer mesafenin kaç mumda \nalındığı, yolun temizliği, geri çekilme, kapanış sürekliliği ve örtüşme. Bunların hiçbiri tek başına \ndevam garantisi değildir. Bölüm 3’te aynı ölçülerin zaman içinde bozulmaya başladığı anları \ninceleyeceğiz.",
+    "source_extract_summary": [
+      "Basit anlamı Az örtüşme Mumlar önceki gövdenin içine az giriyor.",
+      "Daha temiz ve tek taraflı ilerleme.",
+      "Çok örtüşme Mumlar aynı fiyat alanına sık sık dönüyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0094",
+    "source_id": "PTA-C2-2026",
+    "page": 94,
+    "chapter": 13,
+    "section": "13.2 — Sonra mevcut kontrol: Hangi taraf daha rahat ilerliyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n94 \ndengeli bir alan mı? İncelediğimiz mum dizisi önemli bir swing, destek/direnç veya önceki \nkırılım bölgesine yakın mı? Önünde hareket edebileceği açık alan var mı? \nBu adım, sonraki bütün bilgilerin ağırlığını değiştirir. Aynı uzun fitil trendin ortasında sıradan \nkalabilir, fakat uzun bir hareketin sonunda önemli bir swing bölgesinde farklı anlam taşıyabilir. \nAynı sığ pullback çok güçlü trendde normal, geniş kanalda ise alışılmadık olabilir. Bu nedenle \nşekli yorumlamadan önce konumu ve piyasanın genel davranışını belirlemek gerekir. \nİlk bakışta sorulacak soru Neden önce bunu soruyoruz? \nAna ortam nedir? Trend gücü ve beklenen geri çekilme davranışı değişir. \nYapı hangi swing/seviyeye yakın? Aynı mumun konumsal ağırlığı değişir. \nÖnünde hareket alanı var mı? Doğru görünen yapı yakın engelde sıkışabilir. \nMevcut hareket ana yapıyla aynı yönde mi? Trend yönündeki ve karşı trend davranışları aynı okunmaz. \n \n13.2 — Sonra mevcut kontrol: Hangi taraf daha rahat ilerliyor? \nBağlamı belirledikten sonra grafiğin o anki kontrolünü ölçeriz. Burada yalnız mumların rengini \nsaymayız. Hangi taraf aynı mesafeyi daha az mumda alıyor? Hangi yönde gövdeler daha \nbüyük? Hangi hareket daha az geri çekiliyor ve daha az örtüşüyor? Karşı taraf her adımda fiyatı \ndurdurabiliyor mu, yoksa yalnız küçük tepkiler mi verebiliyor? \nBu sorular “trend yukarı” gibi genel bir etiketten daha ayrıntılı bilgi verir. Fiyat yükselebilir \nama her adımda sert satışlarla karşılaşıyorsa kontrol temiz değildir. Tersine birkaç küçük geri \nçekilmeye rağmen aynı yönde uzun gövdeler, az örtüşme ve hızlı mesafe kazanımı varsa o taraf \ndaha rahat ilerliyor olabilir. \n \nŞekil 13.2 — Yön aynı görünse bile hareket kalitesi farklı olabilir. Temiz ve hızlı ilerleme ile sık karşı \nhamle alan parçalı ilerleme aynı kontrol gücünü göstermez. \nKISA KURAL \nÖnce “fiyat hangi yönde?” değil, “hangi taraf daha az çabayla daha fazla sonuç alıyor?” sorusunu sorun.",
+    "source_extract_summary": [
+      "İncelediğimiz mum dizisi önemli bir swing, destek/direnç veya önceki kırılım bölgesine yakın mı?",
+      "Önünde hareket edebileceği açık alan var mı?",
+      "Bu adım, sonraki bütün bilgilerin ağırlığını değiştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  }
+]

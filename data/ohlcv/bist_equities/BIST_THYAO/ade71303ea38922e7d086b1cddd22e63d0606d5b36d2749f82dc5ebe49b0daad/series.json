@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "BIST_THYAO",
+  "symbol": "THYAO.IS",
+  "category": "bist100_equity",
+  "asset_type": "equity",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "ade71303ea38922e7d086b1cddd22e63d0606d5b36d2749f82dc5ebe49b0daad"
+}

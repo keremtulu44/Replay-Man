@@ -1,0 +1,116 @@
+[
+  {
+    "id": "PTA-C1-2026.p0060",
+    "page": 60,
+    "chapter": 10,
+    "section": "10.1 — VWAP nasıl hesaplanır? Küçük bir örnek",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n60 \nBÖLÜM 10 \nVWAP ve Anchored VWAP: Hacim \nAğırlıklı Ortalama Fiyat \nVWAP’ı “gerçek fiyat” veya sihirli destek/direnç gibi düşünmeyin. VWAP, daha çok \nişlem yapılan fiyatlara daha fazla ağırlık vererek hesaplanan bir ortalama fiyat \nçizgisidir. \n  \n \nHIZLI ROL — Ana görev: işlemlerin yoğunluğunu da hesaba katan ortalama fiyatı göstermek. \nTek başına “adil değer”, kesin destek/direnç veya yön söylemez. Ana risk: fiyatın mutlaka \nVWAP’a döneceğini sanmak ve AVWAP başlangıcını sonradan fiyata uydurmak. İyi eşleşme: \nfiyat yapısı + hareket gücü + ATR. \n10.1 — VWAP nasıl hesaplanır? Küçük bir örnek \nTEMEL FORMÜL \nVWAP = Σ(Fiyat × Hacim) / Σ(Hacim). Buradaki ana fikir, yüksek hacimli fiyat gözleminin \nortalamayı daha fazla çekmesidir. Platformların bar içi fiyat temsilinde ayrıntılar olabilir; burada \nağırlıklandırma mantığını öğreniyoruz. \n \nFiyat Hacim Fiyat × Hacim \n100 TL 100 10.000 \n105 TL 900 94.500 \nToplam 1.000 104.500 \n \nBasitçe iki fiyatın aritmetik ortalaması 102,5 TL’dir. Fakat hacmin %90’ı 105 TL’de \ngerçekleştiği için VWAP = 104.500 / 1.000 = 104,5 TL olur. Yani VWAP, 105 TL’ye daha \nfazla ağırlık verir.",
+    "source_extract_summary": [
+      "BÖLÜM 10 VWAP ve Anchored VWAP: Hacim Ağırlıklı Ortalama Fiyat VWAP’ı “gerçek fiyat” veya sihirli destek/direnç gibi düşünmeyin.",
+      "VWAP, daha çok işlem yapılan fiyatlara daha fazla ağırlık vererek hesaplanan bir ortalama fiyat çizgisidir.",
+      "HIZLI ROL — Ana görev: işlemlerin yoğunluğunu da hesaba katan ortalama fiyatı göstermek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Konum ve seviye yaşam döngüsü",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0061",
+    "page": 61,
+    "chapter": 10,
+    "section": "10.3 — Hesabın nereden başladığı neden önemlidir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n61 \n \nŞekil 10.1 — %90/%10 hacim örneği: yüksek hacimli fiyat VWAP üzerinde daha güçlü etki yaratır. \n10.2 — “VWAP daha gerçek fiyat” cümlesindeki sorun \nVWAP, hacmi de hesaba katan bir ortalama fiyat çizgisidir; “gerçek fiyat” veya mutlak adil \ndeğer değildir. Fiyatın VWAP’a dönmek zorunda olduğuna dair bir kural yoktur. \nYAYGIN İFADE → DOĞRU ÇERÇEVE \n“VWAP yüksek hacimli fiyata mıknatıs olur” yerine: “VWAP, yüksek hacimli gözlemlere daha fazla \nağırlık verir; bu nedenle çizgi o fiyatların etkisini daha güçlü taşır.” Matematikte fiyatı VWAP’a geri \nçeken bir kuvvet yoktur. \n \n10.3 — Hesabın nereden başladığı neden önemlidir? \nVWAP birikimli hesaplandığı için nereden başladığı veya ne zaman sıfırlandığı sonucu \ndeğiştirir. Periyodik VWAP belirli dönemlerde yeniden başlar; Anchored VWAP (AVWAP) ise \nsizin seçtiğiniz olay veya dönüş noktasından hesaplanmaya başlar.",
+    "source_extract_summary": [
+      "10.2 — “VWAP daha gerçek fiyat” cümlesindeki sorun VWAP, hacmi de hesaba katan bir ortalama fiyat çizgisidir; “gerçek fiyat” veya mutlak adil değer değildir.",
+      "Fiyatın VWAP’a dönmek zorunda olduğuna dair bir kural yoktur.",
+      "YAYGIN İFADE → DOĞRU ÇERÇEVE “VWAP yüksek hacimli fiyata mıknatıs olur” yerine: “VWAP, yüksek hacimli gözlemlere daha fazla ağırlık verir; bu nedenle çizgi o fiyatların etkisini daha güçlü taşır.” Matematikte fiyatı VWAP’a geri çeken bir kuvvet yoktur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0062",
+    "page": 62,
+    "chapter": 10,
+    "section": "10.5 — AVWAP için iyi başlangıç noktası nedir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n62 \n \nŞekil 10.2 — Eğitim şeması: sıfırlama VWAP yeni dönemlerde yeniden başlar; AVWAP seçilen olay/belirgin dönüş \nnoktasından itibaren kesintisiz hesaplanır. \nAraç Başlangıç mantığı En doğal rol \nSeans / periyodik VWAP Tanımlı dönemlerde sıfırlama Seans/periyot içi hacim ağırlıklı \nkonum \nAnchored VWAP Kullanıcının seçtiği olay/pivot O olaydan sonraki hacim ağırlıklı \nmaliyet referansı \nSMA / EMA Sabit kayan geriye bakılan dönem penceresi Trend/yumuşatma; hacim ağırlığı \nyok \n \n10.4 — Seans VWAP ile AVWAP’ın zaman ufku farklıdır \nSeans VWAP her yeni seansta sıfırlanır ve ağırlıklı olarak mevcut seansın hacim ağırlıklı \nortalama fiyatını temsil eder. Anchored VWAP (AVWAP) ise seçilen olay veya başlangıç \nnoktasından itibaren birikmeye devam eder. \nBu nedenle soru “hangisi daha iyi?” değildir. Asıl soru, hangi zaman ufkundaki maliyet/konum \nbilgisinin istendiğidir. Gün içi seans davranışı için Seans VWAP, belirli bir olay veya belirgin \nfiyat hareketi sonrasındaki daha uzun dönem maliyet yapısı için AVWAP daha uygun bir \nreferans olabilir. \n10.5 — AVWAP için iyi başlangıç noktası nedir? \nAVWAP’ta kritik karar başlangıç noktasıdır. Büyük tepe/dip, önemli kırılım, fiyat boşluğu veya \nbelirgin bir olay kullanılabilir. Bugünkü fiyata iyi otursun diye geçmişte farklı başlangıçlar \ndenemek analizi geçmişe uydurur.",
+    "source_extract_summary": [
+      "Araç Başlangıç mantığı En doğal rol Seans / periyodik VWAP Tanımlı dönemlerde sıfırlama Seans/periyot içi hacim ağırlıklı konum Anchored VWAP Kullanıcının seçtiği olay/pivot O olaydan sonraki hacim ağırlıklı maliyet referansı SMA / EMA Sabit kayan geriye bakılan dönem penceresi Trend/yumuşatma; hacim ağırlığı yok 10.4 — Seans VWAP ile AVWAP’ın zaman ufku farklıdır Seans VWAP her yeni seansta sıfırlanır ve ağırlıklı olarak mevcut seansın hacim ağırlıklı ortalama fiyatını temsil eder.",
+      "Anchored VWAP (AVWAP) ise seçilen olay veya başlangıç noktasından itibaren birikmeye devam eder.",
+      "Bu nedenle soru “hangisi daha iyi?” değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0063",
+    "page": 63,
+    "chapter": 10,
+    "section": "10.6 — AVWAP nasıl kullanılabilir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n63 \n \nŞekil 10.3 — A noktası analiz yapılmadan önce de seçilebilecek belirgin bir dönüş noktasıdır. B noktası yalnız çizgiyi \nbugünkü fiyata yaklaştırdığı için seçiliyorsa yöntem geçmişe uydurulmuş olur. \nBAŞLANGIÇ NOKTASI TESTİ \nKendinize şu soruyu sorun: “Grafiğin sağ tarafını kapatsaydım yine bu başlangıç noktasını seçer \nmiydim?” Cevap hayırsa başlangıç noktası seçimi büyük olasılıkla sonuçtan etkilenmiştir. \n \n10.6 — AVWAP nasıl kullanılabilir? \nBağlam AVWAP’ın rolü Giriş işareti / ek bilgi \nYükseliş yönlü fiyat \nyapısı \nBelirgin dip AVWAP çevresi konum \nreferansı \nFiyat yapısının tekrar güçlenmesi \nKırılım sonrası Kırılım başlangıcından ortalama maliyet \nreferansı \nYeniden test + kabul/reddedilme \ndavranışı \nGeri çekilmede hareket \ngücü \nKonumu tanımlar RSI/MACD hareket gücü yeniden \ngüçlenmesi \nRisk yönetimi Doğrudan stop değildir ATR + işlem fikrinin bozulduğu \nseviye ile tamamlanır \n \nYANLIŞ KULLANIM \nFiyat AVWAP üzerinde = otomatik yükseliş yönlü değildir. Fiyat AVWAP altında = otomatik düşüş \nyönlü değildir. AVWAP önce konum verir; trend/yapı ve giriş işareti ayrıca tanımlanmalıdır.",
+    "source_extract_summary": [
+      "B noktası yalnız çizgiyi bugünkü fiyata yaklaştırdığı için seçiliyorsa yöntem geçmişe uydurulmuş olur.",
+      "BAŞLANGIÇ NOKTASI TESTİ Kendinize şu soruyu sorun: “Grafiğin sağ tarafını kapatsaydım yine bu başlangıç noktasını seçer miydim?” Cevap hayırsa başlangıç noktası seçimi büyük olasılıkla sonuçtan etkilenmiştir.",
+      "Bağlam AVWAP’ın rolü Giriş işareti / ek bilgi Yükseliş yönlü fiyat yapısı Belirgin dip AVWAP çevresi konum referansı Fiyat yapısının tekrar güçlenmesi Kırılım sonrası Kırılım başlangıcından ortalama maliyet referansı Yeniden test + kabul/reddedilme davranışı Geri çekilmede hareket gücü Konumu tanımlar RSI/MACD hareket gücü yeniden güçlenmesi Risk yönetimi Doğrudan stop değildir ATR + işlem fikrinin bozulduğu seviye ile tamamlanır YANLIŞ KULLANIM Fiyat AVWAP üzerinde = otomatik yükseliş yönlü değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0064",
+    "page": 64,
+    "chapter": 10,
+    "section": "10.8 — Birden fazla anlamlı AVWAP ve çizginin yeniden aşılması",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n64 \n10.7 — AVWAP’ın seviyesi kadar eğimi ve başlangıç noktasının yaşı da \nönemlidir \nFiyatın AVWAP’ın üzerinde veya altında olması bir konum bilgisidir. Buna ek olarak \nAVWAP’ın kendisinin yükselmesi, düşmesi veya yataylaşması da izlenebilir. \nYükselen AVWAP, seçilen başlangıç noktasından sonraki hacim ağırlıklı ortalama fiyatın \nyukarı taşındığını; düşen AVWAP aşağı taşındığını gösterir. Yatay AVWAP’ta ortalama fiyatın \ndeğişim hızı azalır ve fiyat çizgiyi sık sık iki yönde kesebilir. \nKısa dönemli bir AVWAP’ın yükselmesi daha büyük zaman dilimindeki trendin yükselişe \ndöndüğü anlamına gelmez. AVWAP kendi başlangıç noktasından sonraki maliyet yapısını \nanlatır; ana trend ayrı bir bilgidir. \nBaşlangıç noktası eskidikçe AVWAP neden daha yavaş değişir? \nAVWAP birikimli hesaplanır. Başlangıç noktasından sonra veri arttıkça yeni gelen tek bir barın \ntoplam hesap üzerindeki etkisi küçülür. Bu nedenle eski bir AVWAP, daha yeni bir AVWAP’a \ngöre son fiyat ve hacim değişikliklerine daha yavaş tepki verebilir. \nBu durum eski AVWAP’ın otomatik olarak geçersiz olduğu anlamına gelmez. Yalnız çizginin \nduyarlılığının zamanla değiştiğini gösterir. \n10.8 — Birden fazla anlamlı AVWAP ve çizginin yeniden aşılması \nYeni önemli olaylar oluştuğunda eski AVWAP’ı silmek zorunlu değildir. Farklı belirgin \ntepe/dip, fiyat boşluğu veya takvim başlangıçlarından başlatılmış AVWAP’lar farklı maliyet \nreferanslarını gösterebilir. \nFarklı başlangıçlardan gelen iki AVWAP aynı fiyat bölgesine yaklaşırsa farklı dönemlerin \nhacim ağırlıklı ortalama maliyetleri benzer bölgede buluşmuş olur. Bu bölge daha dikkat çekici \nhale gelebilir; fakat iki AVWAP iki bağımsız teyit değildir. İkisi de aynı fiyat ve hacim \nverisinin farklı başlangıçlardan hesaplanmış türevleridir. \nBaşlangıç noktaları üç grupta düşünülebilir: \n- yapısal: belirgin tepe/dip veya kırılım, \n- olay: bilanço, haber veya fiyat boşluğu, \n- takvim: gün, hafta, ay veya yıl başlangıcı. \nTakvim başlangıcı da yalnız sorulan soruya uygunsa anlamlıdır; “yıl başı” olması tek başına \nönem üretmez. \nTemas ile kısa süreli aşım ve geri dönüş aynı davranış değildir \nFiyatın VWAP’a yalnız dokunması bir konum bilgisidir. Fiyat çizginin diğer tarafına geçip \norada kalamıyor ve yeniden önceki tarafa dönüyorsa, ilk geçişin kalıcı olmadığına ilişkin daha \nfazla fiyat davranışı bilgisi oluşur. \nBu yapı yine tek başına işlem sinyali değildir. Fiyat yapısı ve işlemin bağlamı ayrıca \ndeğerlendirilmelidir.",
+    "source_extract_summary": [
+      "10.7 — AVWAP’ın seviyesi kadar eğimi ve başlangıç noktasının yaşı da önemlidir Fiyatın AVWAP’ın üzerinde veya altında olması bir konum bilgisidir.",
+      "Buna ek olarak AVWAP’ın kendisinin yükselmesi, düşmesi veya yataylaşması da izlenebilir.",
+      "Yükselen AVWAP, seçilen başlangıç noktasından sonraki hacim ağırlıklı ortalama fiyatın yukarı taşındığını; düşen AVWAP aşağı taşındığını gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0065",
+    "page": 65,
+    "chapter": 10,
+    "section": "10.10 — VWAP hangi araçlarla birlikte kullanılabilir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n65 \n10.9 — VWAP + 50 MA kesişimi neden evrensel kural değildir? \nVWAP ile 50 günlük hareketli ortalama kesişimini işlem sinyali yapmak, VWAP’ın tanımı \ndeğil strateji tercihidir. Test edilmeden evrensel kurala dönüştürülemez. \nSTRATEJİYE ÖZEL ≠ MATEMATİKSEL GERÇEK \nGeçmişte iyi görünen bir kesişim tek başına istatistiksel avantaj kanıtı değildir. Roller ayrılabilir: MA \n= trend filtresi, VWAP/AVWAP = hacim ağırlıklı konum. Otomatik kesişim kuralı ayrıca test \nedilmelidir. \n \n10.10 — VWAP hangi araçlarla birlikte kullanılabilir? \nKombinasyon Rol dağılımı Not \nVWAP/AVWAP + Fiyat \nyapısı \nKonum + doğrudan fiyat yapısı Çok güçlü \nVWAP + RSI/Stoch Konum + hareket gücü Tamamlayıcı \nVWAP + ATR Konum + fiyat hareketliliği/risk Tamamlayıcı \nAVWAP + Volume Profile Tek ortalama maliyet eğrisi + fiyat \nseviyelerine göre hacim dağılımı \nFarklı sorular \nVWAP + çoklu MA + VWMA Birçok ortalama fiyat çizgisi Tekrar riski yüksek \n \nBÖLÜM SONUCU \nVWAP, hacmi hesaba katan bir ortalama fiyat ve konum çizgisidir; AVWAP bunu seçtiğiniz bir \nbaşlangıçtan itibaren hesaplar. Çizgiyi destek/direnç diye ezberlemek yerine neyi ölçtüğünü ve nereden \nbaşladığını bilin. \n \nARA KAVRAM \nHacmi Zaman Ekseninden Fiyat Eksenine Taşımak \nKlasik hacim “ne zaman ne kadar aktivite vardı?” diye sorar. Volume Profile aynı aktiviteyi fiyat",
+    "source_extract_summary": [
+      "10.9 — VWAP + 50 MA kesişimi neden evrensel kural değildir?",
+      "VWAP ile 50 günlük hareketli ortalama kesişimini işlem sinyali yapmak, VWAP’ın tanımı değil strateji tercihidir.",
+      "Test edilmeden evrensel kurala dönüştürülemez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  }
+]

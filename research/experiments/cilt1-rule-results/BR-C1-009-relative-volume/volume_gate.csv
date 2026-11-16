@@ -1,0 +1,7 @@
+group,disposition,reason
+bist_equities,tested,gercek pozitif hacim uygun
+metals,tested_with_quality_gate,hacim uygunlugu seri bazinda korunur
+energy,tested_with_quality_gate,hacim uygunlugu seri bazinda korunur
+bist_indices,data_unsuitable,endeks hacmi temsili veya sifir olabilir
+global_indices,data_unsuitable,endeks hacmi temsili veya sifir olabilir
+fx,data_unsuitable,spot FX hacmi merkezi gercek hacim degildir

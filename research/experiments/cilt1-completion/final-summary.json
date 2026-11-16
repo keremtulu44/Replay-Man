@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "packages_complete": 12,
+  "pages": 139,
+  "atomic_claims": 403,
+  "unresolved_claims": 0,
+  "rules": 22,
+  "measured_events_p2_p9": 3140304,
+  "parameter_variants": 106,
+  "mfe_mae": true,
+  "common_calendar": true,
+  "decision_chain_xu100_excess": true,
+  "family_ablation": true,
+  "volume_gate_reapplied": true,
+  "software_tests": "67 passed",
+  "knowledge_audit": "passed",
+  "ohlcv_audit": "passed"
+}

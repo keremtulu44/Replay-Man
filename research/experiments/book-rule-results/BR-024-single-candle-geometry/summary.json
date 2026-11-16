@@ -1,0 +1,25 @@
+{
+  "events": 912810,
+  "assets": 125,
+  "event_counts": {
+    "lower_wick_rejection": 77670,
+    "upper_wick_rejection": 74697,
+    "bull_pin_w0.4_b0.3": 69679,
+    "bear_pin_w0.4_b0.3": 66687,
+    "bull_pin_w0.5_b0.3": 63937,
+    "bear_pin_w0.5_b0.3": 60576,
+    "bull_pin_w0.6_b0.3": 54089,
+    "bull_pin_w0.4_b0.2": 51254,
+    "bear_pin_w0.6_b0.3": 49461,
+    "bull_pin_w0.5_b0.2": 49330,
+    "bear_pin_w0.4_b0.2": 46928,
+    "bear_pin_w0.5_b0.2": 44964,
+    "long_bear_close": 44247,
+    "bull_pin_w0.6_b0.2": 43849,
+    "long_bull_close": 42537,
+    "bear_pin_w0.6_b0.2": 38933,
+    "bear_marubozu": 18947,
+    "bull_marubozu": 15025
+  },
+  "note": "Olaylar geometrik varyantlar arasında bilerek örtüşebilir; bağımsız gözlem sayılmaz."
+}

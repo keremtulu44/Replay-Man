@@ -1,0 +1,1 @@
+asset_id,series_id,interval,start,end,status,attempts,next_retry_at,error_kind,last_error,rows,from_cache,updated_at

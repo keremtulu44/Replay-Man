@@ -1,0 +1,12 @@
+{
+  "events": 158003,
+  "assets": 125,
+  "events_by_type": [
+    "regression_upper_break",
+    "regression_lower_break",
+    "pitchfork_median_cross_up",
+    "pitchfork_median_cross_down",
+    "gann_normalized_up",
+    "gann_normalized_down"
+  ]
+}

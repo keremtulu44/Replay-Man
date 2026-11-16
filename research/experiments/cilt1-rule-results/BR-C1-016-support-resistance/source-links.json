@@ -1,0 +1,119 @@
+[
+  {
+    "id": "PTA-C1-2026.p0095",
+    "page": 95,
+    "chapter": 16,
+    "section": "16.1 — Destek ve direnç: çizgiden önce bölge düşünün",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n95 \nBÖLÜM 16 \nTrend Çizgileri, Yatay Seviyeler ve \nKanallar \nÇizgi çizmek kolaydır. Zor olan, hangi iki noktanın neden seçildiğini ve çizginin neyi \nkanıtlamadığını bilmektir. \n  \n \nHIZLI ROL — Ana görev: fiyat hareketini çizgiler ve bölgelerle daha kolay okumak. Tek \nbaşına trend dönüşünü veya giriş zamanını söylemez. Ana risk: çizgileri sonradan fiyata \nuydurmak, tek bir fiyatı kesin duvar sanmak ve ekrandaki açıyı trend gücü gibi yorumlamak. İyi \neşleşme: fiyat yapısı + ATR. \nAraç Ana soru En büyük yanlış kullanım \nYatay seviye / bölge Fiyat geçmişte nerede reaksiyon verdi? Tek bir hassas fiyatı kesin duvar kabul etmek \nTrend çizgisi Yönlü belirgin dönüş noktaları hangi \neğim boyunca gelişiyor? \nİki uygun noktayı sonradan seçerek geçmişe \nuydurmak \nParalel Kanal Aynı eğim içindeki karşı sınır nerede? İki kenarı ayrı ayrı “güzel oturacak” şekilde eğmek \nUzatılmış çizgi / ışın Referansı geleceğe taşımak Uzatılan çizgiyi gelecekte zorunlu reaksiyon \nseviyesi sanmak \n \n16.1 — Destek ve direnç: çizgiden önce bölge düşünün \nBirbirine yakın destek/direnç tepkilerini tek bir fiyata zorlamak yerine dar bir bölge olarak \nokuyun. Mum gövdeleri, fitiller, alış-satış farkı (spread) ve veri farklılıkları reaksiyonları küçük \nbir fiyat aralığına yayabilir.",
+    "source_extract_summary": [
+      "BÖLÜM 16 Trend Çizgileri, Yatay Seviyeler ve Kanallar Çizgi çizmek kolaydır.",
+      "Zor olan, hangi iki noktanın neden seçildiğini ve çizginin neyi kanıtlamadığını bilmektir.",
+      "HIZLI ROL — Ana görev: fiyat hareketini çizgiler ve bölgelerle daha kolay okumak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0096",
+    "page": 96,
+    "chapter": 16,
+    "section": "16.2 — Seviyeyi temas sayısıyla değil, fiyatın verdiği tepkiyle değerlendirin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n96 \n \nŞekil 16.1 — 99,8; 100,0; 100,2 ve 100,4 çevresindeki reaksiyonları tek 100,00 çizgisine zorlamak yerine aynı davranış \nkümesini bir bölge olarak okumak daha gerçekçidir. \nSAYISAL ÖRNEK \nDört belirgin reaksiyon 99,80 / 100,20 / 100,40 / 100,00 seviyelerinde oluşsun. “Doğru destek \n100,00’dır” demek gereksiz hassasiyettir. 99,60–100,50 gibi önceden tanımlanmış bir reaksiyon \nbölgesi dağılımı daha dürüst temsil eder. Bölge genişliği fiyat yapısı ve normal hareket genişliğiyle \nuyumlu olmalıdır. \n \nTEKNİK SORUN \nDestek/direnç çizgisi fiyatı fiziksel olarak itmez. Geçmiş reaksiyonların aynı bölgede kümelenmesi, \ngelecekte yeniden tepki olasılığını araştırmak için bağlam sağlar; tepkiyi garanti etmez. “Üç temas \noldu, dördüncü kesin çalışır” şeklinde otomatik bir kural yoktur. \n \n16.2 — Seviyeyi temas sayısıyla değil, fiyatın verdiği tepkiyle değerlendirin \nBir yatay bölgeye kaç kez temas edildiği tek başına yeterli değildir. Her temas sonrasında \nfiyatın bölgeden ne kadar hızlı ve ne kadar uzağa ayrıldığı da izlenebilir. \nİlk temaslarda güçlü biçimde uzaklaşan fiyat sonraki testlerde giderek daha az mesafe kat \nediyor, daha hızlı geri dönüyor ve bölgenin çevresinde daha uzun süre kalıyorsa önceki \nreaksiyon gücü zayıflıyor olabilir. \nBu davranış “seviye kesin kırılacak” anlamına gelmez. Yalnız çok temasın otomatik olarak \ndaha güçlü seviye demek olmadığını gösterir. \nTEKNİK AYRIM — FİYATIN BÖLGEDE NE KADAR KALDIĞI \nBölgeye ulaşma, bölgede geçirilen süre ve bölgeden ayrılma hızı üç ayrı gözlemdir. Kısa temas \nsonrası güçlü uzaklaşma ile fiyatın bölgenin çevresinde uzun süre oyalanması aynı davranış \ndeğildir. \nKısa ihlal ile bölgede kabul aynı şey değildir \nFiyat bir destek/direnç bölgesinin dışına kısa süre geçip hızla yeniden bölgenin diğer tarafına \ndönebilir. Bu davranış bölgenin dışında kalıcı kabul oluşmasından farklıdır.",
+    "source_extract_summary": [
+      "SAYISAL ÖRNEK Dört belirgin reaksiyon 99,80 / 100,20 / 100,40 / 100,00 seviyelerinde oluşsun.",
+      "“Doğru destek 100,00’dır” demek gereksiz hassasiyettir.",
+      "99,60–100,50 gibi önceden tanımlanmış bir reaksiyon bölgesi dağılımı daha dürüst temsil eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0097",
+    "page": 97,
+    "chapter": 16,
+    "section": "16.3 — Trend çizgisinin asıl problemi: iki nokta her zaman bir doğru",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n97 \nBu nedenle: \nbölgenin dışına çıkış ≠ bölgenin dışında kabul. \nKısa ihlal ve hızlı geri dönüş, ilk kırılımın devam edemediğini gösteren ayrı bir fiyat \ndavranışıdır. Yine de otomatik dönüş sinyali değildir; fiyat yapısı ayrıca değerlendirilmelidir. \n16.3 — Trend çizgisinin asıl problemi: iki nokta her zaman bir doğru \ntanımlar \nİki nokta her zaman bir doğru tanımlar; bu nedenle çizginin çizilebilmesi onun anlamlı \nolduğunu kanıtlamaz. Başlangıç noktalarını belirgin pivotlardan seçin ve fiyat ilerledikçe \nçizgiyi sırf “çalışsın” diye taşımayın. \n \nŞekil 16.2 — Aynı grafikte farklı iki-nokta seçimleri farklı trend çizgileri üretir. Profesyonel fark, çizgiyi değil başlangıç \nnoktası seçim kuralını önceden tanımlamaktır. \nAdım Disiplin Neden? \n1 Önce anlamlı dip/tepeleri belirle Başlangıç noktalarını görsel sonuca değil fiyat yapısına göre \nseç. \n2 İki başlangıç noktası ile çizgiyi tanımla İlk geometri oluşturulur. \n3 Sonraki reaksiyonu çizgiyi yeniden taşımadan \ngözle \nÜçüncü temas, geriye dönük uyumdan daha değerli bir \nkontrol sağlar. \n4 Çizgi bozulursa geçmiş başlangıç noktasını sırf \n“çalışsın” diye değiştirme \nGeriye dönük uyumu azaltır. \n \nKENDİNE SOR \nGrafiğin sağ tarafını kapatsaydım aynı iki başlangıç noktasını seçer miydim? Cevap hayırsa çizgi \nbüyük olasılıkla geriye dönük uyuma yaklaşmıştır. Aynı test AVWAP ve Volume Profile aralığı \nseçiminde de geçerlidir.",
+    "source_extract_summary": [
+      "Bu nedenle: bölgenin dışına çıkış ≠ bölgenin dışında kabul.",
+      "Kısa ihlal ve hızlı geri dönüş, ilk kırılımın devam edemediğini gösteren ayrı bir fiyat davranışıdır.",
+      "Yine de otomatik dönüş sinyali değildir; fiyat yapısı ayrıca değerlendirilmelidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0098",
+    "page": 98,
+    "chapter": 16,
+    "section": "16.6 — Trend çizgisinde temas sıklığı ve yeniden test davranışı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n98 \n \n16.4 — Trend çizgisi aslında çoğu zaman bir “trend alanı”dır \nTrend çizgisini tek ve kesin bir sınır yerine dar bir referans alanı olarak düşünmek çoğu \ndurumda daha sağlıklıdır. Özellikle fitil çizgiyi aşıp kapanış yeniden alan içinde kaldığında, \nyalnız temasa değil kapanışa ve sonraki fiyat davranışına bakın. \nYANLIŞ / DOĞRU \nYANLIŞ: “Fitil çizginin altına indi → yükseliş trendi bitti.” DOĞRU: “Trend referans alanı ihlal \nedildi. Kapanış, fiyat yapısı ve takip eden davranış gerçek bozulmayı destekliyor mu?” \n \n16.5 — Trend çizgisi kırılımı neden trend dönüşümü değildir? \nTrend çizgisi geometrik bir referanstır; fiyat yapısı ise tepe ve diplerden oluşur. Çizginin ihlali \nyapısal dönüşle aynı olay değildir. Son anlamlı dip/tepe bozulmadan daha büyük yapı \nkorunabilir. \n \nŞekil 16.3 — İlk ihlal yalnız trend çizgisini deliyor; daha sonra gelen yapısal zayıflama ayrı bir olaydır. Çizgi kırılımı \nile fiyat yapısı kırılımını aynı etiket olarak kullanmayın. \nGözlem Ne söyler? Ne söylemez? \nFitil trend çizgisi dışına \nçıktı \nKısa süreli geometrik ihlal Trend kesin döndü \nBar çizgi dışında kapandı İhlal daha anlamlı hale geldi Tek başına fiyat yapısındaki kırılım/dönüş oluştu \nSon anlamlı fiyat hareketi \nde kırıldı \nFiyat yapısında bozulma kanıtı arttı Yeni trendin kesin ve kalıcı olduğu \nYeniden test + yeni yapı \noluştu \nSenaryo için ek fiyat teyidi İşlemin kazanacağını \n \n16.6 — Trend çizgisinde temas sıklığı ve yeniden test davranışı \nTrend çizgisinde yalnız temas sayısını değil, temasların birbirine ne kadar yakınlaştığını da \nizleyin.",
+    "source_extract_summary": [
+      "16.4 — Trend çizgisi aslında çoğu zaman bir “trend alanı”dır Trend çizgisini tek ve kesin bir sınır yerine dar bir referans alanı olarak düşünmek çoğu durumda daha sağlıklıdır.",
+      "Özellikle fitil çizgiyi aşıp kapanış yeniden alan içinde kaldığında, yalnız temasa değil kapanışa ve sonraki fiyat davranışına bakın.",
+      "YANLIŞ / DOĞRU YANLIŞ: “Fitil çizginin altına indi → yükseliş trendi bitti.” DOĞRU: “Trend referans alanı ihlal edildi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0099",
+    "page": 99,
+    "chapter": 16,
+    "section": "16.7 — Ekrandaki açı bir piyasa sabiti değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n99 \nArdışık temaslar arasındaki süre kısalıyor, fiyat çizgiden eskisi kadar uzaklaşamıyor ve çizginin \nçevresinde daha fazla zaman geçiriyorsa fiyatın çizgiden önceki kadar güçlü uzaklaşmadığı \ngörülür. \nBu yapı kırılım garantisi değildir. Daha doğru okuma, mevcut trend çizgisi geometrisinin \nreaksiyon gücünün zayıfladığıdır. \nKırılım ve yeniden test iki ayrı olaydır \nTrend çizgisinin dışına kapanış, çizginin daha sonra karşı taraftan yeniden test edilmesiyle aynı \nolay değildir. \nKırılım sonrasında fiyat eski çizgi/kırılım alanına döndüğünde şu soru sorulabilir: Fiyat yeni \ntarafta kalabiliyor mu, yoksa yeniden eski geometrinin içine mi dönüyor? \nBu ayrım “trend çizgisi kırıldı = trend kesin döndü” hatasını azaltır. Yeniden test de kendi \nbaşına zorunlu bir işlem kuralı değildir. \n16.7 — Ekrandaki açı bir piyasa sabiti değildir \nEkranda görülen çizgi açısı; fiyat ekseni ölçeğine, yakınlaştırmaya, pencere oranına ve \ndoğrusal/logaritmik eksen seçimine bağlıdır. Aynı fiyat hareketi ekranda farklı eğimlerle \ngörünebilir; bu nedenle görsel açı tek başına trend gücü ölçüsü değildir. \n \nŞekil 16.4 — Aynı üstel fiyat serisi doğrusal eksende giderek dikleşirken logaritmik eksende daha düzenli görünür. \nÖlçek sabitlenmeden görsel açı karşılaştırılamaz. \nSAYISAL ÖRNEK \n10 → 20 hareketi +10 birim ama +%100’dür. 100 → 110 hareketi de +10 birim ama yalnız +%10’dur. \nDoğrusal eksen mutlak farkı, logaritmik eksen oransal değişimi daha doğal gösterir. Uzun vadeli \ngrafiklerde çizgi açısını yorumlamadan önce ölçeği bilin. \n \nKİTAP KURALI \n“45 derece trend çizgisi”, “çok dik olduğu için güçlü trend” gibi ifadeler ölçek tanımlanmadan \nkullanılmayacaktır. Gann bölümünde bu konu daha da kritik hale gelecek.",
+    "source_extract_summary": [
+      "Ardışık temaslar arasındaki süre kısalıyor, fiyat çizgiden eskisi kadar uzaklaşamıyor ve çizginin çevresinde daha fazla zaman geçiriyorsa fiyatın çizgiden önceki kadar güçlü uzaklaşmadığı görülür.",
+      "Bu yapı kırılım garantisi değildir.",
+      "Daha doğru okuma, mevcut trend çizgisi geometrisinin reaksiyon gücünün zayıfladığıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0100",
+    "page": 100,
+    "chapter": 16,
+    "section": "16.8 — Paralel Kanal: ikinci çizgiyi bağımsız uydurmayın",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n100 \n16.8 — Paralel Kanal: ikinci çizgiyi bağımsız uydurmayın \nParalel Kanal iki bağımsız trend çizgisinden oluşmaz. İlk sınır eğimi tanımlar; karşı sınır aynı \neğim korunarak paralel taşınır. Böylece iki kenarı da geçmiş fiyata ayrı ayrı uydurma riski \nazaltılır. \n \nŞekil 16.5 — Kanalın üst ve alt sınırı aynı eğime sahiptir. Karşı sınır, fiyatın salındığı olası geometriyi gözlemek için \nparalel taşınır; “iki taraf da geçmişe kusursuz otursun” diye ayrı eğimler verilmez. \nKanal davranışı Doğru okuma Hatalı sonuç \nAlt sınıra yaklaşma Trend içindeki konum / olası reaksiyon bölgesi Otomatik AL \nÜst sınıra yaklaşma Karşı baskının gelebileceği alan Otomatik SAT \nKanal dışı kapanış Mevcut geometri zayıflıyor olabilir Yeni trend kesin başladı \nKanal eğiminin sık sık \nyeniden çizilmesi \nModel istikrarsız / başlangıç noktası seçimi \nsorunlu olabilir \nHer yeni eğim yeni “doğru trend”dir",
+    "source_extract_summary": [
+      "16.8 — Paralel Kanal: ikinci çizgiyi bağımsız uydurmayın Paralel Kanal iki bağımsız trend çizgisinden oluşmaz.",
+      "İlk sınır eğimi tanımlar; karşı sınır aynı eğim korunarak paralel taşınır.",
+      "Böylece iki kenarı da geçmiş fiyata ayrı ayrı uydurma riski azaltılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0101",
+    "page": 101,
+    "chapter": 16,
+    "section": "16.10 — Çoklu zaman diliminde çizim sırası",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n101 \n16.9 — Yatay seviye, trend çizgisi ve yapı birlikte nasıl kullanılır? \nÖnce belirgin tepe/diplerle fiyat yapısını okuyun; ardından destek/direnç bölgelerini ve \ngerekiyorsa trend kanalını ekleyin. Çizim konumu gösterir, giriş ise fiyatın o bölgede verdiği \ndavranışla doğrulanmalıdır. \nKatman Örnek soru Araç \nYapı Daha yüksek tepe/dip mi, daha düşük tepe/dip mi? Son \nanlamlı yapı noktası nerede? \nFiyat yapısı \nKonum Fiyat geçmiş reaksiyon bölgesine veya kanal sınırına geldi \nmi? \nYatay bölge / trend çizgisi / kanal \nGiriş işareti Fiyat geri çevrildi mi, kapanış ve fiyat yapısı gerçekten \ndönüşü destekliyor mu? \nFiyat davranışı \nRisk Senaryo hangi fiyatın altında/üstünde yanlış olur? Normal \nfiyat hareketliliği ne kadar? \nFiyat yapısı + ATR / risk aracı \n \nÖRNEK SENARYO \nGünlük yapı yükseliş yönünde. Önceki 100–101 direnç bölgesi kırılıp yeniden test ediliyor ve aynı \nalanda yükselen kanal alt sınırı bulunuyor. Bu iki çizim iki bağımsız sinyal değil, aynı konumu tarif \neder. Giriş için 4 saatlik grafikte yeni bir daha yüksek dip, yükseliş yönlü yapı veya net fiyat reddi \nbeklemek yalnız çizgi temasından daha disiplinlidir. \n \n16.10 — Çoklu zaman diliminde çizim sırası \nDestek/direnç bölgeleri zaman dilimine göre değişebilir. Daha yüksek zaman dilimi daha geniş \nbağlam sağlar; bu, her seviyesinin otomatik olarak “daha güçlü” olduğu anlamına gelmez. Giriş \ndavranışı daha düşük zaman diliminde ayrıca okunabilir. \nZaman dilimi Rol Çizim disiplini \nHaftalık Ana piyasa ortamı ve büyük reaksiyon \nbölgeleri \nAz sayıda, geniş ve anlamlı bölge \nGünlük Belirgin dönüş yapısı ve işlem bağlamı Ana trend çizgisi/kanal + yakın bölgeler \n4 saat / daha \ndüşük \nGiriş işareti ve işlemin nasıl \nuygulanacağı \nYeni çizgi eklemek yerine üst zaman dilimi alanında fiyat \ndavranışını oku",
+    "source_extract_summary": [
+      "16.9 — Yatay seviye, trend çizgisi ve yapı birlikte nasıl kullanılır?",
+      "Önce belirgin tepe/diplerle fiyat yapısını okuyun; ardından destek/direnç bölgelerini ve gerekiyorsa trend kanalını ekleyin.",
+      "Çizim konumu gösterir, giriş ise fiyatın o bölgede verdiği davranışla doğrulanmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0102",
+    "page": 102,
+    "chapter": 16,
+    "section": "16.11 — TradingView çizim araçları: analiz değişmesin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n102 \n16.11 — TradingView çizim araçları: analiz değişmesin \nTradingView araçları analiz yönteminin yerine geçmez; yalnız çizimin yanlışlıkla kaymasını \nazaltır. Mıknatıs (Magnet), çizimleri kilitleme, kopyalama ve bar-kapanış alarmını bu amaçla \nkullanın. \nAraç Faydalı kullanım Dikkat \nMagnet \n(Mıknatıs) \nBaşlangıç noktasını gerçek OHLC değerine daha \nhassas bağlamak \nGüçlü mıknatıs yanlış noktaya yapışırsa \nkontrol et \nLock Drawings \n(Çizimleri Kilitle) \nAnaliz bittikten sonra başlangıç noktalarının kazara \nkaymasını önlemek \nYanlış çizimi kilitlemek onu doğru yapmaz \nClone (Kopyala) Aynı eğim ile paralel kanal oluşturmak Kopyayı bağımsız eğmek kanal mantığını \nbozar \nBar-kapanış \nalarmı \nÇizgi/bölge ihlalini ekran başında beklemeden \nizlemek \nAlarm = işlem emri değildir",
+    "source_extract_summary": [
+      "16.11 — TradingView çizim araçları: analiz değişmesin TradingView araçları analiz yönteminin yerine geçmez; yalnız çizimin yanlışlıkla kaymasını azaltır.",
+      "Mıknatıs (Magnet), çizimleri kilitleme, kopyalama ve bar-kapanış alarmını bu amaçla kullanın.",
+      "Araç Faydalı kullanım Dikkat Magnet (Mıknatıs) Başlangıç noktasını gerçek OHLC değerine daha hassas bağlamak Güçlü mıknatıs yanlış noktaya yapışırsa kontrol et Lock Drawings (Çizimleri Kilitle) Analiz bittikten sonra başlangıç noktalarının kazara kaymasını önlemek Yanlış çizimi kilitlemek onu doğru yapmaz Clone (Kopyala) Aynı eğim ile paralel kanal oluşturmak Kopyayı bağımsız eğmek kanal mantığını bozar Bar-kapanış alarmı Çizgi/bölge ihlalini ekran başında beklemeden izlemek Alarm = işlem emri değildir"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0103",
+    "page": 103,
+    "chapter": 16,
+    "section": "16.12 — Çizim yaparken 8 soruluk kontrol",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n103 \n16.12 — Çizim yaparken 8 soruluk kontrol \n Bu çizimin görevi ne: yön, konum, sınır mı; yoksa yalnız görsel açıklama mı? \n Başlangıç noktaları anlamlı dip/tepelerden mi seçildi, yoksa çizgiyi güzel göstermek için mi? \n Grafiğin sağ tarafını kapatsaydım aynı başlangıç noktalarını seçer miydim? \n Tek çizgi yerine bölge kullanmak fiyat davranışını daha dürüst temsil eder mi? \n Trend çizgisi/kanal açısını yorumluyorsam eksen doğrusal mı, logaritmik mi ve neden? \n Çizgi kırılmasıyla fiyat yapısı kırılmasını birbirinden ayırdım mı? \n Aynı konumu gösteren yatay seviye + trend çizgisini iki bağımsız teyit sayıyor muyum? \n İşlem tetiğim çizgiye temas mı, yoksa ayrıca tanımlanmış fiyat davranışı mı? \nBÖLÜM SONUCU \nTrend çizgisi, yatay seviye ve kanal fiyat yapısını sadeleştiren geometrik referanslardır. Başlangıç \nnoktalarını önceden tanımlayın, ölçeği bilin ve çizgi kırılımını fiyat yapısı kırılımından ayrı \ndeğerlendirin.",
+    "source_extract_summary": [
+      "16.12 — Çizim yaparken 8 soruluk kontrol  Bu çizimin görevi ne: yön, konum, sınır mı; yoksa yalnız görsel açıklama mı?",
+      " Başlangıç noktaları anlamlı dip/tepelerden mi seçildi, yoksa çizgiyi güzel göstermek için mi?",
+      " Grafiğin sağ tarafını kapatsaydım aynı başlangıç noktalarını seçer miydim?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

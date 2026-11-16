@@ -1,0 +1,67 @@
+[
+  {
+    "id": "PTA-C1-2026.p0074",
+    "page": 74,
+    "chapter": 12,
+    "section": "12.2 — +DM ve −DM nereden gelir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n74 \nBÖLÜM 12 \nADX ve DMI: Yön ile Gücü Ayırmak \nADX tek başına “fiyat yukarı mı gidiyor, aşağı mı?” demez. Asıl görevi hareketin ne \nkadar güçlü olduğunu ölçmektir. Yönü anlamak için +DI ve −DI çizgilerine, daha \nönemlisi fiyatın kendi yapısına bakılır. Bu ayrım anlaşılmadan 20/25 seviyeleri veya \nDI kesişimleri kolayca otomatik al-sat sinyaline dönüşür. \n  \n \nHIZLI ROL — Ana görev: hareketin ne kadar güçlü olduğunu görmek. +DI ve −DI ise yukarı \nveya aşağı hareketten hangisinin daha baskın olduğunu gösterir. Tek başına fiyat yapısını, \nönemli fiyat bölgesini veya giriş zamanını söylemez. Ana risk: ADX yükselince fiyatın da \nyükseleceğini sanmak ve 20/25 seviyelerini değişmez kural yapmak. İyi eşleşme: fiyat yapısı + \nDonchian. \n12.1 — DMI üç ayrı soruyu tek panelde taşır \nBileşen Ana soru Tek başına söylemez \n+DI Pozitif yönlü hareket, negatife göre baskın \nmı? \nTrend yapısı gerçekten yükseliş yönlü mü? \n−DI Negatif yönlü hareket, pozitife göre baskın \nmı? \nTrend yapısı gerçekten düşüş yönlü mü? \nADX Yukarı ve aşağı hareket arasındaki fark ne \nkadar belirgin / trend ne kadar güçlü? \nYön yukarı mı aşağı mı? \n \nEN KRİTİK CÜMLE \nADX = hareketin gücü. +DI / −DI = hangi yönün daha baskın olduğu. Fiyat yapısı = gerçek bağlam. \n“ADX 35, o halde fiyat yükseliş yönlü” çıkarımı yanlıştır. \n \n12.2 — +DM ve −DM nereden gelir? \nHesap önce ardışık mumların en yüksek ve en düşük fiyatlarının nasıl değiştiğine bakar. Yeni \nmum yukarı yönde daha fazla alan açtıysa pozitif yönlü hareket, aşağı yönde daha fazla alan \naçtıysa negatif yönlü hareket öne çıkar. \nÖrnek Hesap Sonuç",
+    "source_extract_summary": [
+      "BÖLÜM 12 ADX ve DMI: Yön ile Gücü Ayırmak ADX tek başına “fiyat yukarı mı gidiyor, aşağı mı?” demez.",
+      "Asıl görevi hareketin ne kadar güçlü olduğunu ölçmektir.",
+      "Yönü anlamak için +DI ve −DI çizgilerine, daha önemlisi fiyatın kendi yapısına bakılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0075",
+    "page": 75,
+    "chapter": 12,
+    "section": "12.3 — ADX yükselirken fiyat neden düşebilir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n75 \nÖrnek Hesap Sonuç \nBar A → Bar B Önceki H=100, L=92; Yeni H=104, L=93. UpMove=4, \nDownMove=−1. \n+DM=4, −DM=0 \nBar B → Bar C Önceki H=104, L=93; Yeni H=103, L=88. UpMove=−1, \nDownMove=5. \n+DM=0, −DM=5 \n \nTEKNİK ZİNCİR \n+DM / −DM → True Range → Wilder tipi yumuşatma → +DI / −DI → DX → ADX. ADX, yukarı ve \naşağı yönlü hareket arasındaki farkın ne kadar belirgin olduğunu ölçer. \n \nFORMÜL FİKRİ \n+DI ve −DI yönlü hareketi normal hareket genişliğine göre ölçekler. DX iki DI arasındaki ayrımı 0–\n100 aralığına taşır; ADX bunu yumuşatır. Güçlü +DI üstünlüğü de güçlü −DI üstünlüğü de ADX’i \nyükseltebilir. \n \n12.3 — ADX yükselirken fiyat neden düşebilir? \n \nŞekil 12.1 — Eğitim örneği: düşüş hızlanırken −DI güçlenir ve ADX yükselir. Burada ADX’in yükselmesi fiyatın \nyükseleceğini değil, mevcut hareketin güçlendiğini gösterir. \nŞekilde fiyat düşerken ADX yükselir. Bu nedenle önce fiyat yapısının yönünü, ardından \n+DI/−DI ilişkisini ve ADX gücünü okuyun; ADX’e tek başına yön yüklemeyin.",
+    "source_extract_summary": [
+      "Örnek Hesap Sonuç Bar A → Bar B Önceki H=100, L=92; Yeni H=104, L=93.",
+      "+DM=4, −DM=0 Bar B → Bar C Önceki H=104, L=93; Yeni H=103, L=88.",
+      "+DM=0, −DM=5 TEKNİK ZİNCİR +DM / −DM → True Range → Wilder tipi yumuşatma → +DI / −DI → DX → ADX."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0076",
+    "page": 76,
+    "chapter": 12,
+    "section": "12.4 — 20 ve 25 eşikleri neden fizik yasası değildir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n76 \n12.4 — 20 ve 25 eşikleri neden fizik yasası değildir? \n20 ve 25 yaygın ADX referanslarıdır; kesin sınırlar değildir. Enstrüman, zaman dilimi ve piyasa \ndavranışı değiştikçe aynı eşik farklı anlam taşıyabilir. Seviye kadar ADX eğimini, DI ilişkisini \nve fiyat yapısını birlikte okuyun. \n \nŞekil 12.2 — Aynı ADX hesabı düzensiz/yatay piyasa hareketi ile daha düzenli trendde farklı davranır. Kesikli 25 çizgisi \nyalnız referanstır; bağlamın yerine geçmez. \nZayıf yaklaşım Daha iyi yaklaşım \nADX 24,9 → trend yok; 25,1 → güçlü trend ADX seviyesi + eğimi + DI ilişkisi + yapı birlikte okunur \nHer varlıkta aynı eşik Varlığın tarihsel ADX davranışını ve kullanılan zaman \ndilimini incele \nADX düştü → trend bitti Trend güç kaybedebilir; yapı bozulmadan dönüş ilan etme",
+    "source_extract_summary": [
+      "12.4 — 20 ve 25 eşikleri neden fizik yasası değildir?",
+      "20 ve 25 yaygın ADX referanslarıdır; kesin sınırlar değildir.",
+      "Enstrüman, zaman dilimi ve piyasa davranışı değiştikçe aynı eşik farklı anlam taşıyabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0077",
+    "page": 77,
+    "chapter": 12,
+    "section": "12.6 — ADX tepesi fiyat tepesi değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n77 \n12.5 — ADX’i tek eşik yerine dört hareket evresiyle okumak \nADX’in yalnız 20 veya 25’in üzerinde olup olmadığına bakmak yerine seviyesi ile eğimi \nbirlikte değerlendirilebilir. \nADX durumu Güç evresi Ne söylemez? \nDüşük + düşen Yönlü güç zayıf / düzensiz ortam olabilir Yönün ne olduğunu \nDüşük + yükselen Yönlü güç oluşmaya başlıyor olabilir Yeni trendin kesin başladığını \nYüksek + yükselen Mevcut yönlü güç artıyor olabilir Yükseliş mi düşüş mü olduğunu \nYüksek + düşen Trend artık önceki hızda güçlenmiyor Trendin bittiğini \nBu dört durum, “ADX 25’in üstünde = güçlü trend” cümlesinden daha fazla bağlam taşır. \n \nŞekil 12.3 — ADX seviyesi ile eğimi birlikte okunabilir. Kesikli 25 çizgisi yalnız referanstır; ADX’in yükselmesi veya \ndüşmesi yönü tek başına söylemez. \n12.6 — ADX tepesi fiyat tepesi değildir \nADX yüksek bir seviyeye ulaştıktan sonra düşmeye başlayabilir; fiyat buna rağmen trend \nyönünde yeni tepe veya dip üretmeye devam edebilir. ADX’in aşağı dönmesi trend gücünün \nönceki evreye göre azaldığını gösterir, trendin tersine döndüğünü değil. \nAynı nedenle ADX’in düşük bölgeden yukarı dönmesi, sabit bir eşiğin aşılmasından önce trend \ngücünde değişim başladığını gösterebilir. Burada önemli olan 17, 20 veya 23 gibi tek bir sayı \ndeğil, göstergenin düşük bölgeden yön değiştirmesidir. \nTEKNİK AYRIM — ADX GECİKMELİ BİR GÜÇ ÖLÇÜMÜDÜR \nADX fiyat verisinden türetilir ve yumuşatılır. Bu nedenle yüksek ADX, hareketin başlangıcını \nerken yakaladığımız anlamına gelmez; güçlü trendin daha olgun bir aşamasında da görülebilir. \nPratik sıra değişmez: \nfiyat yapısı → baskın yön → ADX’in güç evresi. \nADX kendi başına hareketin başlangıcını veya sonunu ilan etmez.",
+    "source_extract_summary": [
+      "12.5 — ADX’i tek eşik yerine dört hareket evresiyle okumak ADX’in yalnız 20 veya 25’in üzerinde olup olmadığına bakmak yerine seviyesi ile eğimi birlikte değerlendirilebilir.",
+      "Düşük + düşen Yönlü güç zayıf / düzensiz ortam olabilir Yönün ne olduğunu Düşük + yükselen Yönlü güç oluşmaya başlıyor olabilir Yeni trendin kesin başladığını Yüksek + yükselen Mevcut yönlü güç artıyor olabilir Yükseliş mi düşüş mü olduğunu Yüksek + düşen Trend artık önceki hızda güçlenmiyor Trendin bittiğini Bu dört durum, “ADX 25’in üstünde = güçlü trend” cümlesinden daha fazla bağlam taşır.",
+      "Kesikli 25 çizgisi yalnız referanstır; ADX’in yükselmesi veya düşmesi yönü tek başına söylemez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0078",
+    "page": 78,
+    "chapter": 12,
+    "section": "12.7 — +DI / −DI kesişimi neden otomatik giriş değildir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n78 \n12.7 — +DI / −DI kesişimi neden otomatik giriş değildir? \nDI kesişimi yukarı ve aşağı hareket arasındaki üstünlüğün değiştiğini gösterir. Fiyatın iyi bir \nbölgede olduğunu veya stopun nerede olması gerektiğini söylemez. Yatay piyasada sık kesişim \nolabileceği için fiyatın kendi davranışı ayrıca kontrol edilmelidir. \nÖRNEK \nFiyat yatay aralıkta ve +DI, −DI’yi yukarı kesiyor; ancak üst sınır aşılmamış. Sadece DI kesişimiyle \nalmak yerine kırılım, yeniden test veya fiyat yapısı teyidi beklemek bilgiyi bağlama oturtur. \n \nKombinasyon Rol ayrımı Not \nADX/DMI + Fiyat yapısı Güç/baskın taraf + doğrudan fiyat yapısı En temiz tamamlayıcılardan \nADX + Donchian Trend gücü + kırılım sınırı Kırılım ortamını değerlendirmede \nuygun \nADX + ATR Trend gücü + fiyat hareketliliği Farklı soru; ancak ikisi de Wilder \nailesi \nADX + MA Güç + yön filtresi Kullanılabilir; MA’yı giriş işaretine \ndönüştürme \n \nTEKRAR RİSKİ \nADX + Supertrend + MA + MACD dört bağımsız teyit değildir; büyük bölümü aynı trend/fiyat \nbilgisini tekrar eder. Güç, yön, konum ve giriş rollerini ayrı tutun. \n \nBÖLÜM SONUCU \nADX yönü değil, hareketin gücünü ölçer; DI çizgileri hangi tarafın daha baskın olduğunu gösterir. \n20/25 seviyeleri yalnız referanstır, evrensel kural değildir. Sıra: fiyat yapısı → DI ilişkisi → ADX \nseviyesi/eğimi → giriş işareti → risk.",
+    "source_extract_summary": [
+      "12.7 — +DI / −DI kesişimi neden otomatik giriş değildir?",
+      "DI kesişimi yukarı ve aşağı hareket arasındaki üstünlüğün değiştiğini gösterir.",
+      "Fiyatın iyi bir bölgede olduğunu veya stopun nerede olması gerektiğini söylemez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

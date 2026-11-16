@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "packages_complete": 12,
+  "pages": 109,
+  "atomic_claims": 319,
+  "testable_claims": 309,
+  "testable_claims_without_rule": 0,
+  "claims_without_explicit_definition": 0,
+  "unresolved_claims": 0,
+  "reference_only_claims": 7,
+  "deferred_ob_fvg_claims": 3,
+  "p7_events": 1582677,
+  "software_tests": "64 passed",
+  "knowledge_audit": "passed",
+  "ohlcv_audit": "passed"
+}

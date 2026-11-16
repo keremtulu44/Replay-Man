@@ -1,0 +1,20 @@
+{
+  "events": 343617,
+  "assets": 125,
+  "event_counts": {
+    "bear_two_bar_reclaim": 51466,
+    "bull_two_bar_reclaim": 48548,
+    "bull_harami": 42595,
+    "bear_harami": 42382,
+    "bear_engulf_strict": 39963,
+    "bull_engulf_strict": 38254,
+    "inside_break_down": 19250,
+    "inside_break_up": 18004,
+    "morning_star": 10493,
+    "evening_star": 8472,
+    "three_crows": 7530,
+    "bear_continuation_3": 6523,
+    "bull_continuation_3": 5661,
+    "three_soldiers": 4476
+  }
+}

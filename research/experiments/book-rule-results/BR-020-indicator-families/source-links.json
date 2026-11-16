@@ -1,0 +1,43 @@
+[
+  {
+    "id": "PTA-C1-2026.p0028",
+    "source_id": "PTA-C1-2026",
+    "page": 28,
+    "chapter": 5,
+    "section": "5.1 — MACD’nin üç parçası",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n28 \nBÖLÜM 5 \nMACD: Trend ve Hareket Gücü \nMACD’de çizgi isimlerini ezberlemek yerine şu basit fikri anlayın: kısa dönemli fiyat \nortalaması ile daha uzun dönemli ortalama arasındaki fark izlenir. Sütunlar \n(histogram) ise MACD çizgisi ile sinyal çizgisi arasındaki farkı gösterir; fiyatın ne \nkadar geniş dalgalandığını ölçmez. \n  \n \nHIZLI ROL — Ana görev: kısa ve uzun EMA arasındaki farkın açılıp kapanmasını izlemek; \nhareketin hızlanıp yavaşladığını görmek. Tek başına fiyat yapısını, hareket genişliğini veya \nkesin giriş zamanını söylemez. Ana risk: kesişimi erken uyarı sanmak ve çok sayıda \nortalamayla aynı bilgiyi tekrar etmek. İyi eşleşme: fiyat yapısı + ATR/Volume Profile. \n5.1 — MACD’nin üç parçası \nParça Temel hesap Ne anlatır? Ne anlatmaz? \nMACD çizgisi Hızlı EMA − yavaş EMA İki trend hızının ayrışması Doğrudan fiyat \nhareketliliği \nSinyal çizgisi MACD çizgisinin EMA’sı MACD’nin yumuşatılmış \nreferansı \nKesin giriş/çıkış \nMACD sütunları MACD − Sinyal İki çizgi arasındaki fark ATR / fiyat aralığı",
+    "source_extract_summary": [
+      "BÖLÜM 5 MACD: Trend ve Hareket Gücü MACD’de çizgi isimlerini ezberlemek yerine şu basit fikri anlayın: kısa dönemli fiyat ortalaması ile daha uzun dönemli ortalama arasındaki fark izlenir.",
+      "Sütunlar (histogram) ise MACD çizgisi ile sinyal çizgisi arasındaki farkı gösterir; fiyatın ne kadar geniş dalgalandığını ölçmez.",
+      "HIZLI ROL — Ana görev: kısa ve uzun EMA arasındaki farkın açılıp kapanmasını izlemek; hareketin hızlanıp yavaşladığını görmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0055",
+    "source_id": "PTA-C1-2026",
+    "page": 55,
+    "chapter": 8,
+    "section": "8.8 — Kırılım sistemi için pratik akış",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n55 \nAraç Ana soru Matematik sınıfı Yanlış eşitleme \nDonchian N-periyot sınırı nerede kırıldı? Doğrudan en yüksek/en düşük “Üst bant = aşırı \nalım.” \n \nPROFESYONEL KOMBİNASYON ÖRNEĞİ \nATR düşük → piyasa sakin. Donchian üst sınırı kırılıyor → yönlü giriş işareti. Hacim artıyor → \nkatılım desteği. Yapısal stop + ATR ek payı → risk. Her parça farklı bir soruya cevap verir.",
+    "source_extract_summary": [
+      "Araç Ana soru Matematik sınıfı Yanlış eşitleme Donchian N-periyot sınırı nerede kırıldı?",
+      "Doğrudan en yüksek/en düşük “Üst bant = aşırı alım.” PROFESYONEL KOMBİNASYON ÖRNEĞİ ATR düşük → piyasa sakin.",
+      "Donchian üst sınırı kırılıyor → yönlü giriş işareti."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  }
+]

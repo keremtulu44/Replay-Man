@@ -1,0 +1,765 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0128",
+    "page": 128,
+    "chapter": 7,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 7\nHacim, Volume Profile, Order Flow ve \nMikro Yapı",
+    "source_extract_summary": [
+      "BÖLÜM 7 Hacim, Volume Profile, Order Flow ve Mikro Yapı"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0129",
+    "page": 129,
+    "chapter": 7,
+    "section": "7.1 — Hacim Verisi Ne Ölçer?",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  114\nFiyatın Arkasındaki Katılımı Okumak\nFiyat grafiği bize hareketin sonucunu gösterir. Hacim ve order-flow araçları ise bu \nsonucun hangi işlem aktivitesiyle oluştuğunu farklı açılardan inceler. Ancak bütün \nhacim araçları aynı şeyi ölçmez: standart volume zamana, volume profile fiyata, \nVWAP hacim ağırlıklı ortalamaya, footprint ise gerçekleşen işlemin bid–ask \ndağılımına odaklanır.\nBu bölümde amaç, ekrana daha fazla gösterge eklemek değildir. Amaç; hangi \nsoruda hangi veri katmanının kullanılacağını, hacmin fiyatı ne zaman desteklediğini, \nne zaman çelişki ürettiğini ve mikro yapı verisinin hangi sınırlar içinde \nyorumlanabileceğini kurmaktır.\nBU BÖLÜMÜN SONUNDA\nStandart hacim, OBV, VWAP, volume profile, order book ve footprint verilerini görevlerine göre \nayırabilecek; breakout, trend, range ve dönüşlerde hacim davranışını değerlendirecek; POC/value \narea/HVN/LVN ile bid–ask/delta/imbalance/absorption kavramlarını doğru veri katmanında \nkullanabileceksiniz.\n7.1 Hacim Verisi Ne Ölçer?\nHacim, belirli bir zaman aralığında işlem gören miktarı ölçer. Hisse senedinde bu miktar pay adedi, \nfutures piyasasında kontrat adedi, kripto borsasında ilgili işlem çiftinin miktarı olabilir. Spot forex gibi \nmerkezi tek işlem kaydı bulunmayan piyasalarda ise platformlar çoğunlukla tick volume, yani fiyat \ngüncellemesi sayısını kullanır.\nPiyasa/veri Hacim neyi temsil eder? Ana sınırlama\nBorsa hissesi İlgili borsada işlem gören pay \nadedi.\nBaşka venue veya dark-pool \nişlemleri veri setinde \nolmayabilir.\nBorsa futures İşlem gören kontrat sayısı. Kontrat özellikleri ve seans \nyapısı bilinmelidir.\nKripto spot/perpetual İlgili borsa ve işlem çiftindeki \nmiktar.\nTek borsa hacmi bütün küresel \npiyasayı temsil etmez.\nSpot forex / CFD Çoğunlukla tick aktivitesi veya \nbroker verisi.\nGerçek merkezi toplam işlem \nhacmi değildir.\nVolume profile / footprint Aynı gerçekleşen hacmin fiyat \nseviyesine ayrıştırılmış \ngörünümü.\nKalite, veri sağlayıcı ve fiyat \nkutusu ayarına bağlıdır.",
+    "source_extract_summary": [
+      "Fiyatın Arkasındaki Katılımı Okumak Fiyat grafiği bize hareketin sonucunu gösterir.",
+      "Hacim ve order-flow araçları ise bu sonucun hangi işlem aktivitesiyle oluştuğunu farklı açılardan inceler.",
+      "Ancak bütün hacim araçları aynı şeyi ölçmez: standart volume zamana, volume profile fiyata, VWAP hacim ağırlıklı ortalamaya, footprint ise gerçekleşen işlemin bid–ask dağılımına odaklanır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0130",
+    "page": 130,
+    "chapter": 7,
+    "section": "7.2 — Hacim–Fiyat İlişkisi ve Bağıl Hacim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  115\nTablo 7.1 – Piyasaya göre hacim verisinin anlamı\nTEMEL DÜZELTME\nHacim “kaç kişinin işlem yaptığı” değildir. Tek bir büyük katılımcı çok yüksek hacim üretebilir; çok \nsayıda küçük katılımcı ise daha düşük toplam hacimde kalabilir. Hacim, işlem aktivitesinin miktarını \ngösterir; katılımcı kimliğini göstermez.\nHer gerçekleşen işlemde bir alıcı ve bir satıcı vardır. Bu nedenle yüksek hacim tek başına bullish veya \nbearish değildir. Yön yorumu için fiyatın nereye ilerlediği, nerede kapandığı ve yüksek aktivitenin \nsonuç üretip üretmediği incelenir.\n7.2 Hacim–Fiyat İlişkisi ve Bağıl Hacim\nMutlak hacim sayısı, piyasa ve zaman dilimi değiştikçe anlamını kaybedebilir. Bu nedenle hacim \nçoğunlukla kendi yakın geçmişiyle, aynı seans saatleriyle veya seçilmiş bir ortalamayla karşılaştırılır. \nBağıl hacim basitçe mevcut hacmin referans ortalamaya oranıdır; fakat referansın nasıl seçildiği \nsonucu değiştirir.\nBASIT ORAN\nBağıl hacim = Mevcut bar hacmi / Referans hacim ortalaması. Oranın 1’in üzerinde olması \nnormalin üzerinde aktiviteyi gösterir; bunun güçlü veya zayıf sinyal olup olmadığı fiyat sonucuna \nbağlıdır.",
+    "source_extract_summary": [
+      "Tek bir büyük katılımcı çok yüksek hacim üretebilir; çok sayıda küçük katılımcı ise daha düşük toplam hacimde kalabilir.",
+      "Hacim, işlem aktivitesinin miktarını gösterir; katılımcı kimliğini göstermez.",
+      "Her gerçekleşen işlemde bir alıcı ve bir satıcı vardır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0131",
+    "page": 131,
+    "chapter": 7,
+    "section": "7.3 — Trend, Pullback ve Range’de Hacim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  116\nŞekil 7.1 – Hacim–fiyat matrisi yön tahmini değil, katılım ve sonuç okumasıdır.\nFiyat davranışı Hacim davranışı İlk yorum Kontrol edilmesi gereken\nYükseliyor Artıyor Yukarı ilerlemeye \nartan katılım eşlik \nediyor.\nClose kalitesi, direnç, \nfollow-through.\nYükseliyor Azalıyor Fiyat ilerliyor fakat \nkatılım daralıyor.\nTrend olgunluğu, \nuzama ve karşı bölge.\nDüşüyor Artıyor Aşağı ilerlemeye artan \naktivite eşlik ediyor.\nCapitulation mı \ncontinuation mı? \nSonraki sonuç.\nDüşüyor Azalıyor Satış yönlü aktivite \ndaralıyor olabilir.\nDönüş teyidi yoksa \nyalnız zayıflama adayı.\nYatay Artıyor Yüksek çaba fakat \nsınırlı sonuç.\nAbsorption, \ndağılım/birikim veya iki \nyönlü savaş.\nYatay Azalıyor Sıkışma ve ilgi kaybı. Sonraki expansion \nyönü ve breakout \nkatılımı.\nTablo 7.2 – Hacim ve fiyat sonucunu birlikte okuma\nYAYGIN HATA\nVolume barının yeşil olması, bütün hacmin alıcılardan geldiğini göstermez. Çoğu standart gösterge \nbarı yalnız mumun rengine göre boyar. Agresif alım–satım ayrımı için bid–ask tabanlı footprint \nveya benzer veri gerekir.\n7.3 Trend, Pullback ve Range’de Hacim\nTrend içindeki ideal hacim davranışı mekanik bir kural değil, karşılaştırma çerçevesidir. Sağlıklı bir \nyükselişte impulse leg’lerde aktivitenin genişlemesi, pullback’lerde daralması beklenebilir. Düşüş \ntrendinde aynı mantık ters yönde uygulanır. Ancak haber, açılış seansı veya tek büyük işlem hacmi \nbozabilir; hacim tek bir barla değil dizi hâlinde okunmalıdır.",
+    "source_extract_summary": [
+      "Fiyat davranışı Hacim davranışı İlk yorum Kontrol edilmesi gereken Yükseliyor Artıyor Yukarı ilerlemeye artan katılım eşlik ediyor.",
+      "Close kalitesi, direnç, follow-through.",
+      "Yükseliyor Azalıyor Fiyat ilerliyor fakat katılım daralıyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0132",
+    "page": 132,
+    "chapter": 7,
+    "section": "7.4 — Breakout, Fakeout ve Gap Teyidi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  117\nŞekil 7.2 – Impulse ve pullback hacminin bağıl karşılaştırması.\nPiyasa durumu Sağlıklı işaret Uyarı işareti\nYükseliş trendi Yukarı impulse’larda artan; geri \nçekilmede azalan hacim.\nYeni high oluşurken hacim ve \nfiyat ilerlemesinin sürekli \ndaralması.\nDüşüş trendi Aşağı impulse’larda artan; tepki \nrallisinde azalan hacim.\nYeni low’da ilerleme azalırken \naşırı hacim ve güçlü geri alma.\nRange Sınır reaksiyonlarında aktivite; \norta bölgede daralma.\nRange ortasında rastgele \nspike’ları yön sinyali saymak.\nSıkışma Hacmin ve gerçek aralığın \nbirlikte daralması.\nDüşük hacmi otomatik \nyaklaşan büyük hareket \ngarantisi saymak.\nTablo 7.3 – Trend ve range bağlamında hacim\nRange sınırında yüksek hacim iki zıt hikâye üretebilir: güçlü karşı taraf fiyatı reddediyor olabilir veya \nsınırdaki pasif emirler tüketiliyor olabilir. Ayrım, reaksiyon mesafesi ve sonraki testlerde yapılır. Aynı \nseviyeye yüksek hacimle tekrar tekrar girilip daha az uzaklaşılması, sınırın zayıfladığına işaret edebilir.\n7.4 Breakout, Fakeout ve Gap Teyidi\nBreakout sırasında hacim artışı, yeni fiyat alanına katılımın genişlediğini gösterebilir. Fakat “önceki \nbarın üç katı” gibi sabit eşikler bütün piyasalarda çalışmaz. Açılış saatinde doğal olarak yüksek, öğle \nsaatinde doğal olarak düşük hacim görülebileceğinden, karşılaştırma aynı seans davranışını da hesaba \nkatmalıdır.\nKırılım işareti Olumlu teyit Fakeout uyarısı\nKapanış Sınırın ötesinde geniş gövdeli \nclose.\nYalnız fitil aşımı veya sınır içine \nclose.",
+    "source_extract_summary": [
+      "Piyasa durumu Sağlıklı işaret Uyarı işareti Yükseliş trendi Yukarı impulse’larda artan; geri çekilmede azalan hacim.",
+      "Yeni high oluşurken hacim ve fiyat ilerlemesinin sürekli daralması.",
+      "Düşüş trendi Aşağı impulse’larda artan; tepki rallisinde azalan hacim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0133",
+    "page": 133,
+    "chapter": 7,
+    "section": "7.5 — Volume Spike, Climax ve Exhaustion",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  118\nKırılım işareti Olumlu teyit Fakeout uyarısı\nHacim Yakın geçmişe ve aynı saate \ngöre belirgin artış.\nKatılım artışı olmadan dar \ngövde.\nTakip Sonraki barlarda yeni alanda \nacceptance.\nHemen karşı mum ve eski \nalanın geri alınması.\nRetest Kırılan sınırın yeni görevde \nkorunması.\nRetest sırasında yüksek karşı \nhacim ve başarısız savunma.\nHedef yolu Önünde LVN/boş alan veya \naçık fiyat yolu.\nYakında major HVN, bölge \nveya karşı likidite.\nTablo 7.4 – Breakout hacmi ve sonuç kontrolü\nGap teyidinde de hacim türü bağlama göre değişir. Breakaway gap yüksek katılım ve güçlü follow-\nthrough ile anlam kazanırken, uzamış trend sonunda oluşan gap yüksek hacme rağmen \nilerleyemiyorsa exhaustion adayı olabilir. Gap’in türü ilk bar açıldığında kesinleşmez; sonraki kabul \nveya geri dolum davranışı izlenir.\nANA ILKE\nDüşük hacimli breakout otomatik olarak başarısız değildir; yüksek hacimli breakout da otomatik \nolarak başarılı değildir. Hacim, kapanış ve takip olasılığı değiştirir; sonucu garanti etmez.\n7.5 Volume Spike, Climax ve Exhaustion\nVolume spike, yakın geçmişe göre olağan dışı işlem aktivitesidir. Spike’ın kendisi yön belirtmez. Aynı \nyüksek hacim güçlü continuation, haber kaynaklı yeniden fiyatlama, stop kümelerinin tetiklenmesi, \nabsorption veya trend sonu climax üretebilir.\nYüksek hacim + fiyat sonucu Olası okuma Gerekli sonraki kanıt\nGeniş bar, ekstrem yakınında \nclose, devam\nInitiation / continuation. Yeni alanda acceptance ve \ndevam eden yapı.\nGeniş bar, uzun karşı fitil, eski \nalana close\nRejection veya absorption \nadayı.\nKarşı yönde follow-through.\nÇok yüksek hacim, sınırlı aralık Yüksek çaba–düşük sonuç; \nabsorption ihtimali.\nSeviyenin korunması ve karşı \ninitiative.\nUzamış trend, spike, ilerleme \nkaybı\nClimax/exhaustion adayı. Yapı zayıflaması ve karşı close.\nSpike sonrası hemen düşük \nhacim ve yataylık\nEvent sonrası denge arayışı. Range sınırından çıkışın yönü.",
+    "source_extract_summary": [
+      "Kırılım işareti Olumlu teyit Fakeout uyarısı Hacim Yakın geçmişe ve aynı saate göre belirgin artış.",
+      "Takip Sonraki barlarda yeni alanda acceptance.",
+      "Hemen karşı mum ve eski alanın geri alınması."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0134",
+    "page": 134,
+    "chapter": 7,
+    "section": "7.7 — VWAP: Hacim Ağırlıklı Ortalama",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  119\nTablo 7.5 – Volume spike’ı fiyat sonucuyla sınıflandırma\nExhaustion düşük hacim mi, yüksek hacim mi?\nİki farklı exhaustion davranışı vardır. Birincisinde trend uzarken katılım giderek azalır; hareket yeni \nekstrem üretse bile destek daralır. İkincisinde son bir yüksek hacimli climax oluşur fakat fiyat bu \nçabaya rağmen ilerleyemez. Bu nedenle yalnız hacim yüksekliği değil, “çaba karşılığında ne kadar fiyat \nyolu üretildiği” sorulur.\n7.6 OBV ve Hacim Divergence\nOn-Balance Volume (OBV), kapanış önceki kapanışın üzerindeyse bar hacmini kümülatif toplama \nekler; altındaysa çıkarır; eşitse değeri değişmeden bırakır. Böylece fiyat yönü ile hacmi tek kümülatif \nçizgide birleştirir.\nOBV HESAP MANTIĞI\nClose[t] > Close[t-1] ise OBV[t] = OBV[t-1] + Volume[t]; close düşükse hacim çıkarılır; eşitse OBV \ndeğişmez.\nOBV kullanımı Olumlu okuma Sınır\nTrend teyidi Fiyat ve OBV birlikte HH/HL \nveya LH/LL üretir.\nAynı hacim, gün içindeki \ngerçek agresyonu göstermez.\nBullish divergence Fiyat lower low, OBV higher \nlow.\nDönüş için yapı ve price action \ngerekir.\nBearish divergence Fiyat higher high, OBV lower \nhigh.\nGüçlü trendde divergence \nuzun süre sürebilir.\nBreakout teyidi Fiyat sınırı kırarken OBV de \nkendi sınırını aşar.\nOBV’nin başlangıç değeri \nönemsiz; eğim ve swing \nkıyaslanır.\nTablo 7.6 – OBV kullanım alanları ve sınırlamalar\nVERI DUYARLILIĞI\nOBV, kullanılan hacim serisi kadar güvenilirdir. Venue-specific kripto hacmi, tick volume veya farklı \nseans filtreleri OBV çizgisini değiştirebilir. Divergence tek başına ters işlem çağrısı değildir.\n7.7 VWAP: Hacim Ağırlıklı Ortalama\nVWAP, seçilen başlangıçtan itibaren fiyatı işlem hacmiyle ağırlıklandırır. Basit hareketli ortalamada her \nbar eşit ağırlığa sahipken, VWAP’ta yüksek hacimli fiyatlar ortalamayı daha fazla etkiler. Hesapta \nkullanılan fiyat kaynağı—close, typical price veya başka bir kaynak—platform ayarına bağlı olabilir.",
+    "source_extract_summary": [
+      "İki farklı exhaustion davranışı vardır.",
+      "Birincisinde trend uzarken katılım giderek azalır; hareket yeni ekstrem üretse bile destek daralır.",
+      "İkincisinde son bir yüksek hacimli climax oluşur fakat fiyat bu çabaya rağmen ilerleyemez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0135",
+    "page": 135,
+    "chapter": 7,
+    "section": "7.7 — VWAP: Hacim Ağırlıklı Ortalama",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  120\nTEMEL FORMÜL\nVWAP = Σ(Fiyat × Hacim) / Σ(Hacim). Hesap yalnız seçilen session veya anchor içindeki verileri \nkapsar; reset noktası değişince çizgi de değişir.\nŞekil 7.3 – VWAP’ın anchor ve hacim ağırlığı mantığı.\nVWAP durumu Ne anlatabilir? Ne anlatmaz?\nFiyat rising VWAP üzerinde Session içinde hacim ağırlıklı \nortalamanın üzerinde kabul.\nTek başına yeni long sinyali.\nFiyat falling VWAP altında Ortalamanın altında ve aşağı \neğimli session davranışı.\nTrendin sonsuza kadar \nsüreceği.\nVWAP düz, fiyat iki yana \nuzuyor\nRange/mean-reversion bağlamı \nolabilir.\nHer band temasının döneceği.\nVWAP tekrar tekrar kesiliyor Kararsız/rotasyonel piyasa. Çizginin güçlü destek/direnç \nolduğu.\nAnchor önemli olaydan \nbaşlıyor\nO olaydan sonraki hacim \nağırlıklı maliyet referansı.\nBütün piyasanın gerçek \nmaliyet tabanı.\nTablo 7.7 – VWAP’ı bağlam içinde okuma\nSession, Anchored VWAP ve bantlar\nSession VWAP belirli seans başlangıcında resetlenir. Anchored VWAP ise major swing, gap, earnings, \nbreakout veya başka tanımlı olaydan başlatılabilir. Bantlar, platforma göre standart sapma veya yüzde \nuzaklıkla üretilebilir. Bantların anlamı kullanılan yönteme ve piyasa rejimine bağlıdır; trendde pullback \nalanı, range’de aşırı uzaklık ölçüsü olabilir.",
+    "source_extract_summary": [
+      "TEMEL FORMÜL VWAP = Σ(Fiyat × Hacim) / Σ(Hacim).",
+      "Hesap yalnız seçilen session veya anchor içindeki verileri kapsar; reset noktası değişince çizgi de değişir.",
+      "Fiyat rising VWAP üzerinde Session içinde hacim ağırlıklı ortalamanın üzerinde kabul."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0136",
+    "page": 136,
+    "chapter": 7,
+    "section": "7.8 — Volume Profile: Hacmi Fiyata Dağıtmak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  121\nYAYGIN HATA\nVWAP’ı her zaman “institutional support” diye adlandırmak. VWAP bir benchmark ve ortalama \nreferansıdır; tepki oluşması katılımcıların o seviyede gerçekten işlem üretmesine bağlıdır.\n7.8 Volume Profile: Hacmi Fiyata Dağıtmak\nStandart volume her barın toplam aktivitesini zaman ekseninde gösterir. Volume profile aynı seçilmiş \naralıktaki hacmi fiyat kutularına dağıtır. Böylece “ne zaman çok işlem oldu?” sorusu yerine “hangi \nfiyatlarda çok işlem oldu?” sorusunu yanıtlar.\nŞekil 7.4 – Volume profile’ın temel bileşenleri.\nProfile türü Range nasıl seçilir? Ana kullanım\nVisible Range Ekranda görünen barlar; zoom \ndeğiştikçe profil değişir.\nHızlı genel bağlam; görünüm \nbağımlılığına dikkat.\nFixed Range Kullanıcının seçtiği başlangıç–\nbitiş.\nImpulse, range, trend leg veya \nolay analizi.\nSession Profile Her session ayrı hesaplanır. Day trading ve session \nkarşılaştırması.\nPeriodic Profile Gün, hafta, ay gibi sabit \ndönem.\nDönemsel value migration ve \nkabul alanları.",
+    "source_extract_summary": [
+      "YAYGIN HATA VWAP’ı her zaman “institutional support” diye adlandırmak.",
+      "VWAP bir benchmark ve ortalama referansıdır; tepki oluşması katılımcıların o seviyede gerçekten işlem üretmesine bağlıdır.",
+      "7.8 Volume Profile: Hacmi Fiyata Dağıtmak Standart volume her barın toplam aktivitesini zaman ekseninde gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0137",
+    "page": 137,
+    "chapter": 7,
+    "section": "7.10 — Order Book, Market–Limit Emir ve Bid–",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  122\nTablo 7.8 – Volume profile range seçimleri\nProfile sonucu, seçilen başlangıç–bitiş, fiyat kutusu sayısı, seans filtresi ve veri kaynağına bağlıdır. Bu \nnedenle aynı grafikte farklı iki profile farklı POC ve value area üretebilir. Analiz öncesinde “hangi \nhareketi veya auction dönemini ölçüyorum?” sorusu cevaplanmalıdır.\n7.9 POC, Value Area, HVN ve LVN\nPoint of Control (POC), seçilen profilde en yüksek hacme sahip fiyat kutusudur. Value Area, toplam \nhacmin belirli yüzdesini—yaygın olarak yaklaşık yüzde 70—kapsayan alandır. Üst sınır VAH, alt sınır \nVAL olarak adlandırılır. Yüzde ve hesap yöntemi platformda değiştirilebilir.\nTerim Tanım Davranışsal yorum Yanlış yorum\nPOC En yüksek hacimli fiyat \nkutusu.\nSeçilen örnekte yoğun \nişlem ve iki yönlü \nkabul.\nKesin fair value veya \ndeğişmez destek.\nVAH / VAL Value area üst ve alt \nsınırları.\nKabul alanından dışarı \nçıkış/geri dönüş \nreferansı.\nHer temasın otomatik \ndönüş noktası.\nHVN Yerel yüksek hacim \ndüğümü.\nRotasyon ve zaman \nharcanmış alan.\nGelecekte kesin \nmıknatıs.\nLVN Yerel düşük hacim \ndüğümü.\nGeçmişte az kabul; \nhızlı traversal ihtimali.\nFiyatın mutlaka \nboşluktan geçeceği.\nValue migration POC/value area’nın \ndönemler arasında \nkayması.\nKabulün yukarı veya \naşağı taşınması.\nTek başına trend \nsinyali.\nTablo 7.9 – Volume profile temel terimleri\nPOC BIR LIKIDITE HAVUZU DEĞILDIR\nPOC geçmişte en çok hacmin gerçekleştiği fiyatı gösterir. Bekleyen stop veya limit emirlerinin \nmevcut miktarını göstermez. “Historical traded volume” ile “latent liquidity” aynı kavram değildir.\nLVN üzerinden ilk dönüşte hızlı hareket görülebilir; fakat piyasa aynı alanda zaman geçirip yeni hacim \noluşturursa eski LVN kabul alanına dönüşebilir. Profile statik bir harita değil, seçilen veri penceresinin \nözetidir.\n7.10 Order Book, Market–Limit Emir ve Bid–\nAsk\nOrder book, belirli anda görünen bekleyen limit emirlerini listeler. Bid tarafında alım limitleri, ask \ntarafında satış limitleri bulunur. Market emirleri karşı taraftaki limit likiditesini tüketerek gerçekleşir. \nAncak order book anlıktır: Emirler iptal edilebilir, taşınabilir veya gizli miktar içerebilir.",
+    "source_extract_summary": [
+      "Bu nedenle aynı grafikte farklı iki profile farklı POC ve value area üretebilir.",
+      "Analiz öncesinde “hangi hareketi veya auction dönemini ölçüyorum?” sorusu cevaplanmalıdır.",
+      "7.9 POC, Value Area, HVN ve LVN Point of Control (POC), seçilen profilde en yüksek hacme sahip fiyat kutusudur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0138",
+    "page": 138,
+    "chapter": 7,
+    "section": "7.11 — Footprint Chart ve Mum İçi Hacim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  123\nŞekil 7.5 – Bekleyen emir, gerçekleşen işlem ve footprint arasındaki veri zinciri.\nKavram Veri durumu Yorum sınırı\nBest bid / best ask En yüksek görünen alış ve en \ndüşük görünen satış limiti.\nBaşka venue’ler veya gizli \nlikidite görünmeyebilir.\nSpread Best ask ile best bid farkı. Tek başına yön değil işlem \nmaliyeti/likidite koşulu.\nMarket buy Ask tarafındaki bekleyen satış \nlimitleriyle eşleşir.\n“Yeni alıcı sayısı” veya kurum \nkimliği değildir.\nMarket sell Bid tarafındaki bekleyen alış \nlimitleriyle eşleşir.\nSatıcıların gelecekte devam \nedeceği garantisi değildir.\nDepth Farklı fiyatlarda görünen limit \nmiktarı.\nSpoofing, cancellation ve \niceberg nedeniyle değişebilir.\nTablo 7.10 – Order book ve gerçekleşme mantığı\nBUYER–SELLER PARADOKSU YOKTUR\nHer işlemde alıcı ve satıcı vardır. “Aggressive buyer” denildiğinde, ask fiyatındaki bekleyen satış \nemrini market emriyle alan taraf kastedilir. Agresyon, işlemin hangi taraftaki likiditeyi tükettiğini \nanlatır.\n7.11 Footprint Chart ve Mum İçi Hacim\nFootprint chart, mumun toplam OHLC sonucunu fiyat seviyelerine ayırır ve her seviyede bid ile ask \ntarafında gerçekleşen hacmi gösterir. Böylece standart mumun içinde hangi fiyatlarda agresif alış veya \nsatış yoğunlaştığı incelenebilir.",
+    "source_extract_summary": [
+      "Kavram Veri durumu Yorum sınırı Best bid / best ask En yüksek görünen alış ve en düşük görünen satış limiti.",
+      "Başka venue’ler veya gizli likidite görünmeyebilir.",
+      "Spread Best ask ile best bid farkı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Veri sözleşmesi ve mum özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0139",
+    "page": 139,
+    "chapter": 7,
+    "section": "7.11 — Footprint Chart ve Mum İçi Hacim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  124\nŞekil 7.6 – Basitleştirilmiş footprint ve delta örneği.\nFootprint öğesi Ne gösterir? Dikkat\nBid volume Bid tarafında gerçekleşen, \nçoğunlukla agresif satış olarak \nsınıflanan hacim.\nSınıflandırma veri sağlayıcının \ntrade-at-bid/ask yöntemine \nbağlıdır.\nAsk volume Ask tarafında gerçekleşen, \nçoğunlukla agresif alış olarak \nsınıflanan hacim.\nHer ask trade yükseliş sonucu \nüretmez.\nBar POC Mum içinde en yüksek toplam \nhacimli fiyat satırı.\nSonraki destek/direnç garantisi \ndeğildir.\nValue area Mum veya seçilen profile \niçindeki hacmin yoğun bölgesi.\nYüzde ve hesap platforma göre \ndeğişebilir.\nUnfinished/zero print gibi özel \netiketler\nPlatforma özgü mikro yapı \nişaretleri.\nEvrensel tanım veya tek başına \nsetup değildir.\nTablo 7.11 – Footprint verisinin temel öğeleri\nFootprint geçmişte gerçekleşen işlemi gösterir; order book ise bekleyen emri gösterir. İkisini \nkarıştırmak, gerçekleşmemiş büyük limit emrini gerçek talep sanmaya veya gerçekleşmiş yüksek \nagresif hacmi hâlâ bekleyen likidite gibi yorumlamaya yol açar.",
+    "source_extract_summary": [
+      "Dikkat Bid volume Bid tarafında gerçekleşen, çoğunlukla agresif satış olarak sınıflanan hacim.",
+      "Sınıflandırma veri sağlayıcının trade-at-bid/ask yöntemine bağlıdır.",
+      "Ask volume Ask tarafında gerçekleşen, çoğunlukla agresif alış olarak sınıflanan hacim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Konum ve seviye yaşam döngüsü",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0140",
+    "page": 140,
+    "chapter": 7,
+    "section": "7.13 — Footprint Imbalance ve Stacked Imbalance",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  125\n7.12 Delta ve Cumulative Volume Delta\nDelta, belirli bar veya fiyat seviyesinde ask tarafında gerçekleşen hacim ile bid tarafında gerçekleşen \nhacim arasındaki farktır. Yaygın convention Delta = Ask Volume − Bid Volume şeklindedir; bazı \nplatformlarda işaret veya sınıflandırma yöntemi farklı olabilir.\nDELTA FORMÜLÜ\nDelta = Agresif alış hacmi − agresif satış hacmi. CVD ise seçilen başlangıçtan itibaren deltaların \nkümülatif toplamıdır.\nFiyat–delta ilişkisi İlk yorum Gerekli kontrol\nFiyat yükseliyor, delta pozitif Agresif alış fiyat ilerlemesiyle \nuyumlu.\nClose, yapı ve sonraki \nacceptance.\nFiyat düşüyor, delta negatif Agresif satış aşağı sonuç \nüretiyor.\nDestek/likidite ve follow-\nthrough.\nFiyat yükseliyor, delta negatif Satış agresyonuna rağmen fiyat \nyükseliyor; absorption veya \npasif alım ihtimali.\nVeri kalitesi, seviye ve sonraki \nbullish initiative.\nFiyat düşüyor, delta pozitif Alış agresyonuna rağmen fiyat \ndüşüyor; pasif satış/absorption \nihtimali.\nKarşı close ve devam.\nFiyat yeni ekstrem, CVD \netmiyor\nDivergence adayı. Tek başına dönüş değil yapı \nzayıflamasıyla birlikte.\nTablo 7.12 – Delta ile fiyat sonucunu birlikte okuma\nCVD SINIRI\nCVD “smart money birikimi”ni doğrudan göstermez. Seçilen borsa, session reset, trade \nclassification ve aggregation yöntemi değiştiğinde CVD de değişir. Divergence olasılık filtresidir, \nkesin dönüş sinyali değildir.\n7.13 Footprint Imbalance ve Stacked Imbalance\nFootprint imbalance, karşılaştırılan bid ve ask hücrelerinden birinin diğerine göre belirgin biçimde \nbüyük olmasıdır. Bazı platformlar aynı fiyat satırını, bazıları diagonal karşılaştırmayı kullanır. Oran eşiği\n—örneğin yüzde 200 veya 300—kullanıcı ayarıdır; evrensel piyasa yasası değildir.\nTerim Tanım Ana kullanım Sınır\nBuy imbalance Ask tarafındaki \ngerçekleşen hacmin \nkarşı bid hücresine \ngöre baskın olması.\nAgresif alış \nyoğunluğunu \nişaretlemek.\nFiyat ilerlemiyorsa \nabsorption olabilir.",
+    "source_extract_summary": [
+      "7.12 Delta ve Cumulative Volume Delta Delta, belirli bar veya fiyat seviyesinde ask tarafında gerçekleşen hacim ile bid tarafında gerçekleşen hacim arasındaki farktır.",
+      "Yaygın convention Delta = Ask Volume − Bid Volume şeklindedir; bazı platformlarda işaret veya sınıflandırma yöntemi farklı olabilir.",
+      "DELTA FORMÜLÜ Delta = Agresif alış hacmi − agresif satış hacmi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0141",
+    "page": 141,
+    "chapter": 7,
+    "section": "7.14 — Absorption, Initiation ve Order-Flow",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  126\nTerim Tanım Ana kullanım Sınır\nSell imbalance Bid tarafındaki hacmin \nkarşı ask hücresine \ngöre baskın olması.\nAgresif satış \nyoğunluğunu \nişaretlemek.\nDestekte tek başına \nbearish değildir.\nStacked imbalance Ardışık birkaç fiyat \nsatırında aynı yönlü \nimbalance.\nYoğun initiative \nbölgesini belirlemek.\nEşik ve minimum satır \nsayısı ayara bağlıdır.\nPrice imbalance / FVG Mumlar arasında fiyat \nörtüşmesinin eksikliği.\nDisplacement ve fiyat \nboşluğu analizi.\nFootprint imbalance \nile aynı değildir.\nTablo 7.13 – Footprint imbalance ile fiyat imbalance ayrımı\nImbalance yorumunda en kritik soru “agresif taraf fiyatı ilerletebildi mi?” sorusudur. Aynı buying \nimbalance, mum üstte kapanır ve sonraki bar devam ederse initiative; uzun üst fitil ve aşağı close \nüretirse başarısız agresyon veya absorption hikâyesine dönüşebilir.\n7.14 Absorption, Initiation ve Order-Flow \nExhaustion\nInitiation, agresif akışın kendi yönünde fiyat ilerlemesi üretmesidir. Absorption ise yoğun agresif emre \nrağmen fiyatın ilerleyememesi veya ters sonuç üretmesidir; bu davranış karşı taraftaki pasif likiditenin \nagresyonu karşıladığı hipotezini destekler. Footprint, pasif katılımcının kimliğini göstermez; yalnız \nçaba–sonuç uyumsuzluğunu görünür kılar.\nDavranış Gözlenen kanıt İlk hipotez Teyit\nBullish initiation Buy imbalance + üst \nbölgede close + \nfollow-through.\nAgresif alıcılar fiyatı \nilerletti.\nYeni alanda kabul veya \nstacked continuation.\nBearish initiation Sell imbalance + alt \nbölgede close + takip.\nAgresif satıcılar sonuç \nüretti.\nAşağı yapı ilerlemesi.\nBullish absorption Yoğun sell delta, low \nçevresinde \nilerleyememe, yukarı \nclose.\nPasif alıcılar satış \nagresyonunu karşıladı.\nSonraki bullish \ninitiative.\nBearish absorption Yoğun buy delta, high \nçevresinde \nilerleyememe, aşağı \nclose.\nPasif satıcılar alış \nagresyonunu karşıladı.\nSonraki bearish \ninitiative.\nExhaustion Ekstremde azalan \nagresif hacim veya \nyeni fiyatlarda yetersiz \ntrade.\nİten tarafın devam \nisteği daralıyor.\nKarşı tarafın initiative \ngöstermesi.",
+    "source_extract_summary": [
+      "Terim Tanım Ana kullanım Sınır Sell imbalance Bid tarafındaki hacmin karşı ask hücresine göre baskın olması.",
+      "Agresif satış yoğunluğunu işaretlemek.",
+      "Destekte tek başına bearish değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0142",
+    "page": 142,
+    "chapter": 7,
+    "section": "7.15 — Bütünleşik Hacim ve Mikro Yapı İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  127\nTablo 7.14 – Order-flow davranışlarının çaba–sonuç mantığı\nAbsorption ile exhaustion aynı değildir\nAbsorption’da agresif hacim vardır fakat karşı pasif taraf fiyat ilerlemesini sınırlar. Exhaustion’da ise \nekstrem fiyatlara saldıran agresif tarafın aktivitesi azalır veya yeni fiyatlarda işlem devam etmez. İkisi \nbirlikte görülebilir; fakat veri hikâyeleri farklıdır.\nYAYGIN HATA\nNegatif delta gördüğünüz her low’u bullish absorption saymak. Absorption için yüksek agresif \nsatışa rağmen aşağı ilerlemenin başarısız olması ve ardından fiyatın bunu doğrulaması gerekir.\n7.15 Bütünleşik Hacim ve Mikro Yapı İş Akışı\nAraçların değeri, aynı sinyali tekrar ettirmelerinde değil farklı soruları yanıtlamalarındadır. Standart \nvolume katılımın zaman içindeki değişimini, profile kabulün fiyat dağılımını, VWAP ağırlıklı ortalamayı, \nfootprint ise mum içindeki gerçekleşen agresyonu gösterir.\n11. Önce piyasa ve veri türünü belirle: Merkezi volume mü, tick volume mü, venue-specific \nveri mi?\n12. Ana yapı ve önemli bölgeyi Bölüm 3–4 standardıyla işaretle.\n13. Standart hacmi yakın geçmiş ve aynı seans saatiyle karşılaştır.\n14. Fiyat ilerlemesi ile hacim çabasının uyumlu olup olmadığını sor.\n15. Breakout veya dönüşte close ve follow-through gelmeden hacmi tek başına karar \nyapma.\n16. VWAP kullanıyorsan session veya anchor başlangıcını açıkça tanımla.\n17. Volume profile için ölçülen auction/range’i ve row-size ayarını kaydet.\n18. POC/HVN/LVN’yi tarihsel kabul haritası olarak kullan; bekleyen likiditeyle karıştırma.\n19. Order flow gerekiyorsa order book ile footprint’in veri farkını koru.\n20. Delta/imbalance sonucunun fiyatı ilerletip ilerletemediğini incele.\n21. Absorption veya exhaustion etiketini karşı yöndeki teyit gelmeden kesinleştirme.\n22. Bütün kanıtları tek koşullu cümlede birleştir ve geçersizlik olayını yaz.\nAraç seçme tablosu\nSoru Öncelikli araç Yardımcı araç\nBu harekete katılım artıyor \nmu?\nStandart volume / relative \nvolume\nOBV\nHangi fiyatlarda işlem \nyoğunlaştı?\nVolume profile Session profile\nHacim ağırlıklı ortalama \nnerede?\nVWAP / Anchored VWAP Bands",
+    "source_extract_summary": [
+      "Exhaustion’da ise ekstrem fiyatlara saldıran agresif tarafın aktivitesi azalır veya yeni fiyatlarda işlem devam etmez.",
+      "İkisi birlikte görülebilir; fakat veri hikâyeleri farklıdır.",
+      "YAYGIN HATA Negatif delta gördüğünüz her low’u bullish absorption saymak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0143",
+    "page": 143,
+    "chapter": 7,
+    "section": "7.15 — Bütünleşik Hacim ve Mikro Yapı İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  128\nSoru Öncelikli araç Yardımcı araç\nBekleyen görünür limit \nemirleri nerede?\nOrder book / depth Heatmap\nMum içinde hangi taraf \nagresifti?\nFootprint / delta CVD\nAgresyon sonuç üretti mi? Price + footprint Imbalance, absorption/initiative\nBreakout kabul gördü mü? Close + follow-through + \nrelative volume\nProfile yolu, delta\nTablo 7.15 – Sorudan araca seçim\nÖrnek koşullu analiz cümleleri\n “Direnç üzerinde geniş gövdeli kapanışa aynı saat ortalamasının üzerinde hacim eşlik \nediyor; sonraki bar yeni alanda kalır ve retest düşük satış hacmiyle korunursa breakout \nkabulü güçlenir.”\n “Fiyat yeni high üretirken OBV ve CVD önceki high’ı geçemiyor; bu yalnız katılım \ndivergence’ıdır. Protected low bozulmadan trend dönüşü doğrulanmış değildir.”\n “Fixed-range profile’da fiyat LVN’e giriyor; hızlı traversal ihtimali vardır. Ancak alanda \nzaman ve hacim oluşursa eski düşük kabul varsayımı geçersizleşir.”\n “Support altında yoğun sell imbalance görülmesine rağmen bar aşağı ilerleyemeyip \nüstte kapandı; bullish absorption adayıdır. Sonraki buying initiative gelmeden dönüş \ntamamlanmış sayılmaz.”\nHızlı Başvuru\nAraç Tek cümlelik görev En büyük hata\nVolume Zaman aralığındaki işlem \naktivitesini ölçer.\nBar rengini buyer/seller volume \nsanmak.\nOBV Kapanış yönüne göre hacmi \nkümülatif izler.\nDivergence’ı otomatik dönüş \nsaymak.\nVWAP Anchor içindeki hacim ağırlıklı \nortalama fiyatı gösterir.\nHer teması support/resistance \nkabul etmek.\nVolume Profile Hacmi fiyat seviyelerine \ndağıtır.\nPOC’yi geleceğin kesin fair \nvalue’su saymak.\nOrder Book Görünen bekleyen limit \nemirlerini gösterir.\nİptal edilebilir emri kesin \ntalep/supply sanmak.\nFootprint Gerçekleşen bid–ask hacmini \nfiyat seviyesinde gösterir.\nKatılımcı kimliği ve niyeti \nçıkarmak.\nDelta/CVD Agresif alış–satış farkını ve \nkümülatif akışı gösterir.\nPozitif/negatif işareti fiyat yönü \ngarantisi saymak.",
+    "source_extract_summary": [
+      "Soru Öncelikli araç Yardımcı araç Bekleyen görünür limit emirleri nerede?",
+      "Order book / depth Heatmap Mum içinde hangi taraf agresifti?",
+      "Footprint / delta CVD Agresyon sonuç üretti mi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0144",
+    "page": 144,
+    "chapter": 7,
+    "section": "7.15 — Bütünleşik Hacim ve Mikro Yapı İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  129\nAraç Tek cümlelik görev En büyük hata\nAbsorption Yüksek çaba–düşük sonuç \nuyumsuzluğunu işaretler.\nKarşı teyit olmadan dönüş \netiketi vermek.\nTablo 7.16 – Bölüm 7 hızlı başvuru\nVeri ve Grafik Başı Kontrol Listesi\n Kullandığım volume merkezi borsa hacmi mi, tick volume mü, tek borsa verisi mi?\n Volume karşılaştırmam aynı zaman dilimi ve benzer seans saatleriyle mi?\n Bar rengi ile gerçek bid–ask agresyonunu karıştırıyor muyum?\n Hacim artışı fiyat ilerlemesi ve close ile sonuç üretiyor mu?\n VWAP’ın reset/anchor noktası nedir?\n Profile hangi başlangıç–bitiş ve row-size ile hesaplandı?\n POC/value area seçilen range değişirse nasıl değişiyor?\n Order book verisi bekleyen, footprint verisi gerçekleşen işlem olarak ayrıldı mı?\n Delta sign convention ve veri sağlayıcı yöntemi biliniyor mu?\n Imbalance eşiği ve diagonal/vertical karşılaştırma ayarı nedir?\n Absorption veya exhaustion için sonraki price-action teyidi var mı?\n Tek araç yerine yapı, bölge, kapanış ve follow-through ile koşullu cümle kuruldu mu?\nTemel Sözlük\nTerim Kısa tanım\nVolume Bir zaman aralığında işlem gören miktar veya \nveri sağlayıcıya göre tick aktivitesi.\nRelative Volume Mevcut hacmin seçilen referans hacme oranı.\nVolume Spike Yakın geçmişe göre olağan dışı hacim artışı.\nClimax Uzamış hareket içinde yüksek aktivite ve olası \ndoruk olayı.\nExhaustion İten tarafın yeni fiyat üretme kapasitesinin \ndaralması.\nOBV Kapanış yönüne göre hacmi ekleyip çıkaran \nkümülatif seri.\nVWAP Seçilen anchor içindeki hacim ağırlıklı ortalama \nfiyat.\nAnchored VWAP Kullanıcı tarafından seçilen olay/bar \nbaşlangıcından hesaplanan VWAP.\nVolume Profile Hacmin seçilen zaman aralığında fiyat \nseviyelerine dağılımı.\nPOC Profilde en yüksek hacimli fiyat kutusu.",
+    "source_extract_summary": [
+      "Araç Tek cümlelik görev En büyük hata Absorption Yüksek çaba–düşük sonuç uyumsuzluğunu işaretler.",
+      "Karşı teyit olmadan dönüş etiketi vermek.",
+      " Volume karşılaştırmam aynı zaman dilimi ve benzer seans saatleriyle mi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0145",
+    "page": 145,
+    "chapter": 7,
+    "section": "7.15 — Bütünleşik Hacim ve Mikro Yapı İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  130\nTerim Kısa tanım\nValue Area Toplam profile hacminin seçilen yüzdesini \nkapsayan alan.\nVAH / VAL Value area üst ve alt sınırı.\nHVN / LVN Yerel yüksek / düşük hacim düğümü.\nOrder Book Görünen bekleyen limit emirlerinin anlık listesi.\nBid / Ask En iyi alış / satış fiyatları ve footprint’te \ngerçekleşme tarafları.\nFootprint Fiyat seviyesindeki gerçekleşen bid–ask hacim \ndağılımı.\nDelta Agresif alış ile agresif satış hacmi farkı.\nCVD Deltanın seçilen başlangıçtan kümülatif toplamı.\nImbalance Footprint hücrelerinde bir tarafın tanımlı oranla \nbaskın olması.\nAbsorption Yoğun agresif akışa rağmen fiyat ilerlemesinin \nsınırlanması.\nInitiation Agresif akışın kendi yönünde fiyat ilerlemesi \nüretmesi.\nTablo 7.17 – Bölüm 7 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Hacim neden katılımcı sayısıyla aynı değildir?\n2. Her işlemde alıcı ve satıcı varken “agresif alıcı” ne demektir?\n3. Merkezi borsa hacmi ile tick volume arasındaki fark nedir?\n4. Bağıl hacim referansı neden aynı seans saatini dikkate almalıdır?\n5. Yükselen fiyat ve azalan hacim neden doğrudan short sinyali değildir?\n6. Sağlıklı trendde impulse ve pullback hacmi nasıl karşılaştırılır?\n7. Yüksek hacimli breakout hangi koşulda yine başarısız olabilir?\n8. Volume spike ile exhaustion arasındaki farkı hangi fiyat sonucu belirler?\n9. OBV nasıl hesaplanır ve en büyük sınırlaması nedir?\n10. VWAP’ın session ve anchor seçimi neden önemlidir?\n11. Volume profile ile standart volume hangi farklı soruları yanıtlar?\n12. POC neden latent liquidity veya kesin support değildir?\n13. HVN ve LVN hangi tarihsel davranışı özetler?",
+    "source_extract_summary": [
+      "Terim Kısa tanım Value Area Toplam profile hacminin seçilen yüzdesini kapsayan alan.",
+      "VAH / VAL Value area üst ve alt sınırı.",
+      "HVN / LVN Yerel yüksek / düşük hacim düğümü."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0146",
+    "page": 146,
+    "chapter": 7,
+    "section": "7.15 — Bütünleşik Hacim ve Mikro Yapı İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 7\nHacim, Volume Profile, Order Flow ve Mikro Yapı  •  131\n14. Order book ile footprint arasındaki veri farkı nedir?\n15. Delta nasıl hesaplanır ve pozitif delta neden her zaman fiyat yükselişi değildir?\n16. CVD divergence neden tek başına dönüş teyidi sayılmaz?\n17. Footprint imbalance ile FVG arasındaki temel fark nedir?\n18. Absorption ile exhaustion nasıl ayrılır?\n19. Bir order-flow sinyalini hangi yapı ve price-action kanıtlarıyla birleştirirsiniz?",
+    "source_extract_summary": [
+      "Order book ile footprint arasındaki veri farkı nedir?",
+      "Delta nasıl hesaplanır ve pozitif delta neden her zaman fiyat yükselişi değildir?",
+      "CVD divergence neden tek başına dönüş teyidi sayılmaz?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0147",
+    "page": 147,
+    "chapter": 8,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 8\nİndikatörler: Momentum, Trend, \nVolatilite ve Ortalama Değer",
+    "source_extract_summary": [
+      "BÖLÜM 8 İndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0148",
+    "page": 148,
+    "chapter": 8,
+    "section": "8.1 — İndikatörleri Doğru Yere Yerleştirmek",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  133\nFiyatı Dönüştürmek, Fiyatın Yerine Geçmemek\nİndikatör, grafikte fiyatın dışında yaşayan bağımsız bir gerçeklik değildir. Çoğu \nindikatör; fiyatın, zamanın veya hacmin belirli bir matematiksel dönüşümüdür. \nHareketli ortalama fiyatı yumuşatır; RSI ve MACD momentum değişimini özetler; \nBollinger Bands ile ATR volatiliteyi farklı yöntemlerle ölçer; Ichimoku ve Parabolic \nSAR trendi görselleştirir.\nBu nedenle asıl soru “hangi indikatör en iyi?” değildir. Doğru sorular şunlardır: Araç \nneyi ölçüyor? Hangi piyasa rejiminde anlamlı? Sinyal ne kadar gecikiyor? Aynı fiyat \nverisini kullanan başka bir göstergeyle gereksiz tekrar yapıyor mu? Fiyat, yapı, bölge \nve hacim bu sinyali doğruluyor mu?\nBU BÖLÜMÜN SONUNDA\nMomentum, trend, volatilite, ortalama değer, hacim ve ilişki indikatörlerini doğru ailelere ayıracak; \nstandart ayarları körü körüne kullanmayacak; RSI/MACD/Stochastic RSI/CCI, hareketli ortalamalar, \nBollinger, ATR, Ichimoku ve SAR sinyallerini piyasa rejimiyle birlikte değerlendirecek ve araç \nyığmak yerine görev bazlı indikatör seçebileceksiniz.\n8.1 İndikatörleri Doğru Yere Yerleştirmek\nİndikatörler, ham piyasa verisini daha kolay okunabilen bir özet hâline getirir. Bu özet bazen trend \nyönünü, bazen momentumun hızını, bazen hareket genişliğini, bazen de fiyatın seçilen ortalamadan \nuzaklığını gösterir. Ancak dönüşüm sırasında ayrıntı kaybolur ve gecikme oluşabilir. Bu nedenle \nindikatör, fiyat davranışını açıklayan yardımcı katmandır; fiyatın kendisi değildir.",
+    "source_extract_summary": [
+      "Fiyatı Dönüştürmek, Fiyatın Yerine Geçmemek İndikatör, grafikte fiyatın dışında yaşayan bağımsız bir gerçeklik değildir.",
+      "Çoğu indikatör; fiyatın, zamanın veya hacmin belirli bir matematiksel dönüşümüdür.",
+      "Hareketli ortalama fiyatı yumuşatır; RSI ve MACD momentum değişimini özetler; Bollinger Bands ile ATR volatiliteyi farklı yöntemlerle ölçer; Ichimoku ve Parabolic SAR trendi görselleştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0149",
+    "page": 149,
+    "chapter": 8,
+    "section": "8.1 — İndikatörleri Doğru Yere Yerleştirmek",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  134\nŞekil 8.1 – İndikatörleri ölçtükleri soruya göre ayırmak\nAile Ana soru Bu bölümdeki araçlar\nTrend / ortalama Fiyat hangi yönde ve ortalama \ndeğerin hangi tarafında?\nSMA, EMA, WMA, HMA, RMA, \nMACD, Ichimoku, Parabolic \nSAR\nMomentum Hareketin göreli hızı ve gücü \nartıyor mu?\nRSI, Stochastic RSI, MACD, CCI\nVolatilite Fiyat ne kadar geniş hareket \nediyor?\nBollinger Bands, ATR, VIX\nHacim / ortalama değer Hacim katılımı ve hacim \nağırlıklı ortalama ne söylüyor?\nOBV, VWAP — ayrıntı Bölüm 7\nİlişki İki varlık seçilen dönemde \nbirlikte mi, zıt mı hareket \nediyor?\nCorrelation coefficient\nTablo 8.1 – İndikatör aileleri ve cevapladıkları sorular\nTEMEL ILKE\nİndikatörü adıyla değil göreviyle seçin. Aynı soruyu cevaplayan üç araç eklemek, çoğu zaman üç \nayrı teyit değil aynı verinin üç farklı görünümüdür.",
+    "source_extract_summary": [
+      "SMA, EMA, WMA, HMA, RMA, MACD, Ichimoku, Parabolic SAR Momentum Hareketin göreli hızı ve gücü artıyor mu?",
+      "RSI, Stochastic RSI, MACD, CCI Volatilite Fiyat ne kadar geniş hareket ediyor?",
+      "Bollinger Bands, ATR, VIX Hacim / ortalama değer Hacim katılımı ve hacim ağırlıklı ortalama ne söylüyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Göreceli katılım ve hacim özellikleri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0150",
+    "page": 150,
+    "chapter": 8,
+    "section": "8.3 — Hareketli Ortalamalar: SMA, EMA, WMA,",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  135\n8.2 İndikatör Aileleri, Gecikme ve Ayar Mantığı\nTrading eğitimlerinde araçlar sıkça “leading” ve “lagging” diye ikiye ayrılır. Bu ayrım pratik bir fikir \nverir; fakat “leading indicator geleceği bilir” anlamına gelmez. Bütün araçlar geçmiş ve mevcut \nveriden hesaplanır. Fark, yeni veriye ne kadar hızlı tepki verdikleridir.\nAyar tercihi Avantaj Bedel\nKısa periyot / yüksek \nhassasiyet\nDönüş ve momentum \ndeğişimine daha erken tepki.\nDaha fazla gürültü, crossover \nve whipsaw.\nUzun periyot / yüksek \nyumuşaklık\nAna trend daha temiz görünür; \nküçük dalgalanmalar filtrelenir.\nDaha geç sinyal ve daha geniş \ngeçersizlik mesafesi.\nÇoklu göstergede benzer \nayarlar\nGrafik aynı fikri tutarlı \ngösterebilir.\nKanıt tekrarına ve aşırı güvene \nyol açabilir.\nPiyasaya göre test edilmiş ayar Stratejinin hedeflediği \nhareketle daha uyumlu olabilir.\nOverfitting ve geçmişe özel \nayar riski.\nTablo 8.2 – Ayar hızının temel ödünleşimi\nStandart ayar ne anlama gelir?\nRSI 14, Bollinger 20 ve 2 standart sapma, MACD 12–26–9, ATR 14 veya Ichimoku 9–26–52 sık \nkullanılan başlangıç değerleridir. Bunlar evrensel optimum değildir. Ayar değiştirilirken yalnız daha \ngüzel geçmiş sinyal aranmaz; aracın görevi, işlem süresi, piyasa rejimi ve false-signal maliyeti birlikte \ntest edilir.\n Önce stratejinin tuttuğu hareket süresini belirleyin.\n Tek bir parametreyi değiştirip diğerlerini sabit tutun.\n Trend, range, yüksek ve düşük volatilite dönemlerini ayrı test edin.\n Sinyal sayısı, gecikme, başarısızlık ve işlem maliyetini birlikte karşılaştırın.\n Ayarı geçmişteki tek örneğe uydurmayın; replay ve dış örnek kullanın.\n8.3 Hareketli Ortalamalar: SMA, EMA, WMA, \nHMA ve RMA\nHareketli ortalama, seçilen sayıdaki barın fiyat bilgisini tek bir yumuşatılmış çizgide özetler. \nOrtalamalar trendi yaratmaz; gerçekleşmiş fiyatı farklı ağırlıklarla filtreler. Aralarındaki temel fark, yeni \nfiyatlara verilen ağırlık ve çizginin yumuşaklığıdır.",
+    "source_extract_summary": [
+      "8.2 İndikatör Aileleri, Gecikme ve Ayar Mantığı Trading eğitimlerinde araçlar sıkça “leading” ve “lagging” diye ikiye ayrılır.",
+      "Bu ayrım pratik bir fikir verir; fakat “leading indicator geleceği bilir” anlamına gelmez.",
+      "Bütün araçlar geçmiş ve mevcut veriden hesaplanır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0151",
+    "page": 151,
+    "chapter": 8,
+    "section": "8.3 — Hareketli Ortalamalar: SMA, EMA, WMA,",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  136\nŞekil 8.2 – Aynı uzunlukta farklı ağırlıkların tepki hızı\nOrtalama Temel mantık Güçlü yanı Başlıca risk\nSMA Son n fiyatın eşit \nağırlıklı ortalaması.\nBasit, şeffaf ve ana \ntrend için temiz.\nYeni bilgiye en yavaş \ntepki verenlerden \nbiridir.\nEMA Yakın fiyatlara daha \nyüksek ağırlık.\nKısa ve orta vadede \ndaha hızlı reaksiyon.\nGürültüde daha fazla \nsahte kesişim.\nWMA Ağırlıklar yakın bara \ndoğru doğrusal artar.\nYeni veriye belirgin \nağırlık ve anlaşılır \nhesap.\nHız arttıkça whipsaw \nartabilir.\nHMA Ağırlıklı ortalamaları \nbirleştirerek hız ve \nyumuşaklık arar.\nDaha hızlı yön \ndeğişimi ve pürüzsüz \ngörünüm.\nErken tepki, range’de \nfazla sinyal \noluşturabilir.\nRMA / Smoothed MA Önceki ortalamayı \ngüçlü biçimde taşıyan \nyumuşatma.\nATR ve RSI gibi Wilder \naraçlarıyla uyumlu, \nsakin seri.\nDönüşlere daha geç \ntepki.\nTablo 8.3 – Ana hareketli ortalama türleri\nUzunluk seçimi\nKısa ortalama mikro hareketi, uzun ortalama daha geniş bağlamı izler. “20 kısa, 50 orta, 200 uzun” gibi \nsayılar yaygın referanslardır; fakat her piyasa ve zaman diliminde aynı işlevi garanti etmez. Önemli \nolan, ortalamanın stratejide hangi hareketi filtrelediğinin önceden tanımlanmasıdır.",
+    "source_extract_summary": [
+      "Basit, şeffaf ve ana trend için temiz.",
+      "Yeni bilgiye en yavaş tepki verenlerden biridir.",
+      "EMA Yakın fiyatlara daha yüksek ağırlık."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0152",
+    "page": 152,
+    "chapter": 8,
+    "section": "8.4 — Ortalamalarla Trend, Cross ve Dinamik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  137\nYAYGIN HATA\nBeş farklı ortalamayı aynı grafiğe ekleyip her birini bağımsız teyit saymak. Bütün çizgiler aynı \nfiyattan türemiştir; farklı hızlarda benzer bilgiyi tekrar eder.\n8.4 Ortalamalarla Trend, Cross ve Dinamik \nReferans\nHareketli ortalamalar dört ana görevde kullanılır: yön filtresi, fiyatın ortalamaya göre konumu, eğim, \nve kısa–uzun ortalama ilişkisi. Bu görevler birbirine benzer görünse de aynı değildir.\nOkuma Olumlu yorum Uyarı\nFiyat ortalamanın üstünde Seçilen periyotta fiyat \nortalamanın üzerinde kabul \ngörüyor.\nTek mum aşımı trend değişimi \ndeğildir.\nOrtalama yukarı eğimli Geçmiş fiyat ortalaması \nyükseliyor.\nEğim dönüşü gecikmeli olabilir.\nKısa MA uzun MA üstünde Yakın dönem ortalaması uzun \ndönemden güçlü.\nCross çoğu zaman hareket \nbaşladıktan sonra gelir.\nPullback ortalamada tepki Ortalama dinamik referans \nolarak çalışmış olabilir.\nReaksiyon yapı/bölge ve mum \nkapanışıyla kanıtlanmalı.\nFiyat ortalama çevresinde \nkesişiyor\nRange veya kararsız rejim \nihtimali.\nSık cross, trend stratejisinde \nwhipsaw üretir.\nTablo 8.4 – Hareketli ortalama okuma biçimleri\nGolden cross ve death cross\nKısa ortalamanın uzun ortalamayı yukarı kesmesi “golden cross”, aşağı kesmesi “death cross” olarak \nadlandırılabilir. Bu olaylar özellikle uzun periyotlarda trend değişimini özetleyebilir; ancak doğaları \ngereği gecikmelidir. Cross’un hangi swing ve bölgede oluştuğu, ortalamaların eğimi ve fiyatın yeni \ntarafta kalıp kalmadığı önemlidir.\nDINAMIK SEVIYE DEĞILDIR, DINAMIK REFERANSTIR\nOrtalama çizgisi her yeni barla değişir. Fiyatın geçmişte birkaç kez tepki vermesi sonraki temasın \nkesin destek veya direnç olacağını kanıtlamaz.",
+    "source_extract_summary": [
+      "YAYGIN HATA Beş farklı ortalamayı aynı grafiğe ekleyip her birini bağımsız teyit saymak.",
+      "Bütün çizgiler aynı fiyattan türemiştir; farklı hızlarda benzer bilgiyi tekrar eder.",
+      "8.4 Ortalamalarla Trend, Cross ve Dinamik Referans Hareketli ortalamalar dört ana görevde kullanılır: yön filtresi, fiyatın ortalamaya göre konumu, eğim, ve kısa–uzun ortalama ilişkisi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0153",
+    "page": 153,
+    "chapter": 8,
+    "section": "8.5 — MACD: Trend ile Momentumu Birleştirmek",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  138\n8.5 MACD: Trend ile Momentumu Birleştirmek\nMACD, iki üssel hareketli ortalama arasındaki farkı izler. Standart yapıda MACD çizgisi 12 periyot EMA \nile 26 periyot EMA farkıdır; signal çizgisi MACD’nin 9 periyot EMA’sıdır. Histogram ise bu iki çizgi \narasındaki farkı görselleştirir.\nŞekil 8.3 – MACD bileşenleri ve zero line\nBileşen Ne anlatır? Yanlış kullanım\nMACD çizgisi Hızlı ve yavaş EMA arasındaki \nmomentum farkı.\nTek başına pozitif olduğunda \notomatik buy.\nSignal çizgisi MACD çizgisinin yumuşatılmış \nortalaması.\nHer kesişimi işlem tetikleyicisi \nyapmak.\nHistogram MACD ile signal arasındaki \nfarkın genişleyip daralması.\nHistogram küçülmesini trend \ndönüşü sanmak.\nZero line Hızlı EMA ile yavaş EMA’nın \ngöreli konumu.\nZero-line geçişini erken sinyal \nbeklemek.\nTablo 8.5 – MACD’nin dört okuma katmanı\nMACD nasıl bağlama yerleştirilir?\n Trend filtresi: MACD’nin zero line tarafı ve ana eğimi.\n Momentum: histogramın genişlemesi veya daralması.\n Tetik adayı: signal crossover; yalnız yapı ve bölgede anlamlı.\n Dönüş uyarısı: fiyat ile MACD arasındaki divergence.\n Geçersizlik: price action’ın beklenen yönde close ve follow-through üretememesi.",
+    "source_extract_summary": [
+      "8.5 MACD: Trend ile Momentumu Birleştirmek MACD, iki üssel hareketli ortalama arasındaki farkı izler.",
+      "Standart yapıda MACD çizgisi 12 periyot EMA ile 26 periyot EMA farkıdır; signal çizgisi MACD’nin 9 periyot EMA’sıdır.",
+      "Histogram ise bu iki çizgi arasındaki farkı görselleştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0154",
+    "page": 154,
+    "chapter": 8,
+    "section": "8.6 — RSI: Momentum, 50 Çizgisi ve Piyasa Rejimi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  139\nÖNEMLI AYRIM\nHistogramın küçülmesi momentum farkının daraldığını söyler; fiyatın hemen tersine döneceğini \nsöylemez. Trend, daha düşük hızla aynı yönde devam edebilir.\n8.6 RSI: Momentum, 50 Çizgisi ve Piyasa Rejimi\nRelative Strength Index, seçilen periyottaki ortalama yükseliş ve düşüş gücünü 0 ile 100 arasında \nnormalize eder. Yüksek RSI güçlü bullish, düşük RSI güçlü bearish momentumla ilişkilidir. “Relative \nstrength” burada başka bir varlığa göre performans değil, yakın yükselişlerin düşüşlere göre gücüdür.\nŞekil 8.4 – RSI seviyeleri trend ve range içinde farklı yorumlanır\nRSI alanı Temel anlam Bağlam notu\n70 üstü Güçlü bullish momentum / \noverbought koşulu.\nUptrend’de uzun süre \nkorunabilir; otomatik sell \ndeğildir.\n50 üstü Yükseliş momentumunun göreli \nüstünlüğü.\nTrend filtresi olarak \nkullanılabilir.\n50 altı Düşüş momentumunun göreli \nüstünlüğü.\nRange’de sık geçiş gürültü \nüretebilir.\n30 altı Güçlü bearish momentum / \noversold koşulu.\nDowntrend’de uzun süre \nkalabilir; otomatik buy değildir.",
+    "source_extract_summary": [
+      "ÖNEMLI AYRIM Histogramın küçülmesi momentum farkının daraldığını söyler; fiyatın hemen tersine döneceğini söylemez.",
+      "Trend, daha düşük hızla aynı yönde devam edebilir.",
+      "8.6 RSI: Momentum, 50 Çizgisi ve Piyasa Rejimi Relative Strength Index, seçilen periyottaki ortalama yükseliş ve düşüş gücünü 0 ile 100 arasında normalize eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0155",
+    "page": 155,
+    "chapter": 8,
+    "section": "8.7 — Divergence: Regular ve Hidden Uyumsuzluk",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  140\nTablo 8.6 – RSI alanlarının koşullu anlamı\nTrend ve range ayrımı\nRange piyasasında 70/30 bölgeleri uçlara yakın dönüş uyarısı olarak daha kullanışlı olabilir. Güçlü \ntrendde ise RSI’nın aşırı bölgede kalması hareketin gücünü doğrulayabilir. Bu nedenle ilk soru RSI kaç \ndeğil, piyasa trend mi range mi sorusudur.\nEN BÜYÜK RSI HATASI\n“Overbought = pahalı = düşmek zorunda” ve “oversold = ucuz = yükselmek zorunda” zinciri. RSI \ndeğerleme ölçmez; momentum koşulunu ölçer.\n8.7 Divergence: Regular ve Hidden Uyumsuzluk\nDivergence, fiyatın swing yönü ile momentum göstergesinin swing yönünün uyuşmamasıdır. RSI, \nMACD, Stochastic RSI ve CCI gibi araçlarla görülebilir. Bu uyumsuzluk, fiyatın mevcut hızının yapısal \nhareketi teyit etmediğini söyler; dönüşün tamamlandığını söylemez.\nTür Fiyat İndikatör Olası mesaj\nRegular bullish Lower low Higher low Düşüş sürüyor; bearish \nmomentum zayıflıyor \nolabilir.\nRegular bearish Higher high Lower high Yükseliş sürüyor; \nbullish momentum \nzayıflıyor olabilir.\nHidden bullish Higher low Lower low Uptrend pullback’i \niçinde devam \nmomentumu adayı.\nHidden bearish Lower high Higher high Downtrend pullback’i \niçinde devam \nmomentumu adayı.\nTablo 8.7 – Regular ve hidden divergence\nDivergence teyit zinciri\n1. Aynı tür swing noktalarını karşılaştır: high–high veya low–low.\n2. İndikatör swing’lerinin fiyatla aynı zaman aralığına ait olduğundan emin ol.\n3. Uyumsuzluğun önemli bölge, likidite olayı veya uzamış trendde oluşup oluşmadığını kontrol et.\n4. Price action veya market structure değişimi bekle.\n5. Close ve follow-through gelmeden ters yönü doğrulanmış sayma.",
+    "source_extract_summary": [
+      "Güçlü trendde ise RSI’nın aşırı bölgede kalması hareketin gücünü doğrulayabilir.",
+      "Bu nedenle ilk soru RSI kaç değil, piyasa trend mi range mi sorusudur.",
+      "EN BÜYÜK RSI HATASI “Overbought = pahalı = düşmek zorunda” ve “oversold = ucuz = yükselmek zorunda” zinciri."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0156",
+    "page": 156,
+    "chapter": 8,
+    "section": "8.9 — CCI: Ortalamadan Sapma ve Rejim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  141\nDIVERGENCE REPAINT ETMESE BILE GERIYE DÖNÜK SEÇILEBILIR\nSwing noktası henüz tamamlanmadan çizilen divergence değişebilir. Ayrıca grafikte çalışan \nörnekleri seçmek, başarısız uyumsuzlukları görmezden gelme riski yaratır.\n8.8 Stochastic RSI: Daha Hassas Momentum \nOkuması\nStochastic RSI, doğrudan fiyatı değil RSI’nın kendi yakın aralığındaki konumunu ölçer. Bu nedenle \nnormal RSI’dan daha hızlı ve hassastır. 0–100 arasında salınır; çoğu kullanımda hızlı %K ile \nyumuşatılmış %D çizgisi bulunur.\nOkuma Ne söyler? Risk\n80 üstü RSI kendi yakın aralığının üst \nbölümünde.\nTrendde uzun süre yüksek \nkalabilir.\n20 altı RSI kendi yakın aralığının alt \nbölümünde.\nDowntrend’de otomatik buy \ndeğildir.\n%K–%D crossover Hassas momentum yönü \ndeğişiyor.\nRange’de çok sık ve gecikmeli \nkesişim.\nDivergence Hassas momentum fiyat \nswing’ini teyit etmiyor.\nAşırı duyarlılık fazla \nuyumsuzluk üretebilir.\nMid-range geçiş Momentum rejimi değişiyor \nolabilir.\nTek başına yön filtresi zayıftır.\nTablo 8.8 – Stochastic RSI okuma katmanları\nNe zaman normal RSI, ne zaman Stochastic RSI?\nNormal RSI daha sakin bir momentum rejimi sunar; Stochastic RSI kısa vadeli dönüşlere daha hızlı \ntepki verir. Trend filtresi için normal RSI, zamanlama için Stochastic RSI kullanılabilir; fakat iki araç aynı \nmomentum ailesindedir ve bağımsız teyit gibi sayılmamalıdır.\n8.9 CCI: Ortalamadan Sapma ve Rejim\nCommodity Channel Index, fiyatın seçilen dönem ortalamasından ne kadar uzaklaştığını ölçen sınırsız \nbir momentum osilatörüdür. Adı emtiadan gelse de hisse, forex ve kripto piyasalarında da kullanılır. \nStandart uzunluk genellikle 20’dir; +100 ve −100 sık kullanılan referanslardır.\nCCI davranışı Olası kullanım Sınırlama\n+100 üstüne güçlü geçiş Trend momentumunun \nyükseldiğini doğrulama.\nGeçişten sonra hareket uzamış \nolabilir.",
+    "source_extract_summary": [
+      "DIVERGENCE REPAINT ETMESE BILE GERIYE DÖNÜK SEÇILEBILIR Swing noktası henüz tamamlanmadan çizilen divergence değişebilir.",
+      "Ayrıca grafikte çalışan örnekleri seçmek, başarısız uyumsuzlukları görmezden gelme riski yaratır.",
+      "8.8 Stochastic RSI: Daha Hassas Momentum Okuması Stochastic RSI, doğrudan fiyatı değil RSI’nın kendi yakın aralığındaki konumunu ölçer."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0157",
+    "page": 157,
+    "chapter": 8,
+    "section": "8.10 — Bollinger Bands: Squeeze, Expansion ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  142\nCCI davranışı Olası kullanım Sınırlama\n−100 altına güçlü geçiş Bearish trend momentumunu \ndoğrulama.\nTek başına short emri değildir.\nRange uçlarında aşırı sapma Mean-reversion adayı. Güçlü trendde ters sinyaller \nartar.\nRegular / hidden divergence Dönüş veya devam uyarısı. Yapı ve fiyat teyidi gerekir.\nKısa periyot Daha hızlı sinyal. Daha çok gürültü.\nUzun periyot Daha sakin ve seyrek sinyal. Daha fazla gecikme.\nTablo 8.9 – CCI’nin trend ve mean-reversion görevleri\nCCI SINIRSIZDIR\nRSI gibi 0–100 arasında sıkışmaz. Bu nedenle +100 veya −100 “maksimum” değildir; güçlü trendde \ndeğerler daha uç seviyelere gidebilir.\n8.10 Bollinger Bands: Squeeze, Expansion ve \nBand Walk\nBollinger Bands, orta çizgi olarak bir hareketli ortalama ve bunun çevresinde standart sapmaya dayalı \nüst–alt bantlardan oluşur. Yaygın başlangıç ayarı 20 periyot SMA ve 2 standart sapmadır. Bant \ngenişliği, yakın fiyat dağılımının genişleyip daraldığını gösterir.",
+    "source_extract_summary": [
+      "CCI davranışı Olası kullanım Sınırlama −100 altına güçlü geçiş Bearish trend momentumunu doğrulama.",
+      "Range uçlarında aşırı sapma Mean-reversion adayı.",
+      "Güçlü trendde ters sinyaller artar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0158",
+    "page": 158,
+    "chapter": 8,
+    "section": "8.10 — Bollinger Bands: Squeeze, Expansion ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  143\nŞekil 8.5 – Daralma, kırılım ve band walk davranışı\nDavranış Temel yorum Yanlış yorum\nSqueeze Volatilite daralıyor; daha geniş \nhareket ihtimali birikiyor.\nYönün önceden belli olduğu \nvarsayımı.\nExpansion Volatilite artıyor ve bantlar \naçılıyor.\nHer expansion’ı sürdürülebilir \ntrend saymak.\nBand walk Güçlü trendde fiyat dış banda \nyakın ilerliyor.\nÜst banda değdi diye short, alt \nbanda değdi diye long.\nOrta banda dönüş Fiyat ortalama çevresine \ndönüyor.\nHer dönüşü mean-reversion \nsetup saymak.\nBant dışı close Güçlü momentum veya aşırı \nsapma.\nTek başına breakout ya da \nreversal teyidi.\nTablo 8.10 – Bollinger Bands davranışları\nSqueeze yönü nasıl belirlenir?\nSqueeze yalnız sıkışmayı gösterir. Yön için range sınırı, market structure, momentum mumu, hacim ve \nyeni alanda kabul gerekir. Güçlü bir breakout sonrasında dış banda yakın ilerleme, otomatik aşırı alım \ndeğil band walk olabilir.\nAYAR DEĞIŞTIRIRKEN\nKısa length bantları daha hassas; yüksek standart sapma çarpanı bantları daha geniş yapar. İki \nayarı birlikte değiştirip geçmiş örneğe uydurmak, etkilerin hangisinden geldiğini belirsizleştirir.",
+    "source_extract_summary": [
+      "Yönün önceden belli olduğu varsayımı.",
+      "Expansion Volatilite artıyor ve bantlar açılıyor.",
+      "Her expansion’ı sürdürülebilir trend saymak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0159",
+    "page": 159,
+    "chapter": 8,
+    "section": "8.11 — ATR: Yönsüz Volatilite ve Risk Ölçeği",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  144\n8.11 ATR: Yönsüz Volatilite ve Risk Ölçeği\nAverage True Range, seçilen periyottaki true range değerlerini yumuşatarak piyasanın tipik hareket \ngenişliğini ölçer. True range; barın high–low aralığı ile önceki kapanışa göre oluşan gap etkisini birlikte \ndikkate alır. Standart length çoğunlukla 14, smoothing ise RMA’dır.\nŞekil 8.6 – Yükselişte de düşüşte de ATR artabilir\nATR durumu Ne söyler? Ne söylemez?\nATR yükseliyor Bar aralıkları veya gap etkisi \ngenişliyor.\nYönün bullish olduğunu.\nATR düşüyor Piyasa sakinleşiyor veya \nsıkışıyor.\nYakında mutlaka breakout \nolacağını.\nFiyat hareketi 2 ATR Yakın ortalamaya göre olağan \ndışı geniş hareket.\nHareketin devam edeceğini.\nATR tabanlı stop Volatiliteye göre ölçeklenen \nmesafe.\nTek başına doğru stop \nkonumunu.\nATR tabanlı trailing Trend ilerledikçe oynaklığa \nuyarlanan takip.\nRange’de whipsaw riskini \nortadan kaldırmayı.\nTablo 8.11 – ATR’nin doğru ve yanlış anlamları\nATR ile risk arasında köprü\nATR, sabit yüzde stop yerine enstrümanın hareket genişliğini hesaba katmaya yardım eder. Ancak stop, \nyalnız ATR katı olarak seçilmez; geçersizlik seviyesi ve piyasa yapısı önce gelir. ATR, bu yapısal stop’un \nnormal oynaklık içinde gereksiz yere dar kalıp kalmadığını kontrol eden ölçek olabilir. Ayrıntılı pozisyon \nbüyüklüğü ve trailing stop Bölüm 13 ve 23’te ele alınacaktır.",
+    "source_extract_summary": [
+      "8.11 ATR: Yönsüz Volatilite ve Risk Ölçeği Average True Range, seçilen periyottaki true range değerlerini yumuşatarak piyasanın tipik hareket genişliğini ölçer.",
+      "True range; barın high–low aralığı ile önceki kapanışa göre oluşan gap etkisini birlikte dikkate alır.",
+      "Standart length çoğunlukla 14, smoothing ise RMA’dır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0160",
+    "page": 160,
+    "chapter": 8,
+    "section": "8.12 — Ichimoku: Çok Katmanlı Trend Haritası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  145\n8.12 Ichimoku: Çok Katmanlı Trend Haritası\nIchimoku Kinko Hyo, kısa ve orta dönem denge çizgilerini ileriye kaydırılmış bir bulutla birleştirir. \nStandart ayarlarda Tenkan-sen 9 periyot high–low orta noktası, Kijun-sen 26 periyot orta noktasıdır. \nSenkou Span A Tenkan ile Kijun ortalamasını, Span B ise 52 periyot orta noktasını ileriye kaydırır.\nŞekil 8.7 – Ichimoku’nun ana bileşenleri\nBileşen Görev Dikkat\nTenkan-sen Kısa dönem denge ve \nmomentum.\nHızlı olduğu için range’de sık \nkesişir.\nKijun-sen Orta dönem denge ve trend \nreferansı.\nFiyat gecikmeli tepki verebilir.\nSenkou Span A Tenkan–Kijun ortalamasının \nileri kaydırılmış hâli.\n“İleri” çizim geleceği tahmin \netmez.\nSenkou Span B Daha uzun dönem high–low \norta noktası.\nKalın bulut kesin destek \ndeğildir.\nKumo / Cloud İki span arasındaki trend ve \ndenge alanı.\nFiyat bulut içinde olduğunda \nkararsızlık artabilir.\nChikou Span Kapanışın geriye kaydırılmış \nkarşılaştırması.\nGrafiği kalabalıklaştırabilir; \nkullanımı sisteme göre seçilir.",
+    "source_extract_summary": [
+      "8.12 Ichimoku: Çok Katmanlı Trend Haritası Ichimoku Kinko Hyo, kısa ve orta dönem denge çizgilerini ileriye kaydırılmış bir bulutla birleştirir.",
+      "Standart ayarlarda Tenkan-sen 9 periyot high–low orta noktası, Kijun-sen 26 periyot orta noktasıdır.",
+      "Senkou Span A Tenkan ile Kijun ortalamasını, Span B ise 52 periyot orta noktasını ileriye kaydırır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0161",
+    "page": 161,
+    "chapter": 8,
+    "section": "8.14 — VWAP, OBV, VIX ve Korelasyonun Yardımcı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  146\nTablo 8.12 – Ichimoku bileşenlerinin görevleri\nIchimoku sinyalini tek oy saymak\nFiyat bulut üstünde, bulut yeşil ve Tenkan Kijun üstünde olabilir. Bunlar aynı trend yapısının farklı \nhesaplarla üretilmiş bileşenleridir; üç bağımsız kanıt değildir. Yapı, bölge, hacim ve price action ayrı \nkatmanlardan teyit sağlamalıdır.\nİLERI KAYDIRMA ÖNGÖRÜ DEĞILDIR\nSenkou span’ların sağ tarafa çizilmesi, hesaplamanın gelecekteki veriyi kullandığı anlamına \ngelmez. Geçmiş high–low ve çizgi değerleri görsel olarak ileri taşınır.\n8.13 Parabolic SAR: Trend Takibi ve Trailing\nParabolic Stop and Reverse, trend ilerledikçe fiyatı takip eden noktalar üretir. Noktaların fiyatın altında \nolması bullish, üstünde olması bearish rejim olarak yorumlanabilir. Acceleration factor, trend uzadıkça \nnoktaların fiyata yaklaşma hızını belirler.\nKullanım Olumlu koşul Başlıca risk\nTrend filtresi Açık ve yönlü piyasa; noktalar \naynı tarafta düzenli ilerliyor.\nRange’de sürekli taraf \ndeğiştirme.\nTrailing stop Trend kârını mekanik biçimde \ntakip etme.\nNoktaların normal pullback \niçinde fazla yakın kalması.\nFlip sinyali Noktaların taraf değiştirmesi \nve price action teyidi.\nHer flip’i yeni trend başlangıcı \nsanmak.\nAcceleration artırmak Daha hızlı takip ve daha sık \nstop güncelleme.\nDaha fazla whipsaw.\nAcceleration azaltmak Trend için daha geniş nefes \nalanı.\nKârın daha büyük kısmını geri \nverme.\nTablo 8.13 – Parabolic SAR kullanım ve sınırlamaları\nSAR ne zaman kullanılmamalı?\nYatay ve dalgalı piyasada noktalar fiyatın iki tarafına sık sık geçer. Bu koşulda SAR trend üretmez; \nmevcut gürültüyü mekanik al–sat serisine dönüştürebilir. Önce Bölüm 3 standardıyla trend rejimi \nbelirlenmeli, sonra SAR takip aracı olarak kullanılmalıdır.\n8.14 VWAP, OBV, VIX ve Korelasyonun Yardımcı \nGörevi\nAna plan bu dört aracı Bölüm 8 kapsamında tutar; fakat görevleri farklıdır. VWAP ve OBV, Bölüm 7’de \nhacim ailesi içinde ayrıntılı işlendi. Burada yalnız indikatör seçimi içindeki yerleri özetlenir. VIX ve",
+    "source_extract_summary": [
+      "Bunlar aynı trend yapısının farklı hesaplarla üretilmiş bileşenleridir; üç bağımsız kanıt değildir.",
+      "Yapı, bölge, hacim ve price action ayrı katmanlardan teyit sağlamalıdır.",
+      "İLERI KAYDIRMA ÖNGÖRÜ DEĞILDIR Senkou span’ların sağ tarafa çizilmesi, hesaplamanın gelecekteki veriyi kullandığı anlamına gelmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0162",
+    "page": 162,
+    "chapter": 8,
+    "section": "8.15 — İndikatör Seçme ve Birleştirme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  147\ncorrelation coefficient ise doğrudan mevcut fiyatın momentum göstergesi değil, dış duyarlılık ve \nvarlıklar arası ilişki katmanıdır.\nAraç Kısa görev Bu bölümdeki sınır\nVWAP Seçilen session veya anchor \niçindeki hacim ağırlıklı \nortalama fiyat.\nMA gibi yalnız fiyat ortalaması \ndeğildir; ayrıntı Bölüm 7.\nOBV Kapanış yönüne göre hacmi \nkümülatif izleyerek katılım \nteyidi ve divergence üretir.\nGerçek bid–ask agresyonu \ndeğildir; ayrıntı Bölüm 7.\nVIX ABD hisse piyasası bağlamında \nkorku/oynaklık beklentisine \nilişkin yardımcı gösterge.\nHer varlığın evrensel buy/sell \ngöstergesi değildir; sabit eşik \ngaranti sayılmaz.\nCorrelation coefficient İki serinin seçilen rolling \ndönemde aynı veya zıt hareket \nderecesini −1 ile +1 arasında \nözetler.\nİlişki zamanla değişir; \nnedensellik ve gerçek hedge \ngarantisi değildir.\nTablo 8.14 – Yardımcı indikatörlerin görev sınırları\nKorelasyon ve çeşitlendirme\n+1’e yakın değerler iki serinin aynı yönde, −1’e yakın değerler zıt yönde hareket ettiğini; sıfıra yakın \ndeğerler ise doğrusal ilişkinin zayıf olduğunu gösterir. Ancak korelasyon dönem seçimine bağlıdır ve \nkrizlerde değişebilir. Bir varlığın geçmişte zıt hareket etmesi, gelecekte portföyü kesin koruyacağı \nanlamına gelmez.\nVIX IÇIN SINIR\nVIX, piyasa korkusunu ve beklenen volatiliteyi izleyen bağlam göstergelerinden biridir; tek bir \nyüksek VIX değeri otomatik dip veya alış sinyali değildir.\n8.15 İndikatör Seçme ve Birleştirme İş Akışı\nİyi bir indikatör sistemi, ekranda en fazla çizgi bulunan sistem değildir. Araçlar farklı görevleri yerine \ngetirmeli ve fiyatın verdiği ana kararı desteklemelidir. Her sinyal, önceki bölümlerde kurulan yapı ve \nbölge haritasının üzerine yerleştirilir.\n1. Piyasa rejimini fiyatla belirle: trend, range, geçiş veya yüksek volatilite.\n2. Soruyu yaz: Yön mü, momentum mu, volatilite mi, ortalama değer mi, ilişki mi ölçülecek?\n3. Her ana sorudan yalnız birincil bir araç seç.\n4. Standart ayarla başla; sinyal hızı ve gürültüyü gözlemle.\n5. İndikatör sinyalini fiyatın swing, bölge, close ve follow-through davranışıyla eşleştir.\n6. Aynı girdiden türeyen araçları bağımsız oy gibi sayma.\n7. Divergence, crossover, band touch veya cloud/SAR flip’i “aday” olarak etiketle.\n8. Geçersizlik olayını indikatör değeriyle değil mümkünse fiyat yapısıyla yaz.",
+    "source_extract_summary": [
+      "correlation coefficient ise doğrudan mevcut fiyatın momentum göstergesi değil, dış duyarlılık ve varlıklar arası ilişki katmanıdır.",
+      "Araç Kısa görev Bu bölümdeki sınır VWAP Seçilen session veya anchor içindeki hacim ağırlıklı ortalama fiyat.",
+      "MA gibi yalnız fiyat ortalaması değildir; ayrıntı Bölüm 7."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0163",
+    "page": 163,
+    "chapter": 8,
+    "section": "8.15 — İndikatör Seçme ve Birleştirme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  148\n9. Ayar değişikliğini replay/backtest ile farklı rejimlerde test et.\n10. Giriş, stop, hedef ve pozisyon büyüklüğünü Bölüm 12–13 sistemiyle tamamla.\nGöreve göre araç seçimi\nİhtiyaç Birincil aday Aynı ailede gereksiz tekrar\nAna trendi yumuşatmak SMA / EMA / HMA / RMA’dan \nbiri\nAynı uzunlukta dört MA\nTrend + momentum farkı MACD MACD yanında benzer MA \ncross ve çoklu oscillator\nMomentum rejimi RSI RSI + CCI + Stoch RSI’yı üç oy \nsaymak\nHassas zamanlama Stochastic RSI Her crossover’ı giriş saymak\nOrtalamadan sapma CCI Trend filtresi olmadan ±100 \nters işlemi\nVolatilite daralması/genişlemesi Bollinger Bands Band touch’ı yön sinyali \nsaymak\nHareket genişliği ve stop ölçeği ATR ATR’yi yön göstergesi yapmak\nTek grafikte trend haritası Ichimoku Bileşenleri bağımsız beş teyit \nsaymak\nMekanik trend takibi Parabolic SAR Range’de flip kovalamak\nHacim ağırlıklı ortalama / \nkatılım\nVWAP veya OBV Bölüm 7 araçlarını fiyat \nindikatörüyle karıştırmak\nDış duyarlılık / portföy ilişkisi VIX / correlation coefficient Sabit ve kalıcı ilişki varsaymak\nTablo 8.15 – Sorudan indikatöre seçim\nÖrnek koşullu analiz cümleleri\n “Günlük yapı yükseliş trendinde; fiyat yukarı eğimli EMA üzerinde kalıyor ve RSI 50 \nüzerini koruyor. Pullback’in bölgede bullish close üretmesi hâlinde trend devam \nsenaryosu güçlenir; yalnız RSI overbought olduğu için satış aranmaz.”\n “Range daralırken Bollinger bantları sıkışıyor ve ATR düşüyor. Bu durum yön değil enerji \ndaralmasıdır; sınır üstü/altı kapanış, hacim ve takip gelmeden breakout yönü seçilmez.”\n “Fiyat higher high üretirken MACD histogramı ve RSI lower high oluşturuyor. Bearish \ndivergence yalnız momentum uyarısıdır; protected low kırılmadan ana dönüş \ndoğrulanmış değildir.”\n “Parabolic SAR bullish tarafta olsa da fiyat Ichimoku bulutu içinde ve ortalamalar yatay. \nTrend araçları birbiriyle kararsız; range rejiminde SAR flip’i işlem tetikleyicisi yapılmaz.”",
+    "source_extract_summary": [
+      "Ayar değişikliğini replay/backtest ile farklı rejimlerde test et.",
+      "Giriş, stop, hedef ve pozisyon büyüklüğünü Bölüm 12–13 sistemiyle tamamla.",
+      "Göreve göre araç seçimi İhtiyaç Birincil aday Aynı ailede gereksiz tekrar Ana trendi yumuşatmak SMA / EMA / HMA / RMA’dan biri Aynı uzunlukta dört MA Trend + momentum farkı MACD MACD yanında benzer MA cross ve çoklu oscillator Momentum rejimi RSI RSI + CCI + Stoch RSI’yı üç oy saymak Hassas zamanlama Stochastic RSI Her crossover’ı giriş saymak Ortalamadan sapma CCI Trend filtresi olmadan ±100 ters işlemi Volatilite daralması/genişlemesi Bollinger Bands Band touch’ı yön sinyali saymak Hareket genişliği ve stop ölçeği ATR ATR’yi yön göstergesi yapmak Tek grafikte trend haritası Ichimoku Bileşenleri bağımsız beş teyit saymak Mekanik trend takibi Parabolic SAR Range’de flip kovalamak Hacim ağırlıklı ortalama / katılım VWAP veya OBV Bölüm 7 araçlarını fiyat indikatörüyle karıştırmak Dış duyarlılık / portföy ilişkisi VIX / correlation coefficient Sabit ve kalıcı ilişki varsaymak Tablo 8.15 – Sorudan indikatöre seçim Örnek koşullu analiz cümleleri  “Günlük yapı yükseliş trendinde; fiyat yukarı eğimli EMA üzerinde kalıyor ve RSI 50 üzerini koruyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0164",
+    "page": 164,
+    "chapter": 8,
+    "section": "8.15 — İndikatör Seçme ve Birleştirme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  149\nHızlı Başvuru\nAraç Neyi ölçer? En büyük hata\nSMA / EMA / WMA / HMA / \nRMA\nFiyatın farklı ağırlık ve hızla \nyumuşatılmış ortalaması.\nÇoklu MA’yı bağımsız teyit \nsaymak.\nMACD İki EMA farkı üzerinden trend–\nmomentum değişimi.\nHer signal cross’u giriş \nyapmak.\nRSI Yakın yükseliş–düşüş \nmomentumunu 0–100 \narasında normalize eder.\n70 sell, 30 buy kuralı.\nStochastic RSI RSI’nın kendi yakın aralığındaki \nkonumu.\nHassas crossover’ları filtresiz \nkullanmak.\nCCI Fiyatın dönem ortalamasından \nsapması.\n±100’ü kesin dönüş sınırı \nsaymak.\nBollinger Bands Ortalama çevresindeki standart \nsapma ve volatilite.\nBand touch’ı otomatik ters \nsinyal yapmak.\nATR True range’in yumuşatılmış, \nyönsüz hareket genişliği.\nATR yükselişini bullish sanmak.\nIchimoku Denge çizgileri ve ileri \nkaydırılmış trend bulutu.\nBulutu geleceği gören araç \nsaymak.\nParabolic SAR Trend takip noktaları ve \nmekanik trailing referansı.\nRange’de sürekli flip \nkovalamak.\nVWAP / OBV Hacim ağırlıklı ortalama ve \nkümülatif hacim teyidi.\nBölüm 7’deki veri sınırlarını \nunutmak.\nVIX / Korelasyon Dış duyarlılık ve iki seri \narasındaki rolling ilişki.\nSabit eşik ve kalıcı hedge \nvarsaymak.\nTablo 8.16 – Bölüm 8 hızlı başvuru\nGrafik Başı İndikatör Kontrol Listesi\n Piyasa rejimini indikatörden önce fiyatla belirledim mi?\n Kullandığım her aracın girdisi fiyat mı, hacim mi, dış veri mi?\n Aynı aileden birden fazla aracı bağımsız teyit sayıyor muyum?\n Ayarın stratejimde hangi hareket süresini temsil ettiğini biliyor muyum?\n Kısa ayarın false signal, uzun ayarın gecikme bedelini test ettim mi?\n Overbought/oversold koşulunu doğrudan giriş emrine çevirdim mi?\n Divergence aynı tür ve tamamlanmış swing noktaları arasında mı?\n Crossover önemli bölge ve structure içinde mi oluşuyor?\n Bollinger squeeze’de yönü önceden varsayıyor muyum?\n ATR’yi yön yerine volatilite ve ölçek için mi kullanıyorum?\n Ichimoku bileşenlerini tek trend ailesi içinde mi sayıyorum?",
+    "source_extract_summary": [
+      "En büyük hata SMA / EMA / WMA / HMA / RMA Fiyatın farklı ağırlık ve hızla yumuşatılmış ortalaması.",
+      "MACD İki EMA farkı üzerinden trend– momentum değişimi.",
+      "RSI Yakın yükseliş–düşüş momentumunu 0–100 arasında normalize eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0165",
+    "page": 165,
+    "chapter": 8,
+    "section": "8.15 — İndikatör Seçme ve Birleştirme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  150\n SAR’ı yalnız açık trend rejiminde mi kullanıyorum?\n VIX/korelasyon değerini varlık ve dönem bağlamıyla mı okuyorum?\n Son karar fiyat close, follow-through ve geçersizlik üzerinden mi yazıldı?\nTemel Sözlük\nTerim Kısa tanım\nIndicator Fiyat, hacim veya başka seriyi belirli kuralla \ndönüştüren ölçüm.\nOscillator Belirli sınırlar veya merkez çizgisi çevresinde \nsalınan gösterge.\nLag Sinyalin fiyat değişiminden sonra oluşan \ngecikme.\nWhipsaw Range veya gürültüde peş peşe ters sinyal \nüretimi.\nSMA Eşit ağırlıklı basit hareketli ortalama.\nEMA Yakın fiyatlara daha fazla ağırlık veren üssel \nortalama.\nWMA Yakın fiyatlara doğrusal artan ağırlık veren \nortalama.\nHMA Hız ve yumuşaklığı birlikte amaçlayan Hull \nortalaması.\nRMA Wilder tipi yumuşatılmış hareketli ortalama.\nMACD Hızlı ve yavaş EMA farkına dayalı trend–\nmomentum göstergesi.\nSignal Line MACD çizgisinin yumuşatılmış ortalaması.\nHistogram MACD ile signal arasındaki fark.\nRSI Yükseliş–düşüş momentumunu 0–100 arasında \ngösteren oscillator.\nStochastic RSI RSI’nın kendi yakın minimum–maksimum \naralığındaki konumu.\nCCI Fiyatın dönem ortalamasından sapmasını ölçen \nsınırsız oscillator.\nDivergence Fiyat swing’i ile indikatör swing’inin farklı yönde \ngelişmesi.\nBollinger Bands Ortalama ve standart sapmaya dayalı volatilite \nbantları.",
+    "source_extract_summary": [
+      " SAR’ı yalnız açık trend rejiminde mi kullanıyorum?",
+      " VIX/korelasyon değerini varlık ve dönem bağlamıyla mı okuyorum?",
+      " Son karar fiyat close, follow-through ve geçersizlik üzerinden mi yazıldı?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0166",
+    "page": 166,
+    "chapter": 8,
+    "section": "8.15 — İndikatör Seçme ve Birleştirme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 8\nİndikatörler: Momentum, Trend, Volatilite ve Ortalama Değer  •  151\nTerim Kısa tanım\nSqueeze Bollinger bant genişliğinin daralması.\nATR True range’in ortalaması; yönsüz volatilite \nölçümü.\nIchimoku / Kumo Denge çizgileri ve ileri kaydırılmış bulut içeren \ntrend sistemi.\nParabolic SAR Trend takip ve stop-and-reverse noktaları.\nVIX ABD hisse piyasası oynaklık/korku beklentisi için \nkullanılan gösterge.\nCorrelation Coefficient İki seri arasındaki rolling doğrusal ilişkiyi −1 ile \n+1 arasında özetleyen ölçüm.\nTablo 8.17 – Bölüm 8 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. İndikatör neden fiyatın yerine geçemez?\n2. Leading ve lagging ayrımı hangi yanlış beklentiyi doğurabilir?\n3. Kısa ve uzun periyot ayarlarının temel ödünleşimi nedir?\n4. SMA, EMA ve WMA arasındaki ağırlık farkı nedir?\n5. HMA’nın hızlı tepki avantajı hangi riski artırır?\n6. Hareketli ortalama crossover neden gecikmelidir?\n7. MACD çizgisi ve signal çizgisi nasıl hesaplanır?\n8. Histogramın küçülmesi neden otomatik trend dönüşü değildir?\n9. RSI 70 üstünde neden doğrudan satış sinyali değildir?\n10. RSI 50 çizgisi trend rejiminde nasıl kullanılabilir?\n11. Regular ve hidden divergence arasındaki fark nedir?\n12. Divergence hangi fiyat olayıyla teyit edilmelidir?\n13. Stochastic RSI neden normal RSI’dan daha fazla sinyal üretir?\n14. CCI neden “unbounded” olarak adlandırılır?\n15. Bollinger squeeze neyi gösterir, neyi göstermez?\n16. Band walk ile aşırı sapma nasıl ayrılır?\n17. ATR neden yönsüzdür ve true range neden gap’i dikkate alır?\n18. Ichimoku bulutunun ileri kaydırılması neden tahmin değildir?\n19. Parabolic SAR hangi piyasa rejiminde en çok whipsaw üretir?\n20. VWAP ve OBV neden bu bölümde yeniden ayrıntılı anlatılmadı?\n21. VIX ve correlation coefficient hangi sınırlar içinde kullanılmalıdır?22. Bir indikatör setinde kanıt tekrarını nasıl tespit edersiniz?",
+    "source_extract_summary": [
+      "Terim Kısa tanım Squeeze Bollinger bant genişliğinin daralması.",
+      "ATR True range’in ortalaması; yönsüz volatilite ölçümü.",
+      "Ichimoku / Kumo Denge çizgileri ve ileri kaydırılmış bulut içeren trend sistemi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  }
+]

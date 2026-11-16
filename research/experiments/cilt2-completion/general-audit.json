@@ -1,0 +1,12 @@
+{
+  "audit_date": "2026-11-14",
+  "status": "passed",
+  "pages": 109,
+  "atomic_claims": 319,
+  "testable_claims": 309,
+  "testable_claims_without_rule": 0,
+  "claims_without_explicit_definition": 0,
+  "unresolved_rows": 0,
+  "deferred_ob_fvg": 3,
+  "reference_only": 7
+}

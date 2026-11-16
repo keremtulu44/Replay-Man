@@ -1,0 +1,9 @@
+{
+  "common_calendar_boundaries": [
+    "2026-06-24 14:30:00+00:00",
+    "2026-09-03 12:30:00+00:00"
+  ],
+  "parameter_variants": 106,
+  "volume_gate_in_overlap": true,
+  "status": "acceptance_supplement_generated"
+}

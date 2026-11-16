@@ -1,0 +1,81 @@
+# geometry_tools
+
+**Kapsam:** 54 sayfa eşleşmesi
+
+## Proje yorumu (`inference`)
+
+Geometri araçlarında anchor/pivot seçimi olay anında yapılabilir olmalı; sonradan en iyi oturan seçim lookahead riskidir.
+
+## Nasıl kullanılabilir?
+
+Kuralı önceden tanımlanmış konum/geometri adayları
+
+## Kaynak şeritleri
+
+### 1. PTA-C1-2026 — PDF s. 112
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 112 Şekil 18.2 — Aynı 100→110 / 10 bar ilişkisi, farklı dikey fiyat ölçeklerinde farklı açıyla görünür. KİTAP KURALI “Grafikte tam 45° gördüm, demek 1×1 doğru” sonucunu kullanmayın. Önce fiyat/zaman oranının nasıl tanımlandığını ve grafik ölçeğinin görünümü nasıl etkilediğini kontrol edin. 18.3 — Gann Fan’da fiyat, zaman ve ölçekleme aynı modelin parçalarıdır Gann oranı yalnız fiyat farkı değildir. İkinci eksendeki zaman biriminin de açık biçimde tanımlanması gerekir. Günlük grafikte bir bar bir günlük zaman adımına, saatlik grafikte bir bar bir saatlik zaman adımına karşılık gelir. Bu nedenle aynı sayısal Gann tanımı başka bir zaman dilimine taşındığında “bir zaman birimi ne?” sorusu yeniden cevaplanmalıdır. Bu ayrım 1×1’in neden ekrandaki sabit bir açı olmadığını daha açık hale getirir. Önce fiyat ve zaman birimleri arasındaki oran tanımlanır; ekranda görülen açı bunun sonucudur. TEKNİK AYRIM — 45° ÖNCE GELMEZ “1×1 = 45°” ifadesi ancak fiyat ve zaman ölçekleri önceden belirli bir ilişkiye getirilmişse anlamlıdır. Grafiği yakınlaştırmak, doğrusal/logaritmik ölçeği değiştirmek veya zaman dilimini değiştirmek görsel açıyı etkileyebilir. Gann çiziminde ölçekleme yöntemi de modelin parçasıdır Gann Fan için birden fazla ölçekleme yaklaşımı bulunabilir. Bu nedenle “Fan’ı çizdim” demek tek başına yeterli değildir; fiyat ve zaman birimlerinin hangi ölçek ilişkisiyle eşleştirildiği de analizin bir parçasıdır. 18.4 — Gann Box ve Square: önce alanı tanımla Gann Box bir fiyat aralığı ile zaman aralığını geometrik bölümlere ayırır. …
+
+**Bölüm/alt başlık:** 18 / 18.4 — Gann Box ve Square: önce alanı tanımla
+
+**Kaynak özeti (`source`):** KİTAP KURALI “Grafikte tam 45° gördüm, demek 1×1 doğru” sonucunu kullanmayın. Önce fiyat/zaman oranının nasıl tanımlandığını ve grafik ölçeğinin görünümü nasıl etkilediğini kontrol edin. 18.3 — Gann Fan’da fiyat, zaman ve ölçekleme aynı modelin parçalarıdır Gann oranı yalnız fiyat farkı değildir.
+
+### 2. PTA-C1-2026 — PDF s. 114
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 114 Şekil 18.4 — Geometrik çizgi ihlal ediliyor fakat fiyat yapısı daha sonra yeni daha yüksek tepe üretmeye devam ediyor. YANLIŞ / DOĞRU YANLIŞ: “1×1 kırıldı → SAT.” DOĞRU: “1×1 geometrisi ihlal edildi. Şimdi korunan yapı bozuluyor mu ve karşı yönlü fiyat davranışı oluşuyor mu?” 18.6 — Gann’da en sık yapılan hatalar Hata Neden sorun? Daha güvenli yaklaşım Her küçük harekete yeni Fan Seçenek sayısı arttıkça sonradan çalışan çizgi bulunur Yalnız önceden gerekçeli büyük pivot 45° görsel açı takıntısı Eksen ölçeği açıyı değiştirir Fiyat/zaman oranı + ölçek kontrolü Çizgi teması = dönüş Geometri giriş işareti değildir Fiyat davranışı / fiyat yapısı teyidi Zaman projeksiyonu = kesin tarih Olası zaman penceresi kesin olay değildir Olası gözlem penceresi Astrolojik/numerolojik iddiayı teknik gerçek sunmak Ölçülebilir fiyat-zaman analizinden kopar Kitapta yalnız geometrik araç mantığı 18.7 — Gann hangi araçlarla birlikte anlamlıdır? Kombinasyon Rol Not Gann + Fiyat yapısı Geometri + fiyat yapısı/bozulma En temiz tamamlayıcı Gann + Volume Profile Fiyat-zaman geometrisi + fiyat seviyelerine göre hacim dağılımı Farklı bilgi sınıfları Gann + ATR Geometri + fiyat hareketliliği/risk Stop/risk için tamamlayıcı Gann + Fibonacci İki benzer geometri/projeksiyon aracı Örtüşme olabilir; iki bağımsız teyit değildir
+
+**Bölüm/alt başlık:** 18 / 18.7 — Gann hangi araçlarla birlikte anlamlıdır?
+
+**Kaynak özeti (`source`):** YANLIŞ / DOĞRU YANLIŞ: “1×1 kırıldı → SAT.” DOĞRU: “1×1 geometrisi ihlal edildi. Şimdi korunan yapı bozuluyor mu ve karşı yönlü fiyat davranışı oluşuyor mu?” 18.6 — Gann’da en sık yapılan hatalar Hata Neden sorun? Daha güvenli yaklaşım Her küçük harekete yeni Fan Seçenek sayısı arttıkça sonradan çalışan çizgi bulunur Yalnız önceden gerekçeli büyük pivot 45° görsel açı takıntısı Eksen ölçeği açıyı değiştirir Fiyat/zaman oranı + ölçek kontrolü Çizgi teması = dönüş Geometri giriş işareti değildir Fiyat davranışı / fiyat yapısı teyidi Zaman projeksiyonu = kesin tarih Olası zaman penceresi kesin olay değildir Olası gözlem penceresi Astrolojik/numerolojik iddiayı teknik gerçek sunmak Ölçülebilir fiyat-zaman analizinden kopar Kitapta yalnız geometrik araç mantığı 18.7 — Gann hangi araçlarla birlikte anlamlıdır?
+
+### 3. PTA-C1-2026 — PDF s. 116
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 116 BÖLÜM 19 Andrews Pitchfork ve Varyantları: Orta Çizgi Geometrisi Pitchfork üç önemli dönüş noktası seçerek bir orta çizgi ve ona paralel sınırlar oluşturur. Önemli olan çok çizgi çizmek değil, seçilen üç noktanın neden anlamlı olduğunu ve bu geometrinin ne zaman artık işe yaramadığını bilmektir. HIZLI ROL — Ana görev: üç önemli dönüş noktasından orta çizgi ve paralel sınırlar oluşturmak. Tek başına kesin hedef, dönüş veya giriş söylemez. Ana risk: dönüş noktalarını veya Pitchfork türünü sonradan geçmiş fiyata en iyi uyacak şekilde değiştirmek. İyi eşleşme: fiyat yapısı + ATR. 19.1 — Classic Pitchfork’un üç pivot mantığı Classic Pitchfork A, B ve C olmak üzere üç anlamlı pivot kullanır. Orta çizgi ve paralel sınırlar bu üç noktadan türetilir. Asıl karar çizgiyi çekmek değil, A–B–C’nin fiyatın devamını görmeden anlamlı pivotlar olarak seçilebilmesidir. Şekil 19.1 — Classic Pitchfork’un temel anatomisi: A–B–C pivotları, orta çizgi ve paralel sınırlar. TEKNİK AYRINTI Üç nokta seçildiğinde geometri otomatikleşir; pivot seçimi otomatik değildir. Pitchfork’taki ana model riski hesaplamadan çok başlangıç noktası disiplinidir.
+
+**Bölüm/alt başlık:** 19 / 19.1 — Classic Pitchfork’un üç pivot mantığı
+
+**Kaynak özeti (`source`):** BÖLÜM 19 Andrews Pitchfork ve Varyantları: Orta Çizgi Geometrisi Pitchfork üç önemli dönüş noktası seçerek bir orta çizgi ve ona paralel sınırlar oluşturur. Önemli olan çok çizgi çizmek değil, seçilen üç noktanın neden anlamlı olduğunu ve bu geometrinin ne zaman artık işe yaramadığını bilmektir. HIZLI ROL — Ana görev: üç önemli dönüş noktasından orta çizgi ve paralel sınırlar oluşturmak.
+
+### 4. PTA-C1-2026 — PDF s. 119
+
+> PROFESYONEL TEKNİK ANALİZ ARAÇLARI 119 Şekil 19.4 — Temsili geometri: başlangıç pivotundaki küçük fark, çizgi ileri uzadıkça daha büyük konum farkına dönüşebilir. 19.6 — Orta çizgi ve kanal dışı kırılım nasıl okunur? Orta çizgi fiyatın kesin hedefi değildir; yalnız geometrik merkez referansıdır. Kanal dışı kapanış da otomatik trend dönüşü değildir. Geometri bozulduğunda fiyat yapısındaki gerçek kırılımı ayrıca arayın. Şekil 19.5 — Pitchfork sınırı ihlal ediliyor; fiyat yapısı daha sonra yeniden trend yönünde daha yüksek tepe üretiyor. YANLIŞ / DOĞRU YANLIŞ: “Fiyat orta çizgiye mutlaka döner.” DOĞRU: “Fiyat orta çizgiden uzak; geometrik konum sıra dışı. Dönüş için ayrıca fiyat yapısı veya hareket gücü teyidi gerekir.” 19.7 — Orta Çizgi (Median Line) ile dış sınırlar aynı görevi taşımaz Orta Çizgi (Median Line), Pitchfork’un merkez eksenidir. Fiyat trend içinde bu çizginin iki tarafına birden fazla kez geçebilir ve hâlâ üst/alt paralel sınırlar içinde kalabilir. Bu nedenle Orta Çizgi geçildiğinde “Pitchfork kırıldı” demek doğru değildir. Merkez eksenin aşılması ile dış kanal sınırının ihlali iki farklı geometrik olaydır. Bazı Pitchfork uygulamalarında ana çizgilerin arasında 0,5 gibi paralel ara çizgiler, dışına ise 1,5 veya 2,0 gibi uzantılar eklenebilir. Bunlar yeni bağımsız sinyal üretmez; aynı Pitchfork geometrisinin alt bölümleri ve dış referanslarıdır. 19.8 — Pitchfork kombinasyonları Kombinasyon Rol ayrımı Risk Pitchfork + Fiyat yapısı Geometri + fiyat davranışı/bozulma En güçlü tamamlayıcı
+
+**Bölüm/alt başlık:** 19 / 19.8 — Pitchfork kombinasyonları
+
+**Kaynak özeti (`source`):** 19.6 — Orta çizgi ve kanal dışı kırılım nasıl okunur? Orta çizgi fiyatın kesin hedefi değildir; yalnız geometrik merkez referansıdır. Kanal dışı kapanış da otomatik trend dönüşü değildir.
+
+### 5. ATK-TR-D1.0-2026-08 — PDF s. 168
+
+> ANA TRADING KİTABI | BÖLÜM 9 Fibonacci, Elliott Wave ve Ölçülü Hareketler • 153 Bu Bölümün Amacı Grafikte iyi bir impulse gördüğümde iki temel soru sorarım: “Pullback ne kadar derinleşti?” ve “Hareket devam ederse hangi fiyat alanları hedef olabilir?” Fibonacci ve ölçülü hareket araçları bu soruları sayısallaştırır. Elliott Wave ise hareketi motive ve corrective aşamalar hâlinde sınıflandırarak olası yol haritası kurar. Bu araçların hiçbiri geleceği garanti etmez; görevleri, fiyatın verdiği kanıtı düzenlemek ve senaryoyu ölçülebilir hâle getirmektir. BÖLÜM SONUNDA Doğru impulse’u seçebilecek, Fibonacci retracement ve extension’ı tutarlı anchor’larla çizebilecek, golden zone/pocket kavramlarını eleştirel okuyabilecek, measured move hedeflerini sınıflandırabilecek ve Elliott count’u kural–alternatif–geçersizlik düzeniyle kullanabileceksiniz. Uygulama Görseli 9.1 – XAGTRYG günlük grafikte impulse, pullback, Fib alanı ve yapı hedeflerinin birlikte gösterildiği bölüm açılış grafiği. Temsilî eğitim şeması. 9.1 Ölçmek, Tahmin Etmemek Fibonacci retracement (pullback derinliğini ölçme), Fibonacci extension (önceki impulse’u pullback sonundan hedefe projekte etme) ve measured move (önceki hareket boyunu yeni başlangıçtan kopyalama) aynı amaca hizmet etmez. İlk adımım, çözmek istediğim soruyu açıkça yazmaktır. Giriş alanı mı arıyorum, hedef mi projekte ediyorum, yoksa dalga dizisini mi sınıflandırıyorum? Araç Sorduğum soru Çıktı Fib retracement Pullback, ölçülen impulse’un ne kadarını geri aldı? 0–1 arasında derinlik oranları.
+
+**Bölüm/alt başlık:** 9 / 9.1 — Ölçmek, Tahmin Etmemek
+
+**Kaynak özeti (`source`):** Bu Bölümün Amacı Grafikte iyi bir impulse gördüğümde iki temel soru sorarım: “Pullback ne kadar derinleşti?” ve “Hareket devam ederse hangi fiyat alanları hedef olabilir?” Fibonacci ve ölçülü hareket araçları bu soruları sayısallaştırır. Elliott Wave ise hareketi motive ve corrective aşamalar hâlinde sınıflandırarak olası yol haritası kurar. Bu araçların hiçbiri geleceği garanti etmez; görevleri, fiyatın verdiği kanıtı düzenlemek ve senaryoyu ölçülebilir hâle getirmektir.
+
+### 6. ATK-TR-D1.0-2026-08 — PDF s. 169
+
+> ANA TRADING KİTABI | BÖLÜM 9 Fibonacci, Elliott Wave ve Ölçülü Hareketler • 154 Araç Sorduğum soru Çıktı Trend-based extension A–B impulse’u B–C pullback’inden sonra ne kadar uzayabilir? 1.000, 1.272, 1.618 gibi projection seviyeleri. Measured move Önceki impulse veya yapı yüksekliği yeni noktadan kopyalanırsa alan neresi? Eşit hareket / yapı yüksekliği hedefi. Elliott count Hareket motive mi corrective mi; hangi kurallar count’u eliyor? Birincil ve alternatif yol haritası. Tablo 9.1 – Ölçüm araçlarının farklı görevleri EKRANDA NE ARIYORUM? • Grafikte önce swing ve impulse’u çıplak fiyatla belirleyin. • Araç eklemeden önce soruyu yazın: derinlik, hedef veya dalga mı? • Aynı hareketi çok sayıda Fib çizgisiyle doldurmayın. • Çıkan seviyeyi önemli bölge ve yapı ile karşılaştırın. • Fiyat teyidi yoksa alanı yalnız “izleme alanı” olarak bırakın. DOĞRU BILINEN YANLIŞ Mit: Fibonacci seviyeleri piyasanın gelecekte nerede döneceğini hesaplar. Gerçeklik: Araç geçmişte seçtiğiniz iki veya üç fiyat noktası arasındaki oranları gösterir. Dönüş ihtimali, seviyenin kendisinden değil bağlam ve katılımcı davranışından gelir. 9.2 Fibonacci Oranları ve Araç Dili Fibonacci aracındaki 0.382, 0.618 veya 1.618 gibi değerleri “gizemli fiyatlar” olarak değil yüzde olarak okurum. 0.382, ölçülen hareketin %38,2’si; 0.618, %61,8’i; 1.618 ise ölçülü hareketin %161,8’idir. 0.5 seviyesi yaygın ve faydalı bir midpoint’tir; fakat Fibonacci dizisinden türeyen oran değildir. Seviye Eylem tanımı Dikkat 0.236 Çok sığ pullback’i ölçer. Güçlü trendde görülebilir; tek başına giriş alanı değildir. …
+
+**Bölüm/alt başlık:** 9 / 0.61 — 8 Daha derin pullback ve golden
+
+**Kaynak özeti (`source`):** Araç Sorduğum soru Çıktı Trend-based extension A–B impulse’u B–C pullback’inden sonra ne kadar uzayabilir? 1.000, 1.272, 1.618 gibi projection seviyeleri. Measured move Önceki impulse veya yapı yüksekliği yeni noktadan kopyalanırsa alan neresi?
+
+### 7. ATK-TR-D1.0-2026-08 — PDF s. 185
+
+> ANA TRADING KİTABI | BÖLÜM 9 Fibonacci, Elliott Wave ve Ölçülü Hareketler • 170 Tablo 9.11 – Corrective şekiller ve diagonal DOĞRU BILINEN YANLIŞ Mit: Correction mutlaka temiz A–B–C ve üç hareketten oluşur. Gerçeklik: A–B–C dış etiketleme altında zigzag, flat, triangle veya kombinasyonlar bulunabilir. Pratikte dış structure’ı doğru okumak, her alt dalgayı etiketlemekten daha değerlidir. 9.14 Elliott + Fibonacci + Alternatif Count Elliott count’u kurduktan sonra Fibonacci oranlarını count’u “kanıtlamak” için değil olasılığı sınamak için eklerim. Wave 2 için 0.5–0.618, wave 4 için yaklaşık 0.382; wave 3 için wave 1’in 1.618 extension’ı ve wave 5 için wave 1 equality sık görülen ilişkiler olarak kullanılabilir. Bunlar tipik davranıştır, zorunlu kural değildir. İlişki Tipik oran / ölçüm Kullanım Wave 2 / Wave 1 0.50–0.618 retracement Derin ilk pullback alanı; wave 1 başlangıcı invalidation. Wave 4 / Wave 3 Yaklaşık 0.382 retracement Daha sığ pullback beklentisi; wave 1 overlap kuralı. Wave 3 / Wave 1 1.618 extension sık görülür Recognition impulse hedef alanı. Wave 5 / Wave 1 Equality veya extension Wave 3 uzadıysa measured move adayı. Corrective C / A Equality veya extension A–B–C target projection; major zone ile sınanır. Tablo 9.12 – Elliott–Fibonacci tipik ilişkileri Alternatif count tablosu nasıl tutulur? Alan Birincil count Alternatif count Mevcut etiket Wave 4 tamamlandı, wave 5 başladı. Hareket wave 3’ün iç alt dalgası. Beklenen fiyat davranışı Yeni high, fakat momentum wave 3’ten zayıf olabilir. Güçlü acceleration ve genişleme devam eder. …
+
+**Bölüm/alt başlık:** 9 / 9.14 — Elliott + Fibonacci + Alternatif Count
+
+**Kaynak özeti (`source`):** Gerçeklik: A–B–C dış etiketleme altında zigzag, flat, triangle veya kombinasyonlar bulunabilir. Pratikte dış structure’ı doğru okumak, her alt dalgayı etiketlemekten daha değerlidir. 9.14 Elliott + Fibonacci + Alternatif Count Elliott count’u kurduktan sonra Fibonacci oranlarını count’u “kanıtlamak” için değil olasılığı sınamak için eklerim.
+
+### 8. ATK-TR-D1.0-2026-08 — PDF s. 170
+
+> ANA TRADING KİTABI | BÖLÜM 9 Fibonacci, Elliott Wave ve Ölçülü Hareketler • 155 Seviye Eylem tanımı Dikkat 0.786 Çok derin pullback’i izlerim. Trend kalitesi ve invalidation mesafesi sorgulanır. 1.000 Ölçülen hareketin eşit kopyası. Measured move projection. 1.618 Eşit hareketin ötesindeki extension alanı. Kâr alma ve direnç adayı; zorunlu hedef değil. Tablo 9.2 – Fibonacci seviyelerini aksiyona çevirmek İLK KULLANIM AKSIYON TANIMLARI Retracement: impulse sonrasında fiyatın geri aldığı kısmı ölçün. Extension: A–B impulse’unu B–C pullback sonundan ileri projekte edin. Confluence: farklı yöntemlerin aynı fiyat bölgesini işaretleyip işaretlemediğini kontrol edin; fakat aynı swing’den üretilen çizgileri bağımsız kanıt saymayın. Uygulama Görseli 9.2 – Fib oranlarının yüzde mantığını gösteren basit cetvel ve fiyat hareketi. Temsilî eğitim şeması. 9.3 Retracement’ı Doğru Çizmek Fibonacci retracement’ı çizmeden önce net bir impulse seçerim. Uptrend’de swing low’dan swing high’a; downtrend’de swing high’dan swing low’a anchor koyarım. Araç yalnız seçtiğim hareketi ölçer. Yanlış swing seçersem kusursuz çizim bile yanlış soruya cevap verir.
+
+**Bölüm/alt başlık:** 9 / 9.3 — Retracement’ı Doğru Çizmek
+
+**Kaynak özeti (`source`):** Seviye Eylem tanımı Dikkat 0.786 Çok derin pullback’i izlerim. Trend kalitesi ve invalidation mesafesi sorgulanır. 1.000 Ölçülen hareketin eşit kopyası.
+
+## Test fikri (`hypothesis`)
+
+Bu konuya ait kaynak varyantları korunur. İlk aşamada sabit eşik seçilmez; geniş sembol evreninde aynı tanımların amaçladığı davranışa katkısı karşılaştırılır.

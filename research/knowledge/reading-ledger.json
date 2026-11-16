@@ -1,0 +1,123 @@
+{
+  "schema_version": 1,
+  "policy": {
+    "order": [
+      "ATK-TR-D1.0-2026-08",
+      "PTA-C1-2026",
+      "PTA-C2-2026"
+    ],
+    "scope": "two_tier",
+    "detail": "layered",
+    "entry_order": [
+      "source",
+      "inference",
+      "use"
+    ],
+    "conflicts": "preserve_as_testable_variants",
+    "formula_policy": "ideas_first_formulas_later"
+  },
+  "books": [
+    {
+      "source_id": "ATK-TR-D1.0-2026-08",
+      "ingestion": "complete",
+      "synthesis": "complete",
+      "chapters_total": 24,
+      "chapters_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "scope_note": "Replay/araştırmaya doğrudan bağlı bölümler ayrıntılı; diğerleri kısa ve aranabilir.",
+      "completion_note": "Tüm sayfalar uzun kaynak şeridi, konu etiketleri, ayrı proje yorumu ve kullanım bağlantısıyla işlendi; kesin formül/eşikler sonraki deney tasarımına bırakıldı."
+    },
+    {
+      "source_id": "PTA-C1-2026",
+      "ingestion": "complete",
+      "synthesis": "complete",
+      "chapters_total": 21,
+      "chapters_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "scope_note": "İndikatör rolleri ve kombinasyonlar ayrıntılı işlenecek.",
+      "completion_note": "Tüm sayfalar uzun kaynak şeridi, konu etiketleri, ayrı proje yorumu ve kullanım bağlantısıyla işlendi; kesin formül/eşikler sonraki deney tasarımına bırakıldı."
+    },
+    {
+      "source_id": "PTA-C2-2026",
+      "ingestion": "complete",
+      "synthesis": "complete",
+      "chapters_total": 13,
+      "chapters_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "scope_note": "Fiyat davranışı bölümlerinin tamamı ayrıntılı işlenecek.",
+      "completion_note": "Tüm sayfalar uzun kaynak şeridi, konu etiketleri, ayrı proje yorumu ve kullanım bağlantısıyla işlendi; kesin formül/eşikler sonraki deney tasarımına bırakıldı."
+    }
+  ],
+  "preliminary_themes": [
+    {
+      "path": "research/knowledge/themes/00-systematic-reading-framework.md",
+      "purpose": "Tam okuma öncesinde, üç eserde tekrar eden karar ve araştırma mimarisini kaynakları ayrı tutarak başlangıç çerçevesine bağlar."
+    }
+  ],
+  "completion": {
+    "status": "complete",
+    "pages_processed": 778,
+    "coverage_percent": 100.0,
+    "topic_dossiers": 40,
+    "completed_at": "2026-11-15",
+    "final_gap_audit": "research/knowledge/FINAL_GAP_AUDIT.md"
+  }
+}

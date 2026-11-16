@@ -1,0 +1,734 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0262",
+    "page": 262,
+    "chapter": 13,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma\nStop seviyesinden portföy riskine uygulanabilir sermaye koruma sistemi",
+    "source_extract_summary": [
+      "BÖLÜM 13 Risk Yönetimi ve Pozisyon Boyutlandırma Stop seviyesinden portföy riskine uygulanabilir sermaye koruma sistemi"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0263",
+    "page": 263,
+    "chapter": 13,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  248\nBu Bölümün Amacı\nBölüm 12’de setup’ın bağlamını, trigger’ını, girişini, geçersizliğini ve hedefini yazdık. Şimdi aynı fikre \nne kadar sermaye ayıracağımızı hesaplayacağız. Risk yönetimi işlemin kazanıp kazanmayacağını \nsöylemez; yanlış çıktığımızda kaybın hesap, gün, hafta ve portföy ölçeğinde kabul edilebilir kalmasını \nsağlar.\nGrafiği açtığımda önce istediğim miktarı düşünmem. Setup’ın hangi fiyatta bozulduğunu belirlerim. \nArdından önceden tanımladığım risk bütçesini uygular, pozisyon büyüklüğünü hesaplar ve açık \npozisyonların toplam etkisini kontrol ederim. Son adımda spread, komisyon, slippage, funding veya \nprim gibi gerçek maliyetleri eklerim.\nBÖLÜM SONUNDA\n• Risk ile belirsizliği ayırabilecek ve R birimiyle sonuçları standartlaştırabileceksiniz.\n• Teknik stop, risk oranı ve enstrüman değerinden pozisyon büyüklüğü hesaplayabileceksiniz.\n• Win rate, R:R ve maliyetleri expectancy içinde birlikte değerlendirebileceksiniz.\n• Drawdown, kayıp serisi, korelasyon ve portföy yoğunlaşmasını yönetebileceksiniz.\n• Leverage, hedge, options primi ve arbitrage maliyetini risk bütçesine ekleyebileceksiniz.\nEĞİTİM NOTU\nBu bölümdeki fiyatlar, oranlar ve risk bütçeleri temsilîdir. Amaç kişiye özel yatırım tavsiyesi vermek \ndeğil, ölçülebilir risk sürecini öğretmektir.\nUygulama Görseli 13.1 – XAGTRYG setup kartında entry, invalidation, risk bütçesi, miktar, tahmini maliyet, \nilk hedef ve açık portföy riski alanları. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Bölüm 12’de setup’ın bağlamını, trigger’ını, girişini, geçersizliğini ve hedefini yazdık.",
+      "Şimdi aynı fikre ne kadar sermaye ayıracağımızı hesaplayacağız.",
+      "Risk yönetimi işlemin kazanıp kazanmayacağını söylemez; yanlış çıktığımızda kaybın hesap, gün, hafta ve portföy ölçeğinde kabul edilebilir kalmasını sağlar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0264",
+    "page": 264,
+    "chapter": 13,
+    "section": "13.1 — Belirsizlik, Risk ve Hayatta Kalma İlkesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  249\n13.1 Belirsizlik, Risk ve Hayatta Kalma İlkesi\nUncertainty (sonraki fiyat sonucunu önceden kesin bilememe) piyasadan kaldırılamaz. Risk (yanlış \nçıktığımda ne kadar kaybedeceğimi ölçme ve seçme) ise yönetilebilir. En güçlü setup bile kaybedebilir; \nfakat kaybeden bir setup’ın hesabı ne kadar etkileyeceğini işlemden önce belirleyebilirim.\nŞekil 13.1 – Belirsizlik ile ölçülebilir riskin ayrımı\nKontrol edemediğim Kontrol edebildiğim\nSonraki mumun yönü Emre girmeden önce stop ve invalidation.\nHaberin tam fiyat etkisi Haber çevresinde işlem yapıp yapmama kararı.\nGap ve ani slippage’ın kesin büyüklüğü Boyutu azaltma, emir türü ve risk tamponu.\nTek işlemin sonucu Tek işlem riskini ve portföy toplamını sınırlandırma.\nKayıp serisinin ne zaman başlayacağı Seri geldiğinde uygulanacak önceden yazılmış protokol.\nTablo 13.1 – Sonuç kontrolü ile süreç kontrolü\nEKRANDA NE ARIYORUM?\n• Setup’ın bozulduğu fiyatı görüyor muyum?\n• Stop gerçekleştiğinde kayıp tutarını biliyor muyum?\n• Gap/slippage riski normalden yüksek mi?\n• Aynı temaya bağlı başka açık pozisyonlarım var mı?\n• Bu işlemi kaybetmek sonraki kararı bozacak kadar büyük mü?\nDOĞRU BİLİNEN YANLIŞ\nMit: Çok güçlü setup’ta daha fazla risk almak mantıklıdır.\nGerçeklik: Setup kalitesi olasılığı etkileyebilir; sonucu kesinleştirmez. Risk artışı yalnız önceden test \nedilmiş ve yazılı bir sistemin parçasıysa değerlendirilebilir.",
+    "source_extract_summary": [
+      "13.1 Belirsizlik, Risk ve Hayatta Kalma İlkesi Uncertainty (sonraki fiyat sonucunu önceden kesin bilememe) piyasadan kaldırılamaz.",
+      "Risk (yanlış çıktığımda ne kadar kaybedeceğimi ölçme ve seçme) ise yönetilebilir.",
+      "En güçlü setup bile kaybedebilir; fakat kaybeden bir setup’ın hesabı ne kadar etkileyeceğini işlemden önce belirleyebilirim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0265",
+    "page": 265,
+    "chapter": 13,
+    "section": "13.2 — R Birimi ve Risk Bütçesi Hiyerarşisi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  250\n13.2 R Birimi ve Risk Bütçesi Hiyerarşisi\nR (işlem başına başlangıçta kabul ettiğim parasal risk birimi), farklı fiyat ve enstrümanlardaki işlemleri \nortak ölçekte karşılaştırmamı sağlar. Stopta planlanan kayıp 500 TL ise −1R, 1.000 TL net kazanç \n+2R’dir. Gerçek kayıp slippage nedeniyle 550 TL olursa sonuç −1,10R olarak kaydedilir.\nŞekil 13.2 – Tek işlemden portföye risk bütçesi hiyerarşisi\nKatman Önceden yazacağım sınır Amaç\nTek işlem Hesap özkaynağının seçilen oranı veya \nsabit tutar.\nBir yanlış fikrin hesabı bozmasını önlemek.\nGünlük toplam Açık ve kapanmış bütün günlük risklerin \nüst sınırı.\nHızlı karar ve revenge döngüsünü kesmek.\nHafta / test dönemi Önceden tanımlı kayıp veya süreç ihlali \nlimiti.\nRejim uyumsuzluğu ve sistem hatasını \nincelemek.\nPortföy ısısı Açık işlemlerin toplam başlangıç riski. Aynı anda aşırı açık risk taşımamak.\nTema / korelasyon kümesi Aynı ekonomik sürücüye bağlı toplam risk. Sahte çeşitlendirmeyi önlemek.\nTablo 13.2 – Risk bütçesi katmanları\nEYLEM DİLİ\nÖnce “tek işlemde ne kadar kaybı kabul ederim?” sorusunu, sonra “aynı anda kaç bağımsız risk \ntaşıyorum?” sorusunu yanıtlarım. Risk oranı setup görülünce değil, işlem planı hazırlanırken \nbelirlenir.\nDOĞRU BİLİNEN YANLIŞ\nMit: %1 risk, hesabın yalnız %1’iyle işlem açmaktır.\nGerçeklik: %1 risk, planlanan stop gerçekleşirse hesabın yaklaşık %1 kaybetmesidir. Pozisyonun \nnominal değeri stop mesafesine göre hesabın %1’inden çok daha büyük veya küçük olabilir.",
+    "source_extract_summary": [
+      "13.2 R Birimi ve Risk Bütçesi Hiyerarşisi R (işlem başına başlangıçta kabul ettiğim parasal risk birimi), farklı fiyat ve enstrümanlardaki işlemleri ortak ölçekte karşılaştırmamı sağlar.",
+      "Stopta planlanan kayıp 500 TL ise −1R, 1.000 TL net kazanç +2R’dir.",
+      "Gerçek kayıp slippage nedeniyle 550 TL olursa sonuç −1,10R olarak kaydedilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0266",
+    "page": 266,
+    "chapter": 13,
+    "section": "13.3 — Stop Seçimi: Teknik, Volatilite ve Birleşik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  251\n13.3 Stop Seçimi: Teknik, Volatilite ve Birleşik\nStop-loss (setup tezi bozulduğunda pozisyonu kapatmak üzere önceden yerleştirilen emir), bütçeyi \nistediğim miktara uydurmak için rastgele daraltılmaz. Önce invalidation’ı belirlerim; sonra stop emrini \npiyasa yapısı, minimum fiyat adımı, normal volatilite ve olası slippage için uygulanabilir noktaya \nyerleştiririm.\nStop türü Nasıl seçerim? Ana risk\nTeknik stop Swing, zone, range sınırı veya pattern \nekstremi ötesi.\nSeviye çok görünürse normal testte \ntetiklenebilir.\nVolatilite stopu Entry anındaki ATR’nin test edilmiş katı. Yapısal invalidation’ı gözden kaçırabilir.\nBirleşik stop Teknik seviye ötesine volatility buffer \neklenir.\nStop genişler; pozisyon küçültülmezse \nparasal risk artar.\nZaman stopu Beklenen hareket belirli süre/bar içinde \nbaşlamazsa çıkış.\nYalnız test edilmiş setup’larda kullanılmalı.\nTrailing stop Fiyat lehime ilerledikçe yalnız koruma \nyönünde taşınır.\nErken sıkılaştırma normal pullback’te çıkış \nüretir.\nTablo 13.3 – Stop yöntemlerinin görevleri\nEKRANDA NE ARIYORUM?\n• Setup hangi kapanış veya swing ihlalinde anlamsızlaşır?\n• Stop normal fitil/ATR hareketinin içinde mi kalıyor?\n• Haber veya seans açılışı gap/slippage riskini artırıyor mu?\n• Stop genişlediğinde pozisyon büyüklüğünü yeniden hesapladım mı?\n• Stopu kayıp büyürken uzaklaştırmayı yasaklayan kuralım var mı?\nDOĞRU BİLİNEN YANLIŞ\nMit: Stop ne kadar dar olursa risk o kadar küçüktür.\nGerçeklik: Parasal risk, stop mesafesi ile pozisyon büyüklüğünün birlikte sonucudur. Dar stop daha \nbüyük pozisyona izin verebilir; yanlış yerdeyse daha sık −1R üretir.",
+    "source_extract_summary": [
+      "13.3 Stop Seçimi: Teknik, Volatilite ve Birleşik Stop-loss (setup tezi bozulduğunda pozisyonu kapatmak üzere önceden yerleştirilen emir), bütçeyi istediğim miktara uydurmak için rastgele daraltılmaz.",
+      "Önce invalidation’ı belirlerim; sonra stop emrini piyasa yapısı, minimum fiyat adımı, normal volatilite ve olası slippage için uygulanabilir noktaya yerleştiririm.",
+      "Ana risk Teknik stop Swing, zone, range sınırı veya pattern ekstremi ötesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0267",
+    "page": 267,
+    "chapter": 13,
+    "section": "13.3 — Stop Seçimi: Teknik, Volatilite ve Birleşik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  252\nUygulama Görseli 13.2 – XAGTRYG 4 saatlik demand altında teknik stop, ATR tamponu ve aynı setup için \naşırı dar stopun karşılaştırılması. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Uygulama Görseli 13.2 – XAGTRYG 4 saatlik demand altında teknik stop, ATR tamponu ve aynı setup için aşırı dar stopun karşılaştırılması."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0268",
+    "page": 268,
+    "chapter": 13,
+    "section": "13.4 — Pozisyon Büyüklüğü Formülü",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  253\n13.4 Pozisyon Büyüklüğü Formülü\nPosition sizing (stop gerçekleştiğinde kaybın risk bütçesini aşmaması için alınacak birim miktarını \nhesaplama), stop seçildikten sonra yapılır. Temel sıra değişmez: hesap özkaynağı → risk oranı → risk \ntutarı → etkili birim risk → pozisyon büyüklüğü.\nŞekil 13.3 – Risk tutarından pozisyon büyüklüğüne hesap akışı\nTEMEL FORMÜLLER\n• Risk tutarı = Hesap özkaynağı × Risk oranı\n• Birim fiyat riski = |Entry − Stop| × sözleşme/puan değeri\n• Etkili birim risk = Birim fiyat riski + tahmini komisyon/spread/slippage\n• Pozisyon büyüklüğü = Risk tutarı ÷ Etkili birim risk\nTemsilî XAGTRYG örneği Değer\nHesap özkaynağı 100.000 TL\nÖrnek risk oranı %0,50\nRisk tutarı 500 TL\nEntry / stop 111,20 / 110,20 TL\nFiyat riski 1,00 TL / gram\nTahmini toplam birim maliyet 0,10 TL / gram\nEtkili birim risk 1,10 TL / gram\nHesaplanan miktar 500 ÷ 1,10 ≈ 454 gram\nTablo 13.4 – Temsilî XAGTRYG pozisyon hesabı\nVAKA ANALİZİ — STOP DEĞİŞTİ\n• Aynı setup’ta volatilite arttı ve geçerli stop 110,20 yerine 109,70 oldu.\n• Etkili birim risk 1,10 TL’den yaklaşık 1,60 TL’ye çıktı.\n• Risk bütçesi 500 TL’de kalırsa miktar yaklaşık 312 grama düşer.\n• Stopu eski yerde tutmak yerine pozisyonu küçültürüm; teknik tezi para hedefine uydurmam.",
+    "source_extract_summary": [
+      "13.4 Pozisyon Büyüklüğü Formülü Position sizing (stop gerçekleştiğinde kaybın risk bütçesini aşmaması için alınacak birim miktarını hesaplama), stop seçildikten sonra yapılır.",
+      "Temel sıra değişmez: hesap özkaynağı → risk oranı → risk tutarı → etkili birim risk → pozisyon büyüklüğü.",
+      "• Etkili birim risk 1,10 TL’den yaklaşık 1,60 TL’ye çıktı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Deney ve strateji kartı",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0269",
+    "page": 269,
+    "chapter": 13,
+    "section": "13.5 — Position Sizing Modelleri ve Volatilite",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  254\n13.5 Position Sizing Modelleri ve Volatilite \nUyarlaması\nŞekil 13.4 – Aynı risk bütçesinde stop–pozisyon dengesi\nModel Uygulama Sınır\nFixed fractional Güncel özkaynağın sabit yüzdesi risk edilir. Hesap büyüdükçe miktar artar, \ndrawdown’da doğal olarak azalır.\nFixed money risk Belirli dönem boyunca aynı TL tutarı risk \nedilir.\nKolaydır; hesap hızlı değişirse oran sapar.\nVolatility-based sizing Stop ATR/volatiliteyle genişledikçe \npozisyon küçülür.\nATR yön söylemez; teknik invalidation yine \nkontrol edilir.\nFixed ratio / basamaklı Risk, önceden tanımlı kâr eşiklerinde \nartırılır.\nKarmaşıktır; yeni başlayan için zorunlu \ndeğildir.\nKelly türevleri Test edilmiş win rate ve payoff’tan büyüme \noranı çıkarır.\nTahmin hatasına çok duyarlıdır; full Kelly \naşırı agresif olabilir.\nMartingale Kayıptan sonra miktar artırılır veya ikiye \nkatlanır.\nSınırlı sermayede yıkıcı kayıp üretir; kitap \nstandardında kullanılmaz.\nTablo 13.5 – Pozisyon büyüklüğü modelleri\nEYLEM DİLİ\nVolatilite yükseldiğinde stop doğal olarak genişliyorsa aynı parasal riski korumak için miktarı \nküçültürüm. “Bu fırsat çok iyi” diyerek risk tutarını sabit tutup pozisyonu da sabit bırakmam.",
+    "source_extract_summary": [
+      "13.5 Position Sizing Modelleri ve Volatilite Uyarlaması Şekil 13.4 – Aynı risk bütçesinde stop–pozisyon dengesi Model Uygulama Sınır Fixed fractional Güncel özkaynağın sabit yüzdesi risk edilir.",
+      "Hesap büyüdükçe miktar artar, drawdown’da doğal olarak azalır.",
+      "Fixed money risk Belirli dönem boyunca aynı TL tutarı risk edilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0270",
+    "page": 270,
+    "chapter": 13,
+    "section": "13.6 — Hedef, R:R ve İşlem Yapılabilirlik",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  255\nDOĞRU BİLİNEN YANLIŞ\nMit: Kayıptan sonra miktarı büyütmek, önceki kaybı daha hızlı çıkarır.\nGerçeklik: Martingale mantığı sermayenin ve işlem kapasitesinin sınırsız olduğunu varsayar. Kayıp \nserisi uzadığında risk geometrik büyür.\n13.6 Hedef, R:R ve İşlem Yapılabilirlik\nRisk-to-reward ratio — R:R (planlanan potansiyel kazancın planlanan kayba oranı), yalnız geometridir. \n2R yazmak hedefin ulaşılabilir olduğunu göstermez. Önce teknik hedefi ve aradaki engelleri belirler, \nsonra setup’ın sunduğu gerçek R:R’yi ölçerim.\nHedef yöntemi Ne zaman anlamlı? Risk kontrolü\nTeknik hedef Önceki swing, zone, likidite veya range \nkarşı sınırı.\nHedefe engel çok yakınsa işlem atlanır.\nMeasured move / projection Trend, pattern veya range boyu ölçümü. Kesin varış değil, olası alan olarak kullanılır.\nSabit R hedefi Backtest edilmiş sistemde tutarlı çıkış \nstandardı.\nPiyasa yapısının içine zorla yerleştirilmez.\nDinamik / trailing Güçlü trendde hareketi sürdürme. İlk risk ve maksimum kayıp önceden sabit \nkalır.\nTablo 13.6 – Hedef yöntemleri ve risk görevi\nEKRANDA NE ARIYORUM?\n• Entry ile ilk gerçek engel arasında kaç R alan var?\n• Hedef bir teknik bölgeye mi, yalnız istediğim R sayısına mı dayanıyor?\n• Spread ve olası slippage net R’yi ne kadar azaltıyor?\n• Stop ve hedef aynı zaman diliminin yapısına mı ait?\nDOĞRU BİLİNEN YANLIŞ\nMit: En az 1:2 olmayan her işlem kötüdür.\nGerçeklik: Edge, win rate ile ortalama kazanma/kaybetme dağılımından doğar. Yine de hedefe \nkalan alan dar ve maliyet yüksekse setup işlem yapılabilir olmayabilir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Kayıptan sonra miktarı büyütmek, önceki kaybı daha hızlı çıkarır.",
+      "Gerçeklik: Martingale mantığı sermayenin ve işlem kapasitesinin sınırsız olduğunu varsayar.",
+      "Kayıp serisi uzadığında risk geometrik büyür."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Deney ve strateji kartı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0271",
+    "page": 271,
+    "chapter": 13,
+    "section": "13.7 — Win Rate, Başa Baş Oranı ve Expectancy",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  256\n13.7 Win Rate, Başa Baş Oranı ve Expectancy\nWin rate (işlemlerin kaçının kazançla kapandığı oran) tek başına strateji kalitesini göstermez. Break-\neven win rate (maliyet öncesi sıfır beklenti için gereken minimum kazanma oranı), ortalama \nreward/risk oranıyla birlikte hesaplanır. Expectancy (çok sayıda benzer işlemde işlem başına beklenen \nortalama sonuç), gerçek edge’i özetler.\nŞekil 13.5 – Win rate, ortalama sonuç ve maliyetin expectancy’ye etkisi\nTEMEL FORMÜLLER\n• Başa baş kazanma oranı = 1 ÷ (1 + ortalama reward/risk) — maliyet öncesi\n• Expectancy (R) = Kazanma oranı × Ortalama kazanç R − Kaybetme oranı × Ortalama kayıp R − \nOrtalama maliyet R\n• 1:1 için maliyet öncesi başa baş ≈ %50; 1:2 için ≈ %33,3; 1:3 için ≈ %25\nSistem Win rate Ort. kazanç Ort. kayıp Maliyet öncesi expectancy\nA %70 +0,60R −1,00R +0,12R\nB %45 +1,80R −1,00R +0,26R\nC %30 +3,00R −1,00R +0,20R\nD %80 +0,20R −1,50R −0,14R\nTablo 13.7 – Win rate’in tek başına yeterli olmadığını gösteren örnekler\nVAKA ANALİZİ — 20 İŞLEM\n• Temsilî sistem %45 win rate ve ortalama +1,8R kazanç üretiyor.\n• Ortalama kayıp −1R, ortalama maliyet −0,08R/işlem.\n• Net expectancy yaklaşık +0,18R/işlem olur.\n• 20 işlemde beklenen toplam +3,6R’dir; fakat gerçek sıra bundan çok farklı olabilir ve kayıp serileri \ngörülebilir.",
+    "source_extract_summary": [
+      "13.7 Win Rate, Başa Baş Oranı ve Expectancy Win rate (işlemlerin kaçının kazançla kapandığı oran) tek başına strateji kalitesini göstermez.",
+      "Break- even win rate (maliyet öncesi sıfır beklenti için gereken minimum kazanma oranı), ortalama reward/risk oranıyla birlikte hesaplanır.",
+      "Expectancy (çok sayıda benzer işlemde işlem başına beklenen ortalama sonuç), gerçek edge’i özetler."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0272",
+    "page": 272,
+    "chapter": 13,
+    "section": "13.9 — Drawdown ve Toparlanma Asimetrisi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  257\nDOĞRU BİLİNEN YANLIŞ\nMit: %70 win rate, %45 win rate’ten mutlaka daha iyidir.\nGerçeklik: Yüksek win rate, küçük kazançlar ve nadir büyük kayıplarla negatif expectancy üretebilir.\n13.8 Maliyet Sonrası Gerçek Edge\nBacktest veya grafik planında görünen brüt R, gerçek işlem sonucu değildir. Spread, komisyon, \nslippage, funding/borrow maliyeti, opsiyon primi ve hedge taşıma maliyeti net expectancy’yi azaltır. \nÖzellikle scalping, küçük hedefli day trading ve arbitrajda maliyet, setup’ın ana bileşenidir.\nMaliyet Nerede görünür? Risk planına etkisi\nSpread Alış–satış fiyatı farkı. Entry anında negatif başlangıç; stop/target \nmesafesini etkiler.\nKomisyon Emir gerçekleştiğinde. Gidiş–dönüş toplamı R cinsinden \nkaydedilir.\nSlippage Hızlı piyasa, gap veya düşük likidite. Planlanan −1R daha büyük gerçekleşebilir.\nFunding / borrow Kaldıraçlı veya short pozisyon taşıma. Süre uzadıkça net hedef azalır.\nHedge maliyeti İkinci pozisyonun spread, ücret, prim ve \nbasis farkı.\nKorumanın bedeli ayrı risk kalemi olur.\nTransfer / gas Borsa veya DEX arbitrajı. Görünen fiyat farkını tamamen silebilir.\nTablo 13.8 – Brüt edge’i azaltan işlem maliyetleri\nEKRANDA NE ARIYORUM?\n• Backtest maliyetli mi, maliyetsiz mi?\n• Stop emrinin gap ile daha kötü fiyattan dolma riski var mı?\n• Hedef küçüldükçe maliyetin R içindeki payı büyüyor mu?\n• Taşıma süresi funding, borrow veya prim erimesini artırıyor mu?\nDOĞRU BİLİNEN YANLIŞ\nMit: Komisyon küçükse ihmal edilebilir.\nGerçeklik: Tek işlemde küçük görünen maliyet, yüksek işlem sıklığında expectancy’nin tamamını \ntüketebilir.\n13.9 Drawdown ve Toparlanma Asimetrisi\nDrawdown (hesap değerinin önceki zirvesinden sonraki dip seviyesine düşüşü), yalnız psikolojik \nrahatsızlık değil, matematiksel bir sermaye problemidir. Yüzde kayıp ile başa başa dönmek için \ngereken yüzde kazanç simetrik değildir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: %70 win rate, %45 win rate’ten mutlaka daha iyidir.",
+      "Gerçeklik: Yüksek win rate, küçük kazançlar ve nadir büyük kayıplarla negatif expectancy üretebilir.",
+      "13.8 Maliyet Sonrası Gerçek Edge Backtest veya grafik planında görünen brüt R, gerçek işlem sonucu değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0273",
+    "page": 273,
+    "chapter": 13,
+    "section": "13.10 — Kayıp Serisi ve Risk Azaltma Protokolü",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  258\nŞekil 13.6 – Drawdown büyüdükçe gerekli toparlanmanın hızlanması\nDrawdown Başa baş için gereken kazanç\n%10 Yaklaşık %11,1\n%20 %25\n%30 Yaklaşık %42,9\n%50 %100\n%90 %900\nTablo 13.9 – Kayıp ve toparlanma asimetrisi\nEYLEM DİLİ\nHedefim her kaybı hemen geri almak değil, drawdown’ın derinleşmesini durdurmaktır. Hesap \nzirvesinden ne kadar uzakta olduğumu, hangi setup ve piyasa rejiminin kaybı ürettiğini ayrı izlerim.\nDOĞRU BİLİNEN YANLIŞ\nMit: %50 kaybettikten sonra %50 kazanırsam başa baş olurum.\nGerçeklik: 100’den 50’ye düşen hesap, tekrar 100’e çıkmak için kalan sermaye üzerinden %100 \nkazanmalıdır.\n13.10 Kayıp Serisi ve Risk Azaltma Protokolü\nLosing streak (birbiri ardına gelen kayıplar), pozitif expectancy’li bir sistemde de oluşabilir. Tek veya \nbirkaç kayıp, sistemin bozulduğunu kanıtlamaz. Fakat kayıp serisi risk bütçesini, uygulama kalitesini ve \npiyasa rejimi uyumunu yeniden kontrol etmem gereken bir durumdur.",
+    "source_extract_summary": [
+      "Hesap zirvesinden ne kadar uzakta olduğumu, hangi setup ve piyasa rejiminin kaybı ürettiğini ayrı izlerim.",
+      "DOĞRU BİLİNEN YANLIŞ Mit: %50 kaybettikten sonra %50 kazanırsam başa baş olurum.",
+      "Gerçeklik: 100’den 50’ye düşen hesap, tekrar 100’e çıkmak için kalan sermaye üzerinden %100 kazanmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0274",
+    "page": 274,
+    "chapter": 13,
+    "section": "13.11 — Portföy Isısı, Korelasyon ve Yoğunlaşma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  259\nDurum Önceden yazılacak eylem Yapılmayacak\nNormal varyans Aynı kurallarla, aynı risk birimiyle devam; \nişlemleri kaydet.\nTek sonuca göre sistemi değiştirmek.\nGünlük limit doldu Yeni işlem açmayı durdur; açık riski plana \ngöre yönet.\nRevenge trade ile limiti geri almaya \nçalışmak.\nBelirlenen drawdown eşiği Risk birimini azalt; son örnekleri \nsetup/rejim bazında incele.\nMiktarı artırarak telafi etmek.\nKural ihlali görüldü İşlemi sistem performansından ayır; \nuygulama hatasını düzelt.\nKötü uygulamayı strateji kaybı olarak \netiketlemek.\nYapısal sistem bozulması Yeni işlem öncesi test/replay; gerekirse \nsistemi durdur.\nCanlı piyasada aynı anda çok kural \ndeğiştirmek.\nTablo 13.10 – Kayıp serisi risk azaltma protokolü\nVAKA ANALİZİ — XAGTRYG KAYIP SERİSİ\n• Aynı hafta üç pullback setup’ı −1R ile kapandı.\n• Önce işlemlerin gerçekten aynı kurala uyup uymadığını kontrol ederim.\n• Kayıplar güçlü düşüş rejiminde counter-trend alımlardan geldiyse rejim filtresi sorunudur; \nrastgele varyans değildir.\n• Risk azaltma veya duraklatma eşiğim önceden tanımlıysa onu uygularım; dördüncü işlemde \nmiktarı büyütmem.\nDOĞRU BİLİNEN YANLIŞ\nMit: Üç kayıptan sonra sıradaki işlemin kazanma ihtimali artar.\nGerçeklik: Bağımsız işlem sonuçlarında piyasa önceki kayıpları “telafi etmek” zorunda değildir. \nSonraki risk, yazılı sisteme göre kalır.\n13.11 Portföy Isısı, Korelasyon ve Yoğunlaşma\nPortfolio heat (aynı anda açık pozisyonlarda stopa kadar taşınan toplam başlangıç riski), tek tek işlem \nrisklerinin toplamından başlar. Fakat nominal toplam yeterli değildir. Birbirine yüksek derecede bağlı \nvarlıklar aynı olayda birlikte zarar edebilir; bu nedenle işlemleri ekonomik sürücülerine göre risk \nkümelerine ayırırım.",
+    "source_extract_summary": [
+      "Durum Önceden yazılacak eylem Yapılmayacak Normal varyans Aynı kurallarla, aynı risk birimiyle devam; işlemleri kaydet.",
+      "Tek sonuca göre sistemi değiştirmek.",
+      "Günlük limit doldu Yeni işlem açmayı durdur; açık riski plana göre yönet."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0275",
+    "page": 275,
+    "chapter": 13,
+    "section": "13.11 — Portföy Isısı, Korelasyon ve Yoğunlaşma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  260\nŞekil 13.7 – Korelasyon kümeleri ve tam risk kontrol akışı\nGörünüm Nominal risk Gerçek yorum\nÜç bağımsız setup, her biri 0,5R 1,5R Farklı sürücü ve zaman ufkuysa gerçek \nçeşitlendirme olabilir.\nXAGTRYG, XAU ve metal madencisi long 1,5R Aynı metal/USD teması nedeniyle tek \nkümede yoğunlaşabilir.\nAynı endeks içindeki üç yüksek beta hisse 1,5R Piyasa düşüşünde birlikte hareket etme \nriski yüksektir.\nLong ve karşı hedge Brüt risk iki pozisyon Net risk hedge oranı, basis ve maliyete \nbağlıdır; sıfır değildir.\nTablo 13.11 – Nominal pozisyon sayısı ile risk kümesi farkı\nEKRANDA NE ARIYORUM?\n• Açık işlemler aynı para birimi, sektör, endeks veya emtia sürücüsüne bağlı mı?\n• Korelasyon hangi zaman dilimi ve dönemde ölçülüyor?\n• Aynı tema ters giderse toplam stop kaybı kaç R olur?\n• Yeni işlem gerçekten yeni edge mi, mevcut pozisyonun tekrarı mı?\nDOĞRU BİLİNEN YANLIŞ\nMit: Beş farklı sembol taşımak çeşitlendirmedir.\nGerçeklik: Aynı ekonomik sürücüye bağlı beş sembol tek büyük pozisyon gibi davranabilir. \nKorelasyon da zaman içinde değişebilir.",
+    "source_extract_summary": [
+      "XAGTRYG, XAU ve metal madencisi long 1,5R Aynı metal/USD teması nedeniyle tek kümede yoğunlaşabilir.",
+      "Aynı endeks içindeki üç yüksek beta hisse 1,5R Piyasa düşüşünde birlikte hareket etme riski yüksektir.",
+      "Long ve karşı hedge Brüt risk iki pozisyon Net risk hedge oranı, basis ve maliyete bağlıdır; sıfır değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0276",
+    "page": 276,
+    "chapter": 13,
+    "section": "13.13 — Kaldıraç, Marjin ve Likidasyon",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  261\n13.12 Stop, Hedge ve Çeşitlendirme\nHedge (ana pozisyona zıt veya dengeleyici risk alarak geçici kaybı azaltma), stopun eş anlamlısı \ndeğildir. Stop tezi sonlandırır; hedge ana pozisyonu açık tutarken ek maliyet ve yeni bir yönetim kararı \nyaratır. Diversification (farklı risk sürücülerine dağılım) ise tek olaya bağımlılığı azaltmayı amaçlar.\nAraç Ana görev Maliyet / sınır\nStop-loss Yanlış tezi belirli fiyatta kapatmak. Gap/slippage ile planlanandan kötü \ndolabilir.\nHedge Ana pozisyonu açık tutarken geçici riski \nazaltmak.\nSpread, ücret, prim, basis ve yanlış hedge \noranı.\nÇeşitlendirme Sermayeyi farklı risk sürücülerine \ndağıtmak.\nKrizde korelasyonlar yükselebilir; sahte \nçeşitlendirme.\nNakit / düşük maruz kalma Toplam riski doğrudan azaltmak. Fırsat maliyeti; fakat operasyonel sadelik.\nTablo 13.12 – Stop, hedge ve çeşitlendirme görev ayrımı\nVAKA ANALİZİ — UZUN VADELİ METAL POZİSYONU\n• Uzun vadeli gümüş tezim korunuyor; kısa vadede yüksek volatilite bekliyorum.\n• Kısa vadeli trade stopu ile uzun vadeli tez aynı değildir.\n• Hedge kullanacaksam büyüklüğünü, maliyetini, çıkış koşulunu ve hangi riski azalttığını önceden \nyazarım.\n• Kötü bir kısa vadeli trade’i kapatmamak için sonradan hedge icat etmem.\nDOĞRU BİLİNEN YANLIŞ\nMit: Hedge kullanınca zarar riski ortadan kalkar.\nGerçeklik: Hedge riski dönüştürür; maliyet, uyumsuzluk, zamanlama ve karşı taraf/ürün riski \nekleyebilir.\n13.13 Kaldıraç, Marjin ve Likidasyon\nLeverage (özsermayeden daha büyük nominal pozisyon taşımaya izin veren çarpan), edge’i büyütmez; \nmaruz kalmayı büyütür. Margin (kaldıraçlı pozisyon için ayrılan teminat) pozisyonun toplam riskine \neşit değildir. Liquidation (teminat yetersizleştiğinde platformun pozisyonu zorla kapatması), stop \nplanından ayrı ve daha sert bir risk sınırıdır.\nKontrol Soracağım soru\nNominal pozisyon Kaldıraç sonrası toplam maruz kalma kaç TL?\nStop kaybı Stop gerçekleşirse ücret ve slippage dahil kaç R kaybederim?\nLikidasyon mesafesi Stop emri likidasyondan yeterince önce mi?\nMarjin modu Isolated/cross yapı diğer sermayeyi nasıl etkiliyor?\nFunding Pozisyon süresince taşıma maliyeti hedefi ne kadar azaltır?\nGap/şok Stopun atlanması hâlinde maksimum gerçek kayıp nedir?",
+    "source_extract_summary": [
+      "13.12 Stop, Hedge ve Çeşitlendirme Hedge (ana pozisyona zıt veya dengeleyici risk alarak geçici kaybı azaltma), stopun eş anlamlısı değildir.",
+      "Stop tezi sonlandırır; hedge ana pozisyonu açık tutarken ek maliyet ve yeni bir yönetim kararı yaratır.",
+      "Diversification (farklı risk sürücülerine dağılım) ise tek olaya bağımlılığı azaltmayı amaçlar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0277",
+    "page": 277,
+    "chapter": 13,
+    "section": "13.14 — Options Primi ve Arbitraj Operasyon",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  262\nTablo 13.13 – Kaldıraçlı işlem risk kontrolü\nEYLEM DİLİ\nPozisyon büyüklüğünü “ne kadar marjinim var?” sorusuyla değil, “stopa kadar kaybım kaç R?” \nsorusuyla belirlerim. Likidasyon fiyatını stop yerine kullanmam.\nDOĞRU BİLİNEN YANLIŞ\nMit: 5x leverage kullanmak otomatik olarak hesabın %5’ini riske atar.\nGerçeklik: Gerçek risk; pozisyon büyüklüğü, stop mesafesi, marjin yapısı, maliyet ve gap/slippage \nile belirlenir. Kaldıraç yalnız aşırı pozisyon almayı kolaylaştırır.\nUygulama Görseli 13.3 – Kaldıraçlı long işlemde entry, stop, liquidation ve funding maliyetinin ayrı çizgilerle \ngösterilmesi. Temsilî eğitim şeması.\n13.14 Options Primi ve Arbitraj Operasyon \nRiski\nBazı ürünlerde “stop mesafesi × miktar” tek başına yeterli değildir. Long option alımında premium \n(opsiyon sözleşmesini satın almak için ödenen bedel) ve ücretler başlangıç riskinin merkezidir. \nArbitrajda ise iki fiyat arasındaki brüt fark; ücret, slippage, gas, transfer süresi ve gerçekleşmeme riski \ndüşüldükten sonra anlam kazanır.\nYöntem Başlangıç risk bütçesi Görünmeyen risk\nLong call / put Ödenen prim × sözleşme çarpanı + \nücretler.\nTheta/time decay, volatilite değişimi, vade \nve likidite.\nKoruyucu put Prim ve hedge oranı. Koruma süresi bitimi, yanlış strike/vade, \nfırsat maliyeti.",
+    "source_extract_summary": [
+      "Likidasyon fiyatını stop yerine kullanmam.",
+      "DOĞRU BİLİNEN YANLIŞ Mit: 5x leverage kullanmak otomatik olarak hesabın %5’ini riske atar.",
+      "Gerçeklik: Gerçek risk; pozisyon büyüklüğü, stop mesafesi, marjin yapısı, maliyet ve gap/slippage ile belirlenir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0278",
+    "page": 278,
+    "chapter": 13,
+    "section": "13.15 — Tam Sermaye Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  263\nYöntem Başlangıç risk bütçesi Görünmeyen risk\nOpsiyon satışı Alınan prim risk değildir; olası yükümlülük \nayrıca hesaplanır.\nBazı pozisyonlarda çok büyük veya \nasimetrik kayıp.\nBorsalar arası arbitraj İki taraftaki pozisyon ve işlem/transfer \nmaliyeti.\nFiyat farkının kapanması, gecikme, \nwithdrawal ve platform riski.\nDEX arbitrajı Gas + slippage + fiyat etkisi. Front-running/MEV, başarısız işlem ve ağ \nyoğunluğu.\nTablo 13.14 – Ürüne özgü risk arayüzleri\nEKRANDA NE ARIYORUM?\n• Opsiyon primi sözleşme çarpanıyla toplam kaç TL?\n• Vade ve theta, hedeflenen hareket gelmeden değeri ne kadar eritebilir?\n• Arbitraj farkı bütün ücretler sonrası pozitif mi?\n• İki bacak aynı anda gerçekleşmezse açık yön riski ne olur?\n• Platform, transfer ve ağ riski için ayrı sınır var mı?\nDOĞRU BİLİNEN YANLIŞ\nMit: Arbitraj risksizdir; fiyat farkını gördüğüm anda kâr kesindir.\nGerçeklik: Gecikme, slippage, komisyon, gas, transfer ve operasyon hatası brüt farkı silebilir veya \nyön riski yaratabilir.\n13.15 Tam Sermaye Koruma İş Akışı\nRisk yönetimini ayrı ayrı formüller değil, işlemden önce tamamlanan tek operasyon sırası olarak \nkullanırım. Bir adım eksikse emir gönderilmez.\n1. Setup kartındaki entry, invalidation ve ilk teknik hedefi doğrula.\n2. Stop emrini teknik seviye, volatilite ve uygulama tamponuyla seç.\n3. Güncel hesap özkaynağı ve önceden tanımlı risk oranından risk tutarını hesapla.\n4. Sözleşme/puan değeri ile spread, komisyon ve tahmini slippage’ı birim riske ekle.\n5. Pozisyon büyüklüğünü hesapla; minimum lot ve fiyat adımına göre aşağı yuvarla.\n6. Gerçek hedefe kalan net R:R’yi ve başa baş maliyetini kontrol et.\n7. Açık portföy ısısını ve korelasyon kümesini yeniden hesapla.\n8. Leverage, liquidation, funding, prim veya transfer gibi ürüne özgü riskleri ekle.\n9. Günlük/haftalık kayıp limiti ve haber/seans filtresi uygunsa emri gönder.\n10. İşlem sonrası gerçek kaybı/kazancı R cinsinden, slippage ve maliyetle kaydet.",
+    "source_extract_summary": [
+      "Yöntem Başlangıç risk bütçesi Görünmeyen risk Opsiyon satışı Alınan prim risk değildir; olası yükümlülük ayrıca hesaplanır.",
+      "Bazı pozisyonlarda çok büyük veya asimetrik kayıp.",
+      "Borsalar arası arbitraj İki taraftaki pozisyon ve işlem/transfer maliyeti."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0279",
+    "page": 279,
+    "chapter": 13,
+    "section": "13.15 — Tam Sermaye Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  264\nVAKA ANALİZİ — XAGTRYG TAM RİSK KARTI\n• Temsilî hesap: 100.000 TL; plan risk bütçesi: %0,50 = 500 TL.\n• Entry 111,20; teknik stop 110,20; tahmini birim maliyet 0,10 TL.\n• Etkili birim risk 1,10 TL; teorik miktar ≈454 gram; uygulanabilir lota aşağı yuvarlanır.\n• İlk teknik hedef 113,20 ise brüt reward 2,00 TL; maliyet sonrası plan yaklaşık 1,7–1,8R \nbandındadır.\n• Aynı anda başka metal long pozisyonu varsa tema riski nedeniyle yeni miktar azaltılabilir veya \nişlem atlanabilir.\n• Stop daha kötü fiyattan dolarsa gerçek sonuç −1R değil, gerçekleşen tutara göre kaydedilir.\nUygulama Görseli 13.4 – XAGTRYG risk kartı: entry, technical stop, ATR buffer, target, risk TL, gram miktarı, \nmaliyet R ve metal kümesi toplam riski. Temsilî eğitim şeması.\nSON KARAR CÜMLESİ\n“Setup teknik olarak geçerli; stop 110,20’de, maliyet dahil birim risk 1,10 TL, risk bütçesi 500 TL ve \nuygulanabilir miktar yaklaşık 454 gramdır. İlk hedef sonrası net alan yeterlidir; metal kümesi \ntoplam riski sınırımın altındaysa işlem alınabilir.”\nBölüm Özeti\nSoru Kısa cevap\nRisk yönetimi neyi kontrol eder? Sonucu değil; yanlış çıktığımda kayıp tutarı ve toplam maruz \nkalmayı.\nStop ne zaman seçilir? Pozisyon büyüklüğünden önce, setup invalidation’a göre.\nPozisyon büyüklüğü nasıl bulunur? Risk tutarı ÷ etkili birim risk.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — XAGTRYG TAM RİSK KARTI • Temsilî hesap: 100.000 TL; plan risk bütçesi: %0,50 = 500 TL.",
+      "• Entry 111,20; teknik stop 110,20; tahmini birim maliyet 0,10 TL.",
+      "• Etkili birim risk 1,10 TL; teorik miktar ≈454 gram; uygulanabilir lota aşağı yuvarlanır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0280",
+    "page": 280,
+    "chapter": 13,
+    "section": "13.15 — Tam Sermaye Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  265\nSoru Kısa cevap\nR:R tek başına edge midir? Hayır; win rate, ortalama sonuç ve maliyetle birlikte expectancy \ngerekir.\nDrawdown neden kritiktir? Kayıp büyüdükçe başa başa dönmek için gereken getiri hızla artar.\nKorelasyon neyi değiştirir? Ayrı görünen pozisyonları tek tema riski hâline getirebilir.\nHedge stopun yerine geçer mi? Hayır; pozisyonu açık tutarken yeni maliyet ve yönetim riski ekler.\nKaldıraç risk oranı mıdır? Hayır; maruz kalma ve likidasyon kapasitesini değiştirir.\nTablo 13.15 – Hızlı başvuru özeti\nGrafik ve Risk Kartı Kontrol Listesi\n Setup, entry, invalidation ve target açık mı?\n Stop teknik olarak geçerli ve normal volatilite dışında mı?\n Risk tutarı işlemden önce sabit mi?\n Birim risk; sözleşme değeri ve maliyetleri içeriyor mu?\n Pozisyon miktarı hesaplandı ve aşağı yuvarlandı mı?\n Net hedefe kalan R:R uygulanabilir mi?\n Açık portföy ısısı ve tema/korelasyon riski sınır içinde mi?\n Leverage/liquidation, option premium veya arbitrage operasyon riski kontrol edildi mi?\n Günlük/haftalık kayıp limiti aşılmış mı?\n İşlem sonrası gerçek R, slippage ve maliyet kaydedilecek mi?\nTemel Sözlük\nTerim Aksiyon tanımı\nRisk Yanlış çıktığımda ölçüp sınırladığım kayıp.\nUncertainty Sonraki sonucun kesin bilinmemesi.\nR İşlem başında kabul edilen standart risk birimi.\nRisk budget Tek işlem, gün, hafta ve portföy için önceden ayrılan kayıp sınırı.\nPosition sizing Stop ve risk bütçesinden alınacak miktarı hesaplama.\nEffective unit risk Stop mesafesi, sözleşme değeri ve tahmini maliyetin birim \ntoplamı.\nR:R Planlanan reward’un planlanan riske oranı.\nWin rate Kazançla sonuçlanan işlemlerin oranı.\nExpectancy Çok sayıda işlemde işlem başına beklenen ortalama sonuç.\nDrawdown Hesap zirvesinden sonraki dip seviyesine düşüş.\nPortfolio heat Açık pozisyonlarda stopa kadar taşınan toplam başlangıç riski.\nCorrelation İki varlığın seçilen dönemde birlikte hareket derecesi.\nHedge Ana pozisyonu açık tutarken karşı riskle geçici koruma.\nMargin Kaldıraçlı pozisyon için ayrılan teminat.\nLiquidation Teminat yetersizliğinde pozisyonun zorla kapatılması.",
+    "source_extract_summary": [
+      "Soru Kısa cevap R:R tek başına edge midir?",
+      "Hayır; win rate, ortalama sonuç ve maliyetle birlikte expectancy gerekir.",
+      "Kayıp büyüdükçe başa başa dönmek için gereken getiri hızla artar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0281",
+    "page": 281,
+    "chapter": 13,
+    "section": "13.15 — Tam Sermaye Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 13\nRisk Yönetimi ve Pozisyon Boyutlandırma  •  266\nTerim Aksiyon tanımı\nPremium Opsiyon sözleşmesini almak için ödenen veya satarken alınan \nbedel.\nSlippage Emrin planlanan fiyattan farklı gerçekleşmesi.\nTablo 13.16 – Bölüm 13 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Belirsizlik ile ölçülebilir risk arasındaki fark nedir?\n2. R birimi farklı işlemleri karşılaştırmayı nasıl kolaylaştırır?\n3. Risk bütçesi hangi dört ana katmanda kurulmalıdır?\n4. %1 risk ile hesabın %1’iyle işlem yapmak neden aynı değildir?\n5. Stop seviyesi neden pozisyon büyüklüğünden önce seçilir?\n6. Teknik, volatilite ve birleşik stop arasındaki fark nedir?\n7. Dar stop neden otomatik olarak daha düşük parasal risk üretmez?\n8. Risk tutarı ve pozisyon büyüklüğü formülleri nelerdir?\n9. Etkili birim risk hangi maliyetleri içerebilir?\n10. Fixed fractional ile fixed money risk arasındaki fark nedir?\n11. Volatilite yükseldiğinde aynı risk bütçesinde miktar nasıl değişir?\n12. Martingale neden sınırlı sermayede yıkıcıdır?\n13. R:R neden tek başına işlem kalitesini göstermez?\n14. Başa baş kazanma oranı nasıl hesaplanır?\n15. Expectancy hangi dört bileşenden oluşur?\n16. Yüksek win rate nasıl negatif expectancy üretebilir?\n17. İşlem maliyetleri net edge’i nasıl değiştirir?\n18. %50 drawdown sonrası neden %100 kazanç gerekir?\n19. Kayıp serisinde strateji varyansı ile kural/rejim sorunu nasıl ayrılır?\n20. Portfolio heat nedir?\n21. Farklı semboller neden aynı risk kümesine girebilir?\n22. Stop, hedge ve çeşitlendirme hangi farklı görevleri yapar?\n23. Kaldıraç ile risk oranı neden aynı kavram değildir?\n24. Likidasyon fiyatı neden stop-loss yerine kullanılmamalıdır?\n25. Long option işleminde başlangıç riski nasıl hesaplanır?\n26. Arbitrajda brüt fiyat farkını hangi maliyetler silebilir?27. Tam sermaye koruma iş akışının sırası nasıldır?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Premium Opsiyon sözleşmesini almak için ödenen veya satarken alınan bedel.",
+      "Slippage Emrin planlanan fiyattan farklı gerçekleşmesi.",
+      "Belirsizlik ile ölçülebilir risk arasındaki fark nedir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0473",
+    "page": 473,
+    "chapter": 23,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış \nStratejileri\nSabit hedeften partial matematiğine, trailing stoptan tam çıkışa",
+    "source_extract_summary": [
+      "BÖLÜM 23 Pozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri Sabit hedeften partial matematiğine, trailing stoptan tam çıkışa"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": []
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0474",
+    "page": 474,
+    "chapter": 23,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  459\nBu Bölümün Amacı\nİşleme doğru yerden girmek önemlidir; fakat sonuç dağılımını çoğu zaman pozisyon açıkken verdiğimiz \nkararlar belirler. Aynı setup, biri ilk küçük kârda tamamen çıktığında; diğeri hedef, partial ve trailing \nkurallarını uyguladığında farklı performans üretebilir.\nBu bölümde amaç her tepeyi veya dibi yakalamak değildir. Girişte yazılan tezi koruyacak, riskin ne \nzaman azaltılabileceğini matematikle sınayacak, trend sürerken kazananı taşıyacak ve tez \nkaybolduğunda pozisyonu savunmak yerine kapatacak bir yönetim sistemi kuracağız.\nBÖLÜM SONUNDA\n Sabit R hedefi ile teknik/likidite hedefini birlikte değerlendirebileceksiniz.\n Partial exit sonrası gerçekleşen kâr, kalan pozisyon riski ve net worst-case hesabını \nyapabileceksiniz.\n Break-even stop ile partial yoluyla toplam işlemin başabaşa gelmesini \nayırabileceksiniz.\n Normal stop, sabit yüzde, ATR ve yapı tabanlı trailing yöntemlerini \nkarşılaştırabileceksiniz.\n Momentum, price action, zaman, seans, range, pattern ve gap kanıtlarıyla çıkış planı \nkurabileceksiniz.\n Heikin Ashi ve PSAR’ı gerçek fiyatın yerine geçirmeden yardımcı teyit olarak \nkullanabileceksiniz.\n Hedge’i ana pozisyonla birlikte kapatma veya roll etme planı oluşturabileceksiniz.\n MFE, MAE, verilen kâr ve exit reason içeren yönetim günlüğü tutabileceksiniz.\nEMİR UYARISI\nStop ve trailing stop emirlerinin desteklenmesi, tetik fiyatı, referans fiyatı ve gerçekleşme biçimi \nbroker/venue’a göre değişebilir. Stop tetiklendiğinde piyasa emrine dönüşebilir ve hızlı/gap \npiyasasında seçilen seviyeden daha kötü dolabilir; stop-limit ise hiç dolmayabilir. Emir ekranı ve \nürün kuralları işlemden önce doğrulanmalıdır.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı İşleme doğru yerden girmek önemlidir; fakat sonuç dağılımını çoğu zaman pozisyon açıkken verdiğimiz kararlar belirler.",
+      "Aynı setup, biri ilk küçük kârda tamamen çıktığında; diğeri hedef, partial ve trailing kurallarını uyguladığında farklı performans üretebilir.",
+      "Bu bölümde amaç her tepeyi veya dibi yakalamak değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0475",
+    "page": 475,
+    "chapter": 23,
+    "section": "23.1 — Pozisyon Yönetimi Girişten Önce Başlar",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  460\nŞekil 23.1 – Pozisyonun yönetim yaşam döngüsü\nUYGULAMA GÖREVİ\nTradingView long-position aracında entry, ilk stop, T1/T2, partial miktarı, break-even kapısı ve \ntrailing seviyesini aynı işlem planında işaretleyin.\n23.1 Pozisyon Yönetimi Girişten Önce Başlar\nTrade management (pozisyon açıldıktan sonra stop, hedef, miktar, süre ve çıkış kararlarını uygulama), \ngirişten sonra doğaçlama yapılacak bir faaliyet değildir. Giriş öncesinde en az üç plan yazılır: trade \nyanlışsa nerede çıkacağım, trade beklediğim gibi ilerlerse hangi hedefte ne yapacağım, ne fiyat ne de \ntez yeterince ilerlemezse ne kadar süre bekleyeceğim?\nPlan alanı Girişten önce yazılacak Pozisyon açıkken ölçülecek\nTez ve horizon Setup neden çalışmalı; beklenen hareket kaç bar/seans/gün? Fiyat beklenen hız ve yönde ilerliyor mu?\nİlk stop Teknik invalidation ve emir türü. Stop seviyesi asla korkuyla genişletiliyor mu?\nHedefler T1/T2, teknik alan, net R ve miktar. Hedefe kalan alan ve yeni engeller.\nPartial Hangi kanıtla, hangi oran, sonra kalan stop? Gerçekleşen kâr ve kalan worst-case.\nTrail Aktivasyon, yöntem, anchor ve güncelleme sıklığı. Stop yalnız lehe yönde mi ilerliyor?\nTam çıkış Tez kaybı, time stop, session/haber veya hedef. Çıkış nedeni önceden yazılan sınıfa uyuyor mu?\nTablo 23.1 – Giriş öncesi yönetim sözleşmesi\nEKRANDA NE ARIYORUM?\n Entry’den ilk engele kadar net alan.\n İlk stop ile hedef aynı swing derecesine mi dayanıyor?\n Partial sonrası kalan miktar ve stop önceden yazılı mı?\n Beklenen hareket süresi ve session sınırı tanımlı mı?\n Çıkış kararı fiyat, yapı veya süre kanıtına mı; anlık P&L duygusuna mı dayanıyor?",
+    "source_extract_summary": [
+      "23.1 Pozisyon Yönetimi Girişten Önce Başlar Trade management (pozisyon açıldıktan sonra stop, hedef, miktar, süre ve çıkış kararlarını uygulama), girişten sonra doğaçlama yapılacak bir faaliyet değildir.",
+      "Giriş öncesinde en az üç plan yazılır: trade yanlışsa nerede çıkacağım, trade beklediğim gibi ilerlerse hangi hedefte ne yapacağım, ne fiyat ne de tez yeterince ilerlemezse ne kadar süre bekleyeceğim?",
+      "Plan alanı Girişten önce yazılacak Pozisyon açıkken ölçülecek Tez ve horizon Setup neden çalışmalı; beklenen hareket kaç bar/seans/gün?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0476",
+    "page": 476,
+    "chapter": 23,
+    "section": "23.3 — Likidite, Yapı ve Volatiliteyle Hedef",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  461\nDOĞRU BİLİNEN YANLIŞ\nMit: İyi bir giriş bulduysam çıkışı piyasa ilerledikçe belirleyebilirim.\nGerçeklik: Açık kâr ve zarar karar algısını değiştirir. Önceden yazılmayan çıkış, çoğu zaman korku \nveya açgözlülüğe bırakılır.\n23.2 Sabit R Hedefi ve Teknik Hedef Alanı\nFixed R target (başlangıç riskinin belirli katında tanımlanan hedef), stratejinin sonuçlarını \nkarşılaştırmayı kolaylaştırır. Technical target (önceki swing, supply/demand, range sınırı, liquidity pool \nveya measured move gibi fiyat kanıtına dayalı hedef) ise piyasanın gerçek engelini gösterir. İki yöntem \nbirbirinin rakibi değil, uygulanabilirlik kontrolüdür.\nDurum Sabit R ne söyler? Teknik alan ne söyler? Karar\n2R hedef yakın engelden önce Strateji için yeterli ödül var. Fiyatın ulaşabileceği alan açık. Plan uygulanabilir olabilir.\n2R hedef güçlü direnç \narkasında Kâğıt üzerinde iyi R:R. Gerçek engel hedefi kesiyor. Hedefi/entry’yi değiştir veya trade alma.\nTeknik hedef yalnız 0,8R Payout yetersiz olabilir. Fiyat alanı sınırlı. No-trade veya farklı setup.\nTeknik alan 5R uzakta Büyük potansiyel. Horizon/volatilite yeterli mi bilinmiyor. T1 + trail veya time kontrolü.\nTablo 23.2 – Sabit R ve teknik hedef karşılaştırması\nEYLEM DİLİ\nÖnce stopu ve teknik hedef alanını çizerim. Sonra bu alanın kaç net R verdiğini hesaplarım. “2R \nistiyorum” diye hedefi gerçek engelin arkasına zorlamam; düşük R’yi düzeltmek için stopu da \ninvalidation’ın içine çekmem.\nDOĞRU BİLİNEN YANLIŞ\nMit: Her trade’i 2R hedefle yönetmek sistemi otomatik olarak kârlı yapar.\nGerçeklik: 2R yalnız payout oranıdır. Hit rate, maliyet, hedefe kadar gerçek alan, rejim ve çıkış \nuygulaması net expectancy’yi belirler.\n23.3 Likidite, Yapı ve Volatiliteyle Hedef \nHiyerarşisi\nHedef seçerken önce fiyatın karşılaşacağı gerçek engelleri sıralarım: yakın swing ve zone, görünür \nlikidite, range sınırı veya measured move; sonra ATR ve beklenen seans/gün range’iyle hedefin süre \niçinde makul olup olmadığını kontrol ederim.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: İyi bir giriş bulduysam çıkışı piyasa ilerledikçe belirleyebilirim.",
+      "Gerçeklik: Açık kâr ve zarar karar algısını değiştirir.",
+      "Önceden yazılmayan çıkış, çoğu zaman korku veya açgözlülüğe bırakılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0477",
+    "page": 477,
+    "chapter": 23,
+    "section": "23.4 — Partial Exit ve Scaling Out Matematiği",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  462\nŞekil 23.2 – Hedef hiyerarşisi\nHedef katmanı Ekranda aradığım Kullanım\nYakın yapı Weak/strong high-low, previous swing, protected level. İlk tepki ve T1 alanı.\nLikidite Equal highs/lows, session high-low, obvious stops. Fiyatın çekilebileceği fakat sweep sonrası dönebileceği alan.\nZone / range Supply-demand, resistance/support, opposite range boundary. Tam veya büyük partial hedefi.\nÖlçülü hareket Pattern height, Fibonacci extension veya impulse projection. Bağlamla teyit edilen T2; garanti değil.\nVolatilite ATR, ADR/session range, kalan zaman. Hedefin horizon içinde gerçekçiliği.\nNet uygulanabilirlik Spread, slippage, fee ve order-book depth. Brüt hedefi net hedefe çevirmek.\nTablo 23.3 – Hedef kanıtları\nVAKA ANALİZİ — XAGTRYG HEDEF ALANI\nXAGTRYG 2S long entry 100, stop 97 olsun. 2R matematiksel hedef 106’dır. Ancak 104,8–105,2 \nbölgesinde günlük supply ve previous high varsa T1’i bu bölgenin önüne koyar; 106 ve üzerini \nyalnız güçlü acceptance, yeterli ATR ve kalan zaman varsa T2/trailing alanı olarak tutarım.\n23.4 Partial Exit ve Scaling Out Matematiği\nPartial exit veya scaling out (pozisyonun belirli kısmını hedeflerde kapatıp kalan kısmı açık tutma), \ngerçekleşen kâr ile sonraki potansiyel arasında denge kurar. Ancak her partial expectancy’yi \niyileştirmez; kazananın büyüklüğünü azaltırken psikolojik rahatlama sağlayabilir. Oran ve hedef strateji \ndağılımında test edilir.\nPartial planı Avantaj Maliyet / sınır\nT1’de sabit miktar Tekrarlanabilir ve kolay ölçülür. Güçlü trendlerde kazananı erken küçültebilir.\nİlk teknik engelde partial Piyasa konumuna uyumlu. Hedefler trade’ler arasında değişir.\nRisk karşılayan partial Toplam worst-case’i azaltabilir. Matematik yapılmadan “risksiz” sanılabilir.\nÇok kademeli scale-out Volatil harekette esneklik. Komisyon, karar yükü ve küçük kalan pozisyon.",
+    "source_extract_summary": [
+      "Likidite Equal highs/lows, session high-low, obvious stops.",
+      "Fiyatın çekilebileceği fakat sweep sonrası dönebileceği alan.",
+      "Zone / range Supply-demand, resistance/support, opposite range boundary."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0478",
+    "page": 478,
+    "chapter": 23,
+    "section": "23.4 — Partial Exit ve Scaling Out Matematiği",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  463\nTablo 23.4 – Partial yöntemleri\nLong işlem için basit worst-case testi: gerçekleşen partial kârı ≥ kalan miktar × (entry − stop) + tüm \nmaliyetler. Stop entry’ye taşınıyorsa kalan fiyat riski sıfıra yaklaşabilir; fakat gap, slippage ve maliyet \nriski kalır.\nŞekil 23.3 – Partial sonrası toplam worst-case hesabı\nXAGTRYG SAYISAL VAKA\nEntry 100, stop 97 ve başlangıç miktarı 1 birim olsun. %40 pozisyon 106’da kapatılırsa gerçekleşen \nbrüt kâr 2,40’tır. Kalan %60’ın ilk stopa riski 1,80’dir; maliyet öncesi toplam worst-case +0,60 olur. \nBuna karşılık %25’i 103’te kapatmak yalnız 0,75 kâr üretir; kalan risk 2,25 olduğu için işlem hâlâ \n−1,50 worst-case taşır.",
+    "source_extract_summary": [
+      "Stop entry’ye taşınıyorsa kalan fiyat riski sıfıra yaklaşabilir; fakat gap, slippage ve maliyet riski kalır.",
+      "%40 pozisyon 106’da kapatılırsa gerçekleşen brüt kâr 2,40’tır.",
+      "Kalan %60’ın ilk stopa riski 1,80’dir; maliyet öncesi toplam worst-case +0,60 olur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0479",
+    "page": 479,
+    "chapter": 23,
+    "section": "23.5 — Break-Even: Risk Azaltma mı, Erken Çıkış",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  464\nDOĞRU BİLİNEN YANLIŞ\nMit: Pozisyonun bir kısmını kârla kapattığım anda artık kaybedemem.\nGerçeklik: Partial fiyatı, kapatılan miktar, kalan stop mesafesi ve maliyetler toplam işlem sonucunu \nbelirler.\n23.5 Break-Even: Risk Azaltma mı, Erken Çıkış \nmı?\nBreak-even stop — BE (stop seviyesini entry fiyatına veya maliyet düzeltilmiş entry’ye taşıma), yeni bir \nyönetim kuralıdır. Trade biraz yeşile döndüğünde otomatik ödül olarak kullanılmaz. Fiyatın risk \nalanından çıktığını gösteren yapı veya hedef kanıtı gerekir.\nŞekil 23.4 – Break-even karar kapısı\nBE aktivasyon adayı Neden daha anlamlı? Erken BE riski\nT1/önemli engel görüldü Piyasa başlangıç riskinin bir bölümünü ödedi. T1 çok yakınsa normal gürültü sürer.\nYeni confirmed HL/LH oluştu Stop yeni yapısal savunmaya taşınabilir. Swing onaylanmadan hareket etmek.\nBreakout acceptance + retest Entry artık yeni desteğin/direncin gerisinde kalır. False breakout sonrası entry testi normal olabilir.\nPartial toplam riski karşıladı Worst-case matematiksel olarak azaldı. Maliyet ve gap riskini yok saymak.\nHaber/session riski yaklaşıyor Exposure azaltma gerekçesi oluşabilir. Kötü time planning’i BE ile yamamak.\nTablo 23.5 – Break-even kapıları\nİKİ BAŞABAŞ AYRIMI\n1) Stop-based BE: kalan pozisyonun stopu entry/maliyet seviyesine taşınır. 2) Portfolio/trade-based \nBE: gerçekleşen partial kârı kalan pozisyonun stop zararını karşılar. İkisi aynı anda olmak zorunda \ndeğildir.\nDOĞRU BİLİNEN YANLIŞ\nMit: BE stop zararı tamamen ortadan kaldırır ve ücretsiz trade yaratır.\nGerçeklik: Spread, komisyon, gap/slippage ve yeniden giriş fırsat maliyeti kalabilir; erken BE \nstratejinin büyük kazananlarını azaltabilir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Pozisyonun bir kısmını kârla kapattığım anda artık kaybedemem.",
+      "Gerçeklik: Partial fiyatı, kapatılan miktar, kalan stop mesafesi ve maliyetler toplam işlem sonucunu belirler.",
+      "23.5 Break-Even: Risk Azaltma mı, Erken Çıkış mı?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0480",
+    "page": 480,
+    "chapter": 23,
+    "section": "23.6 — Normal Stop ile Trailing Stop Görev Ayrımı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  465\n23.6 Normal Stop ile Trailing Stop Görev Ayrımı\nRegular stop başlangıç tezinin yanlış olduğu seviyeyi korur. Trailing stop (fiyat lehe ilerledikçe belirli \nkural ile yalnız tek yönde sıkılaşan stop), risk kontrolünden kâr koruma ve trend taşıma görevine geçer. \nAktivasyon kuralı olmadan başlangıçtan itibaren kullanılan çok sıkı trail, normal stopun yerine \ngeçemez.\nÖzellik Normal stop Trailing stop\nAna görev İlk invalidation ve maksimum risk. Lehe hareket sonrası kâr/risk yönetimi.\nSeviye Sabit veya yalnız planlı olayla değişir. Yeni high/low, ATR veya yapı ile sıkılaşır.\nYön Korkuyla genişletilmez. Longda yalnız yukarı; shortta yalnız aşağı.\nUygun ortam Her trade için başlangıç riski. Özellikle trend ve geniş follow-through.\nAna hata Stopu uzaklaştırmak veya kaldırmak. Çok sıkı trail ile normal pullback’te çıkmak.\nEmir riski Trigger sonrası fill seviyesi garanti olmayabilir. Aynı risk + broker/venue takip mantığı.\nTablo 23.6 – Normal ve trailing stop\nEKRANDA NE ARIYORUM?\n Trail ne zaman aktive olacak?\n Referans son fiyat mı, highest high/lowest low mı, kapanış mı?\n Güncelleme tick, bar close veya manuel kontrolle mi?\n Stop hesaplandığında geriye doğru gevşiyor mu?\n Broker stop-market mi, stop-limit mi; overnight gap ve extended hours politikası ne?\nDOĞRU BİLİNEN YANLIŞ\nMit: Trailing stop tepeye yakın çıkışı garanti eder.\nGerçeklik: Trail mesafesi kadar kâr geri verilebilir; gap veya hızlı hareket fill’i daha kötü yapabilir. \nÇok sıkı mesafe ise trend sürerken erken çıkış üretir.",
+    "source_extract_summary": [
+      "23.6 Normal Stop ile Trailing Stop Görev Ayrımı Regular stop başlangıç tezinin yanlış olduğu seviyeyi korur.",
+      "Trailing stop (fiyat lehe ilerledikçe belirli kural ile yalnız tek yönde sıkılaşan stop), risk kontrolünden kâr koruma ve trend taşıma görevine geçer.",
+      "Aktivasyon kuralı olmadan başlangıçtan itibaren kullanılan çok sıkı trail, normal stopun yerine geçemez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0481",
+    "page": 481,
+    "chapter": 23,
+    "section": "23.8 — ATR ve Volatilite Tabanlı Trailing",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  466\n23.7 Sabit Yüzde ve Sabit Tutar Trailing\nFixed-percentage trailing, fiyatın ulaştığı en avantajlı seviyeden sabit yüzde uzaklıkta stop tutar. Long \niçin kavramsal formül: trail adayı = highest high since activation × (1 − yüzde). Short için lowest low × \n(1 + yüzde). Fixed-amount yönteminde yüzde yerine fiyat/tutar mesafesi kullanılır.\nKarar alanı Kontrol\nAnchor Entry’den mi, aktivasyondan mı, gün içi high/low’dan mı takip?\nYüzde/tutar Sembolün ATR’si ve tick value’su ile uyumlu mu?\nGüncelleme Intrabar mı, bar close sonrası mı? Backtest ile aynı mı?\nOne-way kural Long stop = max(eski stop, yeni aday); short = min(eski stop, yeni aday).\nGap/kurumsal olay Overnight taşıma ve haber riski kabul edildi mi?\nFarklı fiyat ölçekleri Aynı 5% her sembol ve timeframe’de aynı davranışı üretmez.\nTablo 23.7 – Sabit trail sözleşmesi\nVAKA ANALİZİ — 5% NEDEN EVRENSEL DEĞİL?\nGünlük BTC’de %5 normal dalgalanma içinde kalabilirken düşük volatil bir hissede olağanüstü \ngeniş; 30 dakikalık XAGTRYG trade’inde ise hedef horizon’a göre aşırı geniş olabilir. Mesafe, \nsembolün ölçülmüş hareketine göre test edilir.\n23.8 ATR ve Volatilite Tabanlı Trailing\nATR-based trailing (stop mesafesini Average True Range’in belirli katıyla uyarlama), volatilite \ngenişlediğinde daha fazla nefes; daraldığında daha yakın koruma sağlayabilir. Long için yaygın \nkavramsal aday: highest high since activation − k × ATR. Short için lowest low + k × ATR.\nATR trail alanı Önceden tanımlanacak\nATR timeframe İşlem timeframe’i mi, üst timeframe mi?\nLength ve smoothing Kaynak/indikatör ayarı ve test dönemi.\nMultiplier k 1, 2 veya başka değer; setup ve rejime göre test.\nPrice anchor High/low, close veya chandelier benzeri referans.\nOne-way stop ATR artışı yeni adayı gevşetse bile eski stop geri alınmaz.\nAktivasyon Entry’den hemen mi; T1, 1R veya yeni yapı sonrası mı?\nGap ve slippage ATR mesafesi fill garantisi değildir.",
+    "source_extract_summary": [
+      "23.7 Sabit Yüzde ve Sabit Tutar Trailing Fixed-percentage trailing, fiyatın ulaştığı en avantajlı seviyeden sabit yüzde uzaklıkta stop tutar.",
+      "Long için kavramsal formül: trail adayı = highest high since activation × (1 − yüzde).",
+      "Short için lowest low × (1 + yüzde)."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0482",
+    "page": 482,
+    "chapter": 23,
+    "section": "23.9 — Yapı Tabanlı Trailing: HL, LH ve Protected",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  467\nTablo 23.8 – ATR trail gereksinimi\nŞekil 23.5 – Trailing stop yöntemleri\nEYLEM DİLİ\nATR değerini gördüğüm her barda stopu hem ileri hem geri taşımam. Long pozisyonda yeni ATR \nadayı eski stoptan yüksekse sıkılaştırır; düşükse eski stopu korurum. Hesaplama ve emir \ngüncelleme zamanı backtest ile aynı olmalıdır.\nDOĞRU BİLİNEN YANLIŞ\nMit: ATR trail piyasaya uyum sağladığı için choppy piyasada da güvenilir çıkış üretir.\nGerçeklik: Volatilite uyumu whipsaw’ı azaltabilir; fakat yönsüz yapıyı trend yapmaz. Rejim filtresi \nhâlâ gerekir.\n23.9 Yapı Tabanlı Trailing: HL, LH ve Protected \nLevel\nStructure-based trailing, stopu fiyatın trend tezini koruyan confirmed swing veya protected level \narkasına taşır. Long trade’de yeni confirmed higher low; short trade’de lower high referans olabilir. \nKullanılan swing derecesi giriş setup’ıyla uyumlu olmalıdır.\nYapı yöntemi Long örneği Ana sınır\nSon confirmed HL Stop HL wick/zone altı + buffer. Onay gecikmesi ve geniş stop.\nProtected low External/internal trendi koruyan seviye. Rol tanımı önceden sabitlenmeli.\nBreakout retest Yeni support altında stop. Acceptance ve retest başarısı gerekir.\nMoving structure Her yeni impulse–pullback sonrası güncelleme. Mikro swing’e geçip stopu aşırı sıkılaştırmamak.\nClose invalidation Seviye altında kapanışta çıkış. Intrabar gap/slippage ve gece riski.\nTablo 23.9 – Yapı tabanlı trailing\nXAGTRYG VAKASI — SWING DERECESİ\n2S pullback setup’ında giriş, 30D mikro HL ile tetiklenmiş olabilir. Pozisyonu orta vadeli taşımak \nistiyorsam trail’i her 30D mikro low’a değil, 2S confirmed HL veya protected low’a bağlarım. Aksi \nhâlde giriş timeframe’inin gürültüsü ana trend pozisyonunu erken kapatabilir.",
+    "source_extract_summary": [
+      "Long pozisyonda yeni ATR adayı eski stoptan yüksekse sıkılaştırır; düşükse eski stopu korurum.",
+      "Hesaplama ve emir güncelleme zamanı backtest ile aynı olmalıdır.",
+      "DOĞRU BİLİNEN YANLIŞ Mit: ATR trail piyasaya uyum sağladığı için choppy piyasada da güvenilir çıkış üretir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0483",
+    "page": 483,
+    "chapter": 23,
+    "section": "23.11 — Zaman, Seans Sonu ve Haber Yaklaşımı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  468\nDOĞRU BİLİNEN YANLIŞ\nMit: Her yeni higher low altında stop taşımak objektif yapı yönetimidir.\nGerçeklik: Hangi swing’in confirmed sayıldığı, wick/close kuralı ve timeframe önceden \ntanımlanmazsa yapı sonradan seçilir.\n23.10 Momentum ve Price-Action Çıkışları\nMomentum kaybı tam çıkışın tek başına kanıtı değildir; uyarı katmanıdır. İmpulse spread’inin \nküçülmesi, hacim/katılımın azalması, repeated rejection, failed breakout, karşı yönde displacement ve \nardından yapı kaybı birikimli exit evidence üretir.\nŞekil 23.6 – Çıkış kanıt merdiveni\nKanıt Yönetim cevabı Tek başına sınırı\nHedefte rejection wick Partial veya stop sıkılaştırma adayı. Tek wick trend dönüşü değildir.\nMomentum/volume zayıflaması Yeni high/low kalitesini izle. Divergence uzun süre sürebilir.\nFailed breakout + reclaim Breakout trade’i azalt/tam çıkış adayı. Reclaim kapanışı ve follow-through gerekir.\nKarşı yönde displacement Kalan pozisyonu savunma veya çıkış. Hangi yapıyı kırdığı kontrol edilir.\nConfirmed structure break Tez derecesinde tam çıkış veya trail hit. Mikro CHoCH ana trendi bitirmeyebilir.\nTablo 23.10 – Momentum ve fiyat davranışı çıkışları\nEYLEM DİLİ\nÖnce “uyarı”, sonra “price-action sonucu”, sonra “yapı kaybı” ayrımı yaparım. Her zayıf mumda \ntamamen çıkmam; fakat hedef alanında uyarı + failed acceptance + yapı kaybı oluşursa eski hedefi \nsavunmam.\n23.11 Zaman, Seans Sonu ve Haber Yaklaşımı\nTime-based exit (trade beklenen süre içinde yeterli fiyat ilerlemesi üretmediğinde miktarı azaltma \nveya kapatma), sermaye ve dikkat kullanımını yönetir. Time stop fiyatın entry’ye uzaklığından değil, \nsetup’ın beklenen davranışından türetilir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Her yeni higher low altında stop taşımak objektif yapı yönetimidir.",
+      "Gerçeklik: Hangi swing’in confirmed sayıldığı, wick/close kuralı ve timeframe önceden tanımlanmazsa yapı sonradan seçilir.",
+      "23.10 Momentum ve Price-Action Çıkışları Momentum kaybı tam çıkışın tek başına kanıtı değildir; uyarı katmanıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0484",
+    "page": 484,
+    "chapter": 23,
+    "section": "23.11 — Zaman, Seans Sonu ve Haber Yaklaşımı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  469\nZaman kapısı Soru Olası eylem\nBar/horizon Setup normalde kaç bar içinde follow- through üretir? İlerleme yoksa azalt/kapat.\nSession sonu Intraday tez bir sonraki seansa taşınacak mı? Tam çıkış veya overnight yeniden boyutlandırma.\nHaber yaklaşımı Planlı volatility shock ilk tezde var mıydı? No-hold, partial, hedge çözümü veya stop kararı.\nHafta sonu/tatil Gap, funding, liquidity ve custody riski? Exposure azalt veya bilinçli taşı.\nOpportunity cost Sermaye hareketsizken daha iyi setup var mı? FOMO değil, önceden yazılmış time stop.\nTablo 23.11 – Zaman tabanlı çıkış\nVAKA ANALİZİ — 30 DAKİKALIK TETİK\n30D breakout setup’ı geçmiş testlerde çoğunlukla ilk 4–6 bar içinde displacement üretiyor. Altı bar \nsonunda fiyat breakout seviyesinin çevresinde, hacim zayıf ve session kapanışı yaklaşıyorsa “stopa \ndeğmedi” diye beklemem; time stop kuralına göre azaltır veya kapatırım.\nDOĞRU BİLİNEN YANLIŞ\nMit: Stopa veya hedefe değmediyse trade açık kalmalıdır.\nGerçeklik: Fiyat ilerlememesi de setup hakkında bilgidir. Beklenen horizon aşılırsa edge ve fırsat \nmaliyeti değişebilir.",
+    "source_extract_summary": [
+      "Zaman kapısı Soru Olası eylem Bar/horizon Setup normalde kaç bar içinde follow- through üretir?",
+      "Session sonu Intraday tez bir sonraki seansa taşınacak mı?",
+      "Tam çıkış veya overnight yeniden boyutlandırma."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0485",
+    "page": 485,
+    "chapter": 23,
+    "section": "23.12 — Range, Breakout, Pattern ve Gap Çıkışları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  470\n23.12 Range, Breakout, Pattern ve Gap Çıkışları\nPiyasa rejimi çıkış yöntemini değiştirir. Range trade’de karşı sınıra yaklaşırken mean-reversion avantajı \nazalabilir. Breakout trade’de range içine reclaim veya pattern invalidation tezi bozabilir. Gap türü ise \ndevam, fill veya exhaustion ihtimalini farklılaştırır.\nBağlam Çıkış / yönetim kanıtı Yanlış genelleme\nRange long Opposite boundary önünde partial; rejection/failed acceptance tam çıkış. Range üstü mutlaka breakout olur.\nBreakout Acceptance + follow-through sürerse tut; range’e reclaim’de azalt/çık. İlk wick kırılımı yeterlidir.\nInside bar continuation Mother-bar yönünde breakout; karşı sınır/structure invalidation. Pattern hedefi kesin gelir.\nBreakaway gap Volume + structure ile continuation; gap içine hızlı dönüşte tez sorgula. Hiçbir zaman dolmaz.\nRunaway gap Trend sürerse trail; gap fill tek başına ana trendi bitirmeyebilir. Gap dolduysa mutlaka reversal.\nExhaustion gap Uzamış trend + zayıf follow-through + karşı yapı kanıtı. Gap görünür görünmez tepe/dip.\nTablo 23.12 – Rejime özgü çıkış\nDOĞRU BİLİNEN YANLIŞ\nMit: Bütün gapler eninde sonunda dolar; bu nedenle hedefi gap fill’e koyabilirim.\nGerçeklik: Breakaway, runaway ve exhaustion gaplerinin konumu ve davranışı farklıdır. Fill süresi \nve gerçekleşmesi garanti değildir.\nUYGULAMA GÖREVİ\nDört ayrı örnekte range karşı sınır partialı, failed-breakout reclaim çıkışı, runaway-gap trailing ve \nexhaustion-gap + structure-break çıkışını karşılaştırın.",
+    "source_extract_summary": [
+      "23.12 Range, Breakout, Pattern ve Gap Çıkışları Piyasa rejimi çıkış yöntemini değiştirir.",
+      "Range trade’de karşı sınıra yaklaşırken mean-reversion avantajı azalabilir.",
+      "Breakout trade’de range içine reclaim veya pattern invalidation tezi bozabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0486",
+    "page": 486,
+    "chapter": 23,
+    "section": "23.14 — Hedge Kapatma, Roll ve Tam Pozisyon",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  471\n23.13 PSAR ve Heikin Ashi ile Yardımcı Çıkış \nTeyidi\nParabolic SAR, trend boyunca fiyatın arkasında noktalar üretip flip olduğunda olası dönüş/exit uyarısı \nverebilir. Heikin Ashi ise OHLC’nin ortalanmış dönüşümünü kullanarak trendi daha pürüzsüz gösterir. \nHer ikisi de yardımcı filtre olabilir; gerçek işlem fiyatı ve ana yapı yerine geçmez.\nAraç Çıkış fikri Sınır / güvenlik\nPSAR Dot flip veya trail seviyesi. Range’de sık flip/false signal; yapı ve rejim teyidi.\nHeikin Ashi Wick yapısının bozulması veya karşı renkli mum. Gecikmeli ve sentetik OHLC; emir, standart mum ve gerçek fiyat üzerinden uygulanır.\nATR/Chandelier Volatilite ayarlı dinamik stop. Multiplier ve anchor test edilmeli.\nMoving average Close/cross veya slope kaybı. Lag ve whipsaw; tek başına tam çıkış değil.\nTablo 23.13 – Gösterge destekli çıkışlar\nEKRANDA NE ARIYORUM?\n Heikin Ashi sinyali oluştuğunda standart mumun gerçek close’u nerede?\n PSAR flip range gürültüsü mü, aynı zamanda yapı kaybı mı?\n Gösterge exit’i başlangıç planında test edilmiş mi?\n Alarm ile gerçek emir aynı fiyat kaynağını mı kullanıyor?\n Gösterge gecikmesi verilen kârı ve hit rate’i nasıl değiştiriyor?\nDOĞRU BİLİNEN YANLIŞ\nMit: Heikin Ashi karşı renk verdiğinde veya PSAR flip olduğunda en doğru çıkış oluşur.\nGerçeklik: İki araç da gecikmeli/bağlama duyarlıdır. Standart mum, structure ve ürün fiyatı ile teyit \nedilir.\n23.14 Hedge Kapatma, Roll ve Tam Pozisyon \nÇözümü\nHedge açmak kadar kapatma kuralı da girişte yazılmalıdır. Korunan risk geçtiğinde hedge açık kalırsa \nana pozisyonun toparlanmasını bastırabilir; erken kapatılırsa risk yeniden açılır. Değerlendirme tek \nhedge P&L’siyle değil, ana pozisyon + hedge + maliyet toplamıyla yapılır.\nHedge yönetim olayı Kontrol Eylem\nOlay/haber geçti Korunan geçici risk bitti mi? Hedge’i kademeli veya tam çöz.\nAna tez bozuldu Pozisyonu neden hâlâ tutuyorum? Ana pozisyonu kapat; hedge’i bağımsız spekülasyona çevirmeden çöz.\nHedge hedefe ulaştı Ana pozisyon kaybını ne kadar karşıladı? Realize et; kalan exposure’ı yeniden ölç.\nVade/funding yaklaşıyor Roll maliyeti ve basis ne? Roll, başka araç veya kapatma.\nKorelasyon/beta değişti Hedge ratio hâlâ uygun mu? Boyutu ayarla veya hedge’i sonlandır.\nAna pozisyon toparlanıyor Hedge rebound’u bastırıyor mu? Önceden yazılmış reclaim/structure kapısı.\nTablo 23.14 – Hedge çözme planı\nXAGTRYG HEDGE VAKASI\nUzun vadeli XAGTRYG pozisyonuna karşı kısa XAGUSD hedge, ABD verisi öncesi geçici metal riski \niçin açılmış olsun. Veri sonrası XAGUSD önemli seviyeyi reclaim eder, kısa vadeli düşüş tezi bozulur \nfakat USDTRY riski sürerse hedge’i “zararda” diye tutmam; koruduğu metal riski sona erdiği için \nplanlanan kapıda çözerim.",
+    "source_extract_summary": [
+      "23.13 PSAR ve Heikin Ashi ile Yardımcı Çıkış Teyidi Parabolic SAR, trend boyunca fiyatın arkasında noktalar üretip flip olduğunda olası dönüş/exit uyarısı verebilir.",
+      "Heikin Ashi ise OHLC’nin ortalanmış dönüşümünü kullanarak trendi daha pürüzsüz gösterir.",
+      "Her ikisi de yardımcı filtre olabilir; gerçek işlem fiyatı ve ana yapı yerine geçmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0487",
+    "page": 487,
+    "chapter": 23,
+    "section": "23.15 — Tam Pozisyon Yönetimi İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  472\nDOĞRU BİLİNEN YANLIŞ\nMit: Hedge yalnız kâra geçtiğinde kapatılmalıdır.\nGerçeklik: Hedge’in görevi belirli riski azaltmaktır. Risk ortadan kalktığında, hedge tek başına zarar \nyazsa bile kapatma gerekebilir.\n23.15 Tam Pozisyon Yönetimi İş Akışı\nŞekil 23.7 – Tam pozisyon yönetimi iş akışı\nAşama Yazılı karar Çıktı\n1  Tez/horizon Setup neden ve ne kadar sürede çalışmalı? Beklenen yol ve time stop.\n2  İlk risk Stop, miktar, gap/slippage ve net 1R. Maksimum başlangıç kaybı.\n3  Hedefler Teknik engel, T1/T2, net R ve süre. Hedef haritası.\n4  Partial Miktar, fiyat ve kalan stop. Gerçekleşen P&L + worst-case.\n5  Stop değişimi Sabit, BE, yüzde, ATR veya yapı trail aktivasyonu. Tek yönlü stop kaydı.\n6  Kanıt izleme Momentum, price action, yapı, range/gap ve session. Tut / sıkılaştır / azalt / çık.\n7  Hedge Korunan risk, maliyet ve çözme/roll kapısı. Toplam exposure.\n8  Tam çıkış Hedef, invalidation, time stop veya operasyon. Exit reason.\n9  İnceleme MFE, MAE, net R, verilen kâr, exit efficiency ve kural uyumu. Strateji geliştirme verisi.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Hedge yalnız kâra geçtiğinde kapatılmalıdır.",
+      "Gerçeklik: Hedge’in görevi belirli riski azaltmaktır.",
+      "Risk ortadan kalktığında, hedge tek başına zarar yazsa bile kapatma gerekebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Deney ve strateji kartı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0488",
+    "page": 488,
+    "chapter": 23,
+    "section": "23.15 — Tam Pozisyon Yönetimi İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  473\nTablo 23.15 – Tam yönetim akışı\nTAM XAGTRYG VAKA AKIŞI\n Entry 100, teknik stop 97; risk 3/birim. İlk supply 105, ikinci liquidity hedefi 109.\n T1: 105 çevresinde %35 partial. Kalan risk ve maliyet matematiği yeniden hesaplanır.\n 105 üstü acceptance ve 2S confirmed HL oluşursa stop entry’ye değil, yeni yapısal \nsavunmanın altına taşınır.\n Trend genişlerse highest high  k×ATR ile trail adayı hesaplanır; yapı stopundan daha −\ngevşek/uygunsuzsa kullanılmaz.\n Momentum zayıflaması yalnız uyarıdır; failed breakout + 2S protected low kaybında \nkalan pozisyon kapatılır.\n Beklenen 2–5 günlük hareket süresi aşılır ve fiyat 105 altında sıkışırsa time \nstop/azaltma uygulanır.\n Çıkışta net R, MFE, MAE, verilen kâr, partial etkisi ve seçilen exit reason günlüğe yazılır.\nHızlı Başvuru\nGördüğüm durum İlk kontrol Varsayılan eylem\nFiyat küçük kârda Yapı/engel ilerledi mi? Otomatik partial veya BE yok.\nT1’e ulaştı Partial planı ve kalan worst-case Planlı miktarı uygula; yeniden hesapla.\nTrend güçlü Pullback yapısı ve volatilite Yapı/ATR trail değerlendir.\nTrail çok sık tetikleniyor Rejim, timeframe ve mesafe Parametreyi test et; stopu sonradan genişletme.\nMomentum zayıflıyor Hedef konumu ve yapı sonucu Uyarı; teyitte azalt/çık.\nTrade ilerlemiyor Beklenen bar/horizon Time stop veya exposure azalt.\nRange karşı sınırına geldi Acceptance/rejection Partial/tam çıkış planı.\nGap oluştu Gap türü, volume ve location Tek “fill” kuralı kullanma.\nHedge açık Korunan risk hâlâ var mı? Kapat/roll/yeniden oranla.\nStop tetiklendi Emir türü ve fill Plan dışı yeniden giriş yok; kaydı tamamla.\nTablo 23.16 – Hızlı başvuru\nPozisyon Yönetimi Kontrol Listesi\n Girişten önce ilk stop, teknik hedef, T1/T2 ve time stop yazıldı.\n Hedefe kadar gerçek yapı/likidite alanı ve net R kontrol edildi.\n Partial oranı ile gerçekleşen kâr ve kalan stop riski hesaplandı.\n Stop-based BE ile trade-based BE birbirinden ayrıldı.\n Trailing aktivasyonu, anchor, mesafe ve güncelleme zamanı tanımlandı.\n Long trail yalnız yukarı, short trail yalnız aşağı sıkılaştı.\n ATR timeframe, length, multiplier ve one-way kuralı kaydedildi.\n Structure trail kullanılan swing derecesiyle uyumlu kaldı.\n Momentum/indikator sinyali gerçek fiyat ve structure ile teyit edildi.\n Session sonu, haber, gap ve overnight riskleri plana göre yönetildi.\n Hedge’in kapatma/roll koşulu ana pozisyonla birlikte uygulandı.\n Exit sonrası MFE, MAE, net R, verilen kâr ve exit reason kaydedildi.\nTemel Sözlük\nTerim Aksiyon tanımı\nUnrealized P&L Açık pozisyonun mevcut fiyata göre değişen fakat henüz kapanmamış sonucu.\nRealized P&L Kapatılan miktarda gerçekleşmiş kâr/zarar.",
+    "source_extract_summary": [
+      "İlk supply 105, ikinci liquidity hedefi 109.",
+      "Kalan risk ve maliyet matematiği yeniden hesaplanır.",
+      " 105 üstü acceptance ve 2S confirmed HL oluşursa stop entry’ye değil, yeni yapısal savunmanın altına taşınır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0489",
+    "page": 489,
+    "chapter": 23,
+    "section": "23.15 — Tam Pozisyon Yönetimi İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  474\nTerim Aksiyon tanımı\nPartial exit Pozisyonun belirli kısmını kapatıp kalanı açık tutmak.\nScaling out Birden fazla hedefte miktarı kademeli azaltmak.\nBreak-even stop Stopu entry veya maliyet düzeltilmiş entry seviyesine taşımak.\nTrade-based break-even Partial kârın kalan stop riskini ve maliyeti karşılaması.\nTrailing stop Lehe fiyat hareketinde yalnız tek yönde sıkılaşan stop.\nMFE Maximum Favorable Excursion; trade’in en yüksek lehe ilerlemesi.\nMAE Maximum Adverse Excursion; trade’in en yüksek aleyhe ilerlemesi.\nTime stop Beklenen süre içinde ilerleme yoksa pozisyonu azaltma/kapatma.\nExit reason Tam/partial çıkışın önceden tanımlı neden sınıfı.\nGiven-back profit MFE ile gerçekleşen çıkış sonucu arasındaki geri verilen kâr.\nExit efficiency Çıkış sonucunu stratejinin ulaşılabilir hareketiyle karşılaştıran inceleme ölçüsü.\nATR trail Stop mesafesini ATR katıyla volatiliteye uyarlamak.\nStructure trail Stopu confirmed swing veya protected level arkasına taşımak.\nRoll Vadesi veya maliyeti yaklaşan hedge/derivative pozisyonunu yeni sözleşmeye taşımak.\nTablo 23.17 – Bölüm 23 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Pozisyon yönetimi neden girişten önce planlanmalıdır?\n2. Sabit R hedefi ile teknik hedef hangi farklı soruları cevaplar?\n3. Teknik hedefin güçlü bir engelin arkasında kalması ne düşündürür?\n4. Hedef hiyerarşisinin temel katmanları nelerdir?\n5. Partial exit ile scaling out nasıl ayrılır?\n6. Partial sonrası toplam worst-case nasıl hesaplanır?\n7. Partial almak neden otomatik olarak risksiz trade yaratmaz?\n8. Stop-based BE ile trade-based BE arasındaki fark nedir?\n9. Break-even stopu çok erken taşımak edge’i nasıl bozabilir?\n10. Normal stop ve trailing stop hangi farklı görevleri yapar?\n11. Trailing stop neden yalnız lehe yönde sıkılaşmalıdır?\n12. Stop trigger fiyatı neden fill garantisi değildir?\n13. Sabit yüzde trailing hangi değişkenlere göre test edilir?\n14. Long sabit yüzde trail nasıl hesaplanır?\n15. ATR trail için hangi ayarlar önceden tanımlanmalıdır?\n16. ATR genişlediğinde long stop neden aşağı gevşetilmez?\n17. Structure-based trail hangi swing derecesine bağlanmalıdır?\n18. Protected level ile mikro swing çıkışı nasıl ayrılır?\n19. Momentum kaybı neden tek başına tam çıkış değildir?\n20. Failed breakout + reclaim nasıl bir yönetim kanıtıdır?\n21. Time stop hangi problemi çözer?\n22. Session sonuna yaklaşırken hangi taşıma riskleri kontrol edilir?\n23. Range trade’de karşı sınır nasıl yönetilir?\n24. Breakout trade’de range içine reclaim ne düşündürür?\n25. Inside-bar pattern çıkışında mother-bar sınırı nasıl kullanılabilir?\n26. Breakaway, runaway ve exhaustion gap çıkışları neden farklıdır?\n27. “Bütün gapler dolar” ifadesi neden güvenilir değildir?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Partial exit Pozisyonun belirli kısmını kapatıp kalanı açık tutmak.",
+      "Scaling out Birden fazla hedefte miktarı kademeli azaltmak.",
+      "Break-even stop Stopu entry veya maliyet düzeltilmiş entry seviyesine taşımak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0490",
+    "page": 490,
+    "chapter": 23,
+    "section": "23.15 — Tam Pozisyon Yönetimi İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 23\nPozisyon Yönetimi, Kâr Alma ve Çıkış Stratejileri  •  475\n28. PSAR range piyasasında neden zayıflar?\n29. Heikin Ashi neden gerçek emir fiyatı için tek başına kullanılmaz?\n30. Hedge ne zaman kapatılır veya roll edilir?\n31. Hedge’in başarısı neden tek başına hedge P&L’siyle ölçülmez?\n32. MFE ve MAE hangi yönetim sorularına cevap verir?\n33. Given-back profit ve exit reason neden kaydedilir?\n34. Tam pozisyon yönetimi iş akışının dokuz aşaması nelerdir?35. Bölüm 23’ün Bölüm 24’e bıraktığı ana konu nedir?",
+    "source_extract_summary": [
+      "PSAR range piyasasında neden zayıflar?",
+      "Heikin Ashi neden gerçek emir fiyatı için tek başına kullanılmaz?",
+      "Hedge ne zaman kapatılır veya roll edilir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  }
+]

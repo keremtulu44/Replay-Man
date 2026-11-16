@@ -1,0 +1,589 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "id": "BR-001-confirmed-swing",
+      "title": "Swing ancak sağ taraf oluştuktan sonra kesinleşir",
+      "sources": [
+        "PTA-C2-2026.p0054",
+        "PTA-C2-2026.p0055",
+        "PTA-C2-2026.p0058",
+        "PTA-C2-2026.p0059"
+      ],
+      "events": [],
+      "status": "altyapi_kurali",
+      "decision": "Replay motorunda pivot zamanı ve teyit zamanı ayrı tutuldu.",
+      "source_link": "research/experiments/book-rule-results/BR-001-confirmed-swing/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-001-confirmed-swing"
+    },
+    {
+      "id": "BR-002-close-break",
+      "title": "Seviyeyi geçmek yetmez; kapanış konumu gerekir",
+      "sources": [
+        "PTA-C2-2026.p0045",
+        "PTA-C2-2026.p0047",
+        "PTA-C2-2026.p0052"
+      ],
+      "events": [
+        "close_break"
+      ],
+      "status": "baglam_filtresi_gerekli",
+      "decision": "Çıplak kırılım kısa ufukta benchmark sonrası zayıf; 4h 60 barda test pozitif ama doğrulama yaklaşık sıfır.",
+      "source_link": "research/experiments/book-rule-results/BR-002-close-break/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-002-close-break"
+    },
+    {
+      "id": "BR-003-follow-through",
+      "title": "İlk kapanıştan sonra takip davranışı",
+      "sources": [
+        "PTA-C2-2026.p0048",
+        "PTA-C2-2026.p0050",
+        "PTA-C2-2026.p0051",
+        "PTA-C2-2026.p0052"
+      ],
+      "events": [
+        "follow_through"
+      ],
+      "status": "bilgi_tekrari",
+      "decision": "4h aşağı sonuç olumlu; mevcut tanım acceptance ile neredeyse aynı olayları üretiyor.",
+      "source_link": "research/experiments/book-rule-results/BR-003-follow-through/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-003-follow-through"
+    },
+    {
+      "id": "BR-004-acceptance",
+      "title": "Kırılımın yeni alanda kabul görmesi",
+      "sources": [
+        "PTA-C2-2026.p0045",
+        "PTA-C2-2026.p0048",
+        "PTA-C2-2026.p0052",
+        "PTA-C2-2026.p0096"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "status": "devam_et",
+      "decision": "4h aşağı acceptance 60 barda eğitim/doğrulama/test bölümlerinin üçünde de pozitif XU100-aşırı medyan verdi.",
+      "source_link": "research/experiments/book-rule-results/BR-004-acceptance/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-004-acceptance"
+    },
+    {
+      "id": "BR-005-retest-hold",
+      "title": "Kırılım bölgesine dönüş ve seviyenin tutulması",
+      "sources": [
+        "PTA-C2-2026.p0057",
+        "PTA-C2-2026.p0076",
+        "PTA-C2-2026.p0091",
+        "PTA-C2-2026.p0096"
+      ],
+      "events": [
+        "retest_hold"
+      ],
+      "status": "yazi_turaya_yakin",
+      "decision": "Benchmark sonrası çoğu bölümde sıfır çevresi; tek başına belirgin ayrıştırma sağlamadı.",
+      "source_link": "research/experiments/book-rule-results/BR-005-retest-hold/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-005-retest-hold"
+    },
+    {
+      "id": "BR-006-failure",
+      "title": "Başarısız kırılım ve eski alana dönüş",
+      "sources": [
+        "PTA-C2-2026.p0041",
+        "PTA-C2-2026.p0043",
+        "PTA-C2-2026.p0046",
+        "PTA-C2-2026.p0049",
+        "PTA-C2-2026.p0070"
+      ],
+      "events": [
+        "failure"
+      ],
+      "status": "rejime_bagli",
+      "decision": "4h aşağı kırılım failure sonrası yukarı hipotezi doğrulama/testte olumlu, eğitimde belirgin olumsuz.",
+      "source_link": "research/experiments/book-rule-results/BR-006-failure/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-006-failure"
+    },
+    {
+      "id": "BR-007-probe-rejection",
+      "title": "Fitille taşma tek başına dönüş değildir",
+      "sources": [
+        "PTA-C2-2026.p0017",
+        "PTA-C2-2026.p0043",
+        "PTA-C2-2026.p0073"
+      ],
+      "events": [
+        "probe_rejection"
+      ],
+      "status": "kararsiz",
+      "decision": "Yön ve zaman bölümüne göre işaret değiştiriyor; bağlamsız kullanım güvenilir değil.",
+      "source_link": "research/experiments/book-rule-results/BR-007-probe-rejection/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-007-probe-rejection"
+    },
+    {
+      "id": "BR-008-movement-quality",
+      "title": "Temiz hareket, örtüşme ve ilerleme verimliliği",
+      "sources": [
+        "PTA-C2-2026.p0013",
+        "PTA-C2-2026.p0015",
+        "PTA-C2-2026.p0016",
+        "PTA-C2-2026.p0094"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "movement_quality_band",
+      "status": "olumlu_baglam",
+      "decision": "4h aşağı acceptance içinde düşük ve yüksek verim bantları üç zaman bölümünde pozitif; orta bant doğrulamada negatif.",
+      "source_link": "research/experiments/book-rule-results/BR-008-movement-quality/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-008-movement-quality"
+    },
+    {
+      "id": "BR-009-overlap",
+      "title": "Örtüşme arttıkça hareketin sıkışması",
+      "sources": [
+        "PTA-C2-2026.p0015",
+        "PTA-C2-2026.p0038",
+        "PTA-C2-2026.p0044"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "overlap_band",
+      "status": "ornek_yetersiz_bant_var",
+      "decision": "Düşük örtüşme testte güçlü; yüksek örtüşme testinde 60 bar hazır gözlem yok.",
+      "source_link": "research/experiments/book-rule-results/BR-009-overlap/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-009-overlap"
+    },
+    {
+      "id": "BR-010-volatility-context",
+      "title": "Sıkışma, genişleme ve kırılım bağlamı",
+      "sources": [
+        "PTA-C2-2026.p0038",
+        "PTA-C2-2026.p0041",
+        "PTA-C2-2026.p0044"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "volatility_band",
+      "status": "devam_et",
+      "decision": "4h aşağı acceptance öncesi contracted bant üç zaman bölümünde pozitif ve testte belirgin; normal/expanded testte negatif.",
+      "source_link": "research/experiments/book-rule-results/BR-010-volatility-context/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-010-volatility-context"
+    },
+    {
+      "id": "BR-011-pressure-decay",
+      "title": "Gövde ve ilerleme küçülmesiyle baskı kaybı",
+      "sources": [
+        "PTA-C2-2026.p0018",
+        "PTA-C2-2026.p0022",
+        "PTA-C2-2026.p0033"
+      ],
+      "events": [
+        "acceptance"
+      ],
+      "context": "body_pressure_band",
+      "status": "olumlu_baglam",
+      "decision": "Decaying gövde baskısı 4h aşağı acceptance içinde üç bölümde pozitif ve testte expanding gruptan daha güçlü.",
+      "source_link": "research/experiments/book-rule-results/BR-011-pressure-decay/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-011-pressure-decay"
+    },
+    {
+      "id": "BR-012-second-attempt",
+      "title": "İkinci denemeyi ilk bacakla mesafe, süre ve hız açısından karşılaştır",
+      "sources": [
+        "PTA-C2-2026.p0063",
+        "PTA-C2-2026.p0064",
+        "PTA-C2-2026.p0065",
+        "PTA-C2-2026.p0071",
+        "PTA-C2-2026.p0097"
+      ],
+      "events": [],
+      "attempt_events": [
+        "new_extreme_success",
+        "new_extreme_failure"
+      ],
+      "status": "altyapi_tamam",
+      "decision": "112.790 ikinci deneme olayı üretildi; çıplak sonuçlar dönem/yön bağımlı, oran bağlamları ayrıca korunuyor.",
+      "source_link": "research/experiments/book-rule-results/BR-012-second-attempt/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-012-second-attempt"
+    },
+    {
+      "id": "BR-013-new-extreme-success",
+      "title": "İkinci denemenin beklenen yeni ucu üretmesi",
+      "sources": [
+        "PTA-C2-2026.p0064",
+        "PTA-C2-2026.p0067",
+        "PTA-C2-2026.p0097"
+      ],
+      "events": [],
+      "attempt_events": [
+        "new_extreme_success"
+      ],
+      "status": "rejime_bagli",
+      "decision": "Başarı etiketi tek başına devam avantajı değil; yön ve zaman bölümü arasında işaret değişiyor.",
+      "source_link": "research/experiments/book-rule-results/BR-013-new-extreme-success/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-013-new-extreme-success"
+    },
+    {
+      "id": "BR-014-new-extreme-failure",
+      "title": "İkinci denemenin yeni uç üretememesi",
+      "sources": [
+        "PTA-C2-2026.p0065",
+        "PTA-C2-2026.p0070",
+        "PTA-C2-2026.p0071",
+        "PTA-C2-2026.p0097"
+      ],
+      "events": [],
+      "attempt_events": [
+        "new_extreme_failure"
+      ],
+      "status": "baglam_gerekli",
+      "decision": "4h yukarı deneme failure sonrası aşağı hipotezinde daha zayıf mesafe, uzun süre veya benzer hız alt grupları üç zaman bölümünde pozitif; çıplak olay kararlı değil.",
+      "source_link": "research/experiments/book-rule-results/BR-014-new-extreme-failure/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-014-new-extreme-failure"
+    },
+    {
+      "id": "BR-015-pullback-geometry",
+      "title": "Pullback derinlik, süre, hız ve örtüşmeyle ölçülür",
+      "sources": [
+        "PTA-C2-2026.p0056",
+        "PTA-C2-2026.p0057",
+        "PTA-C2-2026.p0058",
+        "PTA-C2-2026.p0063",
+        "PTA-C2-2026.p0077",
+        "PTA-C2-2026.p0082"
+      ],
+      "events": [],
+      "batch_events": [
+        "pullback_confirmed"
+      ],
+      "status": "rejime_bagli",
+      "decision": "Çıplak pullback yön ve dönem arasında kararlı değil; sığ yukarı pullback testte güçlü fakat yalnız 18 olay.",
+      "source_link": "research/experiments/book-rule-results/BR-015-pullback-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-015-pullback-geometry"
+    },
+    {
+      "id": "BR-016-candle-geometry",
+      "title": "Mum adı yerine gövde, kapanış ve engulfing geometrisi",
+      "sources": [
+        "PTA-C2-2026.p0008",
+        "PTA-C2-2026.p0010",
+        "PTA-C2-2026.p0023",
+        "PTA-C2-2026.p0027",
+        "PTA-C2-2026.p0030"
+      ],
+      "events": [],
+      "batch_events": [
+        "strong_bull_close",
+        "strong_bear_close",
+        "bullish_engulfing",
+        "bearish_engulfing"
+      ],
+      "status": "tek_basina_kararsiz",
+      "decision": "4h mum olayları eğitim ve test arasında işaret değiştiriyor; tek mum/dizi bağımsız avantaj değil.",
+      "source_link": "research/experiments/book-rule-results/BR-016-candle-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-016-candle-geometry"
+    },
+    {
+      "id": "BR-017-trend-range-regime",
+      "title": "Trend, range ve geçiş bağlamı",
+      "sources": [
+        "PTA-C2-2026.p0033",
+        "PTA-C2-2026.p0034",
+        "PTA-C2-2026.p0082",
+        "PTA-C2-2026.p0095"
+      ],
+      "events": [],
+      "batch_events": [
+        "pullback_confirmed",
+        "strong_bull_close",
+        "strong_bear_close",
+        "bullish_engulfing",
+        "bearish_engulfing"
+      ],
+      "status": "baglam_gerekli",
+      "decision": "Rejim olay sonuçlarını değiştiriyor fakat tek rejim bütün olay ve dönemlerde üstün değil.",
+      "source_link": "research/experiments/book-rule-results/BR-017-trend-range-regime/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-017-trend-range-regime"
+    },
+    {
+      "id": "BR-018-multi-timeframe",
+      "title": "Alt zaman olayı tamamlanmış üst zaman bağlamıyla okunur",
+      "sources": [
+        "PTA-C2-2026.p0089",
+        "PTA-C2-2026.p0090",
+        "PTA-C2-2026.p0099"
+      ],
+      "events": [],
+      "batch_events": [
+        "pullback_confirmed",
+        "strong_bull_close",
+        "strong_bear_close",
+        "bullish_engulfing",
+        "bearish_engulfing"
+      ],
+      "status": "olumlu_baglam",
+      "decision": "1h güçlü aşağı kapanış + tamamlanmış 4h düşüş hizası eğitim/doğrulama/testte pozitif XU100-aşırı 20 bar medyan verdi.",
+      "source_link": "research/experiments/book-rule-results/BR-018-multi-timeframe/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-018-multi-timeframe"
+    },
+    {
+      "id": "BR-019-cross-market",
+      "title": "Göreceli güç ve çapraz piyasa bağlamı",
+      "sources": [
+        "ATK-TR-D1.0-2026-08.p0213",
+        "ATK-TR-D1.0-2026-08.p0425"
+      ],
+      "events": [],
+      "status": "olay_bazinda_gerekli",
+      "decision": "XU100/GSPC/USDTRY/altın/Brent bağlandı; bütün sinyalleri havuzlayan evrensel yön yok.",
+      "source_link": "research/experiments/book-rule-results/BR-019-cross-market/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-019-cross-market"
+    },
+    {
+      "id": "BR-020-indicator-families",
+      "title": "RSI MACD Bollinger ADX rollerinin bağımsız katkısı",
+      "sources": [
+        "PTA-C1-2026.p0028",
+        "PTA-C1-2026.p0055"
+      ],
+      "events": [],
+      "status": "tek_basina_kararsiz",
+      "decision": "Çıplak indikatör olayları eğitim/test arasında işaret değiştiriyor.",
+      "source_link": "research/experiments/book-rule-results/BR-020-indicator-families/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-020-indicator-families"
+    },
+    {
+      "id": "BR-021-formations",
+      "title": "İkili tepe ve dip geometrisi",
+      "sources": [
+        "PTA-C2-2026.p0066",
+        "PTA-C2-2026.p0068"
+      ],
+      "events": [],
+      "status": "baglam_gerekli",
+      "decision": "Yalnız eşit iki uç avantaj değil; boyun kırılımı ve yerleşim gerekli.",
+      "source_link": "research/experiments/book-rule-results/BR-021-formations/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-021-formations"
+    },
+    {
+      "id": "BR-022-session-timing",
+      "title": "Seans ve gün içi zaman bağlamı",
+      "sources": [
+        "ATK-TR-D1.0-2026-08.p0107"
+      ],
+      "events": [],
+      "status": "olay_bazinda_gerekli",
+      "decision": "Tek seans bütün olaylarda üstün değil.",
+      "source_link": "research/experiments/book-rule-results/BR-022-session-timing/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-022-session-timing"
+    },
+    {
+      "id": "BR-023-risk-management",
+      "title": "MFE MAE hedef stop ve bar içi belirsizlik",
+      "sources": [
+        "ATK-TR-D1.0-2026-08.p0001"
+      ],
+      "events": [],
+      "status": "yazi_tura",
+      "decision": "1 ATR hedef/stop sayıları yaklaşık eşit; 2.037 aynı-bar sonucu belirsiz tutuldu.",
+      "source_link": "research/experiments/book-rule-results/BR-023-risk-management/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-023-risk-management"
+    },
+    {
+      "id": "BR-024-single-candle-geometry",
+      "title": "Tek mum gövde fitil ve kapanış geometrisi",
+      "sources": [
+        "PTA-C2-2026.p0008",
+        "PTA-C2-2026.p0010",
+        "PTA-C2-2026.p0017",
+        "PTA-C2-2026.p0018",
+        "PTA-C2-2026.p0022"
+      ],
+      "events": [],
+      "status": "tek_basina_kararsiz",
+      "decision": "912.810 varyant olayı ölçüldü; pin, marubozu, uzun kapanış ve fitil reddi eğitim/test arasında işaret değiştirdi.",
+      "source_link": "research/experiments/book-rule-results/BR-024-single-candle-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-024-single-candle-geometry"
+    },
+    {
+      "id": "BR-025-multi-candle-sequences",
+      "title": "İki üç ve çok mumlu davranış dizileri",
+      "sources": [
+        "PTA-C2-2026.p0023",
+        "PTA-C2-2026.p0026",
+        "PTA-C2-2026.p0027",
+        "PTA-C2-2026.p0029",
+        "PTA-C2-2026.p0030",
+        "PTA-C2-2026.p0034"
+      ],
+      "events": [],
+      "status": "cogu_rejime_bagli",
+      "decision": "343.617 dizi ölçüldü; three crows üç zaman bölümünde pozitif, diğer çoğu dizi işaret değiştirdi.",
+      "source_link": "research/experiments/book-rule-results/BR-025-multi-candle-sequences/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-025-multi-candle-sequences"
+    },
+    {
+      "id": "BR-026-pressure-loss",
+      "title": "Gövde ilerleme ve örtüşmeyle baskı kaybı",
+      "sources": [
+        "PTA-C2-2026.p0013",
+        "PTA-C2-2026.p0017",
+        "PTA-C2-2026.p0018",
+        "PTA-C2-2026.p0019",
+        "PTA-C2-2026.p0022",
+        "PTA-C2-2026.p0033"
+      ],
+      "events": [],
+      "status": "context_only_negative_as_reversal",
+      "decision": "1.350.145 varyant ölçüldü; testte bütün çıplak ters-yön hipotezleri negatif. Zayıflama otomatik dönüş değil.",
+      "source_link": "research/experiments/book-rule-results/BR-026-pressure-loss/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-026-pressure-loss"
+    },
+    {
+      "id": "BR-027-compression-expansion",
+      "title": "Sıkışma ilk taşma ve karşı tarafa genişleme",
+      "sources": [
+        "PTA-C2-2026.p0038",
+        "PTA-C2-2026.p0041",
+        "PTA-C2-2026.p0043",
+        "PTA-C2-2026.p0044"
+      ],
+      "events": [],
+      "status": "rejime_bagli",
+      "decision": "245.802 olay ölçüldü; bazı test alt grupları güçlü fakat eğitim/doğrulamada işaret değiştiriyor; karşı genişleme örnekleri yetersiz.",
+      "source_link": "research/experiments/book-rule-results/BR-027-compression-expansion/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-027-compression-expansion"
+    },
+    {
+      "id": "BR-028-breakout-lifecycle-details",
+      "title": "Kırılım retest failure ve karşı genişleme ayrıntıları",
+      "sources": [
+        "PTA-C2-2026.p0045",
+        "PTA-C2-2026.p0048",
+        "PTA-C2-2026.p0050",
+        "PTA-C2-2026.p0052",
+        "PTA-C2-2026.p0057",
+        "PTA-C2-2026.p0070",
+        "PTA-C2-2026.p0076",
+        "PTA-C2-2026.p0091",
+        "PTA-C2-2026.p0096"
+      ],
+      "events": [],
+      "status": "counter_expansion_continue",
+      "decision": "556.255 olay ve 11 parametre varyantı ölçüldü; çıplak olaylar yazı-turaya yakın, failure sonrası karşı genişleme üç zaman bölümünde pozitif ayrıştı.",
+      "source_link": "research/experiments/book-rule-results/BR-028-breakout-lifecycle-details/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-028-breakout-lifecycle-details"
+    },
+    {
+      "id": "BR-029-swing-geometry",
+      "title": "Swing geometrisi hiyerarşi ve teyit gecikmesi",
+      "sources": [
+        "PTA-C2-2026.p0054",
+        "PTA-C2-2026.p0055",
+        "PTA-C2-2026.p0058",
+        "PTA-C2-2026.p0059",
+        "PTA-C2-2026.p0060"
+      ],
+      "events": [],
+      "status": "parameter_neighbourhood_context",
+      "decision": "1.582.677 olay; 1+1–7+7 ve 0,10–0,50 ATR komşuluğunda çıplak yeni uç sonuçları yön ve dönem bağımlı.",
+      "source_link": "research/experiments/book-rule-results/BR-029-swing-geometry/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-029-swing-geometry"
+    },
+    {
+      "id": "BR-030-second-attempt-pullback",
+      "title": "İkinci deneme çok bacak ve pullback zinciri",
+      "sources": [
+        "PTA-C2-2026.p0063",
+        "PTA-C2-2026.p0064",
+        "PTA-C2-2026.p0065",
+        "PTA-C2-2026.p0066",
+        "PTA-C2-2026.p0067",
+        "PTA-C2-2026.p0068",
+        "PTA-C2-2026.p0069",
+        "PTA-C2-2026.p0070",
+        "PTA-C2-2026.p0071",
+        "PTA-C2-2026.p0077",
+        "PTA-C2-2026.p0082"
+      ],
+      "events": [],
+      "status": "context_dependent",
+      "decision": "112.790 deneme ve 309.467 mum/pullback olayı yeniden bantlandı; küçük olumlu alt gruplar yetersiz örnek olarak korundu.",
+      "source_link": "research/experiments/book-rule-results/BR-030-second-attempt-pullback/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-030-second-attempt-pullback"
+    },
+    {
+      "id": "BR-031-location-context",
+      "title": "Şeklin trend range kanal ve uzamışlık içindeki yeri",
+      "sources": [
+        "PTA-C2-2026.p0083",
+        "PTA-C2-2026.p0084",
+        "PTA-C2-2026.p0085",
+        "PTA-C2-2026.p0086",
+        "PTA-C2-2026.p0094",
+        "PTA-C2-2026.p0095"
+      ],
+      "events": [],
+      "status": "context_required",
+      "decision": "309.467 olayda rejim, derinlik/kanal vekili ve ATR uzamışlığı sonucu değiştirdi; şekil tek başına yinelenen bilgi.",
+      "source_link": "research/experiments/book-rule-results/BR-031-location-context/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-031-location-context"
+    },
+    {
+      "id": "BR-032-volume-mtf",
+      "title": "Hacim uygunluk kapısı ve tamamlanmış üst zaman bağlamı",
+      "sources": [
+        "PTA-C2-2026.p0087",
+        "PTA-C2-2026.p0088",
+        "PTA-C2-2026.p0089",
+        "PTA-C2-2026.p0090"
+      ],
+      "events": [],
+      "status": "mixed_data_suitability",
+      "decision": "Hacim yalnız uygun gruplarda ölçüldü; endeks/FX veri-uygunsuz tutuldu; üst zaman yalnız tamamlanmış bardan geldi.",
+      "source_link": "research/experiments/book-rule-results/BR-032-volume-mtf/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-032-volume-mtf"
+    },
+    {
+      "id": "BR-033-decision-chain",
+      "title": "Bağlamdan çoklu zaman teyidine marjinal karar zinciri",
+      "sources": [
+        "PTA-C2-2026.p0091",
+        "PTA-C2-2026.p0092",
+        "PTA-C2-2026.p0093",
+        "PTA-C2-2026.p0094",
+        "PTA-C2-2026.p0095",
+        "PTA-C2-2026.p0096",
+        "PTA-C2-2026.p0097",
+        "PTA-C2-2026.p0098",
+        "PTA-C2-2026.p0099"
+      ],
+      "events": [],
+      "status": "redundant_filters_detected",
+      "decision": "Zincir 309.467 olaydan 5.895'e inerken medyan %0,02'den -%0,13'e düştü; ek filtreler genel avantaj yaratmadı.",
+      "source_link": "research/experiments/book-rule-results/BR-033-decision-chain/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-033-decision-chain"
+    },
+    {
+      "id": "BR-034-robustness-cost-overlap",
+      "title": "Maliyet olay örtüşmesi sembol ve yanlış keşif sağlamlığı",
+      "sources": [
+        "PTA-C2-2026.p0100",
+        "PTA-C2-2026.p0101",
+        "PTA-C2-2026.p0102",
+        "PTA-C2-2026.p0103",
+        "PTA-C2-2026.p0104",
+        "PTA-C2-2026.p0105",
+        "PTA-C2-2026.p0106",
+        "PTA-C2-2026.p0107",
+        "PTA-C2-2026.p0108",
+        "PTA-C2-2026.p0109"
+      ],
+      "events": [],
+      "status": "completed",
+      "decision": "%0–0,50 maliyet stresi ve Jaccard örtüşmesi saklandı; havuzlanmış avantajlar maliyetle negatife dönüyor, komşulukların tamamı korundu.",
+      "source_link": "research/experiments/book-rule-results/BR-034-robustness-cost-overlap/source-links.json",
+      "result_directory": "research/experiments/book-rule-results/BR-034-robustness-cost-overlap"
+    }
+  ]
+}

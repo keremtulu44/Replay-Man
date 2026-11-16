@@ -1,0 +1,10 @@
+{
+  "evidence_files": 7,
+  "evidence_rows": 145479,
+  "cross_book_rules": 71,
+  "p13": "measured_context_plus_external_rates_contract",
+  "p14": "external_data_required",
+  "p15": "external_data_required",
+  "p16": "process_and_execution_contract_complete",
+  "negative_results_preserved": true
+}

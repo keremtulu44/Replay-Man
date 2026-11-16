@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "rules": [
+    {
+      "id": "BR-C1-001-indicator-roles",
+      "title": "İndikatör rolü ve bilgi tekrarı",
+      "sources": [
+        "PTA-C1-2026.p0006",
+        "PTA-C1-2026.p0007",
+        "PTA-C1-2026.p0008",
+        "PTA-C1-2026.p0009"
+      ],
+      "status": "reference_framework",
+      "decision": "Araç adı değil bilgi görevi; marjinal katkı P10-P11 içinde tamamlanacak.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-001-indicator-roles/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-001-indicator-roles"
+    },
+    {
+      "id": "BR-C1-002-moving-averages",
+      "title": "SMA EMA kesişim eğim ve sıralama",
+      "sources": [
+        "PTA-C1-2026.p0006",
+        "PTA-C1-2026.p0007",
+        "PTA-C1-2026.p0008",
+        "PTA-C1-2026.p0009",
+        "PTA-C1-2026.p0010",
+        "PTA-C1-2026.p0011",
+        "PTA-C1-2026.p0012",
+        "PTA-C1-2026.p0013",
+        "PTA-C1-2026.p0014"
+      ],
+      "status": "mostly_regime_dependent",
+      "decision": "698.098 olay; çoğu olay zaman bölümlerinde işaret değiştirdi. 4h bear stack üç bölümde aynı pozitif işaretli adaydır.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-002-moving-averages/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-002-moving-averages"
+    },
+    {
+      "id": "BR-C1-003-rsi",
+      "title": "RSI bölge ve geçişleri",
+      "sources": [
+        "PTA-C1-2026.p0015",
+        "PTA-C1-2026.p0016",
+        "PTA-C1-2026.p0017",
+        "PTA-C1-2026.p0018",
+        "PTA-C1-2026.p0019",
+        "PTA-C1-2026.p0020",
+        "PTA-C1-2026.p0021"
+      ],
+      "status": "negative_or_regime_dependent",
+      "decision": "RSI<30 yukarı dönüş hipotezi 4h 60-barda üç bölümde negatiftir; diğer RSI olayları işaret değiştirir.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-003-rsi/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-003-rsi"
+    },
+    {
+      "id": "BR-C1-004-stochastic",
+      "title": "Stochastic K D ve uç bölgeler",
+      "sources": [
+        "PTA-C1-2026.p0022",
+        "PTA-C1-2026.p0023",
+        "PTA-C1-2026.p0024",
+        "PTA-C1-2026.p0025",
+        "PTA-C1-2026.p0026",
+        "PTA-C1-2026.p0027"
+      ],
+      "status": "regime_dependent",
+      "decision": "K/D uç bölge kesişimleri eğitim/doğrulama/test arasında kararlı değildir.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-004-stochastic/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-004-stochastic"
+    },
+    {
+      "id": "BR-C1-005-macd",
+      "title": "MACD sinyal histogram ve sıfır geçişi",
+      "sources": [
+        "PTA-C1-2026.p0028",
+        "PTA-C1-2026.p0029",
+        "PTA-C1-2026.p0030",
+        "PTA-C1-2026.p0031",
+        "PTA-C1-2026.p0032",
+        "PTA-C1-2026.p0033",
+        "PTA-C1-2026.p0034",
+        "PTA-C1-2026.p0035",
+        "PTA-C1-2026.p0036"
+      ],
+      "status": "regime_dependent",
+      "decision": "MACD kesişimleri 4h eğitim ve test arasında ters işaretlidir.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-005-macd/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-005-macd"
+    },
+    {
+      "id": "BR-C1-006-atr",
+      "title": "True Range ATR genişleme ve daralma",
+      "sources": [
+        "PTA-C1-2026.p0037",
+        "PTA-C1-2026.p0038",
+        "PTA-C1-2026.p0039",
+        "PTA-C1-2026.p0040",
+        "PTA-C1-2026.p0041",
+        "PTA-C1-2026.p0042"
+      ],
+      "status": "context_only",
+      "decision": "ATR rejimi yön sinyali olarak kararlı değildir; risk/oynaklık bağlamıdır.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-006-atr/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-006-atr"
+    },
+    {
+      "id": "BR-C1-007-bollinger",
+      "title": "Bollinger bant genişliği kırılım ve geri dönüş",
+      "sources": [
+        "PTA-C1-2026.p0043",
+        "PTA-C1-2026.p0044",
+        "PTA-C1-2026.p0045",
+        "PTA-C1-2026.p0046",
+        "PTA-C1-2026.p0047",
+        "PTA-C1-2026.p0048",
+        "PTA-C1-2026.p0049"
+      ],
+      "status": "regime_dependent",
+      "decision": "Squeeze/break testte olumlu görünse de eğitim işareti ters; evrensel avantaj değildir.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-007-bollinger/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-007-bollinger"
+    },
+    {
+      "id": "BR-C1-008-keltner-squeeze",
+      "title": "Keltner ve Bollinger sıkışma ilişkisi",
+      "sources": [
+        "PTA-C1-2026.p0050",
+        "PTA-C1-2026.p0051",
+        "PTA-C1-2026.p0052",
+        "PTA-C1-2026.p0053",
+        "PTA-C1-2026.p0054",
+        "PTA-C1-2026.p0055"
+      ],
+      "status": "regime_dependent",
+      "decision": "Keltner squeeze eğitim/doğrulama/testte -/+/+; bağlam adayıdır.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-008-keltner-squeeze/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-008-keltner-squeeze"
+    },
+    {
+      "id": "BR-C1-009-relative-volume",
+      "title": "RVOL ve fiyat ilerleme ilişkisi",
+      "sources": [
+        "PTA-C1-2026.p0056",
+        "PTA-C1-2026.p0057",
+        "PTA-C1-2026.p0058",
+        "PTA-C1-2026.p0059"
+      ],
+      "status": "data_gated_context",
+      "decision": "Gerçek hacimli gruplarda ölçüldü; yüksek RVOL tek başına kararlı avantaj değildir.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-009-relative-volume/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-009-relative-volume"
+    },
+    {
+      "id": "BR-C1-010-vwap-avwap",
+      "title": "Rolling VWAP ve teyitli swing AVWAP",
+      "sources": [
+        "PTA-C1-2026.p0060",
+        "PTA-C1-2026.p0061",
+        "PTA-C1-2026.p0062",
+        "PTA-C1-2026.p0063",
+        "PTA-C1-2026.p0064",
+        "PTA-C1-2026.p0065"
+      ],
+      "status": "regime_dependent",
+      "decision": "VWAP/AVWAP kesişimleri eğitim ve test arasında işaret değiştirdi.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-010-vwap-avwap/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-010-vwap-avwap"
+    },
+    {
+      "id": "BR-C1-011-volume-profile",
+      "title": "Nedensel rolling POC ve value area",
+      "sources": [
+        "PTA-C1-2026.p0066",
+        "PTA-C1-2026.p0067",
+        "PTA-C1-2026.p0068",
+        "PTA-C1-2026.p0069",
+        "PTA-C1-2026.p0070",
+        "PTA-C1-2026.p0071",
+        "PTA-C1-2026.p0072",
+        "PTA-C1-2026.p0073"
+      ],
+      "status": "approximation_context",
+      "decision": "Typical-price hacim dağıtımı yaklaşımıyla ölçüldü; bütün olaylar zaman bölümlerinde işaret değiştirdi.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-011-volume-profile/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-011-volume-profile"
+    },
+    {
+      "id": "BR-C1-012-adx-dmi",
+      "title": "ADX DMI",
+      "sources": [
+        "PTA-C1-2026.p0074",
+        "PTA-C1-2026.p0075",
+        "PTA-C1-2026.p0076",
+        "PTA-C1-2026.p0077",
+        "PTA-C1-2026.p0078"
+      ],
+      "status": "context_dependent",
+      "decision": "ADX aşağı trend üç bölümde pozitif; yukarı trend eğitimde ters.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-012-adx-dmi/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-012-adx-dmi"
+    },
+    {
+      "id": "BR-C1-013-supertrend",
+      "title": "Supertrend",
+      "sources": [
+        "PTA-C1-2026.p0079",
+        "PTA-C1-2026.p0080",
+        "PTA-C1-2026.p0081",
+        "PTA-C1-2026.p0082",
+        "PTA-C1-2026.p0083"
+      ],
+      "status": "regime_dependent",
+      "decision": "ATR bant yön değişimleri ölçüldü; genel evrensel avantaj ilan edilmedi.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-013-supertrend/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-013-supertrend"
+    },
+    {
+      "id": "BR-C1-014-ichimoku",
+      "title": "Ichimoku",
+      "sources": [
+        "PTA-C1-2026.p0084",
+        "PTA-C1-2026.p0085",
+        "PTA-C1-2026.p0086",
+        "PTA-C1-2026.p0087",
+        "PTA-C1-2026.p0088"
+      ],
+      "status": "direction_asymmetric",
+      "decision": "Bear rejimi üç bölümde pozitif; bull eğitimde ters.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-014-ichimoku/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-014-ichimoku"
+    },
+    {
+      "id": "BR-C1-015-pivot-cpr",
+      "title": "Önceki dönem pivotları",
+      "sources": [
+        "PTA-C1-2026.p0089",
+        "PTA-C1-2026.p0090",
+        "PTA-C1-2026.p0091",
+        "PTA-C1-2026.p0092",
+        "PTA-C1-2026.p0093",
+        "PTA-C1-2026.p0094"
+      ],
+      "status": "regime_dependent",
+      "decision": "Günlük pivot kırılımları dönemler arasında işaret değiştirdi.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-015-pivot-cpr/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-015-pivot-cpr"
+    },
+    {
+      "id": "BR-C1-016-support-resistance",
+      "title": "Teyitli destek direnç",
+      "sources": [
+        "PTA-C1-2026.p0095",
+        "PTA-C1-2026.p0096",
+        "PTA-C1-2026.p0097",
+        "PTA-C1-2026.p0098",
+        "PTA-C1-2026.p0099",
+        "PTA-C1-2026.p0100",
+        "PTA-C1-2026.p0101",
+        "PTA-C1-2026.p0102",
+        "PTA-C1-2026.p0103"
+      ],
+      "status": "regime_dependent",
+      "decision": "Teyitli seviye kırılımları dönemler arasında kararlı değil.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-016-support-resistance/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-016-support-resistance"
+    },
+    {
+      "id": "BR-C1-017-fibonacci",
+      "title": "Teyitli swing Fibonacci",
+      "sources": [
+        "PTA-C1-2026.p0104",
+        "PTA-C1-2026.p0105",
+        "PTA-C1-2026.p0106",
+        "PTA-C1-2026.p0107",
+        "PTA-C1-2026.p0108",
+        "PTA-C1-2026.p0109",
+        "PTA-C1-2026.p0110"
+      ],
+      "status": "regime_dependent",
+      "decision": "0.382/0.618 tutunmaları eğitim ve test arasında ters.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-017-fibonacci/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-017-fibonacci"
+    },
+    {
+      "id": "BR-C1-018-gann-normalized",
+      "title": "ATR normalize Gann eğimi",
+      "sources": [
+        "PTA-C1-2026.p0111",
+        "PTA-C1-2026.p0112",
+        "PTA-C1-2026.p0113",
+        "PTA-C1-2026.p0114",
+        "PTA-C1-2026.p0115"
+      ],
+      "status": "continue_candidate",
+      "decision": "Normalize aşağı eğim üç bölümde pozitif; ekran açısı kullanılmadı.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-018-gann-normalized/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-018-gann-normalized"
+    },
+    {
+      "id": "BR-C1-019-pitchfork",
+      "title": "Nedensel Pitchfork vekili",
+      "sources": [
+        "PTA-C1-2026.p0116",
+        "PTA-C1-2026.p0117",
+        "PTA-C1-2026.p0118",
+        "PTA-C1-2026.p0119",
+        "PTA-C1-2026.p0120"
+      ],
+      "status": "regime_dependent",
+      "decision": "Üç teyitli pivot median çizgi kesişimleri kararlı değil.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-019-pitchfork/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-019-pitchfork"
+    },
+    {
+      "id": "BR-C1-020-regression-channel",
+      "title": "Rolling regresyon kanalı",
+      "sources": [
+        "PTA-C1-2026.p0121",
+        "PTA-C1-2026.p0122",
+        "PTA-C1-2026.p0123",
+        "PTA-C1-2026.p0124",
+        "PTA-C1-2026.p0125"
+      ],
+      "status": "mixed",
+      "decision": "Alt kanal aşağı olayı üç bölümde küçük pozitif; üst kırılım kararsız.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-020-regression-channel/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-020-regression-channel"
+    },
+    {
+      "id": "BR-C1-021-information-families",
+      "title": "Bilgi ailesi örtüşmesi",
+      "sources": [
+        "PTA-C1-2026.p0126",
+        "PTA-C1-2026.p0127",
+        "PTA-C1-2026.p0128",
+        "PTA-C1-2026.p0129",
+        "PTA-C1-2026.p0130",
+        "PTA-C1-2026.p0131",
+        "PTA-C1-2026.p0132",
+        "PTA-C1-2026.p0133",
+        "PTA-C1-2026.p0134",
+        "PTA-C1-2026.p0135",
+        "PTA-C1-2026.p0136",
+        "PTA-C1-2026.p0137",
+        "PTA-C1-2026.p0138",
+        "PTA-C1-2026.p0139"
+      ],
+      "status": "duplicate_information",
+      "decision": "Trend-volume Jaccard 0,57; trend-volatilite 0,54; teyitler bağımsız değil.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-021-information-families/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-021-information-families"
+    },
+    {
+      "id": "BR-C1-022-decision-robustness",
+      "title": "Karar zinciri maliyet sağlamlığı",
+      "sources": [
+        "PTA-C1-2026.p0006",
+        "PTA-C1-2026.p0007",
+        "PTA-C1-2026.p0008",
+        "PTA-C1-2026.p0009",
+        "PTA-C1-2026.p0126",
+        "PTA-C1-2026.p0127",
+        "PTA-C1-2026.p0128",
+        "PTA-C1-2026.p0129",
+        "PTA-C1-2026.p0130",
+        "PTA-C1-2026.p0131",
+        "PTA-C1-2026.p0132",
+        "PTA-C1-2026.p0133",
+        "PTA-C1-2026.p0134",
+        "PTA-C1-2026.p0135",
+        "PTA-C1-2026.p0136",
+        "PTA-C1-2026.p0137",
+        "PTA-C1-2026.p0138",
+        "PTA-C1-2026.p0139"
+      ],
+      "status": "completed",
+      "decision": "Filtre zinciri testte iyileşirken eğitim/doğrulamada kötüleşti; maliyet stresleri saklandı.",
+      "source_link": "research/experiments/cilt1-rule-results/BR-C1-022-decision-robustness/source-links.json",
+      "result_directory": "research/experiments/cilt1-rule-results/BR-C1-022-decision-robustness"
+    }
+  ]
+}

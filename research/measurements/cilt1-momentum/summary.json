@@ -1,0 +1,17 @@
+{
+  "events": 226723,
+  "assets": 125,
+  "event_types": [
+    "rsi_cross_30_up",
+    "rsi_cross_70_down",
+    "rsi_above_70",
+    "rsi_below_30",
+    "stoch_cross_up_20",
+    "stoch_cross_down_80",
+    "macd_signal_up",
+    "macd_signal_down",
+    "macd_zero_up",
+    "macd_zero_down"
+  ],
+  "raw_events_not_versioned": "Deterministic generator plus complete aggregates retained to avoid oversized Git artifacts."
+}

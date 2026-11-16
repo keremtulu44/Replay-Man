@@ -1,0 +1,121 @@
+[
+  {
+    "id": "PTA-C1-2026.p0050",
+    "page": 50,
+    "chapter": 8,
+    "section": "8.1 — Üç çizgi nasıl oluşur?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n50 \nBÖLÜM 8 \nDonchian Kanalı: Kırılımı Sadeleştirmek \nDonchian Kanalı son N mumun en yüksek ve en düşük fiyatlarını iki sınır olarak \ngösterir. Fiyat bu sınırın dışına çıktığında yeni bir kırılım oluşmuş olabilir. Bu, işleme \ngiriş için bir işaret olabilir; ancak tek başına yön, stop ve pozisyon büyüklüğü \nbelirlemez. \n  \n \nHIZLI ROL — Ana görev: son N mumun en yüksek ve en düşük sınırını göstererek kırılımı \nfark etmek. Tek başına piyasa ortamını, riski veya başarısız kırılımın nasıl yönetileceğini \nsöylemez. Ana risk: üst bandı “aşırı alım” sanmak veya her kırılımı tek başına işlem sistemi \nsaymak. İyi eşleşme: ATR + hacim + fiyat yapısı. \n8.1 — Üç çizgi nasıl oluşur? \nÇizgi Hesap mantığı Pratik anlam \nÜst bant Son N periyodun en yükseği Yeni N-periyot zirvesi / kırılım sınırı \nAlt bant Son N periyodun en düşüğü Yeni N-periyot dibi / aşağı kırılım sınırı \nOrta bant (Üst + Alt) / 2 Yatay piyasa orta noktası / takip eden stop \n \n \nŞekil 8.1 — Donchian Kanalı doğrudan son N periyot en yüksek/en düşük fiyat sınırlarından oluşur; standart sapma \nveya ATR içermez.",
+    "source_extract_summary": [
+      "BÖLÜM 8 Donchian Kanalı: Kırılımı Sadeleştirmek Donchian Kanalı son N mumun en yüksek ve en düşük fiyatlarını iki sınır olarak gösterir.",
+      "Fiyat bu sınırın dışına çıktığında yeni bir kırılım oluşmuş olabilir.",
+      "Bu, işleme giriş için bir işaret olabilir; ancak tek başına yön, stop ve pozisyon büyüklüğü belirlemez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Veri sözleşmesi ve mum özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0051",
+    "page": 51,
+    "chapter": 8,
+    "section": "8.3 — Donchian kırılımı neden stratejinin tamamı değildir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n51 \nSAYISAL ÖRNEK \n20 periyotluk üst bant 120, alt bant 100 ise orta bant = (120+100)/2 = 110. Yeni fiyat 121’e çıkar ve \nyöntem güncel barı kırılım için hesaba katıyorsa yeni 20-periyot zirvesi oluşur. Bu olay bir giriş işareti \nolabilir; kârlı işlem garantisi değildir. \n \n8.2 — Üst sınıra temas dönüş mü, kırılım mı? \nDonchian üst bandı “aşırı fiyat” seviyesi değildir; son N periyodun en yüksek sınırıdır. Trend \ntakip yaklaşımında bu seviyeye ulaşmak zayıflık değil, yeni kırılım bilgisi olabilir. \nAYNI GÖRSEL, FARKLI MATEMATİK \nBollinger üst bant = ortalama + standart sapma katı. Donchian üst bant = doğrudan son N periyodun en \nyükseği. İkisi grafikte “üst kanal” gibi görünse de hesap mantıkları farklıdır; bu yüzden aynı yorum \nkuralı uygulanamaz. \n \n8.3 — Donchian kırılımı neden stratejinin tamamı değildir? \nDonchian kırılımı bir giriş işareti olabilir; fakat yön filtresi, risk, pozisyon büyüklüğü ve \nbaşarısız kırılım kuralı ayrıca tanımlanmalıdır. Aksi halde yatay piyasada çok sayıda otomatik \nve başarısız sinyal üretilebilir. \n \nŞekil 8.2 — Şematik başarısız kırılım: yeni yüksek oluşuyor fakat fiyat kanal dışında kabul görmeden geri dönüyor. \nEksik parça Sadece Donchian varsa sorun Tamamlayıcı \nPiyasa ortamı / yön Her iki yöne kırılım kovalanabilir Fiyat yapısı veya tek trend filtresi \nFiyat hareketliliği Daralma/genişleme koşulu bilinmez ATR \nKatılım Kırılıma katılım bilinmez Hacim",
+    "source_extract_summary": [
+      "SAYISAL ÖRNEK 20 periyotluk üst bant 120, alt bant 100 ise orta bant = (120+100)/2 = 110.",
+      "Yeni fiyat 121’e çıkar ve yöntem güncel barı kırılım için hesaba katıyorsa yeni 20-periyot zirvesi oluşur.",
+      "Bu olay bir giriş işareti olabilir; kârlı işlem garantisi değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0052",
+    "page": 52,
+    "chapter": 8,
+    "section": "8.5 — Orta bant takip eden stop için nasıl kullanılabilir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n52 \nEksik parça Sadece Donchian varsa sorun Tamamlayıcı \nRisk Stop/pozisyon büyüklüğü yok Yapı + ATR / risk planı \n \n8.4 — Donchian + ATR neden güçlü bir rol kombinasyonudur? \nATR “piyasa ne kadar hareket ediyor?”, Donchian “son N periyot sınırı hangi yönde kırıldı?” \nsorusuna cevap verir. Böylece fiyat hareketliliği koşulu ile yönlü giriş işareti birbirinden ayrılır. \n \nŞekil 8.3 — Sentetik örnek: önce dar fiyat aralığı, ardından Donchian sınırının kırılması ve hareket genişliğinin \nartması. Daralma yönü önceden söylemez. \nPERFORMANS İDDİASINA DİKKAT \nATR + Donchian rol açısından uyumludur; ancak başarı oranı ayrıca test edilmelidir. Araçların görev \nayrımı, performans garantisi değildir. \n \n8.5 — Orta bant takip eden stop için nasıl kullanılabilir? \nTrend başladıktan sonra orta bant yönetim referansı olarak kullanılabilir. Örneğin satış yönlü \npozisyonda orta bant üstü kapanış çıkış kuralı olabilir. Daha gevşek takip trendi daha uzun taşır; \nkarşılığında daha fazla kâr geri verilebilir. \nTAKİP EDEN STOPTA DENGE \nDaha gevşek stop, trendi daha uzun süre taşıyabilir; ancak daha fazla kâr geri verilebilir. Daha sıkı stop \nkârı daha erken korur; fakat trendden erken çıkarabilir. Tek bir “en iyi” ayar yoktur; seçim sistemin \namacına göre yapılır.",
+    "source_extract_summary": [
+      "Eksik parça Sadece Donchian varsa sorun Tamamlayıcı Risk Stop/pozisyon büyüklüğü yok Yapı + ATR / risk planı 8.4 — Donchian + ATR neden güçlü bir rol kombinasyonudur?",
+      "ATR “piyasa ne kadar hareket ediyor?”, Donchian “son N periyot sınırı hangi yönde kırıldı?” sorusuna cevap verir.",
+      "Böylece fiyat hareketliliği koşulu ile yönlü giriş işareti birbirinden ayrılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0053",
+    "page": 53,
+    "chapter": 8,
+    "section": "8.7 — Bollinger mi Donchian mı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n53 \n \n8.6 — Giriş, çıkış ve yeniden giriş kanallarını ayrı tanımlayın \nDonchian sisteminde giriş için kullanılan kanal ile çıkış için kullanılan kanal farklı geriye bakış \npencerelerine sahip olabilir. Böylece giriş kuralı yeni N-periyot kırılımını izlerken çıkış kuralı \ndaha kısa veya daha uzun bir kanal üzerinden yönetilebilir. \nDaha kısa çıkış penceresi sınırı fiyata yaklaştırır. Bu yaklaşım gerçekleşmiş kârın daha azını \ngeri verme eğiliminde olabilir; karşılığında daha sık erken çıkış ve sık yanlış sinyal (whipsaw) \nüretir. \nDaha uzun çıkış penceresi fiyata daha fazla hareket alanı bırakır. Trend içindeki daha derin geri \nçekilmeler tolere edilebilir; buna karşılık pozisyondan çıkmadan önce daha fazla gerçekleşmiş \nkâr geri verilebilir. \nBelirli giriş/çıkış periyotları evrensel değildir; yönetim sıkılığının sistemin davranışını nasıl \ndeğiştirdiği test edilmelidir. \nDonchian kırılımının tanımını açık yazın \nKanal seviyesine temas, bar içinde sınırın aşılması ve barın kanal dışında kapanması aynı sinyal \ntanımı değildir. Donchian kullanan bir sistem hangi olayı “kırılım” kabul ettiğini önceden \nbelirtmelidir. \nBazı sistemler kapanış kırılımını kullanabilir; bu evrensel bir zorunluluk değildir. Profesyonel \nayrım, seçilen tanımın açık ve test edilebilir olmasıdır. \nÇıkış trend fikrinin sonsuza kadar bittiği anlamına gelmez \nSıkı bir çıkış kanalı pozisyonu trend tamamen bozulmadan kapatabilir. Fiyat daha sonra \nyeniden giriş kanalının koşulunu sağlarsa sistem yeni bir giriş üretebilir. \nBu nedenle Donchian’da “çıkış” ile “artık bu yönde bir daha işlem aranmaz” aynı şey değildir. \nÖzellikle sıkı çıkış kurallarında yeniden giriş davranışı sistem tasarımının doğal bir parçası \nolabilir. \n8.7 — Bollinger mi Donchian mı? \nÖzellik Bollinger Bands Donchian Kanalı \nTemel hesap Ortalama ± standart sapma N-periyot en yüksek / en düşük fiyat \nAna rol Dağılım / fiyat hareketliliği bantları Kırılım / yatay piyasa sınırı \nÜst banda temas Dönüş zorunluluğu yok Yeni N-periyot zirvesi olabilir \nBant sıkışması Bant daralmasıyla görünür Kanalın dar/yatay piyasa yapısıyla \ngözlenebilir",
+    "source_extract_summary": [
+      "8.6 — Giriş, çıkış ve yeniden giriş kanallarını ayrı tanımlayın Donchian sisteminde giriş için kullanılan kanal ile çıkış için kullanılan kanal farklı geriye bakış pencerelerine sahip olabilir.",
+      "Böylece giriş kuralı yeni N-periyot kırılımını izlerken çıkış kuralı daha kısa veya daha uzun bir kanal üzerinden yönetilebilir.",
+      "Daha kısa çıkış penceresi sınırı fiyata yaklaştırır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Veri sözleşmesi ve mum özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0054",
+    "page": 54,
+    "chapter": 8,
+    "section": "8.8 — Kırılım sistemi için pratik akış",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n54 \nÖzellik Bollinger Bands Donchian Kanalı \nEn iyi tamamlayıcı Fiyat yapısı / Hacim ATR / Fiyat yapısı / Hacim \n \nTEKRAR RİSKİ \nBollinger + Donchian ancak görevleri ayrılırsa anlamlıdır: Bollinger bant yapısını, Donchian ise \nkırılım sınırını gösterir. Aksi halde iki kanal yalnız grafiği kalabalıklaştırır. \n \n8.8 — Kırılım sistemi için pratik akış \nAdım Soru Araç örneği \n1. Koşul Fiyat hareketliliği dar mı / genişliyor mu? ATR veya Bollinger \n2. Sınır Kırılım seviyesi nerede? Donchian / yapı \n3. Giriş \nişareti \nN-periyot zirvesi/dibi gerçekten kırıldı mı? Donchian \n4. Katılım Hareket destekleniyor mu? Hacim \n5. Risk İşlem fikri nerede bozulur ve stop nerede olmalı? Yapı + ATR \n6. Yönetim Trend nasıl taşınacak? Donchian orta bant / takip eden stop \n \nBÖLÜM SONUCU \nDonchian Kanalı son N-periyot fiyat sınırlarını gösterir. En doğal rolleri kırılım tetiği ve trend \ntakibidir. ATR ile birlikte kullanıldığında biri yönlü sınırı, diğeri yönsüz fiyat hareketliliği koşulunu \nölçer. \n \nARA ÖZET — ATR, Bollinger ve Donchian aynı şey değildir \nAraç Ana soru Matematik sınıfı Yanlış eşitleme \nATR Ne kadar hareket ediyor? True Range / fiyat hareketliliği “Yön gösterir.” \nBollinger Dağılım ne kadar geniş/dar? Ortalama + standart sapma “Bant = dönüş.”",
+    "source_extract_summary": [
+      "Özellik Bollinger Bands Donchian Kanalı En iyi tamamlayıcı Fiyat yapısı / Hacim ATR / Fiyat yapısı / Hacim TEKRAR RİSKİ Bollinger + Donchian ancak görevleri ayrılırsa anlamlıdır: Bollinger bant yapısını, Donchian ise kırılım sınırını gösterir.",
+      "Aksi halde iki kanal yalnız grafiği kalabalıklaştırır.",
+      "8.8 — Kırılım sistemi için pratik akış Adım Soru Araç örneği 1."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0055",
+    "page": 55,
+    "chapter": 8,
+    "section": "8.8 — Kırılım sistemi için pratik akış",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n55 \nAraç Ana soru Matematik sınıfı Yanlış eşitleme \nDonchian N-periyot sınırı nerede kırıldı? Doğrudan en yüksek/en düşük “Üst bant = aşırı \nalım.” \n \nPROFESYONEL KOMBİNASYON ÖRNEĞİ \nATR düşük → piyasa sakin. Donchian üst sınırı kırılıyor → yönlü giriş işareti. Hacim artıyor → \nkatılım desteği. Yapısal stop + ATR ek payı → risk. Her parça farklı bir soruya cevap verir.",
+    "source_extract_summary": [
+      "Araç Ana soru Matematik sınıfı Yanlış eşitleme Donchian N-periyot sınırı nerede kırıldı?",
+      "Doğrudan en yüksek/en düşük “Üst bant = aşırı alım.” PROFESYONEL KOMBİNASYON ÖRNEĞİ ATR düşük → piyasa sakin.",
+      "Donchian üst sınırı kırılıyor → yönlü giriş işareti."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "PTA-C2-2026.p0064",
+    "source_id": "PTA-C2-2026",
+    "page": 64,
+    "chapter": 9,
+    "section": "9.4 — Yeni dip beklenirken fiyat aynı bölgede tekrar tekrar dönüyorsa",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n64 \n \nŞekil 9.3 — İki bacaklı pullback: ilk karşı hareketten sonra ana yönde kısa bir tepki gelir; ardından ikinci \nkarşı deneme oluşabilir. Kritik bilgi, ikinci bacağın ne kadar ilerleyebildiğidir. \nİlk bacak sonrası İkinci bacakta ne oluyor? Okuma \nKısa ara tepki İkinci bacak yeni uç üretip sürüyor Geri çekilme hâlâ güçlü olabilir \nKısa ara tepki İkinci bacak yeni uç üretemiyor Karşı hareketin gücü azalıyor \nolabilir \nİlk bacak güçlü Beklenen ikinci bacak hiç gelmiyor Önceki beklenti sorgulanır \n \nİKINCI BACAK = OTOMATIK GIRIŞ DEĞILDIR \nBurada “second entry” fikrini mekanik bir işlem kuralı olarak değil, ikinci denemenin kalitesini okumak için \nkullanıyoruz. İkinci deneme beklenen devamı üretmiyorsa, başarısızlığın kendisi bilgi haline gelir. \n \n9.4 — Yeni dip beklenirken fiyat aynı bölgede tekrar tekrar dönüyorsa \nSağlıklı bir düşüşte satıcıların zaman zaman yeni dipler üretmesi beklenir. Kaynaktaki örnekte \nise fiyat aşağı yönde ilerlemesi gerekirken önce çift dip, ardından üçlü dip benzeri bir bölge \noluşturur ve her denemede hızla yukarı tepki verir. Buradaki önemli nokta formasyon adını \nezberlemek değildir; aynı seviyenin tekrar tekrar test edilmesine rağmen aşağı yönde yeni alan \nkazanılamamasıdır. \nBu davranış “destek kesin çalıştı” anlamına gelmez. Daha doğru cümle şudur: Satıcılar \nbeklenen yeni dibi üretmekte zorlanıyor. Fiyat aynı bölgeyi birkaç kez test ediyor fakat her \nseferinde aşağıda kalamıyorsa satış momentumunun bozulduğuna dair kanıt artar. Bir sonraki \ngüçlü yukarı hareket bu zayıflamayı daha görünür hale getirebilir.",
+    "source_extract_summary": [
+      "Kritik bilgi, ikinci bacağın ne kadar ilerleyebildiğidir.",
+      "İlk bacak sonrası İkinci bacakta ne oluyor?",
+      "Okuma Kısa ara tepki İkinci bacak yeni uç üretip sürüyor Geri çekilme hâlâ güçlü olabilir Kısa ara tepki İkinci bacak yeni uç üretemiyor Karşı hareketin gücü azalıyor olabilir İlk bacak güçlü Beklenen ikinci bacak hiç gelmiyor Önceki beklenti sorgulanır İKINCI BACAK = OTOMATIK GIRIŞ DEĞILDIR Burada “second entry” fikrini mekanik bir işlem kuralı olarak değil, ikinci denemenin kalitesini okumak için kullanıyoruz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0067",
+    "source_id": "PTA-C2-2026",
+    "page": 67,
+    "chapter": 9,
+    "section": "9.7 — Beklenen ikinci bacak hiç gelmiyorsa",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n67 \n \nŞekil 9.6 — İki aşağı bacak tamamlanıyor; ikinci bacak temiz yeni dip üretemiyor. Küçük çift dip \nbölgesinden sonra gelen daha yüksek dip, satıcıların sonraki testte daha az ilerleyebildiğini gösteriyor. \nParça Tek başına söylediği Birlikte oluştuğunda ek bilgi \nİki aşağı bacak Geri çekilme birden fazla itiş yaptı İkinci bacağın kalitesi karşılaştırılabilir \nKüçük çift dip Yeni dip üretimi zorlanıyor Aynı bölgedeki başarısızlık tekrarlanıyor \nDaha yüksek dip Sonraki test daha yukarıda kalıyor Satıcılar önceki dip alanına bile ulaşamıyor \nGüçlü yukarı tepki Alıcılar mesafe kazanıyor Zayıflamaya karşı yönlü momentum ekleniyor \n \n9.7 — Beklenen ikinci bacak hiç gelmiyorsa \nİkinci deneme analizinin daha güçlü kullanımlarından biri, beklenen hareketin hiç \noluşmamasını bilgi olarak kabul etmektir. Kaynakta büyük bir satış hareketi, normalde ikinci bir \naşağı bacak beklentisi yaratabilir. Fakat fiyat bu ikinci bacağı üretmek yerine güçlü yükseliş \nmumlarıyla kapanmaya başlarsa, sorun yalnız “yükseliş geldi” değildir; önceki satışın yaratması \ngereken devam ortaya çıkmamıştır. \nBu yaklaşım fiyatı beklentiyle karşılaştırır: “Bu kadar güçlü ilk hareketten sonra ne olması \nbeklenirdi?” Eğer beklenen devam oluşmuyorsa ve karşı taraf giderek daha güçlü davranıyorsa, \nönceki yönün avantajı sorgulanır. Özellikle birçok piyasa katılımcısı ikinci bacağı bekliyorsa, \ngerçekleşmeyen devam önceki pozisyonları tuzağa çevirebilir.",
+    "source_extract_summary": [
+      "Küçük çift dip bölgesinden sonra gelen daha yüksek dip, satıcıların sonraki testte daha az ilerleyebildiğini gösteriyor.",
+      "Parça Tek başına söylediği Birlikte oluştuğunda ek bilgi İki aşağı bacak Geri çekilme birden fazla itiş yaptı İkinci bacağın kalitesi karşılaştırılabilir Küçük çift dip Yeni dip üretimi zorlanıyor Aynı bölgedeki başarısızlık tekrarlanıyor Daha yüksek dip Sonraki test daha yukarıda kalıyor Satıcılar önceki dip alanına bile ulaşamıyor Güçlü yukarı tepki Alıcılar mesafe kazanıyor Zayıflamaya karşı yönlü momentum ekleniyor 9.7 — Beklenen ikinci bacak hiç gelmiyorsa İkinci deneme analizinin daha güçlü kullanımlarından biri, beklenen hareketin hiç oluşmamasını bilgi olarak kabul etmektir.",
+      "Kaynakta büyük bir satış hareketi, normalde ikinci bir aşağı bacak beklentisi yaratabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0097",
+    "source_id": "PTA-C2-2026",
+    "page": 97,
+    "chapter": 13,
+    "section": "13.6 — İkinci deneme ve beklenen yeni uç ne söylüyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n97 \n \nŞekil 13.5 — Solda seviye aşılmış olsa da fiyat yeni bölgede kalamıyor. Sağda dış kapanış, takip ve alanın \nkorunması birlikte görülüyor. Kırılımın kalitesi “geçti mi?” değil “orada kalabildi mi?” sorusuyla ölçülür. \n13.6 — İkinci deneme ve beklenen yeni uç ne söylüyor? \nİlk deneme çoğu zaman yanıltıcı olabilir. Bu nedenle ikinci deneme, fiyatın gerçekten ne kadar \ngücü kaldığını görmek için önemli bir karşılaştırma noktasıdır. Sağlıklı bir düşüş ikinci aşağı \nitişte yeni dip üretmeye devam edebilir. Fakat ikinci deneme önceki dip bölgesinde sıkışıyor, \nkısa süre kırıp hemen geri dönüyor veya hiç yeni dip üretemiyorsa beklenen ilerleme \ngerçekleşmemiştir. \nBurada “ikinci deneme oluştu” diye işlem kuralı kurmuyoruz. İlk ve ikinci hareketi \nkarşılaştırıyoruz: hangisi daha fazla mesafe aldı, hangisi daha hızlıydı, yeni uç oluştu mu, karşı \ntarafın tepkisi büyüdü mü? Beklenen ikinci bacak gelmiyorsa veya başarısız oluyorsa, \ngerçekleşmeyen hareket de bilgi haline gelir.",
+    "source_extract_summary": [
+      "Sağda dış kapanış, takip ve alanın korunması birlikte görülüyor.",
+      "Kırılımın kalitesi “geçti mi?” değil “orada kalabildi mi?” sorusuyla ölçülür.",
+      "13.6 — İkinci deneme ve beklenen yeni uç ne söylüyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"
+    ]
+  }
+]

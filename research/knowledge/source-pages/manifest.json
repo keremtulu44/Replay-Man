@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "ATK-TR-D1.0-2026-08",
+      "pdf_sha256": "7abc5e7e724ca8ff50920dbe25e8c3626872b247d5f6f3cb97a3970aeba34c3b",
+      "pages": 530,
+      "characters": 920670,
+      "jsonl": "research/knowledge/source-pages/ATK-TR-D1.0-2026-08.jsonl"
+    },
+    {
+      "source_id": "PTA-C1-2026",
+      "pdf_sha256": "769b5cb840e1ea1663032185ec1954f2f9587cbed795221c8ee950790616c1d5",
+      "pages": 139,
+      "characters": 186319,
+      "jsonl": "research/knowledge/source-pages/PTA-C1-2026.jsonl"
+    },
+    {
+      "source_id": "PTA-C2-2026",
+      "pdf_sha256": "f46df00409ba5ed9cdae7d187536afc72b7fc0ff5f2f13b7dfe73dd9716f2560",
+      "pages": 109,
+      "characters": 158552,
+      "jsonl": "research/knowledge/source-pages/PTA-C2-2026.jsonl"
+    }
+  ]
+}

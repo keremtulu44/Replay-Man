@@ -1,0 +1,149 @@
+[
+  {
+    "id": "PTA-C1-2026.p0066",
+    "page": 66,
+    "chapter": 11,
+    "section": "11.1 — POC ve değer alanı: hacim nerede yoğunlaştı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n66 \nseviyelerine yeniden dağıtır. \nBÖLÜM 11  \nVolume Profile: Hacim Hangi Fiyatlarda \nYoğunlaştı? \nKlasik hacim “ne zaman ne kadar aktivite vardı?” diye sorar. Volume Profile ise \nseçili aralıktaki hacmi fiyat seviyelerine dağıtarak “aktivite hangi fiyatlarda \nyoğunlaştı?” sorusunu cevaplar. \n  \n \nHIZLI ROL — Ana görev: seçtiğiniz aralıkta işlemlerin hangi fiyatlarda yoğunlaştığını \ngörmek. Tek başına yön, dönüş veya giriş zamanı söylemez. Ana risk: POC/HVN/LVN \nseviyelerini değişmez destek-dirence çevirmek ve seçilen aralığı sonradan fiyata uydurmak. İyi \neşleşme: fiyat yapısı + AVWAP + hareket gücü. \n11.1 — POC ve değer alanı: hacim nerede yoğunlaştı? \nTerim Tanım Yanlış yorum \nPOC Seçili profilde en fazla hacmin toplandığı fiyat satırı “Fiyat kesin buraya döner.” \nValue Area Seçilen hacim yüzdesini içeren fiyat bölgesi “Gerçek/adil değer budur.” \nVAH / VAL Value Area üst / alt sınırı “Kesin direnç / destek.” \nHVN Görece yüksek hacimli düğüm “Fiyat burada mutlaka döner.” \nLVN Görece düşük hacimli düğüm “Fiyat buradan kesin hızla geçer.”",
+    "source_extract_summary": [
+      "BÖLÜM 11 Volume Profile: Hacim Hangi Fiyatlarda Yoğunlaştı?",
+      "Klasik hacim “ne zaman ne kadar aktivite vardı?” diye sorar.",
+      "Volume Profile ise seçili aralıktaki hacmi fiyat seviyelerine dağıtarak “aktivite hangi fiyatlarda yoğunlaştı?” sorusunu cevaplar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Konum ve seviye yaşam döngüsü",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0067",
+    "page": 67,
+    "chapter": 11,
+    "section": "11.3 — Üç farklı profil türü: VRVP, FRVP ve AVP",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n67 \n \n \nŞekil 11.1 — Temsili Volume Profile anatomisi. POC en yüksek hacimli satırdır; VAH/VAL seçilen Value Area’nın \nsınırlarıdır. HVN/LVN yüksek ve düşük hacimli bölgeler olarak bağlama göre okunabilir. \n11.2 — %70 Value Area ne demektir? \nSık kullanılan %70 Value Area ayarı, seçili profil hacminin yaklaşık %70’ini kapsayan bölgeyi \nhedefler. Bu oran bir ayardır; “fiyatın burada kalma olasılığı %70” anlamına gelmez. \nSAYISAL ÖRNEK \nToplam hacim 1.500 birimse %70 Value Area hedefi 1.050 birimdir. Platform POC çevresindeki fiyat \nsatırlarını kendi yöntemiyle ekleyerek bu hacme ulaşır. Bu oran olasılık değil, hacim kapsama \nhedefidir. \n \nSATIR SAYISI / AYRINTI DÜZEYİ \nAynı fiyat aralığını az satıra bölmek profili kaba, daha çok satıra bölmek ayrıntılı gösterir. POC ve \ndüğümler değişebilir; daha yüksek çözünürlük otomatik olarak daha doğru değildir. \n \n11.3 — Üç farklı profil türü: VRVP, FRVP ve AVP \nAraç Analiz edilen aralık Ana risk \nVRVP — Visible Range Ekranda görünür kalan fiyat tarihi Yakınlaştırma/kaydırma profili \ndeğiştirir \nFRVP — Fixed Range Kullanıcının seçtiği başlangıç ve bitiş Aralığı sonuçtan sonra optimize \netmek",
+    "source_extract_summary": [
+      "POC en yüksek hacimli satırdır; VAH/VAL seçilen Value Area’nın sınırlarıdır.",
+      "HVN/LVN yüksek ve düşük hacimli bölgeler olarak bağlama göre okunabilir.",
+      "Sık kullanılan %70 Value Area ayarı, seçili profil hacminin yaklaşık %70’ini kapsayan bölgeyi hedefler."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0068",
+    "page": 68,
+    "chapter": 11,
+    "section": "11.4 — Profili yalnız seviyelerle değil, bütün dağılım şekliyle okuyun",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n68 \nAraç Analiz edilen aralık Ana risk \nAVP — Anchored Volume \nProfile \nSeçilmiş başlangıç noktasından ileri \ndoğru \nBaşlangıç noktası seçiminde \nsonradan bakarak seçme \n \nVisible Range Volume Profile (VRVP) yalnız ekranda görünen geçmişi hesaplar. Yakınlaştırma \nveya kaydırma aralığı değiştirirse profil de değişebilir; bu nedenle görünür pencere analiz \ngirdisinin bir parçasıdır. \n \nŞekil 11.2 — Aynı sentetik geçmişte tüm veri görünürken ve yalnız yakın dönem yakınlaştırıldığında hacim dağılımı \nfarklılaşır. VRVP’de ekran görünümü analiz girdisidir. \nPRATİK TEST \nVRVP’de grafiği biraz yakınlaştırıp veya kaydırınca POC/HVN belirgin biçimde değişiyorsa bunun \n“mutlak piyasa seviyesi” değil, görünür pencerenin ürettiği profil olduğunu unutmayın. \n \n11.4 — Profili yalnız seviyelerle değil, bütün dağılım şekliyle okuyun \nPOC, VAH, VAL, HVN ve LVN profilin tek tek parçalarını gösterir. Buna ek olarak hacmin \nseçilen fiyat aralığı boyunca nasıl dağıldığı da incelenebilir. Gerçek profiller kusursuz harf \nşekilleri oluşturmak zorunda değildir; amaç hacim geometrisinin genel karakterini görmektir. \nProfil şekli Hacmin ağırlığı Genel yorum Tek başına söylemez \nD biçimli Orta bölgede Daha dengeli / merkezde yoğunlaşan dağılım Trend kesin bitti \nP biçimli Üst bölgede Hacim daha yüksek fiyatlarda yoğunlaşıyor Otomatik AL",
+    "source_extract_summary": [
+      "Araç Analiz edilen aralık Ana risk AVP — Anchored Volume Profile Seçilmiş başlangıç noktasından ileri doğru Başlangıç noktası seçiminde sonradan bakarak seçme Visible Range Volume Profile (VRVP) yalnız ekranda görünen geçmişi hesaplar.",
+      "Yakınlaştırma veya kaydırma aralığı değiştirirse profil de değişebilir; bu nedenle görünür pencere analiz girdisinin bir parçasıdır.",
+      "VRVP’de ekran görünümü analiz girdisidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0069",
+    "page": 69,
+    "chapter": 11,
+    "section": "11.6 — Profil renkleri gerçek alıcı/satıcı emir akışını göstermez",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n69 \nProfil şekli Hacmin ağırlığı Genel yorum Tek başına söylemez \nb biçimli Alt bölgede Hacim daha düşük fiyatlarda yoğunlaşıyor Otomatik SAT \nİnce Profil \nBelirgin bir merkez \noluşmamış \nYönlü hareket sırasında orta bölgede \ndaha az oyalanma görülebilir Hareketin yönü \n11.5 — FRVP aralığını nasıl seçmeli? \nFixed Range Volume Profile (FRVP) analiz aralığını kullanıcıya bırakır. Bu esneklik geçmişe \nuydurma riski yaratır; yatay sıkışma, belirgin hareket veya önemli olay gibi önceden \naçıklanabilen bir aralık seçme kuralı kullanın. \nAralık seçimi Değerlendirme \n“Sonuç güzel göründüğü için başlangıcı birkaç mum geri \naldım.” \nSonradan bakarak seçme / geçmişe aşırı uyum \nriski \n“Bu konsolidasyonun başı ve kırılım barı arasında \nprofiliyorum.” \nÖnceden tanımlı piyasa fazı \n“Son güçlü hareketin tamamını ölçüyorum.” Yapısal gerekçe var \n“Her analizde farklı noktayı deneyip en iyi POC’u \nseçiyorum.” \nYöntem zayıf \n \n11.6 — Profil renkleri gerçek alıcı/satıcı emir akışını göstermez \nVolume Profile’daki yükseliş/düşüş renkleri gerçek emir akışında hangi tarafın ne kadar agresif \nolduğunu göstermez. Renk sınıflamasından kesin alıcı/satıcı gücü çıkarımı yapmayın. \nKavram Ne anlatır? Ne anlatmaz? \nTradingView profil renk \nsınıflaması \nAlt zaman dilimi barlarının yönüne göre \nhacim sınıflaması \nGerçek alış/satış emirlerinin hangi \ntarafın başlattığı \nGerçek alış/satış tarafı emir akışı İşlemlerin alış veya satış tarafında \ngerçekleşmesini ayırmaya çalışır \nStandart VP bar rengi sınıflamasıyla \naynı değildir",
+    "source_extract_summary": [
+      "Profil şekli Hacmin ağırlığı Genel yorum Tek başına söylemez b biçimli Alt bölgede Hacim daha düşük fiyatlarda yoğunlaşıyor Otomatik SAT İnce Profil Belirgin bir merkez oluşmamış Yönlü hareket sırasında orta bölgede daha az oyalanma görülebilir Hareketin yönü 11.5 — FRVP aralığını nasıl seçmeli?",
+      "Fixed Range Volume Profile (FRVP) analiz aralığını kullanıcıya bırakır.",
+      "Bu esneklik geçmişe uydurma riski yaratır; yatay sıkışma, belirgin hareket veya önemli olay gibi önceden açıklanabilen bir aralık seçme kuralı kullanın."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0070",
+    "page": 70,
+    "chapter": 11,
+    "section": "11.8 — Değer alanının taşınması, örtüşmesi ve yeni bölgede kalıcılık",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n70 \nTEKNİK DÜZELTME \nStandart profil renk sınıflamasında hacim, alt zaman dilimi barının açılış-kapanış yönüne göre \ngruplandırılabilir. Bu veri gerçek piyasa emri tarafını göstermez; “alıcılar şu kadar agresifti” sonucu \nçıkarılamaz. \n \n11.7 — POC bir mıknatıs veya duvar değildir \nPOC, seçilen aralıkta en fazla hacmin toplandığı fiyat satırıdır. Geçmiş yoğunluk gelecekte \ndönüş veya duruş garantisi vermez; POC’u konum referansı olarak kullanıp fiyat davranışını \nayrıca okuyun. \n \nŞekil 11.3 — Fiyat POC çevresinden geçip trendine devam edebilir. POC konum bilgisidir; otomatik dönüş emri \ndeğildir. \nProfil seviyesi Daha iyi soru Zayıf soru \nPOC Fiyat burada kabul mü görüyor, hızla mı geçiyor? “POC’a geldi, döner mi?” \nHVN Bu yoğun işlem bölgesinde yapı nasıl davranıyor? “HVN kesin destek mi?” \nLVN Fiyat bu düşük hacimli bölgeyi nasıl geçiyor? “LVN’den kesin hızlanır mı?” \n \n11.8 — Değer alanının taşınması, örtüşmesi ve yeni bölgede kalıcılık \nVolume Profile yalnız “bugünkü VAH/VAL nerede?” sorusuyla okunmak zorunda değildir. \nArdışık dönemlerde Value Area’nın yukarı, aşağı veya aynı bölgede kalması da izlenebilir. \nValue Area’nın yukarı taşınması işlem yoğunluğunun daha yüksek fiyatlarda, aşağı taşınması \ndaha düşük fiyatlarda oluşmaya başladığını gösterir. Büyük ölçüde aynı bölgede kalması ise bu \nyer değiştirmenin yavaşladığını ve daha dengeli bir yapı oluştuğunu gösterebilir.",
+    "source_extract_summary": [
+      "TEKNİK DÜZELTME Standart profil renk sınıflamasında hacim, alt zaman dilimi barının açılış-kapanış yönüne göre gruplandırılabilir.",
+      "Bu veri gerçek piyasa emri tarafını göstermez; “alıcılar şu kadar agresifti” sonucu çıkarılamaz.",
+      "11.7 — POC bir mıknatıs veya duvar değildir POC, seçilen aralıkta en fazla hacmin toplandığı fiyat satırıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0071",
+    "page": 71,
+    "chapter": 11,
+    "section": "11.9 — AVWAP ile Anchored Volume Profile arasındaki fark",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n71 \nFiyat yönü ile Value Area’nın yönü ayrıca karşılaştırılabilir. Fiyat yeni düşükler üretirken Value \nArea da aşağı kayıyorsa hacmin yoğunlaştığı bölge de aşağı taşınıyordur. Fiyat hareket ederken \nValue Area veya POC aynı ölçüde taşınmıyorsa “fiyat nereye gitti?” ile “hacim nerede \nyoğunlaştı?” soruları farklı cevaplar verebilir. \nDeğer alanlarının örtüşmesi hareketin yavaşladığını gösterebilir \nArdışık Value Area’lar önce birbirinden belirgin biçimde uzaklaşıyor, sonra giderek daha fazla \nüst üste binmeye başlıyorsa değer alanının taşınma hızı yavaşlıyor olabilir. \nAz örtüşme ve belirgin yönlü kayma, hacmin yoğunlaştığı bölgenin taşındığını; artan örtüşme \nise yeni bölgenin önceki alandan uzaklaşmakta zorlandığını gösterebilir. \nYüksek örtüşme otomatik trend dönüşü değildir. Yalnız hacmin yoğunlaştığı bölgenin önceki \nkadar hızlı taşınmadığını gösterir. \nFiyatın yeni bir bölgeye gitmesi ile orada kalıcı işlem oluşması aynı şey değildir \nFiyat yeni bir bölgeye ulaşıp orada işlem görmeye devam ediyor, hacim oluşuyor ve Value Area \nile POC yeni bölgeye taşınıyorsa fiyatın bu bölgede kalıcılık sağladığına ilişkin daha fazla kanıt \noluşur. \nBuna karşılık fiyat yeni bölgeye yalnız kısa süre gider, hacim orada yoğunlaşmaz ve eski değer \nalanına geri dönerse ilk hareketin kalıcı olmadığı görülür. \nBu nedenle günün en yüksek veya en düşük fiyatı, değerin oluştuğu yerle aynı olmak zorunda \ndeğildir. Fitil veya uç fiyat kadar “hacim gerçekten nerede yerleşti?” sorusu da önemlidir. \nPOC’un dönemler arasındaki hareketi de aynı mantıkla izlenebilir. \n11.9 — AVWAP ile Anchored Volume Profile arasındaki fark \n \nŞekil 11.4 — Aynı başlangıç noktası kullanılabilir: AVWAP tek bir hacim ağırlıklı ortalama eğrisi üretir; AVP hacmi \nfiyat seviyelerine dağıtan profil üretir. \nAraç Çıktı Soru",
+    "source_extract_summary": [
+      "Fiyat yönü ile Value Area’nın yönü ayrıca karşılaştırılabilir.",
+      "Fiyat yeni düşükler üretirken Value Area da aşağı kayıyorsa hacmin yoğunlaştığı bölge de aşağı taşınıyordur.",
+      "Fiyat hareket ederken Value Area veya POC aynı ölçüde taşınmıyorsa “fiyat nereye gitti?” ile “hacim nerede yoğunlaştı?” soruları farklı cevaplar verebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Mum geometrisi ve davranış özellikleri",
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0072",
+    "page": 72,
+    "chapter": 11,
+    "section": "11.10 — Volume Profile için pratik karar akışı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n72 \nAraç Çıktı Soru \nAVWAP Tek hacim ağırlıklı ortalama çizgisi “Seçtiğim başlangıçtan beri hacim ağırlıklı \nortalama fiyat nerede?” \nAVP Fiyat seviyelerine yatay hacim dağılımı “Seçtiğim başlangıçtan beri hacim hangi \nfiyatlarda toplandı?” \n \nNEDEN İKİSİ BİRLİKTE KULLANILABİLİR? \nAVWAP, seçilen başlangıçtan sonraki hacim ağırlıklı ortalama fiyatı gösterir. AVP ise hacmin hangi \nfiyat seviyelerinde toplandığını gösterir. Aynı bölgeyi göstermeleri yararlı olabilir; bunu iki bağımsız \nkesin teyit saymayın. \n \n11.10 — Volume Profile için pratik karar akışı \nAdım Soru Amaç \n1. Yapı Hangi piyasa fazını analiz ediyorum? Yatay aralık/belirgin hareket/olay bölümünü \ngerekçelendir \n2. Araç VRVP mi FRVP mi AVP mi? Aralık mantığını doğru seç \n3. Profil POC/VAH/VAL/HVN/LVN nerede? Konum haritası çıkar \n4. Davranış Fiyat bu bölgelerde ne yapıyor? Kabul, reddedilme, kırılım ve yeniden testi \ngözle \n5. Giriş işareti Fiyat yapısı/hareket gücü teyidi var mı? Profil seviyesini işlem emrine çevirmeden \nönce doğrula \n6. Risk İşlem fikri nerede bozulur? ATR/yapı ile risk planı kur \n \nBÖLÜM SONUCU \nVolume Profile bir konum haritasıdır ve seçilen aralığa bağlıdır. POC/VAH/VAL/HVN/LVN \nseviyelerini otomatik dönüş emri değil, fiyat davranışının ayrıca okunacağı geçmiş hacim bölgeleri \nolarak kullanın.",
+    "source_extract_summary": [
+      "Araç Çıktı Soru AVWAP Tek hacim ağırlıklı ortalama çizgisi “Seçtiğim başlangıçtan beri hacim ağırlıklı ortalama fiyat nerede?” AVP Fiyat seviyelerine yatay hacim dağılımı “Seçtiğim başlangıçtan beri hacim hangi fiyatlarda toplandı?” NEDEN İKİSİ BİRLİKTE KULLANILABİLİR?",
+      "AVWAP, seçilen başlangıçtan sonraki hacim ağırlıklı ortalama fiyatı gösterir.",
+      "AVP ise hacmin hangi fiyat seviyelerinde toplandığını gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0073",
+    "page": 73,
+    "chapter": 11,
+    "section": "11.10 — Volume Profile için pratik karar akışı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n73 \nARA ÖZET — Hacim, VWAP ve Volume Profile: aynı veriden üç farklı soru \nAraç Ana soru Doğal rol En iyi \ntamamlayıcı \nHacim “Ne zaman ne kadar aktivite vardı?” Katılım Fiyat yapısı / kırılım \nVWAP / AVWAP “Hacim ağırlıklı ortalama fiyat nerede?” Konum / ortalama maliyet Fiyat yapısı / hareket \ngücü / ATR \nVolume Profile “Hacim hangi fiyatlarda toplandı?” Konum / kabul haritası Fiyat yapısı / \nAVWAP / hareket \ngücü \n \nÖRNEK KARAR ZİNCİRİ \nFiyat yapısı yükseliş yönlü → fiyat belirgin bir dipten başlatılmış AVWAP çevresine geri çekiliyor → \naynı bölgede anlamlı bir Volume Profile düğümü var → hareket gücü yeniden artıyor → giriş işareti \noluşuyor → ATR yapısal stopa gerektiğinde ek pay bırakmaya yardım ediyor. Her araç farklı bir \nsoruya cevap verir; “beş teyit” diye sayılmaz.",
+    "source_extract_summary": [
+      "ARA ÖZET — Hacim, VWAP ve Volume Profile: aynı veriden üç farklı soru Araç Ana soru Doğal rol En iyi tamamlayıcı Hacim “Ne zaman ne kadar aktivite vardı?” Katılım Fiyat yapısı / kırılım VWAP / AVWAP “Hacim ağırlıklı ortalama fiyat nerede?” Konum / ortalama maliyet Fiyat yapısı / hareket gücü / ATR Volume Profile “Hacim hangi fiyatlarda toplandı?” Konum / kabul haritası Fiyat yapısı / AVWAP / hareket gücü ÖRNEK KARAR ZİNCİRİ Fiyat yapısı yükseliş yönlü → fiyat belirgin bir dipten başlatılmış AVWAP çevresine geri çekiliyor → aynı bölgede anlamlı bir Volume Profile düğümü var → hareket gücü yeniden artıyor → giriş işareti oluşuyor → ATR yapısal stopa gerektiğinde ek pay bırakmaya yardım ediyor.",
+      "Her araç farklı bir soruya cevap verir; “beş teyit” diye sayılmaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  }
+]

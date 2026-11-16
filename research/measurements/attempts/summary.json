@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "events": 112790,
+  "assets": 125,
+  "series": 494,
+  "event_counts": {
+    "new_extreme_failure": 60400,
+    "new_extreme_success": 52390
+  },
+  "source_rule": "Cilt 2 Bölüm 9-10: ikinci deneme ve beklenen yeni uç"
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "METAL_GOLD",
+  "symbol": "GC=F",
+  "category": "metals",
+  "asset_type": "future",
+  "catalog_currency": "USD",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "64c351d7d06e3f4f8a5f5bdaf49fdd9a56050f63b69ea699ebbb0755fdb7476e"
+}

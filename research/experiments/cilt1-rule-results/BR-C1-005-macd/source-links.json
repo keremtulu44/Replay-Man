@@ -1,0 +1,176 @@
+[
+  {
+    "id": "PTA-C1-2026.p0028",
+    "page": 28,
+    "chapter": 5,
+    "section": "5.1 — MACD’nin üç parçası",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n28 \nBÖLÜM 5 \nMACD: Trend ve Hareket Gücü \nMACD’de çizgi isimlerini ezberlemek yerine şu basit fikri anlayın: kısa dönemli fiyat \nortalaması ile daha uzun dönemli ortalama arasındaki fark izlenir. Sütunlar \n(histogram) ise MACD çizgisi ile sinyal çizgisi arasındaki farkı gösterir; fiyatın ne \nkadar geniş dalgalandığını ölçmez. \n  \n \nHIZLI ROL — Ana görev: kısa ve uzun EMA arasındaki farkın açılıp kapanmasını izlemek; \nhareketin hızlanıp yavaşladığını görmek. Tek başına fiyat yapısını, hareket genişliğini veya \nkesin giriş zamanını söylemez. Ana risk: kesişimi erken uyarı sanmak ve çok sayıda \nortalamayla aynı bilgiyi tekrar etmek. İyi eşleşme: fiyat yapısı + ATR/Volume Profile. \n5.1 — MACD’nin üç parçası \nParça Temel hesap Ne anlatır? Ne anlatmaz? \nMACD çizgisi Hızlı EMA − yavaş EMA İki trend hızının ayrışması Doğrudan fiyat \nhareketliliği \nSinyal çizgisi MACD çizgisinin EMA’sı MACD’nin yumuşatılmış \nreferansı \nKesin giriş/çıkış \nMACD sütunları MACD − Sinyal İki çizgi arasındaki fark ATR / fiyat aralığı",
+    "source_extract_summary": [
+      "BÖLÜM 5 MACD: Trend ve Hareket Gücü MACD’de çizgi isimlerini ezberlemek yerine şu basit fikri anlayın: kısa dönemli fiyat ortalaması ile daha uzun dönemli ortalama arasındaki fark izlenir.",
+      "Sütunlar (histogram) ise MACD çizgisi ile sinyal çizgisi arasındaki farkı gösterir; fiyatın ne kadar geniş dalgalandığını ölçmez.",
+      "HIZLI ROL — Ana görev: kısa ve uzun EMA arasındaki farkın açılıp kapanmasını izlemek; hareketin hızlanıp yavaşladığını görmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0029",
+    "page": 29,
+    "chapter": 5,
+    "section": "5.3 — Sinyal çizgisi neden EMA’dır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n29 \n \nŞekil 5.1 — MACD fiyatın ayrı bir kopyası değildir. Üstte EMA 12/26; altta onların farkından oluşan MACD, onun \nyumuşatılmış sinyal çizgisi ve aradaki farkı gösteren histogram. \n5.2 — Formül işareti neden önemlidir? \nStandart hesap MACD = EMA(12) − EMA(26)’dır. Sırayı ters çevirmek küçük bir yazım farkı \ndeğildir; çizginin işaretini ve yorumunu tersine çevirir. \nSAYISAL ÖRNEK — İŞARET HATASI \nEMA(12)=110 ve EMA(26)=105 olsun. Doğru hesap: 110−105 = +5. Ters hesap: 105−110 = −5. Aynı \npiyasa verisi bir hesapta pozitif, diğerinde negatif görünür. Bu nedenle formül sırası kitabın teknik \ndoğruluğu açısından kritiktir. \n \nTEKNİK ANLAM \nMACD sıfırın üzerindeyse hızlı EMA yavaş EMA’nın üzerindedir; sıfırın altındaysa hızlı EMA \nalttadır. “Sıfır çizgisi” bu nedenle iki EMA’nın göreli konumuna ilişkin matematiksel referanstır, tek \nbaşına trend yapısı değildir. \n \n5.3 — Sinyal çizgisi neden EMA’dır? \nSinyal çizgisi, MACD’nin genellikle 9 periyotluk EMA’sıdır. Dokuz değeri toplayıp dokuza \nbölmek SMA hesabıdır; EMA ile aynı değildir. \nSAYISAL ÖRNEK — EMA GÜNCELLEMESİ \n9 periyot EMA için yumuşatma katsayısı α = 2/(9+1) = 0,20’dir. Önceki sinyal EMA değeri 3,0 ve \ngüncel MACD değeri 5,0 ise yeni sinyal yaklaşık 0,20×5,0 + 0,80×3,0 = 3,4 olur. Bu, son dokuz \ndeğeri basitçe toplayıp 9’a bölmekle aynı işlem değildir.",
+    "source_extract_summary": [
+      "Üstte EMA 12/26; altta onların farkından oluşan MACD, onun yumuşatılmış sinyal çizgisi ve aradaki farkı gösteren histogram.",
+      "5.2 — Formül işareti neden önemlidir?",
+      "Standart hesap MACD = EMA(12) − EMA(26)’dır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0030",
+    "page": 30,
+    "chapter": 5,
+    "section": "5.4 — MACD sütunları (histogram) aslında neyi gösterir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n30 \nNEDEN ÖNEMLİ? \nEMA son gözleme daha yüksek ağırlık verir. Sinyal çizgisinin hesap türünü değiştirirseniz kesişim \nzamanları ve MACD sütunları değerleri de değişebilir. Matematik değiştiğinde gösterge aynı gösterge \nolarak kalmaz. \n \n5.4 — MACD sütunları (histogram) aslında neyi gösterir? \nMACD sütunları = MACD çizgisi − sinyal çizgisidir. Sütunların büyümesi iki çizginin \nuzaklaştığını, küçülmesi yaklaştığını gösterir; bu hareket gücü değişimidir, fiyat hareketliliği \nölçümü değildir. \nSAYISAL ÖRNEK \nMACD=5,0 ve Sinyal=3,4 ise MACD sütunları=+1,6. Birkaç bar sonra MACD=4,0 ve Sinyal=3,7 ise \nMACD sütunları=+0,3 olur. Bu, iki çizginin birbirine yaklaştığını söyler. Bu iki sayıdan mumların \ngünlük aralığının 4 TL’den 1 TL’ye düştüğü sonucu çıkarılamaz; çünkü formülde yüksek-düşük farkı \nveya True Range yoktur. \n \nKRİTİK TEKNİK SORUN — MACD SÜTUNLARI ≠ FİYAT HAREKETLİLİĞİ \n“MACD sütunları çok küçük = düşük fiyat hareketliliği” çıkarımı teknik olarak doğru değildir. Küçük \nMACD sütunları düşük fiyat hareketliliğiyle aynı anda görülebilir, fakat matematiksel eşitlik değildir. \nKırılım sıkışması ölçülecekse ATR, Bollinger genişliği veya doğrudan fiyat aralığı gibi gerçek fiyat \nhareketliliği ölçümleri kullanılmalıdır.",
+    "source_extract_summary": [
+      "EMA son gözleme daha yüksek ağırlık verir.",
+      "Sinyal çizgisinin hesap türünü değiştirirseniz kesişim zamanları ve MACD sütunları değerleri de değişebilir.",
+      "Matematik değiştiğinde gösterge aynı gösterge olarak kalmaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Veri sözleşmesi ve mum özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0031",
+    "page": 31,
+    "chapter": 5,
+    "section": "5.6 — MACD / Sinyal kesişimi ne zaman anlamlı, ne zaman gürültü?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n31 \n5.5 — Histogramı dört ayrı hareket durumu olarak okuyun \nMACD sütunlarında yalnız pozitif veya negatif işaret değil, sütunların büyüyüp küçülmesi de \nbilgi taşır. \nHistogram durumu Çizgiler arasındaki fark Daha doğru okuma \nPozitif + büyüyor Pozitif fark genişliyor Yukarı yönlü hareket gücü artıyor \nPozitif + küçülüyor Pozitif fark daralıyor Yukarı yönlü hareket gücü yavaşlıyor \nNegatif + büyüyor Negatif fark genişliyor Aşağı yönlü hareket gücü artıyor \nNegatif + küçülüyor Negatif fark daralıyor Aşağı yönlü hareket gücü yavaşlıyor \nBu nedenle histogramın sıfır çizgisini geçmesini beklemeden hareket gücündeki hızlanma veya \nyavaşlama görülebilir. Fakat histogramın küçülmesi fiyatın mutlaka tersine döneceği anlamına \ngelmez; sonuç dönüş de olabilir, yataylaşma da. \n5.6 — MACD / Sinyal kesişimi ne zaman anlamlı, ne zaman gürültü? \nMACD/sinyal kesişimi fiyat ve ortalamalardan türetilmiş, fiyata sonradan tepki veren bir \nolaydır. Trend içinde yararlı olabilir; yatay piyasada ise çok sayıda kısa ömürlü kesişim \nüretebilir. \n \nŞekil 5.2 — Sentetik yatay piyasa örneği: fiyat belirgin trend üretmeden MACD ve sinyal çizgileri tekrar tekrar \nkesişebilir. \nPiyasa bağlamı Kesişimin yorumu Ana risk \nBelirgin trend Hareketin trend yönünde yeniden güçlenmesine \nyardımcı işaret \nGeç kalmak",
+    "source_extract_summary": [
+      "5.5 — Histogramı dört ayrı hareket durumu olarak okuyun MACD sütunlarında yalnız pozitif veya negatif işaret değil, sütunların büyüyüp küçülmesi de bilgi taşır.",
+      "Histogram durumu Çizgiler arasındaki fark Daha doğru okuma Pozitif + büyüyor Pozitif fark genişliyor Yukarı yönlü hareket gücü artıyor Pozitif + küçülüyor Pozitif fark daralıyor Yukarı yönlü hareket gücü yavaşlıyor Negatif + büyüyor Negatif fark genişliyor Aşağı yönlü hareket gücü artıyor Negatif + küçülüyor Negatif fark daralıyor Aşağı yönlü hareket gücü yavaşlıyor Bu nedenle histogramın sıfır çizgisini geçmesini beklemeden hareket gücündeki hızlanma veya yavaşlama görülebilir.",
+      "Fakat histogramın küçülmesi fiyatın mutlaka tersine döneceği anlamına gelmez; sonuç dönüş de olabilir, yataylaşma da."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0032",
+    "page": 32,
+    "chapter": 5,
+    "section": "5.9 — Uyumsuzluk: hareket gücü zayıflıyor, kesin zaman vermiyor",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n32 \nPiyasa bağlamı Kesişimin yorumu Ana risk \nYatay piyasa Çok sayıda kısa ömürlü kesişim Sık yanlış sinyal / aşırı işlem \nYapısal seviye \nyakınında \nFiyat davranışına hareket gücü katmanı eklemek Kesişimi fiyat teyidinin yerine \nkoymak \nÜst zaman dilimi \nfiltresi \nOperasyonel yön/hareket gücü filtresi Zaman dilimi seçimine aşırı \nbağımlılık \n \n5.7 — Sıfır çizgisinin doğru anlamı \nMACD’nin sıfıra gelmesi hızlı ve yavaş EMA’nın birbirine yaklaşması anlamına gelir. MACD \nsıfırdan yukarı geçtiğinde hızlı EMA yavaş EMA’nın üzerine geçmiş olur. Fakat bu, fiyatın \notomatik olarak yeni bir yapısal yükseliş trendine geçtiğini kanıtlamaz; çünkü iki EMA da \ngeçmiş fiyatlardan türetilir ve yatay piyasada sıfır çizgisi etrafında sık gidip gelebilir. \nKÜÇÜK ÖRNEK \nEMA12=100,3 ve EMA26=100,5 ise MACD=−0,2. Birkaç bar sonra EMA12=101,0 ve \nEMA26=100,8 ise MACD=+0,2. Sıfır geçişi iki ortalamanın sırasının değiştiğini gösterir; daha yüksek \ntepe/dip yapısı oluştuğunu tek başına göstermez. \n \n5.8 — Sıfır çizgisine geri çekilme ile sıfır çizgisi geçişi aynı şey değildir \nYükseliş bağlamında MACD pozitif bölgede bulunurken fiyat geri çekildiğinde MACD sıfır \nçizgisine yaklaşabilir. Bu, hızlı ve yavaş EMA arasındaki farkın daraldığını gösterir. MACD \nsıfıra yaklaşmasına rağmen fiyat yapısı korunuyor ve gösterge yeniden pozitif yönde ayrışıyorsa \ngeri çekilme sonrasında hareket gücünün yeniden oluştuğu görülebilir. \nDüşüş bağlamında bunun tersi izlenir: MACD negatif bölgede kalırken tepki yükselişi sırasında \nsıfıra yaklaşabilir ve daha sonra yeniden negatif yönde ayrışabilir. \nsıfır çizgisi geçişi (Zero-Line Crossover) sıfırın diğer tarafına geçiştir. sıfır çizgisine geri \nçekilme (Zero-Line Pullback) ise mevcut trend bağlamında sıfıra yaklaşma ve yeniden aynı \ntarafa uzaklaşmadır. İkisi aynı olay değildir ve hiçbiri tek başına giriş nedeni değildir. \n5.9 — Uyumsuzluk: hareket gücü zayıflıyor, kesin zaman vermiyor \nFiyat daha yüksek tepe yaparken MACD daha düşük tepe oluşturuyorsa hareket gücü teyidi \nzayıflıyor olabilir. Bu bir risk uyarısıdır; uyumsuzluk tek başına dönüş zamanını vermez.",
+    "source_extract_summary": [
+      "Piyasa bağlamı Kesişimin yorumu Ana risk Yatay piyasa Çok sayıda kısa ömürlü kesişim Sık yanlış sinyal / aşırı işlem Yapısal seviye yakınında Fiyat davranışına hareket gücü katmanı eklemek Kesişimi fiyat teyidinin yerine koymak Üst zaman dilimi filtresi Operasyonel yön/hareket gücü filtresi Zaman dilimi seçimine aşırı bağımlılık 5.7 — Sıfır çizgisinin doğru anlamı MACD’nin sıfıra gelmesi hızlı ve yavaş EMA’nın birbirine yaklaşması anlamına gelir.",
+      "MACD sıfırdan yukarı geçtiğinde hızlı EMA yavaş EMA’nın üzerine geçmiş olur.",
+      "Fakat bu, fiyatın otomatik olarak yeni bir yapısal yükseliş trendine geçtiğini kanıtlamaz; çünkü iki EMA da geçmiş fiyatlardan türetilir ve yatay piyasada sıfır çizgisi etrafında sık gidip gelebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0033",
+    "page": 33,
+    "chapter": 5,
+    "section": "5.10 — MACD uyumsuzluğunda hız ve fiyat yapısı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n33 \n \nŞekil 5.3 — Şematik uyumsuzluk: fiyat daha yüksek tepe oluştururken MACD-benzeri hareket gücü daha düşük tepe \nyapıyor. Bu uyuşmazlık dönüşün tam zamanını vermez. \nDOĞRU SIRALAMA \nUyumsuzluk → “hareket gücü teyidi zayıfladı” uyarısı. Ardından fiyat yapısı / önemli seviye / kırılım \nveya yeniden test gibi doğrudan fiyat teyidi aranır. Uyumsuzluğun görevi alarmdır; giriş işaretinin \nyerine geçmez. \n \n5.10 — MACD uyumsuzluğunda hız ve fiyat yapısı \nMACD uçlarının büyüklüğü yalnız fiyatın nereden nereye gittiğine bağlı değildir. Hareketin ne \nkadar hızlı gerçekleştiği ve aynı mesafenin kaç barda kat edildiği de MACD’nin ürettiği tepe \nveya dibi etkiler. \nİlk fiyat dalgası sert ve hızlıysa MACD büyük bir uç oluşturabilir. Fiyat daha sonra aynı yönde \nyeni bir tepe veya dip üretse bile ikinci dalga daha yavaş ilerliyorsa MACD ilk ucu \ntekrarlamayabilir. Böylece uyumsuzluk oluşur; ancak bunun anlamı “trend döndü” değil, ikinci \ndalganın ilk dalgaya göre daha düşük hareket gücü taşıdığıdır. \nBu nedenle uyumsuzluk birçok bar boyunca devam ederken fiyat trend yönünde ilerlemeyi \nsürdürebilir. Tersi de mümkündür: fiyat gerçekten tersine dönebilir fakat öncesinde belirgin \nMACD uyumsuzluğu oluşmayabilir. \nTEKNİK AYRIM \nMACD uyumsuzluğu dönüş için ne zorunlu ne de yeterli koşuldur. Belirgin fiyat tepe/dipleri ile \nbelirgin MACD tepe/dipleri arasındaki açık fark, neredeyse eşit noktaları zorlayarak \n“uyumsuzluk” ilan etmekten daha temiz bir okumadır. \nMACD çizgisi ile histogramdaki uyumsuzluk aynı şey değildir \nFiyat hem MACD çizgisiyle hem de histogramla ayrı ayrı karşılaştırılabilir. MACD çizgisi hızlı \nEMA ile yavaş EMA arasındaki farkı, histogram ise MACD çizgisi ile sinyal çizgisi arasındaki",
+    "source_extract_summary": [
+      "Bu uyuşmazlık dönüşün tam zamanını vermez.",
+      "DOĞRU SIRALAMA Uyumsuzluk → “hareket gücü teyidi zayıfladı” uyarısı.",
+      "Ardından fiyat yapısı / önemli seviye / kırılım veya yeniden test gibi doğrudan fiyat teyidi aranır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0034",
+    "page": 34,
+    "chapter": 5,
+    "section": "5.12 — MACD hangi araçlarla tamamlanır, hangileriyle tekrar eder?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n34 \nfarkı gösterir. Aynı hesap zincirine ait olsalar da uyumsuzluk iki görünümde aynı anda oluşmak \nzorunda değildir. \nHem MACD çizgisinde hem histogramda aynı bölgede uyumsuzluk görülmesi daha seçici bir \ngözlem olabilir; ancak bunu iki bağımsız teyit saymak doğru değildir. İkisi de aynı MACD \nhesap zincirinden türetilir. \nGizli yükseliş yönlü yapıda fiyat daha yüksek dip, MACD daha düşük dip oluşturur. Gizli düşüş \nyönlü yapıda fiyat daha düşük tepe, MACD daha yüksek tepe oluşturur. Bu yapılar trend \niçindeki geri çekilmenin fiyat yapısını bozup bozmadığıyla birlikte okunmalıdır. \nGeri çekilmede histogramın yeniden güçlenmesini izlemek \nYükseliş trendindeki geri çekilmede negatif histogram sütunlarının giderek küçülmesi, aşağı \nyönlü hareket gücünün zayıfladığını gösterebilir. Sonrasında histogram yeniden yukarı yönde \ngenişlemeye başlarsa hareket gücü trend yönünde yeniden oluşuyor olabilir. \nBu okuma tek başına giriş sinyali değildir. Fiyatın geri çekilme yapısının korunması ve yeniden \ntrend yönünde davranması ayrıca aranmalıdır. \n5.11 — “MACD zayıfsa al” neden eksik bir cümledir? \n“Trend yükseliyorsa zayıf MACD alım fırsatıdır” cümlesi, trendin hâlâ geçerli olduğunu \nvarsayar. Yapı bozulmuşsa zayıf MACD geri çekilme değil yeni düşüşün parçası olabilir. \nGİZLİ VARSAYIMI AÇIK HALE GETİR \n“MACD zayıf → al” değil; “Bağımsız olarak doğrulanmış yükseliş bağlamında hareket gücü geri \nçekildi → fiyat yapısı yeniden güçlenirse değerlendirilir.” Aynı gösterge, bağlam değişince tamamen \nfarklı anlama gelebilir. \n \n5.12 — MACD hangi araçlarla tamamlanır, hangileriyle tekrar eder? \nKombinasyon Rol dağılımı Değerlendirme \nMACD + Fiyat yapısı Hareket gücü/trend bilgisi + doğrudan fiyat \nyapısı \nGüçlü tamamlayıcılık \nMACD + ATR Hareket gücü + gerçek fiyat hareketliliği/risk Farklı bilgi sınıfları \nMACD + Volume Profile Hareket gücü + fiyat seviyesindeki \nhacim/konum \nTamamlayıcı \nMACD + çoklu MA kesişim MA farkı + çok sayıda MA trend sinyali Yüksek bilgi tekrarı \nMACD + Supertrend + 200 \nEMA \nTrend/hareket gücü + ATR-tabanlı trend + \ntrend filtresi \nGereksiz teyit hissi",
+    "source_extract_summary": [
+      "Aynı hesap zincirine ait olsalar da uyumsuzluk iki görünümde aynı anda oluşmak zorunda değildir.",
+      "Hem MACD çizgisinde hem histogramda aynı bölgede uyumsuzluk görülmesi daha seçici bir gözlem olabilir; ancak bunu iki bağımsız teyit saymak doğru değildir.",
+      "İkisi de aynı MACD hesap zincirinden türetilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0035",
+    "page": 35,
+    "chapter": 5,
+    "section": "5.12 — MACD hangi araçlarla tamamlanır, hangileriyle tekrar eder?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n35 \nMACD NE SÖYLEMEZ? \nKesin dönüş noktası, doğrudan fiyat hareketliliği, kesin kırılım yönü, tek başına beklenen başarı \nolasılığı veya uyumsuzluk sonrası dönüş zamanı. MACD’nin en güçlü rolü hareket gücünün \nhızlanması/yavaşlaması ve iki EMA hızının ayrışmasını görünür kılmaktır.",
+    "source_extract_summary": [
+      "Kesin dönüş noktası, doğrudan fiyat hareketliliği, kesin kırılım yönü, tek başına beklenen başarı olasılığı veya uyumsuzluk sonrası dönüş zamanı.",
+      "MACD’nin en güçlü rolü hareket gücünün hızlanması/yavaşlaması ve iki EMA hızının ayrışmasını görünür kılmaktır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0036",
+    "page": 36,
+    "chapter": 5,
+    "section": "5.13 — MACD için pratik karar akışı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n36 \n5.13 — MACD için pratik karar akışı \nAdım Soru MACD’nin rolü \n1. Bağlam Trend mi, yatay piyasa mı? Yapı ne söylüyor? Tek başına karar verme \n2. Konum Fiyat önemli yapı/konum bölgesinde mi? MACD konum aracı değildir \n3. Hareket \ngücü \nMACD/Sinyal/MACD sütunları nasıl değişiyor? Ana görev \n4. Giriş \nişareti \nFiyat gerçekten kırılım/yeniden test/yapı teyidi verdi mi? Kesişim destekleyebilir \n5. Risk Fiyat hareketliliği ve stop mesafesi uygun mu? ATR gibi ayrı araç kullan \n \nBÖLÜM SONUCU \nMACD’yi üç ayrı sinyal gibi değil tek matematik zinciri gibi okuyun: EMA12−EMA26 → MACD; \nMACD’nin EMA’sı → Sinyal; MACD−Sinyal → MACD sütunları. Her adım bir önceki hesaptan \ntüretilir. Bu yüzden MACD özellikle hareket gücü/trend davranışını düzenler; fiyat yapısı ve fiyat \nhareketliliğinin yerine geçmez.",
+    "source_extract_summary": [
+      "5.13 — MACD için pratik karar akışı Adım Soru MACD’nin rolü 1.",
+      "Konum Fiyat önemli yapı/konum bölgesinde mi?",
+      "Hareket gücü MACD/Sinyal/MACD sütunları nasıl değişiyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  }
+]

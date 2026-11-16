@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "principle": "No performance claim is produced without the required point-in-time data.",
+  "rates_bonds": {
+    "status": "external_data_required",
+    "required": ["instrument_id", "issuer", "currency", "maturity", "coupon", "clean_price", "yield", "duration", "timestamp_utc", "publication_known_at"],
+    "tests_after_data": ["yield_curve_slope", "rate_change_regime", "equity_event_interaction"],
+    "anti_leakage": "macro release values become visible only at publication_known_at"
+  },
+  "fundamentals": {
+    "status": "external_data_required",
+    "required": ["asset_id", "period_end", "filing_date", "known_at", "revenue", "ebit", "net_income", "operating_cash_flow", "capex", "cash", "debt", "shares", "currency", "restatement_id"],
+    "derived": ["growth", "margin", "free_cash_flow", "net_debt", "per_share_values", "valuation_multiples"],
+    "anti_leakage": "financial values join by filing known_at, never by period_end alone"
+  },
+  "crypto_derivatives": {
+    "status": "external_data_required",
+    "required": ["venue", "instrument", "spot_or_perpetual", "timestamp_utc", "funding_rate", "open_interest", "mark_price", "index_price", "liquidations", "volume_definition"],
+    "optional_onchain": ["chain", "block_time", "metric", "provider", "revision_policy"],
+    "anti_leakage": "venue and instrument are never pooled without explicit mapping"
+  },
+  "options": {
+    "status": "external_data_required",
+    "required": ["underlying", "contract_id", "call_put", "strike", "expiry", "timestamp_utc", "bid", "ask", "last", "volume", "open_interest", "implied_volatility", "delta", "gamma", "theta", "vega", "rates", "dividends"],
+    "tests_after_data": ["payoff_math", "iv_rank", "skew", "term_structure", "hedge_cost"],
+    "anti_leakage": "chain snapshot and Greeks must be point-in-time"
+  },
+  "arbitrage_execution": {
+    "status": "external_data_required",
+    "required": ["canonical_asset", "venue", "product_type", "pair", "network", "timestamp_utc", "bid", "ask", "bid_size", "ask_size", "fees", "withdrawal_fee", "deposit_status", "withdrawal_status", "transfer_latency", "funding_or_borrow_cost"],
+    "identity_gate": ["same_asset", "same_settlement", "same_network_or_bridge", "same_product_exposure"],
+    "net_edge": "sell_bid*(1-sell_fee)-buy_ask*(1+buy_fee)-transfer_cost-borrow_or_funding_cost-slippage",
+    "anti_leakage": "quotes must be synchronized and executable size must be respected"
+  }
+}

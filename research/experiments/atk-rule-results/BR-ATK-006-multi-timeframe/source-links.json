@@ -1,0 +1,436 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0192",
+    "page": 192,
+    "chapter": 10,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz\nÜst zaman bağlamı, orta zaman setup’ı, alt zaman tetik ve çatışma yönetimi",
+    "source_extract_summary": [
+      "BÖLÜM 10 Çoklu Zaman Dilimi ve Top-Down Analiz Üst zaman bağlamı, orta zaman setup’ı, alt zaman tetik ve çatışma yönetimi"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0193",
+    "page": 193,
+    "chapter": 10,
+    "section": "10.1 — Tek Grafik Neden Yetmez?",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  178\nBu Bölümün Amacı\nAynı grafiğe yakınlaştığımda başka, uzaklaştığımda başka bir trend görebilirim. Bu çelişki değildir; \npiyasanın fractal yapısının sonucudur. Bu bölümde farklı zaman dilimlerini birbirleriyle yarıştırmak \nyerine görev dağılımı yaparım: üst zaman bana yönü ve risk sınırını, orta zaman işlem fırsatını, alt \nzaman ise giriş zamanlamasını verir.\nBÖLÜM SONUNDA\nİşlem stilinize uygun iki veya üç zaman dilimi seçebilecek, üst–orta–alt zaman görevlerini \nayırabilecek, zaman dilimi çatışmalarını pullback/reversal/range bağlamında yorumlayabilecek ve \ntek bir top-down senaryoyu grafikler arasında bozulmadan taşıyabileceksiniz.\nUygulama Görseli 10.1 – XAGTRYG haftalık–günlük–4 saatlik grafiklerinde aynı hareketin üç ölçekte \ngösterildiği bölüm açılış grafiği. Temsilî eğitim şeması.\n10.1 Tek Grafik Neden Yetmez?\nTek grafik fiyatın yalnız bir ölçeğini gösterir. Günlük grafikte güçlü yükseliş impulse’u olarak gördüğüm \nhareket, 1 saatlik grafikte birden fazla küçük trend, range ve kırılım içerebilir. Multi-timeframe analysis \n— MTF (aynı piyasayı farklı zaman ölçeklerinde inceleyip tek senaryo kurma), büyük resmi \nkaybetmeden giriş zamanlamasını ayrıntılandırır.\nTek grafik sorunu MTF’nin sağladığı bilgi Yanlış kullanım riski\nYönü görürüm, giriş geç kalır. Alt zaman fiyat davranışı ve \ntetik.\nAşırı küçük TF’de gürültüye \ngirmek.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Aynı grafiğe yakınlaştığımda başka, uzaklaştığımda başka bir trend görebilirim.",
+      "Bu çelişki değildir; piyasanın fractal yapısının sonucudur.",
+      "Bu bölümde farklı zaman dilimlerini birbirleriyle yarıştırmak yerine görev dağılımı yaparım: üst zaman bana yönü ve risk sınırını, orta zaman işlem fırsatını, alt zaman ise giriş zamanlamasını verir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0194",
+    "page": 194,
+    "chapter": 10,
+    "section": "10.2 — Fractal Yapı ve İç İçe Trendler",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  179\nTek grafik sorunu MTF’nin sağladığı bilgi Yanlış kullanım riski\nGiriş görürüm, major \nhedef/engel görünmez.\nÜst zaman zone ve structure. Alt zaman sinyalini ana trend \nsanmak.\nStop gereğinden geniş kalır. Setup içindeki anlamlı mikro \ninvalidation.\nStopu piyasa gürültüsünün \niçine sıkıştırmak.\nHer pullback dönüş gibi \ngörünür.\nMajor–minor structure ayrımı. HTF protected swing’i kontrol \netmemek.\nTablo 10.1 – Tek grafik ile top-down analiz farkı\nEKRANDA NE ARIYORUM?\n• Grafiği önce uzaklaştırıp ana swing dizisini görün.\n• Aynı son hareketi bir alt zaman diliminde açın.\n• Alt grafikte oluşan küçük trendin üst grafikte hangi mumun içinde kaldığını belirleyin.\n• Yön, setup ve trigger sorularını ayrı yazın.\n• Bir zaman diliminde cevaplanmayan soruyu başka bir araçla değil, doğru ölçekle çözün.\nDOĞRU BILINEN YANLIŞ\nMit: Daha fazla zaman dilimi açarsam işlem doğruluğum sürekli artar.\nGerçeklik: Her yeni grafik yeni bilgi kadar yeni gürültü ve çelişki de getirir. Çoğu trader için \ngörevleri net iki zaman dilimi, görevleri belirsiz beş grafikten daha kullanışlıdır.\n10.2 Fractal Yapı ve İç İçe Trendler\nFractal structure (aynı swing ve trend mantığının farklı ölçeklerde tekrar etmesi), bir günlük mumun \niçinde 4 saatlik ve 1 saatlik birçok hareket bulunması demektir. Üst zaman uptrend içindeyken alt \nzaman downtrend görmek normaldir; bu çoğu zaman üst zaman pullback’inin iç yapısıdır.",
+    "source_extract_summary": [
+      "Tek grafik sorunu MTF’nin sağladığı bilgi Yanlış kullanım riski Giriş görürüm, major hedef/engel görünmez.",
+      "Alt zaman sinyalini ana trend sanmak.",
+      "Setup içindeki anlamlı mikro invalidation."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0195",
+    "page": 195,
+    "chapter": 10,
+    "section": "10.2 — Fractal Yapı ve İç İçe Trendler",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  180\nŞekil 10.1 – Aynı piyasanın üç zaman dilimindeki farklı görevleri\nÜst zaman görünümü Alt zaman görünümü İlk yorum\nUptrend impulse Alt TF uptrend Devam hareketinin iç yapısı.\nUptrend pullback Alt TF downtrend Normal geri çekilme adayı.\nUptrend major low testi Alt TF range/transition Karar ve dönüş riski alanı.\nRange Alt TF trend Range sınırları arasında geçici \nyön.\nDowntrend pullback Alt TF uptrend Counter-trend rally; ana yön \nhenüz değişmedi.\nTablo 10.2 – Fractal yapıdaki görünüm farkları\nEKRANDA NE ARIYORUM?\n• Her zaman diliminde major ve minor swing’leri ayrı işaretleyin.\n• Alt zaman trendinin üst zamanda impulse mu pullback mi olduğunu yazın.\n• Üst zaman protected high/low seviyesini görünür tutun.\n• Alt zaman CHoCH’u önce mikro değişim olarak etiketleyin.\n• Ana dönüş demeden önce üst zaman yapısal sonucu bekleyin.\nDOĞRU BILINEN YANLIŞ\nMit: Alt zaman downtrend gördüysem üst zaman uptrend artık bitmiştir.\nGerçeklik: Alt zaman downtrend, üst zaman pullback’inin normal iç yapısı olabilir. Ana trendin \nbozulması için üst zamanın koruduğu swing ve kabul davranışı değerlendirilmelidir.",
+    "source_extract_summary": [
+      "Uptrend pullback Alt TF downtrend Normal geri çekilme adayı.",
+      "Uptrend major low testi Alt TF range/transition Karar ve dönüş riski alanı.",
+      "Range Alt TF trend Range sınırları arasında geçici yön."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0196",
+    "page": 196,
+    "chapter": 10,
+    "section": "10.3 — Üst–Orta–Alt Zaman Görevleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  181\n10.3 Üst–Orta–Alt Zaman Görevleri\nTop-down analysis (analizi büyük ölçekten küçük ölçeğe sıralama) üç grafiğe aynı şeyi yaptırmaz. \nHigher timeframe — HTF (ana yönü, major bölgeyi ve senaryo geçersizliğini belirlediğim üst ölçek), \nmedium timeframe — MTF/ara zaman (işlem setup’ını kurduğum ölçek) ve lower timeframe — LTF \n(giriş tetikleyicisini ve hassas zamanlamayı izlediğim alt ölçek) ayrı soruları yanıtlar.\nŞekil 10.2 – Top-down görev piramidi\nGörev Üst zaman Orta zaman Alt zaman\nPiyasa hâli Trend, range, geçiş. Setup içindeki kısa \nrejim.\nAnlık momentum ve \nmicro structure.\nSeviyeler Major zone, external \nliquidity.\nİşlem bölgesi, pattern \nsınırı, FVG.\nTrigger low/high ve \ngiriş invalidation.\nSinyal Bias/koşul. Setup adayı ve \nhazırlık.\nClose, retest, micro \nBOS/CHoCH, \nmomentum.\nRisk Senaryonun büyük \ngeçersizliği.\nSetup invalidation \nalanı.\nUygulama stopu için \nhassas referans.\nHedef Major swing/zone. Ara hedef ve \nmeasured move.\nİlk reaksiyon ve trade \nmanagement bilgisi.",
+    "source_extract_summary": [
+      "10.3 Üst–Orta–Alt Zaman Görevleri Top-down analysis (analizi büyük ölçekten küçük ölçeğe sıralama) üç grafiğe aynı şeyi yaptırmaz.",
+      "Higher timeframe — HTF (ana yönü, major bölgeyi ve senaryo geçersizliğini belirlediğim üst ölçek), medium timeframe — MTF/ara zaman (işlem setup’ını kurduğum ölçek) ve lower timeframe — LTF (giriş tetikleyicisini ve hassas zamanlamayı izlediğim alt ölçek) ayrı soruları yanıtlar.",
+      "Seviyeler Major zone, external liquidity."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0197",
+    "page": 197,
+    "chapter": 10,
+    "section": "10.4 — İşlem Stilinden Zaman Dilimine",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  182\nTablo 10.3 – Zaman dilimi görev ayrımı\nEYLEM DILI\nÜst zamanda “hangi yönde ve nerede işlem arayacağım?” sorusunu, orta zamanda “hangi setup \nhazırlanıyor?” sorusunu, alt zamanda “hangi fiyat olayı gerçekleşirse işlem aktif olur?” sorusunu \nyanıtlarım.\n10.4 İşlem Stilinden Zaman Dilimine\nZaman dilimini grafikte güzel göründüğü için değil, pozisyonu ne kadar tutacağım ve ekran başında ne \nkadar kalabileceğim için seçerim. Ana işlem zaman dilimi, kararlarımı ve işlem günlüğümü tuttuğum \nölçektir. Üst ve alt zamanlar bunun çevresinde belirlenir.\nİşlem yaklaşımı Üst zaman örneği Orta/ana zaman Alt zaman örneği\nPosition / uzun swing Aylık veya haftalık Haftalık / günlük Günlük veya 4 saatlik\nSwing trading Haftalık veya günlük Günlük / 4 saatlik 4 saatlik veya 1 saatlik\nKısa swing Günlük 4 saatlik / 1 saatlik 1 saatlik veya 15 \ndakika\nDay trading 4 saatlik veya 1 saatlik 1 saatlik / 15 dakika 15, 5 veya 3 dakika\nScalping 1 saatlik veya 15 \ndakika\n15 / 5 dakika 3 veya 1 dakika\nTablo 10.4 – İşlem stiline göre örnek zaman dilimi paketleri\nEKRANDA NE ARIYORUM?\n• Önce beklenen elde tutma süresini yazın.\n• Ana karar grafiğini seçin.\n• Üst zamanı ana grafiğin bağlamını verecek kadar geniş seçin.\n• Alt zamanı yalnız anlamlı trigger gösterecek kadar ayrıntılandırın.\n• Spread, komisyon ve veri kalitesi alt zaman seçiminde uygunsuzsa daha büyük grafikte kalın.\nDOĞRU BILINEN YANLIŞ\nMit: Profesyonel trader en küçük zaman diliminde giriş yapar.\nGerçeklik: Daha küçük zaman dilimi daha hassas fiyat gösterir; fakat daha yüksek gürültü, false \ntrigger, spread ve karar yükü de üretir. En iyi ölçek, test edilen sistem ve yaşam düzeniyle uyumlu \nolandır.",
+    "source_extract_summary": [
+      "10.4 İşlem Stilinden Zaman Dilimine Zaman dilimini grafikte güzel göründüğü için değil, pozisyonu ne kadar tutacağım ve ekran başında ne kadar kalabileceğim için seçerim.",
+      "Ana işlem zaman dilimi, kararlarımı ve işlem günlüğümü tuttuğum ölçektir.",
+      "Üst ve alt zamanlar bunun çevresinde belirlenir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0198",
+    "page": 198,
+    "chapter": 10,
+    "section": "10.6 — Zaman Dilimi Aralığı ve Veri Yoğunluğu",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  183\n10.5 İki mi, Üç Zaman Dilimi mi?\nBaşlangıçta iki zaman dilimi kullanırım: birinde yön ve bölgeyi, diğerinde setup ile tetik davranışını \nizlerim. Üçüncü zaman dilimini ancak orta zaman ile alt zaman görevleri gerçekten ayrılıyorsa eklerim. \nÜç grafik kullanmak analiz seviyesini değil, görev sayısını artırır.\nModel Görev dağılımı Kimler için uygun? Ana risk\nİki zaman dilimi HTF bağlam + \nişlem/trigger TF.\nBaşlangıç, sade swing \nsistemleri.\nSetup ve trigger aynı \ngrafikte karışabilir.\nÜç zaman dilimi HTF bağlam + MTF \nsetup + LTF trigger.\nDeneyimli, net kayıt \nve test sistemi olan \ntrader.\nAşırı analiz ve geç \ngiriş.\nDört+ zaman dilimi Ek filtreler ve \noperasyon ölçekleri.\nÖzel profesyonel \nsüreçler.\nÇelişki üretip karar \nverememe.\nTablo 10.5 – İki ve üç zaman dilimi modelleri\nVAKA ANALIZI — İKI GRAFIKLE SWING İŞLEMI\nXAGTRYG günlük grafikte yükseliş trendinde ve 112–114 TL eski breakout bölgesine çekiliyor. \nKullanıcı ana işlem grafiği olarak 4 saati seçiyor.\nSonraki adımlarım:\n1. Günlükte trend, protected low ve major bölgeyi yazarım.\n2. 4 saatte pullback yapısını ve satış momentumunun zayıflamasını izlerim.\n3. 4 saatte bullish reaction + kapanış oluşursa aynı grafikte setup ve trigger’ı tamamlarım.\n4. 1 saate yalnız 4 saatlik trigger çok geniş stop üretiyorsa inerim.\n5. Yeni grafik kararımı iyileştirmiyorsa iki grafikle kalırım.\n10.6 Zaman Dilimi Aralığı ve Veri Yoğunluğu\nZaman dilimleri arasında yaklaşık 4:1–8:1 oranı başlangıç rehberi olarak verilir. Günlük–4 saatlik 6:1, 4 \nsaatlik–1 saatlik 4:1’dir. Bu oran kutsal değildir; amaç, iki grafiğin neredeyse aynı görünmesini veya \naralarında aşırı bilgi boşluğu oluşmasını önlemektir.",
+    "source_extract_summary": [
+      "Başlangıçta iki zaman dilimi kullanırım: birinde yön ve bölgeyi, diğerinde setup ile tetik davranışını izlerim.",
+      "Üçüncü zaman dilimini ancak orta zaman ile alt zaman görevleri gerçekten ayrılıyorsa eklerim.",
+      "Üç grafik kullanmak analiz seviyesini değil, görev sayısını artırır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0199",
+    "page": 199,
+    "chapter": 10,
+    "section": "10.7 — Üst Zaman Bağlamı: Yön, Alan ve Risk",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  184\nŞekil 10.3 – Örnek zaman dilimi merdiveni ve oranlar\nSeçim Avantaj Uyarı\nGünlük–4H–1H Dengeli swing paketi; \nstructure ve trigger net.\n1H’de fazla işlem arama riski.\nHaftalık–Günlük–4H Daha uzun swing ve sakin \nkarar.\nSinyal sayısı az, stop mesafesi \ngeniş olabilir.\n4H–1H–15D Kısa swing/day trade geçişi. Seans ve haber etkisi büyür.\n1H–15D–3D Day trading için hassasiyet. Gürültü, spread ve hızlı karar \nbaskısı.\nHaftalık–Günlük–1H Çok uzun bağlam + çok hassas \nentry.\nGünlük setup ile 1H trigger \narasında kopukluk oluşabilir.\nTablo 10.6 – Zaman dilimi paketlerinin trade-off’ları\nDOĞRU BILINEN YANLIŞ\nMit: Zaman dilimleri arasında mutlaka tam 4 veya 6 kat fark olmalıdır.\nGerçeklik: Oran yalnız düzenleyici bir başlangıç noktasıdır. İşlem süresi, seans, volatilite, piyasa \ntürü ve replay sonuçları daha önemlidir.\n10.7 Üst Zaman Bağlamı: Yön, Alan ve Risk \nSınırı\nÜst zaman grafiğine giriş sinyali aramak için değil, işlem evrenini daraltmak için bakarım. Önce \ntrend/range/geçiş durumunu, major swing’leri, önemli support–resistance veya supply–demand \nalanlarını, external liquidity’yi ve senaryoyu bozan fiyat noktasını işaretlerim.",
+    "source_extract_summary": [
+      "Haftalık–Günlük–4H Daha uzun swing ve sakin karar.",
+      "Sinyal sayısı az, stop mesafesi geniş olabilir.",
+      "4H–1H–15D Kısa swing/day trade geçişi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0200",
+    "page": 200,
+    "chapter": 10,
+    "section": "10.7 — Üst Zaman Bağlamı: Yön, Alan ve Risk",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  185\nEKRANDA NE ARIYORUM?\n• Ana trend veya range’i tek cümleyle yazın.\n• Son confirmed BOS/CHoCH ve protected swing’i işaretleyin.\n• Fiyatın major zone içinde mi, ortada mı, hedefe yakın mı olduğunu kontrol edin.\n• Karşıdaki external liquidity ve major hedefi belirleyin.\n• İşlem aramayacağınız yönü veya alanı açıkça yazın.\nHTF sorusu Örnek cevap Karara etkisi\nPiyasa hâli? Haftalık uptrend, günlük \npullback.\nLong continuation öncelikli; \nshort yalnız karşı trend.\nFiyat nerede? Günlük demand + discount \ntarafı.\nAlt zamanda bullish reaction \nizlenir.\nNe korunuyor? Günlük protected low 108 TL. Bu alan altında kabul long \nsenaryoyu bozar.\nHedef nerede? Önce 122 TL weak high, sonra \n126 supply.\nR:R ve kâr yönetimi sınanır.\nRisk olayı? Haber/volatilite veya range \nortası.\nİşlem azaltılır ya da beklenir.\nTablo 10.7 – Üst zaman bağlam cümlesi\nUygulama Görseli 10.2 – XAGTRYG haftalık ve günlük grafikte trend, protected low, major demand ve \nexternal liquidity işaretleri. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "• Ana trend veya range’i tek cümleyle yazın.",
+      "• Son confirmed BOS/CHoCH ve protected swing’i işaretleyin.",
+      "• Fiyatın major zone içinde mi, ortada mı, hedefe yakın mı olduğunu kontrol edin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0201",
+    "page": 201,
+    "chapter": 10,
+    "section": "10.9 — Alt Zaman Tetik ve Zamanlama",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  186\n10.8 Orta Zaman Setup Haritası\nOrta zaman, üst zaman fikrinin işlem kurulumu hâline geldiği yerdir. Burada pullback’in biçimini, range \nveya pattern sınırını, FVG/order block/supply–demand reaction alanını, momentum kaybını ve setup \ninvalidation’ını izlerim. Üst zaman “long ara” diyebilir; orta zaman henüz fırsat oluşmadığını \nsöyleyebilir.\nSetup öğesi Olumlu görünüm Uyarı\nPullback yapısı Karşı yön impulse’ları \nküçülüyor, overlap artıyor.\nKarşı yön BOS ve geniş \nmomentum.\nBölge reaksiyonu Zone içinde sweep, rejection \nve yeniden kabul.\nZone altında/üstünde kalıcı \nacceptance.\nPattern Flag/triangle sınırı net ve \nsıkışma kontrollü.\nPattern sürekli genişliyor veya \nsınırlar zorlanmış.\nHacim Pullback hacmi azalıyor; \ndönüşte katılım artıyor.\nKarşı yön hareketinde yükselen \nhacim.\nHedef alanı Major hedefe kadar yeterli \ntemiz mesafe.\nYakın HTF engeli ve düşük R:R.\nTablo 10.8 – Orta zaman setup kalitesi\nEKRANDA NE ARIYORUM?\n• HTF alanının orta zamanda hangi swing’lere karşılık geldiğini bulun.\n• Pullback’in basit mi karmaşık mı olduğunu sınıflandırın.\n• Setup sınırını ve geçersizliği yazın.\n• Tetik oluşmadan önce hedefe kalan alanı ölçün.\n• Orta zaman setup bozuksa alt zaman sinyali aramayın.\nDOĞRU BILINEN YANLIŞ\nMit: Üst zaman bullish ise orta zamanda görülen her geri çekilme alış fırsatıdır.\nGerçeklik: Üst zaman yön yalnız öncelik verir. Orta zaman pullback yapısal olarak büyüyebilir, \nmajor swing’i tehdit edebilir veya yeterli hedef mesafesi bırakmayabilir.\n10.9 Alt Zaman Tetik ve Zamanlama\nLower-timeframe trigger (hazırlanmış setup içinde giriş zamanlamasını başlatan fiyat olayı), bağımsız \ntrade fikri değildir. Alt grafiğe ancak HTF yönü ve MTF setup’ı yazdıktan sonra inerim. Burada micro \nCHoCH/BOS, strong close, breakout–retest, engulfing/reaction, hacim artışı veya order-flow initiation \ngibi objektif olayları beklerim.",
+    "source_extract_summary": [
+      "10.8 Orta Zaman Setup Haritası Orta zaman, üst zaman fikrinin işlem kurulumu hâline geldiği yerdir.",
+      "Burada pullback’in biçimini, range veya pattern sınırını, FVG/order block/supply–demand reaction alanını, momentum kaybını ve setup invalidation’ını izlerim.",
+      "Üst zaman “long ara” diyebilir; orta zaman henüz fırsat oluşmadığını söyleyebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0202",
+    "page": 202,
+    "chapter": 10,
+    "section": "10.10 — Hizalanma: Aynı Yön Değil, Tamamlanan",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  187\nTetik türü Ne görürüm? Ne zaman geçersiz?\nMicro structure shift Pullback yönündeki protected \nminor swing kırılır.\nKırılım geri alınır veya takip \ngelmez.\nMomentum close Geniş gövde, sınır ötesinde \nkapanış ve devam.\nYalnız fitil aşımı, zayıf close.\nBreakout–retest Sınır kırılır, yeni tarafta kabul \nve tepki oluşur.\nEski alan içine hızlı geri dönüş.\nReaction candle Zone içinde rejection/engulfing \nve yakın invalidation.\nMum tek başına, bağlamsız \nveya devam yok.\nVolume/order flow Katılım, initiation ya da \nabsorption sonrası yönlü close.\nVeri kaynağı zayıf veya fiyat \nsonucu desteklemiyor.\nTablo 10.9 – Alt zaman tetik seçenekleri\nEKRANDA NE ARIYORUM?\n• Alt grafiğe geçmeden önce setup cümlenizi ekranda tutun.\n• Trigger seviyesini fiyat gelmeden işaretleyin.\n• Fitil değil kapanış ve follow-through arayın.\n• Stopu yalnız daraltmak için anlamsız mikro seviyeye taşımayın.\n• Tetik gecikmişse veya hedefe mesafe kalmamışsa işlemi bırakın.\nDOĞRU BILINEN YANLIŞ\nMit: Alt zaman sinyali daha erken olduğu için üst zaman analizinden daha değerlidir.\nGerçeklik: Alt zaman daha erken ve ayrıntılıdır; aynı nedenle daha fazla false signal üretir. Değeri, \nhazırlanmış üst/orta zaman senaryosunu zamanlamasından gelir.\n10.10 Hizalanma: Aynı Yön Değil, Tamamlanan \nGörevler\nTimeframe alignment (zaman dilimi görevlerinin aynı işlem tezini desteklemesi), üç grafikte üç bullish \nmum görmek değildir. Üst zaman uptrend, orta zaman bearish pullback ve alt zaman bullish reversal \ngösterebilir; bu üç görünüm birbirine zıt değil, continuation senaryosunun doğal sırasıdır.",
+    "source_extract_summary": [
+      "Micro structure shift Pullback yönündeki protected minor swing kırılır.",
+      "Kırılım geri alınır veya takip gelmez.",
+      "Momentum close Geniş gövde, sınır ötesinde kapanış ve devam."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0203",
+    "page": 203,
+    "chapter": 10,
+    "section": "10.10 — Hizalanma: Aynı Yön Değil, Tamamlanan",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  188\nŞekil 10.4 – Üç farklı görevin tek senaryoda hizalanması\nHizalanma türü Örnek Okuma\nTrend continuation HTF uptrend + MTF pullback + \nLTF bullish shift.\nEn klasik top-down devam \nmodeli.\nRange boundary HTF range + MTF support testi \n+ LTF failure test.\nHedef karşı sınırla sınırlı.\nBreakout continuation HTF bullish context + MTF base \n+ LTF breakout/acceptance.\nHacim ve boş hedef alanı \ngerekir.\nReversal hazırlığı HTF major zone + MTF \nmomentum kaybı + LTF shift.\nİlk olarak karşı trend; HTF \nBOS gelmeden ana dönüş \ndeğil.\nTablo 10.10 – Görev tabanlı hizalanma türleri\nVAKA ANALIZI — GÜNLÜK–4H–1H CONTINUATION\nXAGTRYG günlükte HH–HL yapısını koruyor. 4 saatte fiyat günlük demand alanına üç dalgalı \npullback yapıyor. 1 saatte son lower high güçlü kapanışla kırılıyor.\nSonraki adımlarım:\n1. Günlük yönü ve protected low’u long senaryonun sınırı olarak tutarım.\n2. 4 saatlik pullback’in ana trendi bozmadığını doğrularım.\n3. 1 saatlik kırılımı yalnız tetik sayarım; yeni günlük trend kanıtı saymam.\n4. 1 saatlik retest ve follow-through varsa işlem planını aktive ederim.\n5. Hedefi önce 4 saatlik weak high, sonra günlük external liquidity olarak sıralarım.",
+    "source_extract_summary": [
+      "Range boundary HTF range + MTF support testi + LTF failure test.",
+      "Breakout continuation HTF bullish context + MTF base + LTF breakout/acceptance.",
+      "Reversal hazırlığı HTF major zone + MTF momentum kaybı + LTF shift."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0204",
+    "page": 204,
+    "chapter": 10,
+    "section": "10.11 — Zaman Dilimi Çatışmaları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  189\n10.11 Zaman Dilimi Çatışmaları\nÇatışma gördüğümde analiz bozulmuş değildir; piyasanın hangi aşamada olduğunu öğrenirim. Üst \nzaman ile orta zamanın farklı yönleri çoğunlukla pullback, range veya geçiş bilgisi verir. Karar, “hangi \ngrafik doğru?” sorusuyla değil, “hangi grafik hangi görevi yapıyor?” sorusuyla verilir.\nŞekil 10.5 – Zaman dilimi çatışması karar matrisi\nÇatışma Risk Uygulama\nHTF uptrend / MTF \ndowntrend\nNormal pullback veya \nderinleşen correction.\nHTF protected low ve MTF \nmomentum izlenir.\nHTF uptrend / LTF bearish BOS Mikro devam aşağı; entry \nerken olabilir.\nBullish LTF shift beklenir.\nHTF range / LTF strong trend Range içinde geçici impulse. Hedef karşı sınır; breakout \nkabulü yoksa uzatılmaz.\nHTF downtrend / LTF bullish \ndivergence\nCounter-trend tepki adayı. Daha kısa hedef, küçük risk \nveya bekleme.\nHTF ve MTF belirsiz / LTF \nsinyal\nBağlamsız tetik. İşlem yok veya yalnız test \nkategorisi.",
+    "source_extract_summary": [
+      "10.11 Zaman Dilimi Çatışmaları Çatışma gördüğümde analiz bozulmuş değildir; piyasanın hangi aşamada olduğunu öğrenirim.",
+      "Üst zaman ile orta zamanın farklı yönleri çoğunlukla pullback, range veya geçiş bilgisi verir.",
+      "Karar, “hangi grafik doğru?” sorusuyla değil, “hangi grafik hangi görevi yapıyor?” sorusuyla verilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0205",
+    "page": 205,
+    "chapter": 10,
+    "section": "10.12 — Pullback mı, Reversal mı?",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  190\nTablo 10.11 – Çatışmada karar standardı\nDOĞRU BILINEN YANLIŞ\nMit: En güvenli işlem için bütün zaman dilimleri aynı anda aynı yönde trend olmalıdır.\nGerçeklik: Alt zamanın HTF yönüne dönmesini beklemek faydalıdır; ancak MTF’nin pullback \nsırasında karşı yönde olması normaldir. Tam aynı yön bazen hareketin çoktan ilerlediği ve girişin \ngeciktiği anlamına gelir.\n10.12 Pullback mı, Reversal mı?\nAlt zaman trend değişimi, üst zaman pullback’inin sona erdiğini veya derinleştiğini gösterebilir; tek \nbaşına üst zaman reversal’ı değildir. Pullback–reversal ayrımında yapısal hiyerarşiyi korurum: minor \nstructure önce değişir, sonra major swing tehdit edilir, en son üst zaman yeni yönde kabul üretirse ana \ndönüş ihtimali güçlenir.\nŞekil 10.6 – Alt zaman değişimi ile üst zaman dönüşü farkı\nAşama Gözlem Kullanacağım dil\n1. Mikro zayıflama LTF momentum \nazalır/divergence oluşur.\n“Pullback yavaşlıyor.”\n2. LTF shift Minor CHoCH/BOS ve güçlü \nclose.\n“Alt zaman dönüş teyidi.”\n3. MTF structure sonucu Setup yönünde yeni \nswing/BOS.\n“Continuation güçleniyor” \nveya “dönüş riski büyüyor.”\n4. HTF protected swing \nkırılımı\nMajor yapı karşı yönde \nbozulur.\n“Üst zaman trend dönüşü \nadayı.”",
+    "source_extract_summary": [
+      "Gerçeklik: Alt zamanın HTF yönüne dönmesini beklemek faydalıdır; ancak MTF’nin pullback sırasında karşı yönde olması normaldir.",
+      "Tam aynı yön bazen hareketin çoktan ilerlediği ve girişin geciktiği anlamına gelir.",
+      "Alt zaman trend değişimi, üst zaman pullback’inin sona erdiğini veya derinleştiğini gösterebilir; tek başına üst zaman reversal’ı değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0206",
+    "page": 206,
+    "chapter": 10,
+    "section": "10.13 — İndikatör ve Hacmi Zaman Dilimine",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  191\nAşama Gözlem Kullanacağım dil\n5. Yeni yönde kabul Retest, follow-through, yeni \nHH/HL veya LH/LL.\n“Yeni trend doğrulanıyor.”\nTablo 10.12 – Pullback’ten reversal’a kanıt zinciri\nEKRANDA NE ARIYORUM?\n• Önce değişen swing’in hangi zaman dilimine ait olduğunu yazın.\n• Minor CHoCH’u ana reversal olarak etiketlemeyin.\n• HTF protected swing’i ve major zone’u izleyin.\n• Hacim ve momentumun yapısal kırılıma eşlik edip etmediğini kontrol edin.\n• Yeni yönde retest ve follow-through olmadan kesin trend dili kullanmayın.\nVAKA ANALIZI — KARŞI TREND TEPKI MI, ANA DÖNÜŞ MÜ?\nHaftalık XAGTRYG düşüş yapısını koruyor. Günlük demand alanında bullish divergence oluşuyor ve \n4 saatte CHoCH görülüyor.\nSonraki adımlarım:\n1. İlk etiketi “4 saatlik karşı trend dönüşü” olarak yazarım.\n2. Günlük son lower high kırılmadan haftalık trendin döndüğünü söylemem.\n3. Tepki hedefini günlük supply veya weak high ile sınırlarım.\n4. Günlük BOS ve retest gelirse senaryoyu yapısal dönüş adayına yükseltirim.\n5. Haftalık protected high aşılmadan uzun vadeli trend doğrulaması kullanmam.\n10.13 İndikatör ve Hacmi Zaman Dilimine \nDağıtmak\nAynı RSI, MACD veya moving average’ı üç grafikte açıp üç bağımsız teyit üretmem. Araçları göreve \ndağıtırım. Üst zamanda trend/regime filtresi, orta zamanda momentum ve volatilite, alt zamanda \nhacim veya order-flow sonucu gibi farklı sorular seçerim.\nAraç ailesi Üst zaman görevi Orta zaman görevi Alt zaman görevi\nMoving average / \nIchimoku\nTrend ve rejim \nfiltresi.\nDinamik reference ve \nsetup uyumu.\nGenellikle gereksiz; \ngecikme büyür.\nRSI/MACD/CCI Trend gücü ve \nmajor divergence.\nPullback momentum \nkaybı/hidden \ndivergence.\nYalnız tetikle birleşen \nkısa momentum; aşırı \nsinyal riski.\nATR/Bollinger Volatilite rejimi. Squeeze/expansion ve \nstop ölçeği.\nTrigger barının normal \ndışı olup olmadığını \nkıyaslama.",
+    "source_extract_summary": [
+      "Yeni yönde kabul Retest, follow-through, yeni HH/HL veya LH/LL.",
+      "“Yeni trend doğrulanıyor.” Tablo 10.12 – Pullback’ten reversal’a kanıt zinciri EKRANDA NE ARIYORUM?",
+      "• Önce değişen swing’in hangi zaman dilimine ait olduğunu yazın."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0207",
+    "page": 207,
+    "chapter": 10,
+    "section": "10.14 — XAGTRYG Top-Down Vaka Akışları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  192\nAraç ailesi Üst zaman görevi Orta zaman görevi Alt zaman görevi\nStandart hacim Major breakout ve \nclimax.\nPullback–impulse \nkatılım farkı.\nTrigger breakout veya \nreaction teyidi.\nProfile/footprint Major acceptance \nalanı.\nSetup zone ve \nPOC/HVN.\nInitiation/absorption \nve hassas execution.\nTablo 10.13 – Araçların zaman dilimi görevleri\nDOĞRU BILINEN YANLIŞ\nMit: RSI ve MACD haftalık, günlük ve 4 saatte bullish ise altı ayrı teyidim vardır.\nGerçeklik: Aynı fiyat verisinden türeyen benzer momentum araçları ve onların farklı TF okumaları \nkorelasyonludur. Teyit sayısı değil, görev çeşitliliği önemlidir.\nGÖREV ÇEŞITLILIĞI\nYapı yönü + bölge konumu + hacim katılımı + alt zaman fiyat teyidi, dört farklı soruyu yanıtlar. Üç \nmomentum osilatörü ise çoğunlukla aynı soruyu tekrarlar.\n10.14 XAGTRYG Top-Down Vaka Akışları\nAşağıdaki senaryolar fiyat tahmini değildir; top-down düşünme dilini göstermek için kurulan eğitim \nakışlarıdır. Her adımda üst zaman cümlesini korur, yalnız yeni zaman diliminin görevini eklerim.\nVAKA ANALIZI — HAFTALIK–GÜNLÜK–4H UZUN SWING\nHaftalık grafikte ana yükseliş yapısı korunuyor. Günlükte fiyat 118–120 TL breakout/demand \nbölgesine kontrollü geri çekiliyor. 4 saatte satış impulse’ları küçülüyor ve son lower high üzerinde \nbullish kapanış oluşuyor.\nSonraki adımlarım:\n1. Haftalıkta long önceliğini, major hedefi ve ana invalidation’ı yazarım.\n2. Günlükte setup alanını, pullback derinliğini ve yakın resistance’ı belirlerim.\n3. 4 saatlik bullish shift’i giriş zamanlaması olarak kullanırım.\n4. 4 saatlik stop çok dar kalıyorsa günlük yapıyı bozmayacak tampon bırakırım.\n5. İlk hedefi günlük weak high, ikinci hedefi haftalık external liquidity yaparım.",
+    "source_extract_summary": [
+      "Araç ailesi Üst zaman görevi Orta zaman görevi Alt zaman görevi Standart hacim Major breakout ve climax.",
+      "Trigger breakout veya reaction teyidi.",
+      "Profile/footprint Major acceptance alanı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Hareket gücü özellik ailesi",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0208",
+    "page": 208,
+    "chapter": 10,
+    "section": "10.14 — XAGTRYG Top-Down Vaka Akışları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  193\nUygulama Görseli 10.3 – XAGTRYG weekly–daily–4H continuation: major trend, daily demand, 4H micro \nshift, invalidation ve iki hedef. Temsilî eğitim şeması.\nVAKA ANALIZI — GÜNLÜK–4H–1H BAŞARISIZ BREAKOUT\nGünlük grafik range içinde. 4 saatte üst sınıra yakın bullish triangle oluşuyor. 1 saatte sınır yukarı \nfitille aşılıyor fakat düşük hacimle tekrar range içine kapanıyor.\nSonraki adımlarım:\n1. Günlük range nedeniyle breakout yönünü önceden kesinleştirmem.\n2. 4 saatlik triangle’ı yalnız aday setup olarak tutarım.\n3. 1 saatlik fitil aşımını breakout değil false-breakout uyarısı olarak kaydederim.\n4. Range içine yeniden kabul ve bearish follow-through varsa failure test senaryosu kurarım.\n5. Hedefi önce 4 saatlik orta alan, sonra günlük alt sınırla sınırlarım.",
+    "source_extract_summary": [
+      "Uygulama Görseli 10.3 – XAGTRYG weekly–daily–4H continuation: major trend, daily demand, 4H micro shift, invalidation ve iki hedef.",
+      "VAKA ANALIZI — GÜNLÜK–4H–1H BAŞARISIZ BREAKOUT Günlük grafik range içinde.",
+      "4 saatte üst sınıra yakın bullish triangle oluşuyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0209",
+    "page": 209,
+    "chapter": 10,
+    "section": "10.15 — Tam Top-Down İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  194\nUygulama Görseli 10.4 – XAGTRYG daily range, 4H triangle ve 1H false breakout/re-entry şeması. Temsilî \neğitim şeması.\nVAKA ANALIZI — ÜST ZAMAN DOWNTREND’DE ERKEN LONG\nHaftalık yapı bearish. Günlükte önemli demand alanı ve bullish divergence var. 4 saatte ilk CHoCH \noluşuyor fakat günlük lower high henüz kırılmadı.\nSonraki adımlarım:\n1. İşlemi “ana trend long” değil, counter-trend reaction olarak sınıflandırırım.\n2. Pozisyon riskini ve hedef uzaklığını trend yönü işleminden daha muhafazakâr tutarım.\n3. İlk hedefi günlük lower high veya supply alanı yaparım.\n4. Günlük BOS ve retest oluşursa yeni bir yapısal dönüş planı kurarım.\n5. 4 saatlik CHoCH başarısız olursa haftalık trend yönünün devam ettiğini kabul ederim.\n10.15 Tam Top-Down İş Akışı\nGrafikleri açma sıram sabittir. Önce büyük resmi yazmadan küçük grafiğe geçmem; küçük grafikte \ngördüğüm yeni bilgiyi de üst zaman senaryosunu unutmak için kullanmam. Aşağıdaki akış, bölümdeki \nbütün kavramları tek operasyonda birleştirir.",
+    "source_extract_summary": [
+      "Uygulama Görseli 10.4 – XAGTRYG daily range, 4H triangle ve 1H false breakout/re-entry şeması.",
+      "VAKA ANALIZI — ÜST ZAMAN DOWNTREND’DE ERKEN LONG Haftalık yapı bearish.",
+      "Günlükte önemli demand alanı ve bullish divergence var."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0210",
+    "page": 210,
+    "chapter": 10,
+    "section": "10.15 — Tam Top-Down İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  195\nŞekil 10.7 – Bölüm 10 top-down çalışma akışı\n1. İşlem stilini, beklenen elde tutma süresini ve ana karar zaman dilimini seç.\n2. İki zaman dilimiyle başla; üçüncü grafiği yalnız ayrı bir setup/trigger görevi varsa ekle.\n3. HTF’de trend/range/geçiş, major swing, zone, liquidity, hedef ve invalidation’ı yaz.\n4. HTF cümlesini tek satırda sabitle: yön + konum + korunması gereken seviye.\n5. MTF’ye in; pullback/range/pattern yapısını ve setup alanını belirle.\n6. MTF setup’ın hedefe kalan mesafesini ve geçersizliğini kontrol et.\n7. Setup hazırlanmadan LTF’ye inme.\n8. LTF’de tetik seviyesini önceden çiz; close, follow-through ve retest şartını yaz.\n9. Alt zaman değişiminin major mı minor mı olduğunu sınıflandır.\n10. Zaman dilimi çatışması varsa pullback, range, counter-trend veya reversal aşaması olarak adlandır.\n11. İndikatör ve hacim araçlarını farklı görevlere dağıt; aynı kanıtı tekrar sayma.\n12. Giriş, stop, target ve position size planını Bölüm 12–13 kurallarıyla tamamla.\n13. İşlem sonrası HTF tez, MTF setup ve LTF trigger sonuçlarını ayrı ayrı günlüğe yaz.\n14. Aynı paketi replay’de trend, range ve yüksek volatilite dönemlerinde test et.\nÖrnek koşullu analiz cümleleri\n “Haftalık trend yükselişte, günlük fiyat major demand içinde ve protected low \nkorunuyor. 4 saatte bearish pullback yapısı bullish CHoCH ile biter ve yeni alanda kabul \noluşursa continuation long senaryosu aktif olur.”\n “Günlük range içinde olduğumuz için 4 saatlik trendi ana yön saymıyorum. 1 saatlik \nbreakout yalnız günlük sınır ötesinde kapanış ve retest sonrası geçerli olacaktır.”\n “Haftalık downtrend sürerken günlük bullish divergence ve 4 saatlik CHoCH yalnız \ncounter-trend tepkiyi destekliyor. Günlük lower high kırılmadan ana trend dönüşü dili \nkullanmıyorum.”\n “Üst zaman yönü ile alt zaman tetik uyumlu; ancak orta zaman setup hedefe çok yakın. \nBu nedenle sinyal doğru olsa bile işlem kalitesi yetersiz.”",
+    "source_extract_summary": [
+      "İşlem stilini, beklenen elde tutma süresini ve ana karar zaman dilimini seç.",
+      "İki zaman dilimiyle başla; üçüncü grafiği yalnız ayrı bir setup/trigger görevi varsa ekle.",
+      "HTF’de trend/range/geçiş, major swing, zone, liquidity, hedef ve invalidation’ı yaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0211",
+    "page": 211,
+    "chapter": 10,
+    "section": "10.15 — Tam Top-Down İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  196\nTOP-DOWN NOT ŞABLONU\nHTF: Piyasa hâli + konum + protected seviye + major hedef.\nMTF: Setup türü + alan + kalite + geçersizlik.\nLTF: Tetik olayı + kapanış/takip + uygulama riski.\nKarar: Şimdi gir / bekle / karşı trend / işlem yok.\nHızlı Başvuru\nKavram Eylem En büyük hata\nFractal yapı Alt trendi üst swing’in içinde \nsınıflandır.\nMinor değişimi major dönüş \nsanmak.\nHTF Yön, major zone, hedef ve \ninvalidation yaz.\nHTF’de entry kovalamak.\nMTF setup Pullback/pattern ve işlem \nalanını kur.\nÜst zaman yönünü kör sinyale \nçevirmek.\nLTF trigger Objektif close/shift/retest \nbekle.\nBağlamsız erken sinyal almak.\nİki TF Bağlam + işlem grafiğiyle sade \nkal.\nSetup ve trigger görevini \nyazmamak.\nÜç TF Yön + setup + trigger görevlerini \nayır.\nHer grafikte aynı analizi \ntekrarlamak.\nTF oranı Yeterli ölçek farkı seç ve test et. 4:1–8:1’i evrensel yasa \nsanmak.\nHizalanma Farklı görevlerin aynı tezi \ndesteklemesini ara.\nBütün trendlerin aynı yönde \nolmasını beklemek.\nÇatışma Pullback/range/counter-trend \nolarak adlandır.\n“Bir grafik yanlış” diye \ndüşünmek.\nPullback–reversal Major protected swing ve kabul \nzincirini izle.\nLTF CHoCH ile ana trend ilan \netmek.\nIndicator MTF Her araca farklı görev ver. Aynı momentum kanıtını \nçoğaltmak.\nTop-down günlük HTF–MTF–LTF sonucu ayrı \nkaydet.\nYalnız giriş grafiğini \nincelemek.\nTablo 10.14 – Bölüm 10 hızlı başvuru\nGrafik Başı Kontrol Listesi\n İşlem stilim ve ana karar zaman dilimim belli mi?\n İki zaman dilimi yeterliyken üçüncüyü gereksiz yere açıyor muyum?\n HTF piyasa hâlini trend, range veya geçiş olarak yazdım mı?",
+    "source_extract_summary": [
+      "TOP-DOWN NOT ŞABLONU HTF: Piyasa hâli + konum + protected seviye + major hedef.",
+      "MTF: Setup türü + alan + kalite + geçersizlik.",
+      "LTF: Tetik olayı + kapanış/takip + uygulama riski."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0212",
+    "page": 212,
+    "chapter": 10,
+    "section": "10.15 — Tam Top-Down İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  197\n HTF protected swing, major zone ve hedef görünür mü?\n MTF setup gerçekten HTF alanının içinde mi?\n Pullback’in yapısı ve momentum karakteri uygun mu?\n Hedefe kadar yeterli temiz alan var mı?\n LTF’ye setup hazır olmadan indim mi?\n Trigger seviyesi fiyat gelmeden tanımlı mı?\n Kapanış ve follow-through şartım var mı?\n Gördüğüm CHoCH major mı minor mı?\n Zaman dilimi çatışmasını doğru isimlendirdim mi?\n Alt zaman stopu normal gürültünün içinde mi?\n İndikatörler aynı bilgiyi tekrar mı ediyor?\n Üst zaman senaryosu bozulursa ne yapacağım açık mı?\n İşlem kararım “şimdi gir, bekle, karşı trend veya işlem yok” olarak net mi?\nTemel Sözlük\nTerim Aksiyon tanımı\nMulti-timeframe analysis Aynı piyasayı farklı zaman ölçeklerinde inceleyip \ntek senaryo kurma.\nTop-down analysis Analizi üst zaman bağlamından alt zaman \ntetiğine doğru sıralama.\nHigher timeframe — HTF Ana yönü, major alanı ve büyük geçersizliği \nbelirlediğim ölçek.\nMedium timeframe — MTF İşlem setup’ını ve ara yapıyı kurduğum ölçek.\nLower timeframe — LTF Giriş zamanlamasını ve mikro fiyat teyidini \nizlediğim ölçek.\nFractal structure Aynı trend ve swing mantığının farklı ölçeklerde \niç içe görünmesi.\nMajor structure Ana karar zaman diliminin önemli swing ve \nyapısı.\nMinor structure Major swing içindeki daha küçük zaman dilimi \nyapısı.\nTimeframe alignment Farklı zaman dilimi görevlerinin aynı işlem tezini \ndesteklemesi.\nTimeframe conflict Farklı ölçeklerdeki görünüm farkının \npullback/range/reversal bilgisi üretmesi.\nBias HTF bağlamından çıkan işlem yönü önceliği; \nemir değildir.\nSetup Bağlam içinde işlem fırsatının hazırlanmış yapısı.\nTrigger Setup’ı aktif eden objektif alt zaman fiyat olayı.",
+    "source_extract_summary": [
+      " HTF protected swing, major zone ve hedef görünür mü?",
+      " MTF setup gerçekten HTF alanının içinde mi?",
+      " Pullback’in yapısı ve momentum karakteri uygun mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0213",
+    "page": 213,
+    "chapter": 10,
+    "section": "10.15 — Tam Top-Down İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 10\nÇoklu Zaman Dilimi ve Top-Down Analiz  •  198\nTerim Aksiyon tanımı\nCounter-trend Ana zaman dilimi yönüne karşı sınırlı tepki veya \nişlem.\nProtected swing Ana yapının devamı için korunması gereken \nmajor tepe/dip.\nAcceptance Fiyatın yeni alanın ötesinde kapanış ve takip \nüretmesi.\nFollow-through İlk sinyalden sonra aynı yönde alan kazanılması.\nDual-chart confirmation Yumuşatılmış/üst grafik fikrini gerçek fiyat veya \nalt grafikle doğrulama.\nTablo 10.15 – Bölüm 10 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Multi-timeframe analiz tek grafik analizine hangi üç katkıyı sağlar?\n2. Fractal yapı neden üst zaman uptrend içinde alt zaman downtrend görülmesini normal kılar?\n3. HTF, MTF ve LTF’nin temel görevleri nelerdir?\n4. Bias ile trigger arasındaki fark nedir?\n5. İşlem stili zaman dilimi seçimini nasıl etkiler?\n6. İki zaman dilimi modeli ne zaman daha uygundur?\n7. Üçüncü zaman dilimi hangi gerçek görevi üstlenmelidir?\n8. 4:1–8:1 oranı neden evrensel kural değildir?\n9. Üst zaman bağlam cümlesinde hangi beş bilgi bulunmalıdır?\n10. Orta zaman setup’ında hangi kalite ölçütleri aranır?\n11. Alt zaman trigger bağımsız trade fikri neden değildir?\n12. Fitil aşımı ile kabul edilmiş breakout nasıl ayrılır?\n13. Timeframe alignment neden bütün trendlerin aynı yönde olması demek değildir?\n14. HTF uptrend ve MTF downtrend hangi iki ana olasılığı gösterir?\n15. HTF range içinde LTF trend hedefi neden sınırlı tutulmalıdır?\n16. Minor CHoCH ile major trend reversal arasındaki fark nedir?\n17. Pullback’ten reversal’a beş aşamalı kanıt zinciri nasıldır?\n18. Üst zaman downtrend’de alt zaman bullish divergence nasıl sınıflandırılır?\n19. İndikatörleri zaman dilimlerine dağıtırken kanıt tekrarı nasıl önlenir?\n20. Çok küçük zaman dilimine inmenin riskleri nelerdir?\n21. XAGTRYG günlük–4H–1H continuation senaryosunda her grafik hangi görevi yapar?\n22. Top-down not şablonunda HTF, MTF ve LTF için hangi cümleler yazılır?\n23. Tetik doğru olsa bile hangi koşullarda işlem yapılmamalıdır?24. İşlem sonrası günlükte üç zaman dilimi ayrı ayrı neden değerlendirilmelidir?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Counter-trend Ana zaman dilimi yönüne karşı sınırlı tepki veya işlem.",
+      "Protected swing Ana yapının devamı için korunması gereken major tepe/dip.",
+      "Acceptance Fiyatın yeni alanın ötesinde kapanış ve takip üretmesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  }
+]

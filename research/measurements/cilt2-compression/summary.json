@@ -1,0 +1,24 @@
+{
+  "events": 245802,
+  "assets": 125,
+  "event_counts": {
+    "compression_probe_reject_down_w6": 38547,
+    "compression_break_down_w6": 38406,
+    "compression_probe_reject_up_w6": 36294,
+    "compression_break_up_w6": 33732,
+    "compression_probe_reject_down_w10": 18096,
+    "compression_probe_reject_up_w10": 17751,
+    "compression_break_down_w10": 17571,
+    "compression_break_up_w10": 15824,
+    "compression_probe_reject_up_w15": 6607,
+    "compression_probe_reject_down_w15": 5642,
+    "compression_break_up_w15": 5146,
+    "compression_break_down_w15": 4722,
+    "opposite_expansion_after_down_w6": 3177,
+    "opposite_expansion_after_up_w6": 2277,
+    "opposite_expansion_after_down_w10": 1007,
+    "opposite_expansion_after_up_w10": 656,
+    "opposite_expansion_after_down_w15": 205,
+    "opposite_expansion_after_up_w15": 142
+  }
+}

@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0352",
+    "page": 352,
+    "chapter": 17,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal \nDavranış\nRange içindeki arz–talep testlerini faz, olay ve yapı zinciriyle okumak",
+    "source_extract_summary": [
+      "BÖLÜM 17 Piyasa Döngüleri, Wyckoff ve Kurumsal Davranış Range içindeki arz–talep testlerini faz, olay ve yapı zinciriyle okumak"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0353",
+    "page": 353,
+    "chapter": 17,
+    "section": "17.1 — Döngüyü Takvim Değil Hipotez Haritası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  338\nBu Bölümün Amacı\nPiyasa grafiği yalnız trend ve dönüş noktalarından oluşmaz. Güçlü düşüşler yavaşlayabilir, fiyat uzun \nsüre bir aralıkta denge arayabilir, sınırlar defalarca test edilebilir ve ancak daha sonra yeni trend \nkabulü oluşabilir. Wyckoff yöntemi bu geçişleri bir faz, olay ve test diliyle düzenlemeye çalışır.\nBu dili kullanırken en önemli disiplin, grafikten görünmeyen niyetleri kesin gerçek gibi anlatmamaktır. \nBüyük katılımcılar fiyatı etkileyebilir; ancak tek bir grafikten hangi kurumun nerede, ne miktarda ve \nhangi amaçla işlem yaptığı bilinemez. Bu nedenle bu bölümde “kurum burada aldı” demek yerine \n“satış çabası fiyatı ilerletemiyor; accumulation hipotezi güçleniyor” diyeceğiz.\nBÖLÜM SONUNDA\n• Dört fazı trend–range–trend dizisi içinde ayırabileceksiniz.\n• Duygusal döngüyü bağlam olarak kullanıp otomatik sinyale dönüştürmeyeceksiniz.\n• Wyckoff’un üç yasasını grafikte soruya çevirebileceksiniz.\n• Accumulation ve distribution fazlarında olay ile testi ayırabileceksiniz.\n• Spring/upthrust sonrası reclaim, follow-through ve geçersizliği kontrol edebileceksiniz.\n• Reaccumulation ile gerçek reversal; redistribution ile gerçek dip adayını karıştırmayacaksınız.\n• Kurumsal davranış iddialarını gözlenebilir fiyat–hacim kanıtıyla sınırlandırabileceksiniz.\n17.1 Döngüyü Takvim Değil Hipotez Haritası \nOlarak Okumak\nMarket cycle (piyasanın trend, range ve yeni trend evreleri arasında tekrar eden davranış dizisi), \nfiyatın her seferinde aynı şekli çizeceği anlamına gelmez. Döngü, “şimdi kesin dipteyiz” demek için \ndeğil, grafikte hangi soruyu sormam gerektiğini düzenlemek için kullanılır.\nGördüğüm durum İlk sorum Henüz söyleyemeyeceğim\nUzun düşüşten sonra range Satış ilerlemesi yavaşlıyor mu; alt sınır \ntestlerinde sonuç değişiyor mu?\n“Kurumlar kesin topluyor.”\nRange üstü breakout Kapanış, hacim ve geri test yeni kabul \nüretiyor mu?\n“Markup kesin başladı.”\nUzun yükselişten sonra range Yukarı ilerleme zorlaşıyor mu; alt sınıra \ndoğru zayıflık artıyor mu?\n“Tepe kesinleşti.”\nRange altı breakdown Altında kabul ve başarısız geri dönüş var \nmı?\n“Markdown hedefe kadar devam eder.”\nTablo 17.1 – Döngü hipotez dili\nEYLEM DİLİ\nGrafiği açtığımda önce faz adı aramam. Önceki trendi, range sınırlarını, hangi yöndeki hareketin \ndaha kolay ilerlediğini ve sınır testlerinin sonucunu işaretlerim. Faz etiketini bu kanıtların özeti \nolarak en son yazarım.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Piyasa grafiği yalnız trend ve dönüş noktalarından oluşmaz.",
+      "Güçlü düşüşler yavaşlayabilir, fiyat uzun süre bir aralıkta denge arayabilir, sınırlar defalarca test edilebilir ve ancak daha sonra yeni trend kabulü oluşabilir.",
+      "Wyckoff yöntemi bu geçişleri bir faz, olay ve test diliyle düzenlemeye çalışır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Göreceli katılım ve hacim özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0354",
+    "page": 354,
+    "chapter": 17,
+    "section": "17.1 — Döngüyü Takvim Değil Hipotez Haritası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  339\nDOĞRU BİLİNEN YANLIŞ\nMit: Piyasa accumulation → markup → distribution → markdown sırasını her zaman temiz biçimde \ntamamlar.\nGerçeklik: Döngü içinde reaccumulation, redistribution, uzayan range, başarısız breakout ve \nyeniden range görülebilir. Faz modeli olasılık haritasıdır.\nŞekil 17.1 – Dört faz ve duygu bağlamı\nUygulama Görseli 17.1 – XAGTRYG günlük grafiğinde uzun düşüş, taban range’i, breakout ve sonraki \ntrendin birlikte gösterildiği gerçek grafik. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Piyasa accumulation → markup → distribution → markdown sırasını her zaman temiz biçimde tamamlar.",
+      "Gerçeklik: Döngü içinde reaccumulation, redistribution, uzayan range, başarısız breakout ve yeniden range görülebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0355",
+    "page": 355,
+    "chapter": 17,
+    "section": "17.3 — Duygusal Evreler ve VIX’in Sınırlı Görevi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  340\n17.2 Dört Faz: Accumulation, Markup, \nDistribution, Markdown\nAccumulation (düşüş sonrasında arzın ilerleme gücünün zayıfladığı ve olası talep birikiminin test \nedildiği range hipotezi), markup (range üstünde kabul sonrası gelişen yükseliş trendi), distribution \n(yükseliş sonrasında talebin ilerleme gücünün zayıfladığı range hipotezi) ve markdown (range altında \nkabul sonrası gelişen düşüş trendi) aynı grafiğin farklı görevleridir.\nFaz Yapısal konum Ekranda aradığım Alternatif açıklama\nAccumulation adayı Belirgin düşüş sonrası range Alt sınırda satışın \nilerleyememesi; üst sınıra artan \ngüç; testlerde arzın azalması.\nRange devamı veya \nredistribution.\nMarkup Range üstünde kabul; HH–HL Yukarı impulse’ta genişleme, \npullback’te kontrollü geri \nçekilme.\nFalse breakout ve range’e \ndönüş.\nDistribution adayı Belirgin yükseliş sonrası range Üst sınırda talebin \nilerleyememesi; alt sınıra artan \nzayıflık.\nRange devamı veya \nreaccumulation.\nMarkdown Range altında kabul; LH–LL Aşağı impulse’ta genişleme, \ntepki yükselişlerinde zayıf \nsonuç.\nFalse breakdown ve range’e \ndönüş.\nTablo 17.2 – Dört fazın görev ayrımı\nEKRANDA NE ARIYORUM?\n• Range’den önce fiyat hangi yönde ve ne kadar süre ilerledi?\n• Range’in üst ve alt sınırları tek fiyat mı, bölge mi?\n• Hangi yöndeki hareket daha geniş spread ve daha iyi kapanış üretiyor?\n• Sınır aşımı sonrası fiyat dışarıda kabul mü, hızlı geri dönüş mü oluşturuyor?\n• Bir sonraki test önceki testten daha mı güçlü, daha mı zayıf?\nVAKA ANALİZİ — FAZ ADI İÇİN ERKEN\nXAGTRYG günlük grafikte sekiz haftalık düşüşten sonra 102–108 TL aralığında hareket ediyor. İlk iki \nhafta yalnız range görüyorum. “Accumulation” yazmıyorum. Alt sınır testinde geniş kırmızı mumlar \nküçülür, fiyat range içine kapanır ve 106 üstüne daha güçlü hareket üretirse accumulation \nhipotezini aday olarak kaydederim. 102 altında kabul oluşursa hipotezi iptal ederim.\n17.3 Duygusal Evreler ve VIX’in Sınırlı Görevi\nDuygusal market cycle; disbelief, hope, optimism, belief, thrill, euphoria, complacency, anxiety, denial, \npanic, capitulation, anger ve depression gibi toplumsal duygu etiketlerini fiyat döngüsüyle eşleştirir. \nBu şema, piyasa yorumlarının hangi yönde aşırılaştığını fark etmeye yardımcı olabilir; fakat bir duygu \nanketi veya sosyal medya dili tek başına faz teyidi değildir.\nDuygusal evre Grafikte olası eşlikçi Karar sınırı\nDisbelief / hope İlk higher low, range üstüne deneme Erken breakout başarısız olabilir.",
+    "source_extract_summary": [
+      "17.2 Dört Faz: Accumulation, Markup, Distribution, Markdown Accumulation (düşüş sonrasında arzın ilerleme gücünün zayıfladığı ve olası talep birikiminin test edildiği range hipotezi), markup (range üstünde kabul sonrası gelişen yükseliş trendi), distribution (yükseliş sonrasında talebin ilerleme gücünün zayıfladığı range hipotezi) ve markdown (range altında kabul sonrası gelişen düşüş trendi) aynı grafiğin farklı görevleridir.",
+      "Faz Yapısal konum Ekranda aradığım Alternatif açıklama Accumulation adayı Belirgin düşüş sonrası range Alt sınırda satışın ilerleyememesi; üst sınıra artan güç; testlerde arzın azalması.",
+      "Markup Range üstünde kabul; HH–HL Yukarı impulse’ta genişleme, pullback’te kontrollü geri çekilme."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0356",
+    "page": 356,
+    "chapter": 17,
+    "section": "17.3 — Duygusal Evreler ve VIX’in Sınırlı Görevi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  341\nDuygusal evre Grafikte olası eşlikçi Karar sınırı\nOptimism / belief Markup ve artan katılım Trend uzamışsa risk mesafesi kontrol edilir.\nThrill / euphoria Parabolik genişleme, medya ilgisi, kaldıraç \nartışı\nTepeyi tahmin etmek yerine yapı ve çıkış \nplanı izlenir.\nAnxiety / denial İlk major yapı kaybı ve başarısız tepki Tek CHoCH ile tam markdown ilan edilmez.\nPanic / capitulation Geniş spread, yüksek oynaklık, zorunlu \nsatış olasılığı\nYüksek hacim tek başına dip değildir; sonuç \nve test beklenir.\nDepression / disbelief İlgi kaybı, daralan hareket, uzun base “Kimse konuşmuyor” tek başına \naccumulation kanıtı değildir.\nTablo 17.3 – Duygusal evrelerin sınırlı kullanımı\nVIX (S&P 500 opsiyon fiyatlarından türetilen beklenen oynaklık göstergesi), ABD hisse piyasasındaki \nrisk ve oynaklık fiyatlaması için bağlam sunar. VIX’in yükselmesi “korku arttı” yorumunu \ndestekleyebilir; ancak XAGTRYG, kripto veya tek bir hisse için evrensel dip göstergesi değildir.\nDOĞRU BİLİNEN YANLIŞ\nMit: Capitulation veya çok yüksek VIX görüldüğünde piyasa mutlaka diptedir.\nGerçeklik: Oynaklık uzun süre yüksek kalabilir ve fiyat yeni dipler üretebilir. Dip hipotezi için satış \nsonucunun zayıflaması, reclaim, test ve yapı iyileşmesi gerekir.\nUygulama Görseli 17.2 – S&P 500 fiyatı ile VIX’in aynı zaman ekseninde, yüksek VIX’in her zaman kesin dip \nüretmediğini gösteren karşılaştırmalı grafik. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Duygusal evre Grafikte olası eşlikçi Karar sınırı Optimism / belief Markup ve artan katılım Trend uzamışsa risk mesafesi kontrol edilir.",
+      "Thrill / euphoria Parabolik genişleme, medya ilgisi, kaldıraç artışı Tepeyi tahmin etmek yerine yapı ve çıkış planı izlenir.",
+      "Anxiety / denial İlk major yapı kaybı ve başarısız tepki Tek CHoCH ile tam markdown ilan edilmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0357",
+    "page": 357,
+    "chapter": 17,
+    "section": "17.4 — Composite Operator ve Kurumsal Niyet",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  342\n17.4 Composite Operator ve Kurumsal Niyet \nSınırı\nComposite Operator (çok sayıdaki büyük katılımcının birleşik etkisini tek bir analitik aktör gibi \ndüşünme metaforu), Wyckoff dilinde piyasayı daha düzenli okumak için kullanılır. Bu metafor, tek bir \nbankanın veya fonun grafikteki her hareketi planladığı anlamına gelmez.\nGözlem İzin verilen yorum Aşırı yorum\nYüksek hacim, küçük fiyat ilerlemesi Karşı tarafta güçlü emir veya absorpsiyon \nolabilir.\n“Kurum kesin burada aldı.”\nRange altı sweep ve hızlı reclaim Alt sınır dışındaki satış devam edemedi. “Stopları bilerek avladılar.”\nBreakout sonrası güçlü follow-through Talep, mevcut fiyatlarda arzı aşmış \ngörünüyor.\n“Büyük fon markup başlattı.”\nÜst sınırda tekrar eden başarısızlık Talep fiyatı yukarı taşımakta zorlanıyor. “Kurum tüm pozisyonunu dağıttı.”\nTablo 17.4 – Gözlem ile niyet iddiasını ayırmak\nAKSİYON TANIMI\nKurumsal davranış ifadesini kullandığımda cümlenin yanına gözlenebilir kanıtı yazarım: “yüksek \nfaaliyet + dar spread + alt sınır reclaim’i.” Kurumun kimliği veya niyeti bilinmiyorsa bunu gerçek \ndeğil hipotez olarak işaretlerim.\nDOĞRU BİLİNEN YANLIŞ\nMit: Yüksek hacim gördüğümde kurumların hangi yönde işlem yaptığını bilirim.\nGerçeklik: Hacim faaliyet miktarını gösterir. Yön ve sonuç; mum spread’i, kapanış, sonraki barlar ve \nyapı ilerlemesiyle değerlendirilir.",
+    "source_extract_summary": [
+      "17.4 Composite Operator ve Kurumsal Niyet Sınırı Composite Operator (çok sayıdaki büyük katılımcının birleşik etkisini tek bir analitik aktör gibi düşünme metaforu), Wyckoff dilinde piyasayı daha düzenli okumak için kullanılır.",
+      "Bu metafor, tek bir bankanın veya fonun grafikteki her hareketi planladığı anlamına gelmez.",
+      "Gözlem İzin verilen yorum Aşırı yorum Yüksek hacim, küçük fiyat ilerlemesi Karşı tarafta güçlü emir veya absorpsiyon olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0358",
+    "page": 358,
+    "chapter": 17,
+    "section": "17.5 — Wyckoff’un Üç Yasası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  343\nŞekil 17.2 – Gözlem, hipotez ve niyet sınırı\n17.5 Wyckoff’un Üç Yasası\nWyckoff’un üç yasası mekanik sinyal üretmekten çok, range ve trendi incelerken hangi sorulara \nbakacağımı düzenler.\nYasa Grafik sorusu Uygulama sınırı\nSupply and Demand Fiyat hangi yönde daha kolay ilerliyor? \nKırılım sonrası kabul var mı?\nTek mum veya tek hacim barıyla arz–talep \ndengesi kesin ölçülmez.\nCause and Effect Range ne kadar süre ve genişlikte hazırlık \noluşturdu?\nUzun cause daha büyük hareket \npotansiyeli yaratabilir; yön ve hedef \ngaranti değildir.\nEffort versus Result Faaliyet/hacim ile fiyat ilerlemesi uyumlu \nmu?\nHacim verisinin merkezi, tick veya venue-\nspecific niteliği kontrol edilir.\nTablo 17.5 – Wyckoff’un üç yasası\nEKRANDA NE ARIYORUM?\n• Aynı miktardaki fiyat hareketi önceki salınımlara göre daha mı kolay, daha mı zor oluşuyor?\n• Range uzarken sınır testleri nasıl değişiyor?\n• Yüksek hacim geniş ve yönlü sonuç mu, dar ve başarısız sonuç mu üretiyor?\n• Breakout sonrasında fiyat range dışındaki alanı koruyabiliyor mu?\n• Cause–effect projeksiyonu ilk teknik engel ve risk planıyla uyumlu mu?\nDOĞRU BİLİNEN YANLIŞ\nMit: Uzun bir accumulation range’i mutlaka aynı oranda büyük yükseliş üretir.\nGerçeklik: Cause–effect bir planlama ilkesi sunar. Yön, hedef ve süre; breakout kalitesi, piyasa \nrejimi ve yeni arz–talep değişimleri nedeniyle farklılaşabilir.",
+    "source_extract_summary": [
+      "Yasa Grafik sorusu Uygulama sınırı Supply and Demand Fiyat hangi yönde daha kolay ilerliyor?",
+      "Tek mum veya tek hacim barıyla arz–talep dengesi kesin ölçülmez.",
+      "Cause and Effect Range ne kadar süre ve genişlikte hazırlık oluşturdu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0359",
+    "page": 359,
+    "chapter": 17,
+    "section": "17.6 — Trading Range ve A–E Faz Mantığı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  344\nŞekil 17.3 – Wyckoff’un üç yasası\n17.6 Trading Range ve A–E Faz Mantığı\nWyckoff fazları, şemadaki harfleri geçmiş grafiğe ezberle yapıştırmak için değil, range’in o anda hangi \nişi yaptığını açıklamak için kullanılır.\nFaz Accumulation’daki iş Distribution’daki iş\nA Önceki düşüşün durmasını ve ilk range \nsınırlarını oluşturmak.\nÖnceki yükselişin durmasını ve ilk range \nsınırlarını oluşturmak.\nB Arz–talep testlerinin tekrarlandığı cause \nalanını inşa etmek.\nTalep–arz testlerinin tekrarlandığı cause \nalanını inşa etmek.\nC Spring veya terminal shakeout ile alt sınırı \ntest etmek; zorunlu değildir.\nUT/UTAD ile üst sınırı test etmek; zorunlu \ndeğildir.\nD SOS ve LPS dizisiyle talep üstünlüğünü \ngöstermek.\nSOW ve LPSY dizisiyle arz üstünlüğünü \ngöstermek.\nE Range üstünde kabul ve markup’a geçiş. Range altında kabul ve markdown’a geçiş.\nTablo 17.6 – A–E fazlarının işlevi\nPhase (range içindeki işlevsel aşama) ile event (PS, SC, spring gibi belirli fiyat olayı) aynı şey değildir. \nAynı fazda birden çok event ve test görülebilir. Gerçek grafikte faz sınırları da kesin bir mumla \nayrılmayabilir.\nDOĞRU BİLİNEN YANLIŞ\nMit: Şemada spring varsa gerçek accumulation’da da mutlaka spring olmalıdır.\nGerçeklik: Bazı range’ler spring olmadan, üst sınırda güçlü kabul ve kontrollü LPS ile markup’a \ngeçebilir. İşlev, olay adından önemlidir.",
+    "source_extract_summary": [
+      "Faz Accumulation’daki iş Distribution’daki iş A Önceki düşüşün durmasını ve ilk range sınırlarını oluşturmak.",
+      "Önceki yükselişin durmasını ve ilk range sınırlarını oluşturmak.",
+      "B Arz–talep testlerinin tekrarlandığı cause alanını inşa etmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0360",
+    "page": 360,
+    "chapter": 17,
+    "section": "17.7 — Accumulation Olayları: PS, SC, AR ve ST",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  345\n17.7 Accumulation Olayları: PS, SC, AR ve ST\nPS — Preliminary Support (uzun düşüş sırasında ilk anlamlı destek ve satış ilerlemesinin yavaşlaması), \nSC — Selling Climax (geniş satış baskısının yüksek faaliyetle sonuca zorlandığı olay), AR — Automatic \nRally (SC sonrasındaki hızlı karşı hareket) ve ST — Secondary Test (SC bölgesinin yeniden sınanması), \nPhase A’nın range sınırlarını kurmasına yardımcı olur.\nOlay Ekranda ne arıyorum? Yanlış okuma riski\nPS Düşüş sürerken artan tepki, hacim/aktivite \nve satış spread’inde değişim.\nHer hacimli tepkiyi dip başlangıcı saymak.\nSC Panik karakterli genişleme, yüksek faaliyet \nve ardından güçlü karşı tepki.\nEn yüksek hacimli barı otomatik dip kabul \netmek.\nAR SC sonrası hızlı yükseliş; olası üst range \nsınırı.\nİlk tepkiyi yeni uptrend ilan etmek.\nST SC bölgesine dönüşte satışın sonuç ve \nfaaliyet kalitesini karşılaştırmak.\nST’nin SC seviyesine birebir değmesini \nzorunlu görmek.\nTablo 17.7 – Accumulation başlangıç olayları\nNASIL OKUNUR?\nSC etiketini yalnız büyük kırmızı mum gördüğüm için koymam. Önce bu hareketin önceki düşüşe \ngöre aşırı genişleyip genişlemediğine, ardından AR’nin range kurup kurmadığına ve ST’de satışın \naynı sonucu üretip üretmediğine bakarım.\nVAKA ANALİZİ — SC Mİ, DEVAM MI?\nXAGTRYG 4S grafikte 105’ten 101’e geniş düşüş mumu ve yüksek hacim oluşuyor. Sonraki mumlar \n104’e hızlı tepki verirse 101’i olası SC olarak işaretlerim. Fiyat 102’ye döndüğünde hacim düşüyor, \nspread daralıyor ve kapanışlar dipten uzaklaşıyorsa ST hipotezi güçlenir. 101 altında geniş kabul \noluşursa “SC” etiketini kaldırır, markdown devamını esas alırım.",
+    "source_extract_summary": [
+      "17.7 Accumulation Olayları: PS, SC, AR ve ST PS — Preliminary Support (uzun düşüş sırasında ilk anlamlı destek ve satış ilerlemesinin yavaşlaması), SC — Selling Climax (geniş satış baskısının yüksek faaliyetle sonuca zorlandığı olay), AR — Automatic Rally (SC sonrasındaki hızlı karşı hareket) ve ST — Secondary Test (SC bölgesinin yeniden sınanması), Phase A’nın range sınırlarını kurmasına yardımcı olur.",
+      "Yanlış okuma riski PS Düşüş sürerken artan tepki, hacim/aktivite ve satış spread’inde değişim.",
+      "Her hacimli tepkiyi dip başlangıcı saymak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0361",
+    "page": 361,
+    "chapter": 17,
+    "section": "17.8 — Spring, Reclaim ve Test",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  346\nUygulama Görseli 17.3 – XAGTRYG 4 saatlik grafikte PS–SC–AR–ST olaylarının ve range sınırlarının \ngösterildiği gerçek grafik. Temsilî eğitim şeması.\n17.8 Spring, Reclaim ve Test\nSpring (accumulation range’inin alt sınırının kısa süre aşılması ve fiyatın yeniden range içine dönmesi), \ntek başına dip veya giriş değildir. Önce sınır aşımı, sonra reclaim, daha sonra test ve talep sonucu \naranır.\nAdım Bullish hipotezi destekleyen Hipotezi zayıflatan\nSınır aşımı Aşağı devam sınırlı; mum range içine yakın \nveya üzerinde kapanıyor.\nAlt sınır altında geniş kapanış ve ardışık \ndevam.\nReclaim Range içine hızlı dönüş, güçlü close ve \nsonraki barlarda koruma.\nKısa reclaim sonrası yeniden dışarı kabul.\nTest Daha düşük satış hacmi/aktivitesi, daha dar \nspread ve higher low.\nAynı veya daha güçlü satışla yeni dip.\nSonuç Range ortasına/üstüne güçlü hareket; \nmicro BOS/SOS.\nTalep sonucu yok; fiyat alt yarıda sıkışıyor.\nTablo 17.8 – Spring doğrulama zinciri\nEKRANDA NE ARIYORUM?\n• Spring’den önce anlamlı bir downtrend ve tanımlı accumulation range’i var mı?\n• Alt sınır aşımı wick mi, kapanış mı; fiyat ne kadar hızlı geri döndü?\n• Reclaim sonrasında satış testi daha az çaba ve daha az sonuç mu üretiyor?\n• Range ortası ve üst yarısı geri alınabiliyor mu?\n• Geçersizlik alt sınır dışındaki hangi kabul davranışıdır?",
+    "source_extract_summary": [
+      "Uygulama Görseli 17.3 – XAGTRYG 4 saatlik grafikte PS–SC–AR–ST olaylarının ve range sınırlarının gösterildiği gerçek grafik.",
+      "17.8 Spring, Reclaim ve Test Spring (accumulation range’inin alt sınırının kısa süre aşılması ve fiyatın yeniden range içine dönmesi), tek başına dip veya giriş değildir.",
+      "Önce sınır aşımı, sonra reclaim, daha sonra test ve talep sonucu aranır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Konum ve seviye yaşam döngüsü",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0362",
+    "page": 362,
+    "chapter": 17,
+    "section": "17.9 — SOS, LPS ve Markup’a Geçiş",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  347\nDOĞRU BİLİNEN YANLIŞ\nMit: Destek altındaki her iğne Wyckoff spring’idir.\nGerçeklik: Spring; düşüş sonrası accumulation adayı içinde, range sınırı ve sonraki testlerle anlam \nkazanır. Trend ortasındaki rastgele sweep spring değildir.\nŞekil 17.4 – Olay, test ve geçersizlik zinciri\n17.9 SOS, LPS ve Markup’a Geçiş\nSOS — Sign of Strength (range üst yarısına veya üst sınırın dışına güçlü fiyat ilerlemesi) ve LPS — Last \nPoint of Support (SOS sonrasında eski direncin veya yükselen yapının kontrollü destek testi), Phase \nD’nin temel kanıtlarıdır.\nKontrol SOS için LPS için\nSpread / kapanış Geniş bullish spread; üst bölgeye yakın \nkapanış.\nDaralan bearish spread; dipten uzak \nkapanış.\nHacim / faaliyet Artabilir; fiyat sonucu da aynı yönde güçlü \nolmalı.\nGeri çekilmede azalması tercih edilir; \nmutlak kural değildir.\nYapı Range içi lower high kırılır; üst sınır test \nedilir veya aşılır.\nHigher low ve eski direnç üzerinde \ntutunma.\nBaşarısızlık Breakout sonrası hızlı range içine dönüş. Destek testinin altına kabul ve SOS \nbaşlangıcının kaybı.\nTablo 17.9 – SOS ve LPS kontrolü\nEYLEM DİLİ\nSpring’i yakalamaya çalışmak yerine SOS sonrasında LPS bekleyebilirim. Daha geç fiyat alırım; \nkarşılığında accumulation hipotezinin Phase D’ye geçtiğine dair daha fazla kanıt elde ederim.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Destek altındaki her iğne Wyckoff spring’idir.",
+      "Gerçeklik: Spring; düşüş sonrası accumulation adayı içinde, range sınırı ve sonraki testlerle anlam kazanır.",
+      "Trend ortasındaki rastgele sweep spring değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0363",
+    "page": 363,
+    "chapter": 17,
+    "section": "17.10 — Distribution Olayları: PSY, BC, AR ve ST",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  348\nVAKA ANALİZİ — ERKEN VE TEYİTLİ OKUMA\nXAGTRYG range’i 102–108 TL. Spring 101,70’te oluşuyor. Agresif yaklaşım reclaim sonrası alt TF \ntetik arar. Teyitli yaklaşım 108 üzerindeki SOS kapanışını ve 107,40–108 bölgesine LPS dönüşünü \nbekler. İki yaklaşım aynı şey değildir; giriş fiyatı, teyit miktarı ve invalidation mesafesi değişir.\nŞekil 17.5 – Accumulation faz ve olay haritası\n17.10 Distribution Olayları: PSY, BC, AR ve ST\nPSY — Preliminary Supply (uzun yükselişte ilk belirgin arz ve ilerleme zorluğu), BC — Buying Climax \n(coşkulu alımın yüksek faaliyetle sonuca zorlandığı olay), AR — Automatic Reaction (BC sonrasındaki \nhızlı düşüş) ve ST — Secondary Test (BC bölgesinin yeniden sınanması), olası distribution range’inin ilk \nsınırlarını kurar.\nOlay Ekranda ne arıyorum? Yanlış okuma riski\nPSY Yükseliş sürerken artan satış tepkisi ve \nyukarı ilerlemenin yavaşlaması.\nHer red candle’ı dağıtım başlangıcı saymak.\nBC Geniş bullish hareket, yüksek faaliyet, fakat \ntakipte yeni fiyat kabulünün zayıflaması.\nEn yüksek hacimli tepeyi otomatik BC \nseçmek.\nAR BC sonrasında hızlı geri çekilme; olası alt \nrange sınırı.\nİlk düşüşü kesin markdown saymak.\nST BC/üst sınır bölgesine dönüşte talebin \nönceki sonucu üretip üretemediğini \nkarşılaştırmak.\nST’nin mutlaka BC üstüne gitmesini \nbeklemek.\nTablo 17.10 – Distribution başlangıç olayları\nNASIL OKUNUR?\nBC adayından sonra fiyat yeniden tepe bölgesine giderken aynı hacimle daha az yukarı sonuç \nüretiyorsa talep verimliliği düşüyor olabilir. Yine de distribution teyidi için alt sınır yönünde zayıflık \nve başarısız geri dönüş gerekir.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — ERKEN VE TEYİTLİ OKUMA XAGTRYG range’i 102–108 TL.",
+      "Agresif yaklaşım reclaim sonrası alt TF tetik arar.",
+      "Teyitli yaklaşım 108 üzerindeki SOS kapanışını ve 107,40–108 bölgesine LPS dönüşünü bekler."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Deney ve strateji kartı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0364",
+    "page": 364,
+    "chapter": 17,
+    "section": "17.11 — Upthrust, UTAD ve Test",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  349\n17.11 Upthrust, UTAD ve Test\nUpthrust — UT (distribution range’inin üst sınırının başarısız kısa aşımı) ve UTAD — Upthrust After \nDistribution (geç range aşamasında görülen daha belirgin üst sınır tuzağı), spring’in tersine benzer; \nfakat tek başına short veya kesin tepe değildir.\nAdım Bearish hipotezi destekleyen Hipotezi zayıflatan\nÜst sınır aşımı Fiyat dışarıda tutunamıyor; range içine geri \nkapanıyor.\nÜst sınır üzerinde güçlü kabul ve follow-\nthrough.\nRejection Üst wick, zayıf close, sonraki barlarda satış \nilerlemesi.\nRejection sonrası hızlı yeni high.\nTest Daha az talep sonucu; lower high veya \nbaşarısız retest.\nTalep geniş spread ve güçlü close ile geri \ngeliyor.\nSonuç Range altına SOW veya iç yapıda bearish \nilerleme.\nRange alt yarısına bile ilerleyememe.\nTablo 17.11 – Upthrust doğrulama zinciri\nDOĞRU BİLİNEN YANLIŞ\nMit: Direnç üstündeki her wick upthrust ve short fırsatıdır.\nGerçeklik: Upthrust; yükseliş sonrası distribution adayı içinde, talep kaybı ve sonraki bearish \nsonuçla anlam kazanır. Güçlü trendde wick yalnız breakout testi olabilir.\nVAKA ANALİZİ — XAGTRYG ÜST SINIR TESTİ\nXAGTRYG günlük range’i 116–122 TL. Fiyat 122,60’a iğne atıp 121,40’ta kapanıyor. Bunu UT adayı \nolarak işaretlerim; hemen short açmam. Sonraki yükseliş 122’ye ulaşamıyor, hacim artmasına \nrağmen spread daralıyor ve 119 altında bearish yapı oluşuyorsa distribution hipotezi güçlenir. 123 \nüzerinde kabul hipotezi iptal eder.",
+    "source_extract_summary": [
+      "17.11 Upthrust, UTAD ve Test Upthrust — UT (distribution range’inin üst sınırının başarısız kısa aşımı) ve UTAD — Upthrust After Distribution (geç range aşamasında görülen daha belirgin üst sınır tuzağı), spring’in tersine benzer; fakat tek başına short veya kesin tepe değildir.",
+      "Adım Bearish hipotezi destekleyen Hipotezi zayıflatan Üst sınır aşımı Fiyat dışarıda tutunamıyor; range içine geri kapanıyor.",
+      "Üst sınır üzerinde güçlü kabul ve follow- through."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0365",
+    "page": 365,
+    "chapter": 17,
+    "section": "17.13 — Reaccumulation ve Redistribution",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  350\nŞekil 17.6 – Distribution faz ve olay haritası\n17.12 SOW, LPSY ve Markdown’a Geçiş\nSOW — Sign of Weakness (range alt yarısına veya alt sınır dışına güçlü aşağı ilerleme) ve LPSY — Last \nPoint of Supply (SOW sonrasındaki zayıf tepkinin eski desteği direnç olarak test etmesi), Phase D/E \ngeçişinde arz üstünlüğünü değerlendirmek için kullanılır.\nKontrol SOW için LPSY için\nSpread / kapanış Geniş bearish spread; alt bölgeye yakın \nkapanış.\nDar veya başarısız bullish spread; tepeden \nuzak kapanış.\nHacim / faaliyet Artabilir; fiyat sonucu aşağı yönde güçlü \nolmalı.\nTepki yükselişinde hacim azalabilir veya \nyüksek çabaya rağmen sonuç sınırlı \nkalabilir.\nYapı Range içi higher low kırılır; alt sınır test \nedilir veya aşılır.\nLower high ve eski destek altında tutunma.\nBaşarısızlık Breakdown sonrası hızlı range içine dönüş. Eski desteğin güçlü reclaim’i ve üst yarıya \nkabul.\nTablo 17.12 – SOW ve LPSY kontrolü\nEYLEM DİLİ\nUpthrust’ta tepe tahmini yapmak yerine SOW ve LPSY bekleyebilirim. Daha geç short veya çıkış \nkararı veririm; karşılığında range’den markdown’a geçişin daha görünür olmasını beklerim.\n17.13 Reaccumulation ve Redistribution\nReaccumulation (mevcut markup içinde trend devamı için oluşan ara range) ve redistribution (mevcut \nmarkdown içinde düşüş devamı için oluşan ara range), “range gördüm, trend bitti” yanılgısını önler.",
+    "source_extract_summary": [
+      "Kontrol SOW için LPSY için Spread / kapanış Geniş bearish spread; alt bölgeye yakın kapanış.",
+      "Dar veya başarısız bullish spread; tepeden uzak kapanış.",
+      "Hacim / faaliyet Artabilir; fiyat sonucu aşağı yönde güçlü olmalı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Konum ve seviye yaşam döngüsü",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0366",
+    "page": 366,
+    "chapter": 17,
+    "section": "17.14 — Effort–Result ile Fiyat–Hacim Okuması",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  351\nSoru Reaccumulation lehine Redistribution lehine\nÖnceki trend Markup / HH–HL Markdown / LH–LL\nRange içi davranış Alt sınır testleri zayıflar; üst sınıra baskı \nartar.\nÜst sınır testleri zayıflar; alt sınıra baskı \nartar.\nFaz D kanıtı SOS, LPS ve yukarı kabul. SOW, LPSY ve aşağı kabul.\nYanlış sınıflandırma riski Distribution sanılıp güçlü trend erken \nshortlanabilir.\nAccumulation sanılıp düşen trend erken \nalınabilir.\nTablo 17.13 – Reaccumulation ve redistribution ayrımı\nEKRANDA NE ARIYORUM?\n• Range’den önce ana trend gerçekten bozuldu mu, yoksa yalnız impulse durdu mu?\n• Protected swing kırıldı mı?\n• Range dışı ilk hareket hangi yönde kabul üretiyor?\n• Geri test eski trend yönünü destekliyor mu?\n• Üst zaman fazı ile işlem zaman dilimi aynı şeyi mi söylüyor?\nDOĞRU BİLİNEN YANLIŞ\nMit: Uzun yükselişten sonraki her yatay alan distribution’dır.\nGerçeklik: Trend protected low’u koruyor, range üstüne SOS ve LPS üretiyorsa yapı reaccumulation \nolabilir. Konum tek başına karar vermez.\n17.14 Effort–Result ile Fiyat–Hacim Okuması\nEffort versus Result (hacim veya işlem aktivitesini çaba; fiyat spread’i, kapanış ve follow-through’u \nsonuç olarak karşılaştırma), tek bir “hacim yükseldi/yükselmedi” tablosundan daha zengindir. Çabanın \nhangi konumda, hangi fiyat sonucu ve hangi sonraki hareketi ürettiğine bakılır.\nEffort Result Olası okuma Gerekli sonraki kontrol\nYüksek Geniş yükseliş ve iyi close Talep ilerliyor olabilir. Breakout kabulü ve pullback \nkalitesi.\nYüksek Dar yükseliş / üst wick Yukarıda karşı arz veya \nabsorpsiyon olabilir.\nSonraki testte talep sonucu.\nYüksek Geniş düşüş ve zayıf close Arz ilerliyor olabilir. Breakdown kabulü ve tepki \nkalitesi.\nYüksek Dar düşüş / alt wick Aşağıda karşı talep veya \nabsorpsiyon olabilir.\nReclaim ve test.\nDüşük Kontrollü pullback Karşı yöndeki baskı zayıf \nolabilir.\nAna trend yönünde yeniden \ngenişleme.\nDüşük Breakout Katılım eksik olabilir; fakat \ndüşük likidite piyasasında veri \nayrıca değerlendirilir.\nFollow-through ve maliyet.",
+    "source_extract_summary": [
+      "Soru Reaccumulation lehine Redistribution lehine Önceki trend Markup / HH–HL Markdown / LH–LL Range içi davranış Alt sınır testleri zayıflar; üst sınıra baskı artar.",
+      "Üst sınır testleri zayıflar; alt sınıra baskı artar.",
+      "Faz D kanıtı SOS, LPS ve yukarı kabul."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Göreceli katılım ve hacim özellikleri",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0367",
+    "page": 367,
+    "chapter": 17,
+    "section": "17.15 — Tam Wyckoff İş Akışı ve Vaka Analizleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  352\nTablo 17.14 – Effort–result matrisi\nVERİ SINIRI\nMerkezi borsa hacmi, kripto borsasına özgü hacim ve forex tick volume aynı veri değildir. Effort–\nresult yorumunu yapmadan önce hangi hacmi gördüğümü ve veri akışının eksik olup olmadığını \ndoğrularım.\nDOĞRU BİLİNEN YANLIŞ\nMit: Fiyat yükselirken hacim düşüyorsa her zaman bearish divergence vardır.\nGerçeklik: Hacim; trend aşaması, volatilite, piyasa türü ve fiyatın katettiği mesafeyle birlikte \nyorumlanır. Düşük hacimli kontrollü pullback bullish continuation ile uyumlu olabilir.\n17.15 Tam Wyckoff İş Akışı ve Vaka Analizleri\nWyckoff analizini tamamlanmış şema aramak yerine aşağıdaki karar zinciriyle uygularım.\nAşama Yazacağım soru Çıktı\n1  Konum Range’den önce hangi trend ve hangi \nmajor swing vardı?\nHTF bağlamı ve sınırlar.\n2  Faz Range şu anda hangi işi yapıyor; alternatif \nhipotez ne?\nA/B/C/D/E adayı + alternatif.\n3  Olay SC/BC, spring/UT veya SOS/SOW benzeri \nhangi olay oluştu?\nOlay etiketi ve zaman damgası.\n4  Test Çaba, spread, close ve follow-through nasıl \ndeğişti?\nHipotez güçleniyor/zayıflıyor.\n5  Yapı SOS/LPS veya SOW/LPSY ile kabul var mı? Trend geçişi veya range devamı.\n6  Plan Tetik, invalidation, hedef ve no-trade \nnedir?\nBölüm 12–13 uyumlu setup kartı.\n7  Kayıt Hangi kanıt etiketi değiştirdi veya iptal \netti?\nScreenshot ve karar izi.",
+    "source_extract_summary": [
+      "Effort– result yorumunu yapmadan önce hangi hacmi gördüğümü ve veri akışının eksik olup olmadığını doğrularım.",
+      "DOĞRU BİLİNEN YANLIŞ Mit: Fiyat yükselirken hacim düşüyorsa her zaman bearish divergence vardır.",
+      "Gerçeklik: Hacim; trend aşaması, volatilite, piyasa türü ve fiyatın katettiği mesafeyle birlikte yorumlanır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Deney ve strateji kartı",
+      "Göreceli katılım ve hacim özellikleri",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0368",
+    "page": 368,
+    "chapter": 17,
+    "section": "17.15 — Tam Wyckoff İş Akışı ve Vaka Analizleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  353\nTablo 17.15 – Tam Wyckoff çalışma akışı\nŞekil 17.7 – Tam Wyckoff iş akışı\nVaka 1 — XAGTRYG Accumulation Adayından Markup’a\nAdım Temsili gözlem Karar\nKonum Günlük düşüş 118’den 102’ye; 102–108 \nrange’i.\nDüşüş sonrası range, accumulation yalnız \naday.\nOlay 101,70 spring; aynı gün 102,80 kapanış. Alt sınır reclaim edildi.\nTest 103’e geri çekilmede hacim azalıyor; yeni \ndip yok.\nArz sonucu zayıflıyor.\nYapı 106 iç lower high kırılıyor; 108,20 SOS \nkapanışı.\nPhase D ihtimali.\nLPS 107,50 dönüşü korunuyor; bullish close. Markup planı değerlendirilebilir.\nİptal 101,70 altı kabul veya LPS bölgesi altında \ngüçlü satış.\nAccumulation hipotezi iptal.\nTablo 17.16 – XAGTRYG accumulation vaka akışı\nVaka 2 — Distribution mı, Reaccumulation mı?\nXAGTRYG 110’dan 122’ye markup yaptıktan sonra 116–122 range’ine giriyor. Üst sınırdaki wick’i tek \nbaşına distribution saymam. İki alternatif senaryo yazarım:\nAlternatif Gerekli kanıt İptal\nDistribution UT/UTAD sonrası lower high; 116 altına \nSOW; 116–118 geri testinde LPSY.\n122 üzerinde güçlü kabul ve LPS.\nReaccumulation 116 korunur; 122 üstüne SOS; 121–122 \nLPS ve trend devamı.\n116 altında kabul ve başarısız reclaim.",
+    "source_extract_summary": [
+      "Düşüş sonrası range, accumulation yalnız aday.",
+      "Olay 101,70 spring; aynı gün 102,80 kapanış.",
+      "Test 103’e geri çekilmede hacim azalıyor; yeni dip yok."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0369",
+    "page": 369,
+    "chapter": 17,
+    "section": "17.15 — Tam Wyckoff İş Akışı ve Vaka Analizleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  354\nTablo 17.17 – Aynı range için iki hipotez\nEYLEM DİLİ\nGrafiğe tek hikâye yazmam. Birincil ve alternatif faz hipotezini, her biri için gereken kanıt ve iptal \nkoşuluyla kaydederim. Yeni mum geldiğinde etiketi savunmak yerine kanıtı güncellerim.\nUygulama Görseli 17.4 – Aynı XAGTRYG range’inin distribution ve reaccumulation alternatifleriyle iki ayrı \nanotasyon halinde gösterildiği gerçek grafik. Temsilî eğitim şeması.\nHızlı Başvuru\nGördüğüm İlk kontrol Varsayılan eylem\nDüşüş sonrası range Satış ilerlemesi ve alt sınır testleri Accumulation etiketi için acele etme.\nAlt sınır sweep Reclaim, test ve range ortasına sonuç Spring adayı; tetik için test bekle.\nRange üstü hareket Kapanış, follow-through ve LPS SOS veya false breakout ayrımı.\nYükseliş sonrası range Talep sonucu ve alt sınıra zayıflık Distribution/reaccumulation alternatiflerini \nkoru.\nÜst sınır wick Rejection, test ve SOW UT adayı; hemen shortlama.\nYüksek hacim, dar spread Konum ve sonraki sonuç Karşı emir/absorpsiyon hipotezi; kimlik \niddiası yok.\nVIX sıçraması Hisse bağlamı, fiyat yapısı ve test Korku bağlamı; otomatik dip sinyali değil.\nŞema uyuşmuyor Fazın işlevi ve alternatif açıklama Olay harflerini zorla yerleştirme.\nTablo 17.18 – Hızlı başvuru\nGrafik Başı Kontrol Listesi\n Önceki trend ve protected swing açıkça işaretli.\n Range sınırları tek fiyat yerine gerektiğinde bölge olarak çizildi.",
+    "source_extract_summary": [
+      "Birincil ve alternatif faz hipotezini, her biri için gereken kanıt ve iptal koşuluyla kaydederim.",
+      "Yeni mum geldiğinde etiketi savunmak yerine kanıtı güncellerim.",
+      "Uygulama Görseli 17.4 – Aynı XAGTRYG range’inin distribution ve reaccumulation alternatifleriyle iki ayrı anotasyon halinde gösterildiği gerçek grafik."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0370",
+    "page": 370,
+    "chapter": 17,
+    "section": "17.15 — Tam Wyckoff İş Akışı ve Vaka Analizleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  355\n Birincil faz hipotezi ile alternatif hipotez birlikte yazıldı.\n Olay etiketi gözlenebilir fiyat davranışına dayanıyor.\n Spring/UT sonrası reclaim ve test kontrol edildi.\n Hacim verisinin türü ve kalitesi doğrulandı.\n Effort–result yorumu tek barla değil diziyle yapıldı.\n SOS/LPS veya SOW/LPSY görülmeden trend geçişi kesinleştirilmedi.\n Kurumsal kimlik veya niyet kesin gerçek gibi yazılmadı.\n Giriş, invalidation, hedef ve no-trade Bölüm 12–13 kurallarıyla uyumlu.\n Yeni veri hipotezi bozduğunda etiket değiştirildi.\nTemel Sözlük\nTerim Aksiyon tanımı\nMarket cycle Trend–range–trend geçişlerini fazlar üzerinden koşullu olarak \nharitalamak.\nAccumulation Düşüş sonrası range’de arz ilerlemesinin zayıflaması ve talep \nhipotezini test etmek.\nMarkup Range üstünde kabul sonrası HH–HL yönlü yükseliş trendini \nizlemek.\nDistribution Yükseliş sonrası range’de talep ilerlemesinin zayıflaması ve arz \nhipotezini test etmek.\nMarkdown Range altında kabul sonrası LH–LL yönlü düşüş trendini izlemek.\nComposite Operator Büyük katılımcıların birleşik etkisini düşünmek için analitik \nmetafor kullanmak.\nPhase Range’in o anda yaptığı işi A–E aşamalarından biriyle özetlemek.\nEvent SC, spring, SOS veya UT gibi belirli fiyat olayını işaretlemek.\nTest Önceki olayın arz–talep sonucunu daha sonraki fiyat ve hacim \ndavranışıyla yeniden sınamak.\nPS / PSY Düşüşte ilk support veya yükselişte ilk supply işaretini aday olarak \nbelirlemek.\nSC / BC Selling veya buying climax olayını, sonuç ve sonraki AR ile birlikte \ndeğerlendirmek.\nAR Climax sonrasındaki automatic rally/reaction ile olası range sınırını \nkurmak.\nST Climax bölgesinin secondary test’inde çaba ve sonucu \nkarşılaştırmak.\nSpring Accumulation alt sınırının kısa aşımı ve reclaim/test dizisini \nizlemek.\nUT / UTAD Distribution üst sınırının başarısız aşımı ve talep testini izlemek.\nSOS / SOW Range’den güç veya zayıflık yönünde anlamlı fiyat ilerlemesini \ndoğrulamak.\nLPS / LPSY SOS/SOW sonrası eski sınırın support/supply olarak geri testini \nizlemek.\nReaccumulation Markup içindeki range’in trend devamı üretip üretmediğini test \netmek.",
+    "source_extract_summary": [
+      " Birincil faz hipotezi ile alternatif hipotez birlikte yazıldı.",
+      " Olay etiketi gözlenebilir fiyat davranışına dayanıyor.",
+      " Spring/UT sonrası reclaim ve test kontrol edildi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Deney ve strateji kartı",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0371",
+    "page": 371,
+    "chapter": 17,
+    "section": "17.15 — Tam Wyckoff İş Akışı ve Vaka Analizleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  356\nTerim Aksiyon tanımı\nRedistribution Markdown içindeki range’in düşüş devamı üretip üretmediğini \ntest etmek.\nCause–effect Range hazırlığını olası trend potansiyeliyle ilişkilendirip garantiye \ndönüştürmemek.\nEffort–result Hacim/aktivite ile fiyat spread’i, kapanış ve follow-through’u \nkarşılaştırmak.\nVIX ABD hisse opsiyonlarından türetilen beklenen oynaklığı bağlam \nolarak izlemek.\nTablo 17.19 – Bölüm 17 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Piyasa döngüsü neden kesin takvim değildir?\n2. Accumulation ile sıradan range nasıl ayrılır?\n3. Markup başlangıcında hangi kabul davranışı aranır?\n4. Distribution neden yalnız “tepe bölgesi” değildir?\n5. Markdown hangi yapısal işaretlerle doğrulanır?\n6. Duygusal market cycle neden otomatik sinyal değildir?\n7. VIX hangi piyasa ve veri bağlamını ölçer?\n8. Composite Operator neden metafordur?\n9. Grafikten kurum kimliği ve niyeti neden kesinleştirilemez?\n10. Wyckoff’un üç yasası nelerdir?\n11. Supply–demand yasası grafikte hangi soruyu üretir?\n12. Cause–effect neden hedef garantisi değildir?\n13. Effort–result hangi iki veri ailesini karşılaştırır?\n14. Phase ile event arasındaki fark nedir?\n15. Phase A’nın accumulation ve distribution’daki görevi nedir?\n16. Phase B neden cause inşa alanıdır?\n17. Phase C neden her şemada aynı olayla görünmez?\n18. PS, SC, AR ve ST hangi işlevleri taşır?\n19. Selling climax neden tek başına dip değildir?\n20. Spring hangi dört adımla doğrulanır?\n21. Spring olmadan accumulation tamamlanabilir mi?\n22. SOS ve LPS hangi faz geçişini destekler?\n23. PSY, BC, AR ve ST distribution’da nasıl okunur?\n24. Upthrust neden her direnç üstü wick değildir?\n25. SOW ve LPSY hangi markdown kanıtını sağlar?\n26. Reaccumulation ile distribution nasıl ayrılır?\n27. Redistribution ile accumulation nasıl ayrılır?\n28. Yüksek hacim ve küçük fiyat sonucu ne düşündürebilir?\n29. Hacim verisinin türü effort–result yorumunu neden etkiler?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Redistribution Markdown içindeki range’in düşüş devamı üretip üretmediğini test etmek.",
+      "Cause–effect Range hazırlığını olası trend potansiyeliyle ilişkilendirip garantiye dönüştürmemek.",
+      "Effort–result Hacim/aktivite ile fiyat spread’i, kapanış ve follow-through’u karşılaştırmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Göreceli katılım ve hacim özellikleri",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0372",
+    "page": 372,
+    "chapter": 17,
+    "section": "17.15 — Tam Wyckoff İş Akışı ve Vaka Analizleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 17\nPiyasa Döngüleri, Wyckoff ve Kurumsal Davranış  •  357\n30. Birincil ve alternatif faz hipotezi neden birlikte yazılır?\n31. Tam Wyckoff iş akışının yedi aşaması nelerdir?32. Bölüm 17’nin Bölüm 18’e bıraktığı ana konu nedir?",
+    "source_extract_summary": [
+      "Birincil ve alternatif faz hipotezi neden birlikte yazılır?",
+      "Tam Wyckoff iş akışının yedi aşaması nelerdir?32.",
+      "Bölüm 17’nin Bölüm 18’e bıraktığı ana konu nedir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0419",
+    "page": 419,
+    "chapter": 20,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası \nİlişkiler\nTahvil nakit akışından faiz rejimi ve çapraz varlık karar sistemine",
+    "source_extract_summary": [
+      "BÖLÜM 20 Tahviller, Faizler ve Piyasalar Arası İlişkiler Tahvil nakit akışından faiz rejimi ve çapraz varlık karar sistemine"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0420",
+    "page": 420,
+    "chapter": 20,
+    "section": "20.1 — Tahvil Piyasası Neden İzlenir?",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  405\nBu Bölümün Amacı\nTahvil piyasasını öğrenmek yalnız tahvil almak isteyen yatırımcılar için gerekli değildir. Yield; \nfinansman maliyetini, gelecekteki nakit akışlarının bugünkü değerini, para birimleri arasındaki getiri \nfarkını ve riskli varlıkların fırsat maliyetini etkileyen ana değişkenlerden biridir.\nBununla birlikte “yield yükseldi, şu varlık düşer” şeklindeki otomatik kurallar güvenilir değildir. Aynı \nhareket güçlü büyüme beklentisinden, yüksek enflasyondan, merkez bankası politikasından, artan \ntahvil arzından veya risk priminden doğabilir. Bu bölümde önce tahvil sözleşmesini okuyacak, sonra \nyield hareketinin nedenini ve diğer piyasalardaki etkisini test edeceksiniz.\nBÖLÜM SONUNDA\n• Bond, issuer, principal, coupon, maturity ve yield terimlerini görevleriyle ayırabileceksiniz.\n• Coupon rate, current yield ve YTM arasındaki farkı açıklayabileceksiniz.\n• Bond price ile yield’in neden ters hareket ettiğini hesaplayabileceksiniz.\n• Maturity ve duration’ın faiz duyarlılığını nasıl değiştirdiğini okuyabileceksiniz.\n• 2Y ve 10Y yield ile yield curve’ü seviye ve eğim olarak inceleyebileceksiniz.\n• Nominal ve real yield farkını değerli metal ve riskli varlık bağlamına bağlayabileceksiniz.\n• Faiz hareketinin hisse, döviz, altın/gümüş ve kriptoya aktarımını tek nedenli kurallara düşmeden \nyorumlayabileceksiniz.\n• XAGTRYG için XAGUSD ve USDTRY bacaklarını faiz rejimiyle birlikte analiz edebileceksiniz.\n• Correlation ve diversification kararını sabit varsayım yerine rolling ve rejimsel veriyle \ndeğerlendirebileceksiniz.\n20.1 Tahvil Piyasası Neden İzlenir?\nTahvil piyasası, bugünkü sermaye ile gelecekteki nakit akışının hangi getiri karşılığında değiştirildiğini \ngösterir. Bu nedenle yalnız “borçlanma ürünü” değil; ekonomi genelindeki para maliyetinin, inflation \nbeklentisinin, credit riskin ve risk iştahının ölçüldüğü bir fiyatlama alanıdır.\nGrafiği açtığımda ilk sorum “10 yıllık yield yükseliyor mu?” değildir. Önce hangi ülkenin, hangi vadenin \nve hangi ürünün grafiğine baktığımı doğrularım. Sonra hareketin kısa vadeli policy expectation mı, \nuzun vadeli growth/inflation beklentisi mi, yoksa credit veya liquidity stresi mi olabileceğini \naraştırırım.\nEKRANDA NE ARIYORUM?\n• Issuer ve currency: Hangi ülke veya şirket, hangi para birimi?\n• Maturity: 2 yıl, 5 yıl, 10 yıl veya 30 yıl mı?\n• Gösterilen seri price mı, yield mi?\n• Hareket yalnız bir vadede mi, curve’ün tamamında mı?\n• Hisse, döviz ve emtia aynı anda nasıl tepki veriyor?\nDOĞRU BİLİNEN YANLIŞ\n“Tahviller bütün piyasaları kontrol eder.” Tahvil ve yield piyasası güçlü bir finansman ve iskonto \nkanalıdır; earnings, politika, döviz, likidite ve arz–talep gibi diğer sürücülerle birlikte çalışır.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Tahvil piyasasını öğrenmek yalnız tahvil almak isteyen yatırımcılar için gerekli değildir.",
+      "Yield; finansman maliyetini, gelecekteki nakit akışlarının bugünkü değerini, para birimleri arasındaki getiri farkını ve riskli varlıkların fırsat maliyetini etkileyen ana değişkenlerden biridir.",
+      "Bununla birlikte “yield yükseldi, şu varlık düşer” şeklindeki otomatik kurallar güvenilir değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0421",
+    "page": 421,
+    "chapter": 20,
+    "section": "20.2 — Tahvil Sözleşmesi: Issuer, Principal,",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  406\nŞekil 20.1 – Tahvilin sözleşmeye dayalı nakit akışı\n20.2 Tahvil Sözleşmesi: Issuer, Principal, \nCoupon ve Maturity\nBond (tahvil), yatırımcının issuer’a borç verdiğini temsil eden bir sözleşmedir. Issuer (ihraççı), parayı \nkullanan devlet, şirket veya başka kurumdur. Principal ya da face value (anapara/nominal değer), \nsözleşmenin vade sonunda geri ödemeyi vaat ettiği tutardır. Coupon (kupon), sözleşmeye göre yapılan \nfaiz ödemesidir. Maturity (vade), principalın geri ödenmesinin planlandığı tarihtir.\nBu tanımın iki önemli koşulu vardır. Birincisi, her tahvil aynı ödeme yapısına sahip değildir; zero-\ncoupon veya floating-rate ürünler bulunabilir. İkincisi, principalın geri dönmesi issuer’ın \nyükümlülüklerini yerine getirmesine bağlıdır. Sözleşme, riskin ortadan kalktığı anlamına gelmez.\nTerim Ne ifade eder? Eylem sorusu\nIssuer Borç alan devlet, şirket veya kurum. Ödeme kapasitesi ve para birimi nedir?\nPrincipal / Face value Vade sonunda geri ödenmesi vaat edilen \nnominal tutar.\nPiyasa price’ı nominalin üstünde mi altında \nmı?\nCoupon rate Nominal değer üzerinden sözleşmeye bağlı \nödeme oranı.\nSabit mi, değişken mi; ödeme sıklığı nedir?\nCoupon payment Dönemsel nakit ödeme. Yıllık toplam ödeme ne kadar?\nMaturity Anaparanın geri ödenmesinin planlandığı \ntarih.\nVade risk ufkumla uyumlu mu?\nMarket price Tahvilin bugün alınıp satıldığı fiyat. Aynı cash flow için ne kadar ödüyorum?",
+    "source_extract_summary": [
+      "Issuer (ihraççı), parayı kullanan devlet, şirket veya başka kurumdur.",
+      "Principal ya da face value (anapara/nominal değer), sözleşmenin vade sonunda geri ödemeyi vaat ettiği tutardır.",
+      "Coupon (kupon), sözleşmeye göre yapılan faiz ödemesidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0422",
+    "page": 422,
+    "chapter": 20,
+    "section": "20.3 — Devlet ve Şirket Tahvilleri: Yield Riskin",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  407\nTablo 20.1 – Tahvil sözleşmesinin temel alanları\nVAKA ANALİZİ — 1.000 BİRİMLİK TAHVİL\nNominal değeri 1.000, yıllık coupon ödemesi 40 ve vadesi 5 yıl olan bir tahvilde coupon rate \n%4’tür. Yatırımcı tahvili 1.000 yerine 900’e alırsa sözleşme couponu 40 olarak kalır; fakat 40/900 \ncurrent yield’i yaklaşık %4,44’e çıkarır.\n20.3 Devlet ve Şirket Tahvilleri: Yield Riskin \nFiyatıdır\nDevlet tahvili ile şirket tahvili aynı nakit akışı diliyle fiyatlanır; fakat taşıdıkları riskler farklıdır. Bir devlet \nkendi para biriminde borçlanıyor olabilir, başka para biriminde borçlanabilir veya politik ve inflation \nriski taşıyabilir. Şirket tahvili ise business cycle, profitability, balance sheet, sector ve covenant riskine \ndaha doğrudan bağlıdır.\nDaha yüksek yield gördüğümde bunu otomatik fırsat saymam. “Piyasa neden daha fazla getiri talep \nediyor?” diye sorarım. Fazladan yield; default olasılığı, düşük liquidity, uzun duration, currency riski \nveya belirsiz inflation karşılığı olabilir.\nŞekil 20.2 – Tahvil türü yerine risk katmanlarını karşılaştırmak\nRisk Devlet tahvilinde Şirket tahvilinde\nDefault / credit Issuer’ın ödeme kapasitesi ve para sistemi. Şirketin cash flow, borç ve refinancing \nkapasitesi.\nInflation Nominal ödemelerin reel satın alma \ngücünü azaltır.\nHem tahvilin reel getirisini hem şirket \nmaliyetini etkiler.\nCurrency Yabancı para cinsinden yatırımcının toplam \ngetirisini değiştirir.\nIssuer para birimi ile yatırımcı para birimi \nfarkı.",
+    "source_extract_summary": [
+      "Yatırımcı tahvili 1.000 yerine 900’e alırsa sözleşme couponu 40 olarak kalır; fakat 40/900 current yield’i yaklaşık %4,44’e çıkarır.",
+      "20.3 Devlet ve Şirket Tahvilleri: Yield Riskin Fiyatıdır Devlet tahvili ile şirket tahvili aynı nakit akışı diliyle fiyatlanır; fakat taşıdıkları riskler farklıdır.",
+      "Bir devlet kendi para biriminde borçlanıyor olabilir, başka para biriminde borçlanabilir veya politik ve inflation riski taşıyabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0423",
+    "page": 423,
+    "chapter": 20,
+    "section": "20.4 — Coupon Rate, Current Yield ve Yield to",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  408\nRisk Devlet tahvilinde Şirket tahvilinde\nDuration Uzun vadeli devlet tahvilleri faiz şokuna \nhassas olabilir.\nMaturity ve coupon yanında credit spread \nde hareket eder.\nLiquidity Derinlik ülke ve vadeye göre değişir. Küçük ihraçlarda spread ve fill riski daha \nyüksek olabilir.\nTablo 20.2 – Devlet ve şirket tahvili risk karşılaştırması\nDOĞRU BİLİNEN YANLIŞ\n“Devlet tahvili risksizdir.” Belirli bir issuer için default riski görece düşük olabilir; fakat piyasa price’ı \ndüşebilir, inflation reel getiriyi eritebilir, currency değişebilir ve likidite maliyeti oluşabilir.\n20.4 Coupon Rate, Current Yield ve Yield to \nMaturity\nYield tek bir sayı değildir. Coupon rate sözleşmenin nominal değer üzerinden verdiği orandır. Current \nyield (cari getiri), yıllık coupon ödemesinin bugünkü market price’a oranıdır. Yield to Maturity — YTM \n(vadeye kadar getiri), tahvilin vade sonuna kadar tutulduğu, ödemelerin gerçekleştiği ve belirli \nyeniden yatırım varsayımlarının kullanıldığı daha kapsamlı bir getiri tahminidir.\nÖlçü Basit ifade Ne anlatır? Sınırı\nCoupon rate Yıllık coupon / face value Sözleşme ödeme oranı. Bugünkü alış price’ını \nkullanmaz.\nCurrent yield Yıllık coupon / market price Bugünkü price’a göre coupon \nverimi.\nCapital gain/loss ve vadeyi \nhesaba katmaz.\nYTM Bütün cash flow’ların bugünkü \nprice’a eşit olduğu iskonto \noranı\nVade sonuna kadar toplam \nannualized getiri tahmini.\nDefault, satış öncesi çıkış ve \nyeniden yatırım varsayımları \nsonucu değiştirir.\nTotal return Coupon + price change + \nreinvestment − costs\nGerçekte elde edilen dönemsel \nsonuç.\nÖnceden kesin bilinmez.\nTablo 20.3 – Coupon ve yield ölçülerinin görev ayrımı\nEKRANDA NE ARIYORUM?\n• Platformda gösterilen oran coupon rate mi, current yield mi, YTM mi?\n• Price face value’ın altında mı, üstünde mi?\n• Yield brüt mü, vergi/fee/currency sonrası mı?\n• Tahvilin callable, floating veya inflation-linked özelliği var mı?\nDOĞRU BİLİNEN YANLIŞ\n“%5 coupon veren tahvilin yıllık getirisi her koşulda %5’tir.” Alış price’ı, vade, geri ödeme, yeniden \nyatırım, credit ve currency değişimleri total return’ü farklılaştırabilir.",
+    "source_extract_summary": [
+      "Risk Devlet tahvilinde Şirket tahvilinde Duration Uzun vadeli devlet tahvilleri faiz şokuna hassas olabilir.",
+      "Maturity ve coupon yanında credit spread de hareket eder.",
+      "Liquidity Derinlik ülke ve vadeye göre değişir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0424",
+    "page": 424,
+    "chapter": 20,
+    "section": "20.6 — Faiz Değişimi, Maturity ve Duration",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  409\n20.5 Bond Price–Yield Ters İlişkisi\nMevcut sabit couponlu bir tahvilin cash flow’ları değişmeden market price’ı düşerse, yeni alıcı aynı \nödemeleri daha düşük fiyatla elde eder; yield yükselir. Price yükselirse aynı ödemeler için daha fazla \npara ödenir; yield düşer. Ters ilişki bu sabit cash flow mantığından doğar.\nÖrneğin yıllık 40 ödeyen bir tahvil 1.000’den işlem görüyorsa current yield %4’tür. Price 900’e düşerse \ncurrent yield yaklaşık %4,44; 1.100’e yükselirse yaklaşık %3,64 olur. Coupon değişmemiştir; değişen \nyatırımcının ödediği market price’dır.\nŞekil 20.3 – Bond price ile yield arasındaki ters ilişki\nMarket price Yıllık coupon Current yield Okuma\n900 40 %4,44 Aynı ödeme daha düşük price’a \nalındı.\n1.000 40 %4,00 Face value çevresi.\n1.100 40 %3,64 Aynı ödeme için daha yüksek \nprice ödendi.\nTablo 20.4 – Fiyat değişiminin current yield’e etkisi\nVAKA ANALİZİ — YENİ İHRAÇ %5\nPiyasada yeni tahviller %5 civarında getiri sunmaya başladığında eski %4 couponlu tahvil aynı \nprice’ta cazibesini kaybedebilir. Eski tahvilin price’ı düşerek yield’i yeni piyasa koşuluna yaklaşır. \nBunun tersi, yeni ihraç getirileri düştüğünde gerçekleşebilir.\n20.6 Faiz Değişimi, Maturity ve Duration\nMerkez bankası policy rate’i, piyasa yield’lerinin önemli girdilerinden biridir; fakat tahvil market price’ı \nyalnız bugünkü kararı değil gelecekte beklenen faiz yolunu da fiyatlar. Bu nedenle faiz artırımı",
+    "source_extract_summary": [
+      "20.5 Bond Price–Yield Ters İlişkisi Mevcut sabit couponlu bir tahvilin cash flow’ları değişmeden market price’ı düşerse, yeni alıcı aynı ödemeleri daha düşük fiyatla elde eder; yield yükselir.",
+      "Price yükselirse aynı ödemeler için daha fazla para ödenir; yield düşer.",
+      "Ters ilişki bu sabit cash flow mantığından doğar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0425",
+    "page": 425,
+    "chapter": 20,
+    "section": "20.6 — Faiz Değişimi, Maturity ve Duration",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  410\naçıklandığı anda tahvilin mutlaka düşmesi gerekmez; karar önceden fiyatlanmış veya beklenenden \ndaha yumuşak algılanmış olabilir.\nDuration (faiz duyarlılığı süresi), tahvil cash flow’larının zamanlamasını tek ölçüde özetleyerek yield \ndeğişimine karşı yaklaşık price hassasiyetini anlatır. Maturity uzadıkça duration çoğu sabit couponlu \ntahvilde artma eğilimindedir; ancak coupon oranı ve ödeme yapısı da önemlidir.\nŞekil 20.4 – Maturity ve duration ile faiz duyarlılığı\nKoşul Faiz duyarlılığı eğilimi Neden\nDaha uzun maturity Genellikle daha yüksek Cash flow’lar daha uzakta ve iskonto \noranına hassas.\nDaha düşük coupon Genellikle daha yüksek Nakit akışının daha büyük kısmı vade \nsonunda.\nDaha yüksek yield Aynı diğer koşullarda duration görece \ndüşebilir\nUzak cash flow’ların bugünkü ağırlığı azalır.\nFloating-rate yapı Görece daha düşük olabilir Coupon piyasa oranına yeniden \nayarlanabilir.\nTablo 20.5 – Duration’ı değiştiren temel koşullar\nDOĞRU BİLİNEN YANLIŞ\n“Faiz %1 yükselirse bütün tahviller %1 düşer.” Fiyat tepkisi duration, convexity, credit spread, \ncoupon, currency ve likiditeye göre değişir.",
+    "source_extract_summary": [
+      "açıklandığı anda tahvilin mutlaka düşmesi gerekmez; karar önceden fiyatlanmış veya beklenenden daha yumuşak algılanmış olabilir.",
+      "Duration (faiz duyarlılığı süresi), tahvil cash flow’larının zamanlamasını tek ölçüde özetleyerek yield değişimine karşı yaklaşık price hassasiyetini anlatır.",
+      "Maturity uzadıkça duration çoğu sabit couponlu tahvilde artma eğilimindedir; ancak coupon oranı ve ödeme yapısı da önemlidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0426",
+    "page": 426,
+    "chapter": 20,
+    "section": "20.7 — Kısa ve Uzun Vadeli Getiriler",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  411\nUygulama Görseli 20.1 – Aynı gün 2 yıllık ve 20/30 yıllık bond ETF veya tahvil price hareketlerini yan yana \ngösteren gerçek grafik; faiz şoku, yüzdesel price tepkisi ve tarih işaretlenecek.. Temsilî eğitim şeması.\n20.7 Kısa ve Uzun Vadeli Getiriler\nKısa vadeli yield’ler merkez bankasının yakın dönem policy yoluna ve para piyasası beklentilerine daha \nduyarlıdır. Uzun vadeli yield’ler ise beklenen kısa oranların bileşimi yanında long-term growth, \ninflation ve term premium gibi daha uzun ufuklu değişkenleri taşır.\nBu görev ayrımı kesin değildir. Örneğin uzun yield, güçlü growth beklentisiyle yükselebileceği gibi \nyüksek inflation, artan tahvil supply veya term premium nedeniyle de yükselebilir. Bu nedenle yalnız \nseviyeyi değil hangi vadenin daha hızlı hareket ettiğini izlerim.\nİzlenen seri Daha duyarlı olduğu alan Tek başına söyleyemeyeceği\nPolicy / overnight rate Mevcut merkez bankası kararı. Piyasanın gelecekteki bütün yolu.\n2Y yield Yakın dönem policy expectation ve veri \nsürprizi.\nKesin toplantı sonucu veya ekonomik yön.\n5Y yield Orta vadeli policy–inflation bileşimi. Tek bir makro neden.\n10Y yield Long-term growth, inflation, expected \nshort rates, term premium.\nKesin hisse, USD veya altın yönü.\n30Y yield Çok uzun inflation, fiscal ve term-premium \nriski.\nKısa vadeli trade trigger.\nTablo 20.6 – Vadelere göre yield okuma görevleri\nEKRANDA NE ARIYORUM?\n• 2Y mi daha hızlı değişiyor, 10Y mi?\n• Hareket data release veya policy iletişimiyle mi başladı?\n• Nominal yield ile inflation expectation aynı yönde mi?\n• Credit spread ve equity volatility teyit ediyor mu?",
+    "source_extract_summary": [
+      "Uygulama Görseli 20.1 – Aynı gün 2 yıllık ve 20/30 yıllık bond ETF veya tahvil price hareketlerini yan yana gösteren gerçek grafik; faiz şoku, yüzdesel price tepkisi ve tarih işaretlenecek..",
+      "20.7 Kısa ve Uzun Vadeli Getiriler Kısa vadeli yield’ler merkez bankasının yakın dönem policy yoluna ve para piyasası beklentilerine daha duyarlıdır.",
+      "Uzun vadeli yield’ler ise beklenen kısa oranların bileşimi yanında long-term growth, inflation ve term premium gibi daha uzun ufuklu değişkenleri taşır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0427",
+    "page": 427,
+    "chapter": 20,
+    "section": "20.8 — Yield Curve: Seviye, Eğim ve Değişim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  412\n20.8 Yield Curve: Seviye, Eğim ve Değişim\nYield curve (getiri eğrisi), aynı issuer’ın farklı vadelerdeki yield’lerini birlikte gösterir. Yalnız curve’ün \n“normal” veya “inverted” olduğunu yazmak yetersizdir. Üç ayrı bilgi kaydederim: genel seviye, kısa–\nuzun vade arasındaki eğim ve bu eğimin hangi uçtan değiştiği.\nŞekil 20.5 – Yield curve’ün temel şekilleri\nCurve hareketi Basit tanım Sorulacak soru\nSteepening Uzun–kısa yield farkı genişliyor. Long end mi yükseliyor, short end mi \ndüşüyor?\nFlattening Vadeler arası fark daralıyor. Policy sıkılaşması mı, long-term growth \nkaygısı mı?\nInversion Kısa yield uzun yield’in üzerinde. Ne kadar süredir, hangi vadeler arasında, \ncredit piyasası ne diyor?\nParallel shift Curve’ün büyük bölümü benzer yönde \ndeğişiyor.\nOrtak inflation/policy shock mı?\nTwist Kısa ve uzun uç farklı yönde hareket \nediyor.\nBeklenti hangi ufukta değişti?\nTablo 20.7 – Yield curve değişim türleri\nDOĞRU BİLİNEN YANLIŞ\n“Inverted curve görülür görülmez piyasa düşer.” Curve ekonomik risk hakkında bilgi sağlayabilir; \nfakat sonuç, gecikme ve trade zamanlaması kesin değildir. Teknik yapı ve diğer makro veriler ayrıca \ngerekir.",
+    "source_extract_summary": [
+      "20.8 Yield Curve: Seviye, Eğim ve Değişim Yield curve (getiri eğrisi), aynı issuer’ın farklı vadelerdeki yield’lerini birlikte gösterir.",
+      "Yalnız curve’ün “normal” veya “inverted” olduğunu yazmak yetersizdir.",
+      "Üç ayrı bilgi kaydederim: genel seviye, kısa– uzun vade arasındaki eğim ve bu eğimin hangi uçtan değiştiği."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0428",
+    "page": 428,
+    "chapter": 20,
+    "section": "20.9 — Nominal Yield, Inflation ve Real Yield",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  413\nUygulama Görseli 20.2 – 2Y ve 10Y yield çizgileri ile 10Y 2Y spread paneli; inversion, re-steepening, equity−  \ntrend ve tarih işaretleri birlikte gösterilecek.. Temsilî eğitim şeması.\n20.9 Nominal Yield, Inflation ve Real Yield\nNominal yield, ekranda görülen sözleşme veya piyasa getirisidir. Investorın satın alma gücü açısından \nasıl soru, bu getirinin inflation sonrasında ne bıraktığıdır. Basit yaklaşımda real yield yaklaşık olarak \nnominal yield eksi beklenen inflation şeklinde düşünülür.\nBeklenen inflation yükselirken nominal yield aynı kalırsa real yield düşebilir. Nominal yield yükselse \nbile inflation beklentisi daha hızlı yükseliyorsa real sıkılaşma oluşmayabilir. Bu ayrım özellikle gold ve \nsilver gibi faiz ödemeyen varlıkların fırsat maliyetini yorumlarken önemlidir.\nSenaryo Nominal yield Beklenen inflation Yaklaşık real-yield yönü\nA Yükseliyor Sabit Yükselme eğilimi\nB Yükseliyor Daha hızlı yükseliyor Düşebilir\nC Düşüyor Sabit Düşme eğilimi\nD Düşüyor Daha hızlı düşüyor Yükselebilir\nTablo 20.8 – Nominal ve real-yield ayrımı\nVAKA ANALİZİ — NOMİNAL YIELD YÜKSELDİ AMA GOLD DA YÜKSELDİ\nBu durum otomatik çelişki değildir. Yield artışı inflation/fiscal riskten gelmiş, real yield aynı ölçüde \nyükselmemiş veya risk/para birimi talebi gold’u desteklemiş olabilir. Tek değişkenden işlem sonucu \nçıkarılmaz.",
+    "source_extract_summary": [
+      "Uygulama Görseli 20.2 – 2Y ve 10Y yield çizgileri ile 10Y 2Y spread paneli; inversion, re-steepening, equity− trend ve tarih işaretleri birlikte gösterilecek..",
+      "20.9 Nominal Yield, Inflation ve Real Yield Nominal yield, ekranda görülen sözleşme veya piyasa getirisidir.",
+      "Investorın satın alma gücü açısından asıl soru, bu getirinin inflation sonrasında ne bıraktığıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0429",
+    "page": 429,
+    "chapter": 20,
+    "section": "20.11 — Faizlerin Hisse Senetlerine Aktarım",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  414\nDOĞRU BİLİNEN YANLIŞ\n“Yüksek nominal yield kesin olarak değerli metalleri düşürür.” Değerli metal için real yield, USD, \ninflation, risk, physical demand ve positioning birlikte değerlendirilir.\n20.10 Credit Spread, Default, Liquidity ve \nCurrency Riski\nCorporate bond veya riskli sovereign bond incelerken government benchmark üzerindeki ek yield’e \ncredit spread denir. Spread genişlemesi, piyasanın default veya liquidity için daha fazla tazminat \nistediğini gösterebilir. Ancak spread hem benchmark yield hem tahvilin kendi yield’i değiştiği için iki \ntaraflı okunur.\nRisk Grafikte / sözleşmede işaret Muhtemel sonuç\nDefault / downgrade Credit spread, rating, earnings/cash flow \nbozulması.\nPrice düşüşü, yield ve refinancing maliyeti \nartışı.\nLiquidity Geniş bid–ask, düşük depth ve düşük işlem \nhacmi.\nKötü fill ve çıkış maliyeti.\nInflation Nominal couponun reel satın alma gücü. Real return aşınması.\nCurrency Bond currency’si ile yatırımcı currency’si \nfarklı.\nFX hareketi coupon ve price sonucunu \ngölgeleyebilir.\nCall / prepayment Issuer’ın erken ödeme hakkı. Yüksek coupon döneminin beklenenden \nerken bitmesi.\nReinvestment Couponların hangi oranda yeniden \nyatırılacağı.\nGerçek total return YTM’den sapabilir.\nTablo 20.9 – Tahvilde price dışında izlenecek riskler\nEKRANDA NE ARIYORUM?\n• Government yield ile corporate yield arasındaki spread.\n• Spread değişimi price ve equity ile aynı anda mı?\n• Issuer’ın borç vadesi ve yeniden finansman ihtiyacı.\n• Bond’un currency’si ve benim hesap para birimim.\n• Bid–ask ve gerçek işlem yapılabilirlik.\n20.11 Faizlerin Hisse Senetlerine Aktarım \nKanalları\nFaiz ve yield hisseleri üç temel kanaldan etkiler. Birincisi discount rate’tir: gelecekteki cash flow’lar \ndaha yüksek oranla bugüne indirgenirse valuation baskı görebilir. İkincisi financing cost’tur: borçlanma \npahalılaştıkça faiz gideri ve yatırım maliyeti artabilir. Üçüncüsü alternatif getiridir: düşük riskli tahvil \nyield’i yükseldiğinde yatırımcı hisse için daha yüksek risk premium talep edebilir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ “Yüksek nominal yield kesin olarak değerli metalleri düşürür.” Değerli metal için real yield, USD, inflation, risk, physical demand ve positioning birlikte değerlendirilir.",
+      "20.10 Credit Spread, Default, Liquidity ve Currency Riski Corporate bond veya riskli sovereign bond incelerken government benchmark üzerindeki ek yield’e credit spread denir.",
+      "Spread genişlemesi, piyasanın default veya liquidity için daha fazla tazminat istediğini gösterebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0430",
+    "page": 430,
+    "chapter": 20,
+    "section": "20.11 — Faizlerin Hisse Senetlerine Aktarım",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  415\nBuna rağmen yüksek yield bütün hisseleri aynı şekilde etkilemez. Yield güçlü nominal growth \nnedeniyle yükseliyorsa şirket earnings’i de güçlenebilir. Finansal şirketlerde curve ve credit quality; \ngrowth hisselerinde uzun durationlı earnings; borçlu şirketlerde refinancing takvimi farklı sonuç üretir.\nŞekil 20.6 – Faizin farklı piyasalara aktarım kanalları\nHisse özelliği Faiz/yield hassasiyeti İzlenecek ek veri\nUzak gelecekte kâr bekleyen growth \nşirketi\nDiscount-rate değişimine daha hassas \nolabilir.\nRevenue growth, profitability yolu, \nvaluation.\nYüksek borçlu şirket Refinancing ve interest expense baskısı. Debt maturity, fixed/floating borç, \ncoverage.\nBanka / finansal Curve, funding cost ve credit losses birlikte \netkiler.\nNet interest margin, deposits, credit \nquality.\nDefensive / cash-generative Görece dayanıklı olabilir; valuation yine \nönemlidir.\nCash flow, pricing power, dividend \nsustainability.\nCyclical Growth beklentisi yield etkisini \ndengeleyebilir.\nPMI, commodity, earnings revision.\nTablo 20.10 – Hisse türüne göre faiz aktarımı\nDOĞRU BİLİNEN YANLIŞ\n“Yield yükselirse teknoloji düşer, banka yükselir.” Bu yalnız başlangıç hipotezidir. Yield’in nedeni, \ncurve eğimi, earnings ve credit koşulları sonuç üzerinde belirleyicidir.",
+    "source_extract_summary": [
+      "Buna rağmen yüksek yield bütün hisseleri aynı şekilde etkilemez.",
+      "Yield güçlü nominal growth nedeniyle yükseliyorsa şirket earnings’i de güçlenebilir.",
+      "Finansal şirketlerde curve ve credit quality; growth hisselerinde uzun durationlı earnings; borçlu şirketlerde refinancing takvimi farklı sonuç üretir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0431",
+    "page": 431,
+    "chapter": 20,
+    "section": "20.12 — Döviz, Altın, Gümüş ve Kripto Bağlantısı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  416\nUygulama Görseli 20.3 – 10Y yield, NASDAQ/growth endeksi ve banka endeksi aynı tarih aralığında; yield \nhareketinin kaynağı ve earnings dönemleri işaretlenecek.. Temsilî eğitim şeması.\n20.12 Döviz, Altın, Gümüş ve Kripto Bağlantısı\nDövizde önemli kanal iki para birimi arasındaki beklenen faiz farkıdır. Ancak yüksek yield tek başına \ncurrency talebi garantilemez; inflation, fiscal risk, current account, güvenli liman talebi ve piyasanın \ndaha önce ne fiyatladığı sonucu değiştirebilir.\nGold ve silver faiz ödemediği için real yield yükselişi fırsat maliyeti baskısı yaratabilir. Buna karşılık \ninflation, geopolitical risk, USD hareketi, physical demand ve silver için industrial demand aynı anda \nçalışır. Crypto ise liquidity, leverage ve risk appetite değişimine hassas olabilir; fakat ağ ve ürün \nözelindeki gelişmeler makro etkiyi bozabilir.\nVarlık Faiz/yield kanalı Alternatif sürücüler\nUSD / FX Rate differential ve beklenen policy yolu. Inflation, fiscal risk, current account, risk-\noff.\nGold Real yield ve opportunity cost. USD, inflation, central-bank/physical \ndemand, risk.\nSilver Real yield + USD; ayrıca cyclical/industrial \nkanal.\nIndustrial demand, supply, gold–silver \nilişkisi.\nCrypto Liquidity, leverage maliyeti ve risk appetite. Regulation, adoption, network, \npositioning.\nEquity index Discount rate ve financing. Earnings, sector composition, growth.",
+    "source_extract_summary": [
+      "Uygulama Görseli 20.3 – 10Y yield, NASDAQ/growth endeksi ve banka endeksi aynı tarih aralığında; yield hareketinin kaynağı ve earnings dönemleri işaretlenecek..",
+      "20.12 Döviz, Altın, Gümüş ve Kripto Bağlantısı Dövizde önemli kanal iki para birimi arasındaki beklenen faiz farkıdır.",
+      "Ancak yüksek yield tek başına currency talebi garantilemez; inflation, fiscal risk, current account, güvenli liman talebi ve piyasanın daha önce ne fiyatladığı sonucu değiştirebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Konum ve seviye yaşam döngüsü",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0432",
+    "page": 432,
+    "chapter": 20,
+    "section": "20.13 — Çapraz Varlık Vaka Analizleri ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  417\nTablo 20.11 – Çapraz varlıklarda faiz aktarım kanalları\nEKRANDA NE ARIYORUM?\n• Nominal yield mi, real yield mi değişiyor?\n• DXY veya ilgili currency aynı yönde mi?\n• Riskli varlıkların tamamı mı etkileniyor, yalnız belirli sektör mü?\n• Hareket policy/news anına mı bağlı, teknik structure ile teyitli mi?\n20.13 Çapraz Varlık Vaka Analizleri ve \nXAGTRYG\nGram gümüş, yalnız global silver fiyatı değildir. Yaklaşık dönüşümde XAGTRYG; XAGUSD ile USDTRY’nin \nçarpımından ve troy ounce–gram dönüşümünden oluşur. Bu nedenle ABD yield artışı XAGUSD \nüzerinde baskı üretse bile USDTRY yükselişi gram fiyatını aynı anda destekleyebilir.\nŞekil 20.7 – XAGTRYG için yield, XAGUSD ve USDTRY karar zinciri\nVAKA 1 — HAWKISH YIELD ŞOKU\n• 2Y yield hızlı yükseliyor; 10Y daha sınırlı: yakın dönem policy sıkılaşması hipotezi.\n• USD güçleniyor, XAGUSD support altında kapanıyor: global silver baskısı teyit kazanıyor.\n• USDTRY aynı anda hızla yükseliyorsa XAGTRYG düşüşü sınırlanabilir veya fiyat nötr kalabilir.\n• İşlem kararı gram grafiğinin kendi structure, zone, trigger ve stop koşulundan verilir.",
+    "source_extract_summary": [
+      "• Nominal yield mi, real yield mi değişiyor?",
+      "• DXY veya ilgili currency aynı yönde mi?",
+      "• Riskli varlıkların tamamı mı etkileniyor, yalnız belirli sektör mü?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0433",
+    "page": 433,
+    "chapter": 20,
+    "section": "20.14 — Correlation, Diversification ve Rejim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  418\nVAKA 2 — LONG YIELD YÜKSELİYOR, HİSSE DE YÜKSELİYOR\n• Yield hareketi yüksek inflation yerine güçlü growth ve earnings beklentisinden geliyor olabilir.\n• Equity breadth ve earnings revision iyiyse “yield yükseldi = short” kuralı çalışmayabilir.\n• Long end yükselirken credit spread daralıyorsa risk stresi hipotezi zayıflar.\nVAKA 3 — YIELD DÜŞÜYOR, RİSKLİ VARLIKLAR DA DÜŞÜYOR\n• Safety demand ve growth korkusu government bonds’a alım getirirken equity/crypto satışı \nsürebilir.\n• Yield düşüşünü otomatik risk-on sinyali saymak yerine VIX, credit spread ve market structure \nkontrol edilir.\nUygulama Görseli 20.4 – XAGUSD, USDTRY ve XAGTRYG üçlü grafik; aynı tarih, 10Y/real-yield paneli, her \nbacağın katkısı ve gram grafik trigger’ı işaretlenecek.. Temsilî eğitim şeması.\n20.14 Correlation, Diversification ve Rejim \nRiski\nCorrelation, iki varlığın seçilen dönemde ne ölçüde birlikte hareket ettiğini gösterir. +1’e yakın değer \naynı yönü, −1’e yakın değer ters yönü, 0 çevresi zayıf doğrusal ilişkiyi anlatır. Ancak correlation kalıcı \nbir sözleşme değildir; kullanılan timeframe, lookback ve ekonomik rejim değiştikçe farklılaşabilir.\nTahvil portföye diversification sağlayabilir; fakat inflation shock döneminde bond price ile equity aynı \nanda düşebilir. Bu nedenle “hisseye tahvil ekledim, risk bitti” demem. Rolling correlation, duration, \ncurrency ve credit yapısını birlikte kaydederim.",
+    "source_extract_summary": [
+      "VAKA 2 — LONG YIELD YÜKSELİYOR, HİSSE DE YÜKSELİYOR • Yield hareketi yüksek inflation yerine güçlü growth ve earnings beklentisinden geliyor olabilir.",
+      "• Equity breadth ve earnings revision iyiyse “yield yükseldi = short” kuralı çalışmayabilir.",
+      "• Long end yükselirken credit spread daralıyorsa risk stresi hipotezi zayıflar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0434",
+    "page": 434,
+    "chapter": 20,
+    "section": "20.15 — Tam Intermarket İzleme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  419\nKontrol Sorulacak soru Hata önleme\nLookback 20 gün mü, 1 yıl mı? Tek pencereyi kalıcı ilişki sanma.\nFrequency Günlük mü, haftalık mı? Farklı karar ufuklarını karıştırma.\nRegime Inflation, growth, crisis veya easing \ndönemi mi?\nGeçmiş correlationı yeni rejime kopyalama.\nInstrument Bond price mı, yield mi, ETF mi? Price ile yield’in ters yönünü karıştırma.\nCurrency Aynı para birimine çevrildi mi? FX etkisini diversification sanma.\nTail behavior Kriz günlerinde ilişki nasıl? Normal dönem ortalamasını stres koruması \nsayma.\nTablo 20.12 – Korelasyon denetim kartı\nDOĞRU BİLİNEN YANLIŞ\n“Negatif correlation bulunan iki varlık her krizde birbirini korur.” Correlation zamanla değişebilir; \nlikidite şoklarında farklı varlıklar aynı anda satılabilir.\nUygulama Görseli 20.5 – Hisse endeksi ile uzun vadeli bond ETF’nin rolling correlation paneli; inflation \nshock, recession fear ve easing rejimleri farklı renkli alanlarla işaretlenecek.. Temsilî eğitim şeması.\n20.15 Tam Intermarket İzleme İş Akışı\nIntermarket analiz, bütün makro grafikleri açıp yorum üretmek değildir. Her adım tek bir karar \nsorusuna cevap verir ve işlem yaptığım grafiğin teknik koşullarını değiştirecek kadar güçlü bir kanıt \nolup olmadığını sınar.\n1. Ürünü tanımla: Bond price mı, yield mi; hangi issuer, maturity ve currency?\n2. Hareketi ölç: Seviye, hız ve volatilite normal aralığa göre nasıl?\n3. Curve’ü kontrol et: Short end, long end ve spread hangi yönde değişiyor?",
+    "source_extract_summary": [
+      "Kontrol Sorulacak soru Hata önleme Lookback 20 gün mü, 1 yıl mı?",
+      "Farklı karar ufuklarını karıştırma.",
+      "Regime Inflation, growth, crisis veya easing dönemi mi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0435",
+    "page": 435,
+    "chapter": 20,
+    "section": "20.15 — Tam Intermarket İzleme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  420\n4. Nedeni adaylaştır: Policy, growth, inflation, term premium, supply, credit veya safety demand.\n5. Çapraz teyit ara: FX, equity breadth, credit spread, gold/silver, crypto ve volatility ne yapıyor?\n6. İşlem varlığını ayır: Makro hipotez, kendi grafiğinin structure ve zone’unu destekliyor mu?\n7. Trigger bekle: Kapanış, BOS/CHoCH, retest veya setup kuralı oluştu mu?\n8. Geçersizliği yaz: Yield/curve ve fiyat hipotezini hangi veri bozar?\n9. Risk ve maliyeti uygula: Bölüm 13 kurallarıyla pozisyonu hesapla.\n10. Sonucu kaydet: Makro hipotez doğru muydu, trade execution doğru muydu?\nKarar alanı Kısa not şablonu\nTahvil / yield kimliği Issuer • maturity • price/yield • currency\nCurve 2Y • 10Y • spread • steepening/flattening\nNeden hipotezi Policy / growth / inflation / term premium / credit / safety\nÇapraz teyit FX • equity • credit • metal • crypto • volatility\nİşlem grafiği Trend • zone • setup • trigger\nGeçersizlik Makro iptal + teknik stop\nSonuç Hipotez • execution • maliyet • öğrenme\nTablo 20.13 – Intermarket analiz not kartı\nNO-TRADE KOŞULLARI\n• Hangi yield serisinin izlendiği belirsizse.\n• Hareketin nedeni için birden fazla hipotez var ama çapraz teyit yoksa.\n• Makro yorum işlem grafiğinin teknik geçersizliğini görmezden gelmeye zorluyorsa.\n• Correlation yalnız kısa ve seçilmiş bir örnekten çıkarıldıysa.\n• Haber anında spread/slippage uygulanabilirliği bozuyorsa.",
+    "source_extract_summary": [
+      "Nedeni adaylaştır: Policy, growth, inflation, term premium, supply, credit veya safety demand.",
+      "Çapraz teyit ara: FX, equity breadth, credit spread, gold/silver, crypto ve volatility ne yapıyor?",
+      "İşlem varlığını ayır: Makro hipotez, kendi grafiğinin structure ve zone’unu destekliyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Konum ve seviye yaşam döngüsü",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0436",
+    "page": 436,
+    "chapter": 20,
+    "section": "20.15 — Tam Intermarket İzleme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  421\nHızlı Başvuru: Tahvil ve Faiz Okuma Tablosu\nGözlem İlk hipotez Kontrol edilmeden karar verilmez\nBond price düşüyor, yield yükseliyor Piyasa daha yüksek getiri talep ediyor. Maturity, duration, policy, inflation, credit.\n2Y hızlı yükseliyor Yakın policy yolu daha sıkı fiyatlanıyor \nolabilir.\nMeeting expectations, data, 10Y tepkisi.\n10Y yükseliyor Growth/inflation/term premium/supply \netkisi olabilir.\nReal yield, curve, credit, USD.\nCurve flattening Short end baskısı veya long growth kaygısı. Hangi uç hareket ediyor?\nCurve steepening Easing, inflation veya term-premium \nsenaryosu.\nBull/bear steepening ayrımı.\nReal yield yükseliyor Faiz ödemeyen varlıklarda opportunity-cost \nbaskısı.\nUSD, inflation, risk, demand.\nCredit spread genişliyor Risk tazminatı artıyor. Default, liquidity, equity/earnings.\nYield düşüyor, equity düşüyor Safety/growth korkusu olabilir. VIX, credit spread, market structure.\nYield yükseliyor, equity yükseliyor Growth beklentisi güçlü olabilir. Earnings, breadth, inflation.\nTablo 20.14 – Hızlı başvuru\nGrafik Başı Kontrol Listesi\n Issuer, currency, maturity ve price/yield serisini doğruladım.\n Coupon rate, current yield ve YTM’yi karıştırmadım.\n 2Y, 10Y ve curve spread değişimini birlikte kontrol ettim.\n Nominal ve real yield ayrımını yaptım.\n Yield hareketi için en az iki alternatif neden yazdım.\n FX, equity, credit, metal ve volatility teyidini inceledim.\n XAGTRYG’de XAGUSD ve USDTRY bacaklarını ayrı değerlendirdim.\n Correlationın lookback, timeframe ve rejimini kaydettim.\n Makro hipotezi teknik trigger yerine kullanmadım.\n Makro ve teknik geçersizliği ayrı yazdım.\nTemel Sözlük\nTerim Kısa anlam\nBond Issuer’a verilen borcu ve gelecekteki cash flow hakkını temsil eden \nsözleşme.\nIssuer Tahvili çıkaran devlet, şirket veya kurum.\nPrincipal / Face value Vade sonunda geri ödenmesi vaat edilen nominal tutar.\nCoupon Sözleşmeye bağlı dönemsel faiz ödemesi.\nMaturity Principalın geri ödenmesinin planlandığı vade.\nCoupon rate Couponun face value’a oranı.\nCurrent yield Yıllık couponun market price’a oranı.\nYTM Vade sonuna kadar cash flow’ları dikkate alan annualized getiri \ntahmini.",
+    "source_extract_summary": [
+      "Hızlı Başvuru: Tahvil ve Faiz Okuma Tablosu Gözlem İlk hipotez Kontrol edilmeden karar verilmez Bond price düşüyor, yield yükseliyor Piyasa daha yüksek getiri talep ediyor.",
+      "Maturity, duration, policy, inflation, credit.",
+      "2Y hızlı yükseliyor Yakın policy yolu daha sıkı fiyatlanıyor olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Konum ve seviye yaşam döngüsü",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0437",
+    "page": 437,
+    "chapter": 20,
+    "section": "20.15 — Tam Intermarket İzleme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  422\nTerim Kısa anlam\nDuration Yield değişimine karşı yaklaşık fiyat duyarlılığı ölçüsü.\nYield curve Aynı issuer’ın farklı vadelerdeki yield yapısı.\nTerm premium Uzun vadeli belirsizlik için talep edilen ek getiri bileşeni.\nNominal yield Inflation çıkarılmadan görülen getiri.\nReal yield Inflation etkisi sonrası yaklaşık getiri.\nCredit spread Riskli tahvil yield’inin benchmark üzerindeki farkı.\nSteepening Uzun–kısa yield farkının genişlemesi.\nFlattening Uzun–kısa yield farkının daralması.\nCorrelation İki serinin seçilen dönemde birlikte hareket derecesi.\nTablo 20.15 – Bölüm 20 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Tahvil neden hem issuer için borç hem yatırımcı için varlıktır?\n2. Issuer, principal, coupon ve maturity hangi görevleri taşır?\n3. Coupon-bearing bond dışında hangi ödeme yapıları bulunabilir?\n4. Devlet tahvili neden bütün risklerden arınmış değildir?\n5. Şirket tahvilinde yüksek yield hangi riskleri fiyatlıyor olabilir?\n6. Coupon rate ile current yield arasındaki fark nedir?\n7. YTM hangi temel varsayımlara dayanır?\n8. Market price düşerken current yield neden yükselir?\n9. Bond price ile yield ters ilişkisi hangi koşulda açıklanır?\n10. Policy rate kararı ile bond price tepkisi neden birebir olmayabilir?\n11. Maturity ile duration neden aynı kavram değildir?\n12. Düşük coupon neden durationı artırabilir?\n13. 2Y yield hangi beklentilere daha duyarlıdır?\n14. 10Y yield hangi dört farklı nedenle yükselebilir?\n15. Yield curve’ün üç temel okuma alanı nelerdir?\n16. Steepening hangi iki farklı uç hareketinden oluşabilir?\n17. Flattening neden tek başına bearish sinyal değildir?\n18. Inverted curve neden kesin zamanlama aracı değildir?\n19. Nominal yield ile real yield nasıl ayrılır?\n20. Nominal yield yükselirken real yield neden düşebilir?\n21. Real yield değerli metalleri hangi kanal üzerinden etkileyebilir?\n22. Credit spread genişlemesi ne düşündürür?\n23. Currency riski tahvil total return’ünü nasıl değiştirebilir?\n24. Faiz hisseleri discount-rate kanalından nasıl etkiler?\n25. Yüksek yield neden bütün growth hisseleri için aynı sonucu üretmez?\n26. Rate differential döviz yönünü neden tek başına belirlemez?",
+    "source_extract_summary": [
+      "Terim Kısa anlam Duration Yield değişimine karşı yaklaşık fiyat duyarlılığı ölçüsü.",
+      "Yield curve Aynı issuer’ın farklı vadelerdeki yield yapısı.",
+      "Term premium Uzun vadeli belirsizlik için talep edilen ek getiri bileşeni."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0438",
+    "page": 438,
+    "chapter": 20,
+    "section": "20.15 — Tam Intermarket İzleme İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 20\nTahviller, Faizler ve Piyasalar Arası İlişkiler  •  423\n27. Gold ve silver için yield dışında hangi sürücüler izlenir?\n28. Crypto faiz ve liquidity rejimine hangi kanallardan tepki verebilir?\n29. XAGTRYG’de XAGUSD ile USDTRY neden ayrı okunur?\n30. Yield düşerken riskli varlıklar neden aynı anda düşebilir?\n31. Correlation neden lookback ve timeframe’e bağlıdır?\n32. Tahvil ve hissenin aynı anda düşebileceği rejim hangisidir?\n33. Tam intermarket iş akışının on aşaması nelerdir?34. Bölüm 20’nin Bölüm 21’e bıraktığı ana konu nedir?",
+    "source_extract_summary": [
+      "Gold ve silver için yield dışında hangi sürücüler izlenir?",
+      "Crypto faiz ve liquidity rejimine hangi kanallardan tepki verebilir?",
+      "XAGTRYG’de XAGUSD ile USDTRY neden ayrı okunur?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0457",
+    "page": 457,
+    "chapter": 22,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi \nZamanlama\nUTC doğrulamasından session VWAP ve kişisel işlem penceresine",
+    "source_extract_summary": [
+      "BÖLÜM 22 İşlem Seansları, Likidite ve Gün İçi Zamanlama UTC doğrulamasından session VWAP ve kişisel işlem penceresine"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0458",
+    "page": 458,
+    "chapter": 22,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  443\nBu Bölümün Amacı\nPiyasa zamanı yalnız saatin kaç olduğunu göstermez. Hangi finans merkezlerinin açık olduğunu, hangi \nkatılımcıların emir gönderdiğini, spread ve işlem hızının nasıl değişebileceğini, haber akışının ne \nzaman yoğunlaştığını ve seçtiğimiz setup’ın uygulanabilir olup olmadığını etkiler.\nBu bölümde seansları mekanik yön sinyali olarak değil, karar bağlamı olarak kullanacağız. Önce UTC ve \nresmî takvimi doğrulayacak; sonra session high–low, opening range, likidite, haber ve VWAP bilgilerini \nmevcut piyasa yapısına ekleyeceğiz. Son adımda yalnız kendi stratejimizin hangi saatlerde gerçekten \ndaha iyi çalıştığını kayıtla ölçeceğiz.\nBÖLÜM SONUNDA\n UTC, yerel offset, DST ve tarih değişimini doğru kontrol edebileceksiniz.\n Sydney, Asya, Londra ve New York seanslarını yaklaşık öğretim pencereleriyle \nayırabileceksiniz.\n Seans karakterini kesin kural yerine test edilecek eğilim olarak kullanabileceksiniz.\n Overlap döneminde likidite ve volatilitenin neden birlikte değişebildiğini \naçıklayabileceksiniz.\n Opening range, session high–low ve seans geçişlerini likidite rotasına \nekleyebileceksiniz.\n Haber penceresinde işlem, boyut azaltma veya no-trade kararını önceden \ntanımlayabileceksiniz.\n Session VWAP reset ve anchor ayarını piyasa türüne göre doğrulayabileceksiniz.\n Kendi stratejiniz için kişisel işlem penceresi ve zaman günlüğü oluşturabileceksiniz.\nSAAT UYARISI\nBu bölümde verilen UTC aralıkları yaklaşık eğitim pencereleridir. Yaz–kış saati, resmî tatil, erken \nkapanış, broker/venue ve ürün takvimi değişebilir. İşlemden önce resmî takvim, ekonomik takvim \nve grafik timezone ayarı doğrulanmalıdır.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Piyasa zamanı yalnız saatin kaç olduğunu göstermez.",
+      "Hangi finans merkezlerinin açık olduğunu, hangi katılımcıların emir gönderdiğini, spread ve işlem hızının nasıl değişebileceğini, haber akışının ne zaman yoğunlaştığını ve seçtiğimiz setup’ın uygulanabilir olup olmadığını etkiler.",
+      "Bu bölümde seansları mekanik yön sinyali olarak değil, karar bağlamı olarak kullanacağız."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0459",
+    "page": 459,
+    "chapter": 22,
+    "section": "22.1 — Zamanı Bağımsız Sinyal Değil Piyasa",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  444\nŞekil 22.1 – Yaklaşık UTC seans pencereleri\nUYGULAMA GÖREVİ\nGrafik platformunda saat dilimini UTC yapın; Sydney, Asya, Londra ve New York seanslarını \nişaretleyip örtüşme bölgeleriyle tarih değişimini kontrol edin.\n22.1 Zamanı Bağımsız Sinyal Değil Piyasa \nDeğişkeni Olarak Okumak\nTrading session (belirli piyasa merkezinin, borsanın veya kullanıcı tanımlı katılım penceresinin aktif \nolduğu zaman aralığı), “bu saatte al” kuralı değildir. Zaman; katılım, spread, işlem hızı, haber ve likidite \nhavuzlarının ne zaman daha görünür hâle gelebileceğini anlatır.\nZaman bilgisi Cevapladığı soru Cevaplamadığı soru\nSeans Hangi merkez ve katılımcı grubu daha aktif olabilir? Fiyat kesin hangi yöne gider?\nOverlap Birden fazla merkezin katılımı aynı anda mı? Volatilite mutlaka artar mı?\nAçılış/kapanış Yeni emir, auction, gap veya pozisyon ayarlaması olabilir mi? İlk hareket gerçek breakout mu?\nHaber saati Planlı bilgi şoku ve spread riski var mı? Haber iyi mi kötü mü fiyatlanacak?\nSession high–low Hangi görünür sınırda emir/stop kümeleri olabilir? Seviye kesin döner veya kırılır mı?\nSession VWAP Seçilen pencerede hacim ağırlıklı ortalama nerede? Tek başına giriş veya fair value garantisi?\nTablo 22.1 – Zaman bilgisinin görevi\nEKRANDA NE ARIYORUM?\n Grafikte hangi timezone seçili?\n Şu an hangi venue/seans açık; ürün gerçekten o merkezden etkileniyor mu?\n Spread, hacim ve bar range’i önceki saatlere göre değişti mi?\n Setup seans başlamadan mı oluştu, açılışta mı tetiklendi, haberle mi bozuldu?\n Aynı saatte geçmiş örneklerde stratejim nasıl performans gösterdi?",
+    "source_extract_summary": [
+      "22.1 Zamanı Bağımsız Sinyal Değil Piyasa Değişkeni Olarak Okumak Trading session (belirli piyasa merkezinin, borsanın veya kullanıcı tanımlı katılım penceresinin aktif olduğu zaman aralığı), “bu saatte al” kuralı değildir.",
+      "Zaman; katılım, spread, işlem hızı, haber ve likidite havuzlarının ne zaman daha görünür hâle gelebileceğini anlatır.",
+      "Zaman bilgisi Cevapladığı soru Cevaplamadığı soru Seans Hangi merkez ve katılımcı grubu daha aktif olabilir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0460",
+    "page": 460,
+    "chapter": 22,
+    "section": "22.2 — UTC, Yerel Saat, DST ve Resmî Takvim",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  445\nDOĞRU BİLİNEN YANLIŞ\nMit: Doğru işlem saatini bulursam yön analizi yapmama gerek kalmaz.\nGerçeklik: Seans yalnız uygulanabilirlik ve katılım bağlamıdır. Yapı, setup, geçersizlik, maliyet ve risk \nhâlâ gereklidir.\n22.2 UTC, Yerel Saat, DST ve Resmî Takvim\nUTC — Coordinated Universal Time (dünya saatlerini ortak referansta karşılaştırma standardı), farklı \nülkelerdeki seansları tek eksende düşünmeyi kolaylaştırır. Yerel saate dönüşümde güncel UTC offset, \ntarih değişimi ve daylight saving time — DST (bazı ülkelerin yılın belirli dönemlerinde saatini ileri/geri \nalması) birlikte kontrol edilir.\nŞekil 22.2 – UTC’den yerel saate doğrulama zinciri\nKontrol Uygulama Yaygın hata\nKaynak saat Seans saati UTC mi, exchange local mı, grafik timezone mu? İki farklı saat standardını toplamak.\nOffset Yerel saat = UTC + güncel offset. Eski offset’i yıl boyu kullanmak.\nTarih devri 24’ü aşan veya gece yarısını geçen saatte tarihi düzeltmek. Sydney/Asya penceresini yanlış güne yazmak.\nDST uyumsuzluğu Londra ve New York’un saat değiştirme tarihleri aynı olmayabilir. Overlap’i birkaç hafta yanlış hesaplamak.\nResmî takvim Tatil, erken kapanış, auction ve bakım saatini kontrol etmek. Normal gün şablonunu özel güne uygulamak.\nGrafik ayarı Session indicator ve VWAP timezone’unu doğrulamak. Doğru saat bilgisiyle yanlış çizim üretmek.\nTablo 22.2 – Saat ve takvim doğrulama kartı\nEYLEM DİLİ\nİşlem planına yalnız “Londra açılışı” yazmam. UTC penceresini, o günkü yerel karşılığını, veri \nsağlayıcının timezone’unu ve varsa DST/tatil notunu kaydederim.\nDOĞRU BİLİNEN YANLIŞ\nMit: UTC kullandığımda yaz–kış saati sorununu tamamen çözmüş olurum.\nGerçeklik: UTC sabittir; fakat Londra, New York ve yerel piyasa açılışlarının UTC karşılığı DST \ndöneminde değişebilir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Doğru işlem saatini bulursam yön analizi yapmama gerek kalmaz.",
+      "Gerçeklik: Seans yalnız uygulanabilirlik ve katılım bağlamıdır.",
+      "Yapı, setup, geçersizlik, maliyet ve risk hâlâ gereklidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0461",
+    "page": 461,
+    "chapter": 22,
+    "section": "22.4 — Sydney/Pacific ve Asya/Tokyo Penceresi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  446\nUYGULAMA GÖREVİ\nAynı işlem günü için UTC’yi, borsanın yerel saatini ve kendi yerel saatinizi ekonomik takvim ve \ngrafik ayarlarında yan yana doğrulayın.\n22.3 Piyasa Türlerine Göre Seans Mantığı\nHer piyasa aynı şekilde “açık” değildir. Hisse borsalarında resmî ana seans, auction ve extended hours \nbulunabilir. Forex hafta içinde merkezler arası sürekli devreder. Kripto 24/7 açık olabilir; fakat borsa, \nstablecoin, fiat rampası ve bölgesel katılım gün içinde değişir. Futures ve CFD ürünlerinde de ürün \ntakvimi, bakım arası ve underlying seansı önemlidir.\nPiyasa Zaman yapısı İşlem öncesi kontrol\nHisse / ETF Resmî exchange seansı; açılış/kapanış auction; olası pre/after market. Ana ve extended session; tatil; earnings/haber; gap ve açılış spread’i.\nForex Hafta içi merkezler arasında 24 saatlik devir. Pair’in para birimleri; merkez açılışları; rollover/spread; makro takvim.\nKripto Genellikle 24/7; venue ve bölgesel katılım değişir. Exchange-specific volume; bakım; funding; stablecoin/fiat akışı; hafta sonu likiditesi.\nFutures Sözleşmeye özgü uzun elektronik seans + bakım/settlement penceresi. Underlying ana seansı; contract calendar; daily settlement ve margin değişimi.\nXAGTRYG benzeri çapraz XAGUSD ve USDTRY gibi birden fazla sürücü. İki bacağın aktif saatleri, feed ve yerel işlem ürününün takvimi.\nTablo 22.3 – Piyasa türüne göre zaman yapısı\nDOĞRU BİLİNEN YANLIŞ\nMit: Kripto 24/7 açık olduğu için seans analizi gereksizdir.\nGerçeklik: Açık olmak, günün her saatinde aynı spread, depth, hacim veya haber etkisi olduğu \nanlamına gelmez.\n22.4 Sydney/Pacific ve Asya/Tokyo Penceresi\nBu bölüm, Sydney/Pacific ve Asya/Tokyo pencerelerini günün erken katılım evresi olarak ele alır. Asya \nseansı sıklıkla daha sakin veya range ağırlıklı olabilir; JPY, AUD ve NZD bağlantılı forex pair’leri ile \nbölgesel haberler bu dönemde daha görünür olabilir. Bu bir eğilimdir; düşük likidite bazen daha sakin \ndeğil, daha keskin ve düzensiz hareket üretebilir.\nGözlem Olası yorum İşlem koşulu\nDar Asya range’i Piyasa denge kuruyor veya sonraki merkezin emrini bekliyor olabilir. Range stratejisi yalnız sınır ve maliyet uygunsa; Londra breakout ihtimali ayrıca izlenir.\nAlt/üst sınır sweep’i Likidite temizliği veya gerçek kırılım başlangıcı olabilir. Reclaim/acceptance ve follow-through beklenir.\nDüşük hacim + geniş wick Thin liquidity veya feed etkisi olabilir. Boyut ve market order riski azaltılır.\nBölgesel haber Pair ve risk varlıklarında ani yönlü emir akışı. Takvim önceden kontrol edilir; tahmin yerine plan uygulanır.\nSydney–Asya overlap AUD/NZD/JPY bağlantılı katılım artabilir. Sembol bazlı geçmiş veriyle doğrulanır.\nTablo 22.4 – Asya/Pacific gözlem kartı\nVAKA ANALİZİ — BTC ASYA RANGE’İ\nBTC/USDT 30 dakikalık grafikte Asya penceresinde dar bir range oluşuyor. Londra öncesi üst sınır \nkısa süre aşılır ve fiyat tekrar range içine kapanırsa bunu otomatik short saymam. Üst zaman \ntrendi, reclaim’in hızı, Londra açılışındaki follow-through ve ilk aşağı hedefe kalan alanı kontrol \nederim.",
+    "source_extract_summary": [
+      "UYGULAMA GÖREVİ Aynı işlem günü için UTC’yi, borsanın yerel saatini ve kendi yerel saatinizi ekonomik takvim ve grafik ayarlarında yan yana doğrulayın.",
+      "22.3 Piyasa Türlerine Göre Seans Mantığı Her piyasa aynı şekilde “açık” değildir.",
+      "Hisse borsalarında resmî ana seans, auction ve extended hours bulunabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0462",
+    "page": 462,
+    "chapter": 22,
+    "section": "22.5 — Londra Seansı: Açılış, Likidite ve İlk",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  447\nŞekil 22.3 – Seans karakterlerinin koşullu aktivite profili\n22.5 Londra Seansı: Açılış, Likidite ve İlk \nHareket\nLondra açılışı özellikle forex, Avrupa hisseleri ve küresel emtialarda yeni katılımın belirginleşebildiği bir \ngeçiştir. Bu dönem yüksek likidite, trend ve breakout fırsatlarıyla ilişkilendirilebilir; ilk saatte fakeout \nriski de bulunur. Bu nedenle açılış hareketi “gerçek yön” değil, test edilmesi gereken ilk emir \ndalgasıdır.\nLondra açılışında gördüğüm Kontrol Karar\nAsya high/low aşımı Kapanış dışarıda mı; hızlı reclaim mi? Acceptance veya sweep senaryosunu ayır.\nGeniş displacement Hacim/katılım ve üst TF rota uyumlu mu? Retest bekle veya planlı momentum setup’ı uygula.\nİlk barlarda çift yönlü wick Spread, haber ve opening noise var mı? İlk range tamamlanana kadar no-trade düşünülebilir.\nVWAP üstünde/altında kabul VWAP reset ve volume source doğru mu? Yalnız bias filtresi; yapı tetik ister.\nEUR/GBP/CHF veya emtia hareketi İlgili veri/haber ve cross-market teyit var mı? Sembol göreviyle uyumluysa işlem penceresi.\nTablo 22.5 – Londra açılış kontrolü\nDOĞRU BİLİNEN YANLIŞ\nMit: Londra açılışında Asya range’i kırılırsa breakout işlemine girilir.\nGerçeklik: İlk aşım sweep veya fakeout olabilir. Kapanış, kabul, retest, hedef alanı ve haber riski \nbirlikte aranır.\nUYGULAMA GÖREVİ\nBir gün seçerek Asya range’ini, Londra açılışını, ilk sweep’i, reclaim’i ve yeni alandaki kabul veya \nreddetme davranışını aynı grafikte işaretleyin.",
+    "source_extract_summary": [
+      "Bu dönem yüksek likidite, trend ve breakout fırsatlarıyla ilişkilendirilebilir; ilk saatte fakeout riski de bulunur.",
+      "Bu nedenle açılış hareketi “gerçek yön” değil, test edilmesi gereken ilk emir dalgasıdır.",
+      "Londra açılışında gördüğüm Kontrol Karar Asya high/low aşımı Kapanış dışarıda mı; hızlı reclaim mi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0463",
+    "page": 463,
+    "chapter": 22,
+    "section": "22.7 — Overlap ve Seans Geçişleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  448\n22.6 New York Seansı: Haber, Hisse Açılışı ve \nKatılım\nNew York penceresi USD pair’leri, ABD hisseleri, endeksler, değerli metaller ve kriptoda önemli bir \nkatılım değişimi yaratabilir. Makro veri, merkez bankası iletişimi veya ABD hisse açılışı aynı pencereye \nyığıldığında hız, spread ve slippage artabilir. Bu durum fırsat kadar uygulama riski de üretir.\nAlt pencere Tipik görev Risk\nNY öncesi makro veri Yeni bilgi fiyatlaması ve önceki seans seviyelerinin testi. Spread genişlemesi, stop gap’i ve ilk yönün geri alınması.\nLondra–NY overlap İki büyük merkezin eşzamanlı katılımı. Hızlı trend kadar çift yönlü likidite temizliği.\nABD hisse açılışı Auction sonrası fiyat keşfi ve volume artışı. Opening noise, gap ve yüksek slippage.\nLondra kapanışı sonrası Katılım bileşimi değişir; trend sürer veya yavaşlar. Eski momentum varsayımını sürdürmek.\nNY sonu / settlement Pozisyon ayarlaması ve likidite azalması olabilir. Yeni intraday trade için hedef alanı ve süre azalır.\nTablo 22.6 – New York penceresini alt görevlere ayırmak\nVAKA ANALİZİ — XAGTRYG İKİ BACAKLI ZAMANLAMA\nXAGTRYG’de gümüş bacağı XAGUSD, kur bacağı USDTRY üzerinden etkilenebilir. New York’ta \nXAGUSD hızlanırken USDTRY aynı yönde veya ters yönde hareket edebilir. Yalnız “New York’ta \ngümüş yükseldi” diye XAGTRYG sonucu varsaymam; iki bacağı, feed’i ve işlem ürününün açık \nolduğu saatleri birlikte kontrol ederim.\nDOĞRU BİLİNEN YANLIŞ\nMit: New York seansı en volatil olduğu için her strateji için en iyi zamandır.\nGerçeklik: Yüksek hız breakout/momentum için faydalı olabilir; dar stop, mean reversion veya \ndüşük slippage isteyen stratejiler için daha kötü olabilir.\n22.7 Overlap ve Seans Geçişleri\nOverlap (iki veya daha fazla önemli piyasa merkezinin çalışma pencerelerinin kesişmesi), katılımcı ve \nemir akışını artırabilir. Likiditenin artması spread’i daraltabilir; aynı anda haber ve yönlü emir akışı \nvolatiliteyi büyütebilir. Bu nedenle “yüksek likidite = düşük volatilite” veya tam tersi mekanik eşitlik \nkurulmaz.",
+    "source_extract_summary": [
+      "22.6 New York Seansı: Haber, Hisse Açılışı ve Katılım New York penceresi USD pair’leri, ABD hisseleri, endeksler, değerli metaller ve kriptoda önemli bir katılım değişimi yaratabilir.",
+      "Makro veri, merkez bankası iletişimi veya ABD hisse açılışı aynı pencereye yığıldığında hız, spread ve slippage artabilir.",
+      "Bu durum fırsat kadar uygulama riski de üretir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0464",
+    "page": 464,
+    "chapter": 22,
+    "section": "22.8 — Açılış, Opening Range ve Kapanış",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  449\nŞekil 22.4 – Overlap döneminde likidite–volatilite ilişkisi\nOverlap sorusu Ölçülebilir veri Kayıt\nSpread değişti mi? Bid–ask ve fill farkı. Seans öncesi / overlap medyanı.\nBar range arttı mı? ATR veya saatlik range. Normal güne göre oran.\nVolume/depth arttı mı? Venue volume, tick volume veya order- book verisi. Kaynak türüyle birlikte.\nYönlü kabul var mı? Session sınırı dışında close ve follow- through. Breakout / false-break sınıfı.\nHaber etkisi var mı? Ekonomik takvim ve olay zamanı. Normal overlap örneğinden ayrı.\nTablo 22.7 – Overlap test kartı\nEYLEM DİLİ\n“Overlap’te işlem yaparım” diye genel kural yazmam. “Breakout setup’ım Londra–New York \noverlap’inde, haber dışı günlerde, spread eşik altında ve range dışı kapanış + retest oluşursa aktif \nolur” gibi ölçülebilir pencere yazarım.\n22.8 Açılış, Opening Range ve Kapanış \nDavranışı\nOpening range (bir piyasa veya seçilen seans açıldıktan sonraki önceden tanımlı ilk süre içinde oluşan \nhigh–low alanı), fiyat keşfinin ilk sınırlarını görünür kılar. Süre stratejiye göre tanımlanır; “ilk 5/15/30 \ndakika” gibi evrensel bir ayar yoktur. Kapanış penceresi ise yeni işlem için kalan süre, settlement ve \npozisyon ayarlaması nedeniyle farklı risk taşır.\nAşama Ekranda aradığım Yaygın hata\nPre-open / önceki seans Gap, önceki high–low, haber ve overnight pozisyon. Açılışı boş bağlamla izlemek.\nİlk fiyat keşfi Spread, çift yönlü wick, auction sonucu ve volume. İlk mumu trend teyidi saymak.\nOpening range tamamlanması Net high–low ve içeride/dışarıda kabul. Range süresini sonuçtan sonra değiştirmek.\nBreakout / retest Kapanış, follow-through, VWAP ve hedef alanı. Sadece wick aşımına girmek.\nKapanış yaklaşımı Kalan süre, spread, pozisyon kapatma akışı. İntraday hedefe zaman kalmadan yeni trade açmak.",
+    "source_extract_summary": [
+      "Venue volume, tick volume veya order- book verisi.",
+      "Session sınırı dışında close ve follow- through.",
+      "“Breakout setup’ım Londra–New York overlap’inde, haber dışı günlerde, spread eşik altında ve range dışı kapanış + retest oluşursa aktif olur” gibi ölçülebilir pencere yazarım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0465",
+    "page": 465,
+    "chapter": 22,
+    "section": "22.9 — Session High–Low ve Likidite Rotası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  450\nTablo 22.8 – Açılış ve kapanış görevleri\nDOĞRU BİLİNEN YANLIŞ\nMit: Market open daha çok hareket ettiği için en yüksek edge’i verir.\nGerçeklik: Açılış aynı zamanda gap, auction, geniş spread ve yanlış ilk hareket riski taşır. Edge, \nstratejinin bu koşullarda test edilmiş sonucudur.\n22.9 Session High–Low ve Likidite Rotası\nSession high ve session low (önceden tanımlanmış seans penceresinde görülen en yüksek ve en düşük \nfiyat), görünür likidite referanslarıdır. Önceki seansın sınırları yeni seans için hedef, sweep, breakout \nveya balance referansı olabilir; fakat seviye kendisi likiditenin tamamı değildir ve otomatik işlem \nsinyali üretmez.\nŞekil 22.5 – Session high–low karar akışı\nFiyat olayı Olası hipotez Teyit / iptal\nHigh üstüne wick + range içine close Buy-side sweep veya başarısız breakout. Aşağı follow-through; high üstünde kabul iptal.\nHigh üstünde close + retest Breakout acceptance. Retest tutunması; range içine güçlü dönüş iptal.\nLow altına wick + reclaim Sell-side sweep. Üst zaman konumu ve yukarı yapı; low altında kabul iptal.\nHigh–low arasında sıkışma Balance / sonraki seans bekleme. Sınır dışı kabul veya mean-reversion planı.\nİki seans sınırı üst üste Daha görünür referans ve stop kümelenmesi olabilir. Teknik yapı ve maliyet hâlâ gerekli.\nTablo 22.9 – Session sınırı senaryoları\nVAKA ANALİZİ — ASYA LOW SWEEP\nXAGUSD Asya low’unu Londra açılışında kısa süre kırıyor ve 30 dakikalık mum tekrar üstünde \nkapanıyor. XAGTRYG long için yalnız bu sweep’e güvenmem. Günlük metal bağlamı, USDTRY yönü, \nreclaim sonrası micro structure ve hedefe kalan net alanı kontrol ederim.\nUYGULAMA GÖREVİ\nBir XAGUSD veya XAGTRYG grafiğinde önceki Asya high–low, Londra sweep’i, reclaim, New York \nhedefi ve invalidation seviyelerini işaretleyin.",
+    "source_extract_summary": [
+      "Gerçeklik: Açılış aynı zamanda gap, auction, geniş spread ve yanlış ilk hareket riski taşır.",
+      "Edge, stratejinin bu koşullarda test edilmiş sonucudur.",
+      "22.9 Session High–Low ve Likidite Rotası Session high ve session low (önceden tanımlanmış seans penceresinde görülen en yüksek ve en düşük fiyat), görünür likidite referanslarıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0466",
+    "page": 466,
+    "chapter": 22,
+    "section": "22.11 — Session VWAP, Reset ve Anchor",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  451\n22.10 Haber Pencereleri ve No-Trade Kararı\nEkonomik calendar (planlı veri, merkez bankası, şirket açıklaması ve diğer olayların zamanını \ngösterme), yön tahmin aracından önce risk takvimidir. Yüksek etkili olaylar spread, gap, slippage ve \nbar range’ini büyütebilir. Haber stratejisi olmayan trader için en iyi karar bazen olay öncesi veya \nhemen sonrasında işlem almamaktır.\nPlan alanı Önceden yazılacak\nOlay Para birimi/varlık ve beklenen yayın zamanı.\nEtkilenen pozisyon Doğrudan ve çapraz riskler; ör. USD haberi XAGUSD ve USDTRY.\nNo-trade window Olay öncesi/sonrası kişisel bekleme penceresi; sabit evrensel dakika değil.\nAçık pozisyon Stop, boyut, gap toleransı ve pozisyonu taşımama/azaltma kararı.\nTetik İlk spike değil; kapanış, spread normalleşmesi, reclaim/retest veya structure.\nKayıt Haberli ve habersiz örnekleri ayrı sınıflandırmak.\nTablo 22.10 – Haber penceresi risk kartı\nDOĞRU BİLİNEN YANLIŞ\nMit: Haber yönünü doğru tahmin edersem fiyat hareketinden kolayca kazanırım.\nGerçeklik: Sonuç beklentiye göre fiyatlanmış olabilir; ilk hareket tersine dönebilir ve kötü fill yön \ntahmini doğru olsa bile zarara yol açabilir.\nEKRANDA NE ARIYORUM?\n Takvimde olay saati ve etkilenen para/varlık.\n Grafik timezone’u ile takvim timezone’u aynı mı?\n Spread ve bar range’i normalleşti mi?\n İlk spike hangi session high–low veya HTF seviyesini test etti?\n Yeni işlem için teknik stop ve hedef hâlâ uygulanabilir mi?\n22.11 Session VWAP, Reset ve Anchor\nVWAP — volume weighted average price (seçilen zaman penceresindeki fiyatları hacimle \nağırlıklandırarak ortalama işlem fiyatı üretme), session tanımına bağlıdır. Günlük/session VWAP’ın gün \niçinde resetlendiğini; hisse grafiklerinde regular veya extended hours seçiminin, 24/7 piyasalarda ise \ndaily/custom anchor’ın sonucu değiştirdiğini gösterir.",
+    "source_extract_summary": [
+      "22.10 Haber Pencereleri ve No-Trade Kararı Ekonomik calendar (planlı veri, merkez bankası, şirket açıklaması ve diğer olayların zamanını gösterme), yön tahmin aracından önce risk takvimidir.",
+      "Yüksek etkili olaylar spread, gap, slippage ve bar range’ini büyütebilir.",
+      "Haber stratejisi olmayan trader için en iyi karar bazen olay öncesi veya hemen sonrasında işlem almamaktır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0467",
+    "page": 467,
+    "chapter": 22,
+    "section": "22.12 — Strateji–Seans Uyumu",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  452\nŞekil 22.6 – Session VWAP reset ve anchor seçenekleri\nAyar Kontrol Yanlış kullanım\nAnchor / reset Gün başlangıcı mı, ana seans mı, custom window mı? Farklı reset’leri aynı VWAP sanmak.\nRegular vs extended Pre/after-market dahil mi? Hisse ana seans benchmark’ını extended volume ile karıştırmak.\nTimezone Session input hangi saat standardında? Doğru pencereyi yanlış saate çizmek.\nVolume source Venue volume, tick volume veya sağlayıcı hacmi ne? Tüm piyasa hacmi gibi yorumlamak.\nYön/bias Fiyat üstte/altında ve VWAP eğimi nasıl? Tek cross’u işlem sinyali saymak.\nConfluence Yapı, range, session level ve price action uyumlu mu? VWAP’a değdi diye otomatik dönüş beklemek.\nTablo 22.11 – Session VWAP denetimi\nVAKA ANALİZİ — AYNI GRAFİKTE İKİ VWAP\nBTC 15 dakikalık grafikte daily VWAP ile New York session VWAP farklı seviyelerde. Daily VWAP 24 \nsaatlik akışı; New York VWAP yalnız seçilen pencereyi özetliyor. Setup hangi katılım penceresine \ndayanıyorsa ilgili anchor’ı kullanır, diğerini bağımsız teyit saymam.\nDOĞRU BİLİNEN YANLIŞ\nMit: VWAP fiyatın gerçek fair value’sudur ve fiyat mutlaka geri döner.\nGerçeklik: VWAP seçilen veri ve anchor’ın hacim ağırlıklı ortalamasıdır. Trend gününde fiyat uzun \nsüre tek tarafta kalabilir.\nUYGULAMA GÖREVİ\nBir hisse grafiğinde extended-hours ve regular-session VWAP’ı; bir BTC grafiğinde daily ve New \nYork session VWAP’ı karşılaştırın. Reset farkını not edin.\n22.12 Strateji–Seans Uyumu\n“En iyi seans” stratejinin neye ihtiyaç duyduğuna bağlıdır. Breakout ve momentum; katılım, range \ngenişlemesi ve follow-through ister. Mean reversion ve range; dengeli sınırlar, yönetilebilir spread ve \nyeterli hedef mesafesi ister. Scalping ise düşük slippage ve hızlı fill gerektirir. Aynı saat bir strateji için \nfırsat, diğeri için no-trade olabilir.",
+    "source_extract_summary": [
+      "Farklı reset’leri aynı VWAP sanmak.",
+      "Regular vs extended Pre/after-market dahil mi?",
+      "Hisse ana seans benchmark’ını extended volume ile karıştırmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0468",
+    "page": 468,
+    "chapter": 22,
+    "section": "22.13 — Forex, Hisse, Kripto ve XAGTRYG",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  453\nStrateji İhtiyaç Seans testi\nBreakout Yeterli katılım, range dışı close, follow- through. Açılış/overlap ile normal saat performansını karşılaştır.\nTrend pullback Yönlü kabul, kontrollü pullback, VWAP/yapı uyumu. İlk impulse sonrası retest kalitesini ölç.\nMean reversion Dengeli range, başarısız sınır aşımı, uygun maliyet. Yüksek haber hızında sonuç bozuluyor mu?\nLiquidity sweep Görünür session high–low, hızlı reclaim, hedef rota. Sweep ile gerçek breakout oranını kaydet.\nScalping Dar spread, yüksek fill kalitesi, kısa latency. Venue ve saat bazında slippage günlüğü.\nNews momentum Özel olay planı ve yüksek risk toleransı. Normal stratejiden ayrı örneklem.\nTablo 22.12 – Strateji–seans eşleştirmesi\nEYLEM DİLİ\nStrateji günlüğüne “seans” sütunu eklerim. Aynı setup’ın Asya, Londra, overlap, New York ve düşük \nkatılım pencerelerindeki net R, win rate, MAE/MFE ve slippage sonucunu ayrı ölçerim.\n22.13 Forex, Hisse, Kripto ve XAGTRYG \nZamanlaması\nPiyasa Öncelikli zaman sorusu Özel kontrol\nForex Pair’in iki para birimi hangi merkezlerde aktif? Rollover, makro veri, DST ve broker spread’i.\nHisse / ETF Ana seans mı, pre/after market mi? Opening auction, gap, earnings ve regular VWAP.\nKripto Hangi venue ve bölgesel katılım? 24/7 volume, hafta sonu depth, funding ve exchange bakımı.\nEmtia / XAGUSD Londra/NY katılımı ve makro veri hangi bacağı etkiliyor? Futures/spot feed ve settlement penceresi.\nXAGTRYG Metal ve kur bacakları hangi saatlerde birlikte aktif? XAGUSD × USDTRY mantığı, yerel ürün/venue takvimi ve feed.\nTablo 22.13 – Piyasa bazlı zaman soruları\nXAGTRYG ZAMANLAMA KARTI\n Günlük/4S bağlam: metal ve kur yönleri ayrı yazılır.\n Asya: overnight metal range’i ve USDTRY feed davranışı gözlenir.\n Londra: XAGUSD’de range aşımı/sweep ve hacim değişimi izlenir.\n New York: makro veri, ABD katılımı ve metal volatilitesi kontrol edilir.\n Tetik: 2S/30D yapı, reclaim/retest ve güncel R:R.\n No-trade: iki bacak zıt, feed belirsiz, spread anormal veya haber riski plansızsa işlem \nyok.\nDOĞRU BİLİNEN YANLIŞ\nMit: Bir piyasa için bulunan en iyi saat başka sembollerde de çalışır.\nGerçeklik: Ürün takvimi, para birimi, venue, kullanıcı stratejisi ve veri kaynağı değişince zaman \nedge’i de değişebilir.",
+    "source_extract_summary": [
+      "Strateji İhtiyaç Seans testi Breakout Yeterli katılım, range dışı close, follow- through.",
+      "Açılış/overlap ile normal saat performansını karşılaştır.",
+      "Trend pullback Yönlü kabul, kontrollü pullback, VWAP/yapı uyumu."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0469",
+    "page": 469,
+    "chapter": 22,
+    "section": "22.14 — Kişisel İşlem Penceresi ve Zaman",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  454\n22.14 Kişisel İşlem Penceresi ve Zaman \nGünlüğü\nKişisel işlem penceresi (traderın strateji, piyasa, yaşam düzeni ve risk kapasitesine göre önceden \nbelirlediği aktif analiz/işlem saatleri), bütün gün ekran başında kalmayı önler. Pencere “en hareketli \nsaat” değil, doğru karar verebildiğim ve edge’imi test ettiğim saat olmalıdır.\nGünlük alan Kayıt\nTarih / sembol / venue Doğru ürün ve veri kaynağı.\nUTC + yerel saat Offset, DST ve takvim notu.\nSeans / alt pencere Asya, Londra açılışı, overlap, NY open vb.\nHaber durumu Haberli, habersiz, beklenmeyen olay.\nSetup sınıfı Breakout, pullback, range, sweep vb.\nMaliyet Spread, slippage, komisyon.\nSonuç Net R, MFE, MAE ve süre.\nSüreç Zaman planına uyum, geç giriş, FOMO, kapanışa yakın trade.\nTablo 22.14 – Zaman günlüğü\nKİŞİSEL PENCERE ÖRNEĞİ\nBir trader yalnız Londra açılışı sonrası ilk iki saat ve Londra–New York overlap’inin haber dışı \nkısmında işlem yapabilir. Başka trader sakin Asya range’inde mean reversion uygulayabilir. Doğru \npencere, test edilen strateji ve sürdürülebilir rutinle belirlenir.\nDOĞRU BİLİNEN YANLIŞ\nMit: Daha uzun ekran süresi daha fazla fırsat ve daha yüksek getiri sağlar.\nGerçeklik: Uzun süre düşük kaliteli sinyal, yorgunluk ve overtrading üretebilir. Sınırlı, test edilmiş \npencere karar kalitesini artırabilir.",
+    "source_extract_summary": [
+      "22.14 Kişisel İşlem Penceresi ve Zaman Günlüğü Kişisel işlem penceresi (traderın strateji, piyasa, yaşam düzeni ve risk kapasitesine göre önceden belirlediği aktif analiz/işlem saatleri), bütün gün ekran başında kalmayı önler.",
+      "Pencere “en hareketli saat” değil, doğru karar verebildiğim ve edge’imi test ettiğim saat olmalıdır.",
+      "Günlük alan Kayıt Tarih / sembol / venue Doğru ürün ve veri kaynağı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0470",
+    "page": 470,
+    "chapter": 22,
+    "section": "22.15 — Tam Gün İçi Zamanlama İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  455\n22.15 Tam Gün İçi Zamanlama İş Akışı\nŞekil 22.7 – Tam gün içi zamanlama iş akışı\nAşama Eylem Çıktı\n1  Takvim Venue tatili/erken kapanış ve ekonomik olayları kontrol et. Normal, özel veya no-trade gün.\n2  Saat UTC, yerel offset, DST ve grafik timezone’unu doğrula. Doğru seans çizimi.\n3  Bağlam Üst TF yapı, günlük bias ve beklenen gün tipini yaz. Yön/alternatif/no-trade.\n4  Seviye Önceki gün/seans high–low, open, range ve VWAP çiz. Likidite rotası.\n5  Pencere Stratejiye uygun seans/overlap ve no-trade window seç. Aktif işlem saatleri.\n6  Tetik Close, reclaim, retest, displacement ve güncel hedef alanını kontrol et. Emir veya bekleme.\n7  Risk Spread, hız, slippage, stop ve kalan süreyi yeniden hesapla. Uygulanabilir boyut.\n8  Yönetim Haber/seans geçişi yaklaşınca Bölüm 23 planına göre yönet. Taşı / azalt / çık.\n9  Kayıt Seans, haber, maliyet ve sonuç verisini günlüğe yaz. Kişisel zaman edge’i.\nTablo 22.15 – Tam uygulama sırası\nTAM VAKA — LONDRA’DAN NEW YORK’A XAGTRYG\n Takvim: ABD verisi ve yerel ürün takvimi kontrol edilir.\n Saat: Londra/NY pencereleri güncel UTC ve grafik timezone’unda işaretlenir.\n Bağlam: Günlük XAGUSD trendi, USDTRY yönü ve XAGTRYG 4S yapı yazılır.\n Seviyeler: Asya high–low, önceki gün high–low ve ilgili session VWAP çizilir.\n Londra: Asya high sweep’i sonrası reclaim var; fakat ABD verisi yakınsa tetik bekletilir.\n New York: Veri sonrası spread normalleşir, 30D micro BOS + retest oluşur ve hedef \nalanı hâlâ yeterlidir.\n Risk: Haber sonrası ATR ve slippage ile boyut yeniden hesaplanır.\n Kayıt: Metal/kur katkısı, seans ve net R ayrı yazılır.",
+    "source_extract_summary": [
+      "22.15 Tam Gün İçi Zamanlama İş Akışı Şekil 22.7 – Tam gün içi zamanlama iş akışı Aşama Eylem Çıktı 1 Takvim Venue tatili/erken kapanış ve ekonomik olayları kontrol et.",
+      "2 Saat UTC, yerel offset, DST ve grafik timezone’unu doğrula.",
+      "3 Bağlam Üst TF yapı, günlük bias ve beklenen gün tipini yaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0471",
+    "page": 471,
+    "chapter": 22,
+    "section": "22.15 — Tam Gün İçi Zamanlama İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  456\nUYGULAMA GÖREVİ\nEkonomik takvim → UTC session overlay → Asya high–low → Londra sweep → New York retest → \nVWAP → işlem günlüğü sırasıyla tek bir vaka kaydı oluşturun.\nHızlı Başvuru\nGördüğüm İlk kontrol Varsayılan eylem\nSession saatleri uyuşmuyor UTC, DST, exchange calendar, chart timezone Saati doğrulamadan analiz yapma.\nOverlap’te hız arttı Haber, spread, range ve acceptance Boyutu/maliyeti yeniden değerlendir.\nAsya range’i kırıldı Close, reclaim, Londra katılımı Sweep ile breakout’u ayır.\nNY açılışında ilk spike Auction/haber ve spread İlk hareketi kovalamadan yapı bekle.\nSession high/low dokunuldu Wick mi close mu; follow-through Otomatik dönüş işlemi yok.\nVWAP farklı platformda farklı Anchor, volume source, session Aynı tanımı kullanarak karşılaştır.\nKripto gece hareket etti Venue volume ve thin-liquidity riski 24/7 açık = eşit kalite değil.\nKapanışa yakın setup Kalan süre ve hedef alanı Yeni trade yerine no-trade olabilir.\nHaber yaklaşıyor Olay planı ve açık pozisyon Önceden yazılı no-trade/yönetim kuralı.\nTablo 22.16 – Hızlı sorun çözme\nGün İçi Zamanlama Kontrol Listesi\n Resmî venue takvimi, tatil, erken kapanış ve ekonomik takvim kontrol edildi.\n UTC, güncel offset, DST, tarih devri ve grafik timezone’u doğrulandı.\n Piyasa türü ve seçilen ürünün gerçek session yapısı belirlendi.\n Üst TF yapı ve günün birincil/alternatif senaryosu yazıldı.\n Önceki gün ve session high–low, opening range, open ve VWAP çizildi.\n Stratejinin aktif seans penceresi ve no-trade saatleri belirlendi.\n Haberli ve habersiz günler ayrı sınıflandırıldı.\n Tetik yalnız seans adıyla değil close/reclaim/retest ve hedef alanıyla doğrulandı.\n Spread, slippage, volatilite ve kalan süre risk hesabına eklendi.\n Session/VWAP indicator reset ve volume source kontrol edildi.\n İşlem sonrası saat, seans, haber, setup, maliyet, MFE/MAE ve net R kaydedildi.\nTemel Sözlük\nTerim Aksiyon tanımı\nUTC Dünya seanslarını ortak saat standardında karşılaştırmak.\nUTC offset Yerel saatin UTC’den güncel farkını uygulamak.\nDST Bazı ülkelerde mevsimsel saat değişiminin seans dönüşümünü etkilediğini kontrol etmek.\nTrading session Belirli merkez/venue veya kullanıcı penceresindeki katılımı sınıflandırmak.\nOverlap İki önemli seansın aynı anda açık olduğu zaman aralığını işaretlemek.\nOpening range Seansın önceden belirlenmiş ilk süresindeki high–low alanını ölçmek.\nSession high / low Seçilen penceredeki en yüksek ve en düşük fiyatı likidite referansı olarak izlemek.\nAcceptance Fiyatın seviye dışında kapanış ve follow-through ile kalıcılaşmasını gözlemek.\nReclaim Kısa aşım sonrası fiyatın seviye/range içine geri dönmesini teyit etmek.\nEconomic calendar Planlı haber ve veri saatlerini risk takvimine eklemek.\nNo-trade window Önceden tanımlı koşul veya saat aralığında yeni işlem almamak.\nSession VWAP Seçilen session’ın hacim ağırlıklı ortalamasını doğru reset/anchor ile hesaplamak.\nRegular hours Borsanın ana işlem seansını extended saatlerden ayırmak.",
+    "source_extract_summary": [
+      "UYGULAMA GÖREVİ Ekonomik takvim → UTC session overlay → Asya high–low → Londra sweep → New York retest → VWAP → işlem günlüğü sırasıyla tek bir vaka kaydı oluşturun.",
+      "Hızlı Başvuru Gördüğüm İlk kontrol Varsayılan eylem Session saatleri uyuşmuyor UTC, DST, exchange calendar, chart timezone Saati doğrulamadan analiz yapma.",
+      "Overlap’te hız arttı Haber, spread, range ve acceptance Boyutu/maliyeti yeniden değerlendir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0472",
+    "page": 472,
+    "chapter": 22,
+    "section": "22.15 — Tam Gün İçi Zamanlama İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 22\nİşlem Seansları, Likidite ve Gün İçi Zamanlama  •  457\nTerim Aksiyon tanımı\nExtended hours Ana seans öncesi/sonrası işlem penceresini ve düşük likidite riskini kontrol etmek.\nTime edge Stratejinin belirli zaman penceresinde ölçülmüş performans farkını kaydetmek.\nTablo 22.17 – Bölüm 22 sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Seans bilgisi hangi soruyu cevaplar, hangi soruyu cevaplamaz?\n2. UTC neden ortak referans olarak kullanılır?\n3. UTC offset ve tarih devri birlikte nasıl kontrol edilir?\n4. DST Londra–New York overlap’ini neden değiştirebilir?\n5. Resmî tatil ve erken kapanış neden seans şablonunu bozar?\n6. Kripto 24/7 açık olduğu hâlde neden zaman analizi gerekir?\n7. Forex, hisse ve futures session yapıları nasıl ayrılır?\n8. Asya seansının range eğilimi neden kesin kural değildir?\n9. Düşük likidite neden bazen sakin değil keskin hareket üretir?\n10. Londra açılışındaki ilk range kırılımı neden teyit ister?\n11. New York penceresinde haber ve hisse açılışı hangi ek riskleri yaratır?\n12. Overlap döneminde likidite ve volatilite neden birlikte artabilir?\n13. Yüksek likidite her zaman düşük volatilite anlamına gelir mi?\n14. Opening range süresi neden stratejiye göre önceden tanımlanmalıdır?\n15. Kapanışa yakın yeni trade neden daha düşük uygulanabilirlik taşıyabilir?\n16. Session high–low neden otomatik dönüş seviyesi değildir?\n17. Wick sweep ile breakout acceptance nasıl ayrılır?\n18. Haber penceresinde no-trade kararı hangi amaçla kullanılır?\n19. Haber yönünü doğru tahmin etmek neden kâr garantisi değildir?\n20. Session VWAP hangi üç ayara özellikle bağlıdır?\n21. Regular ve extended hours VWAP’ı nasıl değiştirebilir?\n22. Volume source neden VWAP yorumunu etkiler?\n23. VWAP cross’u neden tek başına giriş değildir?\n24. Breakout, mean reversion ve scalping hangi farklı seans koşullarına ihtiyaç duyar?\n25. Stratejinin time edge’i nasıl ölçülür?\n26. XAGTRYG zamanlamasında XAGUSD ve USDTRY neden ayrı izlenir?\n27. Kişisel işlem penceresi neden “en hareketli saat” olmak zorunda değildir?\n28. Zaman günlüğünde hangi maliyet ve süreç alanları bulunmalıdır?\n29. Tam gün içi zamanlama iş akışının dokuz aşaması nedir?30. Bölüm 22’nin Bölüm 23’e bıraktığı ana yönetim konuları nelerdir?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Extended hours Ana seans öncesi/sonrası işlem penceresini ve düşük likidite riskini kontrol etmek.",
+      "Time edge Stratejinin belirli zaman penceresinde ölçülmüş performans farkını kaydetmek.",
+      "Seans bilgisi hangi soruyu cevaplar, hangi soruyu cevaplamaz?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Göreceli katılım ve hacim özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  }
+]

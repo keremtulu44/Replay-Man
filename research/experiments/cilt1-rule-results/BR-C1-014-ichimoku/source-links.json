@@ -1,0 +1,67 @@
+[
+  {
+    "id": "PTA-C1-2026.p0084",
+    "page": 84,
+    "chapter": 14,
+    "section": "14.1 — Beş bileşenin gerçek hesap mantığı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n84 \nBÖLÜM 14 \nIchimoku Cloud: Beş Çizgiyi Tek Sistem \nOlarak Okumak \nIchimoku tek bir gösterge değil, birkaç çizgiyi birlikte kullanan bir sistemdir. Çizgiler \nseçilen dönemlerin en yüksek ve en düşük fiyatlarının orta noktalarından türetilir. \nBulut ve diğer çizgiler birlikte trendin yönünü, fiyatın konumunu ve olası \ndestek/direnç bölgelerini okumaya yardım eder. \n  \n \nHIZLI ROL — Ana görev: birkaç farklı zaman aralığını tek sistemde birleştirerek trendi ve \nfiyatın bulunduğu bölgeyi görmek. Tek başına kesin dönüş veya gelecekte çalışacak destek \nsöylemez. Ana risk: Tenkan/Kijun kesişimini tek başına giriş saymak, ileri çizilen bulutu \ngelecek tahmini sanmak ve üzerine gereksiz trend araçları eklemek. İyi eşleşme: ATR veya \nVolume Profile. \n14.1 — Beş bileşenin gerçek hesap mantığı \nBileşen Temel hesap Grafikteki görev \nTenkan-sen (Son 9 periyodun en yüksek + en düşük) / 2 Kısa dönem denge / dönüş hızı \nKijun-sen (Son 26 periyodun en yüksek + en düşük) / 2 Orta dönem denge referansı \nSenkou Span A (Tenkan + Kijun) / 2, 26 periyot ileri çizilir Bulutun bir sınırı \nSenkou Span B (Son 52 periyodun en yüksek + en düşük) / 2, 26 ileri Bulutun diğer sınırı \nChikou Span Güncel kapanış 26 periyot geriye çizilir Geçmiş fiyatla görsel \nkarşılaştırma",
+    "source_extract_summary": [
+      "BÖLÜM 14 Ichimoku Cloud: Beş Çizgiyi Tek Sistem Olarak Okumak Ichimoku tek bir gösterge değil, birkaç çizgiyi birlikte kullanan bir sistemdir.",
+      "Çizgiler seçilen dönemlerin en yüksek ve en düşük fiyatlarının orta noktalarından türetilir.",
+      "Bulut ve diğer çizgiler birlikte trendin yönünü, fiyatın konumunu ve olası destek/direnç bölgelerini okumaya yardım eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0085",
+    "page": 85,
+    "chapter": 14,
+    "section": "14.3 — Tenkan ve Kijun’da yalnız konuma değil eğime de bakın",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n85 \n \nŞekil 14.1 — Tenkan ve Kijun kapanış fiyatlarının sıradan ortalaması değildir; son dönemin en yüksek ve en düşük \nfiyatlarının orta noktasını kullanır. Senkou çizgileri ise bugün hesaplanan değerlerin grafikte ileriye taşınmış halidir. \n14.2 — “9 periyot hareketli ortalama” demek neden yanlıştır? \nSAYISAL ÖRNEK \nSon 9 bardaki en yüksek 112, en düşük 100 ise Tenkan = (112+100)/2 = 106’dır. Aynı 9 barın \nkapanışlarının SMA’sı örneğin 108,2 olabilir. İki sayı farklıdır çünkü Ichimoku uç değerlerin orta \nnoktasını, SMA ise kapanışların aritmetik ortalamasını kullanır. \n \nBu fark davranışı da değiştirir: Tenkan/Kijun, yeni bir uç nokta oluşmadıkça yatay kalabilir; \nkapanış SMA’sı ise her yeni kapanışla değişir. Bu nedenle Ichimoku çizgilerini sıradan MA gibi \nyorumlamayın. \n14.3 — Tenkan ve Kijun’da yalnız konuma değil eğime de bakın \nTenkan ve Kijun, seçilen dönemlerin yüksek–düşük orta noktalarından türetilen denge \nçizgileridir. Bu nedenle yalnız fiyatın çizginin üzerinde veya altında olması değil, çizginin \nkendi eğimi de bilgi taşır. \nYükselen Tenkan kısa dönem denge seviyesinin, yükselen Kijun ise daha orta dönem denge \nseviyesinin yukarı taşındığını gösterir. Düşen çizgiler bunun tersini anlatır. \nKijun yataylaşıyor ve fiyat çizginin iki tarafını sık sık kesiyorsa orta dönem denge seviyesinin \nbelirgin bir yönde ilerlemediği görülür. Bu durum daha dengeli veya yatay bir piyasa ortamıyla \nbirlikte görülebilir.",
+    "source_extract_summary": [
+      "Senkou çizgileri ise bugün hesaplanan değerlerin grafikte ileriye taşınmış halidir.",
+      "14.2 — “9 periyot hareketli ortalama” demek neden yanlıştır?",
+      "SAYISAL ÖRNEK Son 9 bardaki en yüksek 112, en düşük 100 ise Tenkan = (112+100)/2 = 106’dır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0086",
+    "page": 86,
+    "chapter": 14,
+    "section": "14.6 — Ichimoku’yu tek tek sinyaller yerine tek sistem olarak okumak",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n86 \n14.4 — Chikou Span’ı “gecikmeli sinyal” değil karşılaştırma katmanı olarak \nokuyun \nChikou Span bugünkü kapanışı geçmişe kaydırarak mevcut fiyatın 26 bar önceki fiyat bölgesine \ngöre nerede olduğunu görmeye yardım eder. \nChikou geçmiş fiyatların belirgin biçimde üzerindeyse bugünkü kapanış geçmiş fiyat bölgesinin \nüzerine taşınmıştır. Geçmiş fiyatların altındaysa bunun tersi görülür. Chikou geçmiş mumlarla \nsürekli iç içe geçiyorsa bugünkü fiyat geçmişteki yoğun fiyat bölgesinden belirgin biçimde \nayrışmamıştır. \nBu nedenle Chikou’nun işi geleceği tahmin etmek değil, mevcut kapanışın geçmiş fiyat \nyapısına göre ne kadar ayrıştığını göstermektir. \n14.5 — Bulut ileri çiziliyor; bu geleceği tahmin ettiği anlamına gelmez \n \nŞekil 14.2 — Senkou A/B bugünkü ve geçmiş verilerden hesaplanıp 26 periyot ileriye yerleştirilir; Chikou güncel \nkapanışı 26 periyot geriye yerleştirir. Yer değiştirme, geleceğin verisini kullanmak değildir. \nÇOK KRİTİK TEKNİK AYRIM \nSenkou değerleri mevcut/geçmiş veriden hesaplanır ve yalnız grafikte 26 periyot ileri taşınır. İleri \nçizilmek geleceğin verisini kullanmak veya gelecekteki destek/direnci bilmek değildir. \n \n14.6 — Ichimoku’yu tek tek sinyaller yerine tek sistem olarak okumak \nKatman Soru Örnek okuma \nFiyat / Bulut Genel piyasa ortamı nerede? Fiyat bulut üstünde / içinde / altında \nTenkan / Kijun Kısa denge orta dengeye göre nasıl? Kesişim veya ayrışma \nSpan A / Span B Bulut geometrisi hangi yönde? A>B veya A<B \nChikou Güncel kapanış geçmiş fiyatlara göre \nnerede? \nEk bağlam / filtre",
+    "source_extract_summary": [
+      "14.4 — Chikou Span’ı “gecikmeli sinyal” değil karşılaştırma katmanı olarak okuyun Chikou Span bugünkü kapanışı geçmişe kaydırarak mevcut fiyatın 26 bar önceki fiyat bölgesine göre nerede olduğunu görmeye yardım eder.",
+      "Chikou geçmiş fiyatların belirgin biçimde üzerindeyse bugünkü kapanış geçmiş fiyat bölgesinin üzerine taşınmıştır.",
+      "Geçmiş fiyatların altındaysa bunun tersi görülür."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0087",
+    "page": 87,
+    "chapter": 14,
+    "section": "14.9 — Kumo kırılımı ve çoklu zaman dilimi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n87 \n \nTenkan/Kijun kesişimi tek başına alış sinyali değildir. Fiyatın buluta göre konumu, ana yapı ve \ndiğer Ichimoku katmanları aynı bağlamda okunmalıdır. \n14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir \nTenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir. Kesişim sırasında fiyatın \nKumo’ya göre konumu da okunabilir. \nKesişim Fiyatın Kumo’ya göre konumu Bağlama göre yorum \nYükseliş yönlü Kumo üstünde Mevcut yükseliş ortamıyla aynı yönde \nYükseliş yönlü Kumo altında Bulut bağlamına karşı \nDüşüş yönlü Kumo altında Mevcut düşüş ortamıyla aynı yönde \nDüşüş yönlü Kumo üstünde Bulut bağlamına karşı \nChikou’nun da aynı yönü desteklemesi Ichimoku’nun kendi bileşenlerinin benzer bir piyasa \nortamını gösterdiğini düşündürebilir. Ancak bunu “üç bağımsız teyit” diye saymayın; bütün \nbileşenler aynı fiyat verisinden türetilir. \n14.8 — Kumo kalınlığı ve Kumo Twist \nKumo kalınlığı Senkou Span A ile Senkou Span B arasındaki mesafedir. Mesafe büyüdükçe iki \ndenge hesabı birbirinden daha fazla ayrışır; mesafe küçüldükçe bulut incelir. \nKalın bulutu “kesin güçlü destek/direnç”, ince bulutu “kesin zayıf destek/direnç” olarak \nyorumlamak doğru değildir. Kalınlık öncelikle iki farklı denge hesabı arasındaki ayrışmanın \nbüyüklüğünü gösterir. \nKumo Twist geleceği tahmin etmez \nSenkou Span A ile Senkou Span B birbirini geçtiğinde geleceğe kaydırılmış bulutun rengi \ndeğişir. Bu olay Kumo Twist olarak adlandırılır. \nTwist ileri tarafta çiziliyor olsa da iki Span geçmiş ve mevcut fiyatlardan hesaplanmıştır. Bu \nnedenle Kumo Twist “trend gelecekte kesin dönecek” anlamına gelmez. Fiyatın Kumo’ya göre \nkonumu ve diğer Ichimoku katmanlarıyla birlikte değerlendirilmelidir. \n14.9 — Kumo kırılımı ve çoklu zaman dilimi \nFiyatın Kumo’nun dışına çıkması tek başına yeterli değildir. Kırılımın önemi; bulutun kalınlığı, \nfiyatın kırılım öncesinde Kumo’nun hangi tarafında ne kadar süre kaldığı ve kullanılan zaman \ndilimi gibi etkenlerle birlikte değerlendirilmelidir. \nFiyat Kumo’dan çok uzaklaştığında bulut güncel kısa dönem karar için geride kalabilir. Böyle \ndönemlerde daha yakın Tenkan ve Kijun çizgileri kısa ve orta dönem dengenin nasıl değiştiğini \nizlemek için daha doğrudan olabilir.",
+    "source_extract_summary": [
+      "Tenkan/Kijun kesişimi tek başına alış sinyali değildir.",
+      "Fiyatın buluta göre konumu, ana yapı ve diğer Ichimoku katmanları aynı bağlamda okunmalıdır.",
+      "14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir Tenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0088",
+    "page": 88,
+    "chapter": 14,
+    "section": "14.11 — Ichimoku’nun üzerine neden dört trend göstergesi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n88 \nÇoklu zaman diliminde önce üst zaman dilimindeki Ichimoku görünümü, ardından alt zaman \ndilimindeki daha ayrıntılı fiyat davranışı incelenebilir. Belirli zaman dilimi eşleşmeleri evrensel \ndeğildir; amaç büyük resmi giriş zamanlamasından ayırmaktır. \n14.10 — Bulut destek/direnç duvarı değildir \nBulut çevresinde geçmiş reaksiyonlar görülebilir; ancak bulut geçmiş en yüksek/en düşük \nfiyatların orta noktalarından türetilir. Buluta temas otomatik dönüş emri değildir. \nYANLIŞ / DOĞRU \nYanlış: “Fiyat buluta geldi → AL.” Doğru: “Ana yapı ne? Fiyat bulut çevresinde kabul mü görüyor, \nreddediliyor mu? Tenkan/Kijun ve gerekirse hacim/ATR ne söylüyor?” \n \n14.11 — Ichimoku’nun üzerine neden dört trend göstergesi \neklememeliyiz? \nYığın Sorun \nIchimoku + 2 MA + MACD + Supertrend Aynı trend/hareket gücü bilgisini farklı göstergelerle tekrarlar; grafik \nkalabalığı karar kalitesi sanılır \nIchimoku + ATR Ichimoku trend/yapı için, ATR fiyat hareketliliği/risk için; görevler ayrıdır \nIchimoku + Volume Profile Trend/piyasa ortamı + fiyat seviyelerine göre hacim konumu; farklı bilgi \nsınıfları \nIchimoku + RSI Yalnız ek kısa-vade zamanlama gerçekten gerekiyorsa; zorunlu değil \n \nBÖLÜM SONUCU \nIchimoku yalnız bir “bulut göstergesi” değildir; farklı dönemlerin en yüksek/en düşük orta noktalarını \nve grafik konumlarını tek sistemde birleştirir. Formülü anlamadan kesişim ezberi yapmak sistemin \nbütünlüğünü bozar.",
+    "source_extract_summary": [
+      "Çoklu zaman diliminde önce üst zaman dilimindeki Ichimoku görünümü, ardından alt zaman dilimindeki daha ayrıntılı fiyat davranışı incelenebilir.",
+      "Belirli zaman dilimi eşleşmeleri evrensel değildir; amaç büyük resmi giriş zamanlamasından ayırmaktır.",
+      "14.10 — Bulut destek/direnç duvarı değildir Bulut çevresinde geçmiş reaksiyonlar görülebilir; ancak bulut geçmiş en yüksek/en düşük fiyatların orta noktalarından türetilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

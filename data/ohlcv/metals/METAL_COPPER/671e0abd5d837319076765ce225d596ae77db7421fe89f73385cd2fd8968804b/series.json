@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "METAL_COPPER",
+  "symbol": "HG=F",
+  "category": "metals",
+  "asset_type": "future",
+  "catalog_currency": "USD",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "671e0abd5d837319076765ce225d596ae77db7421fe89f73385cd2fd8968804b"
+}

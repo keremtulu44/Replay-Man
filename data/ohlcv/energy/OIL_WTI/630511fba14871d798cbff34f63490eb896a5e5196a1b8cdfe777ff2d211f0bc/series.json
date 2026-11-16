@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "OIL_WTI",
+  "symbol": "CL=F",
+  "category": "oil",
+  "asset_type": "future",
+  "catalog_currency": "USD",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "630511fba14871d798cbff34f63490eb896a5e5196a1b8cdfe777ff2d211f0bc"
+}

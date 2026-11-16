@@ -1,0 +1,8 @@
+source,exists,rows,bytes
+research/measurements/book-batch2/cross_market_study.csv,True,5439,560230
+research/measurements/book-batch2/event_study.csv,True,3600,395508
+research/measurements/book-batch2/risk_study.csv,True,800,33615
+research/measurements/cilt1-final-acceptance/parameter_study.csv,True,135024,10869225
+research/measurements/cilt1-final-acceptance/decision_chain_excess.csv,True,432,18225
+research/measurements/cilt1-final-acceptance/family_ablation.csv,True,168,5151
+research/measurements/cilt2-robustness/rule_overlap_matrix.csv,True,16,743

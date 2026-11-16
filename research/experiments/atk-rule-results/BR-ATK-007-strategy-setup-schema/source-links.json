@@ -1,0 +1,933 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0214",
+    "page": 214,
+    "chapter": 11,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama \nRutinleri\nScalping’den yatırıma çalışma modeli, piyasa–seans seçimi ve tekrar edilebilir günlük süreç",
+    "source_extract_summary": [
+      "BÖLÜM 11 İşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri Scalping’den yatırıma çalışma modeli, piyasa–seans seçimi ve tekrar edilebilir günlük süreç"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0215",
+    "page": 215,
+    "chapter": 11,
+    "section": "11.1 — İşlem Stili Bir Kimlik Değil, Çalışma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  200\nBu Bölümün Amacı\nBir trader aynı market structure bilgisini kullanıp bambaşka çalışma düzenleri kurabilir. Biri birkaç \ndakikalık hareketi işler; diğeri günlük grafikte haftalar süren pozisyon taşır. Fark yalnız zaman dilimi \ndeğildir. Karar hızı, ekran süresi, işlem maliyeti, haber riski, kullanılan enstrüman, geri bildirim sıklığı \nve günlük yaşamın tamamı değişir.\nBu bölümde kendime “en iyi stil hangisi?” diye sormam. Önce ne kadar zaman ayırabildiğimi, hangi \nhızda sağlıklı karar verebildiğimi, hangi piyasaya güvenilir erişimim olduğunu ve hangi setup’ı \ngerçekten test ettiğimi belirlerim. Sonra bu parçaları tek çalışma modeline dönüştürürüm.\nBÖLÜM SONUNDA\nScalping, day, swing, position trading ve yatırımı görevleriyle ayırabilecek; momentum, pullback, \nbreakout ve range’i stil değil setup/uygulama bağlamı olarak sınıflandırabilecek; piyasa–seans–\nwatchlist seçimi yapabilecek ve piyasa öncesi, işlem sırası ve piyasa sonrası rutin kurabileceksiniz.\nUygulama Görseli 11.1 – Aynı XAGTRYG hareketinin 5 dakika, 1 saat, günlük ve haftalık grafiklerde farklı \nçalışma stillerine dönüşmesi. Temsilî eğitim şeması.\n11.1 İşlem Stili Bir Kimlik Değil, Çalışma \nModelidir\nTrading style (pozisyonu ne kadar tuttuğumu, ne sıklıkla karar verdiğimi ve ekran başında nasıl \nçalıştığımı belirleyen model), kişilik etiketi değildir. “Ben day trader’ım” cümlesi tek başına sistem \nkurmaz. Hangi piyasada, hangi seans içinde, hangi setup’ı, hangi veri ve maliyet koşulunda \nuyguladığımı ayrıca tanımlamam gerekir.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Bir trader aynı market structure bilgisini kullanıp bambaşka çalışma düzenleri kurabilir.",
+      "Biri birkaç dakikalık hareketi işler; diğeri günlük grafikte haftalar süren pozisyon taşır.",
+      "Karar hızı, ekran süresi, işlem maliyeti, haber riski, kullanılan enstrüman, geri bildirim sıklığı ve günlük yaşamın tamamı değişir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0216",
+    "page": 216,
+    "chapter": 11,
+    "section": "11.1 — İşlem Stili Bir Kimlik Değil, Çalışma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  201\nŞekil 11.1 – İşlem stili spektrumu\nStil Tipik elde tutma Karar yükü Ana operasyon riski\nScalping Saniye–dakika Çok yüksek Spread, komisyon, \nslippage ve hata hızı.\nDay trading Dakika–saat; \nçoğunlukla aynı gün \nkapanış\nYüksek Seans volatilitesi, \nhaber ve aşırı işlem.\nSwing trading Birkaç gün–birkaç \nhafta\nOrta Gece/hafta sonu gap’i \nve daha geniş stop.\nPosition trading Hafta–ay Düşük/orta Makro rejim ve uzun \nsüreli tez değişimi.\nYatırım Ay–yıl Düşük işlem sıklığı Şirket/varlık tezi, \ndeğerleme ve portföy \nriski.\nTablo 11.1 – Stil, süre ve operasyon yükü\nEKRANDA NE ARIYORUM?\n• Son 30 gündeki gerçek ekran zamanınızı yazın.\n• Bir pozisyonu taşıyabileceğiniz süreyi belirleyin.\n• Günde kaç sağlıklı karar verebildiğinizi dürüstçe ölçün.\n• İşlem maliyetini seçtiğiniz hedef büyüklüğüyle karşılaştırın.\n• Stilinizi isimle değil, yazılı görev ve sınırlarla tanımlayın.",
+    "source_extract_summary": [
+      "Day trading Dakika–saat; çoğunlukla aynı gün kapanış Yüksek Seans volatilitesi, haber ve aşırı işlem.",
+      "Swing trading Birkaç gün–birkaç hafta Orta Gece/hafta sonu gap’i ve daha geniş stop.",
+      "Position trading Hafta–ay Düşük/orta Makro rejim ve uzun süreli tez değişimi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0217",
+    "page": 217,
+    "chapter": 11,
+    "section": "11.2 — Stil Seçiminin Beş Boyutu",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  202\nDOĞRU BILINEN YANLIŞ\nMit: Kısa vadeli işlem daha hızlı para kazandırdığı için daha ileri bir trading seviyesidir.\nGerçeklik: Kısa vade yalnız karar ve maliyet döngüsünü hızlandırır. Edge, risk kontrolü ve uygulama \nkalitesi yoksa hata ve kayıp da hızlanır.\n11.2 Stil Seçiminin Beş Boyutu\nStil seçerken yalnız “ne kadar süre tutacağım?” sorusuna bakmam. Beş boyutu birlikte \ndeğerlendiririm: elde tutma süresi, ekran zamanı, karar hızı, işlem maliyeti hassasiyeti ve geri bildirim \nsıklığı. Bu boyutlardan biri gerçek yaşamımla uyuşmuyorsa kâğıt üzerinde iyi görünen sistem \nsürdürülemez.\nŞekil 11.2 – Stil seçiminin beş boyutu\nBoyut Kendime soracağım soru Kısa vade etkisi Uzun vade etkisi\nElde tutma Pozisyonu gece veya \nhafta sonu taşır \nmıyım?\nDaha az taşıma riski. Gap ve haber \nmaruziyeti.\nEkran zamanı Kesintisiz kaç dakika \nodaklanabilirim?\nCanlı takip gerekir. Alarm ve periyodik \nkontrol yeterli \nolabilir.\nKarar hızı Baskı altında planı \nbozuyor muyum?\nSaniyeler/dakikalar. Düşünme ve ikinci \nkontrol zamanı.",
+    "source_extract_summary": [
+      "DOĞRU BILINEN YANLIŞ Mit: Kısa vadeli işlem daha hızlı para kazandırdığı için daha ileri bir trading seviyesidir.",
+      "Gerçeklik: Kısa vade yalnız karar ve maliyet döngüsünü hızlandırır.",
+      "Edge, risk kontrolü ve uygulama kalitesi yoksa hata ve kayıp da hızlanır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0218",
+    "page": 218,
+    "chapter": 11,
+    "section": "11.3 — Scalping: Küçük Hareket, Büyük",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  203\nBoyut Kendime soracağım soru Kısa vade etkisi Uzun vade etkisi\nMaliyet Hedefim \nspread+komisyona \ngöre yeterli mi?\nÇok hassas. Göreli etkisi \nazalabilir.\nGeri bildirim Sistemimi ne sıklıkta \nörnekleyebilirim?\nÇok örnek; yüksek \ngürültü.\nAz örnek; daha uzun \ndoğrulama süresi.\nTablo 11.2 – Stil seçiminin beş boyutu\nVAKA ANALIZI — ÖĞRETMEN VE YARI ZAMANLI TRADER\nKullanıcı okul saatlerinde ekrana bakamıyor; akşam 30–45 dakika analiz yapabiliyor ve gün içinde \nyalnız alarm kontrol edebiliyor.\nSonraki adımlarım:\n1. Kesintisiz canlı takip gerektiren scalping’i ana stil yapmam.\n2. Günlük–4 saatlik swing paketini başlangıç modeli olarak seçerim.\n3. Gün içinde yalnız önceden çizilmiş seviyelere alarm kurarım.\n4. Pozisyonu taşıma riskini stop ve haber takvimiyle yönetirim.\n5. Haftalık işlem sayısı düşük olsa da süreç kayıtlarını düzenli tutarım.\n11.3 Scalping: Küçük Hareket, Büyük \nOperasyon Disiplini\nScalping (saniye veya birkaç dakika süren küçük fiyat hareketlerini yüksek karar hızıyla işlemeye \nçalışma), yalnız küçük zaman dilimi açmak değildir. Likit piyasa, dar spread, düşük slippage, hızlı emir \niletimi, kesintisiz odak ve önceden tanımlı çıkış gerekir. Hedef küçüldükçe maliyet ve tek tıklama \nhatasının göreli etkisi büyür.\nGerekli koşul Neden kritik? Uyarı\nYüksek likidite Emirlerin hedef fiyata yakın \ngerçekleşmesi.\nSığ piyasa küçük hedefi \nslippage ile silebilir.\nDar spread/düşük ücret Hedef hareketin maliyetten \nbüyük kalması.\nÇok işlem, küçük maliyeti \nbüyük toplam zarara \ndönüştürür.\nNet seans Aktivite ve davranış penceresi. Rastgele saatlerde farklı \nrejimler.\nHızlı uygulama Giriş–çıkış gecikmesini \nazaltmak.\nManuel kararsızlık edge’i yok \neder.\nKesin günlük sınır Overtrading’i sınırlamak. Kayıp telafisi için işlem sayısını \nartırma.",
+    "source_extract_summary": [
+      "Boyut Kendime soracağım soru Kısa vade etkisi Uzun vade etkisi Maliyet Hedefim spread+komisyona göre yeterli mi?",
+      "Geri bildirim Sistemimi ne sıklıkta örnekleyebilirim?",
+      "Az örnek; daha uzun doğrulama süresi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Gereksinim, semantik test ve sürümleme",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0219",
+    "page": 219,
+    "chapter": 11,
+    "section": "11.4 — Day Trading: Seans İçinde Planlı İşlem",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  204\nTablo 11.3 – Scalping için operasyon koşulları\nEKRANDA NE ARIYORUM?\n• Spread ve ortalama slippage’i hedef mesafesinin yüzdesi olarak hesaplayın.\n• Yalnız belirlediğiniz likit seans içinde çalışın.\n• İşlem öncesinde entry, stop ve exit tuş düzenini test edin.\n• Günlük maksimum işlem ve maksimum kayıp sınırı yazın.\n• Bağlantı veya veri sorunu varsa işlem açmayın.\nDOĞRU BILINEN YANLIŞ\nMit: Scalping’de pozisyon kısa sürdüğü için risk düşüktür.\nGerçeklik: Piyasa maruziyeti kısa olabilir; fakat karar sıklığı, uygulama hatası, kaldıraç ve maliyet \nbirikimi riski yükseltebilir.\nUygulama Görseli 11.2 – Likit ve sığ piyasada aynı 0,30 TL hedefin spread/slippage sonrası net sonucunu \nkarşılaştıran şema. Temsilî eğitim şeması.\n11.4 Day Trading: Seans İçinde Planlı İşlem\nDay trading (pozisyonu aynı işlem günü veya tanımlı seans içinde açıp kapatma), gece taşıma riskini \nazaltabilir; fakat seans seçimi, haber akışı ve ekran disiplini gerektirir. Günlük grafikte büyük resme, 1 \nsaat–15 dakika aralığında setup’a, daha alt grafikte tetiğe bakılabilir; ancak paket piyasa ve sisteme \ngöre test edilmelidir.",
+    "source_extract_summary": [
+      "• Spread ve ortalama slippage’i hedef mesafesinin yüzdesi olarak hesaplayın.",
+      "• Yalnız belirlediğiniz likit seans içinde çalışın.",
+      "• İşlem öncesinde entry, stop ve exit tuş düzenini test edin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0220",
+    "page": 220,
+    "chapter": 11,
+    "section": "11.5 — Swing Trading: Düşünme Zamanı ile Geri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  205\nDay trade bileşeni Eylem Yaygın hata\nSeans planı İşlem göreceğim saat aralığını \nönceden seçerim.\nTüm gün grafikte fırsat \naramak.\nGünlük bağlam Önce trend/range ve major \nseviyeyi yazarım.\nAlt zaman sinyalini bağlam \nsanmak.\nSetup limiti Bir veya iki modelle kalırım. Her formasyonu aynı gün \nişlemeye çalışmak.\nHaber kontrolü Yüksek etkili veri saatini bilir, \nplanımı ayarlarım.\nHaber mumunu normal \nbreakout saymak.\nGün sonu kapanış Stil gerektiriyorsa pozisyonu \ntaşımam.\nKaybeden day trade’i plansız \nswing’e çevirmek.\nTablo 11.4 – Day trading operasyonu\nEKRANDA NE ARIYORUM?\n• Piyasa açılmadan ana trend/range ve iki önemli alanı işaretleyin.\n• İşlem göreceğiniz seans penceresini yazın.\n• Haber saatlerini kontrol edin.\n• Yalnız hazırladığınız setup oluştuğunda alt zaman grafiğine inin.\n• Seans bitiminde açık pozisyonun stil kuralına uyup uymadığını kontrol edin.\nDOĞRU BILINEN YANLIŞ\nMit: Day trade aynı gün kapandığı için swing işlemden her zaman daha güvenlidir.\nGerçeklik: Gece riski azalabilir; fakat intraday volatilite, haber, kaldıraç, işlem sıklığı ve hızlı karar \nbaskısı farklı riskler üretir.\n11.5 Swing Trading: Düşünme Zamanı ile Geri \nBildirim Dengesi\nSwing trading (birkaç gün ile birkaç hafta arasındaki piyasa salınımlarını işlemeye çalışma), yeni \nbaşlayanlar için dengeli bir seçenek olarak öne çıkıyor. Gerekçe “daha kolay para” değildir; daha uzun \nanaliz süresi, daha az ekran zorunluluğu ve yatırıma göre daha hızlı geri bildirim sağlamasıdır. Bu görüş \nherkes için evrensel değildir, fakat tam zamanlı işi olan kullanıcı için anlamlı bir başlangıç hipotezidir.\nSwing avantajı Karşılığı olan risk Uygulama\nDüşünme ve planlama süresi Sinyal sayısı az olabilir. Watchlist ve alarm sistemi.\nDaha az ekran baskısı Gece/hafta sonu hareketi. Gap ve haber planı.\nBüyük yapı daha temiz Stop mesafesi genişleyebilir. Pozisyon boyutunu riskle \nayarlama.",
+    "source_extract_summary": [
+      "Day trade bileşeni Eylem Yaygın hata Seans planı İşlem göreceğim saat aralığını önceden seçerim.",
+      "Günlük bağlam Önce trend/range ve major seviyeyi yazarım.",
+      "Setup limiti Bir veya iki modelle kalırım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0221",
+    "page": 221,
+    "chapter": 11,
+    "section": "11.6 — Position Trading ve Yatırım: Aynı Süre,",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  206\nSwing avantajı Karşılığı olan risk Uygulama\nDaha az işlem maliyeti \ndöngüsü\nSabırsızlık ve erken çıkış. Önceden hedef/management \nplanı.\nGünler içinde geri bildirim Az örnekle yanlış sonuç \nçıkarma.\nUzun örneklem ve replay.\nTablo 11.5 – Swing trading dengesi\nEKRANDA NE ARIYORUM?\n• Haftalık/günlük ana yönü ve günlük/4H setup alanını belirleyin.\n• Hafta içi ve hafta sonu taşıma riskini yazın.\n• Alarm olmadan sürekli grafik kontrol etmeyin.\n• Tek işlem riskini geniş stopa göre küçültün.\n• İşlem sayısı az diye kalite koşullarını gevşetmeyin.\nVAKA ANALIZI — XAGTRYG SWING RUTINI\nHaftalık yapı yükselişte. Günlükte fiyat eski breakout/demand alanına çekiliyor; kullanıcı yalnız \nsabah ve akşam grafiğe bakabiliyor.\nSonraki adımlarım:\n1. Haftalık yönü ve günlük protected low’u yazarım.\n2. 4 saatlik pullback’in zayıflamasını ve bullish teyidi beklerim.\n3. Alarmı setup alanı ve geçersizlik çevresine kurarım.\n4. Gün içinde küçük dalgalanmaları izleyip planı değiştirmem.\n5. Akşam kapanışında yalnız yeni yapı ve risk bilgisi varsa güncelleme yaparım.\n11.6 Position Trading ve Yatırım: Aynı Süre, \nFarklı Tez\nPosition trading (haftalar veya aylar sürebilen, fiyat trendi ve zamanlama planıyla yönetilen aktif \npozisyon) ile investing (varlığın veya işletmenin uzun vadeli değer artışı, nakit akışı ve portföy rolüne \ndayanan sahiplik yaklaşımı) aynı şey değildir. Süreleri örtüşebilir; kararın kaynağı farklıdır.\nBoyut Position trading Yatırım\nAna tez Trend, yapı, momentum ve \nmakro bağlam.\nİş modeli, finansal sağlık, \ndeğerleme ve portföy rolü.\nGiriş Teknik alan ve zamanlama \nönemlidir.\nFair value/margin of safety, \nDCA veya portföy planı.\nÇıkış Trend/tez bozulması, target \nveya trailing.\nTemel tezin bozulması, \ndeğerleme veya yeniden \ndengeleme.",
+    "source_extract_summary": [
+      "Swing avantajı Karşılığı olan risk Uygulama Daha az işlem maliyeti döngüsü Sabırsızlık ve erken çıkış.",
+      "Günler içinde geri bildirim Az örnekle yanlış sonuç çıkarma.",
+      "• Haftalık/günlük ana yönü ve günlük/4H setup alanını belirleyin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0222",
+    "page": 222,
+    "chapter": 11,
+    "section": "11.7 — Momentum Trading: Stil Değil, Hareket",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  207\nBoyut Position trading Yatırım\nİzleme Haftalık/günlük grafik ve \nhaber.\nFinansal rapor, sektör ve \nportföy ağırlığı.\nPsikolojik hata Kaybeden trade’i yatırıma \nçevirmek.\nKısa fiyat dalgasıyla uzun \ntezden çıkmak.\nTablo 11.6 – Position trading ile yatırım ayrımı\nDOĞRU BILINEN YANLIŞ\nMit: Uzun süre tuttuğum her pozisyon yatırım olur.\nGerçeklik: Plansız uzatılan trade yatırım değildir. Yatırım için varlık tezi, değerleme, finansal sağlık, \nportföy rolü ve çıkış koşulu gerekir.\nUygulama Görseli 11.3 – Aynı hisse için position trade planı ile uzun vadeli yatırım tezinin yan yana \nkarşılaştırılması. Temsilî eğitim şeması.\n11.7 Momentum Trading: Stil Değil, Hareket \nSeçme Yaklaşımı\nMomentum trading (güçlü fiyat ilerlemesi ve katılımın kısa süre daha devam edeceği varsayımıyla \nhareketi izleme), scalping, day veya swing zaman ufkunda uygulanabilir. Bu nedenle momentum \nkelimesini elde tutma süresiyle karıştırmam. Önce stilimi, sonra hangi momentum setup’ını aradığımı \nyazarım.",
+    "source_extract_summary": [
+      "Boyut Position trading Yatırım İzleme Haftalık/günlük grafik ve haber.",
+      "Finansal rapor, sektör ve portföy ağırlığı.",
+      "Psikolojik hata Kaybeden trade’i yatırıma çevirmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0223",
+    "page": 223,
+    "chapter": 11,
+    "section": "11.7 — Momentum Trading: Stil Değil, Hareket",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  208\nŞekil 11.3 – Stil ile setup ayrımı\nMomentum sorusu Aradığım kanıt Uyarı\nHareket göreli güçlü mü? Geniş gövde, hızlı alan \nkazanımı, önceki mumlara \ngöre güç.\nTek büyük mum sonrası geç \nkalmış giriş.\nKatılım var mı? Bağıl hacim artışı ve takip. Hacim var fakat fiyat \nilerlemiyor: absorption/climax.\nÖnünde alan var mı? Yakın major engel yok. Hedef hemen \nsupply/resistance içinde.\nGiriş modeli ne? Breakout, pullback veya \ncontinuation base.\nFOMO ile market emri.\nÇıkış ne zaman? Momentum kaybı, yapı veya \nönceden hedef.\nKazananı plansız yatırıma \nçevirmek.\nTablo 11.7 – Momentum yaklaşımı\nEKRANDA NE ARIYORUM?\n• Önce momentumun hangi zaman dilimine ait olduğunu belirleyin.\n• Hareketin başlangıç mı, orta mı, exhaustion aşaması mı olduğunu kontrol edin.\n• Hacim ile fiyat sonucunu birlikte okuyun.\n• Yakın hedef ve likidite alanını işaretleyin.\n• FOMO nedeniyle stop mesafesini bozmayın.",
+    "source_extract_summary": [
+      "Geniş gövde, hızlı alan kazanımı, önceki mumlara göre güç.",
+      "Tek büyük mum sonrası geç kalmış giriş.",
+      "Hacim var fakat fiyat ilerlemiyor: absorption/climax."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Göreceli katılım ve hacim özellikleri",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0224",
+    "page": 224,
+    "chapter": 11,
+    "section": "11.9 — Piyasa Seçiminin Objektif Ölçütleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  209\nDOĞRU BILINEN YANLIŞ\nMit: Fiyat hızlı yükseliyorsa momentum trade için hemen alınmalıdır.\nGerçeklik: Momentum gözlenmesi giriş zamanlaması değildir. Fiyat hedefe yaklaşmış, climax \nüretmiş veya risk–ödül bozulmuş olabilir.\n11.8 Pullback, Breakout, Range ve Hedge \nBağlamları\nPullback, breakout ve range birer çalışma stili değil, farklı piyasa davranışlarında kullanılan setup \naileleridir. Hedge ise setup değil; açık pozisyon veya portföy riskini azaltan koruma katmanıdır. Önce \npiyasa hâlini, sonra uygun modeli seçerim.\nBağlam Ne zaman izlerim? Stil içinde kullanım En büyük hata\nPullback Trend ve anlamlı geri \nçekilme.\nDay, swing veya \nposition continuation.\nHer düşüşü indirim \nsanmak.\nBreakout Net sınır, sıkışma ve \nkatılım.\nScalp/day/swing; \nretest veya direkt giriş.\nFitil aşımını kabul \nsaymak.\nRange Sınırlar ve orta alan \nbelirgin.\nDay/swing; sınır \nreaction/failure.\nRange ortasında yön \nkovalamak.\nMomentum Hız, hacim ve boş \nhedef alanı.\nTüm stillerde devam \nyaklaşımı.\nHareket sonuna \nFOMO ile girmek.\nHedge Uzun vadeli açık risk \ngeçici korunacak.\nPosition/yatırım \nkatmanı.\nKötü trade’i \nkapatmamak için \nkarmaşık hedge.\nTablo 11.8 – Setup ve koruma bağlamları\nDOĞRU BILINEN YANLIŞ\nMit: Hedge, stop-loss kullanmadan daha güvenli işlem yapma yöntemidir.\nGerçeklik: Hedge ve stop farklı araçlardır. Hedge pozisyonu açık tutarken maliyet ve ek risk \nyaratabilir; kısa vadeli yanlış tezi sonsuza kadar korumaz.\n11.9 Piyasa Seçiminin Objektif Ölçütleri\nPiyasa seçerken popülerliğe değil uygulanabilirliğe bakarım. Market selection (erişim, veri, likidite, \nmaliyet, volatilite ve çalışma saatlerine göre işlem evrenini daraltma), stratejiden önce gelir. Kötü \nseçilmiş piyasa, iyi setup’ın gerçek sonuçlarını spread, slippage veya veri eksikliğiyle bozabilir.",
+    "source_extract_summary": [
+      "DOĞRU BILINEN YANLIŞ Mit: Fiyat hızlı yükseliyorsa momentum trade için hemen alınmalıdır.",
+      "Gerçeklik: Momentum gözlenmesi giriş zamanlaması değildir.",
+      "Fiyat hedefe yaklaşmış, climax üretmiş veya risk–ödül bozulmuş olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0225",
+    "page": 225,
+    "chapter": 11,
+    "section": "11.9 — Piyasa Seçiminin Objektif Ölçütleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  210\nŞekil 11.4 – Piyasa seçimi eleme hunisi",
+    "source_extract_summary": [],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": []
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0226",
+    "page": 226,
+    "chapter": 11,
+    "section": "11.10 — Piyasa ve Enstrüman Ailelerini",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  211\nÖlçüt Ekranda/hesapta neyi kontrol \nederim?\nRed nedeni\nErişim ve düzen Broker/borsa, ürün şartları, \npara çekme ve güvenlik.\nGüvensiz veya anlaşılmayan \nplatform.\nVeri kalitesi Sembol, borsa, seans, hacim \ntürü ve gecikme.\nEksik/yanlış veya stratejiyle \nuyumsuz veri.\nLikidite Düzenli işlem, order \nbook/ortalama hacim.\nSığlık ve ani fiyat sıçraması.\nSpread ve maliyet Komisyon, funding, premium, \nvergi ve slippage.\nHedef hareketin büyük kısmını \ntüketme.\nVolatilite ATR/range ve setup’ın ihtiyaç \nduyduğu hareket.\nÇok durağan ya da kontrol \nedilemeyecek kadar şoklu.\nSeans uyumu Benim müsait olduğum \nsaatlerde aktivite.\nSinyal saatinde ekrana veya \nalarma erişememe.\nTablo 11.9 – Piyasa seçim ölçütleri\nEKRANDA NE ARIYORUM?\n• İşlem yapabileceğiniz ürünleri önce erişim ve veri kalitesiyle eleyin.\n• Ortalama spread ve ücretleri gerçek hedefle kıyaslayın.\n• Volatiliteyi seçilen setup ve stop mantığıyla karşılaştırın.\n• Hangi saatlerde likidite oluştuğunu kaydedin.\n• En fazla birkaç piyasayı replay ve günlük sonuçlarıyla izleme listesine alın.\n11.10 Piyasa ve Enstrüman Ailelerini \nEşleştirmek\nHisse, forex, kripto, futures, options ve tahvil aynı çalışma kurallarına sahip değildir. Piyasa saatleri, \nmerkezi hacim, short mekanizması, kaldıraç, sözleşme vadesi, funding/premium ve saklama riski \ndeğişir. Enstrüman türünü stil sanmam; önce ürünün mekanizmasını öğrenirim.\nPiyasa/enstrüman Güçlü taraf Operasyon uyarısı Uygun olabilecek kullanım\nLikid hisseler/ETF Düzenli seans, tarama \nve temel veri.\nGap, earnings ve \naçılış spread’i.\nDay, swing, position ve \nyatırım.\nForex Hafta içi uzun saatler, \nmajör çiftlerde \nlikidite.\nMerkezi hacim yok; \nmakro haber ve \nkaldıraç.\nDay/swing; seans \nodaklı.\nKripto spot 24/7 erişim ve çok \nsayıda ürün.\nBorsa/custody, sığ \naltcoin ve hafta sonu \nrejimi.\nDay, swing, position; \nseçici scalp.",
+    "source_extract_summary": [
+      "Ölçüt Ekranda/hesapta neyi kontrol ederim?",
+      "Red nedeni Erişim ve düzen Broker/borsa, ürün şartları, para çekme ve güvenlik.",
+      "Güvensiz veya anlaşılmayan platform."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0227",
+    "page": 227,
+    "chapter": 11,
+    "section": "11.11 — Seans ve Saat Seçimi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  212\nPiyasa/enstrüman Güçlü taraf Operasyon uyarısı Uygun olabilecek kullanım\nFutures Standart sözleşme ve \nçift yönlü işlem.\nTeminat, vade, \nrollover ve tasfiye \nriski.\nDay/swing/hedge.\nOptions Sınırlı hak, stratejik \ngetiri profili.\nPremium, vade, \nvolatilite ve Greeks.\nYönlü işlem veya \nkoruma; stil değildir.\nTahvil/ETF Gelir ve portföy \nçeşitlendirmesi.\nFaiz–fiyat ters ilişkisi \nve duration.\nPosition/yatırım ve \nhedge bağlamı.\nTablo 11.10 – Piyasa ve enstrüman aileleri\nDOĞRU BILINEN YANLIŞ\nMit: Kripto 24 saat açık olduğu için day trading için her saat eşit derecede uygundur.\nGerçeklik: 24/7 açık olmak sürekli yüksek likidite demek değildir. Seans örtüşmeleri, haber, hafta \nsonu ve borsaya özgü likidite koşulları değişir.\nUygulama Görseli 11.4 – XAGTRYG, likit BIST hissesi, BTC spot ve majör forex çiftinde spread–seans–\nvolatilite karşılaştırma kartı. Temsilî eğitim şeması.\n11.11 Seans ve Saat Seçimi\nTrading session (belirli coğrafi piyasa merkezlerinin aktif olduğu zaman penceresi), aynı stratejinin \nfarklı saatlerde farklı sonuç üretmesine neden olabilir. Asya seansı çoğu gün daha sakin/range ağırlıklı \nolabilir; Londra ve New York daha yüksek likidite ve trend fırsatları üretebilir. Bunlar ortalama \neğilimlerdir; haber günleri ve piyasa türü davranışı değiştirir.",
+    "source_extract_summary": [
+      "Piyasa/enstrüman Güçlü taraf Operasyon uyarısı Uygun olabilecek kullanım Futures Standart sözleşme ve çift yönlü işlem.",
+      "Teminat, vade, rollover ve tasfiye riski.",
+      "Options Sınırlı hak, stratejik getiri profili."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0228",
+    "page": 228,
+    "chapter": 11,
+    "section": "11.11 — Seans ve Saat Seçimi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  213\nŞekil 11.5 – Yaklaşık küresel seans pencereleri\nPencere Genel davranış eğilimi İzlenebilecek bağlam Uyarı\nAsya Daha sakin ve range \nağırlıklı olabilir.\nJPY/AUD/NZD, range \nveya hazırlık.\nKriptoda düşük \nlikiditeyle ani hareket.\nLondra Forex likiditesi ve \ntrend/breakout \nartabilir.\nEUR/GBP/CHF ve \nAvrupa haberleri.\nAçılışın ilk bölümünde \nfakeout.\nLondra–New York \nörtüşmesi\nAktivite ve volatilite \nzirvesi olabilir.\nMajör forex, endeks, \nmetal ve haber.\nSpread/volatilite şoku \nve hızlı risk.\nNew York ABD hisseleri, USD ve \nmakro haber.\nDay trade ve \nmomentum.\nVeri açıklamaları \nsırasında normal setup \nbozulabilir.\nSeans sonrası Likidite ve hareket \nazalabilir.\nPozisyon yönetimi ve \ninceleme.\nZayıf breakout ve \ngenişleyen spread.\nTablo 11.11 – Seans bağlamları\nEKRANDA NE ARIYORUM?\n• Piyasanızın gerçek işlem saatini ve yaz/kış saati değişimini doğrulayın.\n• Setup’ınızın en sık hangi saatlerde oluştuğunu günlüğünüzden çıkarın.\n• Haber saatlerini seans planının üzerine işaretleyin.\n• Açılışın ilk dakikalarını ayrı test edin.\n• Seans dışı düşük likiditede hedef ve stop davranışını ayrıca değerlendirin.",
+    "source_extract_summary": [
+      "Kriptoda düşük likiditeyle ani hareket.",
+      "Londra Forex likiditesi ve trend/breakout artabilir.",
+      "Londra–New York örtüşmesi Aktivite ve volatilite zirvesi olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0229",
+    "page": 229,
+    "chapter": 11,
+    "section": "11.12 — Kişisel Uygunluk: Zaman, Sermaye ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  214\nDOĞRU BILINEN YANLIŞ\nMit: En yüksek volatilite seansı en iyi işlem saatidir.\nGerçeklik: Yüksek volatilite fırsat kadar slippage, fakeout ve hızlı zarar da üretir. En iyi pencere, \nsisteminizin test edildiği ve uygulayabildiğiniz penceredir.\n11.12 Kişisel Uygunluk: Zaman, Sermaye ve \nDeneyim\nBir stil teknik olarak kârlı olabilir fakat benim için uygulanamaz olabilir. Personal fit (stilin zaman, \nsermaye, karar hızı, stres toleransı ve deneyimle uyumu), performansın görünmeyen filtresidir. Swing \ntrading bu çerçevede yeni başlayanlar için daha fazla düşünme süresi ve daha az ekran baskısı \nsağlayabilir; fakat gece riski ve sabır gerektirir.\nKişisel koşul Daha uyumlu başlangıç Neden\nTam zamanlı iş ve sınırlı ekran Swing / position Periyodik analiz ve alarm \nmümkün.\nKesintisiz seans zamanı ve \nhızlı uygulama\nDay trading Canlı setup yönetilebilir.\nÇok düşük maliyetli \nprofesyonel altyapı\nScalping test edilebilir Maliyet ve gecikme kontrolü \ngerekir.\nUzun vadeli sermaye ve temel \nanaliz ilgisi\nYatırım/position Daha uzun tez ve portföy \nyaklaşımı.\nYeni başlayan ve karar \nbaskısında hata\nDaha büyük zaman dilimi Düşünme ve kayıt zamanı \nartar.\nKüçük sermaye + yüksek \nkaldıraç isteği\nStil değiştirmek çözüm değildir Önce risk ve gerçekçi getiri \nbeklentisi.\nTablo 11.12 – Kişisel uygunluk örnekleri\nEKRANDA NE ARIYORUM?\n• Haftalık gerçek boş zamanınızı takvimden çıkarın.\n• Kesintisiz odak sürenizi ölçün.\n• Gece taşıma ve hızlı karar stresini ayrı puanlayın.\n• Sermayeyi hedef gelire zorlamak için kaldıraç kullanmayın.\n• Stili en az bir örneklem dönemi paper/replay ile test edin.",
+    "source_extract_summary": [
+      "DOĞRU BILINEN YANLIŞ Mit: En yüksek volatilite seansı en iyi işlem saatidir.",
+      "Gerçeklik: Yüksek volatilite fırsat kadar slippage, fakeout ve hızlı zarar da üretir.",
+      "En iyi pencere, sisteminizin test edildiği ve uygulayabildiğiniz penceredir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Gereksinim, semantik test ve sürümleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0230",
+    "page": 230,
+    "chapter": 11,
+    "section": "11.13 — Watchlist ve Fırsat Eleme Rutini",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  215\n11.13 Watchlist ve Fırsat Eleme Rutini\nWatchlist (önceden seçilmiş ve aynı ölçütlerle izlenen sınırlı piyasa listesi), daha çok sembol görmek \niçin değil karar evrenini daraltmak için kullanılır. Her gün yüzlerce grafiği rastgele dolaşmak yerine \nönce piyasa filtresi, sonra bağlam, en son setup yaklaşımıyla eleme yaparım.\nAşama Eleme sorusu Çıktı\n1. Evren Erişebildiğim ve anladığım \npiyasalar hangileri?\nGeniş liste.\n2. Likidite/maliyet Spread, hacim ve işlem \nmaliyeti uygun mu?\nİşlenebilir liste.\n3. Rejim Trend, range, sıkışma veya şok \nmu?\nSetup’a uygun liste.\n4. Konum Major bölge/hedef ve risk \nalanı nerede?\nÖncelik listesi.\n5. Tetik yakınlığı Fiyat planlanan alana ne kadar \nyakın?\nAlarm listesi.\n6. Sonuç Bugün işlem, bekle veya çıkar. Kısa günlük watchlist.\nTablo 11.13 – Watchlist eleme akışı\nEKRANDA NE ARIYORUM?\n• Ana listenizi sınırlı tutun; benzer ürünleri aynı risk kümesine alın.\n• Her sembole tek cümlelik HTF bağlam yazın.\n• Setup’a uzak grafikleri alarm listesine taşıyın.\n• Haber, bilanço veya sözleşme vadesini işaretleyin.\n• Sembolü yalnız fiyat yükseldiği için listeye eklemeyin.\nDOĞRU BILINEN YANLIŞ\nMit: Daha fazla sembol izlersem daha çok kaliteli işlem bulurum.\nGerçeklik: Sembol sayısı arttıkça bağlam güncelliği ve uygulama kalitesi düşebilir. Amaç çok sinyal \ndeğil, aynı standartla yönetilebilen fırsat evrenidir.",
+    "source_extract_summary": [
+      "11.13 Watchlist ve Fırsat Eleme Rutini Watchlist (önceden seçilmiş ve aynı ölçütlerle izlenen sınırlı piyasa listesi), daha çok sembol görmek için değil karar evrenini daraltmak için kullanılır.",
+      "Her gün yüzlerce grafiği rastgele dolaşmak yerine önce piyasa filtresi, sonra bağlam, en son setup yaklaşımıyla eleme yaparım.",
+      "Evren Erişebildiğim ve anladığım piyasalar hangileri?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gereksinim, semantik test ve sürümleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0231",
+    "page": 231,
+    "chapter": 11,
+    "section": "11.14 — Piyasa Öncesi–Sırası–Sonrası Vaka",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  216\nUygulama Görseli 11.5 – XAGTRYG, THYAO, ASELS ve BTC için bağlam–setup–alarm sütunlarından oluşan \nörnek watchlist. Temsilî eğitim şeması.\n11.14 Piyasa Öncesi–Sırası–Sonrası Vaka \nAkışları\nDaily routine (piyasa öncesi hazırlık, işlem sırasında plan uygulama ve piyasa sonrası inceleme \ndöngüsü), sistemi sonuçtan bağımsız tekrarlanabilir hâle getirir. İyi işlem kaybedebilir; kötü işlem \nkazanabilir. Bu nedenle günlüğe yalnız kâr–zarar değil, süreç kalitesi de yazılır.",
+    "source_extract_summary": [
+      "Uygulama Görseli 11.5 – XAGTRYG, THYAO, ASELS ve BTC için bağlam–setup–alarm sütunlarından oluşan örnek watchlist.",
+      "11.14 Piyasa Öncesi–Sırası–Sonrası Vaka Akışları Daily routine (piyasa öncesi hazırlık, işlem sırasında plan uygulama ve piyasa sonrası inceleme döngüsü), sistemi sonuçtan bağımsız tekrarlanabilir hâle getirir.",
+      "İyi işlem kaybedebilir; kötü işlem kazanabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0232",
+    "page": 232,
+    "chapter": 11,
+    "section": "11.14 — Piyasa Öncesi–Sırası–Sonrası Vaka",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  217\nŞekil 11.6 – Üç aşamalı uygulama rutini\nAşama Yapacağım işler Yapmayacağım işler\nPiyasa öncesi Takvim, seans, watchlist, HTF \nbağlam, setup seviyesi, alarm \nve günlük sınır.\nCanlı fiyat gelmeden rastgele \nyön tahmini.\nİşlem sırası Yalnız planlı setup, risk \nkontrolü, ekran görüntüsü ve \nkısa duygu notu.\nKayıp sonrası yeni model icat \netmek.\nPiyasa sonrası Entry/exit değil süreç puanı, \nhata sınıfı ve sonraki aksiyon.\nTek işlem sonucuyla sistemi \ndeğiştirmek.\nTablo 11.14 – Günlük rutin\nVAKA ANALIZI — XAGTRYG DAY TRADING GÜNÜ\nGünlük grafik range içinde; 1 saatte üst sınıra yaklaşım var. Kullanıcı New York/ABD veri saatlerinde \nmetal volatilitesinin artabileceğini biliyor ve yalnız iki saatlik pencere ayırıyor.\nSonraki adımlarım:\n1. Piyasa öncesinde günlük range sınırını ve 1 saatlik setup alanını çizerim.\n2. Veri saatini işaretler, açıklama çevresinde normal mum davranışı beklemem.\n3. Planım breakout ise close+acceptance; failure ise range içine geri kapanış şartını yazarım.\n4. İki saatlik pencere dışında yeni işlem açmam.\n5. Gün sonunda sonuçtan bağımsız olarak plan, tetik ve uygulama hatasını ayrı puanlarım.",
+    "source_extract_summary": [
+      "Canlı fiyat gelmeden rastgele yön tahmini.",
+      "İşlem sırası Yalnız planlı setup, risk kontrolü, ekran görüntüsü ve kısa duygu notu.",
+      "Kayıp sonrası yeni model icat etmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0233",
+    "page": 233,
+    "chapter": 11,
+    "section": "11.15 — Kendi Çalışma Modelini Kurma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  218\nVAKA ANALIZI — XAGTRYG SWING HAFTASI\nHaftalık trend korunuyor; günlük fiyat demand alanına yaklaşıyor. Kullanıcı yalnız sabah ve akşam \nkontrol yapıyor.\nSonraki adımlarım:\n1. Pazar/hafta başlangıcında ana senaryo ve haber takvimini yazarım.\n2. Demand alanına alarm kurar, gün içinde mikro hareketleri takip etmem.\n3. Akşam kapanışında 4 saatlik/günlük teyidi değerlendiririm.\n4. Pozisyon açılırsa stop ve hedefi plansız intraday gürültüyle değiştirmem.\n5. Hafta sonunda setup kalitesi ve taşıma kararını yeniden incelerim.\nUygulama Görseli 11.6 – Aynı XAGTRYG haftasında day trader ve swing trader için farklı takvim, grafik ve \nalarm akışı. Temsilî eğitim şeması.\n11.15 Kendi Çalışma Modelini Kurma\nBölümün sonunda tek bir cümleyle çalışma modelimi yazabilmeliyim. Örneğin: “Likid XAGTRYG ve \nseçili hisselerde, günlük–4 saatlik swing yaklaşımıyla, trend yönündeki pullback ve breakout–retest \nsetup’larını, sabah/akşam kontrol ve alarm sistemiyle işlerim.” Bu cümle stil, piyasa, zaman dilimi, \nsetup ve rutini aynı anda sınırlar.",
+    "source_extract_summary": [
+      "VAKA ANALIZI — XAGTRYG SWING HAFTASI Haftalık trend korunuyor; günlük fiyat demand alanına yaklaşıyor.",
+      "Kullanıcı yalnız sabah ve akşam kontrol yapıyor.",
+      "Pazar/hafta başlangıcında ana senaryo ve haber takvimini yazarım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0234",
+    "page": 234,
+    "chapter": 11,
+    "section": "11.15 — Kendi Çalışma Modelini Kurma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  219\nŞekil 11.7 – Kişisel çalışma modeli bileşenleri\n1. Haftalık gerçek ekran zamanını ve kesintisiz odak süresini yaz.\n2. Pozisyonu gece/hafta sonu taşıma isteğini belirle.\n3. Scalping, day, swing, position veya yatırım arasından birincil çalışma süresini seç.\n4. Momentum, pullback, breakout veya range arasından en fazla iki setup ailesi seç.\n5. Erişim, veri, likidite, spread ve volatilite filtreleriyle piyasa evrenini daralt.\n6. Bir ana piyasa ve sınırlı watchlist oluştur.\n7. Bölüm 10’a göre HTF–MTF–LTF paketini stilin çevresinde kur.\n8. İşlem göreceğin seans veya kontrol saatlerini takvime yaz.\n9. Piyasa öncesi, sırası ve sonrası görevleri tek sayfalık rutine dönüştür.\n10. Options, hedge veya arbitrajı stil değil, ayrı enstrüman/koruma/operasyon yöntemi olarak \nsınıflandır.\n11. Maliyetleri ve gerçek uygulama koşullarını paper/replay testine ekle.\n12. İlk örneklem tamamlanmadan stil değiştirme.\n13. Sonuç yerine süreç uyumunu ve kural ihlallerini incele.\n14. Model sürdürülemiyorsa daha hızlı değil, daha sade stile geç.\nÖrnek çalışma modeli cümleleri\n “Hafta içi sabah ve akşam 30 dakika ayırıyorum. XAGTRYG ve likit BIST hisselerinde \ngünlük–4H swing pullback setup’ı izliyor, fiyat alana gelmeden alarm kuruyorum.”\n “Yalnız Londra–New York örtüşmesinin ilk bölümünde majör forex çiftlerinde 1H bağlam \n+ 15D breakout/failure setup’ı kullanıyorum; haber açıklaması çevresinde işlem \naçmıyorum.”\n “Uzun vadeli portföyüm yatırım tezine dayanıyor; kısa süreli volatilite için hedge yalnız \nmaliyet ve korelasyon analizi sonrası kullanılıyor. Teknik swing işlemleri portföy \nkararından ayrı tutuluyor.”",
+    "source_extract_summary": [
+      "Haftalık gerçek ekran zamanını ve kesintisiz odak süresini yaz.",
+      "Pozisyonu gece/hafta sonu taşıma isteğini belirle.",
+      "Scalping, day, swing, position veya yatırım arasından birincil çalışma süresini seç."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0235",
+    "page": 235,
+    "chapter": 11,
+    "section": "11.15 — Kendi Çalışma Modelini Kurma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  220\n “Kriptoda 24/7 ekran izlemiyorum. Günlük–4H setup listesi ve alarm kullanıyor; sığ \naltcoinleri spread ve hacim filtresinde eliyorum.”\nKIŞISEL ÇALIŞMA MODELI ŞABLONU\nPiyasa: …\nStil ve elde tutma: …\nAna zaman dilimi paketi: …\nSetup aileleri: …\nSeans/kontrol saatleri: …\nİşlem maliyeti sınırı: …\nPiyasa öncesi–sonrası rutin: …\nİşlem yapmayacağım koşullar: …\nHızlı Başvuru\nKavram Eylem En büyük hata\nScalping Likidite, maliyet, hız ve günlük \nsınır test et.\nKısa süreyi düşük risk sanmak.\nDay trading Seans ve aynı gün kapanış \nkuralı yaz.\nKaybedeni plansız swing’e \nçevirmek.\nSwing Alarm, taşıma riski ve HTF \nsetup kullan.\nAz sinyal nedeniyle kural \ngevşetmek.\nPosition trading Trend/makro tezi ve haftalık \nyönetim kur.\nYatırım teziyle karıştırmak.\nYatırım Değerleme, finansal sağlık ve \nportföy rolü yaz.\nHer uzun pozisyonu yatırım \nsaymak.\nMomentum Hız+hacim+alanı birlikte izle. FOMO ile geç giriş.\nPullback Trend içinde zayıflayan karşı \nhareket ara.\nHer düşüşü fırsat sanmak.\nBreakout Sınır, close, hacim ve \nacceptance izle.\nFitil aşımını kırılım saymak.\nRange Sınırları ve karşı hedefi belirle. Orta alanda işlem kovalamak.\nHedge Uzun vadeli riski maliyetli \nkoruma olarak değerlendir.\nStop yerine karmaşık kaçış \nkullanmak.\nPiyasa seçimi Veri–likidite–maliyet–\nvolatilite–seans filtresi.\nPopüler ürünü otomatik \nuygun sanmak.\nWatchlist Evreni ele, bağlam ve alarma \nindir.\nÇok sembolü yüzeysel \nizlemek.",
+    "source_extract_summary": [
+      " “Kriptoda 24/7 ekran izlemiyorum.",
+      "Günlük–4H setup listesi ve alarm kullanıyor; sığ altcoinleri spread ve hacim filtresinde eliyorum.” KIŞISEL ÇALIŞMA MODELI ŞABLONU Piyasa: … Stil ve elde tutma: … Ana zaman dilimi paketi: … Setup aileleri: … Seans/kontrol saatleri: … İşlem maliyeti sınırı: … Piyasa öncesi–sonrası rutin: … İşlem yapmayacağım koşullar: … Hızlı Başvuru Kavram Eylem En büyük hata Scalping Likidite, maliyet, hız ve günlük sınır test et.",
+      "Day trading Seans ve aynı gün kapanış kuralı yaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Seans, gün içi zaman ve farklı piyasa saatlerinin olay bağlamı",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0236",
+    "page": 236,
+    "chapter": 11,
+    "section": "11.15 — Kendi Çalışma Modelini Kurma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  221\nKavram Eylem En büyük hata\nGünlük rutin Hazırlık–uygulama–inceleme \nsırasını sabitle.\nYalnız P&L kaydetmek.\nTablo 11.15 – Bölüm 11 hızlı başvuru\nGrafik ve Rutin Başı Kontrol Listesi\n Seçtiğim stil gerçek ekran zamanıma uyuyor mu?\n Pozisyonu gece veya hafta sonu taşıma kuralım net mi?\n Stil ile setup’ı birbirine karıştırıyor muyum?\n Piyasanın veri ve likidite kalitesi yeterli mi?\n Spread, ücret, funding/premium ve slippage hedefe göre kabul edilebilir mi?\n Volatilite setup’ımın ihtiyacıyla uyumlu mu?\n İşlem göreceğim seans ve haber penceresi belli mi?\n Watchlist sınırlı ve güncel mi?\n HTF bağlam ve setup seviyesi fiyat gelmeden yazıldı mı?\n Bugün izin verilen setup sayısı belli mi?\n Günlük maksimum işlem ve kayıp sınırı tanımlı mı?\n Options, hedge veya kaldıraç kullanımının ayrı riski anlaşılmış mı?\n Day trade’i plansız swing’e çevirmeme kuralım var mı?\n Piyasa sonrası süreç puanı ve ekran görüntüsü kaydı yapacak mıyım?\n Tek sonuçla stil veya sistem değiştirmeyecek miyim?\n Bugün işlem yapmamak da planlı bir karar olabilir mi?\nTemel Sözlük\nTerim Aksiyon tanımı\nTrading style Elde tutma, karar hızı ve ekran biçimini \ntanımlayan çalışma modeli.\nScalping Saniye–dakika süren küçük hareketleri yüksek \nuygulama hızıyla işleme.\nDay trading Pozisyonu tanımlı işlem günü/seans içinde açıp \nkapatma.\nSwing trading Birkaç gün–hafta süren fiyat salınımını işleme.\nPosition trading Hafta–ay süren aktif trend veya makro \npozisyonu yönetme.\nInvesting Uzun vadeli değer, nakit akışı ve portföy teziyle \nvarlık sahipliği.\nMomentum trading Güçlü fiyat ve katılımın devamını izleyen \nyaklaşım.\nSetup family Pullback, breakout veya range gibi fırsat \nmodelinin ailesi.",
+    "source_extract_summary": [
+      "Kavram Eylem En büyük hata Günlük rutin Hazırlık–uygulama–inceleme sırasını sabitle.",
+      " Pozisyonu gece veya hafta sonu taşıma kuralım net mi?",
+      " Stil ile setup’ı birbirine karıştırıyor muyum?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0237",
+    "page": 237,
+    "chapter": 11,
+    "section": "11.15 — Kendi Çalışma Modelini Kurma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  222\nTerim Aksiyon tanımı\nMarket selection Erişim, veri, likidite, maliyet ve saatle piyasa \neleme.\nTrading session Belirli piyasa merkezlerinin aktif olduğu zaman \npenceresi.\nWatchlist Aynı filtrelerle izlenen sınırlı piyasa listesi.\nPre-market routine Takvim, bağlam, setup, seviye ve alarm hazırlığı.\nIn-market routine Yalnız planlı setup’ı risk sınırında uygulama.\nPost-market review Sonuçtan ayrı süreç, hata ve kural uyumunu \ninceleme.\nHedge Açık pozisyon/portföy riskini başka araçla \nazaltma.\nArbitrage Aynı/bağlantılı varlıklardaki fiyat farkını \noperasyonel olarak işleme.\nDCA Belirli aralıklarla planlı tutarda uzun vadeli alım \nyapma.\nSlippage Beklenen fiyat ile gerçekleşen fiyat arasındaki \nfark.\nTablo 11.16 – Bölüm 11 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. İşlem stili neden bir kişilik etiketi değil, çalışma modelidir?\n2. Stil seçiminin beş boyutu nelerdir?\n3. Scalping’de küçük hedef neden işlem maliyetini kritik hâle getirir?\n4. Day trading gece riskini azaltırken hangi yeni riskleri artırabilir?\n5. Swing trading yeni başlayan için neden dengeli bir hipotez olabilir?\n6. Position trading ile yatırımın temel tez farkı nedir?\n7. Momentum trading neden tek başına elde tutma süresi değildir?\n8. Pullback, breakout ve range neden işlem stili sayılmaz?\n9. Hedge ile stop-loss arasındaki görev farkı nedir?\n10. Piyasa seçiminde hangi altı objektif ölçüt kullanılır?\n11. Kriptonun 24/7 açık olması neden her saati eşit yapmaz?\n12. Options neden ayrı bir stil değil, enstrüman türüdür?\n13. Seans seçimi setup davranışını nasıl değiştirebilir?\n14. Yüksek volatilite neden otomatik olarak en iyi fırsat değildir?\n15. Kişisel zaman ve karar hızı stil seçimini nasıl sınırlar?\n16. Watchlist’in amacı sembol sayısını artırmak değilse nedir?\n17. Piyasa öncesi rutinde hangi bilgiler hazırlanır?\n18. İşlem sırasında neden yeni model icat edilmemelidir?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Market selection Erişim, veri, likidite, maliyet ve saatle piyasa eleme.",
+      "Trading session Belirli piyasa merkezlerinin aktif olduğu zaman penceresi.",
+      "Watchlist Aynı filtrelerle izlenen sınırlı piyasa listesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Deney ve strateji kartı",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Gereksinim, semantik test ve sürümleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0238",
+    "page": 238,
+    "chapter": 11,
+    "section": "11.15 — Kendi Çalışma Modelini Kurma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 11\nİşlem Stilleri, Piyasa Seçimi ve Uygulama Rutinleri  •  223\n19. Piyasa sonrası P&L dışında hangi süreç verileri kaydedilir?\n20. Kaybeden day trade’i swing trade’e çevirmek neden stil ihlalidir?\n21. Aynı XAGTRYG hareketi day ve swing trader için nasıl farklı yönetilir?\n22. Arbitraj neden yönlü tradingden farklı bir operasyon yöntemidir?\n23. Bir çalışma modeli cümlesinde hangi sekiz unsur bulunmalıdır?24. Hangi durumda daha hızlı stil yerine daha sade stile geçmek gerekir?",
+    "source_extract_summary": [
+      "Piyasa sonrası P&L dışında hangi süreç verileri kaydedilir?",
+      "Kaybeden day trade’i swing trade’e çevirmek neden stil ihlalidir?",
+      "Aynı XAGTRYG hareketi day ve swing trader için nasıl farklı yönetilir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0239",
+    "page": 239,
+    "chapter": 12,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve \nDoğrulama\nBağlamdan emre, modelden doğrulamaya tekrar edilebilir işlem sistemi",
+    "source_extract_summary": [
+      "BÖLÜM 12 İşlem Kurulumu, Strateji Tasarımı ve Doğrulama Bağlamdan emre, modelden doğrulamaya tekrar edilebilir işlem sistemi"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0240",
+    "page": 240,
+    "chapter": 12,
+    "section": "12.1 — Strateji, Setup, Tetik ve İşlem Ayrımı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  225\nBu Bölümün Amacı\nİlk on bir bölümde grafiğin parçalarını öğrendik: piyasa ve emirler, mum davranışı, market structure, \nönemli bölgeler, likidite, formasyonlar, hacim, indikatörler, Fibonacci/Elliott, top-down analiz ve \nçalışma stili. Fakat bu parçalar tek bir karar sistemine bağlanmadığında grafik yalnız işaretlerle dolar. \nBölüm 12’nin görevi, “ne görüyorum?” sorusunu “hangi koşul gerçekleşirse işlem yaparım; hangi \nkoşulda hiçbir şey yapmam?” sorusuna dönüştürmektir.\nBu bölümde hazır bir kutsal strateji aramam. Önce strateji, setup, trigger ve trade kavramlarını \nayırırım. Sonra her işlem fikrini bağlam, konum, rota, tetik, giriş, geçersizlik, hedef ve kayıt zincirinden \ngeçiririm. Bir halka eksikse işlemi zorlamam.\nBÖLÜM SONUNDA\n• Strateji, setup, signal, trigger ve trade kavramlarını ayırabileceksiniz.\n• Bağlamdan hedefe dokuz parçalı işlem kurulumu yazabileceksiniz.\n• Pullback, breakout, range/failure ve reversal setup ailelerini doğru piyasa hâliyle \neşleştirebileceksiniz.\n• Zone, FVG, indicator ve footprint araçlarını görevlerine göre kullanabileceksiniz.\n• Kural setini backtest, replay, forward/paper test ve günlükle doğrulayabileceksiniz.\nUygulama Görseli 12.1 – XAGTRYG grafiğinde günlük bağlamdan 1 saatlik tetik ve hedefe uzanan tam işlem \nkurulumunun tek sayfalık görünümü. Temsilî eğitim şeması.\n12.1 Strateji, Setup, Tetik ve İşlem Ayrımı\nTrading strategy (hangi piyasa koşulunda hangi kuralları tekrar tekrar uygulayacağımı belirleyen \nsistem), tek bir grafikte gördüğüm fırsat değildir. Setup (stratejinin o anda grafikte oluşan uygun",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı İlk on bir bölümde grafiğin parçalarını öğrendik: piyasa ve emirler, mum davranışı, market structure, önemli bölgeler, likidite, formasyonlar, hacim, indikatörler, Fibonacci/Elliott, top-down analiz ve çalışma stili.",
+      "Fakat bu parçalar tek bir karar sistemine bağlanmadığında grafik yalnız işaretlerle dolar.",
+      "Bölüm 12’nin görevi, “ne görüyorum?” sorusunu “hangi koşul gerçekleşirse işlem yaparım; hangi koşulda hiçbir şey yapmam?” sorusuna dönüştürmektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0241",
+    "page": 241,
+    "chapter": 12,
+    "section": "12.1 — Strateji, Setup, Tetik ve İşlem Ayrımı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  226\ndüzeni), sistemin güncel adayıdır. Trigger (setup’ı gerçek işleme dönüştüren kesin fiyat olayı), “şimdi \naktif” dediğim noktadır. Trade ise gerçek emir, stop, hedef ve kayıtla birlikte uygulanan pozisyondur.\nŞekil 12.1 – Strateji, setup, tetik ve işlem ayrımı\nKavram Cevapladığı soru Örnek\nStrateji Tekrar eden sistemim nedir? Yükseliş trendinde demand/FVG pullback’i \nve bullish yapı teyidi.\nSetup Şu an uygun yapı oluştu mu? Fiyat 4 saatlik demand’e kontrollü geri \ndöndü.\nSignal / ipucu Setup lehine hangi bilgi geldi? Satış hacmi azalıyor veya RSI hidden \ndivergence oluşuyor.\nTrigger Hangi olay işleme izin verir? 1 saatlik bullish CHoCH ve retest kapanışı.\nTrade Emri nasıl uyguladım? Belirlenmiş giriş, stop, hedef ve işlem \ngünlüğü.\nTablo 12.1 – Strateji dilinin görev ayrımı\nEKRANDA NE ARIYORUM?\n• Önce hangi stratejiyi aradığımı tek cümleyle yazıyorum.\n• Grafikte yalnız setup koşullarını işaretliyorum; her olumlu ipucunu giriş sanmıyorum.\n• Trigger gerçekleşmeden emir vermiyorum.\n• Gerçekleşen işlemi setup sonucundan ayrı kaydediyorum.\nDOĞRU BİLİNEN YANLIŞ\nMit: Grafikte bullish bir işaret gördüysem setup vardır.\nGerçeklik: Bir mum, FVG veya indikatör sinyali yalnız bir parçadır. Setup; doğru bağlam, konum ve \ntetik zinciriyle oluşur.",
+    "source_extract_summary": [
+      "Trigger (setup’ı gerçek işleme dönüştüren kesin fiyat olayı), “şimdi aktif” dediğim noktadır.",
+      "Trade ise gerçek emir, stop, hedef ve kayıtla birlikte uygulanan pozisyondur.",
+      "Yükseliş trendinde demand/FVG pullback’i ve bullish yapı teyidi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0242",
+    "page": 242,
+    "chapter": 12,
+    "section": "12.2 — İşlem Kurulumunun Dokuz Parçası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  227\nUygulama Görseli 12.2 – Aynı grafikte “ipucu”, “setup adayı”, “trigger” ve “gerçek işlem” etiketlerinin farklı \nrenklerle ayrılması. Temsilî eğitim şeması.\n12.2 İşlem Kurulumunun Dokuz Parçası\n“Level–trigger–confirmation–risk” dört sütunu, önceki bölümlerde kurulan yapı ve top-down \nsistemiyle dokuz operasyon parçasına genişletilir. Böylece yalnız giriş anı değil, işlem fikrinin \ndoğuşundan kayıt aşamasına kadar bütün yol kontrol edilir.\nŞekil 12.2 – İşlem kurulumunun dokuz parçalı zinciri\nParça Yazacağım soru Eksikse ne olur?\n1. Bağlam Trend, range, geçiş veya haber/volatilite \nrejimi nedir?\nSetup yanlış piyasa hâline uygulanır.",
+    "source_extract_summary": [
+      "Uygulama Görseli 12.2 – Aynı grafikte “ipucu”, “setup adayı”, “trigger” ve “gerçek işlem” etiketlerinin farklı renklerle ayrılması.",
+      "12.2 İşlem Kurulumunun Dokuz Parçası “Level–trigger–confirmation–risk” dört sütunu, önceki bölümlerde kurulan yapı ve top-down sistemiyle dokuz operasyon parçasına genişletilir.",
+      "Böylece yalnız giriş anı değil, işlem fikrinin doğuşundan kayıt aşamasına kadar bütün yol kontrol edilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0243",
+    "page": 243,
+    "chapter": 12,
+    "section": "12.3 — İşlem Tezi ve No-Trade Koşulları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  228\nTablo 12.2 – Dokuz parçalı setup kontrolü\nEYLEM DİLİ\nGrafiği açtığımda önce “hangi yönde?” diye değil, “hangi piyasa hâlindeyim, hangi bölgede ne \nbekliyorum ve bunun işleme dönüşmesi için hangi olay gerekli?” diye sorarım.\nVAKA ANALİZİ — XAGTRYG / TEMSİLİ\n• Günlük grafik yükseliş yapısını koruyor; fiyat 110,00–110,60 demand alanına dönüyor.\n• 4 saatlik grafikte pullback yavaşlıyor ve önceki BOS bölgesiyle bullish FVG çakışıyor.\n• 1 saatlik grafikte 109,90 altı kısa sweep sonrası 110,80 üstü bullish CHoCH kapanışı oluşuyor.\n• Entry yalnız retest veya güçlü takip kapanışıyla aktif; invalidation sweep dibi altındaki kabul.\n• İlk hedef önceki 4 saatlik tepe; hedefe kadar alan yetersizse işlem atlanıyor.\n12.3 İşlem Tezi ve No-Trade Koşulları\nTrade thesis (işlemin neden var olduğunu, ne beklediğimi ve hangi durumda yanıldığımı açıklayan \nkoşullu cümle), “fiyat yükselecek” tahmini değildir. Tezimi şu kalıpla yazarım: “Eğer fiyat X bağlamında \nY bölgesinde Z davranışını üretirse A yönünde B hedefini beklerim; C olursa senaryo geçersizdir.”\nTez öğesi Örnek cümle parçası\nBağlam Günlük yükseliş trendi korunurken…\nKonum 4 saatlik demand ve eski BOS alanında…\nBeklenen davranış Sell-side sweep sonrası bullish displacement oluşursa…\nYön ve rota Önceki tepe / buy-side liquidity yönünde devam beklerim…\nGeçersizlik Demand altında gövdeli kapanış ve kabul oluşursa tez biter.\nTablo 12.3 – İşlem tezi cümlesi\nEKRANDA NE ARIYORUM?\n• Tezi tek cümleyle yazamıyorsam setup’ı yeterince anlamamışımdır.\n• İşlem lehindeki kanıt kadar tezi bozacak kanıtı da işaretliyorum.\n• No-trade koşullarını girişten önce yazıyorum.\n• Fiyat hareket ettikten sonra tezi yeniden yazmıyorum.\nNo-trade nedeni Neden işlem yok?\nBağlam belirsiz Trend/range ayrımı yapılamıyor veya üst zaman kritik geçişte.\nKonum zayıf Fiyat range ortasında veya önemli bölgeden uzakta.\nTrigger eksik Sadece temas, fitil veya indikatör ipucu var.\nHedef çok yakın Bir sonraki major engel stop mesafesine göre alan bırakmıyor.\nVolatilite/maliyet uygunsuz Spread, haber veya aşırı ATR hareketi giriş planını bozuyor.\nKural çelişkisi Aynı setup için farklı giriş/stop kuralları doğaçlanıyor.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — XAGTRYG / TEMSİLİ • Günlük grafik yükseliş yapısını koruyor; fiyat 110,00–110,60 demand alanına dönüyor.",
+      "• 4 saatlik grafikte pullback yavaşlıyor ve önceki BOS bölgesiyle bullish FVG çakışıyor.",
+      "• 1 saatlik grafikte 109,90 altı kısa sweep sonrası 110,80 üstü bullish CHoCH kapanışı oluşuyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0244",
+    "page": 244,
+    "chapter": 12,
+    "section": "12.4 — Konum: Yapı, Bölge ve Likidite Rotası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  229\nTablo 12.4 – No-trade koşulları\nDOĞRU BİLİNEN YANLIŞ\nMit: Profesyonel trader her gün işlem bulur.\nGerçeklik: Stratejinin önemli bir çıktısı da “bugün benim modelim yok” diyebilmektir. No-trade, \nkaçırılmış fırsat değil; kuralın çalışmasıdır.\n12.4 Konum: Yapı, Bölge ve Likidite Rotası\nLocation (işlem fikrinin grafikte anlam kazandığı fiyat alanı), setup’ın en sık ihmal edilen parçasıdır. \nAynı bullish engulfing range ortasında sıradan, major demand ve sell-side liquidity sweep sonrasında \nise daha anlamlı olabilir. Önce geniş bağlamı, sonra fiyatın bulunduğu alanı, ardından hedefe giden \nrotayı okurum.\nKonum katmanı Ne ararım? Setup’a görevi\nMajor yapı Protected swing, external high/low, \ntrend/range sınırı.\nSenaryonun büyük yönü ve geçersizliği.\nKarar bölgesi Support/resistance, supply/demand, order \nblock, FVG, VWAP.\nFiyatın tepki üretmesini beklediğim alan.\nLikidite Equal high/low, önceki tepe/dip, range dışı \nstop kümeleri.\nFiyatın önce alabileceği rota ve hedef.\nAra engel Karşı zone, POC/HVN, trendline veya yakın \nswing.\nHedefe kalan gerçek alanı sınırlar.\nAlt zaman yapı Micro swing, trigger boundary ve retest \nalanı.\nGiriş ile uygulama stopunu hassaslaştırır.\nTablo 12.5 – Konum ve rota katmanları\nEKRANDA NE ARIYORUM?\n• Fiyat major yapının neresinde: premium, discount veya range ortası?\n• İşlem bölgesi gerçekten görünür ve tepki geçmişi olan bir alan mı?\n• Bölgeye gelmeden önce alınabilecek inducement veya likidite var mı?\n• Giriş ile ilk major engel arasında yeterli mesafe var mı?\nDOĞRU BİLİNEN YANLIŞ\nMit: Güçlü bir trigger her yerde işlem alınabilir.\nGerçeklik: Trigger zamanlamayı söyler; konum ise fikrin neden anlamlı olduğunu. Kötü \nlokasyondaki iyi trigger, çoğu zaman geç veya sıkışık işlemdir.",
+    "source_extract_summary": [
+      "Gerçeklik: Stratejinin önemli bir çıktısı da “bugün benim modelim yok” diyebilmektir.",
+      "No-trade, kaçırılmış fırsat değil; kuralın çalışmasıdır.",
+      "12.4 Konum: Yapı, Bölge ve Likidite Rotası Location (işlem fikrinin grafikte anlam kazandığı fiyat alanı), setup’ın en sık ihmal edilen parçasıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0245",
+    "page": 245,
+    "chapter": 12,
+    "section": "12.5 — Confluence ve Bağımsız Kanıt",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  230\nUygulama Görseli 12.3 – Range ortasındaki bullish engulfing ile demand+sweep sonrasındaki aynı \nengulfing’in karşılaştırılması. Temsilî eğitim şeması.\n12.5 Confluence ve Bağımsız Kanıt\nConfluence (aynı işlem tezini farklı veri ailelerinin desteklemesi), grafiğe mümkün olduğunca çok araç \neklemek değildir. Kanıtları beş aileye ayırırım: bağlam, konum, fiyat davranışı, katılım/hacim ve \nzamanlama. Aynı fiyat serisinden türeyen RSI, MACD ve Stochastic RSI üç ayrı momentum \ngöstergesidir; fakat üç bağımsız piyasa gerçeği değildir.",
+    "source_extract_summary": [
+      "Uygulama Görseli 12.3 – Range ortasındaki bullish engulfing ile demand+sweep sonrasındaki aynı engulfing’in karşılaştırılması.",
+      "12.5 Confluence ve Bağımsız Kanıt Confluence (aynı işlem tezini farklı veri ailelerinin desteklemesi), grafiğe mümkün olduğunca çok araç eklemek değildir.",
+      "Kanıtları beş aileye ayırırım: bağlam, konum, fiyat davranışı, katılım/hacim ve zamanlama."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0246",
+    "page": 246,
+    "chapter": 12,
+    "section": "12.6 — Tetik ve Teyit Hiyerarşisi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  231\nŞekil 12.3 – Bağımsız kanıt aileleri\nKanıt ailesi Örnek Bağımsızlık kontrolü\nBağlam HTF trend/range, piyasa döngüsü, seans. Fiyatın geniş durumunu açıklar.\nKonum Demand, support, external liquidity, FVG. İşlemin nerede aranacağını açıklar.\nFiyat davranışı Sweep, close, BOS/CHoCH, retest, \ndisplacement.\nGerçek fiyat sonucunu gösterir.\nKatılım Volume spike, delta, absorption/initiation, \nOBV.\nHareketin katılımını veya başarısız \nilerlemeyi gösterir.\nZamanlama Seans, haber penceresi, LTF trigger. İşlemin ne zaman uygulanacağını sınırlar.\nTablo 12.6 – Confluence kanıt aileleri\nMİNİMUM UYGULAMA STANDARDI\nÇekirdek setup için en az üç ayrı görev ararım: doğru bağlam, anlamlı konum ve objektif fiyat \ntrigger’ı. Hacim/indicator/footprint bu üçlüyü güçlendirebilir; eksik bağlamı veya kötü konumu tek \nbaşına onaramaz.\nDOĞRU BİLİNEN YANLIŞ\nMit: Altı gösterge aynı yöndeyse trade çok güçlüdür.\nGerçeklik: Altı araç aynı kapanış verisini farklı formüllerle tekrar ediyor olabilir. Kanıt sayısından \nönce kanıtın görevi ve veri kaynağı kontrol edilir.\n12.6 Tetik ve Teyit Hiyerarşisi\nTrigger (emri aktive eden kesin fiyat olayı) tekrar edilebilir, görülebilir ve test edilebilir olmalıdır. “Fiyat \ngüzel tepki verdi” trigger değildir. “1 saatlik mum, belirlenmiş micro swing üzerinde gövdeli kapandı \nve retest aynı alan üzerinde kaldı” ölçülebilir bir trigger’dır.",
+    "source_extract_summary": [
+      "Konum Demand, support, external liquidity, FVG.",
+      "İşlemin nerede aranacağını açıklar.",
+      "Fiyat davranışı Sweep, close, BOS/CHoCH, retest, displacement."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0247",
+    "page": 247,
+    "chapter": 12,
+    "section": "12.7 — Agresif, Teyitli ve Retest Girişleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  232\nAşama Örnek olay Karar\nGözlem Fiyat zone’a girdi veya liquidity seviyesine \nyaklaştı.\nYalnız izleme.\nUyarı Fitil, momentum kaybı, divergence veya \nabsorption.\nSetup güçlenebilir; giriş yok.\nTeyit Gövdeli reclaim, BOS/CHoCH, breakout \nclose veya güçlü reversal mum.\nEntry modeline geçilebilir.\nAktivasyon Teyit kapanışı, retest emri veya stop order \nşartı gerçekleşti.\nEmir uygulanır.\nİptal Trigger oluşmadan zone kırıldı veya \nsüre/mesafe koşulu bozuldu.\nSetup silinir.\nTablo 12.7 – Tetik ve teyit hiyerarşisi\nEKRANDA NE ARIYORUM?\n• Trigger seviyesini fiyat gelmeden önce çiziyorum.\n• Fitil aşımıyla gövdeli kapanışı ayırıyorum.\n• Trigger sonrası follow-through veya retest davranışını kontrol ediyorum.\n• Trigger çok geç gelmiş ve hedefe alan kalmamışsa işlemi atlıyorum.\nVAKA ANALİZİ — TETİK VAR AMA İŞLEM YOK\n• XAGTRYG 1 saatlik grafikte resistance üstünde bullish breakout kapanışı oluşuyor.\n• Ancak günlük major supply yalnız 0,60 TL yukarıda ve uygulama stopu 0,80 TL gerektiriyor.\n• Trigger teknik olarak doğru olsa da hedefe kalan alan yetersizdir.\n• Karar: Breakout kovalanmaz; yeni kabul veya supply üzeri yapı beklenir.\n12.7 Agresif, Teyitli ve Retest Girişleri\nEntry modelini, “en iyi fiyatı” bulmak için değil, stratejimin kanıt–fiyat dengesini standardize etmek \niçin seçerim. Aggressive entry (bölge içinde erken ve daha az teyitle giriş), confirmed entry (kapanış \nveya yapı değişimi sonrasında giriş) ve retest entry (kırılan alanın yeniden testinde giriş) farklı sonuç \ndağılımları üretir.",
+    "source_extract_summary": [
+      "Aşama Örnek olay Karar Gözlem Fiyat zone’a girdi veya liquidity seviyesine yaklaştı.",
+      "Uyarı Fitil, momentum kaybı, divergence veya absorption.",
+      "Teyit Gövdeli reclaim, BOS/CHoCH, breakout close veya güçlü reversal mum."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Mum geometrisi ve davranış özellikleri",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0248",
+    "page": 248,
+    "chapter": 12,
+    "section": "12.7 — Agresif, Teyitli ve Retest Girişleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  233\nŞekil 12.4 – Giriş türlerinde fiyat–teyit dengesi\nGiriş türü Avantaj Ana risk Uygun kullanım\nAgresif Daha iyi fiyat ve daha kısa \nteknik mesafe.\nZone doğrudan kırılabilir; teyit \nazdır.\nÇok net HTF bağlamı, fresh zone \nve önceden test edilmiş model.\nTeyitli close Fiyat davranışı görünür hâle \ngelir.\nDaha geç fiyat, daha geniş stop \nveya düşük R.\nYeni başlayanlar ve \nreversal/uncertain context.\nRetest Kırılan sınırın görev değişimi \nsınanır.\nRetest hiç gelmeyebilir veya \nderinleşebilir.\nBreakout, CHoCH/BOS ve \npattern boundary modelleri.\nStop order Fiyat seviyeyi aşarsa otomatik \naktive olur.\nSlippage ve fakeout; haber \nanında kötü dolum.\nObjektif breakout ve likit piyasa.\nLimit order Belirlenmiş fiyata kontrollü \ngiriş.\nFiyat dönmeden gidebilir; \nyalnız temasla dolabilir.\nNet zone ve önceden tanımlı \ninvalidation.\nTablo 12.8 – Giriş yöntemlerinin karşılaştırılması\nDOĞRU BİLİNEN YANLIŞ\nMit: Daha erken giriş her zaman daha iyi risk–ödül verir.\nGerçeklik: Daha iyi görünen fiyat, daha düşük teyitle alınmıştır. Strateji bu giriş türüyle test \nedilmemişse teorik R değeri gerçek bir avantaj değildir.",
+    "source_extract_summary": [
+      "Zone doğrudan kırılabilir; teyit azdır.",
+      "Çok net HTF bağlamı, fresh zone ve önceden test edilmiş model.",
+      "Teyitli close Fiyat davranışı görünür hâle gelir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0249",
+    "page": 249,
+    "chapter": 12,
+    "section": "12.8 — Geçersizlik, Stop, Hedef ve İşlem",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  234\nUygulama Görseli 12.4 – Aynı pullback setup’ında zone touch, CHoCH close ve retest entry noktalarının tek \ngrafikte karşılaştırılması. Temsilî eğitim şeması.\n12.8 Geçersizlik, Stop, Hedef ve İşlem \nYapılabilirlik\nInvalidation (işlem tezinin artık doğru kabul edilemeyeceği fiyat veya davranış), stop-loss emrinden \nönce tanımlanır. Stop emri invalidation’ın uygulanabilir hâlidir. Önce “hangi olay tezi bozar?” diye \nsorarım; sonra spread, volatilite ve fiyatın normal test payını dikkate alarak emri yerleştiririm. Stop \nmesafesinden pozisyon büyüklüğü üretmek Bölüm 13’ün görevidir.\nBileşen Doğru soru Yaygın hata\nTeknik invalidation Setup hangi swing/zone kabulüyle \nbozulur?\nR değerini güzelleştirmek için stopu \nrastgele daraltmak.\nUygulama stopu Normal fitil ve volatilite için ne kadar pay \ngerekir?\nStopu çok genişletip asıl tezi \nbelirsizleştirmek.\nİlk hedef En yakın major swing, liquidity veya karşı \nzone nerede?\nGrafikte engel varken yalnız sabit 2R \nhedeflemek.\nProjection Measured move/Fib extension hangi \nreferansı verir?\nProjection’ı kesin fiyat kabul etmek.\nTrade feasibility Entry–stop–hedef geometrisi işlem \nyapılabilir mi?\nTrigger var diye kötü geometriyi kabul \netmek.",
+    "source_extract_summary": [
+      "Uygulama Görseli 12.4 – Aynı pullback setup’ında zone touch, CHoCH close ve retest entry noktalarının tek grafikte karşılaştırılması.",
+      "12.8 Geçersizlik, Stop, Hedef ve İşlem Yapılabilirlik Invalidation (işlem tezinin artık doğru kabul edilemeyeceği fiyat veya davranış), stop-loss emrinden önce tanımlanır.",
+      "Stop emri invalidation’ın uygulanabilir hâlidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Konum ve seviye yaşam döngüsü",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0250",
+    "page": 250,
+    "chapter": 12,
+    "section": "12.9 — Pullback Devam Setup’ı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  235\nTablo 12.9 – Geçersizlik ve hedef planı\nEKRANDA NE ARIYORUM?\n• Stopun arkasında gerçekten “tez bozuldu” diyebileceğim yapı var mı?\n• Fiyat stopa gitmeden önce setup’ı iptal eden erken davranış kuralım var mı?\n• İlk hedefe kadar karşı zone veya range ortası engeli var mı?\n• Stop ve hedef, giriş türümle aynı zaman diliminde mi tanımlandı?\nDOĞRU BİLİNEN YANLIŞ\nMit: Dar stop daha az risklidir.\nGerçeklik: Risk, stop mesafesi ile pozisyon büyüklüğünün birleşimidir. Teknik yapının içine konan \ndar stop yalnız daha sık yanlış çıkış üretebilir.\n12.9 Pullback Devam Setup’ı\nPullback continuation setup (ana trend içindeki geçici karşı hareketin bitip trend yönünün yeniden \nbaşlamasını işlemeye çalışma), bağlam ile zamanlamayı doğal biçimde ayırır. Üst zamanda trendi, orta \nzamanda pullback yapısını, alt zamanda dönüş trigger’ını ararım.\nŞekil 12.5 – XAGTRYG temsili pullback setup akışı\nAdım Bullish pullback standardı No-trade işareti\nBağlam HTF HH–HL veya korunmuş bullish \nstructure.\nProtected low kırılmış veya HTF major \nsupply altında sıkışma.\nKonum Demand/support, eski BOS, FVG veya \nanlamlı Fib alanı.\nRange ortası veya trendden aşırı uzak \nrastgele seviye.\nPullback kalitesi Karşı momentum zayıflıyor; overlap artıyor; \nhacim azalabilir.\nGeniş bearish displacement ve sürekli alt \nkapanış.\nTrigger Sweep+reclaim, bullish CHoCH/BOS, \nengulfing veya initiation.\nYalnız zone teması veya RSI oversold.",
+    "source_extract_summary": [
+      "• Stopun arkasında gerçekten “tez bozuldu” diyebileceğim yapı var mı?",
+      "• Fiyat stopa gitmeden önce setup’ı iptal eden erken davranış kuralım var mı?",
+      "• İlk hedefe kadar karşı zone veya range ortası engeli var mı?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0251",
+    "page": 251,
+    "chapter": 12,
+    "section": "12.10 — Breakout–Retest ve Momentum Setup’ı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  236\nAdım Bullish pullback standardı No-trade işareti\nInvalidation Pullback swing dibi / demand altında kabul. Stop yalnız küçük trigger mumunun içine \nkonuyor.\nHedef Önceki tepe, BSL, measured move veya \nmajor zone.\nİlk engel girişe çok yakın.\nTablo 12.10 – Pullback devam setup’ı\nVAKA ANALİZİ — XAGTRYG 4S / 1S\n• TEMSİLİ: Günlük trend yükseliş; 4 saatlik fiyat 112,40’tan 110,50’ye kontrollü çekiliyor.\n• 110,30–110,70 aralığı eski BOS + bullish FVG + demand kesişimi.\n• 1 saatlik grafikte 110,25 altı sweep, ardından 110,95 üstü bullish CHoCH kapanışı.\n• Retest 110,75 üzerinde tutulursa teyitli entry; invalidation 110,20 altındaki kabul.\n• İlk hedef 112,40 önceki tepe; 112,00’de güçlü supply görülürse setup geometrisi yeniden \ndeğerlendirilir.\nDOĞRU BİLİNEN YANLIŞ\nMit: Trend yönündeki her düşüş alım fırsatıdır.\nGerçeklik: Pullback, ana yapıyı korumalı ve trend yönünde yeniden kontrol kanıtı üretmelidir. Güçlü \nkarşı displacement devam ediyorsa henüz “ucuz” değil, riskli olabilir.\nUygulama Görseli 12.5 – XAGTRYG günlük–4S–1S üç panel: HTF trend, 4S pullback zone, 1S \nsweep+CHoCH+retest. Temsilî eğitim şeması.\n12.10 Breakout–Retest ve Momentum Setup’ı\nBreakout setup (belirgin sınırın ötesinde kapanış ve yeni alanda kabul arayan işlem modeli), yalnız \nseviyenin fitille aşılması değildir. Sınırın görünürlüğü, yaklaşım baskısı, breakout mumunun kalitesi,",
+    "source_extract_summary": [
+      "Adım Bullish pullback standardı No-trade işareti Invalidation Pullback swing dibi / demand altında kabul.",
+      "Stop yalnız küçük trigger mumunun içine konuyor.",
+      "Hedef Önceki tepe, BSL, measured move veya major zone."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0252",
+    "page": 252,
+    "chapter": 12,
+    "section": "12.10 — Breakout–Retest ve Momentum Setup’ı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  237\nhacim ve follow-through birlikte değerlendirilir. Retest, breakout’ın yeni alanda kalıp kalamadığını \nsınar.\nBileşen Güçlü işaret Zayıf / false breakout riski\nSınır Birden fazla görünür reaksiyon, \nrange/pattern boundary.\nYakınlaştırınca görülen küçük seviye.\nYaklaşım Higher low / lower high baskısı, sıkışma, \nartan momentum.\nSeviyeye tek şok mumla aşırı uzamış geliş.\nKapanış Gövde sınırın ötesinde ve uç bölgeye yakın. Yalnız fitil veya sınırın hemen üstünde zayıf \nclose.\nKatılım Bağıl hacim artışı ve fiyat ilerlemesi. Düşük hacim, absorption veya geri çekilen \ndelta.\nTakip / retest Yeni alanda acceptance veya eski sınırın \nflip’i.\nHızlı biçimde eski range içine dönüş.\nHedef Range/pattern ölçümü ve sonraki major \nzone.\nHemen yukarıda karşı likidite/major \nsupply.\nTablo 12.11 – Breakout–retest setup kalite kontrolü\nEKRANDA NE ARIYORUM?\n• Breakout seviyesini hareketten önce işaretliyorum.\n• Kapanışın yalnız üstte olmasına değil, mum gövdesi ve follow-through’a bakıyorum.\n• Retest gelirse eski resistance’ın support olarak tutulmasını izliyorum.\n• Fiyat breakout anında ATR’ye göre aşırı uzamışsa kovalamıyorum.\nVAKA ANALİZİ — BREAKOUT VAR, KOVALAMA YOK\n• TEMSİLİ: XAGTRYG 1 saatlik range 114,00–115,20 arasında.\n• Fiyat 115,20 üzerinde güçlü hacimle 115,85’te kapanıyor; ancak günlük supply 116,10’da.\n• Market entry hedefe yalnız 0,25 TL alan bırakıyor ve stop 0,70 TL gerektiriyor.\n• Karar: Retest veya supply üzeri yeni kabul beklenir; “güçlü mum” tek başına yeterli değildir.",
+    "source_extract_summary": [
+      "hacim ve follow-through birlikte değerlendirilir.",
+      "Retest, breakout’ın yeni alanda kalıp kalamadığını sınar.",
+      "Bileşen Güçlü işaret Zayıf / false breakout riski Sınır Birden fazla görünür reaksiyon, range/pattern boundary."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0253",
+    "page": 253,
+    "chapter": 12,
+    "section": "12.11 — Range, Failure Test ve False Breakout",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  238\nUygulama Görseli 12.6 – Breakout quality karşılaştırması: fitil aşımı, zayıf close, güçlü close+volume ve \nbaşarılı retest. Temsilî eğitim şeması.\n12.11 Range, Failure Test ve False Breakout \nSetup’ı\nRange setup’ında avantaj orta bölgede tahmin yapmak değil, sınırdaki asimetrik davranışı işlemektir. \nFailure test (range veya önemli seviyenin kısa süre aşılması ve yeniden içeri kapanış), breakout \ntraderlarını yanlış tarafta bırakabilen bir trigger’dır. Niyet iddiası yerine gözlenebilir aşım, reclaim ve \ntakip davranışını kullanırım.\nAşama Bullish range failure Bearish range failure\nKonum Range support / sell-side liquidity. Range resistance / buy-side liquidity.\nAşım Support altına fitil veya kısa gövdeli taşma. Resistance üstüne fitil veya kısa taşma.\nReclaim Mum yeniden range içinde kapanır. Mum yeniden range altında kapanır.\nTeyit Bullish follow-through, micro CHoCH veya \nretest.\nBearish follow-through, micro CHoCH veya \nretest.\nStop Failure extreme altı + uygulama payı. Failure extreme üstü + uygulama payı.\nHedef Önce range ortası, sonra karşı sınır \nbağlama göre.\nÖnce range ortası, sonra karşı sınır \nbağlama göre.\nTablo 12.12 – Range failure setup’ı\nEKRANDA NE ARIYORUM?\n• Range sınırlarını en az iki anlamlı reaksiyonla tanımlıyorum.\n• Orta bölgede işlem aramıyorum.\n• Sınır aşımından sonra kapanışın nereye döndüğünü izliyorum.\n• Reclaim sonrası takip yoksa failure test’i aktif saymıyorum.",
+    "source_extract_summary": [
+      "Uygulama Görseli 12.6 – Breakout quality karşılaştırması: fitil aşımı, zayıf close, güçlü close+volume ve başarılı retest.",
+      "12.11 Range, Failure Test ve False Breakout Setup’ı Range setup’ında avantaj orta bölgede tahmin yapmak değil, sınırdaki asimetrik davranışı işlemektir.",
+      "Failure test (range veya önemli seviyenin kısa süre aşılması ve yeniden içeri kapanış), breakout traderlarını yanlış tarafta bırakabilen bir trigger’dır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Deney ve strateji kartı",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0254",
+    "page": 254,
+    "chapter": 12,
+    "section": "12.12 — Trend Reversal Setup’ı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  239\nVAKA ANALİZİ — XAGTRYG RANGE\n• TEMSİLİ: 2 saatlik range 108,80–111,40; fiyat 108,65’e iğne atıp 109,10’da kapanıyor.\n• Alt zaman bullish engulfing ve 109,35 üstü micro BOS geliyor.\n• Entry retestte; invalidation 108,60 altı kabul.\n• İlk hedef range ortası 110,10; karşı sınır otomatik hedef değil, price action’a bağlı ikinci alan.\nDOĞRU BİLİNEN YANLIŞ\nMit: Range dışına çıkan her fitil likidite sweep ve ters işlem fırsatıdır.\nGerçeklik: Reclaim, takip ve hedefe açık alan yoksa bu yalnız volatilite olabilir. Failure test bir \nkapanış ve davranış modelidir.\n12.12 Trend Reversal Setup’ı\nTrend reversal setup (mevcut ana yönün yalnız yavaşlamasını değil, karşı yönde yeni yapı ve kabul \nüretmesini işlemeye çalışma), en fazla kanıt isteyen model ailesidir. Tek hammer, divergence veya alt \nzaman CHoCH ana trendi tersine çevirmiş sayılmaz. Dönüşü bir kanıt zinciriyle değerlendiririm.\nŞekil 12.6 – Dört ana setup ailesi\nDönüş zinciri Gözlenebilir kanıt\n1. Konum Major HTF zone, external liquidity veya uzamış trend hedefi.\n2. Başarısız devam Yeni high/low üretilememesi, zayıf follow-through veya failure \ntest.\n3. Momentum/katılım değişimi Divergence, climax, absorption veya karşı displacement.\n4. Yapı değişimi Anlamlı swing’in CHoCH/MSS ile kırılması.\n5. Yeni yönde kabul Retest, higher low/lower high ve devam BOS’u.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — XAGTRYG RANGE • TEMSİLİ: 2 saatlik range 108,80–111,40; fiyat 108,65’e iğne atıp 109,10’da kapanıyor.",
+      "• Alt zaman bullish engulfing ve 109,35 üstü micro BOS geliyor.",
+      "• Entry retestte; invalidation 108,60 altı kabul."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0255",
+    "page": 255,
+    "chapter": 12,
+    "section": "12.13 — Zone, FVG, Inside Bar, Gap, Indicator ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  240\nDönüş zinciri Gözlenebilir kanıt\n6. Hedef rotası Karşı major zone’a kadar açık alan ve net invalidation.\nTablo 12.13 – Trend reversal kanıt zinciri\nPULLBACK Mİ, REVERSAL MI?\n• Yalnız minor CHoCH: pullback içi tepki olabilir.\n• Protected swing kırılmadı: ana trend hâlâ geçerli olabilir.\n• Karşı yönde follow-through yok: dönüş teyidi eksik.\n• Yeni yönde HL/LH ve BOS: reversal ihtimali güçlenir.\nVAKA ANALİZİ — XAGTRYG TREND DÖNÜŞÜ\n• TEMSİLİ: Günlük downtrend, fiyat weekly demand ve önceki external low çevresinde.\n• Yeni dip yalnız fitille oluşuyor; satış hacmi çok yüksek olmasına rağmen kapanış yukarıda: \nabsorption adayı.\n• 4 saatlik son lower high üzerinde CHoCH; ardından demand retestinde higher low oluşuyor.\n• Yeni 4 saatlik BOS gelmeden uzun vadeli trend reversal değil, önce counter-trend setup olarak \nsınıflandırılır.\nDOĞRU BİLİNEN YANLIŞ\nMit: RSI bullish divergence oluştuysa dip tamamlanmıştır.\nGerçeklik: Divergence momentum uyarısıdır. Location, başarısız devam, yapı değişimi ve yeni \nyönde kabul olmadan ana dönüş teyidi değildir.\n12.13 Zone, FVG, Inside Bar, Gap, Indicator ve \nFootprint Modülleri\nÖnceki bölümlerde öğrendiğim her araç ayrı bir strateji olmak zorunda değildir. Araçları görev \nmodüllerine ayırırım. Supply–demand, order block ve FVG çoğunlukla location; inside bar ve pattern \nsetup yapısı; indicator ve hacim confirmation/filter; footprint ise micro trigger veya katılım teyidi \ngörevi görür.\nAraç / kavram Ana görevi Tek başına neden yetmez? Örnek birleşim\nSupply–demand / order block Location ve invalidation alanı. Bölge tekrar testte kırılabilir; \ntrigger gerekir.\nDemand + SSL sweep + bullish \nCHoCH.\nFVG / imbalance Hızlı departure sonrası dönüş \nalanı veya target yolu.\nHer FVG kaliteli değildir; yapı \nve displacement sonucu \ngerekir.\nHTF FVG + pullback + LTF \nreclaim.\nInside bar Sıkışma ve trigger boundary. Yönü önceden söylemez; \nbağlam ve hangi tarafın \nkırıldığı gerekir.\nTrend + mother bar breakout + \nvolume.\nKlasik gap Devam/dönüş bağlamı ve fiyat \nboşluğu.\nGap türü ve follow-through \nayrılmadan işlem üretmez.\nBreakaway gap + \nretest/acceptance.",
+    "source_extract_summary": [
+      "Dönüş zinciri Gözlenebilir kanıt 6.",
+      "Hedef rotası Karşı major zone’a kadar açık alan ve net invalidation.",
+      "• Yalnız minor CHoCH: pullback içi tepki olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Deney ve strateji kartı",
+      "Konum ve seviye yaşam döngüsü",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0256",
+    "page": 256,
+    "chapter": 12,
+    "section": "12.13 — Zone, FVG, Inside Bar, Gap, Indicator ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  241\nAraç / kavram Ana görevi Tek başına neden yetmez? Örnek birleşim\nRSI/MACD/CCI Momentum veya divergence \nconfirmation.\nFiyattan türetilir; location ve \ntrigger yerine geçmez.\nZone + failure test + \ndivergence.\nVWAP/MA/Ichimoku Trend/ortalama değer filtresi. Tek çizgi teması kesin tepki \ndeğildir.\nTrend + VWAP reclaim + \nstructure.\nVolume / OBV Katılım ve devam teyidi. Yüksek hacim hem \ncontinuation hem absorption \nolabilir.\nBreakout close + volume + \nfollow-through.\nFootprint / delta Mum içi agresyon, absorption \nveya initiation.\nVeri kaynağı ve bağlam \nolmadan gürültülüdür.\nDemand + absorption + bullish \ninitiation.\nTablo 12.14 – Araçların setup içindeki görevi\nEKRANDA NE ARIYORUM?\n• Her aracın yanına “bağlam, location, setup, trigger veya confirmation” görevlerinden birini \nyazıyorum.\n• Aynı görevi yapan gereksiz araçları siliyorum.\n• Location aracı trigger üretmiyorsa yalnız temasla giriş yapmıyorum.\n• Footprint veya indicator sinyalini fiyat sonucuyla doğruluyorum.\nDOĞRU BİLİNEN YANLIŞ\nMit: Order block stratejisi, FVG stratejisi ve RSI stratejisi tamamen ayrı sistemlerdir.\nGerçeklik: Çoğu zaman bunlar aynı setup zincirinin farklı görevlerini yerine getiren modüllerdir. \nHangi soruyu cevapladıkları yazılmadığında grafik karmaşıklaşır.\nUygulama Görseli 12.7 – Görev etiketli grafik: order block=location, sweep=event, CHoCH=trigger, \nvolume=confirmation, BSL=target. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Araç / kavram Ana görevi Tek başına neden yetmez?",
+      "Örnek birleşim RSI/MACD/CCI Momentum veya divergence confirmation.",
+      "Fiyattan türetilir; location ve trigger yerine geçmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Deney ve strateji kartı",
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0257",
+    "page": 257,
+    "chapter": 12,
+    "section": "12.15 — Backtest, Replay, Forward/Paper Test ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  242\n12.14 Kural Tabanlı Strateji Kartı\nRules-based strategy (girişten önce bütün karar alanları yazılmış ve farklı grafiklerde aynı biçimde \nuygulanabilen sistem), yoruma tamamen kapalı olmak zorunda değildir; fakat karar noktaları \ngözlenebilir ve kaydedilebilir olmalıdır. “Güçlü trend” dersem güçlü trendin ölçütünü, “iyi mum” \ndersem mumun kapanış ve gövde koşulunu tanımlarım.\nKart alanı Yazılacak kural\nPiyasa / enstrüman Hangi semboller, minimum likidite ve spread koşulu?\nStil / zaman dilimi Pozisyon süresi; HTF–MTF–LTF görevleri.\nSeans / zaman Hangi saatlerde setup geçerli; haber filtresi var mı?\nPiyasa hâli Trend, range, breakout veya reversal koşulu.\nLocation Kullanılacak zone, swing, liquidity veya average-value alanı.\nSetup Pullback, breakout, failure, reversal veya tanımlı pattern.\nTrigger Kesin kapanış, BOS/CHoCH, retest veya footprint şartı.\nEntry Emir türü ve giriş fiyatı kuralı.\nInvalidation / stop Tezi bozan fiyat ve uygulama payı.\nTarget Teknik hedef, projection ve yakın engel kuralı.\nNo-trade Hangi eksik veya olumsuz koşulda işlem yok?\nKayıt Setup kodu, ekran görüntüsü, sonuç, MAE/MFE veya uygulama \nhatası.\nTablo 12.15 – Kural tabanlı strateji kartı\nÖRNEK STRATEJİ CÜMLESİ — XAGTRYG\n• Günlük bullish structure korunurken 4 saatlik demand/eski BOS alanına pullback ararım.\n• 1 saatlik SSL sweep sonrası bullish CHoCH ve retest kapanışı trigger’dır.\n• Entry retestte; invalidation sweep dibi altındaki kabul; ilk hedef önceki 4 saatlik tepedir.\n• Hedefe kalan mesafe stop mesafesinden küçükse, haber penceresi içindeyse veya pullback \nbearish displacement ile geliyorsa işlem yoktur.\nVERSİYON KURALI\nStrateji kartını v1.0, v1.1 gibi sürümlerle kaydederim. Bir değişiklikte yalnız tek kuralı değiştirir, eski \nve yeni sonucu ayrı izlerim. Sonuç kötüleştiğinde hangi değişkenin etkili olduğunu böyle \nanlayabilirim.\n12.15 Backtest, Replay, Forward/Paper Test ve \nİyileştirme\nBir strateji kâğıt üzerinde mantıklı görünse bile uygulanabilirliği test edilmeden hazır değildir. Backtest \n(kuralların geçmiş veride nasıl davrandığını inceleme), bar replay (gelecek mumları gizleyerek geçmişi",
+    "source_extract_summary": [
+      "12.14 Kural Tabanlı Strateji Kartı Rules-based strategy (girişten önce bütün karar alanları yazılmış ve farklı grafiklerde aynı biçimde uygulanabilen sistem), yoruma tamamen kapalı olmak zorunda değildir; fakat karar noktaları gözlenebilir ve kaydedilebilir olmalıdır.",
+      "“Güçlü trend” dersem güçlü trendin ölçütünü, “iyi mum” dersem mumun kapanış ve gövde koşulunu tanımlarım.",
+      "Kart alanı Yazılacak kural Piyasa / enstrüman Hangi semboller, minimum likidite ve spread koşulu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0258",
+    "page": 258,
+    "chapter": 12,
+    "section": "12.15 — Backtest, Replay, Forward/Paper Test ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  243\ncanlıymış gibi ilerletme), forward test (kuralları yeni gelen piyasa verisinde izleme) ve paper trading \n(gerçek para riske etmeden sanal emirle uygulama) farklı soruları cevaplar.\nŞekil 12.7 – Strateji doğrulama merdiveni\nAşama Ana soru Kaydedilecek veri Yaygın hata\nKural denetimi Kural objektif ve tekrar \nedilebilir mi?\nHer koşulun evet/hayır tanımı. Belirsiz sıfatlarla test yapmak.\nGeçmiş grafik taraması Model farklı dönemlerde \ngerçekten görülüyor mu?\nSetup örneği, bağlam, sonuç, \nno-trade.\nYalnız güzel örnek seçmek.\nBar replay Geleceği görmeden kuralları \nuygulayabiliyor muyum?\nKarar zamanı, screenshot, \nkaçırılan/uydurulan kural.\nMum ilerledikçe seviyeyi \ndeğiştirmek.\nBacktest Kurallar geçmişte hangi sonuç \ndağılımını üretiyor?\nTrade sayısı, win/loss, ortalama \nR, maliyetli/maliyetsiz sonuç.\nKomisyon ve slippage’i yok \nsaymak.\nForward / paper Canlı veri akışında emir ve rutin \nuygulanabiliyor mu?\nDolum, slippage, alarm, \ngecikme, kural ihlali.\nSanal işlemde gerçekçi \nolmayan dolum kullanmak.\nGünlük ve iyileştirme Hata modelde mi, uygulamada \nmı?\nSetup kodu, süreç puanı, \ndeğiştirilen tek kural.\nBirkaç kayıptan sonra bütün \nsistemi değiştirmek.\nTablo 12.16 – Doğrulama basamakları\nEKRANDA NE ARIYORUM?\n• Test başlangıcında kuralları ve tarih aralığını sabitliyorum.\n• Geçmiş grafikte gelecekte oluşmuş sonucu görmeden karar anını işaretliyorum.\n• Maliyetli ve maliyetsiz sonuçları ayrı kaydediyorum.\n• Kârlılık kadar maksimum kayıp serisi ve uygulama hatasını inceliyorum.\n• Değişiklikten sonra eski örnekleri yeniden test ediyorum.",
+    "source_extract_summary": [
+      "canlıymış gibi ilerletme), forward test (kuralları yeni gelen piyasa verisinde izleme) ve paper trading (gerçek para riske etmeden sanal emirle uygulama) farklı soruları cevaplar.",
+      "Geçmiş grafik taraması Model farklı dönemlerde gerçekten görülüyor mu?",
+      "Setup örneği, bağlam, sonuç, no-trade."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Gereksinim, semantik test ve sürümleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0259",
+    "page": 259,
+    "chapter": 12,
+    "section": "12.15 — Backtest, Replay, Forward/Paper Test ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  244\nDOĞRU BİLİNEN YANLIŞ\nMit: Backtest kârlıysa strateji gerçek piyasada çalışmaya hazırdır.\nGerçeklik: Backtest yalnız geçmiş kuralların sonucudur; geleceği garanti etmez. Replay karar \ndisiplinini, paper/forward test ise canlı akış ve emir uygulanabilirliğini sınar.\nDOĞRULAMA VAKA AKIŞI\n• Strateji kartı v1.0 ile 120 geçmiş setup taranır; komisyon/slippage eklenir.\n• Bar replay’de en az farklı trend, range ve volatilite dönemleri uygulanır.\n• Paper trading sırasında gerçek seans, alarm ve emir kısıtları korunur.\n• Kayıpların setup kaynaklı mı, kural ihlali mi olduğu ayrılır.\n• Yalnız bir kural değiştirilir ve v1.1 ayrı sonuç setiyle karşılaştırılır.\nUygulama Görseli 12.8 – Aynı stratejinin geçmiş tarama, bar replay ve paper trading ekranlarının yan yana \nkarşılaştırılması. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Backtest kârlıysa strateji gerçek piyasada çalışmaya hazırdır.",
+      "Gerçeklik: Backtest yalnız geçmiş kuralların sonucudur; geleceği garanti etmez.",
+      "Replay karar disiplinini, paper/forward test ise canlı akış ve emir uygulanabilirliğini sınar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gereksinim, semantik test ve sürümleme",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0260",
+    "page": 260,
+    "chapter": 12,
+    "section": "12.15 — Backtest, Replay, Forward/Paper Test ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  245\nBölüm Özeti\nBölüm 12’nin ana sonucu, grafikteki teknik araçların tek tek “sinyal” üretmesi değil; her birinin \nbağlamdan hedefe uzanan karar zincirinde belirli bir görev üstlenmesidir. Strateji tekrarlanan sistem, \nsetup güncel düzen, trigger kesin aktivasyon olayı ve trade gerçek uygulamadır.\nKontrol alanı Kısa soru\nBağlam Hangi piyasa hâli ve hangi üst zaman senaryosu?\nKonum Fiyat neden tam burada izleniyor?\nRota Önce hangi likidite/engel ve sonra hangi hedef?\nSetup Hangi aile: pullback, breakout, range/failure, reversal?\nTrigger Hangi kesin kapanış veya yapı olayı?\nEntry Hangi emir ve hangi fiyat?\nInvalidation Hangi davranış tezi bozar?\nTarget İlk gerçekçi hedef ve ara engel?\nValidation Bu kurallar hangi test basamaklarından geçti?\nTablo 12.17 – Hızlı setup kontrolü\nGrafik Başı Kontrol Listesi\n1. Bugün hangi strateji ve setup ailesini arıyorum?\n2. Üst zaman bağlamı trend, range veya geçiş mi?\n3. Fiyat anlamlı bir structure/zone/liquidity alanında mı?\n4. Hedefe giden rotada yakın major engel var mı?\n5. Trigger seviyesi hareketten önce tanımlı mı?\n6. Fitil, kapanış, follow-through ve retest ayrımı yapıldı mı?\n7. Entry türü stratejinin test edilen sürümüyle aynı mı?\n8. Invalidation ve uygulama stopu açık mı?\n9. İlk hedef stop mesafesine göre işlem yapılabilir alan bırakıyor mu?\n10. No-trade kurallarından biri aktif mi?\n11. İşlem setup kodu ve strateji sürümüyle kaydedilecek mi?\n12. Bu karar geçmiş sonuçtan değil, mevcut süreçten mi üretiliyor?\nTemel Sözlük\nTerim Aksiyon tanımı\nStrategy Tekrar eden piyasa koşulu, setup, giriş ve çıkış kuralları sistemi.\nSetup Stratejinin şu an grafikte oluşan işlem adayı.\nSignal Setup lehine veya aleyhine tek bilgi parçası.\nTrigger İşlemi aktif eden kesin fiyat olayı.\nConfirmation Setup’ın başarılı olma ihtimalini destekleyen ek kanıt.\nEntry Emrin aktif olduğu fiyat ve yöntem.",
+    "source_extract_summary": [
+      "Bölüm Özeti Bölüm 12’nin ana sonucu, grafikteki teknik araçların tek tek “sinyal” üretmesi değil; her birinin bağlamdan hedefe uzanan karar zincirinde belirli bir görev üstlenmesidir.",
+      "Strateji tekrarlanan sistem, setup güncel düzen, trigger kesin aktivasyon olayı ve trade gerçek uygulamadır.",
+      "Kontrol alanı Kısa soru Bağlam Hangi piyasa hâli ve hangi üst zaman senaryosu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0261",
+    "page": 261,
+    "chapter": 12,
+    "section": "12.15 — Backtest, Replay, Forward/Paper Test ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 12\nİşlem Kurulumu, Strateji Tasarımı ve Doğrulama  •  246\nTerim Aksiyon tanımı\nInvalidation İşlem tezinin artık geçerli olmadığı fiyat/davranış.\nNo-trade Kurallar nedeniyle bilinçli olarak işlem yapılmayan durum.\nConfluence Farklı veri ailelerinin aynı tezi desteklemesi.\nBacktest Kuralların geçmiş verideki davranışını test etme.\nBar Replay Gelecek mumları gizleyerek geçmişi canlı akış gibi uygulama.\nForward Test Kuralları yeni gelen veride izleme.\nPaper Trading Gerçek para riske etmeden sanal emirle uygulama.\nEdge Uzun örnek dizisinde olumlu beklenen değer üretmesi beklenen \nistatistiksel avantaj.\nTablo 12.18 – Bölüm 12 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Strateji ile setup arasındaki temel fark nedir?\n2. Signal neden trigger değildir?\n3. İşlem kurulumunun dokuz parçası nelerdir?\n4. İşlem tezi hangi koşullu cümleyle yazılır?\n5. No-trade kuralı neden stratejinin aktif bir parçasıdır?\n6. Location ile trigger hangi farklı soruları cevaplar?\n7. Likidite rotası hedef planını nasıl değiştirir?\n8. Confluence neden gösterge sayısı değildir?\n9. RSI, MACD ve Stochastic RSI neden üç bağımsız kanıt sayılmayabilir?\n10. Tetik hiyerarşisinde gözlem, uyarı, teyit ve aktivasyon nasıl ayrılır?\n11. Agresif girişin görünmeyen maliyeti nedir?\n12. Retest girişinin temel avantajı ve riski nedir?\n13. Invalidation ile stop-loss emri arasındaki fark nedir?\n14. Dar stop neden otomatik olarak düşük risk anlamına gelmez?\n15. Pullback setup’ında güçlü karşı displacement neden uyarıdır?\n16. Breakout’ın güçlü sayılması için hangi kanıtlar aranır?\n17. Failure test hangi kapanış davranışıyla aktif olur?\n18. Range ortasında neden işlem aranmaz?\n19. Trend reversal için hangi altı aşamalı kanıt zinciri kullanılır?\n20. Order block, FVG ve footprint setup içinde hangi farklı görevleri üstlenir?\n21. Kural tabanlı strateji kartında hangi alanlar bulunur?\n22. Neden aynı anda yalnız bir strateji kuralı değiştirilmelidir?\n23. Backtest, bar replay ve paper trading hangi farklı soruları cevaplar?\n24. Geçmiş performans neden gelecek sonucu garanti etmez?\n25. Maliyetli ve maliyetsiz backtest neden ayrı tutulmalıdır?26. Kayıp serisi sonrasında sistemi hemen değiştirmek neden hatalı olabilir?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Invalidation İşlem tezinin artık geçerli olmadığı fiyat/davranış.",
+      "No-trade Kurallar nedeniyle bilinçli olarak işlem yapılmayan durum.",
+      "Confluence Farklı veri ailelerinin aynı tezi desteklemesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Deney ve strateji kartı",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  }
+]

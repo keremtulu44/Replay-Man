@@ -1,0 +1,181 @@
+[
+  {
+    "id": "PTA-C2-2026.p0091",
+    "source_id": "PTA-C2-2026",
+    "page": 91,
+    "chapter": 12,
+    "section": "12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n91 \n12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız? \nKaynak 66, bir seviyenin yalnızca temas edildiği için “çalıştığını” kabul etmez. Fiyat desteğe \nveya dirence değebilir, kısa süre durabilir ve sonra eski yönde ilerlemeye devam edebilir. Bu \ndurumda seviye grafikte vardır ama fiyat davranışı henüz karşı tarafın kontrol kazandığını \ngöstermemiştir. \nBölüm 9 ve 10’da gördüğümüz başarısız yeni uç → yerel kırılım → daha iyi geri test zincirini \nburada yeni bir dönüş modeli olarak tekrar etmiyoruz. Bu bölümde aynı davranışın görevi \nfarklıdır: üst zaman dilimindeki bir desteğin veya direncin yalnız temasla değil, fiyat \ndavranışıyla gerçekten tutulup tutulmadığını sınamak. Eski yön beklenen yeni ucu üretemiyor, \nkarşı taraf yerel sınırı aşıyor ve geri çekilmede daha iyi geometri kuruyorsa seviye için fiyat \ntemelli kanıt artar. \n \nŞekil 12.5 — Solda fiyat seviyeye temas ediyor fakat eski yön yeni dip üretmeye devam ediyor. Sağda ise \nyeni dip üretimi duruyor, yerel sınır kırılıyor ve daha yüksek dip oluşuyor. İkinci yapı, seviyenin \ntutulduğuna dair daha güçlü davranış kanıtı verir. \nGözlem Sadece temas Davranışla tutulma yönünde daha güçlü kanıt \nYeni uç üretimi Eski yön yeni tepe/dip üretmeye devam \neder \nEski yön beklenen yeni ucu üretemez \nYerel yapı Önceki LH/HL dizisi bozulmaz Karşı taraf önemli yerel sınırı aşar \nGeri çekilme Eski yön hızla geri gelir Yeni yön geri çekilme’te daha iyi geometri kurar \nTakip davranışı Karşı hareket kısa kalır Yeni yönde ilerleme sürdürülebilir",
+    "source_extract_summary": [
+      "12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız?",
+      "Kaynak 66, bir seviyenin yalnızca temas edildiği için “çalıştığını” kabul etmez.",
+      "Fiyat desteğe veya dirence değebilir, kısa süre durabilir ve sonra eski yönde ilerlemeye devam edebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0092",
+    "source_id": "PTA-C2-2026",
+    "page": 92,
+    "chapter": 12,
+    "section": "12.6 — Bir seviyenin gerçekten tutulduğunu nasıl anlarız?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n92 \n \nŞekil 12.6 — İkinci katmanın sırası: önce ana yapı ve mum dizisi okunur; hacim katılımı, davranış zaman \ndilimi ise bölgedeki gerçek değişimi destekler. Hacim ve MTF, fiyat okumasının yerine geçmez. \nBÖLÜM SONUCU \nHacim ve çoklu zaman dilimi, fiyat davranışına rakip iki ayrı sistem değildir. Hacim katılımı, davranış \nzaman dilimi ise fiyatın önemli bir bölgede gerçekten değişip değişmediğini gösteren destekleyici \nkatmanlardır. Ana okuma sırası değişmez: önce fiyatın ilerlemesini ve yapısını okuyun; sonra hacim ve \nzaman dilimi bilgisini ek kanıt olarak kullanın. Bölüm 13’te bu sıralamayı kitabın tamamı için tek bir \nuygulama akışına dönüştüreceğiz.",
+    "source_extract_summary": [
+      "Hacim ve MTF, fiyat okumasının yerine geçmez.",
+      "BÖLÜM SONUCU Hacim ve çoklu zaman dilimi, fiyat davranışına rakip iki ayrı sistem değildir.",
+      "Hacim katılımı, davranış zaman dilimi ise fiyatın önemli bir bölgede gerçekten değişip değişmediğini gösteren destekleyici katmanlardır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0093",
+    "source_id": "PTA-C2-2026",
+    "page": 93,
+    "chapter": 13,
+    "section": "13.1 — Önce bağlam: Bu hareket grafiğin neresinde oluyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n93 \nBÖLÜM 13 \nMum Dizisi Okuma Protokolü: \nBaştan Sona Uygulama \nBu bölüm yeni bir formasyon eklemiyor. İlk 12 bölümde kurduğumuz bütün okuma \nparçalarını tek bir sıraya yerleştiriyor. \nBir grafiğe bakarken en büyük sorun bilgi eksikliği değildir; hangi bilgiyi önce kullanacağımızı \nbilememektir. Mum boyutu, fitil, hız, swing, kırılım, ikinci deneme, pullback, hacim ve zaman \ndilimi tek tek anlamlı olabilir. Fakat hepsine aynı anda bakarsak güçlü bilgi ile ayrıntı birbirine \nkarışır. Bu son bölümde amaç, kitabın tamamını bir kontrol listesine indirgemek değil; bilgileri \ndoğru sıraya koymaktır. \nSıra bilinçli olarak fiyatın büyük resminden küçük ayrıntıya doğru gider. Önce nerede \nolduğumuzu belirleriz. Sonra hangi tarafın daha rahat ilerlediğini ölçeriz. Ardından zayıflama, \nyapı tipi, kırılım, ikinci deneme ve pullback sonu gibi daha seçici sorulara geçeriz. Hacim ve \nçoklu zaman dilimi ise en son, fiyatın zaten söylediği hikâyeyi desteklemek veya zayıflatmak \niçin kullanılır. \nBU BÖLÜMÜN ANA FIKRI \nTek bir “mükemmel sinyal” aramayın. Aynı yönde biriken kanıtları okuyun. Bir adım belirsizse sonraki adıma zorla \ngeçmeyin; fiyatın yeni bilgi üretmesini bekleyin. \n \n \nŞekil 13.1 — Kitabın tamamının okuma sırası. Bağlamdan başlayıp hacim ve çoklu zaman dilimine kadar \nilerleyen bu zincir, bilgiyi önem sırasına koyar. \n13.1 — Önce bağlam: Bu hareket grafiğin neresinde oluyor? \nİlk soru “al mı, sat mı?” değildir. Önce grafiğin içinde nerede olduğumuzu belirleriz. Ana ortam \ngüçlü bir trend mi, daha geniş bir kanal mı, yoksa iki tarafın da rahat ilerleyemediği daha",
+    "source_extract_summary": [
+      "BÖLÜM 13 Mum Dizisi Okuma Protokolü: Baştan Sona Uygulama Bu bölüm yeni bir formasyon eklemiyor.",
+      "İlk 12 bölümde kurduğumuz bütün okuma parçalarını tek bir sıraya yerleştiriyor.",
+      "Bir grafiğe bakarken en büyük sorun bilgi eksikliği değildir; hangi bilgiyi önce kullanacağımızı bilememektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Göreceli katılım ve hacim özellikleri",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0094",
+    "source_id": "PTA-C2-2026",
+    "page": 94,
+    "chapter": 13,
+    "section": "13.2 — Sonra mevcut kontrol: Hangi taraf daha rahat ilerliyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n94 \ndengeli bir alan mı? İncelediğimiz mum dizisi önemli bir swing, destek/direnç veya önceki \nkırılım bölgesine yakın mı? Önünde hareket edebileceği açık alan var mı? \nBu adım, sonraki bütün bilgilerin ağırlığını değiştirir. Aynı uzun fitil trendin ortasında sıradan \nkalabilir, fakat uzun bir hareketin sonunda önemli bir swing bölgesinde farklı anlam taşıyabilir. \nAynı sığ pullback çok güçlü trendde normal, geniş kanalda ise alışılmadık olabilir. Bu nedenle \nşekli yorumlamadan önce konumu ve piyasanın genel davranışını belirlemek gerekir. \nİlk bakışta sorulacak soru Neden önce bunu soruyoruz? \nAna ortam nedir? Trend gücü ve beklenen geri çekilme davranışı değişir. \nYapı hangi swing/seviyeye yakın? Aynı mumun konumsal ağırlığı değişir. \nÖnünde hareket alanı var mı? Doğru görünen yapı yakın engelde sıkışabilir. \nMevcut hareket ana yapıyla aynı yönde mi? Trend yönündeki ve karşı trend davranışları aynı okunmaz. \n \n13.2 — Sonra mevcut kontrol: Hangi taraf daha rahat ilerliyor? \nBağlamı belirledikten sonra grafiğin o anki kontrolünü ölçeriz. Burada yalnız mumların rengini \nsaymayız. Hangi taraf aynı mesafeyi daha az mumda alıyor? Hangi yönde gövdeler daha \nbüyük? Hangi hareket daha az geri çekiliyor ve daha az örtüşüyor? Karşı taraf her adımda fiyatı \ndurdurabiliyor mu, yoksa yalnız küçük tepkiler mi verebiliyor? \nBu sorular “trend yukarı” gibi genel bir etiketten daha ayrıntılı bilgi verir. Fiyat yükselebilir \nama her adımda sert satışlarla karşılaşıyorsa kontrol temiz değildir. Tersine birkaç küçük geri \nçekilmeye rağmen aynı yönde uzun gövdeler, az örtüşme ve hızlı mesafe kazanımı varsa o taraf \ndaha rahat ilerliyor olabilir. \n \nŞekil 13.2 — Yön aynı görünse bile hareket kalitesi farklı olabilir. Temiz ve hızlı ilerleme ile sık karşı \nhamle alan parçalı ilerleme aynı kontrol gücünü göstermez. \nKISA KURAL \nÖnce “fiyat hangi yönde?” değil, “hangi taraf daha az çabayla daha fazla sonuç alıyor?” sorusunu sorun.",
+    "source_extract_summary": [
+      "İncelediğimiz mum dizisi önemli bir swing, destek/direnç veya önceki kırılım bölgesine yakın mı?",
+      "Önünde hareket edebileceği açık alan var mı?",
+      "Bu adım, sonraki bütün bilgilerin ağırlığını değiştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mesafe, süre, örtüşme ve yol verimliliği özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0095",
+    "source_id": "PTA-C2-2026",
+    "page": 95,
+    "chapter": 13,
+    "section": "13.4 — Gördüğünüz şey dönüş mü, devam mı, yoksa sıkışma mı?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n95 \n \n13.3 — Eski yön gerçekten zayıflıyor mu? \nBir tarafın güçlü olduğunu gördükten sonra sıradaki soru, bu gücün değişmeye başlayıp \nbaşlamadığıdır. Zayıflama çoğu zaman tek bir mumla başlamaz. Aynı yöndeki gövdeler \nküçülebilir, yeni mumlar daha az mesafe alabilir, aynı seviye tekrar tekrar geçilemeyebilir veya \nkarşı tarafın mumları büyümeye başlayabilir. Fitil reddi bu parçaların yalnız biridir. \nBurada önemli olan işaret saymak değil, ilerleme kabiliyetindeki değişimi görmektir. Fiyat hâlâ \naynı yönde yeni uçlar üretmeye devam ediyorsa birkaç küçük mum normal olabilir. Fakat yeni \nuçlar giderek kısalıyor, aynı bölge birkaç kez test ediliyor ve karşı taraf artık daha fazla mesafe \nalıyorsa eski yönün üstünlüğü azalıyor olabilir. \n \nŞekil 13.3 — Zayıflama zinciri: küçülen gövdeler, aynı bölgenin tekrar test edilmesi, yeni uç üretiminin \nyavaşlaması ve karşı yöndeki mumların büyümesi. Tek bir işaret değil, ilerleme kaybı önemlidir. \n13.4 — Gördüğünüz şey dönüş mü, devam mı, yoksa sıkışma mı? \nZayıflamayı gördükten sonra hemen “dönüş başladı” demeyiz. Aynı kısa mum dizisi üç farklı \naileye girebilir. Eski yön zayıflar ve karşı taraf giderek daha fazla alan kazanırsa dönüş \ndavranışı gelişebilir. Karşı hareket sınırlı kalır ve ana yön yeniden güçlü biçimde devreye \ngirerse devam yapısı vardır. İki taraf da yeni alan üretemiyor ve mumlar birbirinin içine \ngiriyorsa sıkışma öne çıkar. \nBu sınıflandırma, iki veya üç mumluk şekilleri ezberlemekten daha kullanışlıdır. Çünkü aynı \ngörsel yapı farklı yerde farklı görevi üstlenebilir. Önce dizinin fiyatı ne yaptırdığına bakar, \nformasyon adını ancak gerekirse sonra kullanırız.",
+    "source_extract_summary": [
+      "13.3 — Eski yön gerçekten zayıflıyor mu?",
+      "Bir tarafın güçlü olduğunu gördükten sonra sıradaki soru, bu gücün değişmeye başlayıp başlamadığıdır.",
+      "Zayıflama çoğu zaman tek bir mumla başlamaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0096",
+    "source_id": "PTA-C2-2026",
+    "page": 96,
+    "chapter": 13,
+    "section": "13.5 — Kırılım gerçekten kabul gördü mü?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n96 \n \nŞekil 13.4 — Üç temel davranış ailesi. Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra \nyeniden güçlenir, sıkışmada ise iki taraf da temiz yeni alan üretmekte zorlanır. \nDavranış ailesi Eski yön ne yapıyor? Karşı taraf ne yapıyor? Sonraki kritik soru \nDönüş İlerleme kaybediyor Daha fazla alan kazanıyor Yerel yapı kırılıyor mu? \nDevam Kısa süre duruyor ama bozulmuyor Tepki sınırlı kalıyor Ana yön yeniden güçleniyor mu? \nSıkışma Yeni uç üretemiyor O da üstünlük kuramıyor İlk genişleme hangi yönde kabul \ngörecek? \n \n13.5 — Kırılım gerçekten kabul gördü mü? \nYapı bir sınıra geldiğinde, yalnız “kırdı” kelimesiyle yetinmeyiz. Fiyat seviyeyi fitille aşmış \nolabilir fakat kapanışta yeniden içeri dönmüş olabilir. Dışarıda kapanış gelmiş olsa bile sonraki \nbüyük karşı mum ilk hareketi tamamen geri alabilir. Daha güçlü kırılım okumasında sınır \ndışında kapanış, sonraki mumların yeni alanı koruması ve mümkünse geri testte eski bölgenin \ntamamının geri alınamaması birlikte değerlendirilir. \nBu adım, özellikle sahte kırılım ile gerçek kabulü ayırır. Kırılımın kalitesi ilk mumda başlar \nama sonraki tepe-dip yerleşimiyle kesinleşir. Fiyat eski fiyat aralığının içine kolayca dönüyorsa \nilk hareketin ağırlığı azalır; yeni bölgede kalıp yeniden genişliyorsa kırılım bir olaydan davranış \ndizisine dönüşür.",
+    "source_extract_summary": [
+      "Dönüşte kontrol değişir, devamda ana yön kısa kesintiden sonra yeniden güçlenir, sıkışmada ise iki taraf da temiz yeni alan üretmekte zorlanır.",
+      "Davranış ailesi Eski yön ne yapıyor?",
+      "Sonraki kritik soru Dönüş İlerleme kaybediyor Daha fazla alan kazanıyor Yerel yapı kırılıyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0097",
+    "source_id": "PTA-C2-2026",
+    "page": 97,
+    "chapter": 13,
+    "section": "13.6 — İkinci deneme ve beklenen yeni uç ne söylüyor?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n97 \n \nŞekil 13.5 — Solda seviye aşılmış olsa da fiyat yeni bölgede kalamıyor. Sağda dış kapanış, takip ve alanın \nkorunması birlikte görülüyor. Kırılımın kalitesi “geçti mi?” değil “orada kalabildi mi?” sorusuyla ölçülür. \n13.6 — İkinci deneme ve beklenen yeni uç ne söylüyor? \nİlk deneme çoğu zaman yanıltıcı olabilir. Bu nedenle ikinci deneme, fiyatın gerçekten ne kadar \ngücü kaldığını görmek için önemli bir karşılaştırma noktasıdır. Sağlıklı bir düşüş ikinci aşağı \nitişte yeni dip üretmeye devam edebilir. Fakat ikinci deneme önceki dip bölgesinde sıkışıyor, \nkısa süre kırıp hemen geri dönüyor veya hiç yeni dip üretemiyorsa beklenen ilerleme \ngerçekleşmemiştir. \nBurada “ikinci deneme oluştu” diye işlem kuralı kurmuyoruz. İlk ve ikinci hareketi \nkarşılaştırıyoruz: hangisi daha fazla mesafe aldı, hangisi daha hızlıydı, yeni uç oluştu mu, karşı \ntarafın tepkisi büyüdü mü? Beklenen ikinci bacak gelmiyorsa veya başarısız oluyorsa, \ngerçekleşmeyen hareket de bilgi haline gelir.",
+    "source_extract_summary": [
+      "Sağda dış kapanış, takip ve alanın korunması birlikte görülüyor.",
+      "Kırılımın kalitesi “geçti mi?” değil “orada kalabildi mi?” sorusuyla ölçülür.",
+      "13.6 — İkinci deneme ve beklenen yeni uç ne söylüyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0098",
+    "source_id": "PTA-C2-2026",
+    "page": 98,
+    "chapter": 13,
+    "section": "13.7 — Pullback gerçekten bitti mi?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n98 \n \nŞekil 13.6 — Solda ikinci deneme beklenen yeni ucu üretir. Sağda ikinci deneme sonuç üretemez ve karşı \ntaraf büyür. İkinci hareketin varlığı değil, ne kadar sonuç ürettiği önemlidir. \nBEKLENTI TESTI \nHer önemli noktada şu soruyu kullanın: “Sağlıklı hareket burada ne üretmeliydi?” Piyasanın gerçekte yaptığı ile bu \nbeklenti arasındaki fark, zayıflamayı erken görünür hale getirir. \n \n13.7 — Pullback gerçekten bitti mi? \nBir pullback önemli seviyeye geldiğinde dönüş varsayımı yapmak yerine kanıtı sırayla toplarız. \nEski yön yeni uç üretmekte zorlanıyor mu? Geri itilme veya başarısız deneme var mı? Karşı \ntarafın mumları büyüyor mu? Yerel sınırın dışında kapanış oluşuyor mu? Sonraki mum ilk \nhareketi koruyor mu? Kırılan alan geri testte tutulabiliyor mu? \nBu soruların hepsinin aynı anda bulunması gerekmez. Ama birkaç parça aynı hikâyeyi \ndestekliyorsa kontrol değişimi daha sağlam hale gelir. En kritik ayrım şudur: eski yönün \nzayıflaması yalnız fırsat yaratır; yeni yönün gerçekten alan kazanması ise teyidin ikinci \nyarısıdır.",
+    "source_extract_summary": [
+      "Sağda ikinci deneme sonuç üretemez ve karşı taraf büyür.",
+      "İkinci hareketin varlığı değil, ne kadar sonuç ürettiği önemlidir.",
+      "BEKLENTI TESTI Her önemli noktada şu soruyu kullanın: “Sağlıklı hareket burada ne üretmeliydi?” Piyasanın gerçekte yaptığı ile bu beklenti arasındaki fark, zayıflamayı erken görünür hale getirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Beklenen davranış ile gerçekleşen ikinci denemenin farkı"
+    ]
+  },
+  {
+    "id": "PTA-C2-2026.p0099",
+    "source_id": "PTA-C2-2026",
+    "page": 99,
+    "chapter": 13,
+    "section": "13.8 — Hacim ve çoklu zaman dilimini en son ekleyin",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ — CİLT 2 \n99 \n \nŞekil 13.7 — Pullback sonu: eski yönün beklenen yeni ucu üretememesi → yeni yönün güçlü hareketi ve \nkırılımı → geri testte alanın korunması → devam. Tek bir mum yerine iki tarafın başarısı ve başarısızlığı \nbirlikte okunur. \nSıra Eski yönde ne arıyoruz? Yeni yönde ne arıyoruz? \n1. İlerleme Yeni uç üretimi azalıyor / başarısız oluyor Karşı tepki büyümeye başlıyor \n2. Kontrol değişimi Geri itilmeden sonra eski yön hızlanamıyor Geniş gövde ve güçlü kapanış \n3. Yapı Yerel sınır korunamıyor Sınır dışında kapanış \n4. Takip Eski alan kolayca geri alınamıyor Takip davranışı veya kontrollü geri test \n5. Devam Eski yön tekrar üstünlük kuramıyor Yeni yön yeniden genişliyor \n \n13.8 — Hacim ve çoklu zaman dilimini en son ekleyin \nFiyat davranışı kendi başına yön, yapı ve ilerleme hakkında yeterince güçlü bir hikâye \nkurmadan hacim veya alt zaman dilimiyle sonucu kurtarmaya çalışmayın. Hacim, hareketin \narkasındaki kayıtlı katılımı ekler. Alt zaman dilimi ise önemli bölgede fiyatın gerçekten \ndavranış değiştirip değiştirmediğini daha ayrıntılı gösterir. İkisi de ana fiyat okumasının yerine \ngeçmez. \nÖrneğin üst zaman diliminde önemli destek bölgesine ulaşmak tek başına yükseliş değildir. Alt \nzaman hâlâ daha düşük tepe ve dip üretiyorsa davranış henüz dönmemiştir. Aynı şekilde yüksek \nhacim de kötü yerleşimli veya takip davranışı zayıf bir kırılımı otomatik olarak güçlü hale \ngetirmez. Son kontrol katmanı, zaten kurduğumuz fiyat hikâyesini desteklemeli; onunla \nçelişiyorsa nedenini araştırmalıyız.",
+    "source_extract_summary": [
+      "Tek bir mum yerine iki tarafın başarısı ve başarısızlığı birlikte okunur.",
+      "İlerleme Yeni uç üretimi azalıyor / başarısız oluyor Karşı tepki büyümeye başlıyor 2.",
+      "Kontrol değişimi Geri itilmeden sonra eski yön hızlanamıyor Geniş gövde ve güçlü kapanış 3."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

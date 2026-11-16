@@ -1,0 +1,66 @@
+[
+  {
+    "id": "PTA-C1-2026.p0116",
+    "page": 116,
+    "chapter": 19,
+    "section": "19.1 — Classic Pitchfork’un üç pivot mantığı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n116 \nBÖLÜM 19 \nAndrews Pitchfork ve Varyantları: Orta \nÇizgi Geometrisi \nPitchfork üç önemli dönüş noktası seçerek bir orta çizgi ve ona paralel sınırlar \noluşturur. Önemli olan çok çizgi çizmek değil, seçilen üç noktanın neden anlamlı \nolduğunu ve bu geometrinin ne zaman artık işe yaramadığını bilmektir. \nHIZLI ROL — Ana görev: üç önemli dönüş noktasından orta çizgi ve paralel sınırlar \noluşturmak. Tek başına kesin hedef, dönüş veya giriş söylemez. Ana risk: dönüş noktalarını \nveya Pitchfork türünü sonradan geçmiş fiyata en iyi uyacak şekilde değiştirmek. İyi eşleşme: \nfiyat yapısı + ATR. \n19.1 — Classic Pitchfork’un üç pivot mantığı \nClassic Pitchfork A, B ve C olmak üzere üç anlamlı pivot kullanır. Orta çizgi ve paralel sınırlar bu üç \nnoktadan türetilir. Asıl karar çizgiyi çekmek değil, A–B–C’nin fiyatın devamını görmeden anlamlı \npivotlar olarak seçilebilmesidir. \n \nŞekil 19.1 — Classic Pitchfork’un temel anatomisi: A–B–C pivotları, orta çizgi ve paralel sınırlar. \nTEKNİK AYRINTI \nÜç nokta seçildiğinde geometri otomatikleşir; pivot seçimi otomatik değildir. Pitchfork’taki ana model \nriski hesaplamadan çok başlangıç noktası disiplinidir.",
+    "source_extract_summary": [
+      "BÖLÜM 19 Andrews Pitchfork ve Varyantları: Orta Çizgi Geometrisi Pitchfork üç önemli dönüş noktası seçerek bir orta çizgi ve ona paralel sınırlar oluşturur.",
+      "Önemli olan çok çizgi çizmek değil, seçilen üç noktanın neden anlamlı olduğunu ve bu geometrinin ne zaman artık işe yaramadığını bilmektir.",
+      "HIZLI ROL — Ana görev: üç önemli dönüş noktasından orta çizgi ve paralel sınırlar oluşturmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0117",
+    "page": 117,
+    "chapter": 19,
+    "section": "19.4 — Dönüş noktalarını geçmişe uydurma hatası nasıl test edilir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n117 \n19.2 — Schiff, Modified Schiff ve Inside neden var? \nSchiff, Modified Schiff ve Inside varyantları aynı pivotlardan farklı başlangıç geometrileri üretir. Bu \nesneklik bazı yapılara daha iyi uyum sağlayabilir; fakat kural önceden belirlenmemişse geriye dönük \nuydurmayı da kolaylaştırır. \n \nŞekil 19.2 — Aynı pivot ailesinden farklı başlangıç geometrileri farklı orta çizgi eğimleri üretebilir. \nTEKNİK SORUN \n“Classic iyi oturmadı; Schiff deneyelim. O da olmadı; Modified Schiff daha iyi sardı.” Bu seçim \nkuralı fiyatın devamı görülmeden tanımlı değilse, varyant seçimi geriye dönük uyuma dönüşür. \n \n19.3 — Varyant değişikliği küçük ayar değil, geometri değişikliğidir \nClassic, Schiff, Modified Schiff ve Inside Pitchfork aynı üç pivotu kullansa bile başlangıç \ngeometrisini farklı biçimde kurabilir. Başlangıç noktası değiştiğinde orta çizginin eğimi ve ileri \nbölgelerdeki paralel sınırlar da değişir. \nSchiff varyantı başlangıç noktasını fiyat ekseninde kaydırarak orta çizginin eğimini değiştirir. \nModified Schiff bu değişime zaman eksenini de dahil eder. Inside Pitchfork ise başlangıç \nyapısını iç orta noktalar üzerinden yeniden kurar. \nBu nedenle varyant seçimi “hangisi geçmiş fiyata daha iyi oturdu?” sorusuyla sonradan \nyapılmamalıdır. Varyant değiştiğinde modelin geometrisi değiştiği için seçim gerekçesi fiyatın \nsağ tarafı görülmeden tanımlanmalıdır. \n19.4 — Dönüş noktalarını geçmişe uydurma hatası nasıl test edilir? \nPivotları ve kullanılacak varyantı fiyatın sağ tarafını görmeden belirleyip kaydedin. Fiyat ilerledikten \nsonra çizimi sırf daha iyi otursun diye değiştirmeyin; yeni çizim gerekiyorsa bunu yeni yapı/yeni \npivot gerekçesiyle ayrı analiz olarak tanımlayın.",
+    "source_extract_summary": [
+      "19.2 — Schiff, Modified Schiff ve Inside neden var?",
+      "Schiff, Modified Schiff ve Inside varyantları aynı pivotlardan farklı başlangıç geometrileri üretir.",
+      "Bu esneklik bazı yapılara daha iyi uyum sağlayabilir; fakat kural önceden belirlenmemişse geriye dönük uydurmayı da kolaylaştırır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0118",
+    "page": 118,
+    "chapter": 19,
+    "section": "19.5 — Küçük pivot hatası ileri bölgelerde büyüyebilir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n118 \n \nŞekil 19.3 — Sonradan seçilen alternatif pivotlar geçmiş fiyatı daha güzel sarabilir; bu durum öngörü gücü kanıtı değildir. \nKontrol Geçerli yaklaşım Geçmişe aşırı uyum işareti \nA–B–C Önceden tanımlı büyük belirgin dönüş \nnoktaları \nFiyat ilerledikçe pivot kaydırmak \nVaryant Kullanım kuralı analizden önce belli Geçmişe en iyi oturan türü seçmek \nİhlal İhlali kaydet, yapı teyidini ayrı \ndeğerlendir \nKırılan Pitchfork’u silip yenisini \nçizmek \n \n19.5 — Küçük pivot hatası ileri bölgelerde büyüyebilir \nPitchfork’un eğimi seçilen A–B–C pivotlarından türetilir. Başlangıç pivotlarından biri küçük \nmiktarda kaydırıldığında ilk bölümde fark az görünebilir; çizgi ileri uzadıkça orta çizgi ve \nparalel sınırlar arasındaki konum farkı büyür. \nBu nedenle pivotu birkaç bar ileri veya geri taşımak yalnız başlangıç noktasını değil, ilerideki \nbütün geometrik alanı değiştirir. Mıknatıs (Magnet) gibi araçların amacı “daha iyi sinyal” \nüretmek değil, seçilen gerçek tepe veya dip noktasına daha kesin bağlanmaktır.",
+    "source_extract_summary": [
+      "Kontrol Geçerli yaklaşım Geçmişe aşırı uyum işareti A–B–C Önceden tanımlı büyük belirgin dönüş noktaları Fiyat ilerledikçe pivot kaydırmak Varyant Kullanım kuralı analizden önce belli Geçmişe en iyi oturan türü seçmek İhlal İhlali kaydet, yapı teyidini ayrı değerlendir Kırılan Pitchfork’u silip yenisini çizmek 19.5 — Küçük pivot hatası ileri bölgelerde büyüyebilir Pitchfork’un eğimi seçilen A–B–C pivotlarından türetilir.",
+      "Başlangıç pivotlarından biri küçük miktarda kaydırıldığında ilk bölümde fark az görünebilir; çizgi ileri uzadıkça orta çizgi ve paralel sınırlar arasındaki konum farkı büyür.",
+      "Bu nedenle pivotu birkaç bar ileri veya geri taşımak yalnız başlangıç noktasını değil, ilerideki bütün geometrik alanı değiştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0119",
+    "page": 119,
+    "chapter": 19,
+    "section": "19.8 — Pitchfork kombinasyonları",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n119 \nŞekil 19.4 — Temsili geometri: başlangıç pivotundaki küçük fark, çizgi ileri uzadıkça daha \nbüyük konum farkına dönüşebilir. \n19.6 — Orta çizgi ve kanal dışı kırılım nasıl okunur? \nOrta çizgi fiyatın kesin hedefi değildir; yalnız geometrik merkez referansıdır. Kanal dışı kapanış da \notomatik trend dönüşü değildir. Geometri bozulduğunda fiyat yapısındaki gerçek kırılımı ayrıca \narayın. \n \nŞekil 19.5 — Pitchfork sınırı ihlal ediliyor; fiyat yapısı daha sonra yeniden trend yönünde daha \nyüksek tepe üretiyor. \nYANLIŞ / DOĞRU \nYANLIŞ: “Fiyat orta çizgiye mutlaka döner.” DOĞRU: “Fiyat orta çizgiden uzak; geometrik konum \nsıra dışı. Dönüş için ayrıca fiyat yapısı veya hareket gücü teyidi gerekir.” \n \n19.7 — Orta Çizgi (Median Line) ile dış sınırlar aynı görevi taşımaz \nOrta Çizgi (Median Line), Pitchfork’un merkez eksenidir. Fiyat trend içinde bu çizginin iki \ntarafına birden fazla kez geçebilir ve hâlâ üst/alt paralel sınırlar içinde kalabilir. \nBu nedenle Orta Çizgi geçildiğinde “Pitchfork kırıldı” demek doğru değildir. Merkez eksenin \naşılması ile dış kanal sınırının ihlali iki farklı geometrik olaydır. \nBazı Pitchfork uygulamalarında ana çizgilerin arasında 0,5 gibi paralel ara çizgiler, dışına ise \n1,5 veya 2,0 gibi uzantılar eklenebilir. Bunlar yeni bağımsız sinyal üretmez; aynı Pitchfork \ngeometrisinin alt bölümleri ve dış referanslarıdır. \n19.8 — Pitchfork kombinasyonları \nKombinasyon Rol ayrımı Risk \nPitchfork + Fiyat yapısı Geometri + fiyat davranışı/bozulma En güçlü tamamlayıcı",
+    "source_extract_summary": [
+      "19.6 — Orta çizgi ve kanal dışı kırılım nasıl okunur?",
+      "Orta çizgi fiyatın kesin hedefi değildir; yalnız geometrik merkez referansıdır.",
+      "Kanal dışı kapanış da otomatik trend dönüşü değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0120",
+    "page": 120,
+    "chapter": 19,
+    "section": "19.8 — Pitchfork kombinasyonları",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n120 \nPitchfork + Fibonacci Orta çizgi + oran ve hedef bölgeleri Benzer geometrik bilgi; iki ayrı teyit \nsayma \nPitchfork + AVWAP Geometri + hacim ağırlıklı \nmaliyet/konum \nFarklı veri mantığı \nPitchfork + ATR Geometri + fiyat hareketliliği/risk Stopta ek pay için faydalı \n \nBÖLÜM SONUCU \nÖnce üç anlamlı pivot, sonra Classic Pitchfork; alternatif varyant yalnız önceden tanımlı gerekçeyle. \nOrta çizgi ve kanal sınırları konum gösterir, tek başına giriş işareti değildir.",
+    "source_extract_summary": [
+      "Pitchfork + Fibonacci Orta çizgi + oran ve hedef bölgeleri Benzer geometrik bilgi; iki ayrı teyit sayma Pitchfork + AVWAP Geometri + hacim ağırlıklı maliyet/konum Farklı veri mantığı Pitchfork + ATR Geometri + fiyat hareketliliği/risk Stopta ek pay için faydalı BÖLÜM SONUCU Önce üç anlamlı pivot, sonra Classic Pitchfork; alternatif varyant yalnız önceden tanımlı gerekçeyle.",
+      "Orta çizgi ve kanal sınırları konum gösterir, tek başına giriş işareti değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

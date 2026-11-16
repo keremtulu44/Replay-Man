@@ -1,0 +1,12 @@
+{
+  "events": 314439,
+  "assets": 107,
+  "event_types": [
+    "poc_cross_up",
+    "poc_cross_down",
+    "value_area_accept",
+    "value_area_reject_up",
+    "value_area_reject_down"
+  ],
+  "raw_events_not_versioned": "Deterministic generator plus complete aggregates retained to avoid oversized Git artifacts."
+}

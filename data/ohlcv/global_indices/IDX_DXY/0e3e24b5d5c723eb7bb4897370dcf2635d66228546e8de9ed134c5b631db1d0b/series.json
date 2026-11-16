@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "IDX_DXY",
+  "symbol": "DX-Y.NYB",
+  "category": "global_index",
+  "asset_type": "index",
+  "catalog_currency": "POINTS",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "0e3e24b5d5c723eb7bb4897370dcf2635d66228546e8de9ed134c5b631db1d0b"
+}

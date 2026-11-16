@@ -1,0 +1,445 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0329",
+    "page": 329,
+    "chapter": 16,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma \nAraçları\nAI önerisini doğrulanabilir kurala, kod ve araştırma kanıtına dönüştürmek",
+    "source_extract_summary": [
+      "BÖLÜM 16 Yapay Zekâ, Pine Script ve Araştırma Araçları AI önerisini doğrulanabilir kurala, kod ve araştırma kanıtına dönüştürmek"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0330",
+    "page": 330,
+    "chapter": 16,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  315\nBu Bölümün Amacı\nBölüm 15’te grafik çalışma ortamını kurduk. Şimdi bu ortamda yapay zekâyı analiz yardımcısı, Pine \nScript’i kuralları görünür ve test edilebilir hâle getiren araç, araştırma platformlarını ise aday ve \nkaynak bulma katmanı olarak kullanacağız. Amacımız karar sorumluluğunu teknolojiye devretmek \ndeğil; tekrar eden işleri hızlandırırken hata kanıtını daha görünür hâle getirmektir.\nAI hızlı cevap verebilir, kod yazabilir, tablo oluşturabilir ve bir test aracını çalıştırabilir. Fakat yanlış \nsembolü, eksik veriyi, belirsiz tanımı veya hatalı test varsayımını da aynı hızla çoğaltabilir. Bu nedenle \nher AI iş akışında üç kapı korunur: veri kapısı, mantık kapısı ve uygulama/risk kapısı.\nBÖLÜM SONUNDA\n• AI ile görev tanımı ve prompt sözleşmesi kurabileceksiniz.\n• Grafik veya veri bağlamının eksik olup olmadığını kontrol edebileceksiniz.\n• Strateji fikrini Pine Script gereksinim kartına çevirebileceksiniz.\n• Derlenen kodu repaint, lookahead, MTF ve bar kapanışı açısından denetleyebileceksiniz.\n• Backtest ve yüksek getiri iddialarını yöntem üzerinden sorgulayabileceksiniz.\n• Screening, değerleme ve kurumsal portföy araştırmasında kaynak–tarih–model zinciri \nkurabileceksiniz.\nGÜNCELLİK NOTU\nAI modelleri, entegrasyonlar, TradingView/Pine özellikleri ve araştırma platformları değişebilir. Bu \nbölüm belirli bir ürünün güncel butonlarını değil, kalıcı görev ve denetim mantığını öğretir. \nKullandığınız aracın güncel dokümantasyonunu, izinlerini ve veri kapsamını ayrıca kontrol edin.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Bölüm 15’te grafik çalışma ortamını kurduk.",
+      "Şimdi bu ortamda yapay zekâyı analiz yardımcısı, Pine Script’i kuralları görünür ve test edilebilir hâle getiren araç, araştırma platformlarını ise aday ve kaynak bulma katmanı olarak kullanacağız.",
+      "Amacımız karar sorumluluğunu teknolojiye devretmek değil; tekrar eden işleri hızlandırırken hata kanıtını daha görünür hâle getirmektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0331",
+    "page": 331,
+    "chapter": 16,
+    "section": "16.1 — AI’yı Oracle Değil Yardımcı Olarak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  316\nŞekil 16.1 – İnsan kontrollü AI karar döngüsü\nUygulama Görseli 16.1 – AI sohbet penceresi, TradingView grafiği, Pine Editor, Strategy Tester ve araştırma \nkaynaklarının insan onay kapısıyla bağlandığı gerçek çalışma ekranı. Temsilî eğitim şeması.\n16.1 AI’yı Oracle Değil Yardımcı Olarak \nKonumlandırmak\nArtificial intelligence — AI (verilen veri ve talimatlardan analiz, metin, kod veya aday fikir üretme \naracı), geleceği bilen bağımsız bir piyasa aktörü değildir. Ona hangi grafiği, hangi dönemi, hangi tanımı \nve hangi hedefi verdiğim; aldığı cevabın sınırını belirler. AI’nın hızı, girdi kalitesinin yerine geçmez.",
+    "source_extract_summary": [
+      "16.1 AI’yı Oracle Değil Yardımcı Olarak Konumlandırmak Artificial intelligence — AI (verilen veri ve talimatlardan analiz, metin, kod veya aday fikir üretme aracı), geleceği bilen bağımsız bir piyasa aktörü değildir.",
+      "Ona hangi grafiği, hangi dönemi, hangi tanımı ve hangi hedefi verdiğim; aldığı cevabın sınırını belirler.",
+      "AI’nın hızı, girdi kalitesinin yerine geçmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0332",
+    "page": 332,
+    "chapter": 16,
+    "section": "16.2 — İnsan–AI Yetki Seviyeleri ve Sorumluluk",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  317\nAI’nın uygun görevi İnsan denetimi Doğrudan verilmeyecek yetki\nNotları özetlemek ve karşılaştırmak Önemli ayrıntı atlandı mı? Kaynak görmeden gerçek kabul etmek\nGrafik için aday senaryo üretmek Swing, timeframe ve invalidation doğru \nmu?\nTek cevaptan emir vermek\nKural taslağı veya Pine kodu yazmak Tanım ve bar semantiği eşleşiyor mu? Derleme sonrası canlıya geçirmek\nBacktest çalıştırma adımlarını hazırlamak Veri, maliyet ve benchmark doğru mu? Yüzde getiriye kör güvenmek\nScreening için aday liste oluşturmak Kaynak, tarih ve eksik veri kontrolü “En iyi” listesini portföye kopyalamak\nHata olasılıklarını sıralamak Hata yeniden üretildi mi? Kanıt olmadan kodu baştan yazdırmak\nTablo 16.1 – AI görevi, insan kapısı ve yetki sınırı\nEKRANDA NE ARIYORUM?\n• AI cevabı hangi veri veya görüntüye dayanıyor?\n• Sembol, timeframe ve tarih cevabın içinde açık mı?\n• Çıktı gözlem mi, hesap mı, tahmin mi, öneri mi?\n• Belirsiz veya eksik alanları AI açıkça işaretledi mi?\n• Son kararı hangi yazılı kural ve risk kapısı verecek?\nDOĞRU BİLİNEN YANLIŞ\nMit: AI duygusuz olduğu için objektif ve doğrudur.\nGerçeklik: AI duygusal dürtü yaşamaz; fakat veri seçimi, prompt, model davranışı ve kullanıcı \nvarsayımlarındaki yanlılığı yeniden üretebilir.\n16.2 İnsan–AI Yetki Seviyeleri ve Sorumluluk\nAI-assisted workflow (insanın kararı verdiği, AI’nın belirli görevleri hızlandırdığı çalışma düzeni) ile \nautonomous workflow (tanımlı koşullar içinde sistemin veri okuyup olay üretmesi veya eylem \nbaşlatması) aynı değildir. Yetki arttıkça test, güvenlik, limit ve durdurma mekanizması da artmalıdır.\nSeviye AI ne yapar? İnsan kapısı\n1  Danışma Kavram açıklar, kontrol sorusu üretir. Kaynak ve anlam kontrolü.\n2  Analiz yardımcısı Grafik/veri üzerinde aday senaryo çıkarır. Bağlam, invalidation ve no-trade.\n3  Üretim yardımcısı Pine kodu, tarama kriteri veya rapor \ntaslağı üretir.\nKod/veri semantiği ve sürüm testi.\n4  İzleme otomasyonu Alarm, tarama veya rapor olayını tekrarlar. Olay sonrası manuel karar.\n5  Sınırlı uygulama Önceden izinli ortamda eylem taslağı veya \nsandbox emri.\nLimit, kill switch ve kayıt.\n6  Canlı otomasyon Gerçek emir veya portföy değişimi. Bu kitapta önerilen varsayılan seviye \ndeğildir; ileri güvenlik ve düzenleme \ngerektirir.",
+    "source_extract_summary": [
+      "AI’nın uygun görevi İnsan denetimi Doğrudan verilmeyecek yetki Notları özetlemek ve karşılaştırmak Önemli ayrıntı atlandı mı?",
+      "Kaynak görmeden gerçek kabul etmek Grafik için aday senaryo üretmek Swing, timeframe ve invalidation doğru mu?",
+      "Tek cevaptan emir vermek Kural taslağı veya Pine kodu yazmak Tanım ve bar semantiği eşleşiyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0333",
+    "page": 333,
+    "chapter": 16,
+    "section": "16.3 — Prompt Anatomisi: Amaçtan Doğrulamaya",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  318\nTablo 16.2 – İnsan–AI yetki seviyeleri\nEYLEM DİLİ\nKullandığım AI aracının yetkisini adlandırırım. “Grafiği analiz et” ile “emir gönder” arasına veri, \nkural, test, risk ve onay kapıları koyarım. Hangi kapının otomatik, hangisinin manuel olduğunu \nsüreç kartına yazarım.\nVAKA ANALİZİ — XAGTRYG AI YARDIMCISI\nAI, XAGTRYG 2S grafikte bullish pullback adayı gördüğünü söylüyor. Cevabı doğrudan sinyal \nsaymam. Önce AI’nın doğru sembol/feed ve 2S görünümünü kullandığını, protected low ile ilk \nhedefi doğru işaretlediğini ve kapanmamış mumu “onay” saymadığını kontrol ederim. Ardından \nBölüm 12 setup kartını kendim doldurur; yalnız alarm oluşturmasına izin veririm.\n16.3 Prompt Anatomisi: Amaçtan Doğrulamaya\nPrompt (AI’ya yapılacak işi, kullanılacak veriyi, kuralları ve beklenen çıktıyı tanımlayan görev \nsözleşmesi), yalnız soru değildir. İyi prompt, AI’nın tahmin ederek dolduracağı boşlukları azaltır. Kısa \nolabilir; fakat amacı, bağlamı ve doğrulama koşulu eksik olmamalıdır.\nŞekil 16.2 – Prompt anatomisi\nPrompt parçası Yazılacak bilgi Örnek aksiyon\nAmaç Analiz, kod, debug, screening veya \nkarşılaştırma.\n“Bullish pullback adaylarını sınıflandır.”\nVeri Sembol, feed, timeframe, dönem, alan ve \nek dosya.\n“XAGTRYG 2S, yalnız kapanmış barlar.”\nBağlam Trend tanımı, setup ailesi, kullanıcı kuralı. “Günlük trend yukarı; 2S pullback \naranıyor.”",
+    "source_extract_summary": [
+      "“Grafiği analiz et” ile “emir gönder” arasına veri, kural, test, risk ve onay kapıları koyarım.",
+      "Hangi kapının otomatik, hangisinin manuel olduğunu süreç kartına yazarım.",
+      "VAKA ANALİZİ — XAGTRYG AI YARDIMCISI AI, XAGTRYG 2S grafikte bullish pullback adayı gördüğünü söylüyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0334",
+    "page": 334,
+    "chapter": 16,
+    "section": "16.3 — Prompt Anatomisi: Amaçtan Doğrulamaya",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  319\nPrompt parçası Yazılacak bilgi Örnek aksiyon\nKural Eşik, swing tanımı, invalidation ve no-\ntrade.\n“Protected low altı kapanışta aday iptal.”\nÇıktı Tablo, Pine spec, soru listesi veya hata \nraporu.\n“Kanıt–karşı kanıt–eksik veri tablosu.”\nDoğrulama Kaynak, hesap, test ve belirsizlik talebi. “Varsayım yapma; eksik alanı açık yaz.”\nTablo 16.3 – Prompt görev sözleşmesi\nKÖTÜDEN İYİYE PROMPT\nZayıf: “Bana çok iyi bir al-sat indikatörü yaz.”\nDaha iyi: “Pine Script’te XAGTRYG 2S için yalnız kapanmış barlarda çalışan bir aday tarayıcı tasarla. \nTrend, pullback, tetik ve invalidation tanımlarını aşağıdaki kural kartından kullan. Önce kod yazma; \nbelirsiz kuralları sor ve gereksinim tablosu çıkar.”\nDOĞRU BİLİNEN YANLIŞ\nMit: Ne kadar uzun prompt yazarsam sonuç o kadar iyidir.\nGerçeklik: Uzunluk değil, çelişkisiz amaç, veri, kural, çıktı ve doğrulama bilgisi kaliteyi artırır.\nUygulama Görseli 16.2 – Aynı görev için zayıf prompt ve altı parçalı görev sözleşmesinin AI cevap farkını \ngösteren ekran. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Prompt parçası Yazılacak bilgi Örnek aksiyon Kural Eşik, swing tanımı, invalidation ve no- trade.",
+      "“Protected low altı kapanışta aday iptal.” Çıktı Tablo, Pine spec, soru listesi veya hata raporu.",
+      "“Kanıt–karşı kanıt–eksik veri tablosu.” Doğrulama Kaynak, hesap, test ve belirsizlik talebi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0335",
+    "page": 335,
+    "chapter": 16,
+    "section": "16.5 — AI ile Grafik Analizi ve Çapraz Kontrol",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  320\n16.4 Bağlam Paketi, Veri Kaynağı ve Zaman \nDamgası\nContext pack (AI’nın görevi doğru yorumlaması için birlikte verilen sembol, veri, timeframe, kural, \nsürüm ve örnekler paketi), konuşmanın geçmişine güvenmekten daha denetlenebilirdir. Özellikle \ngrafik ve kod çalışmalarında hangi barların görünür olduğu, verinin kapanmış mı canlı mı olduğu ve \nkullanılan script sürümü kaydedilmelidir.\nBağlam alanı Neden gerekir? Kayıt örneği\nSembol kimliği Yanlış feed veya ürün analizini önlemek. XAGTRYG / sağlayıcı / spot endeks ayrımı.\nTimeframe ve görünür dönem AI yalnız gördüğü pencereyi yorumlayabilir. 2S, son 400 bar; günlük özet ayrıca.\nVeri durumu Açık bar ve kapanmış bar ayrımı. Son kapanmış bar zamanı.\nKural sürümü Aynı ad altında farklı mantık oluşmasını \nönlemek.\nMS Setup v1.3.\nKod sürümü Hata ve test sonucunu yeniden üretmek. Pine v0.4.2 + ayar export.\nAraştırma tarihi Canlı fiyat ile rapor dönemi ayrımı. Veri çekim zamanı ve finansal dönem.\nEksik veri AI’nın sessiz varsayım yapmasını \nengellemek.\nVolume yok; haber verisi eklenmedi.\nTablo 16.4 – Bağlam paketi\nEKRANDA NE ARIYORUM?\n• Cevapta kullanılan sembol ve timeframe tekrar edilmiş mi?\n• Veri zamanı ile rapor dönemi ayrı mı?\n• Açık bar veya eksik hacim gibi sınırlamalar yazıyor mu?\n• Kural ve script sürümü kayıtlı mı?\n• AI’nın erişemediği veri alanları açıkça listelenmiş mi?\nDOĞRU BİLİNEN YANLIŞ\nMit: “Canlı veriye bağlı” bir AI bütün veriyi doğru ve eşzamanlı görür.\nGerçeklik: Her veri sağlayıcının kapsamı, gecikmesi, para birimi, rapor dönemi ve eksik alanları \nolabilir; timestamp ve kaynak ayrıca doğrulanır.\n16.5 AI ile Grafik Analizi ve Çapraz Kontrol\nAI grafik analizinde ikinci okuyucu olarak değerlidir. Önce kendi yapı haritamı çıkarır, sonra AI’dan aynı \ngrafiği tanımlı kavramlarla okumasını isterim. Amaç AI’nın fikrine teslim olmak değil; gözden kaçan \nkarşı kanıtı ve tanım uyuşmazlığını bulmaktır.\nAnaliz sorusu AI’dan istenecek Kullanıcının kontrolü\nPiyasa yapısı Swing listesi ve trend sınıfı. Swing hassasiyeti ve protected yapı.\nBölge Yakın support/resistance, zone veya FVG \nadayları.\nBölge kaynağı, tazelik ve invalidation.",
+    "source_extract_summary": [
+      "16.4 Bağlam Paketi, Veri Kaynağı ve Zaman Damgası Context pack (AI’nın görevi doğru yorumlaması için birlikte verilen sembol, veri, timeframe, kural, sürüm ve örnekler paketi), konuşmanın geçmişine güvenmekten daha denetlenebilirdir.",
+      "Özellikle grafik ve kod çalışmalarında hangi barların görünür olduğu, verinin kapanmış mı canlı mı olduğu ve kullanılan script sürümü kaydedilmelidir.",
+      "Kayıt örneği Sembol kimliği Yanlış feed veya ürün analizini önlemek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0336",
+    "page": 336,
+    "chapter": 16,
+    "section": "16.6 — Fikirden Objektif Strateji Kuralına",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  321\nAnaliz sorusu AI’dan istenecek Kullanıcının kontrolü\nMomentum / hacim Impulse–pullback karşılaştırması. Veri türü ve kapanış durumu.\nMTF Üst–orta–alt görev özeti. Zaman dilimleri aynı anda mı ve doğru mı?\nSenaryo Birincil, alternatif ve no-trade. Hedefe kalan alan ve risk.\nBelirsizlik Karşı kanıt ve eksik veri. AI’nın kesin dilini koşullu dile çevirmek.\nTablo 16.5 – AI grafik analizi çapraz kontrolü\nEKRANDA NE ARIYORUM?\n• AI yalnız son harekete mi odaklandı, major yapıyı gördü mü?\n• Wick aşımını kapanış kırılımı gibi mi yorumladı?\n• BOS/CHoCH ve swing tanımı benim kitabımdaki tanımla aynı mı?\n• Karşı senaryo ve no-trade koşulu var mı?\n• Önerinin hedefe kadar yeterli alanı bulunuyor mu?\nVAKA ANALİZİ — İKİNCİ OKUYUCU\nGünlük XAGTRYG grafikte trend yukarı; 2S grafikte sert düşüş görülüyor. AI “downtrend” diyor. \nSoruyu timeframe görevleriyle yeniden kurarım: günlük external yapı, 2S internal pullback ve 30D \ntetik ayrı ayrı raporlansın. AI ikinci cevapta günlük trend ile 2S pullback’i ayırabiliyorsa analiz \nkullanılabilir; hâlâ tek yön etiketi veriyorsa bağlamı yetersiz sayarım.\n16.6 Fikirden Objektif Strateji Kuralına\n“Destekten al”, “güçlü momentumda gir” veya “AI uygun görürse işlem aç” test edilebilir kurallar \ndeğildir. AI’dan kod istemeden önce fikir; veri, durum, olay ve geçersizlik cümlelerine çevrilir. Bu \naşamada cevap üretmekten çok belirsizliği bulması istenir.",
+    "source_extract_summary": [
+      "Analiz sorusu AI’dan istenecek Kullanıcının kontrolü Momentum / hacim Impulse–pullback karşılaştırması.",
+      "Zaman dilimleri aynı anda mı ve doğru mı?",
+      "Senaryo Birincil, alternatif ve no-trade."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0337",
+    "page": 337,
+    "chapter": 16,
+    "section": "16.7 — Pine Script Gereksinim Sözleşmesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  322\nŞekil 16.3 – Fikirden Pine Script ve teste geçiş\nBelirsiz fikir Objektifleşmesi gereken soru Kural örneği\nTrend yukarı Hangi swing veya ortalama tanımı? Son iki confirmed swing HH–HL ve close \nEMA üstünde.\nPullback sağlıklı Derinlik, süre ve momentum ölçüsü? Depth ≤ 1.5 ATR; red body share sınırı.\nTetik geldi Hangi fiyat olayı ve ne zaman? Son micro high üstünde bar close.\nHacim destekliyor Hangi hacim ve karşılaştırma? Volume / 20-bar median ≥ 1.2.\nStop mantıklı Tez nerede bozulur? Protected low altı kapanış veya hard stop.\nHedef uygun Hangi engel ve minimum alan? İlk external high’a net R ≥ eşik.\nTablo 16.6 – Fikri objektif kurala çevirme\nEYLEM DİLİ\nAI’ya önce “Bu kurallarda kodlanamayan, ölçülemeyen ve birbiriyle çelişen ifadeleri bul” derim. \nBelirsizlik tablosu kapanmadan kod üretimine geçmem.\nDOĞRU BİLİNEN YANLIŞ\nMit: AI iyi bir strateji fikrini kendiliğinden objektif kurallara dönüştürür.\nGerçeklik: AI olası tanımlar önerebilir; hangi tanımın işlem tezini temsil ettiğini kullanıcı seçer ve \ntest eder.\n16.7 Pine Script Gereksinim Sözleşmesi\nPine Script (TradingView üzerinde indikatör, strateji, tarama/uyarı mantığı ve görsel çıktı geliştirmek \niçin kullanılan betik dili), fikir ile çalışan araç arasındaki uygulama katmanıdır. Kod talebinden önce \nscript türü, veri bağımlılığı, hesap zamanı, durum makinesi ve çıktı açıkça yazılır.",
+    "source_extract_summary": [
+      "Son iki confirmed swing HH–HL ve close EMA üstünde.",
+      "Pullback sağlıklı Derinlik, süre ve momentum ölçüsü?",
+      "Depth ≤ 1.5 ATR; red body share sınırı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı",
+      "Göreceli katılım ve hacim özellikleri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0338",
+    "page": 338,
+    "chapter": 16,
+    "section": "16.7 — Pine Script Gereksinim Sözleşmesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  323\nGereksinim alanı Sorulacak soru Örnek\nArtifact türü Indicator mı strategy mi? Adayları çiz + alert; emir simülasyonu ayrı \nstrategy.\nGirdiler Kullanıcı hangi ayarları değiştirebilir? Pivot length, ATR threshold, profile.\nVeri OHLCV, MTF veya başka sembol gerekir \nmi?\nYalnız kapanmış OHLCV; günlük bias.\nZaman Açık barda mı, bar close’da mı? Onay yalnız barstate.isconfirmed.\nState Aday–onay–bozulma nasıl saklanır? Tek yönlü durum makinesi ve reset.\nÇıktı Plot, label, table, alert veya order? Aday zone + confirmed event + reason.\nSınırlar Max labels, geçmiş bar ve na davranışı? Objeleri arşivle; veri yoksa nötr.\nTest Hangi senaryolar geçmeli? Trend, range, gap, eksik volume, MTF.\nTablo 16.7 – Pine Script gereksinim sözleşmesi\nEKRANDA NE ARIYORUM?\n• Script indicator mı strategy mi; ikisinin görevi karışmış mı?\n• Sinyal hangi bar ve hangi fiyatla kesinleşiyor?\n• MTF verisi kapanmış üst zaman barından mı geliyor?\n• Aday, onay, bozulma ve reset açıkça tanımlı mı?\n• Plot ile alert aynı koşul ve zamanda mı oluşuyor?\nUygulama Görseli 16.3 – Pine gereksinim kartı ile Pine Editor kodunun yan yana olduğu ekran; artifact, \ninputs, state, outputs ve tests alanları işaretli. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Gereksinim alanı Sorulacak soru Örnek Artifact türü Indicator mı strategy mi?",
+      "Adayları çiz + alert; emir simülasyonu ayrı strategy.",
+      "Girdiler Kullanıcı hangi ayarları değiştirebilir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Gereksinim, semantik test ve sürümleme",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0339",
+    "page": 339,
+    "chapter": 16,
+    "section": "16.8 — AI Üretimli Kodu Semantik Olarak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  324\n16.8 AI Üretimli Kodu Semantik Olarak \nDenetlemek\nCompile (kodun dil kurallarına uygun olup olmadığını denetleyip çalıştırılabilir hâle getirme), ilk \nkapıdır. Semantic test (kodun yazılı strateji kuralını doğru zaman ve doğru veriyle uygulayıp \nuygulamadığını sınama), asıl doğrulama kapısıdır. Sentaks hatasız kod; yanlış swing, erken sinyal veya \nfuture leak üretebilir.\nŞekil 16.4 – Pine Script veri ve olay semantiği\nDenetim Soru Tipik hata\nBar semantiği Açık bar mı kapanmış bar mı? Geçici cross’u kalıcı sinyal saymak.\nGeçmiş erişimi Gelecek bilgi kullanılıyor mu? Lookahead veya merkezli pivotu erken \ngöstermek.\nMTF Üst TF barı ne zaman kesinleşiyor? Tamamlanmamış HTF verisini onay saymak.\nState var/array ve reset doğru mu? Eski setup’ın yeni setup’a taşınması.\nRepaint Geçmiş plot sonradan değişiyor mu? Sinyali geçmişte ideal bara yerleştirmek.\nOrder semantiği Strategy order hangi fiyatta doluyor? Close sinyali ile aynı close’dan fills \nvarsaymak.\nna / eksik veri Veri yokken ne olur? Sessiz false veya yanlış sıfır.\nKaynak sınırı Objeler ve hesap yükü yönetiliyor mu? Label/line limiti ve yavaşlama.\nTablo 16.8 – AI üretimli Pine kodu semantik denetimi\nDOĞRU BİLİNEN YANLIŞ\nMit: Kod derlendi ve geçmişte güzel sinyaller gösterdi; dolayısıyla doğrudur.\nGerçeklik: Derleme sentaksı, güzel geçmiş görünüm ise çoğu zaman yalnız görselliği kanıtlar. Canlı \nbar, replay, MTF ve state davranışı ayrıca test edilir.",
+    "source_extract_summary": [
+      "16.8 AI Üretimli Kodu Semantik Olarak Denetlemek Compile (kodun dil kurallarına uygun olup olmadığını denetleyip çalıştırılabilir hâle getirme), ilk kapıdır.",
+      "Semantic test (kodun yazılı strateji kuralını doğru zaman ve doğru veriyle uygulayıp uygulamadığını sınama), asıl doğrulama kapısıdır.",
+      "Sentaks hatasız kod; yanlış swing, erken sinyal veya future leak üretebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Deney ve strateji kartı",
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0340",
+    "page": 340,
+    "chapter": 16,
+    "section": "16.9 — Debug, Trace, Regresyon ve Sürüm",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  325\nVAKA ANALİZİ — GEÇMİŞTE KUSURSUZ DİP\nAI’nın yazdığı script her swing dibine “AL” etiketi yerleştiriyor. Replay’i etiketin öncesinden \nbaşlatırım. Etiket pivot için sağ tarafta üç bar bekledikten sonra geçmişteki dibe taşınıyorsa bu olay \n“pivot üç bar sonra onaylandı” diye kaydedilmelidir; dip anında erken sinyal gibi sunulamaz. Plot ve \nalarm onay barında oluşmalıdır.\n16.9 Debug, Trace, Regresyon ve Sürüm \nYönetimi\nDebug (hatanın hangi veri, koşul ve durum geçişinde oluştuğunu görünür hâle getirip kanıtla düzeltme \nsüreci), “kodu baştan yaz” komutu değildir. Hata yeniden üretilemiyorsa yapılan düzeltmenin \ngerçekten neyi çözdüğü bilinemez.\nŞekil 16.5 – Kanıta dayalı debug hunisi\nDebug kaydı Örnek\nBeklenen Protected low kırılmadan bullish setup bozulmamalı.\nGözlenen Gap sonrası tek intrabar wick setup’ı arşivliyor.\nYeniden üretme XAGTRYG, 2S, tarih aralığı, ayar profili, script v0.6.1.\nMinimal örnek Yalnız structure state + gap koşulu açık.\nTrace state_before, trigger_reason, invalidation_reason, bar_index.\nHipotez Açık bar low değeri close onayı olmadan invalidation üretiyor.\nTek değişiklik Invalidation event bar close’a taşındı.\nRegresyon Gap, normal break, reclaim ve no-data senaryoları yeniden geçti.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — GEÇMİŞTE KUSURSUZ DİP AI’nın yazdığı script her swing dibine “AL” etiketi yerleştiriyor.",
+      "Replay’i etiketin öncesinden başlatırım.",
+      "Etiket pivot için sağ tarafta üç bar bekledikten sonra geçmişteki dibe taşınıyorsa bu olay “pivot üç bar sonra onaylandı” diye kaydedilmelidir; dip anında erken sinyal gibi sunulamaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Deney ve strateji kartı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0341",
+    "page": 341,
+    "chapter": 16,
+    "section": "16.10 — Backtest ve Performans İddialarını",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  326\nTablo 16.9 – Debug olay kartı\nAI’YA DEBUG PROMPTU\n“Aşağıdaki hata kartını kullan. Önce üç olası kök neden sırala. Kanıtlanmamış kod değişikliği yapma. \nEn küçük tanılayıcı plot/trace öner. Seçilen neden doğrulandıktan sonra yalnız ilgili bloğa minimal \npatch üret ve korunması gereken davranışları listele.”\nDOĞRU BİLİNEN YANLIŞ\nMit: AI’ya tüm kodu verip “düzelt” demek en hızlı yoldur.\nGerçeklik: Belirsiz talep geniş ve denetlenmesi zor değişiklik üretir. Hata kartı, minimal örnek ve tek \ndeğişken yaklaşımı daha güvenlidir.\nUygulama Görseli 16.4 – Pine Editor, Data Window veya debug table üzerinde state_before  reason → → \nstate_after zincirinin görünür olduğu hata ekranı. Temsilî eğitim şeması.\n16.10 Backtest ve Performans İddialarını \nSorgulamak\nBacktest (önceden tanımlı kuralları geçmiş veri üzerinde çalıştırıp sonuç dağılımını ölçme), geleceği \nkanıtlamaz. Bazı örnek testlerde çok yüksek toplam getiri sonuçları görülebilir; ancak geçmiş \nperformans gelecekte aynı sonucu garanti etmez. Kitapta getiri yüzdesi, yöntem denetimini başlatan \nsoru olarak kullanılır.",
+    "source_extract_summary": [
+      "Kanıtlanmamış kod değişikliği yapma.",
+      "En küçük tanılayıcı plot/trace öner.",
+      "Seçilen neden doğrulandıktan sonra yalnız ilgili bloğa minimal patch üret ve korunması gereken davranışları listele.” DOĞRU BİLİNEN YANLIŞ Mit: AI’ya tüm kodu verip “düzelt” demek en hızlı yoldur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0342",
+    "page": 342,
+    "chapter": 16,
+    "section": "16.10 — Backtest ve Performans İddialarını",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  327\nŞekil 16.6 – Backtest ve yüksek getiri iddiası denetimi\nİddia sorusu Kontrol\nBaşlangıç ve bitiş nedir? Seçilen dönem sonucu büyütüyor mu?\nEvren neydi? Sonradan hayatta kalan/başarılı varlıklar mı seçildi?\nKural ne zaman biliniyordu? Lookahead, repaint veya gelecekteki endeks üyeliği var mı?\nFill nasıl varsayıldı? Aynı bar close, gap, limit ve likidite gerçekçi mi?\nMaliyetler var mı? Komisyon, spread, slippage, vergi/funding dahil mi?\nBenchmark nedir? Buy-and-hold veya basit kural karşılaştırıldı mı?\nRisk nedir? Max drawdown, kayıp serisi ve pozisyon yoğunlaşması?\nOut-of-sample var mı? Kuralın geliştirilmediği dönemde sonuç ne?\nRejim dağılımı nasıl? Trend, range, kriz ve düşük volatilite örnekleri?\nSürüm sabit mi? Model/strateji geçmişte farklı mıydı?\nTablo 16.10 – Backtest iddia denetimi\nVAKA ANALİZİ — “%1.973 GETİRİ”\nBir platform hazır AI stratejisinin geçmişte %1.973 toplam getiri sağladığını gösteriyor. İlk sorum \n“nasıl satın alırım?” olmaz. Başlangıç tarihi, benchmark, yeniden dengeleme, işlem maliyeti, \nsurvivorship, max drawdown, portföy büyüklüğü ve canlı/forward sonuçlarını isterim. Bu bilgiler \nyoksa yüzdeyi pazarlama göstergesi, stratejiyi ise yalnız araştırma adayı sayarım.\nDOĞRU BİLİNEN YANLIŞ\nMit: AI tarafından yapılan backtest insan hatasını ortadan kaldırır.\nGerçeklik: AI kuralları ve testi hızlandırır; yanlış veri, future leak, aşırı uyum ve maliyet varsayımı da \notomatikleşebilir.",
+    "source_extract_summary": [
+      "Sonradan hayatta kalan/başarılı varlıklar mı seçildi?",
+      "Lookahead, repaint veya gelecekteki endeks üyeliği var mı?",
+      "Aynı bar close, gap, limit ve likidite gerçekçi mi?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Gereksinim, semantik test ve sürümleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0343",
+    "page": 343,
+    "chapter": 16,
+    "section": "16.12 — AI ile Screening ve Aday Liste Üretimi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  328\n16.11 Alarm, Otomasyon, Entegrasyon ve \nGüvenlik\nIntegration (iki uygulama arasında veri veya komut akışı kurma), kolaylık sağlarken yeni güven ve hata \nyüzeyi oluşturur. Örneğin üçüncü taraf bir köprü, AI’nın grafik ve Pine araçlarına erişmesini \nsağlayabilir. Kitapta araç adı yerine şu soru korunur: Bu entegrasyon hangi veriyi okuyabilir, hangi \nkomutu çalıştırabilir ve hangi yetkiye gerçekten ihtiyaç duyar?\nKontrol alanı Varsayılan güvenli yaklaşım\nKaynak / sahiplik Resmî mi üçüncü taraf mı; depo, lisans ve bakım durumu kontrol \nedilir.\nİzin Yalnız gerekli okuma/yazma yetkisi verilir.\nKimlik bilgisi Token, session ve anahtar prompt/koda düz metin konmaz.\nOrtam Önce sandbox, paper veya salt okunur çalışma.\nEylem limiti Sembol, miktar, sıklık ve günlük risk sınırı.\nOnay Alarm/öneri ile gerçek emir arasında insan kapısı.\nKill switch Bağlantıyı ve otomasyonu hızlı durdurma yöntemi.\nLog Girdi, çıktı, zaman, sürüm ve hata kaydı.\nTablo 16.11 – Entegrasyon ve otomasyon güvenliği\nEKRANDA NE ARIYORUM?\n• Araç resmî entegrasyon mu, üçüncü taraf mı?\n• Hangi dosya, grafik, hesap veya anahtara erişiyor?\n• Emir yetkisi gerçekten gerekli mi?\n• Paper/sandbox ve manuel onay seçeneği var mı?\n• Hata halinde bağlantıyı nasıl durdururum ve log nerede?\nDOĞRU BİLİNEN YANLIŞ\nMit: AI yalnız alarm kuruyorsa güvenlik riski yoktur.\nGerçeklik: Grafik, dosya, oturum veya hesap erişimi olan her entegrasyon veri ve yetki riski taşır; \nminimum izin ve kayıt gerekir.\n16.12 AI ile Screening ve Aday Liste Üretimi\nScreening (geniş varlık evrenini önceden yazılmış ölçütlerle daraltıp araştırma adayları üretme), karar \ndeğil filtreleme işlemidir. “En iyi beş hisseyi bul” talebi; piyasa, para birimi, likidite, dönem, finansal \nmetrik ve risk koşulu verilmediğinde belirsizdir.\nScreening adımı Aksiyon\nEvren Ülke, piyasa, sektör, ürün ve likidite sınırını yaz.\nTarih Fiyat tarihi ile son finansal rapor dönemini ayır.",
+    "source_extract_summary": [
+      "16.11 Alarm, Otomasyon, Entegrasyon ve Güvenlik Integration (iki uygulama arasında veri veya komut akışı kurma), kolaylık sağlarken yeni güven ve hata yüzeyi oluşturur.",
+      "Örneğin üçüncü taraf bir köprü, AI’nın grafik ve Pine araçlarına erişmesini sağlayabilir.",
+      "Kitapta araç adı yerine şu soru korunur: Bu entegrasyon hangi veriyi okuyabilir, hangi komutu çalıştırabilir ve hangi yetkiye gerçekten ihtiyaç duyar?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0344",
+    "page": 344,
+    "chapter": 16,
+    "section": "16.12 — AI ile Screening ve Aday Liste Üretimi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  329\nScreening adımı Aksiyon\nKriter Büyüme, sağlık, değerleme ve risk ölçütlerini tanımla.\nEksik veri Null değerlerin elenme veya işaretlenme kuralını yaz.\nSıralama Tek skor yerine kriter katkılarını ayrı göster.\nAday liste Neden seçildi / neden elendi sütunları üret.\nKaynak Her metrik için veri kaynağı ve timestamp iste.\nDoğrulama İlk adayları bağımsız belge veya veriyle kontrol et.\nTablo 16.12 – AI screening iş akışı\nPROMPT ŞABLONU\n“[Evren] içinden [tarih] itibarıyla aday üret. [Likidite ve risk sınırı] uygula. [Kriterleri] ayrı sütunlarda \ngöster. Eksik veriyi tahmin etme. Her sayı için kaynak ve rapor dönemini yaz. Sonucu yatırım önerisi \ndeğil araştırma watchlist’i olarak sun.”\nDOĞRU BİLİNEN YANLIŞ\nMit: Çok fazla metriği tarayan AI screener daha doğru hisse seçer.\nGerçeklik: Kriter sayısı arttıkça veri uyumsuzluğu, korelasyon ve aşırı filtreleme riski de artabilir; her \nkriterin görevi açık olmalıdır.\nUygulama Görseli 16.5 – AI screening çıktısında sembol, kriter, kaynak, rapor dönemi, eksik veri, seçilme \nnedeni ve doğrulama durumu sütunları. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "Screening adımı Aksiyon Kriter Büyüme, sağlık, değerleme ve risk ölçütlerini tanımla.",
+      "Eksik veri Null değerlerin elenme veya işaretlenme kuralını yaz.",
+      "Sıralama Tek skor yerine kriter katkılarını ayrı göster."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Veri sözleşmesi ve mum özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0345",
+    "page": 345,
+    "chapter": 16,
+    "section": "16.13 — Ünlü Yatırımcı ve Kurumsal Portföy",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  330\n16.13 Ünlü Yatırımcı ve Kurumsal Portföy \nAraştırması\nPublic holding / filing research (kurum veya yatırımcının açıklanmış raporlarından belirli tarihteki \npozisyonları inceleme), canlı emir akışı değildir. Bir aracın “şu anda tutuyor” etiketi; çoğu zaman son \naçıklanmış rapor dönemini veya veri sağlayıcının işlediği kaydı temsil eder. Rapor tarihi ile bugünkü \npozisyon aynı şey değildir.\nKontrol Neden gerekir?\nRapor dönemi ve yayın tarihi Pozisyonun ne kadar gecikmeli olduğunu görmek.\nPozisyonun portföy ağırlığı Küçük deneme ile ana tez ayrımı.\nYeni / artırılan / azaltılan Tek fotoğraf yerine değişim yönü.\nFiyat ve maliyet bilinmezliği Açıklanan miktar giriş fiyatını tam göstermez.\nHedge ve türevler Görünen long pozisyon toplam riski açıklamayabilir.\nNakit ve zorunluluklar Aynı yatırım ufku ve likidite ihtiyacı olmayabilir.\nSonraki değişiklik Rapor sonrası satılmış veya hedge edilmiş olabilir.\nKendi teziniz Kurum adı, bağımsız analiz yerine geçmez.\nTablo 16.13 – Kurumsal portföy araştırma kartı\nEYLEM DİLİ\nBir ünlü yatırımcının portföyünü gördüğümde sembolü kopyalamam. Önce rapor tarihini, pozisyon \nağırlığını ve değişim yönünü kaydederim. Daha sonra kendi zaman ufkum, riskim ve Bölüm 18’deki \nanalizimle uyumunu sınarım.\nDOĞRU BİLİNEN YANLIŞ\nMit: Ünlü yatırımcının portföyü kamuya açıksa aynı işlemi gerçek zamanlı kopyalayabilirim.\nGerçeklik: Açıklamalar gecikmeli olabilir; maliyet, hedge, amaç ve rapor sonrası değişiklik \nbilinmeyebilir.\nVAKA ANALİZİ — KURUMSAL İSİM OTORİTESİ\nBir araştırma aracı, tanınmış bir fonun belirli hissede büyük pozisyon taşıdığını gösteriyor. “Fon \nbiliyorsa alırım” demem. Rapor dönemini, ağırlık değişimini, sektör yoğunlaşmasını ve hissenin \ngüncel fiyatının rapor tarihinden ne kadar ayrıldığını yazarım. Güncel tez kendi analizimde \noluşmuyorsa pozisyon yalnız izleme listesinde kalır.",
+    "source_extract_summary": [
+      "16.13 Ünlü Yatırımcı ve Kurumsal Portföy Araştırması Public holding / filing research (kurum veya yatırımcının açıklanmış raporlarından belirli tarihteki pozisyonları inceleme), canlı emir akışı değildir.",
+      "Bir aracın “şu anda tutuyor” etiketi; çoğu zaman son açıklanmış rapor dönemini veya veri sağlayıcının işlediği kaydı temsil eder.",
+      "Rapor tarihi ile bugünkü pozisyon aynı şey değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Gereksinim, semantik test ve sürümleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0346",
+    "page": 346,
+    "chapter": 16,
+    "section": "16.14 — Fair Value, Hazır AI Stratejileri ve Model",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  331\n16.14 Fair Value, Hazır AI Stratejileri ve Model \nRiski\nFair value estimate (belirli finansal veri, model ve varsayımlarla hesaplanan tahmini değer), \ngözlemlenen piyasa fiyatından farklı bir model çıktısıdır. Hazır AI stratejisi de seçtiği evren, yeniden \ndengeleme, veri ve hedef fonksiyonuna bağlı bir model ürünüdür. İkisi de yöntem açıklaması olmadan \nkarar kanıtı sayılamaz.\nŞekil 16.7 – AI araştırma kanıt merdiveni\nAraştırma çıktısı Sorulacak sorular\nFair value Hangi model(ler), varsayım, büyüme ve iskonto oranı?\nFinancial health skoru Hangi metrikler, sektör karşılaştırması ve ağırlıklar?\nAI stock listesi Evren, veri tarihi, sıralama hedefi ve eksik veri?\nHazır strateji Backtest dönemi, rebalancing, maliyet, benchmark ve DD?\nRisk skoru Volatilite mi, bilanço mu, korelasyon mu?\nChatbot cevabı Kaynak bağlantısı, timestamp ve hesaplanabilir ara sonuç?\nPortföy önerisi Ağırlık, korelasyon, vergi, likidite ve kullanıcı kısıtı?\nTablo 16.14 – Model çıktısı sorgulama kartı\nEKRANDA NE ARIYORUM?\n• Tek sayı mı, senaryo aralığı mı gösteriliyor?\n• Model adı ve hesaplama girdileri görülebiliyor mu?\n• Veri hangi rapor dönemine ait?\n• Benchmark ve risk ölçüsü aynı para birimi/dönemde mi?\n• Platformun promosyon dili ile metodoloji açıklaması ayrılmış mı?",
+    "source_extract_summary": [
+      "16.14 Fair Value, Hazır AI Stratejileri ve Model Riski Fair value estimate (belirli finansal veri, model ve varsayımlarla hesaplanan tahmini değer), gözlemlenen piyasa fiyatından farklı bir model çıktısıdır.",
+      "Hazır AI stratejisi de seçtiği evren, yeniden dengeleme, veri ve hedef fonksiyonuna bağlı bir model ürünüdür.",
+      "İkisi de yöntem açıklaması olmadan karar kanıtı sayılamaz."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0347",
+    "page": 347,
+    "chapter": 16,
+    "section": "16.15 — Tam AI–Pine–Araştırma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  332\nDOĞRU BİLİNEN YANLIŞ\nMit: Birden fazla modelin ortalaması “gerçek fair value”yu verir.\nGerçeklik: Model çeşitliliği yararlı olabilir; fakat ortak yanlış varsayım, veri hatası ve rejim değişimi \nortalamada kaybolmaz.\nUygulama Görseli 16.6 – Bir fair value ekranında model isimleri, tahmin aralığı, rapor dönemi, varsayımlar \nve piyasa fiyatının ayrı gösterimi. Temsilî eğitim şeması.\n16.15 Tam AI–Pine–Araştırma İş Akışı\nAI’nın en güvenli ve verimli kullanımı, tek cevap istemek yerine kanıt zinciri kurmaktır. Aşağıdaki iş \nakışı fikir üretimini, araştırmayı, Pine geliştirmeyi, test ve uygulama kararını aynı kayıt sistemine \nbağlar.\nAşama Eylem Çıktı\n1  Soru Karar problemini tek cümleyle yaz. Araştırma veya geliştirme amacı.\n2  Kaynak Yeni transkript, grafik, veri veya belgeyi \nseç.\nKaynak listesi ve timestamp.\n3  Bağlam Sembol, TF, dönem, kural ve sürüm \npaketini ekle.\nYeniden üretilebilir context pack.\n4  Prompt Amaç–veri–bağlam–kural–çıktı–doğrulama \nyaz.\nGörev sözleşmesi.\n5  Aday AI analizi, screening veya kural taslağı \nüretir.\nKarar olmayan aday çıktı.\n6  İnsan denetimi Kaynak, karşı kanıt, eksik veri ve yetkiyi \nkontrol et.\nKabul / düzelt / reddet.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Birden fazla modelin ortalaması “gerçek fair value”yu verir.",
+      "Gerçeklik: Model çeşitliliği yararlı olabilir; fakat ortak yanlış varsayım, veri hatası ve rejim değişimi ortalamada kaybolmaz.",
+      "Uygulama Görseli 16.6 – Bir fair value ekranında model isimleri, tahmin aralığı, rapor dönemi, varsayımlar ve piyasa fiyatının ayrı gösterimi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0348",
+    "page": 348,
+    "chapter": 16,
+    "section": "16.15 — Tam AI–Pine–Araştırma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  333\nAşama Eylem Çıktı\n7  Pine spec Artifact, inputs, state, event, output ve \ntests yaz.\nKodlanabilir gereksinim.\n8  Kod / debug Minimal modül, trace, compile ve semantic \ntest.\nSürümlü çalışan aday.\n9  Doğrulama Replay, backtest, maliyet, benchmark ve \npaper test.\nKanıt paketi.\n10  Karar No-trade, izleme, küçük ölçek veya red. Risk onaylı insan kararı.\n11  Kayıt Prompt, kaynak, kod diff, ayar ve sonuç. Audit trail ve sonraki iyileştirme.\nTablo 16.15 – Tam AI–Pine–araştırma iş akışı\nXAGTRYG TAM VAKA AKIŞI\n• Soru: Düşüş trendindeki %5–%10 tepki hareketini erken ama kurallı yakalayan aday motor hangi \nolayları izlemeli?\n• Kaynak: Bölüm 3–7 yapı/hacim kuralları, XAGTRYG 2S OHLC ve mevcut indikatör sürümü.\n• Prompt: AI’dan kod değil, aday–onay–bozulma kural tablosu ve belirsizlik listesi isterim.\n• Pine spec: Yalnız kapanmış bar, protected low, seller weakness, displacement ve micro CHoCH \nolayları.\n• Kod: Her olay için reason code ve decision trace üretir; canlı AL emri üretmez.\n• Test: Sahte dip, devam düşüşü, gap, range ve gerçek tepki senaryolarını replay’de çalıştırırım.\n• Backtest: Maliyet, horizon, max adverse excursion ve no-signal örneklerini kaydederim.\n• Karar: Kanıt yetersizse “izle / tetik bekle”; insan onayı olmadan işlem yok.\nDOĞRU BİLİNEN YANLIŞ\nMit: İyi AI iş akışının sonu otomatik işlem olmalıdır.\nGerçeklik: En değerli çıktı bazen daha iyi soru, açık no-trade koşulu, hata kanıtı veya reddedilmiş \nmodeldir.",
+    "source_extract_summary": [
+      "Aşama Eylem Çıktı 7 Pine spec Artifact, inputs, state, event, output ve tests yaz.",
+      "8 Kod / debug Minimal modül, trace, compile ve semantic test.",
+      "9 Doğrulama Replay, backtest, maliyet, benchmark ve paper test."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Deney ve strateji kartı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0349",
+    "page": 349,
+    "chapter": 16,
+    "section": "16.15 — Tam AI–Pine–Araştırma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  334\nUygulama Görseli 16.7 – Bölüm 16 tam ekran serisi: araştırma sorusu  kaynak tablosu  prompt  Pine→ → →  \nspec  kod diff  replay/backtest  paper  karar günlüğü. Temsilî eğitim şeması.→ → → →\nHızlı Başvuru\nSorun İlk kontrol Varsayılan eylem\nAI kesin sinyal veriyor Veri, TF, karşı senaryo Koşullu rapor iste; emir verme.\nKod derleniyor ama sinyal erken Bar close, MTF, pivot/lookahead Replay + debug trace.\nGeçmiş sonuç aşırı iyi Repaint, maliyet, dönem seçimi Test sözleşmesini yeniden kur.\nAI “canlı veri” diyor Kaynak ve timestamp Bağımsız veriyle doğrula.\nScreener çok aday üretiyor Evren ve kriter görevi Kriteri azalt; neden seçildi tablosu.\nÜnlü yatırımcı hissesi görüldü Rapor dönemi ve ağırlık Kör kopyalama yok; kendi tezini kur.\nFair value tek sayı Model ve varsayımlar Senaryo aralığı ve kaynak iste.\nDebug değişikliği çok geniş Minimal örnek ve kök neden Tek patch + regresyon.\nEntegrasyon fazla izin istiyor Okuma/yazma/emir yetkisi Minimum izin veya kullanma.\nTablo 16.16 – AI/Pine hızlı sorun çözme\nAI, Kod ve Araştırma Kontrol Listesi\n Görev türü analiz, kod, debug, screening veya araştırma olarak adlandırıldı.\n Sembol, feed, timeframe, dönem, veri zamanı ve eksikler context pack içinde.\n Prompt amaç, veri, bağlam, kural, çıktı ve doğrulama parçalarını içeriyor.\n AI cevabı gözlem, hesap, varsayım ve öneri olarak ayrıldı.\n Koddan önce objektif strateji ve Pine gereksinim sözleşmesi tamamlandı.\n Compile sonrası bar close, MTF, state, repaint, lookahead ve order semantiği test edildi.\n Debug kaydında beklenen, gözlenen, yeniden üretme ve tek değişiklik var.",
+    "source_extract_summary": [
+      "Uygulama Görseli 16.7 – Bölüm 16 tam ekran serisi: araştırma sorusu kaynak tablosu prompt Pine→ → → spec kod diff replay/backtest paper karar günlüğü.",
+      "Temsilî eğitim şeması.→ → → → Hızlı Başvuru Sorun İlk kontrol Varsayılan eylem AI kesin sinyal veriyor Veri, TF, karşı senaryo Koşullu rapor iste; emir verme.",
+      "Kod derleniyor ama sinyal erken Bar close, MTF, pivot/lookahead Replay + debug trace."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0350",
+    "page": 350,
+    "chapter": 16,
+    "section": "16.15 — Tam AI–Pine–Araştırma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  335\n Backtestte maliyet, benchmark, drawdown, örneklem, rejim ve out-of-sample kontrol \nedildi.\n Screening ve değerleme çıktısında kaynak, timestamp, rapor dönemi ve model açık.\n Kurumsal holding verisi canlı portföy gibi yorumlanmadı.\n Entegrasyon minimum izin, sandbox/paper, kill switch ve log ile sınırlandı.\n Son karar yazılı risk ve insan onay kapısından geçti.\nTemel Sözlük\nTerim Aksiyon tanımı\nAI assistant Analiz veya üretimi hızlandırır; son kararı ve sorumluluğu \ndevralmaz.\nPrompt Amaç, veri, bağlam, kural, çıktı ve doğrulamayı tek görev \nsözleşmesinde yazmak.\nContext pack Sembol, timeframe, veri, kural, sürüm ve örnekleri birlikte \nsunmak.\nPine Script TradingView’de kuralları hesap, görsel, alarm veya strateji \nsimülasyonuna çevirmek.\nCompile Kodun dil/sentaks kurallarına uygunluğunu kontrol etmek.\nSemantic test Kodun yazılı kuralı doğru veri ve zamanda uyguladığını sınamak.\nRepaint Geçmiş sinyal veya görselin yeni veriyle değişmesi.\nLookahead / future leak Karar anında bilinmeyen gelecekteki veriyi testte kullanmak.\nState Aday, onay, bozulma ve hafıza bilgisini barlar arasında taşımak.\nDebug trace Hata sırasında koşul, neden ve durum geçişini görünür kaydetmek.\nRegression test Düzeltmeden sonra eski doğru davranışların bozulmadığını \nsınamak.\nBacktest Kuralları geçmiş veri üzerinde çalıştırıp dağılım ve risk ölçmek.\nOut-of-sample Kuralın geliştirilmediği ayrı veri döneminde test etmek.\nScreening Varlık evrenini ölçütlerle daraltıp araştırma adayları üretmek.\nFiling / public holding Belirli rapor döneminde açıklanmış kurumsal pozisyon belgesi.\nFair value estimate Model ve varsayımlara bağlı tahmini değer çıktısı.\nModel risk Veri, varsayım, yöntem veya rejim nedeniyle modelin yanıltma \nriski.\nIntegration Uygulamalar arasında veri/komut akışı kurup izin ve güvenlik sınırı \nbelirlemek.\nKill switch Otomasyon veya bağlantıyı hızlı ve güvenli biçimde durdurmak.\nAudit trail Kaynak, prompt, sürüm, değişiklik, test ve karar zincirini saklamak.\nTablo 16.17 – Bölüm 16 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. AI neden oracle veya bağımsız karar verici değildir?\n2. AI-assisted ve autonomous workflow nasıl ayrılır?",
+    "source_extract_summary": [
+      " Backtestte maliyet, benchmark, drawdown, örneklem, rejim ve out-of-sample kontrol edildi.",
+      " Screening ve değerleme çıktısında kaynak, timestamp, rapor dönemi ve model açık.",
+      " Kurumsal holding verisi canlı portföy gibi yorumlanmadı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0351",
+    "page": 351,
+    "chapter": 16,
+    "section": "16.15 — Tam AI–Pine–Araştırma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 16\nYapay Zekâ, Pine Script ve Araştırma Araçları  •  336\n3. Yetki arttıkça hangi güvenlik katmanları artmalıdır?\n4. Prompt görev sözleşmesinin altı parçası nedir?\n5. Context pack hangi bilgileri içermelidir?\n6. Canlı veri etiketi neden tek başına doğruluk kanıtı değildir?\n7. AI grafik analizinde neden ikinci okuyucu olarak kullanılmalıdır?\n8. MTF bağlamı eksik prompt hangi hatayı üretir?\n9. Belirsiz strateji fikri nasıl objektif kurala çevrilir?\n10. Koddan önce AI’ya neden belirsizlik tablosu hazırlatılır?\n11. Pine indicator ile strategy hangi görevlerde ayrılır?\n12. Pine gereksinim sözleşmesinde state neden bulunmalıdır?\n13. Compile ile semantic test arasındaki fark nedir?\n14. Açık bar ve kapanmış bar semantiği alarmı nasıl etkiler?\n15. MTF çağrısında tamamlanmamış üst zaman verisi neden risklidir?\n16. Repaint ile gecikmeli onay nasıl ayrılır?\n17. Lookahead veya future leak geçmiş sonucu nasıl şişirir?\n18. Debug olay kartında hangi alanlar bulunur?\n19. Minimal patch ve regresyon neden birlikte gerekir?\n20. Yüksek backtest getirisi görülünce ilk hangi sorular sorulur?\n21. Benchmark ve maliyet neden zorunludur?\n22. Out-of-sample test hangi riski azaltır?\n23. Üçüncü taraf entegrasyonda minimum izin ne demektir?\n24. Alarm ile gerçek emir arasında neden insan kapısı korunur?\n25. AI screening karar değil neden aday üretimidir?\n26. Eksik veri screener sonucunda nasıl ele alınmalıdır?\n27. Ünlü yatırımcı portföyü neden canlı emir listesi değildir?\n28. Fair value neden tek gerçek değer değildir?\n29. Hazır AI stratejisinde model riski nasıl denetlenir?\n30. Tam AI–Pine–araştırma iş akışının aşamaları nelerdir?\n31. Audit trail hangi kanıtları saklamalıdır?32. Bölüm 16’nın Bölüm 17 ve 18’e bıraktığı konular nelerdir?",
+    "source_extract_summary": [
+      "Yetki arttıkça hangi güvenlik katmanları artmalıdır?",
+      "Prompt görev sözleşmesinin altı parçası nedir?",
+      "Context pack hangi bilgileri içermelidir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gereksinim, semantik test ve sürümleme",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "Araştırma doğrulama ve future-leak denetimi",
+      "Kuralı önceden tanımlanmış konum/geometri adayları",
+      "Deney ve strateji kartı"
+    ]
+  }
+]

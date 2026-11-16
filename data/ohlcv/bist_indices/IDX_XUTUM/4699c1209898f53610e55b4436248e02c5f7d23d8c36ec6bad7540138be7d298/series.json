@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "IDX_XUTUM",
+  "symbol": "XUTUM.IS",
+  "category": "bist_index",
+  "asset_type": "index",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "4699c1209898f53610e55b4436248e02c5f7d23d8c36ec6bad7540138be7d298"
+}

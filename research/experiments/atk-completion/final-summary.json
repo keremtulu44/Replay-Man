@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "packages_complete": 16,
+  "pages": 530,
+  "atomic_claims": 1506,
+  "atk_rules": 15,
+  "cross_book_links": 1057,
+  "cross_book_rules_total": 71,
+  "new_zone_events": 250809,
+  "unresolved_claims": 0,
+  "external_data_contracts": [
+    "rates_bonds",
+    "fundamentals",
+    "crypto_derivatives",
+    "options",
+    "arbitrage_execution"
+  ],
+  "ob_fvg": "deferred_ob_fvg",
+  "execution_portfolio": "deferred_execution_portfolio",
+  "software_tests": "72 passed",
+  "knowledge_audit": "passed",
+  "ohlcv_audit": "passed"
+}

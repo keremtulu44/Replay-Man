@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "FX_USDTRY",
+  "symbol": "TRY=X",
+  "category": "fx",
+  "asset_type": "fx",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "1f0e0a32d44b0ba10e84550435d6799e209bad41066702f7b966111973e20f3f"
+}

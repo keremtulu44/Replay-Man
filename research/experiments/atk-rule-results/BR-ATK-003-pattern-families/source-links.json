@@ -1,0 +1,353 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0110",
+    "page": 110,
+    "chapter": 6,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 6\nMum ve Grafik Formasyonları",
+    "source_extract_summary": [
+      "BÖLÜM 6 Mum ve Grafik Formasyonları"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": []
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0111",
+    "page": 111,
+    "chapter": 6,
+    "section": "6.1 — Formasyonları Okuma Standardı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  96\nŞekli Görmek Yetmez: Formasyonun \nTamamlandığını Kanıtlamak\nGrafikte insan zihninin şekil bulması kolaydır. Zor olan, görülen şeklin gerçekten \ntanımlı bir piyasa davranışını temsil edip etmediğini, henüz oluşum aşamasında mı \nyoksa tamamlanmış mı olduğunu ve kırılımın kabul mü yoksa başarısızlık mı \nürettiğini ayırmaktır.\nBu bölümde mum ve grafik formasyonlarını ezber listesi olarak değil, önceki \nhareketten başlayan ve teyit–geçersizlik aşamaları bulunan koşullu senaryolar \nolarak ele alacağız. Önceki bölümlerde kurulan mum psikolojisi, market structure, \nönemli bölge ve likidite bilgisi burada tek bir uygulama dilinde birleşecektir.\nBU BÖLÜMÜN SONUNDA\nBir formasyonun yalnız aday mı yoksa tamamlanmış mı olduğunu ayırabilecek; benzer mum \nşekillerini önceki trende göre adlandırabilecek; neckline ve pattern boundary kırılımını kapanış–\ntakiple değerlendirecek; measured move hedefini garanti değil planlama aracı olarak \nkullanabilecek; fakeout ve otomatik tespit hatalarını filtreleyebileceksiniz.\n6.1 Formasyonları Okuma Standardı\nMum formasyonu, çoğunlukla bir ile beş mum arasındaki kısa fiyat dizisidir. Grafik formasyonu ise \nbirden fazla swing’den oluşur ve çoğu zaman daha uzun bir zaman dilimini kapsar. İkisi de geleceği \nkesin tahmin etmez; yalnız belirli davranışın devam veya dönüş olasılığını yapılandırır.\nÖlçüt Mum formasyonu Grafik formasyonu\nÖlçek Bir veya birkaç mum; mikro \nprice action.\nBirden fazla swing; daha geniş \nyapı.\nTemel soru Kontrol hangi tarafta ve \ndeğişiyor mu?\nFiyat hangi sınırlar arasında \nsıkışıyor veya dağılıyor?\nTamamlanma Son mumun kapanışı ve \nbağlam teyidi.\nNeckline, trend sınırı veya \nyatay sınırın kırılması.\nGeçersizlik Formasyon ekstremi veya \nbağlamın bozulması.\nKırılımın geri alınması, karşı \nsınırın kırılması veya yapının \nşekil özelliğini kaybetmesi.\nTipik hata Mum adını görünce hemen \ngiriş yapmak.\nKırılım olmadan formasyonu \ntamamlanmış saymak.",
+    "source_extract_summary": [
+      "Şekli Görmek Yetmez: Formasyonun Tamamlandığını Kanıtlamak Grafikte insan zihninin şekil bulması kolaydır.",
+      "Zor olan, görülen şeklin gerçekten tanımlı bir piyasa davranışını temsil edip etmediğini, henüz oluşum aşamasında mı yoksa tamamlanmış mı olduğunu ve kırılımın kabul mü yoksa başarısızlık mı ürettiğini ayırmaktır.",
+      "Bu bölümde mum ve grafik formasyonlarını ezber listesi olarak değil, önceki hareketten başlayan ve teyit–geçersizlik aşamaları bulunan koşullu senaryolar olarak ele alacağız."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0112",
+    "page": 112,
+    "chapter": 6,
+    "section": "6.2 — Tek Mumlu Dönüş Ailesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  97\nTablo 6.1 – Mum ve grafik formasyonlarının görev ayrımı\nAday, tamamlanmış ve başarısız\n Aday formasyon: Şeklin çoğu oluşmuştur; fakat tamamlanma sınırı henüz kırılmamıştır.\n Tamamlanmış formasyon: Gerekli mum kapanışı veya yapı sınırı kırılımı gerçekleşmiştir.\n Teyitli formasyon: Kırılım yönünde follow-through, retest korunumu veya \nhacim/momentum desteği görülmüştür.\n Başarısız formasyon: Kırılım geri alınmış, karşı sınır bozulmuş veya beklenen takip \noluşmamıştır.\nANA ILKE\nFormasyon adı analiz cümlesinin sonu değil, başlangıcıdır. “OBO var” yerine “OBO adayı oluşuyor; \nneckline altında kapanış ve takip gelirse aşağı yönlü senaryo aktifleşir” denmelidir.\n6.2 Tek Mumlu Dönüş Ailesi\nHammer, inverted hammer, hanging man ve shooting star çoğu zaman benzer gövde–fitil \ngeometrilerine sahiptir. Adı belirleyen temel unsur, şeklin kendisinden önce gelen hareket ve \nbulunduğu bölgedir. Aynı uzun alt fitilli mum düşüş sonunda hammer, yükseliş sonunda hanging man \nolarak okunabilir.\nŞekil 6.1 – Tek mumlu formasyonlarda geometri kadar önceki hareket de önemlidir.\nFormasyon Gerekli bağlam Ana geometri Teyit beklentisi\nÇekiç / Hammer Belirgin düşüş veya \npullback sonu; tercihen \nsupport/demand.\nKüçük gövde, \ngövdenin en az iki \nkatı alt fitil, sınırlı üst \nfitil.\nSonraki mumda high \nüstü kabul veya bullish \nmomentum.\nTers çekiç / Inverted \nHammer\nDüşüş sonu. Küçük gövde, uzun \nüst fitil, sınırlı alt fitil.\nÜst denemenin \nsonraki mumda \ndevam edip etmediği.",
+    "source_extract_summary": [
+      " Tamamlanmış formasyon: Gerekli mum kapanışı veya yapı sınırı kırılımı gerçekleşmiştir.",
+      " Teyitli formasyon: Kırılım yönünde follow-through, retest korunumu veya hacim/momentum desteği görülmüştür.",
+      " Başarısız formasyon: Kırılım geri alınmış, karşı sınır bozulmuş veya beklenen takip oluşmamıştır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0113",
+    "page": 113,
+    "chapter": 6,
+    "section": "6.3 — Engulfing, Piercing ve Dark Cloud",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  98\nFormasyon Gerekli bağlam Ana geometri Teyit beklentisi\nAsılı adam / Hanging \nMan\nYükseliş veya uzamış \nrally sonu; resistance \nçevresi.\nHammer ile aynı şekil. Formasyon low’unun \nkırılması veya bearish \ntakip.\nKayan yıldız / \nShooting Star\nYükseliş veya pullback \nsonu; \nresistance/supply.\nKüçük gövde, uzun \nüst fitil, sınırlı alt fitil.\nSonraki mumda low \naltı kabul veya bearish \nmomentum.\nTablo 6.2 – Tek mumlu dönüş ailesinin bağlamla ayrılması\nRenk ikincil, kapanış konumu birincildir\nHammer’ın yeşil veya kırmızı, shooting star’ın kırmızı veya yeşil olması geometrik geçerliliği tek başına \nbozmaz. Bununla birlikte kapanışın formasyon aralığının beklenen tarafında bulunması kontrol \ntransferini güçlendirir. Uzun fitil yalnız reddi kaydeder; reddin kalıcı dönüşe dönüşmesi sonraki \nmumların işidir.\nYAYGIN HATA\nGrafiğin ortasında oluşan uzun fitilli her mumu dönüş sinyali saymak. Formasyonun değeri, önceki \nyönlü hareketin sonunda ve önemli bir bölgede oluştuğunda artar.\n6.3 Engulfing, Piercing ve Dark Cloud\nBu ailede ana fikir fitil değil, gövde üzerinden kontrol transferidir. İkinci mum önceki mumun \ngövdesinin önemli bölümünü geri alır. Farklı piyasalarda gap şartı değişebileceği için kesintisiz işlem \ngören ürünlerde açılış konumundan çok gövdenin ne kadar geri alındığı ve mumun nerede kapandığı \nizlenmelidir.\nYapı Tanıma ölçütü Piyasa hikâyesi Zayıflatan unsur\nBullish engulfing Düşüş sonrası bullish \ngövde, önceki bearish \ngövdeyi tamamen \nkapsar.\nSatıcıların son \nmumdaki alanı alıcılar \ntarafından geri alınır.\nDar ikinci gövde, üst \nfitil ve takip eksikliği.\nBearish engulfing Yükseliş sonrası \nbearish gövde, önceki \nbullish gövdeyi \ntamamen kapsar.\nAlıcıların son \nmumdaki alanı \nsatıcılar geri alır.\nAlt fitil, zayıf close ve \nsonraki bullish geri \nalma.\nPiercing pattern Düşüş sonrası ikinci \nbullish mum, ilk \nbearish gövdenin en \naz orta noktasının \nüzerinde kapanır.\nTam yutma yoktur; \nfakat belirgin geri \nalma vardır.\nOrta noktanın altında \nclose veya resistance’a \nçok yakın hedef.",
+    "source_extract_summary": [
+      "Formasyon Gerekli bağlam Ana geometri Teyit beklentisi Asılı adam / Hanging Man Yükseliş veya uzamış rally sonu; resistance çevresi.",
+      "Formasyon low’unun kırılması veya bearish takip.",
+      "Kayan yıldız / Shooting Star Yükseliş veya pullback sonu; resistance/supply."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0114",
+    "page": 114,
+    "chapter": 6,
+    "section": "6.4 — Yıldız, Island ve Yuvarlak Dönüş Yapıları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  99\nYapı Tanıma ölçütü Piyasa hikâyesi Zayıflatan unsur\nDark cloud cover Yükseliş sonrası ikinci \nbearish mum, ilk \nbullish gövdenin orta \nnoktasının altına \nkapanır.\nAlıcı ivmesinin \nsatıcılarca önemli \nölçüde geri alınması.\nOrta nokta üzerinde \nclose veya güçlü trend \nfollow-through.\nTablo 6.3 – Gövde üzerinden kontrol transferi formasyonları\nEngulfing fitilleri kapsamak zorunda mı?\nKlasik engulfing tanımında gövdelerin kapsanması temel ölçüttür; fitillerin tamamen kapsanması \nzorunlu değildir. Ancak ikinci mumun karşı yöndeki uzun fitili, görünürdeki gövde üstünlüğünün gün \niçinde sınandığını gösterir ve kaliteyi azaltabilir.\nBAĞLAM FILTRESI\nBullish engulfing düşüş hareketinin sonunda support/demand veya sweep sonrası; bearish \nengulfing ise yükseliş sonunda resistance/supply veya üst likidite aşımı sonrası daha anlamlıdır.\n6.4 Yıldız, Island ve Yuvarlak Dönüş Yapıları\nBazı dönüşler tek mumda değil, momentumun aşamalı kaybı ve karşı tarafın kontrolü ele almasıyla \noluşur. Morning/evening star üç mumluk hızlı kontrol değişimini; island reversal gerçek fiyat \nboşluklarıyla ayrılmış kısa bir ada yapısını; frying pan veya dumpling top ise daha uzun süreli yuvarlak \nmomentum dönüşünü temsil eder.\nYapı Kurulum Tamamlanma Ana risk\nMorning star Güçlü bearish mum + \nküçük/kararsız mum + \ngüçlü bullish mum.\nÜçüncü mumun ilk \ngövdenin orta \nnoktasını aşması; \ntercihen gap ve \nfollow-through.\nKesintisiz piyasalarda \ngap arayarak iyi \nyapıları gereksiz \nelemek.\nEvening star Güçlü bullish mum + \nküçük/kararsız mum + \ngüçlü bearish mum.\nÜçüncü mumun ilk \ngövdenin orta \nnoktasının altına \nkapanması.\nTrend çok güçlüyken \ntek üçlü yapıyla dönüş \nvarsaymak.\nIsland reversal İlk gap ile ayrılan kısa \nfiyat adası ve karşı \nyönde ikinci gap.\nİkinci gap’in adayı \nizole etmesi ve karşı \nyönde kabul.\nDüşük likidite veya veri \nboşluğunu gerçek \ndönüş sanmak.\nFrying pan / \nDumpling top\nYuvarlak dip/tepe, \nküçülen momentum, \nkararsızlık mumları ve \nson güçlü gap/kırılım.\nTaban/tavanın \nsınırından güçlü \nayrılma.\nŞekli tamamlanmadan \nyuvarlaklık tahmini \nyapmak.",
+    "source_extract_summary": [
+      "Yapı Tanıma ölçütü Piyasa hikâyesi Zayıflatan unsur Dark cloud cover Yükseliş sonrası ikinci bearish mum, ilk bullish gövdenin orta noktasının altına kapanır.",
+      "Alıcı ivmesinin satıcılarca önemli ölçüde geri alınması.",
+      "Orta nokta üzerinde close veya güçlü trend follow-through."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Mum geometrisi ve davranış özellikleri",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Hareket gücü özellik ailesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0115",
+    "page": 115,
+    "chapter": 6,
+    "section": "6.5 — Devam Mumları ve Inside Bar",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  100\nTablo 6.4 – Çok mumlu dönüş yapıları\nŞekil 6.2 – Yuvarlak dönüş yapılarında tek mumdan çok momentumun zaman içindeki değişimi izlenir.\nGAP BAĞLANTISI\nIsland reversal ve bazı yıldız yapıları gerçek gap içerir. Gap türünün breakaway mi exhaustion mı \nolduğu Bölüm 5’teki konum, hacim ve takip ölçütleriyle birlikte değerlendirilmelidir.\n6.5 Devam Mumları ve Inside Bar\nDevam mumları, mevcut trendin geçici bir dinlenme veya karşı yönlü zayıf tepki sonrasında yeniden \ngüç kazanabileceğini gösterir. Rising/falling three methods güçlü mum–küçük karşı mumlar–güçlü \ndevam mumu dizisini; separating lines karşı yöndeki tuzak denemesinin trend yönünde geri \nalınmasını; inside bar ise mother bar içinde daralan fiyat aralığını temsil eder.\nYapı Önceki bağlam Geometri Tamamlanma\nRising three methods Uptrend veya bullish \nimpulse.\nGüçlü bullish mum, \nçoğunlukla ilk mum \naralığında kalan üç \nküçük bearish mum, \ngüçlü bullish devam \nmumu.\nSon mumun ilk \nmomentum mumunun \nhigh’ını aşması tercih \nedilir.\nFalling three methods Downtrend veya \nbearish impulse.\nGüçlü bearish mum, \nçoğunlukla ilk mum \naralığında kalan üç \nküçük bullish mum, \ngüçlü bearish devam \nmumu.\nSon mumun ilk \nmomentum mumunun \nlow’unu aşması tercih \nedilir.",
+    "source_extract_summary": [
+      "GAP BAĞLANTISI Island reversal ve bazı yıldız yapıları gerçek gap içerir.",
+      "Gap türünün breakaway mi exhaustion mı olduğu Bölüm 5’teki konum, hacim ve takip ölçütleriyle birlikte değerlendirilmelidir.",
+      "6.5 Devam Mumları ve Inside Bar Devam mumları, mevcut trendin geçici bir dinlenme veya karşı yönlü zayıf tepki sonrasında yeniden güç kazanabileceğini gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0116",
+    "page": 116,
+    "chapter": 6,
+    "section": "6.6 — Double ve Triple Top–Bottom",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  101\nYapı Önceki bağlam Geometri Tamamlanma\nSeparating lines Trend içinde güçlü \nkarşı mumla kısa süreli \nşüphe.\nKarşı mumun \nardından trend \nyönünde güçlü mum; \naçılışlar birbirine yakın \nolabilir.\nTrend yönündeki \nmumun karşı mumu \ngeri alması ve takip.\nInside bar Trend, range sınırı \nveya önemli bölge.\nInside bar high ve \nlow’u mother bar \naralığının içindedir.\nMother bar sınırının \nkapanışla kırılması; \nyön önceden kesin \ndeğildir.\nTablo 6.5 – Devam mumları ve inside bar\nInside bar nötr sıkışmadır\nInside bar kendi başına bullish veya bearish değildir. Trend yönünde devam, önemli bölgede dönüş \nveya range içinde anlamsız gürültü üretebilir. Mother bar çok genişse doğrudan sınır kırılımında giriş \ngeniş stop gerektirebilir; daha seçici yaklaşım, kırılım sonrası acceptance veya retest beklemektir.\nFALSE BREAKOUT RISKI\nInside bar sınırı intrabar aşılıp mother bar içine geri kapanıyorsa tetiklenen emirlerin ters yönde \nsıkıştığı bir fakeout oluşabilir. Açık mumla karar vermek bu nedenle özellikle risklidir.\n6.6 Double ve Triple Top–Bottom\nDouble top ve double bottom, fiyatın aynı bölgeyi ikinci kez test etmesine rağmen yeni yönlü ilerleme \nüretemediğini gösteren dönüş adaylarıdır. Triple yapılar aynı mantığı üçüncü testle genişletir. Tepelerin \nveya diplerin kusursuz eşit olması gerekmez; aynı karar bölgesi içinde bulunmaları yeterlidir.",
+    "source_extract_summary": [
+      "Yapı Önceki bağlam Geometri Tamamlanma Separating lines Trend içinde güçlü karşı mumla kısa süreli şüphe.",
+      "Karşı mumun ardından trend yönünde güçlü mum; açılışlar birbirine yakın olabilir.",
+      "Trend yönündeki mumun karşı mumu geri alması ve takip."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0117",
+    "page": 117,
+    "chapter": 6,
+    "section": "6.7 — OBO ve TOBO",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  102\nŞekil 6.3 – Double/triple ve TOBO yapılarında boyun çizgisi kırılmadan formasyon tamamlanmış sayılmaz.\nYapı Adayı oluşturan Tamamlanma sınırı Ölçüm\nDouble top Yükseliş sonrası aynı \nresistance çevresinde \niki tepe ve arada \nswing low.\nAradaki swing low / \nneckline altında \nkapanış.\nTepe–boyun yüksekliği \nkırılım noktasından \naşağı projekte edilir.\nDouble bottom Düşüş sonrası aynı \nsupport çevresinde iki \ndip ve arada swing \nhigh.\nAradaki swing high / \nneckline üstünde \nkapanış.\nBoyun–dip yüksekliği \nkırılım noktasından \nyukarı projekte edilir.\nTriple top/bottom Aynı bölgenin üç \ntestte de kalıcı \naşılmaması.\nOrtak neckline veya \nrange sınırının \nkırılması.\nRange yüksekliği \nyardımcı measured \nmove olarak kullanılır.\nTablo 6.6 – Double ve triple yapıların tamamlanması\nİkinci test daha güçlü de olabilir\nİkinci tepenin ilk tepeyi kısa süre aşması formasyonu otomatik bozmaz; fiyat hızla geri dönüp \nneckline’ı kırarsa bu hareket liquidity sweep veya failure test özelliği taşıyabilir. Buna karşılık ikinci \ntepe üzerinde gövdeli kapanışlar ve kabul oluşursa double top tezi zayıflar.\nEN SIK HATA\nİkinci tepe veya dip oluşur oluşmaz ters yöne işlem açmak. Bu aşamada yalnız dönüş adayı vardır; \nneckline kırılmadan yapı range veya trend devamı olarak kalabilir.\n6.7 OBO ve TOBO\nOmuz–Baş–Omuz (OBO) yükseliş sonrası; Ters Omuz–Baş–Omuz (TOBO) düşüş sonrası görülen üç \nswing’li dönüş yapılarıdır. Baş, iki omuzdan daha ekstremdir. Sağ omzun sol omuzla aynı fiyatta olması \nşart değildir; önemli olan başın ardından karşı tarafın daha ileri fiyat üretememesi ve neckline’ın \nkırılmasıdır.\nBileşen OBO TOBO\nÖnceki hareket Yükseliş / uzamış bullish \nhareket.\nDüşüş / uzamış bearish \nhareket.\nSol omuz İlk belirgin tepe ve düzeltme. İlk belirgin dip ve tepki.\nBaş Daha yüksek tepe. Daha düşük dip.\nSağ omuz Baş high’ını aşamayan daha \ndüşük/benzer tepe.\nBaş low’unu aşamayan daha \nyüksek/benzer dip.\nNeckline İki ara dipten geçen düz veya \neğimli sınır.\nİki ara tepeden geçen düz veya \neğimli sınır.",
+    "source_extract_summary": [
+      "Yapı Adayı oluşturan Tamamlanma sınırı Ölçüm Double top Yükseliş sonrası aynı resistance çevresinde iki tepe ve arada swing low.",
+      "Aradaki swing low / neckline altında kapanış.",
+      "Tepe–boyun yüksekliği kırılım noktasından aşağı projekte edilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0118",
+    "page": 118,
+    "chapter": 6,
+    "section": "6.8 — Bayrak ve Flama",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  103\nBileşen OBO TOBO\nTamamlanma Neckline altında close ve takip. Neckline üstünde close ve \ntakip.\nTablo 6.7 – OBO ve TOBO bileşenleri\nYapısal anlam\nOBO, higher high sonrasında sağ omuzda yeni high üretilememesini ve neckline kırılımıyla yükseliş \ndizisinin bozulmasını görünür kılar. TOBO bunun tersidir. Bu nedenle formasyon, Bölüm 3’teki trend \nzayıflaması ve CHoCH mantığının görsel bir düzenidir; ondan bağımsız sihirli bir şekil değildir.\nNECKLINE EĞIMI\nEğimli neckline geçerlidir; ancak kırılım noktasını ve measured move yüksekliğini değiştirir. Çok dik \nneckline veya aşırı asimetrik omuzlar, formasyonun okunabilirliğini azaltır.\n6.8 Bayrak ve Flama\nBayrak ve flama, güçlü yönlü hareketten sonra oluşan kısa süreli konsolidasyonlardır. İlk hareket \n“direk”tir. Bayrakta fiyat yaklaşık paralel sınırlar içinde; flamada ise daralan küçük üçgen içinde \ndinlenir. Formasyonun kalitesi, direğin gücü kadar konsolidasyonun kontrollü ve görece sığ olmasına \nbağlıdır.\nŞekil 6.4 – Bayrakta paralel kanal, flamada daralan sınırlar bulunur; ikisinde de güçlü bir direk gerekir.\nÖlçüt Güçlü yapı Uyarı\nDirek Geniş gövdeler, az overlap, \nbelirgin displacement.\nYavaş ve parçalı \nyükseliş/düşüş.\nDüzeltme derinliği Direğe göre sınırlı ve karşı \nmomentum zayıf.\nDireğin büyük bölümünü geri \nalan sert düzeltme.\nSüre Direkten belirgin biçimde kısa. Uzun süreli range’e dönüşen \nkonsolidasyon.",
+    "source_extract_summary": [
+      "Bileşen OBO TOBO Tamamlanma Neckline altında close ve takip.",
+      "Bu nedenle formasyon, Bölüm 3’teki trend zayıflaması ve CHoCH mantığının görsel bir düzenidir; ondan bağımsız sihirli bir şekil değildir.",
+      "NECKLINE EĞIMI Eğimli neckline geçerlidir; ancak kırılım noktasını ve measured move yüksekliğini değiştirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0119",
+    "page": 119,
+    "chapter": 6,
+    "section": "6.9 — Üçgen Ailesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  104\nÖlçüt Güçlü yapı Uyarı\nSınırlar Bayrakta paralel; flamada \nyakınsayan.\nZorlanmış çizgiler ve çok sayıda \nanlamsız temas.\nKırılım Trend yönünde güçlü close, \nhacim/momentum ve takip.\nFitil aşımı, zayıf body ve hemen \ngeri dönüş.\nTablo 6.8 – Bayrak ve flama kalite ölçütleri\nYÖN KURALI\nBoğa bayrağı ve flaması yükseliş direğinden, ayı bayrağı ve flaması düşüş direğinden sonra aranır. \nDirek yoksa görülen küçük kanal veya üçgen tek başına bayrak/flama değildir.\n6.9 Üçgen Ailesi\nÜçgenler volatilitenin ve swing aralığının daraldığı sıkışma yapılarıdır. Yükselen üçgende yaklaşık yatay \nresistance’a doğru higher low’lar; alçalan üçgende yaklaşık yatay support’a doğru lower high’lar \noluşur. Simetrik üçgende iki sınır da yakınsar ve yön daha belirsizdir.\nŞekil 6.5 – Üçgen ve kama ailelerinde sınır eğimleri yalnız ilk ipucudur; yönü kırılım davranışı belirler.\nTür Yapı Ön eğilim Teyit\nYükselen üçgen Yatay resistance + \nyükselen dipler.\nYukarı baskı artabilir; \nfakat aşağı kırılım \nmümkündür.\nResistance üstü close, \nmomentum ve kabul.\nAlçalan üçgen Yatay support + \nalçalan tepeler.\nAşağı baskı artabilir; \nfakat yukarı kırılım \nmümkündür.\nSupport altı close, \nmomentum ve kabul.\nSimetrik üçgen Alçalan tepeler + \nyükselen dipler.\nÖnceki trend yönünde \ndevam eğilimi olabilir; \ngaranti değildir.\nKırılan sınır, close, \nfollow-through ve \nretest.",
+    "source_extract_summary": [
+      "Ölçüt Güçlü yapı Uyarı Sınırlar Bayrakta paralel; flamada yakınsayan.",
+      "Zorlanmış çizgiler ve çok sayıda anlamsız temas.",
+      "Kırılım Trend yönünde güçlü close, hacim/momentum ve takip."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0120",
+    "page": 120,
+    "chapter": 6,
+    "section": "6.11 — Fincan–Kulp ve Ters Yapılar",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  105\nTablo 6.9 – Üçgen ailesi\nApex’e çok yakın kırılım\nFiyat üçgenin apex noktasına kadar sıkıştığında kalan potansiyel mesafe azalabilir ve false breakout \nihtimali artabilir. Daha erken, belirgin momentumlu ve hacim destekli kırılımlar daha anlamlı olabilir. \nBununla birlikte zaman eşiği evrensel değildir; piyasa ve zaman dilimine göre test edilmelidir.\n6.10 Kama Ailesi\nKamada iki sınır aynı yöne eğilirken birbirine yaklaşır. Rising wedge’de hem high hem low yükselir; \nfakat low’lar daha hızlı yükseldiği için yapı daralır. Falling wedge’de high ve low’lar düşer; fakat \nhigh’lar daha hızlı düşerek sıkışma oluşturur.\nTür Sık görülen yorum Doğru kullanım Geçersizlik/uyarı\nYükselen kama Aşağı yönlü risk. Alt sınır kırılımı, \nbearish close ve \nfollow-through \nbeklenir. Uptrend \nsonunda reversal; \ndowntrend içinde \ncontinuation olabilir.\nÜst sınır üstünde güçlü \nkabul, bearish tezi \nbozar.\nAlçalan kama Yukarı yönlü \npotansiyel.\nÜst sınır kırılımı, \nbullish close ve follow-\nthrough beklenir. \nDowntrend sonunda \nreversal; uptrend \niçinde continuation \nolabilir.\nAlt sınır altında güçlü \nkabul, bullish tezi \nbozar.\nTablo 6.10 – Kama ailesinin koşullu yorumu\nKama ile trend channel farkı\nChannel’da sınırlar yaklaşık paraleldir; kama ise daralır. Yükselen channel içindeki her hareket rising \nwedge değildir. Zorlanmış yakınsama çizgileri çizmek, trend içindeki normal swing’leri yanlış \nformasyona dönüştürür.\nSINIFLANDIRMA NOTU\nFalling wedge bazı yaklaşımlarda yalnız continuation, bazılarında reversal formasyonu olarak \nsınıflandırılır. Kitap standardı, formasyon tipini önceki trende göre belirler ve yönü yalnız sınır \nkırılımı ile aktifleştirir.\n6.11 Fincan–Kulp ve Ters Yapılar\nFincan–kulp, güçlü yükseliş veya uzun vadeli taban sonrasında fiyatın yuvarlak bir geri çekilme ve daha \nküçük bir handle oluşturmasıyla gelişen çoğunlukla bullish yapıdır. Reverse cup-and-handle bunun",
+    "source_extract_summary": [
+      "Daha erken, belirgin momentumlu ve hacim destekli kırılımlar daha anlamlı olabilir.",
+      "Bununla birlikte zaman eşiği evrensel değildir; piyasa ve zaman dilimine göre test edilmelidir.",
+      "6.10 Kama Ailesi Kamada iki sınır aynı yöne eğilirken birbirine yaklaşır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0121",
+    "page": 121,
+    "chapter": 6,
+    "section": "6.12 — Formasyon Kırılımı ve Retest",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  106\nbearish karşılığıdır. V biçimli sert dönüşler klasik fincan geometrisine uymaz; fiyatın kademeli biçimde \nmomentum kaybetmesi beklenir.\nŞekil 6.6 – Fincan–kulp ile frying pan benzer yuvarlaklık taşır; fincan–kulpta ayrıca daha küçük bir handle \nvardır.\nBileşen Fincan–kulp Reverse fincan–kulp\nÖnceki bağlam Bullish hareket veya uzun \ntaban.\nBearish hareket veya uzun \ntavan.\nFincan Yuvarlak U biçimli düzeltme ve \neski high’a dönüş.\nTers U biçimli tepki ve eski \nlow’a dönüş.\nKulp Eski high altında daha küçük, \nçoğunlukla aşağı eğimli \nkonsolidasyon.\nEski low üstünde daha küçük, \nçoğunlukla yukarı eğimli \nkonsolidasyon.\nTamamlanma Fincan kenarı/handle \nresistance üstü close.\nFincan kenarı/handle support \naltı close.\nÖlçüm Fincan derinliği breakout’tan \nyukarı projekte edilir.\nFincan yüksekliği \nbreakdown’dan aşağı projekte \nedilir.\nTablo 6.11 – Fincan–kulp ve ters yapı\nZAMAN VE ÖLÇEK\nBu yapı çoğu zaman tek mum formasyonlarından daha uzun sürer. Formasyon büyüdükçe hedef \nmesafesi artabilir; fakat işlem süresi, volatilite ve risk de büyür.\n6.12 Formasyon Kırılımı ve Retest\nGrafik formasyonunu işlem açısından aktif hâle getiren temel olay, tanımlı sınırın kırılmasıdır. Ancak \nher aşım kaliteli breakout değildir. Kırılım mumu, kapanışın sınırdan uzaklığı, fitil, hacim, momentum, \ntrend uyumu ve sonraki mumların yeni alanda kalıp kalmadığı birlikte değerlendirilmelidir.",
+    "source_extract_summary": [
+      "V biçimli sert dönüşler klasik fincan geometrisine uymaz; fiyatın kademeli biçimde momentum kaybetmesi beklenir.",
+      "Bileşen Fincan–kulp Reverse fincan–kulp Önceki bağlam Bullish hareket veya uzun taban.",
+      "Fincan Yuvarlak U biçimli düzeltme ve eski high’a dönüş."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Mum geometrisi ve davranış özellikleri",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0122",
+    "page": 122,
+    "chapter": 6,
+    "section": "6.13 — Fakeout, Failure Test ve Bozulan",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  107\nŞekil 6.7 – Kırılım, retest ve fakeout ayrımı yeni alandaki kabul davranışıyla yapılır.\nÖlçüt Güçlü breakout Zayıf breakout / fakeout riski\nMum gövdesi Yakın geçmişe göre geniş body. Küçük body veya doji.\nKapanış Sınırın belirgin ötesinde. Sınır üzerinde/altında çok yakın \nveya eski alan içinde.\nFitil Kırılım yönündeki fitil sınırlı. Uzun karşı fitil.\nHacim Normalin üzerinde veya artan \nkatılım.\nDüşük hacim ya da hacme \nrağmen fiyat ilerleyememesi.\nTakip Sonraki mumlar yeni alanda \nkalır ve ilerler.\nHızlı geri alma ve karşı \nmomentum.\nRetest Eski sınır yeni \nsupport/resistance olarak \nkorunur.\nRetest eski alanın içine \nacceptance üretir.\nTablo 6.12 – Kırılım kalitesi\nDoğrudan kırılım mı, retest mi?\nDoğrudan breakout girişi daha erken fiyat sağlar; fakat fakeout riski yüksektir. Retest yaklaşımı daha \nfazla teyit sunar; ancak fiyat her zaman geri dönmez ve işlem kaçabilir. Bu seçim formasyonun değil, \nBölüm 12’de kurulacak strateji ve risk planının parçasıdır.\n6.13 Fakeout, Failure Test ve Bozulan \nFormasyon\nFakeout, fiyatın formasyon sınırını aşmasına rağmen yeni alanda kabul oluşturamayıp eski yapıya \ndönmesidir. Failure test, bu geri dönüşün özellikle belirgin support/resistance veya liquidity \nseviyesinde gerçekleştiği başarısız kırılım davranışıdır. Formasyonun ilk yönü başarısız olduğunda karşı \nyönlü hareket hızlanabilir; çünkü breakout trader’ların stopları ve ters pozisyon kapanışları ek akış \nüretir.",
+    "source_extract_summary": [
+      "Ölçüt Güçlü breakout Zayıf breakout / fakeout riski Mum gövdesi Yakın geçmişe göre geniş body.",
+      "Sınır üzerinde/altında çok yakın veya eski alan içinde.",
+      "Fitil Kırılım yönündeki fitil sınırlı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Göreceli katılım ve hacim özellikleri",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0123",
+    "page": 123,
+    "chapter": 6,
+    "section": "6.14 — Hedef Ölçümü, Geçersizlik ve Bağlam",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  108\nDurum Gözlenen davranış Yorum\nFitil aşımı Sınır intrabar geçilir, mum eski \nalan içinde kapanır.\nFormasyon tamamlanmamış; \nsweep/fakeout ihtimali.\nBir mumluk close, hemen geri \nalma\nİlk close dışarıda, sonraki mum \ngüçlü şekilde içeri döner.\nKırılım başarısız; yeni alanda \nacceptance yok.\nRetest başarısızlığı Fiyat kırılan sınırı koruyamaz \nve formasyon içine derin \ndöner.\nAktif formasyon zayıflar veya \ngeçersizleşir.\nKarşı sınır kırılımı İlk breakout yönü başarısız \nolur, sonra karşı sınır kırılır.\nFailed pattern; karşı yönlü \nsenaryo doğabilir.\nHedefe gitmeden range Kırılım sonrası ilerleme yok, \nmumlar sınır çevresinde \nkümelenir.\nOpportunity cost artar; \nformasyonun zaman geçersizliği \ndeğerlendirilebilir.\nTablo 6.13 – Fakeout ve bozulan formasyon durumları\nTERS IŞLEM OTOMATIK DEĞILDIR\nBir breakout’ın başarısız olması karşı yönde hemen işlem açılması gerektiğini göstermez. Karşı \nmomentum, eski alana kabul ve uygun hedef mesafesi ayrıca doğrulanmalıdır.\n6.14 Hedef Ölçümü, Geçersizlik ve Bağlam\nFormasyonlar çoğu zaman geometrik hedef üretir: double top/bottom ve OBO/TOBO’da baş/tepe ile \nneckline arasındaki mesafe; triangle ve range’de en geniş yükseklik; flag/pennant’ta direk; cup-and-\nhandle’da fincan derinliği breakout noktasından projekte edilir. Bu ölçümler olası hareket kapasitesini \ntahmin eder, fiyatın mutlaka hedefe gideceğini söylemez.\nFormasyon ailesi Ölçüm referansı Geçersizlik referansı\nDouble/triple top-bottom Ekstrem ile neckline arasındaki \nyükseklik.\nKarşı ekstrem üzerinde/altında \nacceptance veya neckline \nkırılımının geri alınması.\nOBO/TOBO Baş ile neckline arasındaki \ndikey mesafe.\nSağ omuz/baş ekstremine göre \nyapı bozulması; neckline geri \nalımı.\nTriangle/wedge Yapının en geniş kısmı. Kırılan sınırın geri alınması \nveya karşı sınırın kırılması.\nFlag/pennant Direk uzunluğu; daha \nmuhafazakâr yaklaşımda \nkonsolidasyon yüksekliği.\nKonsolidasyonun karşı sınırı \nveya direğin büyük bölümünün \ngeri alınması.",
+    "source_extract_summary": [
+      "Durum Gözlenen davranış Yorum Fitil aşımı Sınır intrabar geçilir, mum eski alan içinde kapanır.",
+      "Formasyon tamamlanmamış; sweep/fakeout ihtimali.",
+      "Bir mumluk close, hemen geri alma İlk close dışarıda, sonraki mum güçlü şekilde içeri döner."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0124",
+    "page": 124,
+    "chapter": 6,
+    "section": "6.15 — Tam Formasyon Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  109\nFormasyon ailesi Ölçüm referansı Geçersizlik referansı\nCup-and-handle Fincan derinliği. Handle low/high veya \nbreakout sınırının kalıcı geri \nalınması.\nMum formasyonları Genellikle measured move \nyerine sonraki structure/zone.\nFormasyon ekstremi ve bağlam \nbölgesinin bozulması.\nTablo 6.14 – Hedef ve geçersizlik referansları\nBağlam öncelik sırası\n5. Ana trend ve market state: trend, range veya geçiş.\n6. Formasyonun bulunduğu support/resistance, supply/demand veya liquidity alanı.\n7. Formasyonun tamamlanma sınırı ve kapanış kalitesi.\n8. Hedefe kadar bulunan major karşı bölge ve yeterli hareket alanı.\n9. Hacim, volatilite ve zaman dilimi uyumu.\n10. Stop mesafesi, pozisyon büyüklüğü ve planın beklenen değeri.\nMEASURED MOVE SINIRI\nGeometrik hedef bir sonraki major bölgenin arkasında kalıyorsa fiyatın önce bu bölgeyle \netkileşmesi beklenir. Hedef ölçümü market structure ve risk planının üzerine yazılmaz.\n6.15 Tam Formasyon Okuma İş Akışı\nFormasyon analizi, grafikte şekil avlamak yerine her aşamada kanıt isteyen sabit bir iş akışıyla \nyapılmalıdır. Aşağıdaki sıra hem mum hem grafik formasyonlarına uygulanabilir.\nAdım Kontrol\n1. Piyasa durumunu belirle Trend, range veya geçiş; ana swing yönü.\n2. Önemli alanı işaretle Support/resistance, supply/demand, liquidity \nveya gap çevresi.\n3. Formasyon ailesini seç Mum, dönüş, devam, sıkışma veya yuvarlak \nyapı.\n4. Geometriyi doğrula Zorlanmış çizgi, eksik swing veya yanlış mother \nbar var mı?\n5. Durumu etiketle Aday mı, tamamlanmış mı, teyitli mi, başarısız \nmı?\n6. Tamamlanma sınırını yaz Neckline, pattern boundary, mother bar \nhigh/low veya son mum close.\n7. Kırılım kalitesini değerlendir Body, close, wick, hacim, momentum, \nacceptance ve retest.",
+    "source_extract_summary": [
+      "Formasyon ailesi Ölçüm referansı Geçersizlik referansı Cup-and-handle Fincan derinliği.",
+      "Handle low/high veya breakout sınırının kalıcı geri alınması.",
+      "Mum formasyonları Genellikle measured move yerine sonraki structure/zone."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0125",
+    "page": 125,
+    "chapter": 6,
+    "section": "6.15 — Tam Formasyon Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  110\nAdım Kontrol\n8. Geçersizliği önceden tanımla Hangi kapanış veya yapı değişimi senaryoyu \nbozar?\n9. Hedef ve hareket alanını karşılaştır Measured move ile major karşı bölge arasında \nyeterli alan var mı?\n10. Yalnız plana uyan kurulumu seç Giriş, stop ve risk Bölüm 12–13 kurallarına \nuymuyorsa geç.\nTablo 6.15 – On adımlı formasyon okuma iş akışı\nOtomatik pattern araçları\nOtomatik tespit araçları çok sayıda grafiği taramak için yararlıdır; ancak pivot hassasiyeti, timeframe, \neksik swing ve henüz kapanmamış mumlar nedeniyle yanlış veya gecikmiş etiket üretebilir. Araç bir \n“aday bulucu” olarak kullanılmalı; neckline, trend bağlamı, breakout ve geçersizlik manuel \ndoğrulanmalıdır.\nÖrnek koşullu cümleler\n “Günlük resistance altında OBO adayı var. Neckline altında gövdeli kapanış ve aşağı \ntakip gelmeden formasyon tamamlanmış sayılmayacak.”\n “4 saatlik uptrend içinde boğa bayrağına benzeyen sığ düzeltme oluşuyor. Üst sınır \nbreakout’u güçlü close ve hacimle korunursa devam senaryosu aktifleşecek.”\n “Inside bar mother bar high’ını fitille aştı ancak aralık içine kapandı. Yukarı breakout \nteyitsiz; aşağı sınırın korunumu ve sonraki mum izlenecek.”\n “Double bottom neckline üstünde kapandı fakat hemen üstte major supply var. \nMeasured move hedefi yerine önce bu bölgedeki tepki değerlendirilecek.”\nHızlı Başvuru\nFormasyon Aile Tamamlanma anahtarı Birincil hata\nHammer / Shooting \nStar\nTek mum dönüş Bağlam + sonraki \nteyit\nŞekli trendden \nbağımsız adlandırmak\nEngulfing / Piercing / \nDark Cloud\nGövde kontrol \ntransferi\nİkinci mum close’u + \ntakip\nFitilleri ve konumu yok \nsaymak\nMorning/Evening Star Üç mum dönüş Üçüncü mumun güçlü \ngeri alımı\nKüçük ortadaki mumu \ntek başına sinyal \nsaymak\nInside Bar Sıkışma Mother bar sınır \nkırılımı\nYönü önceden \nkesinleştirmek\nDouble/Triple Dönüş Neckline kırılımı İkinci/üçüncü testte \nerken giriş",
+    "source_extract_summary": [
+      "Geçersizliği önceden tanımla Hangi kapanış veya yapı değişimi senaryoyu bozar?",
+      "Hedef ve hareket alanını karşılaştır Measured move ile major karşı bölge arasında yeterli alan var mı?",
+      "Yalnız plana uyan kurulumu seç Giriş, stop ve risk Bölüm 12–13 kurallarına uymuyorsa geç."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0126",
+    "page": 126,
+    "chapter": 6,
+    "section": "6.15 — Tam Formasyon Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  111\nFormasyon Aile Tamamlanma anahtarı Birincil hata\nOBO/TOBO Dönüş Neckline close + takip Omuz simetrisi \nararken yapıyı \nkaçırmak\nFlag/Pennant Devam Direk yönünde \nboundary kırılımı\nDireksiz \nkonsolidasyonu bayrak \nsanmak\nTriangles Sıkışma Kırılan sınırda \nacceptance\nApex’e kadar bekleyip \nzayıf kırılım almak\nWedges Dönüş/devam Beklenen sınırın \nkırılması\nEğimden yönü kesin \nsaymak\nCup-and-handle Yuvarlak \ndevam/dönüş\nHandle ve fincan \nkenarı breakout’u\nV şeklini fincan \nsaymak\nTablo 6.16 – Formasyon hızlı başvuru tablosu\nGrafik Başı Kontrol Listesi\n Formasyon hangi trend veya range bağlamında oluşuyor?\n Şekil önemli bir bölge veya liquidity alanıyla ilişkili mi?\n Henüz aday mı, gerekli sınır gerçekten kırıldı mı?\n Kırılım kapanışla mı, yalnız fitille mi gerçekleşti?\n Momentum, fitil ve hacim breakout’u destekliyor mu?\n Yeni alanda acceptance veya başarılı retest var mı?\n Formasyonun açık geçersizlik seviyesi nerede?\n Measured move önünde major karşı bölge bulunuyor mu?\n Stop mesafesi ve işlem süresi stratejiye uygun mu?\n Otomatik gösterge kullanıldıysa swing ve sınırlar manuel kontrol edildi mi?\nTemel Sözlük\nTerim Kısa tanım\nAday formasyon Geometrisi oluşan fakat tamamlanma sınırı \nhenüz kırılmamış yapı.\nNeckline Double/triple ve OBO/TOBO yapılarını \ntamamlayan ara swing sınırı.\nPattern boundary Triangle, wedge, flag veya pennant’ın çizgisel \nsınırı.\nMother bar Inside bar’ın tamamını kapsayan geniş mum.\nPole / Direk Flag veya pennant öncesindeki güçlü yönlü \nhareket.",
+    "source_extract_summary": [
+      "Formasyon Aile Tamamlanma anahtarı Birincil hata OBO/TOBO Dönüş Neckline close + takip Omuz simetrisi ararken yapıyı kaçırmak Flag/Pennant Devam Direk yönünde boundary kırılımı Direksiz konsolidasyonu bayrak sanmak Triangles Sıkışma Kırılan sınırda acceptance Apex’e kadar bekleyip zayıf kırılım almak Wedges Dönüş/devam Beklenen sınırın kırılması Eğimden yönü kesin saymak Cup-and-handle Yuvarlak devam/dönüş Handle ve fincan kenarı breakout’u V şeklini fincan saymak Tablo 6.16 – Formasyon hızlı başvuru tablosu Grafik Başı Kontrol Listesi  Formasyon hangi trend veya range bağlamında oluşuyor?",
+      " Şekil önemli bir bölge veya liquidity alanıyla ilişkili mi?",
+      " Henüz aday mı, gerekli sınır gerçekten kırıldı mı?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0127",
+    "page": 127,
+    "chapter": 6,
+    "section": "6.15 — Tam Formasyon Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 6\nMum ve Grafik Formasyonları  •  112\nTerim Kısa tanım\nMeasured move Formasyon yüksekliği veya direğin breakout \nnoktasından projeksiyonu.\nAcceptance Fiyatın yeni alanda kapanışlar ve takip üretmesi.\nRetest Kırılan sınırın yeni support/resistance olarak \nyeniden sınanması.\nFakeout Sınır aşımının yeni alanda kalıcı olmadan geri \nalınması.\nFailure test Belirgin seviyedeki başarısız kırılım ve ters tepki.\nContinuation Önceki ana yönün formasyon sonrasında \nsürmesi.\nReversal Önceki ana yönün formasyon sonrasında \ndeğişmesi.\nTablo 6.17 – Bölüm 6 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Mum formasyonu ile grafik formasyonu arasındaki temel ölçek farkı nedir?\n2. Formasyon neden kırılım öncesinde yalnız “aday” olarak etiketlenmelidir?\n3. Hammer ile hanging man aynı şekle rağmen nasıl ayrılır?\n4. Engulfing formasyonunda gövde ve fitil görevleri nasıl farklıdır?\n5. Morning star’ın üçüncü mumu neden kritik önemdedir?\n6. Inside bar neden tek başına yönlü bir formasyon değildir?\n7. Double top hangi olayla tamamlanır?\n8. OBO ile market structure zayıflaması arasındaki bağlantı nedir?\n9. Bayrak ile sıradan channel arasındaki ayırt edici “direk” özelliği nedir?\n10. Simetrik üçgende yön neden önceden kesinleştirilmemelidir?\n11. Rising wedge hangi iki farklı bağlamda görülebilir?\n12. Fincan–kulp ile V tipi dönüş arasındaki fark nedir?\n13. Güçlü breakout mumunda hangi beş kalite işareti aranır?\n14. Retest neden teyit sağlar; hangi durumda başarısız sayılır?\n15. Measured move neden kesin hedef değildir?\n16. Otomatik pattern göstergesi neden yalnız tarama aracı olmalıdır?\n17. Başarısız breakout neden otomatik olarak ters işlem sinyali değildir?\nBÖLÜM 6 TAMAMLANDI\nArtık mum ve grafik formasyonlarını isim ezberiyle değil; bağlam, tamamlanma sınırı, kırılım \nkalitesi, geçersizlik ve hedef alanı üzerinden okuyabilirsiniz. Bölüm 7, bu yapıların arkasındaki \nkatılımı hacim, volume profile, order flow ve mikro yapı araçlarıyla inceleyecektir.",
+    "source_extract_summary": [
+      "Terim Kısa tanım Measured move Formasyon yüksekliği veya direğin breakout noktasından projeksiyonu.",
+      "Acceptance Fiyatın yeni alanda kapanışlar ve takip üretmesi.",
+      "Retest Kırılan sınırın yeni support/resistance olarak yeniden sınanması."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Göreceli katılım ve hacim özellikleri",
+      "Mum geometrisi ve davranış özellikleri",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  }
+]

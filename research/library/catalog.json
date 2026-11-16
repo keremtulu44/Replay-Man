@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "owner_note": "Kullanıcı tarafından yazıldığı belirtilen çalışma kaynaklarıdır; proje içinde araştırma ve gereksinim kaynağı olarak saklanır.",
+  "books": [
+    {
+      "id": "ATK-TR-D1.0-2026-08",
+      "title": "Ana Trading Kitabı",
+      "version": "Dijital Sürüm 1.0",
+      "pages": 530,
+      "path": "research/library/books/ana-trading-kitabi-v1.0.pdf",
+      "sha256": "7abc5e7e724ca8ff50920dbe25e8c3626872b247d5f6f3cb97a3970aeba34c3b",
+      "project_role": "Genel karar mimarisi, strateji kartı, doğrulama, replay, risk ve araştırma süreci"
+    },
+    {
+      "id": "PTA-C1-2026",
+      "title": "Profesyonel Teknik Analiz — Cilt 1: İndikatörler ve Çizim Araçları",
+      "pages": 139,
+      "path": "research/library/books/profesyonel-teknik-analiz-cilt-1.pdf",
+      "sha256": "769b5cb840e1ea1663032185ec1954f2f9587cbed795221c8ee950790616c1d5",
+      "project_role": "İndikatör aileleri, görev ayrımı, bilgi bağımsızlığı ve kombinasyon mimarisi"
+    },
+    {
+      "id": "PTA-C2-2026",
+      "title": "Profesyonel Teknik Analiz — Cilt 2: Mum Dizileri ve Fiyat Davranışları",
+      "pages": 109,
+      "path": "research/library/books/profesyonel-teknik-analiz-cilt-2.pdf",
+      "sha256": "f46df00409ba5ed9cdae7d187536afc72b7fc0ff5f2f13b7dfe73dd9716f2560",
+      "project_role": "Mum matematiği, hareket kalitesi, swing geometrisi, kırılım, pullback ve takip davranışı"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "events": 306925,
+  "assets": 125,
+  "events_by_type": [
+    "daily_pivot_break_up",
+    "daily_pivot_break_down",
+    "confirmed_resistance_break",
+    "confirmed_support_break",
+    "fib_382_hold",
+    "fib_618_hold"
+  ]
+}

@@ -1,0 +1,721 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0044",
+    "page": 44,
+    "chapter": 2,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 2\nMum Okuma ve Price Action Psikolojisi",
+    "source_extract_summary": [
+      "BÖLÜM 2 Mum Okuma ve Price Action Psikolojisi"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": []
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0045",
+    "page": 45,
+    "chapter": 2,
+    "section": "2.1 — Price Action Nedir?",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  30\nMumun Adını Değil, Anlattığı Mücadeleyi \nOkumak\nBir mumun yeşil veya kırmızı olması, fiyat davranışının yalnızca en temel sonucunu \ngösterir. Asıl bilgi; gövdenin ne kadar geniş olduğunda, kapanışın mum aralığının \nneresinde gerçekleştiğinde, fiyatın hangi seviyelerden geri çevrildiğinde ve bu \nhareketin önceki mumlara göre hızlanıp hızlanmadığında saklıdır.\nBu bölümde mumları ezberlenecek semboller gibi değil, belirli bir zaman \naralığındaki alıcı–satıcı mücadelesinin sıkıştırılmış kaydı olarak ele alacağız. Amaç, \ntek mumdan kesin gelecek tahmini yapmak değil; mevcut fiyat davranışını daha \ndoğru tanımlamak, zayıflama ve güçlenme işaretlerini ayırmak ve sonraki \nbölümlerde kurulacak yapı–bölge–işlem sistemine sağlam bir price action temeli \noluşturmaktır.\nBu bölümün sonunda\nPrice action ile market structure arasındaki farkı açıklayabilecek; gövde, fitil ve kapanışı birlikte okuyabilecek; \nmomentum, reaction/pin bar ve indecision mumlarını ayırabilecek; engulfing ve inside barı psikolojik \nişlevleriyle yorumlayabilecek; mumları bağlam, hacim ve gerçek fiyat ayrımı içinde değerlendirebileceksiniz.\nBölümün temel soruları\nBir muma baktığınızda şu beş soruyu sorun: Kim kontrol etti? Karşı taraf nerede tepki verdi? Kapanış hangi \ntarafa yakın? Hareket önceki mumlara göre hızlandı mı, yavaşladı mı? Bu davranış grafiğin neresinde oluştu?\n2.1 Price Action Nedir?\nPrice action, fiyatın şu anda ve yakın geçmişte nasıl hareket ettiğini incelemektir. Bir seviyeye \nyaklaşırken mumların hızlanması, seviyenin altında veya üstünde fitil bırakması, güçlü kapanış \nyapması ya da küçük gövdelerle kararsızlaşması price action kapsamındadır. Odak, fiyatın yalnızca \nnerede bulunduğu değil, o noktaya nasıl geldiği ve orada nasıl davrandığıdır.\nMarket structure ise daha geniş haritadır. Trend, swing high–low noktaları, impuls ve geri çekilmeler, \nönemli destek–direnç bölgeleri gibi büyük ölçekli unsurlar market structure içinde değerlendirilir. \nPrice action bu haritanın üzerinde gerçekleşen daha küçük ve anlık davranışları gösterir. Basit bir \nbenzetmeyle market structure yol haritası, price action ise aracın o yol üzerindeki hızlanması, \nfrenlemesi ve yön değiştirme biçimidir.\nPrice Action Market Structure\nMevcut mum ve son birkaç mumun davranışına odaklanır. Grafiğin daha geniş trend, swing ve bölge düzenini gösterir.\nHız, gövde, fitil, kapanış, tepki ve takip davranışını inceler. HH–HL, LH–LL, impulse, pullback, range ve kırılım gibi \nyapıları inceler.",
+    "source_extract_summary": [
+      "Mumun Adını Değil, Anlattığı Mücadeleyi Okumak Bir mumun yeşil veya kırmızı olması, fiyat davranışının yalnızca en temel sonucunu gösterir.",
+      "Asıl bilgi; gövdenin ne kadar geniş olduğunda, kapanışın mum aralığının neresinde gerçekleştiğinde, fiyatın hangi seviyelerden geri çevrildiğinde ve bu hareketin önceki mumlara göre hızlanıp hızlanmadığında saklıdır.",
+      "Bu bölümde mumları ezberlenecek semboller gibi değil, belirli bir zaman aralığındaki alıcı–satıcı mücadelesinin sıkıştırılmış kaydı olarak ele alacağız."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Mum geometrisi ve davranış özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0046",
+    "page": 46,
+    "chapter": 2,
+    "section": "2.2 — Bir Mumun Beş Okuma Boyutu",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  31\nPrice Action Market Structure\n“Fiyat bu seviyede nasıl tepki veriyor?” sorusuna cevap arar. “Fiyat daha büyük resimde nerede?” sorusuna cevap arar.\nGiriş zamanlamasına ve kısa vadeli teyide katkı sağlayabilir. Yön, bağlam ve işlemin geçerli olduğu alanı belirlemeye \nyardım eder.\nTablo 2.1 – Price action ile market structure görev ayrımı\nÖnemli ayrım\nPrice action, “hiç gösterge kullanmamak” anlamına gelmez. Bu kitapta price action, fiyatın kendi davranışını \nbirincil kanıt olarak okumaktır. Hacim veya gösterge daha sonra destekleyici kanıt olabilir; fakat mumun \nanlattığı hikâyenin yerine geçmez.\nMum bir sonuçtur; kesin fiyat yolu değildir\nBölüm 1’de bir mumun OHLC verisini gösterdiğini gördük. Ancak tek bir mum, fiyatın zaman aralığı \niçinde hangi sırayla hareket ettiğini kesin olarak açıklamaz. Aynı açılış, en yüksek, en düşük ve kapanış \ndeğerleri farklı ara hareketlerle oluşabilir. Bu nedenle mum okuma, kesin bir “mum içinde olanlar \nfilmi” üretmek değil; görülen sonuçtan makul ve sınırlı çıkarımlar yapmaktır.\nYaygın hata\nBir mumun şekline bakıp mum içinde gerçekleşen her hareketi kesinmiş gibi anlatmak. Mum, açık–yüksek–\ndüşük–kapanış sonucunu verir; ara sıralama için daha düşük zaman dilimi veya işlem verisi gerekir.\n2.2 Bir Mumun Beş Okuma Boyutu\nBir mumu yorumlarken yalnızca rengini değil, beş boyutu birlikte değerlendirin: gerçek gövde, toplam \naralık, üst fitil, alt fitil ve kapanışın konumu. Bu beş unsur aynı mum üzerinde birbirini tamamlar. Tek \nbir unsura dayanarak karar vermek, price action bilgisinin büyük bölümünü kaybetmek demektir.\nBoyut Ne gösterir? Sorulacak soru\nGerçek gövde Açılış ile kapanış arasındaki net yönlü ilerleme. Bir taraf fiyatı ne kadar ileri taşıyabildi?\nToplam aralık (range) Mumun en yüksek ve en düşük fiyatı arasındaki tüm hareket \nalanı.\nBu zaman aralığında fiyat ne kadar geniş \nhareket etti?\nÜst fitil Fiyatın daha yukarı çıktığı fakat kapanışta koruyamadığı alan. Yukarı deneme nerede ve ne ölçüde \nreddedildi?\nAlt fitil Fiyatın daha aşağı indiği fakat kapanışta geri aldığı alan. Aşağı deneme nerede ve ne ölçüde \nreddedildi?\nKapanış konumu Mumun aralık içinde hangi tarafta sonuçlandığı. Son anda kontrol hangi tarafa daha yakındı?",
+    "source_extract_summary": [
+      "Price Action Market Structure “Fiyat bu seviyede nasıl tepki veriyor?” sorusuna cevap arar.",
+      "“Fiyat daha büyük resimde nerede?” sorusuna cevap arar.",
+      "Giriş zamanlamasına ve kısa vadeli teyide katkı sağlayabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Veri sözleşmesi ve mum özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0047",
+    "page": 47,
+    "chapter": 2,
+    "section": "2.3 — Gövde ve Kapanış: Kontrolün Derecesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  32\nTablo 2.2 – Bir mumun beş temel okuma boyutu\nA: Güçlü kapanış B: Üstten reddedilme C: Kararsızlık\nKısa fitiller\nGeniş gövde\nKapanış tepeye yakın\nUzun üst fitil\nOrta/küçük gövde\nKapanış aşağıda\nİki tarafta fitil\nKüçük gövde\nKapanış ortaya yakın\nAlıcı kontrolü daha belirgin Yukarı fiyatlar korunamadı Taraflardan hiçbiri kalıcı kontrol kuramadı\nŞekil 2.1 – Benzer toplam aralık, farklı gövde–fitil–kapanış yapılarıyla farklı hikâyeler anlatabilir\nOkuma önceliği\nÖnce mumun toplam aralığını görün. Sonra gövdenin bu aralık içindeki payını, fitillerin hangi tarafta \nyoğunlaştığını ve kapanışın en yüksek/en düşük seviyeye ne kadar yakın olduğunu değerlendirin.\n2.3 Gövde ve Kapanış: Kontrolün Derecesi\nGerçek gövde, açılış ile kapanış arasındaki net ilerlemeyi gösterir. Gövde ne kadar genişse, fiyatın \nseçilen zaman aralığında bir yönde o kadar fazla mesafe koruduğu söylenebilir. Ancak “geniş” kelimesi \nmutlak değildir. Bir mumun gövdesi, aynı varlığın aynı zaman dilimindeki önceki mumlarla \nkarşılaştırılmalıdır.\nBüyük gövde: yönlü kontrol\nGeniş yükseliş gövdesi, alıcıların açılıştan kapanışa kadar fiyatı yukarı taşıdığını; geniş düşüş gövdesi ise \nsatıcıların aşağı taşıdığını gösterir. Fitiller kısaysa karşı tarafın denemeleri sınırlı kalmış olabilir. Buna \nkarşılık geniş gövdeye uzun karşı fitil eşlik ediyorsa hareket güçlü görünse bile önemli bir karşı tepki \nyaşanmıştır.\nKüçük gövde: sonuçta sınırlı ilerleme\nKüçük gövde, açılış ile kapanışın birbirine yakın olduğunu gösterir. Bu, tarafların hiç hareket etmediği \nanlamına gelmez; mumun fitilleri uzunsa fiyat iki yönde de geniş hareket etmiş fakat başlangıç \nnoktasına yakın kapanmıştır. Bu yüzden küçük gövde bazen düşük volatiliteyi, bazen de yüksek \nvolatilite içinde sonuçsuz mücadeleyi temsil edebilir.\nKapanışın konumu\nBir yükseliş mumunun en yüksek seviyesine yakın kapanması, alıcıların kazancın büyük bölümünü \nmum sonuna kadar koruduğunu gösterir. Aynı mum uzun üst fitil bırakarak aralığın ortasında \nkapanıyorsa, alıcılar fiyatı yükseltmiş ancak satıcı baskısıyla geri çekilmiştir. Düşüş mumu için aynı \nmantık ters yönde çalışır: en düşük seviyeye yakın kapanış satıcı kontrolünü, uzun alt fitille yukarı \ntaşınan kapanış ise alıcı tepkisini gösterir.\nGövde / kapanış yapısı Olası price action okuması Tek başına ne söylenemez?\nGeniş gövde, kısa fitil, ekstrem noktaya \nyakın kapanış\nYönlü baskı ve güçlü kontrol. Hareketin kesin devam edeceği.\nGeniş gövde, uzun karşı fitil Yönlü hareket içinde önemli karşı tepki. Karşı tarafın trendi kesin çevirdiği.",
+    "source_extract_summary": [
+      "Sonra gövdenin bu aralık içindeki payını, fitillerin hangi tarafta yoğunlaştığını ve kapanışın en yüksek/en düşük seviyeye ne kadar yakın olduğunu değerlendirin.",
+      "2.3 Gövde ve Kapanış: Kontrolün Derecesi Gerçek gövde, açılış ile kapanış arasındaki net ilerlemeyi gösterir.",
+      "Gövde ne kadar genişse, fiyatın seçilen zaman aralığında bir yönde o kadar fazla mesafe koruduğu söylenebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0048",
+    "page": 48,
+    "chapter": 2,
+    "section": "2.4 — Fitiller: Tepki, Reddetme ve Başarısız",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  33\nGövde / kapanış yapısı Olası price action okuması Tek başına ne söylenemez?\nKüçük gövde, kısa fitiller Dar hareket veya düşük katılım. Yakında mutlaka büyük hareket \nolacağı.\nKüçük gövde, uzun iki taraflı fitil Geniş mücadele fakat sonuçta kararsızlık. Hangi yönde kırılacağı.\nTablo 2.3 – Gövde ve kapanışın temel yorum sınırları\nAçık mum uyarısı\nMum kapanmadan gövde, fitil ve kapanış konumu değişmeye devam eder. Açık mumda görülen güçlü hareket, \nzaman aralığı bitmeden uzun fitile veya kararsız bir yapıya dönüşebilir. Kapanmış mum ile oluşmakta olan \nmumu ayırın.\n2.4 Fitiller: Tepki, Reddetme ve Başarısız \nDeneme\nFitil, fiyatın bir seviyeye ulaştığını fakat kapanışta o seviyeyi koruyamadığını gösterir. Bu nedenle fitiller \n“reaksiyon” hakkında bilgi verir. Üst fitil, daha yüksek fiyatlara yapılan denemenin geri çevrildiğini; alt \nfitil ise daha düşük fiyatlara yapılan denemenin geri alındığını gösterir.\nFitilin yönü tek başına işlem yönü değildir. Uzun alt fitil, alıcıların aşağı fiyatlara tepki verdiğini \ngösterebilir; ancak bu mum güçlü bir düşüş trendinin ortasında ve önemli bir bölgeden uzakta \noluşuyorsa yalnızca geçici bir tepki olabilir. Aynı şekil destek bölgesinde, düşüş momentumunun \nyavaşladığı bir noktada oluşursa daha anlamlı hâle gelir.\nFitil davranışı Mum içinde görülen sonuç Bağlamla birlikte olası anlam\nUzun alt fitil Düşük fiyatlar kapanışa kadar korunamadı. Destekte veya düşüş sonunda alıcı tepkisi; yükseliş \nsonunda ise satış baskısının ilk uyarısı olabilir.\nUzun üst fitil Yüksek fiyatlar kapanışa kadar korunamadı. Dirençte veya yükseliş sonunda satıcı tepkisi; düşüş \nsonunda ise alıcı denemesinin başladığını gösterebilir.\nİki tarafta uzun fitil Her iki yöndeki denemeler geri çevrildi. Yüksek mücadele, kararsızlık veya volatilite.\nNeredeyse fitilsiz mum Fiyat yönlü hareketin büyük bölümünü korudu. Karşı tarafın sınırlı tepki verdiği momentum.\nTablo 2.4 – Fitillerin bağlama bağlı temel anlamları\nFitil ≠] kesin reddetme\nBir fitil fiyatın o seviyeyi mum kapanışında koruyamadığını gösterir. Seviyenin sonraki mumlarda da korunup \nkorunmayacağını garanti etmez. Gerçek reddetme değerlendirmesi için kapanış, takip eden mum ve \nbulunduğu bölge birlikte incelenmelidir.",
+    "source_extract_summary": [
+      "Gövde / kapanış yapısı Olası price action okuması Tek başına ne söylenemez?",
+      "Küçük gövde, kısa fitiller Dar hareket veya düşük katılım.",
+      "Yakında mutlaka büyük hareket olacağı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0049",
+    "page": 49,
+    "chapter": 2,
+    "section": "2.5 — Bağıl Momentum ve Mum Dizileri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  34\nAynı şekil, farklı isim ve farklı anlam\nKüçük gövdeli ve uzun alt fitilli bir mum düşüşün sonunda oluştuğunda hammer ailesine; yükselişin \nsonunda oluştuğunda hanging man ailesine yaklaşabilir. Küçük gövdeli ve uzun üst fitilli şekil \nyükselişin sonunda shooting star, düşüşün sonunda inverted hammer olarak adlandırılabilir. Görüntü \nbenzer olsa da psikolojik anlamı önceki hareket belirler. Bu nedenle isimden önce bağlam okunmalıdır.\nDüşüş + uzun alt fitil Yükseliş + uzun alt fitil Yükseliş + uzun üst fitil Düşüş + uzun üst fitil\nAşağı fiyat reddi / potansiyel \nbullish tepki\nYükseliş içinde satış baskısı \nuyarısı\nYukarı fiyat reddi / potansiyel \nbearish tepki\nDüşüş içinde alıcı denemesi \nuyarısı\nŞekil 2.2 – Uzun fitilin anlamı önceki hareket ve oluştuğu konumla değişir\n2.5 Bağıl Momentum ve Mum Dizileri\nMomentum, fiyatın hangi yönde ne kadar hızlı ilerlediğini anlatır. Mum okumasında momentum \nyalnızca tek mumun büyük görünmesiyle ölçülmez. Mumun gerçek gövdesi, önceki birkaç mumun \ngövdeleriyle karşılaştırılır; fitiller ve kapanış konumu da bu karşılaştırmaya eklenir.\nİki kat kuralı: pratik eşik, evrensel yasa değil\nMomentum mumu için kullanılabilecek pratik ölçüt, gerçek gövdenin önceki üç ila beş mumun \ngövdelerinden yaklaşık iki kat büyük olmasıdır. Üç veya dört kat büyüklük daha belirgin bir değişime \nişaret edebilir. Bu ölçüt, momentumun bir anda normal davranıştan ayrıldığını fark etmek için \nyararlıdır; fakat bütün piyasalar ve bütün zaman dilimleri için değişmez bir yasa değildir.\nÇalışma kuralı\nÖnceki 3–5 mumun gövdesine bakın. Yeni gövde belirgin biçimde büyümüş, kapanış yönün ekstrem noktasına \nyaklaşmış ve karşı fitil sınırlı kalmışsa momentum artışı vardır. “2 kat” eşiğini mekanik sinyal değil, görsel \nkarşılaştırma yardımcısı olarak kullanın.\nMomentum dizisi ne zaman devam eder?\nİlk güçlü momentum mumundan sonra benzer büyüklükte ve aynı yönde mumlar gelirse baskı devam \nediyor olabilir. Her yeni mumun bir öncekinin iki katına çıkması gerekmez. Momentum dizisi, mumlar \nilk güçlü mumla yaklaşık aynı büyüklükte veya daha büyük kaldığı sürece devam ediyor kabul edilebilir. \nGövdeler küçülmeye, karşı fitiller büyümeye ve kapanışlar merkezde oluşmaya başladığında hız kaybı \ngörülür.\nDizi Gözlenen davranış Price action yorumu\nHızlanan Gövde büyüyor, fitiller kısalıyor, kapanış ekstrem noktaya \nyaklaşıyor.\nYönlü baskı güçleniyor.\nDevam eden Mumlar benzer genişlikte ve aynı yönde güçlü kapanıyor. Mevcut momentum korunuyor.\nYavaşlayan Gövde küçülüyor, karşı fitiller artıyor, mumlar üst üste \nbiniyor.\nKontrol zayıflıyor; kesin dönüş değil, dikkat sinyali.\nAni değişim Dar/kararsız mumlardan sonra tek geniş gövdeli güçlü \nmum.\nPiyasa davranışında rejim veya hız değişimi \nolabilir.",
+    "source_extract_summary": [
+      "Aynı şekil, farklı isim ve farklı anlam Küçük gövdeli ve uzun alt fitilli bir mum düşüşün sonunda oluştuğunda hammer ailesine; yükselişin sonunda oluştuğunda hanging man ailesine yaklaşabilir.",
+      "Küçük gövdeli ve uzun üst fitilli şekil yükselişin sonunda shooting star, düşüşün sonunda inverted hammer olarak adlandırılabilir.",
+      "Görüntü benzer olsa da psikolojik anlamı önceki hareket belirler."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0050",
+    "page": 50,
+    "chapter": 2,
+    "section": "2.6 — Üç Mum Ailesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  35\nTablo 2.5 – Mum dizilerinde momentumun dört temel görünümü\nHIZLANMA DEVAM YAVAŞLAMA\nKüçük  orta  büyük gövde→ →\nFitiller azalıyor\nBenzer güçlü gövdeler\nYön korunuyor\nGövde küçülüyor\nKarşı fitiller büyüyor\nŞekil 2.3 – Momentum tek mumdan çok, ardışık mumların değişen niteliğinde görülür\nBüyük mumun konumu\nGeniş gövdeli mum yeni hareketin başlangıcında güçlü bir displacement işareti olabilir; fakat uzun süren \nhareketin sonunda oluşan aşırı büyük mum geç kalan katılım veya tükenme ihtimali de taşır. Mum büyüklüğünü \nher zaman hareketin hangi aşamasında oluştuğuyla birlikte değerlendirin.\n2.6 Üç Mum Ailesi\nKullanışlı bir sadeleştirme, mumları üç temel ailede toplamaktır: momentum, reaction/pin bar ve \nindecision. Bu sınıflandırma onlarca mum adını ezberlemeden önce mumun temel işlevini anlamayı \nsağlar. Bir mum bazı durumlarda iki aileye birden yaklaşabilir; sınıflandırmanın amacı katı etiket değil, \nprice action sorusunu doğru sormaktır.\nAile Tipik görünüm Temel psikoloji Ana işlev\nMomentum Geniş gövde, kısa veya sınırlı fitil, \ngüçlü kapanış.\nBir taraf kesintisiz veya baskın kontrol kuruyor. Devam, kırılım veya \nkontrol değişimi.\nReaction / Pin bar Küçük gövde, bir tarafta belirgin uzun \nfitil.\nFiyat bir yönde denendi fakat kapanışta geri \nçevrildi.\nReddetme, tepki veya \nerken uyarı.\nIndecision Küçük gövde; iki tarafta fitil veya \naçılış–kapanış yakınlığı.\nTaraflardan hiçbiri kalıcı üstünlük kuramadı. Bekleme, duraklama, \nmomentum kaybı.\nTablo 2.6 – Momentum, reaction ve indecision mum aileleri\nAileleri işlem sinyali gibi kullanmayın\nBir momentum mumu her zaman devam, bir pin bar her zaman dönüş, bir doji her zaman yön değişimi \nanlamına gelmez. Aile, mumun ne tür bilgi verdiğini söyler; işlem kararını bağlam ve teyit belirler.\nMum ailesini belirlemek için kısa test\n1. Gövde, önceki mumlara göre belirgin biçimde büyük mü? Evetse momentum ailesini inceleyin.\n2. Gövde küçük, fitillerden biri belirgin biçimde uzun mu? Evetse reaction/pin bar ailesini inceleyin.\n3. Gövde küçük ve iki taraflı mücadele mi var? Evetse indecision ailesini inceleyin.\n4. Mum bu ailelerden birine benziyor fakat grafiğin ortasında ve bağlamsız mı? İşlem sinyali \nüretmeyin.",
+    "source_extract_summary": [
+      "Mum büyüklüğünü her zaman hareketin hangi aşamasında oluştuğuyla birlikte değerlendirin.",
+      "2.6 Üç Mum Ailesi Kullanışlı bir sadeleştirme, mumları üç temel ailede toplamaktır: momentum, reaction/pin bar ve indecision.",
+      "Bu sınıflandırma onlarca mum adını ezberlemeden önce mumun temel işlevini anlamayı sağlar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Mevcut tarafın ilerleme kabiliyetindeki bozulma",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0051",
+    "page": 51,
+    "chapter": 2,
+    "section": "2.8 — Kararsızlık Mumları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  36\n2.7 Reaction ve Pin Bar Mantığı\nReaction mumları, fiyatın belirli bir yönde ilerlemeye çalıştığını fakat bu hareketin kapanışa kadar \nkorunamadığını gösterir. En belirgin reaction yapılarında gövde küçüktür ve bir taraftaki fitil gövdenin \nbirkaç katına ulaşır. Pin bar adı genellikle bu uzun fitilli yapılara verilir.\nUzun fitil, karşı tarafın mum içinde devreye girdiğini gösterir; ancak tek başına yeni trendin başladığını \nkanıtlamaz. Mumdan önceki hareket, oluştuğu destek–direnç veya arz–talep alanı, kapanışın bölgeye \ngöre konumu ve sonraki mumun takip davranışı birlikte değerlendirilmelidir.\nKontrol sorusu Güçlendiren durum Zayıflatan durum\nÖncesinde yönlü hareket \nvar mı?\nDüşüş sonunda alt fitil veya yükseliş sonunda üst \nfitil.\nRastgele yatay hareketin ortasında oluşması.\nÖnemli bölgede mi? Destek, direnç, önceki swing veya görünür bölge. Grafiğin “ortasında” ve belirgin referanstan \nuzakta.\nKapanış nerede? Reddedilen yönün ters tarafına doğru güçlü kapanış. Fitile rağmen zayıf/merkezde kapanış.\nTakip davranışı var mı? Sonraki mum reaction yönünü destekliyor. Sonraki mum fitil ekstrem noktasını hemen aşıyor.\nMomentum değişiyor mu? Önceki yönde gövdeler küçülüyor ve fitiller artıyor. Önceki yönde güçlü momentum aynen sürüyor.\nTablo 2.7 – Reaction/pin bar değerlendirme soruları\nOrta yerdeki güzel şekil\nFormasyonun grafiğin “middle of nowhere” bölümünde oluşması önemli bir eleme nedenidir. Şekil kusursuz \nolsa bile önemli bölge, önceki hareket veya takip teyidi yoksa reaction mumu düşük değerli olabilir.\nTeyit ne demektir?\nTeyit, reaction mumundan sonra fiyatın beklenen yönde gerçekten ilerlemeye başladığını gösteren ek \nkanıttır. Bir sonraki mumun reaction mumunun gövdesini aşması, önemli seviyenin korunması veya \nkısa vadeli yapının kırılması teyit örnekleri olabilir. Teyit daha geç girişe neden olabilir; buna karşılık \nyalnızca fitile dayanarak alınan erken kararın yanlış olma riskini azaltabilir. Tam giriş–stop–hedef \nuygulaması Bölüm 6 ve Bölüm 12’de ele alınacaktır.\n2.8 Kararsızlık Mumları\nKararsızlık mumları, açılış ile kapanış arasındaki net ilerlemenin sınırlı olduğu yapılardır. Doji, spinning \ntop ve high-wave mumları bu ailede değerlendirilebilir. Ortak mesaj, alıcıların veya satıcıların o zaman \naralığında kalıcı ve belirgin kontrol kuramadığıdır.\nDoji\nDoji mumunda açılış ve kapanış birbirine çok yakındır; gerçek gövde çizgiye yaklaşır. Fiyat mum içinde \nyukarı ve aşağı hareket etmiş olabilir, fakat zaman aralığı başlangıç noktasına yakın sonuçlanmıştır. Bu, \nkararın dengede kaldığını gösterir. Doji tek başına “dönüş” değildir.",
+    "source_extract_summary": [
+      "2.7 Reaction ve Pin Bar Mantığı Reaction mumları, fiyatın belirli bir yönde ilerlemeye çalıştığını fakat bu hareketin kapanışa kadar korunamadığını gösterir.",
+      "En belirgin reaction yapılarında gövde küçüktür ve bir taraftaki fitil gövdenin birkaç katına ulaşır.",
+      "Pin bar adı genellikle bu uzun fitilli yapılara verilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0052",
+    "page": 52,
+    "chapter": 2,
+    "section": "2.1 — –2.8 ara kontrolü",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  37\nSpinning top\nSpinning top, dojiye göre biraz daha belirgin gövdeye sahiptir; buna rağmen gövde fitillere kıyasla \nküçüktür. Mumun rengi hafif bir yön farkı oluşturabilir, fakat ana mesaj yine sınırlı kontrol ve \nkararsızlıktır.\nHigh-wave mum\nHigh-wave mumunda küçük gövdeye çok uzun üst ve alt fitiller eşlik eder. Bu yapı yalnızca kararsızlığı \ndeğil, aynı zamanda zaman aralığı içinde yüksek oynaklığı da gösterir. Fiyat iki yönde geniş hareket \netmiş, fakat hiçbir taraf kazanımını kapanışa taşıyamamıştır.\nTür Temel yapı Ana mesaj\nDoji Açılış ve kapanış neredeyse aynı. Denge, duraklama veya belirsizlik.\nSpinning top Küçük gövde, iki tarafta gövdeden uzun fitiller. Sınırlı yön üstünlüğü ve tereddüt.\nHigh-wave Çok uzun iki taraflı fitil, küçük gövde. Yüksek volatilite içinde sonuçsuz mücadele.\nTablo 2.8 – Kararsızlık mumlarının temel karşılaştırması\nBağlama göre üç farklı kullanım\nBağlam Kararsızlık mumunun anlamı Uygulama yaklaşımı\nGüçlü trendden sonra Momentumun yavaşlaması veya pozisyonun riskinin \nartması.\nYeni ters işlem için acele etmeyin; mevcut \npozisyonda kâr koruma ve teyit düşünün.\nYatay/range piyasanın \nortasında\nZaten var olan belirsizliği tekrar eder. Çoğu zaman işlem yapmama sinyalidir.\nÖnemli destek/dirençte Tarafların bölgede mücadele ettiğini gösterir. Takip mumunu, kapanışı ve mümkünse \nhacmi bekleyin.\nTablo 2.9 – Kararsızlık mumunun bağlama göre değişen kullanımı\nDoji çoğu zaman “bekle” der\nKararsızlık mumları yeni pozisyon açmaktan çok, mevcut momentumun güvenilirliğini yeniden değerlendirme \nuyarısı olabilir. Özellikle art arda doji veya spinning top görülmesi, yön netleşene kadar işlemden uzak durmayı \ngerektirebilir.\n2.1–2.8 ara kontrolü\n Price action ile market structure arasındaki görev farkını açıklayabiliyor musunuz?\n Bir mumun renginden önce gövde, fitil ve kapanış konumunu inceleyebiliyor musunuz?\n Uzun fitilin neden tek başına yön sinyali olmadığını anlatabiliyor musunuz?\n Momentum mumunu önceki 3–5 mumla bağıl olarak karşılaştırabiliyor musunuz?\n Momentum, reaction ve indecision ailelerini temel psikolojileriyle ayırabiliyor musunuz?\n Doji görüldüğünde neden doğrudan ters işlem açılmaması gerektiğini açıklayabiliyor \nmusunuz?",
+    "source_extract_summary": [
+      "Spinning top Spinning top, dojiye göre biraz daha belirgin gövdeye sahiptir; buna rağmen gövde fitillere kıyasla küçüktür.",
+      "Mumun rengi hafif bir yön farkı oluşturabilir, fakat ana mesaj yine sınırlı kontrol ve kararsızlıktır.",
+      "High-wave mum High-wave mumunda küçük gövdeye çok uzun üst ve alt fitiller eşlik eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Konum ve seviye yaşam döngüsü",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0053",
+    "page": 53,
+    "chapter": 2,
+    "section": "2.9 — Engulfing ve Kontrol Transferi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  38\n2.9 Engulfing ve Kontrol Transferi\nEngulfing yapısı iki mum arasında görünür bir kontrol değişimini anlatır. İlk mum, mevcut kısa vadeli \nyönün veya önceki tarafın hâkimiyetini temsil eder. İkinci mum ise ters yönde genişleyerek ilk mumun \ngerçek gövdesini geri alır. Bu nedenle engulfing yalnızca iki mumun biçimi değil, bir tarafın kazandığı \nalanın karşı tarafça kapanışa kadar geri alınmasıdır.\nGövdenin geri alınması neden önemlidir?\nMum gövdesi açılış ile kapanış arasındaki net ilerlemeyi gösterir. İkinci mumun karşı yönde açılıp ilk \nmumun gövdesinin ötesinde kapanması, ilk mumda elde edilen net ilerlemenin ters tarafça silindiğini \ngösterir. Fitiller piyasa içindeki denemeleri kaydeder; engulfing değerlendirmesinde ana ölçüt gövde \nhâkimiyetidir. Fitillerin bütünüyle kapsanması zorunlu değildir.\nAşama Grafikte görülen Price action anlamı\n1. Önceki hareket Fiyat belirgin biçimde aşağı veya yukarı ilerler. Bir taraf kısa vadeli kontrolü elinde tutar.\n2. İlk mum Mevcut hareket yönünde veya zayıflayan bir gövde \noluşur.\nÖnceki kontrol devam ediyor görünür.\n3. İkinci mum Ters yönde daha geniş gövde oluşur ve ilk gövde geri \nalınır.\nKarşı taraf fiyatı açılış–kapanış düzeyinde ele geçirir.\n4. Kapanış İkinci mum ilk gövdenin ötesinde kapanır. Kontrol transferi ancak kapanışla görünür hâle gelir.\n5. Takip Sonraki mumlar kazanılan alanı korur veya genişletir. Transferin geçici tepki mi, kalıcı değişim mi olduğu \nsınanır.\nTablo 2.10 – Engulfing yapısında kontrol transferinin aşamaları\nÖNCEKİ HAREKET İLK MUM İKİNCİ MUM SONUÇ\nAşağı yönlü baskı Küçük/orta düşüş gövdesi Geniş yükseliş gövdesi İlk gövde geri alındı\nYukarı yönlü baskı Küçük/orta yükseliş gövdesi Geniş düşüş gövdesi İlk gövde geri alındı\nŞekil 2.4 – Boğa ve ayı engulfing yapılarında gövde kontrolünün ters tarafa geçmesi\nGap şartı neden her piyasada aynı değildir?\nBazı klasik çizimlerde ikinci mumun önceki gövdenin ötesinde açıldığı gösterilir. Hisse piyasalarında \nseans araları nedeniyle bu tür açılış boşlukları görülebilir. Kripto ve bazı kesintisiz piyasalarda ise yeni \nmum çoğunlukla önceki mumun kapanışına yakın başlar. Bu nedenle daha işlevsel ölçüt, ikinci mumun \nters yönde güçlü biçimde kapanarak ilk mumun gerçek gövdesini geri almasıdır; mutlaka ayrı bir açılış \nboşluğu aranmaz.\nEngulfing yapısını güçlendiren ve zayıflatan koşullar\nGüçlendiren koşul Neden önemlidir? Zayıflatan koşul\nÖncesinde belirgin yönlü hareket Kontrolün gerçekten bir taraftan diğerine geçip \ngeçmediği anlaşılır.\nYatay piyasanın ortasında rastgele iki \nmum.\nÖnemli destek, direnç veya swing bölgesi Transfer piyasanın karar vermesi beklenen \nnoktada oluşur.\nBelirgin referans seviyesinden uzakta \noluşması.\nİkinci mumun güçlü ve ekstrem noktaya \nyakın kapanışı\nTers taraf kazanımı kapanışa kadar korur. Uzun karşı fitil ve gövdenin ortasında \nzayıf kapanış.",
+    "source_extract_summary": [
+      "2.9 Engulfing ve Kontrol Transferi Engulfing yapısı iki mum arasında görünür bir kontrol değişimini anlatır.",
+      "İlk mum, mevcut kısa vadeli yönün veya önceki tarafın hâkimiyetini temsil eder.",
+      "İkinci mum ise ters yönde genişleyerek ilk mumun gerçek gövdesini geri alır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Konum ve seviye yaşam döngüsü",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0054",
+    "page": 54,
+    "chapter": 2,
+    "section": "2.10 — Inside Bar ve Sıkışma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  39\nGüçlendiren koşul Neden önemlidir? Zayıflatan koşul\nÖnceki mumlara göre artan gövde ve \nmümkünse hacim\nKontrol değişiminin katılım ve hızla \ndesteklendiğini gösterir.\nİkinci mumun küçük kalması veya \ndüşük katılımla oluşması.\nSonraki mumlarda takip davranışı Transferin kabul edildiğini gösterir. İkinci mum kazanımının hemen geri \nverilmesi.\nTablo 2.11 – Engulfing yapısının bağlam ve kalite ölçütleri\nMum kapanmadan engulfing tamamlanmaz\nAçık mum, ilk gövdeyi bir süre kapsayıp kapanıştan önce geri çekilebilir. Kontrol transferi değerlendirmesi \nkapanmış mum üzerinden yapılmalıdır. Açık mumdaki görünüm yalnızca gelişmekte olan ihtimaldir.\nBu bölümdeki sınır\nEngulfing burada alıcı–satıcı kontrolünün nasıl değiştiğini öğretmek için kullanılır. Kesin giriş, stop, hedef ve \ngeçersizlik kartları Bölüm 6 ile Bölüm 12’de sistemleştirilecektir.\n2.10 Inside Bar ve Sıkışma\nInside bar, ikinci mumun en yüksek ve en düşük seviyelerinin önceki mumun aralığı içinde kalmasıyla \noluşan iki mumlu bir yapıdır. İlk ve daha geniş mum mother bar olarak adlandırılır. İkinci mumun \nbütün aralığı mother barın içinde kaldığı için piyasa önceki zaman aralığına göre daralmış ve geçici \nolarak sıkışmıştır.\nInside bar yön değil, durum bildirir\nInside barın temel mesajı kararsızlık, dinlenme veya volatilite daralmasıdır. Yapı tek başına fiyatın \nyukarı mı aşağı mı kırılacağını söylemez. Yön; ana trend, önemli bölge, mother barın konumu ve \naralığın hangi tarafının geçildiğiyle ortaya çıkar. Bu nedenle inside barı doğrudan alış veya satış etiketi \nolarak kullanmak temel bir yorum hatasıdır.\nMOTHER BAR INSIDE BAR ANLAM\nGeniş high–low aralığı High ve low mother bar içinde Volatilite daralması / bekleme\nReferans sınırları belirler Sınırlar içinde enerji biriktirir Kırılım gerçekleşene kadar yön teyitsiz\nŞekil 2.5 – Mother bar içinde kalan inside bar, yön değil sıkışma gösterir\nInside barın bağlama göre üç farklı anlamı\nBağlam Olası anlam Price action yaklaşımı\nBelirgin trend ve impuls \nsonrası\nKısa dinlenme veya pullback; devam ihtimali. Ana trend yönündeki kırılım daha anlamlıdır; \ntakip davranışı aranır.\nÖnemli destek veya dirençte Karar bölgesinde sıkışma; devam veya dönüş \nolasılığı.\nBölgenin hangi tarafında kapanış ve kırılım \noluştuğu izlenir.\nRange ortasında Zaten var olan yönsüzlüğün küçük bir tekrarı. Çoğu durumda işlem değeri düşüktür; range \nsınırına yaklaşmadan beklenir.",
+    "source_extract_summary": [
+      "Zayıflatan koşul Önceki mumlara göre artan gövde ve mümkünse hacim Kontrol değişiminin katılım ve hızla desteklendiğini gösterir.",
+      "İkinci mumun küçük kalması veya düşük katılımla oluşması.",
+      "Sonraki mumlarda takip davranışı Transferin kabul edildiğini gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0055",
+    "page": 55,
+    "chapter": 2,
+    "section": "2.11 — Mum Dizisini Hikâye Olarak Okumak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  40\nTablo 2.12 – Inside barın bulunduğu bağlama göre değişen mesajı\nVolatilite daralması ve genişleme döngüsü\nMother bar geniş bir referans aralığı kurar; inside bar bu aralığın içinde daha küçük bir hareket üretir. \nBirden fazla inside bar ardışık oluşursa daralma uzar. Bu yapı, sıkıştırılmış bir yay benzetmesiyle \naçıklanabilir: daralma daha sonra gelecek genişlemeye zemin hazırlayabilir; ancak genişlemenin yönü \nkırılım görülmeden bilinmez.\n1. Mother barın high ve low seviyelerini belirleyin.\n2. İkinci mumun bütün high–low aralığının bu sınırlar içinde kaldığını doğrulayın.\n3. Ana trendi ve yapının önemli bölgeye göre konumunu kontrol edin.\n4. Mother bar sınırlarından biri aşılana kadar yön varsayımını teyit edilmiş saymayın.\n5. Kırılımın gövde, kapanış, momentum ve mümkünse hacim kalitesini değerlendirin.\n6. Kırılım sonrası fiyatın mother bar aralığına geri dönüp dönmediğini izleyin; hızlı geri dönüş false \nbreakout riskini artırır.\nDaha yüksek zaman dilimi konusu\nInside barlar 4 saatlik ve günlük grafiklerde daha güvenilir olabilir; ancak bu mutlak kural değildir. Kısa zaman \ndilimlerinde de oluşurlar, fakat piyasa gürültüsü ve yanlış kırılım sıklığı artabilir. Zaman dilimi seçimi Bölüm \n10’da ayrıntılandırılacaktır.\nFormasyonu değil sınırları okuyun\nInside barın rengi çoğu zaman ikincil bilgidir. Asıl referans mother barın high–low sınırları, sıkışmanın bağlamı \nve sonrasında gelen kırılımın kalitesidir.\n2.11 Mum Dizisini Hikâye Olarak Okumak\nTek bir mum yalnızca bir zaman aralığının sonucudur. Price action okuması, ardışık mumların birbirine \nnasıl cevap verdiğini izlediğinde güçlenir. Bu nedenle traderın temel sorusu “Bu mumun adı nedir?” \ndeğil, “Önceki çaba devam ediyor mu, karşı taraf nasıl tepki veriyor ve kapanışlar hangi alanı \nkoruyor?” olmalıdır.\nDört parçalı hikâye: çaba, sonuç, tepki ve takip\nHikâye parçası Grafikte izlenen Sorulacak soru\nÇaba Gövde büyüklüğü, mum aralığı ve hareket hızı. Bir taraf fiyatı ne kadar güçlü itti?\nSonuç Kapanışın mum ve bölge içindeki konumu. İtme kapanışa kadar ne kadar korundu?\nTepki Fitiller, karşı gövde ve geri alma davranışı. Karşı taraf nerede ve ne ölçüde devreye girdi?\nTakip Sonraki mumların yönü, büyüklüğü ve kapanışları. İlk sinyal kabul edildi mi, yoksa hemen bozuldu mu?",
+    "source_extract_summary": [
+      "Birden fazla inside bar ardışık oluşursa daralma uzar.",
+      "Bu yapı, sıkıştırılmış bir yay benzetmesiyle açıklanabilir: daralma daha sonra gelecek genişlemeye zemin hazırlayabilir; ancak genişlemenin yönü kırılım görülmeden bilinmez.",
+      "Mother barın high ve low seviyelerini belirleyin."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Hareket gücü özellik ailesi",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0056",
+    "page": 56,
+    "chapter": 2,
+    "section": "2.11 — Mum Dizisini Hikâye Olarak Okumak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  41\nTablo 2.13 – Mum dizisini çaba–sonuç–tepki–takip sırasıyla okumak\nGüçlenen hareket\nAynı yönde gövdelerin büyümesi, kapanışların sürekli ekstrem noktalara yakınlaşması ve karşı fitillerin \nküçülmesi hareketin hızlandığını gösterir. Bu dizide karşı taraf fiyatı geri çevirmekte zorlanır. Ancak \nhızlanmanın uzun süren hareketin başında mı, ortasında mı yoksa sonunda mı oluştuğu ayrıca \ndeğerlendirilmelidir.\nSağlıklı devam\nGüçlü hareket her mumun bir öncekinden büyük olmasını gerektirmez. Benzer büyüklükte gövdeler, \naynı yönde kapanışlar ve sınırlı karşı fitiller kontrolün sürdüğünü gösterebilir. Pratik bir çalışma kuralı \nolarak, ilk belirgin momentum mumundan sonra yaklaşık aynı büyüklükte veya daha geniş gövdeler \nsürdükçe momentumun devam ettiği kabul edilebilir. Bu, evrensel yasa değil; görsel karşılaştırma için \nçalışma kuralıdır.\nYavaşlayan hareket\nGövde küçülürken karşı yöndeki fitillerin büyümesi, kapanışların ilerleyememesi ve ardışık mumların \ndaha fazla örtüşmesi momentum kaybına işaret eder. Yavaşlama otomatik dönüş değildir. Fiyat bir \nsüre yataya geçebilir, daha derin bir pullback oluşturabilir veya kısa bir dinlenmeden sonra aynı yönde \ndevam edebilir.\nBaşarısız devam ve kontrol değişimi\nGüçlü görünen bir mumdan sonra fiyatın yeni alanı koruyamaması önemli bilgidir. Örneğin direnç \nüzerinde uzun üst fitil bırakan ve yeniden seviye altında kapanan bir mum, mum içinde gerçekleşen \nyukarı denemenin kabul edilmediğini gösterir. Ardından ters yönde geniş gövde gelmesi, ilk \nmomentumun yalnızca zayıflamadığını, kontrolün karşı tarafa geçmeye başladığını gösterebilir.\nGÜÇLENME DEVAM YAVAŞLAMA TRANSFER\nGövde ↑\nFitil ↓\nİlerleme ↑\nBenzer gövdeler\nYön korunuyor\nGövde ↓\nKarşı fitil ↑\nÖrtüşme ↑\nTers geniş gövde\nÖnceki alan geri alınıyor\nŞekil 2.6 – Mum dizisinin güçlenme, devam, yavaşlama ve kontrol transferi evreleri\nBir mumun anlamı sonraki mumla değişebilir\nİlk görüldüğünde güçlü kabul edilen bir mum, sonraki iki mumda tamamen geri alınırsa artık aynı bilgi \ndeğerine sahip değildir. Price action canlı bir süreçtir; yeni kapanışlar önceki yorumu güçlendirebilir, \nzayıflatabilir veya geçersiz kılabilir.\nBeş mumluk hızlı okuma uygulaması\n1. İlk mumun yönünü, gövde büyüklüğünü ve kapanış konumunu tanımlayın.\n2. İkinci ve üçüncü mumların ilk çabayı genişletip genişletmediğini kontrol edin.\n3. Fitillerin hangi tarafta büyüdüğünü ve fiyatın nerede reddedildiğini işaretleyin.\n4. Dördüncü mumda momentumun sürdüğünü, yavaşladığını veya ters döndüğünü sınıflandırın.\n5. Beşinci mumun önceki yorumu teyit edip etmediğini değerlendirin; teyit yoksa işlem fikrini \nbeklemeye alın.",
+    "source_extract_summary": [
+      "Bu dizide karşı taraf fiyatı geri çevirmekte zorlanır.",
+      "Ancak hızlanmanın uzun süren hareketin başında mı, ortasında mı yoksa sonunda mı oluştuğu ayrıca değerlendirilmelidir.",
+      "Sağlıklı devam Güçlü hareket her mumun bir öncekinden büyük olmasını gerektirmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0057",
+    "page": 57,
+    "chapter": 2,
+    "section": "2.13 — Hacimle Teyit",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  42\n2.12 Bağlam Hiyerarşisi\nAynı mum biçimi farklı konumlarda farklı anlam taşır. Bu nedenle mum, analiz sırasının başlangıcı değil \nson teyit katmanlarından biridir. İşlevsel analiz sırası, önce büyük resmi ve karar bölgesini belirlemek; \ndaha sonra mumun o bölgedeki davranışını okumaktır.\nSıra Kontrol Görevi\n1. Piyasa durumu Trend mi, range mi, geçiş mi? Mumun devam, tepki veya gürültü olma ihtimalini sınırlar.\n2. Ana yön / trend Yükseliş, düşüş veya yönsüz yapı. Mum ana yönle aynı mı, karşı mı çalışıyor?\n3. Önemli bölge Destek, direnç, arz–talep, önceki swing veya \nrange sınırı.\nMum piyasanın karar vermesi beklenen yerde mi?\n4. Yapısal konum Impuls, pullback, kırılım, retest veya sıkışma. Mum hareketin hangi aşamasında oluştu?\n5. Zaman dilimi Üst zaman bağlamı ve kullanılan tetik zamanı. Kısa zaman sinyali üst zaman yönüyle uyumlu mu?\n6. Mum ve dizi Gövde, fitil, kapanış, momentum ve takip. Fiyat bu bağlam içinde nasıl davranıyor?\n7. Destekleyici kanıt Hacim veya yardımcı gösterge. Ana fiyat okuması ek kanıtla destekleniyor mu?\nTablo 2.14 – Mumdan önce kontrol edilmesi gereken bağlam hiyerarşisi\nPİYASA\nDURUMU TREND BÖLGE YAPISAL KONUM ZAMAN DİLİMİ MUM DAVRANIŞI TEYİT\nŞekil 2.7 – Bağlamdan teyide doğru price action değerlendirme sırası\nTrend içinde aynı mum neden farklı okunur?\nUzun alt fitilli bir mum, yükseliş trendindeki pullback sonunda destek üzerinde oluştuğunda alıcıların \ngeri dönmesine dair tepki gösterebilir. Aynı şekil güçlü düşüş impulsunun ortasında ve belirgin \nbölgeden uzakta oluşuyorsa yalnızca kısa süreli tepki olabilir. Yükselişin sonunda oluşan benzer şekil \nise asılı adam ailesi içinde risk uyarısı olarak yorumlanabilir. Şekil aynı, bağlam farklıdır.\nBölge içinde kapanışın önceliği\nFiyatın bir seviyeyi mum içinde aşması ile seviyenin ötesinde kapanması aynı şey değildir. Fitil, \ndenemeyi; kapanış ise o zaman aralığındaki sonucu gösterir. Direncin üzerinde fitil bırakıp yeniden \naltında kapanan mum, yukarı fiyatların kabul görmediğini gösterebilir. Direncin üzerinde geniş \ngövdeyle kapanan mum ise kırılım ihtimalini güçlendirir. Bu ayrım Bölüm 4 ve breakout bölümlerinde \ngenişletilecektir.\nBağlam yoksa sinyal yok\nBir mum biçimini tanıyabiliyor olmanız, o mumun işlem değeri taşıdığı anlamına gelmez. Trend, bölge veya \nyapısal referans bulunamıyorsa en doğru price action kararı çoğu zaman beklemektir.\n2.13 Hacimle Teyit\nHacim, belirli zaman aralığında gerçekleşen işlem etkinliğini gösterir. Price action açısından görevi, \nmumun yönünü tek başına belirlemek değil; görülen hareketin ne kadar katılımla gerçekleştiğine dair",
+    "source_extract_summary": [
+      "2.12 Bağlam Hiyerarşisi Aynı mum biçimi farklı konumlarda farklı anlam taşır.",
+      "Bu nedenle mum, analiz sırasının başlangıcı değil son teyit katmanlarından biridir.",
+      "İşlevsel analiz sırası, önce büyük resmi ve karar bölgesini belirlemek; daha sonra mumun o bölgedeki davranışını okumaktır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0058",
+    "page": 58,
+    "chapter": 2,
+    "section": "2.14 — Standart Mum ve Heikin Ashi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  43\nek kanıt sağlamaktır. Bu bölümde hacim yalnızca temel teyit olarak kullanılacak; Volume Profile, OBV, \nfootprint ve order flow Bölüm 7’de ayrıntılandırılacaktır.\nHacim ile mum birlikte nasıl okunur?\nMum–hacim birleşimi Temel yorum Price action sonucu\nGeniş gövde + yüksek hacim + güçlü kapanış Yönlü hareket geniş katılımla destekleniyor olabilir. Kırılım, displacement veya kontrol \ntransferi daha anlamlıdır.\nGeniş gövde + düşük/olağan hacim Fiyat ilerliyor fakat katılım belirgin artmıyor. Devam ihtimali vardır; teyit gücü daha \nsınırlıdır.\nUzun fitil + yüksek hacim + seviyenin içine \ndönüş\nYüksek etkinliğe rağmen fiyat yeni alanı \nkoruyamadı.\nReddetme, emilim veya başarısız kırılım \nriski artar.\nKüçük gövde + yüksek hacim Çok işlem gerçekleşmiş fakat net ilerleme az. Taraflar arasında yoğun mücadele veya \nemilim olabilir.\nTrend ilerlerken hacmin azalması Hareket daha az katılımla sürüyor. Momentum zayıflaması ihtimali; tek \nbaşına dönüş kanıtı değildir.\nTablo 2.15 – Hacmin mum davranışını destekleme veya sorgulama biçimleri\nYüksek hacim her zaman aynı yönde olumlu değildir\nBaşarısız kırılım örneği bu ayrımı açık biçimde gösterir. Fiyat direncin üzerine güçlü biçimde uzanmış, \nhacim artmış; ancak mum kapanışta yeniden seviyenin altına dönmüş ve uzun üst fitil bırakmıştır. Bu \ndurumda yüksek hacim yükseliş teyidi değil, yukarı denemenin güçlü karşılıkla reddedildiğini gösteren \nbir kanıt hâline gelir. Hacim önce mumun sonucuyla, sonra bağlamla birlikte yorumlanmalıdır.\nKarşılaştırma mutlak sayıdan daha değerlidir\nHacmi değerlendirirken tek bir çubuğun sayısına değil, yakın geçmişteki hacim çubuklarına göre artış \nveya azalışa bakın. Farklı piyasa ve veri kaynaklarında hacmin hesaplanma biçimi değişebilir. Forex gibi \nmerkezi olmayan piyasalarda görülen hacim çoğu zaman gerçek toplam işlem adedi yerine veri \nsağlayıcının tick veya broker hacmi olabilir. Bu nedenle hacim verisinin kaynağı ayrıca bilinmelidir.\nTeyit sırası\nÖnce fiyatın ne yaptığını okuyun: gövde, fitil, kapanış ve bölge. Sonra hacmin bu sonucu destekleyip \ndesteklemediğini sorun. Hacmi tek başına alış veya satış sinyali olarak kullanmayın.\n2.14 Standart Mum ve Heikin Ashi\nStandart mumlar seçilen zaman aralığının gerçek open, high, low ve close verisini gösterir. Heikin Ashi \nise mevcut ve önceki mum verilerini ortalama mantığıyla birleştirerek daha yumuşak bir grafik üretir. \nBu yumuşatma trendleri görsel olarak belirginleştirebilir; fakat ekrandaki Heikin Ashi açılış ve \nkapanışları gerçek işlem fiyatı değildir.\nÖzellik Standart mum Heikin Ashi\nVeri yapısı Gerçek OHLC verisi. Ortalama/sentetik mum hesabı.",
+    "source_extract_summary": [
+      "Bu bölümde hacim yalnızca temel teyit olarak kullanılacak; Volume Profile, OBV, footprint ve order flow Bölüm 7’de ayrıntılandırılacaktır.",
+      "Hacim ile mum birlikte nasıl okunur?",
+      "Mum–hacim birleşimi Temel yorum Price action sonucu Geniş gövde + yüksek hacim + güçlü kapanış Yönlü hareket geniş katılımla destekleniyor olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Mum geometrisi ve davranış özellikleri",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0059",
+    "page": 59,
+    "chapter": 2,
+    "section": "2.15 — Price Action Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  44\nÖzellik Standart mum Heikin Ashi\nAna görev Giriş fiyatı, kapanış, fitil ve gerçek price action okuması. Trend akışını ve momentum dizilerini yumuşatarak \nizlemek.\nTrend görünümü Karşı renkli mumlar ve gürültü daha sık görülebilir. Uzun aynı renk serileri ve daha temiz trend görünümü.\nGecikme Seçilen zaman diliminin ham verisi. Ortalama nedeniyle belirli ölçüde gecikir.\nFiyat hassasiyeti Emir, stop ve gerçek seviye değerlendirmesine uygundur. Gerçek giriş/stop fiyatı için tek başına uygun değildir.\nRange piyasası Gerçek dalgalanmayı gösterir. Yatay ve dalgalı piyasada yanıltıcı veya zor okunabilir.\nGap görünümü Gerçek fiyat boşluklarını gösterebilir. Yumuşatma nedeniyle bazı gap ve mikro ayrıntıları \ngizleyebilir.\nTablo 2.16 – Standart mum ile Heikin Ashi’nin görev ayrımı\nSTANDART MUM HEIKIN ASHI\nGerçek fiyat\nGiriş ve stop\nFitil/kapanış teyidi\nYumuşatılmış trend\nSeri ve momentum filtresi\nGecikmeli yardımcı görünüm\nŞekil 2.8 – Gerçek fiyat okuması ile yumuşatılmış trend filtresinin ayrılması\nHeikin Ashi’de temel görsel işaretler\n Güçlü yükseliş serisi: Ardışık yeşil mumlar ve çoğu zaman alt fitilin bulunmaması.\n Güçlü düşüş serisi: Ardışık kırmızı mumlar ve çoğu zaman üst fitilin bulunmaması.\n Duraklama veya zayıflama: Küçülen gövdeler, iki taraflı fitiller, doji/spinning top \nbenzeri görünüm.\n Trend filtresi: Aynı renk serisinin sürmesi trendin korunmasına; karşı fitil ve renk \ndeğişimi ise zayıflamaya işaret edebilir.\nÇift grafik çalışma yöntemi\n1. Heikin Ashi grafiğinde genel trend serisini ve zayıflama işaretlerini gözlemleyin.\n2. Aynı sembol ve zaman dilimindeki standart mum grafiğine geçin veya çift görünüm kullanın.\n3. Gerçek destek–direnç tepkisini, engulfing/pin bar gibi mum davranışlarını ve gerçek kapanış fiyatını \nstandart mumdan doğrulayın.\n4. Giriş, stop ve hedef seviyelerini Heikin Ashi’nin sentetik değerleriyle değil gerçek fiyat grafiğiyle \nbelirleyin.\nHeikin Ashi normal mumun yerine geçmez\nHeikin Ashi trendi sadeleştiren yardımcı bir görünüm olabilir. Fakat gerçek fiyatı, gapleri ve mikro price action \nayrıntılarını değiştirdiği için standart mumları tamamen kapatıp işlem fiyatı belirlemek doğru değildir.\n2.15 Price Action Okuma İş Akışı\nPrice action, şekil avcılığı değil; aynı soruları her grafikte aynı sırayla sorma disiplinidir. Aşağıdaki iş \nakışı, bu bölümde öğrenilen gövde–fitil–kapanış–momentum bilgilerini bağlam ve teyitle birleştirir.",
+    "source_extract_summary": [
+      "Özellik Standart mum Heikin Ashi Ana görev Giriş fiyatı, kapanış, fitil ve gerçek price action okuması.",
+      "Trend akışını ve momentum dizilerini yumuşatarak izlemek.",
+      "Trend görünümü Karşı renkli mumlar ve gürültü daha sık görülebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0060",
+    "page": 60,
+    "chapter": 2,
+    "section": "2.15 — Price Action Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  45\nAmaç her grafikte işlem bulmak değil, işlem değeri olmayan görüntüleri hızlı biçimde elemek ve güçlü \ndurumları objektif olarak tanımlamaktır.\nYedi adımlı grafik okuma sırası\nAdım Görev Kontrol\n1 Büyük resmi belirle Trend, range veya geçiş; üst zaman yönü.\n2 Karar bölgesini bul Destek, direnç, önceki swing, arz–talep veya range sınırı.\n3 Yaklaşım biçimini oku Fiyat bölgeye güçlü mü, yavaşlayarak mı, sıkışarak mı geliyor?\n4 Mumun yapısını tanımla Gövde, toplam aralık, üst/alt fitil ve kapanış konumu.\n5 Mum dizisini değerlendir Hızlanma, devam, yavaşlama, reaction, indecision veya kontrol transferi.\n6 Teyit ara Takip mumu, seviyenin korunması/kırılması ve mümkünse hacim.\n7 Karar ver Koşullar uyumluysa sonraki işlem planına geç; değilse bekle.\nTablo 2.17 – Price action için yedi adımlı standart okuma sırası\nMum kalite puanı yerine nitel kontrol\nBazı yaklaşımlar, gövdenin önceki muma göre belirgin büyümesi veya fitilin gövdenin iki–üç katına \nulaşması gibi pratik eşikler kullanır. Bu ölçütler görsel disiplin sağlar; ancak bütün piyasalarda \ndeğişmez matematiksel yasa değildir. Bölüm 2’de amaç tek bir puan üretmek değil, aşağıdaki nitel \nsorulara tutarlı cevap vermektir.\n Mum önceki 3–5 muma göre gerçekten belirgin mi?\n Kapanış, mum aralığının beklenen tarafında güçlü mü?\n Fitil önemli bir fiyat alanında mı oluştu?\n Mum ana trend ve yapısal konumla uyumlu mu?\n Mumun ardından takip davranışı geldi mi?\n Hacim veya başka kanıt fiyat sonucunu destekliyor mu?\n Yakındaki engel, hareket alanını anlamsız hâle getiriyor mu?\nOtomatik mum göstergelerinin doğru kullanımı\nOtomatik pattern göstergeleri hammer, engulfing, doji veya inside bar benzeri şekilleri tarayabilir. \nTrend filtresi kapatıldığında sinyal sayısı ve yanlış sinyal ihtimali artabilir. Araç yalnızca aday şekli bulur; \ntrend, önemli bölge, kapanış kalitesi, hacim ve takip davranışını trader değerlendirmelidir.\nSoru Cevap\nAraç ne yapabilir? Şekilleri hızlı tarar; çok sayıda sembolde gözden kaçabilecek adayları işaretler.\nAraç ne yapamaz? Piyasa bağlamını, yaklaşım hızını, yakın engeli ve işlem maliyetini bütünüyle değerlendiremez.\nTrend filtresi ne sağlar? Bazı bağlamsız ters yön sinyallerini azaltabilir; fakat doğru sinyali garanti etmez.\nTraderın görevi nedir? Sinyali bağımsız olarak doğrulamak ve koşullar yoksa işlem almamak.",
+    "source_extract_summary": [
+      "Amaç her grafikte işlem bulmak değil, işlem değeri olmayan görüntüleri hızlı biçimde elemek ve güçlü durumları objektif olarak tanımlamaktır.",
+      "Yedi adımlı grafik okuma sırası Adım Görev Kontrol 1 Büyük resmi belirle Trend, range veya geçiş; üst zaman yönü.",
+      "2 Karar bölgesini bul Destek, direnç, önceki swing, arz–talep veya range sınırı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Konum ve seviye yaşam döngüsü",
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0061",
+    "page": 61,
+    "chapter": 2,
+    "section": "2.15 — Price Action Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  46\nTablo 2.18 – Otomatik mum araçlarının kullanım sınırı\nNihai filtre: “Koşullar yoksa işlem yok”\nGüzel bir mum şekli görmek işlem zorunluluğu yaratmaz. Bağlam, takip ve risk koşulları eksikse price action \nsisteminin verdiği doğru karar beklemektir.\nHızlı Başvuru Kontrol Listesi\nKontrol\n□ Piyasanın trend/range durumunu belirledim.\n□ Mumun önemli bir bölge veya yapısal referansla ilişkisini gördüm.\n□ Gövdeyi ve toplam aralığı önceki 3–5 mumla karşılaştırdım.\n□ Üst ve alt fitilin hangi fiyatların reddedildiğini gösterdiğini değerlendirdim.\n□ Kapanışın mum ve bölge içindeki konumunu kontrol ettim.\n□ Tek mum yerine önceki ve sonraki mumlarla diziyi okudum.\n□ Momentum, reaction veya indecision ailesini doğru tanımladım.\n□ Engulfing ise kontrol transferini; inside bar ise sıkışmayı doğruladım.\n□ Hacmi fiyat sonucunu destekleyen veya sorgulayan kanıt olarak kullandım.\n□ Heikin Ashi kullanıyorsam gerçek fiyatı standart mumdan doğruladım.\n□ Otomatik indicator sinyalini bağımsız biçimde kontrol ettim.\n□ Koşullar eksikse işlem yapmamayı kabul ettim.\nKontrol Listesi 2.1 – Grafik başında price action kontrolü\nBölüm Özeti — Mumun Şeklinden Fiyat Davranışına\nBölüm 2, mumların isimlerinden önce işlevlerini okumayı amaçladı. Bir mumun rengi yalnızca açılış ile \nkapanış arasındaki yönü; gövde kontrol derecesini; fitiller başarısız denemeleri ve tepkileri; kapanış ise \nzaman aralığındaki sonucu gösterir. Bu bilgiler tek başına değil, önceki mumlarla ve piyasa bağlamıyla \nbirlikte anlam kazanır.\nKavram Bölümdeki ana anlamı\nGövde Açılış–kapanış arasındaki net ilerleme ve kontrol.\nKapanış Mum içindeki çabanın ne kadarının korunabildiği.\nFitil Fiyatın denediği fakat kapanışa taşıyamadığı alan ve karşı tepki.\nMomentum Önceki mumlara göre bağıl hız ve gövde genişliği.\nReaction Bir yöndeki hareketin geri çevrilmesi; bağlama ihtiyaç duyar.\nIndecision Net kontrol yokluğu; çoğu zaman bekleme veya risk uyarısı.",
+    "source_extract_summary": [
+      "Bağlam, takip ve risk koşulları eksikse price action sisteminin verdiği doğru karar beklemektir.",
+      "Hızlı Başvuru Kontrol Listesi Kontrol □ Piyasanın trend/range durumunu belirledim.",
+      "□ Mumun önemli bir bölge veya yapısal referansla ilişkisini gördüm."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0062",
+    "page": 62,
+    "chapter": 2,
+    "section": "2.15 — Price Action Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  47\nKavram Bölümdeki ana anlamı\nEngulfing İlk mum gövdesinin ters tarafça geri alınması; kontrol transferi.\nInside bar Mother bar içinde volatilite daralması; yön değil sıkışma.\nHacim Fiyat hareketinin katılımını destekleyen veya sorgulayan ek kanıt.\nHeikin Ashi Gerçek fiyatın yerine geçmeyen, yumuşatılmış trend görünümü.\nTablo 2.19 – Bölüm 2 hızlı kavram özeti\nBölümün ana cümlesi\nMum, tek başına gelecek tahmini değildir. Mum; belirli bir bağlamda gerçekleşen çaba, tepki, kapanış ve takip \ndavranışının sıkıştırılmış kaydıdır.\nBölüm 2 temel sözlüğü\nTerim Tanım\nPrice action Fiyatın yakın geçmişte ve şu anda nasıl davrandığını inceleyen mikro okuma.\nReal body / Gerçek gövde Açılış ile kapanış arasındaki geniş alan.\nWick / Fitil Mum içinde ulaşılan fakat kapanışta korunmayan fiyat alanı.\nRange Mumun high ile low arasındaki toplam fiyat aralığı.\nMomentum candle Önceki mumlara göre belirgin geniş gövdeli ve yönlü mum.\nReaction candle Bir yöndeki fiyat denemesinin kapanışa kadar geri çevrildiğini gösteren mum.\nPin bar Küçük gövde ve bir tarafta belirgin uzun fitil taşıyan reaction yapısı.\nIndecision Alıcı veya satıcının net kontrol kuramaması.\nDoji Açılış ile kapanışın birbirine çok yakın olduğu kararsızlık mumu.\nSpinning top Küçük gövde ve iki taraflı belirgin fitiller taşıyan kararsızlık mumu.\nEngulfing İkinci mum gövdesinin ilk mum gövdesini ters yönde geri aldığı yapı.\nMother bar Inside barı tamamen kapsayan önceki referans mum.\nInside bar High–low aralığı mother barın içinde kalan sıkışma mumu.\nFollow-through / Takip İlk price action sinyalinden sonra beklenen yöndeki devam davranışı.\nConfluence / Uyumlu kanıt Aynı işlem fikrini destekleyen bağımsız teknik unsurların birleşmesi.\nTablo 2.20 – Bölüm 2 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Price action ile market structure arasındaki temel görev farkı nedir?\n2. Aynı high–low aralığına sahip iki mum neden farklı anlam taşıyabilir?\n3. Geniş gövde ve ekstrem noktaya yakın kapanış birlikte ne gösterir?",
+    "source_extract_summary": [
+      "Kavram Bölümdeki ana anlamı Engulfing İlk mum gövdesinin ters tarafça geri alınması; kontrol transferi.",
+      "Inside bar Mother bar içinde volatilite daralması; yön değil sıkışma.",
+      "Hacim Fiyat hareketinin katılımını destekleyen veya sorgulayan ek kanıt."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "İlk olaydan sonra alanın korunması ve hareketin devamı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0063",
+    "page": 63,
+    "chapter": 2,
+    "section": "2.15 — Price Action Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 2\nMum Okuma ve Price Action Psikolojisi  •  48\n4. Uzun üst fitil neden her zaman satış sinyali değildir?\n5. Momentum mumundaki “iki kat” ölçütü neden evrensel yasa değil çalışma kuralıdır?\n6. Reaction mumu ile indecision mumu arasındaki temel fark nedir?\n7. Doji güçlü trend sonunda ve range ortasında nasıl farklı yorumlanır?\n8. Engulfing yapısında fitillerden çok gövde neden önemlidir?\n9. Kesintisiz piyasalarda engulfing için gap şartı neden esnek değerlendirilir?\n10. Inside barın temel mesajı neden yön değil volatilite daralmasıdır?\n11. Mum dizisini çaba–sonuç–tepki–takip olarak okumak ne sağlar?\n12. Bağlam hiyerarşisinde mum neden son katmanlardan biridir?\n13. Yüksek hacimli uzun fitil başarısız kırılımda nasıl yorumlanabilir?\n14. Heikin Ashi neden gerçek giriş ve stop fiyatı için tek başına kullanılmamalıdır?\n15. Otomatik mum göstergesi hangi görevi yapabilir, hangi kararı veremez?\nBölüm 2 tamamlandı\nArtık bir mumu yalnızca rengi veya adıyla değil; gövde, fitil, kapanış, bağıl momentum, mum dizisi ve bağlam \nüzerinden okuyabilecek temel price action çerçevesine sahipsiniz. Bölüm 3 bu mikro davranışı trend, swing, \nimpuls–pullback ve piyasa yapısının büyük resmiyle birleştirecektir.",
+    "source_extract_summary": [
+      "Uzun üst fitil neden her zaman satış sinyali değildir?",
+      "Momentum mumundaki “iki kat” ölçütü neden evrensel yasa değil çalışma kuralıdır?",
+      "Reaction mumu ile indecision mumu arasındaki temel fark nedir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Mum geometrisi ve davranış özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi",
+      "Standart OHLC ile dönüştürülmüş grafiklerin bilgi ve gecikme ayrımı",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0064",
+    "page": 64,
+    "chapter": 3,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı",
+    "source_extract_summary": [
+      "BÖLÜM 3 Trend, Price Action ve Piyasa Yapısı"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0065",
+    "page": 65,
+    "chapter": 3,
+    "section": "3.1 — Harita ve Anlık Tepki: Price Action ile",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  50\nFiyatın Haritasını Kurmak\nTek bir mum, belirli bir zaman aralığındaki mücadeleyi gösterir. Fakat traderın asıl \nsorusu çoğu zaman daha büyüktür: Bu mum, yükselişin içindeki sıradan bir geri \nçekilmenin parçası mı; yeni bir düşüşün başlangıcı mı; yoksa yönsüz bir aralığın \niçinde anlamsız bir dalgalanma mı?\nMarket structure, fiyat hareketini anlamlı tepe ve dipler, itici hareketler, geri \nçekilmeler ve kırılımlar üzerinden düzenleyen haritadır. Bu harita geleceği kesin \nolarak söylemez. Görevi, piyasanın şu ana kadar hangi yapıyı koruduğunu, nerede \nzayıfladığını ve hangi olayın mevcut sınıflandırmayı değiştireceğini göstermektir.\nBu bölümde trend çizgisi, hareketli ortalama veya tek bir gösterge trendin tanımı \nolarak kullanılmayacaktır. Önce çıplak fiyatın oluşturduğu swing dizisi okunacak; \nyardımcı araçlar ancak bu yapıyı daha kolay görmeye yarayan ikincil unsurlar olarak \ndeğerlendirilecektir.\nBu bölümün sonunda\nAnlamlı swing noktalarını belirleyebilecek, impulse ile pullback’i ayırabilecek, HH–HL ve LH–LL yapılarını \ntanımlayabilecek, BOS ile CHoCH’u birbirinden ayırabilecek ve trend, range, geçiş ve fractal yapı durumlarını \nstandart bir iş akışıyla okuyabileceksiniz.\n3.1 Harita ve Anlık Tepki: Price Action ile \nMarket Structure\nPrice action ve market structure birbirine bağlıdır; fakat aynı kavram değildir. Price action, fiyatın \nbelirli bir anda veya kısa bir dizide nasıl davrandığını inceler. Market structure ise bu davranışların \nzaman içinde oluşturduğu tepe–dip düzenini, trendi, geri çekilmeleri ve yapısal kırılımları inceler.\nBölüm 2’de bir mumun gövdesini, fitilini, kapanışını ve momentumunu okumayı öğrendik. Bölüm 3’te \naynı bilgiyi daha geniş bir soruya bağlarız: Bu tepki, hangi swing içinde ve hangi yapısal konumda \noluştu? Güçlü bir boğa mumu, yükseliş trendindeki pullback sonunda oluşuyorsa devam kanıtı olabilir; \naynı mum geniş bir range’in tam ortasında oluşuyorsa yapısal değeri çok daha düşük olabilir.\nÖlçek Temel soru İncelenen bilgi Örnek çıktı\nPrice action / mikro Fiyat şu anda nasıl tepki veriyor? Gövde, fitil, kapanış, momentum, birkaç mumluk \nkontrol değişimi.\nAlıcı tepkisi güçlendi; \nüst fitil reddi var; \nmomentum zayıflıyor.\nMarket structure / makro Fiyat hangi düzen içinde hareket \nediyor?\nSwing high/low, impulse–pullback, trend/range, \nBOS/CHoCH.\nHH–HL yükseliş yapısı; \nrange; yapı değişimi \nuyarısı.",
+    "source_extract_summary": [
+      "Fiyatın Haritasını Kurmak Tek bir mum, belirli bir zaman aralığındaki mücadeleyi gösterir.",
+      "Fakat traderın asıl sorusu çoğu zaman daha büyüktür: Bu mum, yükselişin içindeki sıradan bir geri çekilmenin parçası mı; yeni bir düşüşün başlangıcı mı; yoksa yönsüz bir aralığın içinde anlamsız bir dalgalanma mı?",
+      "Market structure, fiyat hareketini anlamlı tepe ve dipler, itici hareketler, geri çekilmeler ve kırılımlar üzerinden düzenleyen haritadır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Mum geometrisi ve davranış özellikleri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0066",
+    "page": 66,
+    "chapter": 3,
+    "section": "3.2 — Swing High ve Swing Low: Yapının Temel",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  51\nÖlçek Temel soru İncelenen bilgi Örnek çıktı\nBirleşik okuma Mikro davranış makro haritayı \ndestekliyor mu?\nPrice action sinyalinin yapısal konumu ve takip \ndavranışı.\nPullback sonunda \ngüçlü tepki; ancak \nhenüz BOS yok.\nTablo 3.1 – Price action ve market structure görev ayrımı\nHarita sinyal değildir\nMarket structure mevcut koşulu sınıflandırır. “Yükseliş yapısı var” ifadesi, her fiyattan alım yapılması gerektiği \nanlamına gelmez. Giriş zamanlaması, risk ve işlem kurulumu sonraki bölümlerde ayrıca ele alınacaktır.\nYapısal okumanın üç görevi\n Bağlam: Mum ve formasyonların hangi trend veya range içinde oluştuğunu belirler.\n Referans: Mevcut yapıyı koruyan veya bozan swing seviyelerini görünür kılar.\n Koşullu karar: “Bu seviye kırılmadıkça yapı korunur; kapanışla kırılırsa sınıflandırma \ndeğişir” biçiminde objektif cümle kurdurur.\n3.2 Swing High ve Swing Low: Yapının Temel \nTaşları\nSwing high, fiyatın yükseldikten sonra aşağı döndüğü yerel tepedir. Swing low ise fiyatın düştükten \nsonra yukarı döndüğü yerel diptir. Fakat grafikteki her küçük kıvrım aynı öneme sahip değildir. Market \nstructure okumak için önce yerel pivot ile anlamlı yapısal swing’i ayırmak gerekir.\nYerel pivot, yakın çevresindeki mumlara göre tepe veya dip oluşturan küçük dönüş noktasıdır. Yapısal \nswing ise sonraki hareketin yönünü, impulse–pullback ayrımını veya trend sınıflandırmasını etkileyen \ndaha anlamlı ekstremdir. Kısa zaman dilimine geçildiğinde ana grafikte tek hareket gibi görünen bir \nswing’in içinde çok sayıda küçük pivot bulunabilir.\nKavram Tanım Yapısal değeri\nYerel tepe/dip Yakın mumlara göre kısa süreli dönüş noktası. Mikro akışı gösterir; her zaman ana trendi \ndeğiştirmez.\nMinor swing Ana hareketin içindeki belirgin fakat ikincil dalga. Giriş zamanlaması ve kısa vadeli yapı için \nyararlı olabilir.\nMajor swing Grafiğin genel yönünü ve ana impulse–pullback dizisini \ntanımlayan tepe/dip.\nBOS, CHoCH ve trend sınıflandırmasında temel \nreferanstır.\nTablo 3.2 – Pivot ve swing ölçeklerinin ayrılması\nBir swing’i anlamlı yapan ölçütler\n Görünür dönüş: Fiyat ekstremden sonra karşı yönde belirgin mesafe katetmiştir.\n Zaman ve mesafe: Dönüş yalnızca bir–iki rastgele tik değil, seçilen zaman diliminde \nokunabilir bir dalga üretmiştir.",
+    "source_extract_summary": [
+      "Ölçek Temel soru İncelenen bilgi Örnek çıktı Birleşik okuma Mikro davranış makro haritayı destekliyor mu?",
+      "Price action sinyalinin yapısal konumu ve takip davranışı.",
+      "Pullback sonunda güçlü tepki; ancak henüz BOS yok."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0067",
+    "page": 67,
+    "chapter": 3,
+    "section": "3.3 — Impulse ve Pullback: Piyasanın Dalga",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  52\n Yapısal sonuç: Swing’den başlayan hareket başka bir swing’i kırmış, trendi devam \nettirmiş veya önemli bir range sınırı oluşturmuştur.\n Tekrar edilebilirlik: Aynı grafiğe bakan trader, önceden belirlenmiş ölçekle benzer \nswing’leri seçebilir.\nSonradan kusursuz tepe seçme hatası\nSwing noktaları geriye bakınca çok açık görünür. Canlı grafikte ise ekstrem ancak fiyat karşı yönde hareket \nettikçe belirginleşir. Bu nedenle yeni oluşan her yüksek veya düşük seviyeyi hemen “onaylı swing” olarak \netiketlemek, yapıyı sürekli değiştirir.\nEşit tepeler ve eşit dipler\nİki tepe veya dip birbirine çok yakınsa bunları zorla HH, LH, HL veya LL olarak sınıflandırmak yerine eşit \ntepe (EQH) ya da eşit dip (EQL) olarak görmek daha sağlıklıdır. Gerçek piyasalarda seviyeler kusursuz \nçizgiler değildir; küçük farklılıklar veri kaynağına ve volatiliteye bağlı olabilir. Eşitlik, yapının yön \nüretmekte zorlandığını ve range ya da likidite bağlamının ayrıca incelenmesi gerektiğini gösterebilir.\n3.3 Impulse ve Pullback: Piyasanın Dalga \nAnatomisi\nPiyasalar çoğu zaman düz bir çizgi hâlinde yükselmez veya düşmez. Yönlü hareket, ilerleme ve geri \nçekilme dalgalarının birleşimidir. Trend yönündeki belirgin ilerleme impulse move; bu ilerlemeye karşı \noluşan geçici geri çekilme ise pullback olarak adlandırılır.\nYükseliş trendinde impulse yukarı, pullback aşağı yönlüdür. Düşüş trendinde impulse aşağı, pullback \nyukarı yönlüdür. Bir hareketin yalnızca rengine bakarak impulse veya pullback denmez; ana yapıya \ngöre görevi belirlenir. Aynı yükseliş hareketi, günlük düşüş trendinde pullback iken saatlik grafikte \nkendi içinde bir yükseliş trendi olabilir.\nÖzellik Impulse Pullback\nYön Ana trendle aynı yönde. Ana trende karşı yönde.\nHız ve gövde Genellikle daha geniş gövdeler ve daha net takip. Çoğu zaman daha küçük, örtüşen veya yavaşlayan \nmumlar.\nYapısal görev Yeni ekstrem üretir ve trendi ilerletir. Bir sonraki impulse öncesinde denge ve düzeltme \nsağlar.\nBaşarısızlık işareti Önceki swing’i kıramaz veya hızla geri alınır. Korunması gereken swing’i aşarak yapıyı bozar.\nTablo 3.3 – Impulse ve pullback karşılaştırması\nPullback’in derinliği tek başına dönüş değildir\nBir pullback sığ veya derin olabilir. Derin geri çekilme trendi zayıflatabilir; fakat korunan major swing \nkırılmadıkça yalnızca derinlik, trend dönüşünü kesinleştirmez. Buna karşılık çok küçük bir karşı \nhareket, eğer anlamlı protected swing’i kapanışla bozuyorsa yapısal olarak daha önemli olabilir. Bu \nnedenle yüzde ölçümünden önce hangi swing’in korunması gerektiği belirlenir.",
+    "source_extract_summary": [
+      " Yapısal sonuç: Swing’den başlayan hareket başka bir swing’i kırmış, trendi devam ettirmiş veya önemli bir range sınırı oluşturmuştur.",
+      " Tekrar edilebilirlik: Aynı grafiğe bakan trader, önceden belirlenmiş ölçekle benzer swing’leri seçebilir.",
+      "Sonradan kusursuz tepe seçme hatası Swing noktaları geriye bakınca çok açık görünür."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Mum geometrisi ve davranış özellikleri",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0068",
+    "page": 68,
+    "chapter": 3,
+    "section": "3.4 — Trendin Yapısal Tanımı: HH–HL ve LH–LL",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  53\nOverlap ve ritim\nTemiz trendlerde impulse dalgaları daha yönlü, pullback’ler daha düzenli görünür. Mumlar sürekli \nbirbirinin alanına giriyor, impulse ve pullback ayrımı kayboluyor ve yapı birkaç mumda bir yön \ndeğiştiriyorsa piyasa choppy veya geçiş hâlinde olabilir. Böyle bir grafikte daha çok çizgi çizmek \nbelirsizliği çözmez; yapının yeterince temiz olmadığını kabul etmek gerekir.\nDalga mantığı formasyon ezberinden önce gelir\nBayrak, üçgen veya kanal gibi isimler daha sonra öğrenilebilir. Önce fiyatın hangi dalgada ilerlediğini, hangi \ndalgada düzeltme yaptığını ve hangi ekstremi koruduğunu okuyabilmek daha genellenebilir bir beceridir.\n3.4 Trendin Yapısal Tanımı: HH–HL ve LH–LL\nYükseliş trendi yalnızca fiyatın son birkaç mumda yükselmesi değildir. Yapısal yükseliş, birbirini izleyen \ndaha yüksek tepeler (higher high, HH) ve daha yüksek diplerle (higher low, HL) tanımlanır. Düşüş \ntrendi ise daha düşük tepeler (lower high, LH) ve daha düşük diplerden (lower low, LL) oluşur.\nSon tepeler Son dipler Yapısal sınıflandırma\nHH HL Yükseliş yapısı\nLH LL Düşüş yapısı\nEQH / yakın eşit EQL / yakın eşit Range veya yatay yapı adayı\nHH LL Genişleyen/karışık yapı; trend teyidi yok\nLH HL Sıkışan/karışık yapı; trend teyidi yok\nYetersiz swing Yetersiz swing Veri yetersiz; yapı beklenir\nTablo 3.4 – Tepe–dip kombinasyonlarına göre yapısal durum\nNeden hem tepe hem dip gerekir?\nYalnızca daha yüksek tepeler görmek yükseliş trendini kanıtlamaz. Dipler de yükselmelidir. Fiyat daha \nyüksek tepe üretirken aynı zamanda daha düşük dipler oluşturuyorsa hareket genişleyen bir yapı veya \nyüksek volatilite içeren kararsızlık olabilir. Benzer biçimde yalnızca daha düşük dipler görmek, tepeler \nde düşmediği sürece düzenli düşüş trendi anlamına gelmez.\nTrend başlangıcını ne zaman kabul ederiz?\nPratik yaklaşım, en az iki anlamlı tepe ve iki anlamlı dip üzerinden dizi kurmaktır. İlk yükseliş veya \ndüşüş hareketi yalnızca potansiyeldir. Fiyat bir önceki swing’i aşıp geri çekilmede daha yüksek dip veya \ndaha düşük tepe oluşturdukça trend sınıflandırması güçlenir. Bu gecikme kusur değildir; teyitli trend \ntanımı doğası gereği fiyatın bir bölümünü geride bırakır.\nTrend etiketi tahmin değil sınıflandırmadır\n“Yükseliş trendi” demek fiyatın bir sonraki mumda kesin yükseleceği anlamına gelmez. Bu ifade, son onaylı \nswing dizisinin yukarı yönlü olduğunu ve sınıflandırmanın belirli bir swing kırılana kadar korunduğunu anlatır.",
+    "source_extract_summary": [
+      "Overlap ve ritim Temiz trendlerde impulse dalgaları daha yönlü, pullback’ler daha düzenli görünür.",
+      "Mumlar sürekli birbirinin alanına giriyor, impulse ve pullback ayrımı kayboluyor ve yapı birkaç mumda bir yön değiştiriyorsa piyasa choppy veya geçiş hâlinde olabilir.",
+      "Böyle bir grafikte daha çok çizgi çizmek belirsizliği çözmez; yapının yeterince temiz olmadığını kabul etmek gerekir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Şekil yerine ölçülebilir davranış dizileri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0069",
+    "page": 69,
+    "chapter": 3,
+    "section": "3.6 — Güçlü ve Zayıf Tepeler/Dipler",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  54\n3.5 Trend Gücü, Devam ve Zayıflama\nİki grafik de HH–HL üretebilir; fakat trend kalitesi aynı olmayabilir. Yapısal yön, trendin varlığını söyler. \nTrend gücü ise impulse’ların ne kadar etkili, pullback’lerin ne kadar kontrollü ve yeni ekstrem \nüretiminin ne kadar tutarlı olduğunu değerlendirir.\nGüçlü trend işareti Zayıflama işareti\nImpulse dalgaları geniş, yönlü ve belirgin takip içerir. Yeni impulse önceki dalgaya göre kısa veya isteksiz kalır.\nPullback’ler daha yavaş, küçük gövdeli ve kontrollüdür. Pullback’ler derinleşir, hızlanır ve impulse kadar güçlü olur.\nYeni HH veya LL belirgin mesafeyle oluşur. Yeni ekstrem çok küçük aşım yapar veya hemen geri alınır.\nKorunan swing’ler tekrar tekrar savunulur. Protected swing’e yaklaşan baskı artar ve tepkiler küçülür.\nMumlar ve swing’ler daha az overlap gösterir. Mumlar iç içe geçer; yön sık sık değişir.\nTrend yönündeki kırılımda momentum ve kapanış vardır. Kırılım çoğunlukla fitille kalır; takip gelmez.\nTablo 3.5 – Trend kalitesini değerlendirirken izlenecek davranışlar\nİlerleme azalırken geri çekilme büyüyorsa\nTrend zayıflamasının temel işaretlerinden biri, her impulse’ın daha az ilerlemesi ve her pullback’in \ndaha fazla alan geri almasıdır. Bu durum hemen ters işlem sinyali değildir. Önce mevcut trendin \navantajının azaldığını gösterir. Yapısal kırılım gelmeden “tepe oluştu” veya “dip tamamlandı” demek, \nzayıflama ile dönüşü karıştırır.\nTrendline ve hareketli ortalama ne kadar önemlidir?\nTrendline, kanal veya hareketli ortalama eğilimi görselleştirebilir. Fakat yapı tanımı yerine geçmez. \nFiyat bir trendline’ın altına sarkabilir ve HH–HL dizisini koruyabilir; hareketli ortalama yataylaşırken \nmajor trend hâlâ devam edebilir. Bu araçlar yardımcı bağlam sağlar, trendi belirleyen ana veri onaylı \nswing dizisidir.\nHeikin Ashi ile güç, standart mumla yapı\nHeikin Ashi aynı renkli serileri ve trend zayıflamasını daha görünür kılabilir; ancak sentetik fiyat kullandığı için \ngerçek swing, kırılım ve kapanış seviyeleri standart mum grafiğinden doğrulanmalıdır.\n3.6 Güçlü ve Zayıf Tepeler/Dipler\nBütün swing high ve swing low seviyeleri eşit işlev taşımaz. Güçlü seviye, kendisinden başlayan \nhareketin anlamlı bir yapısal kırılım üretmesiyle tanımlanır. Zayıf seviye ise yeni yapısal ilerleme \nüretemeyen veya mevcut trendin hedeflemesi beklenen ekstremdir.\nYükseliş yapısında bir impulse önceki tepeyi kırmışsa, o impulse’ın başladığı dip güçlü veya protected \nlow olarak görülebilir. Trend devam ettiği sürece yeni bir yüksek tepe üretme beklentisi",
+    "source_extract_summary": [
+      "3.5 Trend Gücü, Devam ve Zayıflama İki grafik de HH–HL üretebilir; fakat trend kalitesi aynı olmayabilir.",
+      "Yapısal yön, trendin varlığını söyler.",
+      "Trend gücü ise impulse’ların ne kadar etkili, pullback’lerin ne kadar kontrollü ve yeni ekstrem üretiminin ne kadar tutarlı olduğunu değerlendirir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Gelecek sızıntısız yapı ve swing motoru"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0070",
+    "page": 70,
+    "chapter": 3,
+    "section": "3.7 — Break of Structure (BOS): Devamın Yapısal",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  55\nbulunduğundan üstteki tepe göreli olarak zayıf high kabul edilir. Düşüş yapısında bunun tersi \ngeçerlidir: kırılımı başlatan tepe güçlü, aşağıda yeni dip üretmesi beklenen low zayıftır.\nYapı Korunan / güçlü taraf Hedeflenmesi beklenen / zayıf taraf\nYükseliş BOS üreten impulse’ın başlangıç dibi; protected low. Trend devamında aşılması beklenen mevcut high.\nDüşüş BOS üreten impulse’ın başlangıç tepesi; protected \nhigh.\nTrend devamında kırılması beklenen mevcut low.\nRange Sabit güçlü/zayıf etiketi verilmez; iki sınır da test \nedilebilir.\nİç baskı ve kabul davranışına göre olasılık değişir.\nGeçiş Eski protected swing kırılmış, yeni yapı henüz teyit \nedilmemiştir.\nEtiketler geçicidir; yön zorlanmaz.\nTablo 3.6 – Trend durumuna göre strong/weak high-low işlevi\nGüçlü etiketi kalıcı değildir\nBir dip daha önce BOS üretmiş olabilir; fakat daha sonra kapanışla kırılırsa artık yükseliş yapısını \nkoruyan seviye değildir. Strong ve weak etiketleri varlığın değişmez özelliği değil, seçilen zaman \ndilimindeki mevcut yapı içindeki görevdir. Zaman dilimi değiştiğinde aynı fiyat bölgesi major yapıda \ngüçlü, minor yapıda sıradan olabilir.\nBaşarısız impulse ne anlatır?\nBir swing’den başlayan hareket trend yönünde yeni ekstrem üretemezse, o swing’in yapısal gücü \nsorgulanır. Yükseliş trendinde yeni HH oluşturamayan impulse, alıcıların ilerleme kabiliyetinin \nazaldığını; düşüş trendinde yeni LL oluşturamayan hareket satıcıların zayıfladığını gösterebilir. Ancak \nyapı değişimi, karşı protected swing’in kırılmasıyla ayrı olarak teyit edilir.\nStrong level ≠ garanti değil\nKırılım üretmiş bir swing’in gelecekte mutlaka tutulacağı söylenemez. Etiket yalnızca geçmişte hangi hareketin \nyapısal sonuç doğurduğunu ve mevcut trend senaryosunun hangi seviyeye bağlı olduğunu gösterir.\n3.7 Break of Structure (BOS): Devamın Yapısal \nTeyidi\nBreak of Structure, mevcut trend yönünde anlamlı bir swing seviyesinin aşılmasıdır. Yükseliş trendinde \nönceki swing high’ın, düşüş trendinde önceki swing low’ın kırılması trendin ilerlediğini gösterir. Bu \nnedenle BOS’un temel görevi trend devamını teyit etmektir.\nHangi seviye kırılıyor?\nHer mikro tepe veya dip kırılımı ana BOS değildir. Önce hangi yapısal ölçeğin okunduğu belirlenir. \nGünlük grafikteki major swing high kırılmadan, saatlik grafikte onlarca minor BOS oluşabilir. Etiketin \nanlamlı olması için kırılan seviyenin seçilen trend dizisinin gerçek referansı olması gerekir.",
+    "source_extract_summary": [
+      "bulunduğundan üstteki tepe göreli olarak zayıf high kabul edilir.",
+      "Düşüş yapısında bunun tersi geçerlidir: kırılımı başlatan tepe güçlü, aşağıda yeni dip üretmesi beklenen low zayıftır.",
+      "Yapı Korunan / güçlü taraf Hedeflenmesi beklenen / zayıf taraf Yükseliş BOS üreten impulse’ın başlangıç dibi; protected low."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Bacak mesafesi, süresi, hızı ve teyit zamanı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0071",
+    "page": 71,
+    "chapter": 3,
+    "section": "3.8 — Change of Character (CHoCH) ve Market",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  56\nKırılım görünümü Kitaptaki sınıflandırma Yorum\nSeviye yalnızca fitille aşılır, kapanış yeniden \niçeride kalır.\nAşım / kırılım adayı Likidite alma veya başarısız deneme olabilir; teyit yok.\nMum anlamlı swing’in ötesinde kapanır. Teyitli BOS Trend yönünde yeni ekstrem onaylanır.\nKapanış vardır fakat gövde küçük, takip \nzayıf ve fiyat hızla geri döner.\nDüşük kaliteli BOS Kırılım teknik olarak vardır; kabul ve devam sorgulanır.\nGeniş momentum gövdesi, swing ötesinde \nkapanış ve takip oluşur.\nYüksek kaliteli BOS Trend yönündeki kontrol daha güçlü görünür.\nTablo 3.7 – BOS için seviye aşımı ve teyit ayrımı\nKırılım kalitesinin beş bileşeni\n Seviyenin önemi: Kırılan nokta major veya anlamlı swing midir?\n Kapanış: Fiyat seviye ötesinde kapanarak yeni alanı kabul etmiş midir?\n Momentum: Kırılım mumu önceki fiyat hareketine göre belirgin midir?\n Takip: Sonraki mumlar kırılan alanı koruyor veya genişletiyor mu?\n Geri test: Fiyat geri dönerse kırılan seviyenin diğer tarafında kalabiliyor mu?\nBOS tanımındaki uygulama farkı\nBazı yaklaşımlar bir önceki swing’in en küçük aşımını bile BOS sayar; diğerleri güçlü kapanış ve takip arar. Bu \nkitap, karışıklığı azaltmak için “aşım adayı” ile “kapanışla teyitli BOS” ifadelerini ayırır.\nBOS’un söylemediği şeyler\nBOS, fiyatın sonsuza kadar aynı yönde gideceğini söylemez. Kırılım çok geç, doğrudan büyük bir \nengelin içine veya aşırı genişlemiş hareket sonunda oluşabilir. BOS trend devamının yapısal kanıtıdır; \nişlem kalitesi için konum, hareket alanı, risk ve price action ayrıca değerlendirilir.\n3.8 Change of Character (CHoCH) ve Market \nStructure Shift (MSS)\nCHoCH, yerleşik trendin karşı yönünde gerçekleşen ilk anlamlı yapısal kırılımdır. Yükseliş trendinde \nkorunan major higher low’ın aşağı kırılması; düşüş trendinde korunan major lower high’ın yukarı \nkırılması mevcut düzenin artık aynı biçimde sürdürülemediğini gösterir.\nCHoCH’un görevi yeni trendi kesinleştirmek değil, eski trendin bozulduğunu bildirmektir. Kırılım \nsonrasında fiyat range’e girebilir, eski trende geri dönebilir veya karşı yönde yeni trend kurabilir. Bu \nnedenle CHoCH bir erken uyarı ve sınıflandırma değişimidir.\nOlay Ne doğrular? Ne doğrulamaz?\nTrend yönünde BOS Mevcut trendin yeni ekstrem ürettiğini. Bir sonraki hareketin kesin devam edeceğini.\nKarşı yön CHoCH Eski trend dizisinin bozulduğunu. Karşı yönde yeni trendin tamamlandığını.\nCHoCH sonrası karşı yön BOS Yeni yönde yapısal ilerlemenin başladığını. Her girişin iyi fiyat ve risk sunduğunu.",
+    "source_extract_summary": [
+      "Kırılım görünümü Kitaptaki sınıflandırma Yorum Seviye yalnızca fitille aşılır, kapanış yeniden içeride kalır.",
+      "Aşım / kırılım adayı Likidite alma veya başarısız deneme olabilir; teyit yok.",
+      "Mum anlamlı swing’in ötesinde kapanır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0072",
+    "page": 72,
+    "chapter": 3,
+    "section": "3.9 — Pullback mı, Gerçek Trend Dönüşü mü?",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  57\nTablo 3.8 – BOS ve CHoCH’un kanıt sınırları\nCHoCH sonrası üç olasılık\n1. Yeni trend: Karşı yönde impulse oluşur, pullback yeni protected swing’i korur ve BOS gelir.\n2. Range: Fiyat hem eski hem yeni yönde ekstrem üretmekte zorlanır; tepeler ve dipler karışıklaşır.\n3. Başarısız değişim: Kırılım kalıcı olmaz, fiyat eski yapıya geri döner ve trend yönünde yeniden BOS \nüretir.\nMSS neden ayrı bir zorunlu kural olmayacak?\nMarket Structure Shift terimi ve trader topluluklarında tutarlı kullanılmaz. Bazıları MSS ile CHoCH’u eş \nanlamlı görür; bazıları displacement veya daha güçlü kapanış gibi ek şartlar arar. Bu kitapta ana karar \ndili BOS ve CHoCH üzerinden kurulacaktır. MSS görüldüğünde, “CHoCH benzeri yapı değişimi etiketi; \nkullanılan yöntemin özel tanımı kontrol edilmeli” notuyla değerlendirilecektir.\nCHoCH gördüm, hemen ters işlem açmalıyım mı?\nHayır. CHoCH eski trendin bozulduğunu gösterir. Yeni yönün kalitesi; karşı impulse, yeni swing dizisi, BOS, price \naction ve işlem konumuyla doğrulanır. Erken uyarıyı kesin dönüş gibi kullanmak en yaygın yapı hatalarındandır.\n3.9 Pullback mı, Gerçek Trend Dönüşü mü?\nTrend içinde her karşı hareket dönüş gibi görünebilir. Özellikle sert pullback’lerde fiyat büyük mesafe \ngeri alır, momentum mumları üretir ve kısa zaman diliminde karşı trend kurar. Ana trend açısından \ndönüş demek için yalnızca karşı yöndeki güç değil, korunan yapının bozulması ve yeni yönde yapı \nkurulması gerekir.\nKontrol Pullback lehine Dönüş lehine\nMajor protected swing Korunuyor. Kapanışla kırılıyor.\nKarşı hareketin görevi Ana impulse’ın bir bölümünü düzeltiyor. Eski trendin yapısal ilerlemesini durduruyor.\nYeni ekstrem Trend yönünde BOS hâlâ mümkün veya gerçekleşiyor. Eski trend yeni ekstrem üretemiyor.\nKarşı yön yapı Yalnızca minor zaman diliminde görülüyor. Seçilen ana ölçekte CHoCH sonrası BOS oluşuyor.\nPrice action Karşı momentum zayıflıyor; trend yönünde reaction \ngeliyor.\nTrend yönündeki tepkiler küçülüyor; karşı impulse takip \nbuluyor.\nRange olasılığı Trend yeniden devreye giriyor. CHoCH sonrası yön belirsizleşip range oluşabilir.\nTablo 3.9 – Pullback ile trend dönüşünü ayıran yapısal kanıtlar\nDönüş bir olay değil süreçtir\nGerçek dönüş çoğu zaman tek mumla tamamlanmaz. Önce trendin ilerlemesi yavaşlar, yeni ekstrem \nzayıf kalır, protected swing’e baskı artar, CHoCH oluşur ve yeni yönde BOS gelirse karşı yapı güçlenir. \nBu süreç her zaman kusursuz değildir; bazen doğrudan sert kırılım olur, bazen uzun bir range araya \ngirer.",
+    "source_extract_summary": [
+      "Yeni trend: Karşı yönde impulse oluşur, pullback yeni protected swing’i korur ve BOS gelir.",
+      "Range: Fiyat hem eski hem yeni yönde ekstrem üretmekte zorlanır; tepeler ve dipler karışıklaşır.",
+      "Başarısız değişim: Kırılım kalıcı olmaz, fiyat eski yapıya geri döner ve trend yönünde yeniden BOS üretir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0073",
+    "page": 73,
+    "chapter": 3,
+    "section": "3.10 — Range ve Geçiş Piyasası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  58\nÜç aşamalı dönüş dili\nAşama Kullanılacak ifade Kanıt\n1 Trend zayıflıyor Impulse kısalıyor, pullback derinleşiyor, momentum azalıyor.\n2 Yapı değişimi uyarısı Protected swing karşı yönde kırılıyor; CHoCH.\n3 Yeni yön teyitleniyor Karşı yönde yeni swing dizisi ve BOS.\nTablo 3.10 – Dönüşü erken tahmin yerine kanıt aşamalarıyla ifade etmek\n“Düşüş çok oldu, artık dönmeli” yapısal kanıt değildir\nFiyatın ucuz veya aşırı düşmüş görünmesi dönüşü doğrulamaz. Yapı devam ettiği sürece düşüş yeni LL \nüretebilir. Dönüş değerlendirmesi, fiyat seviyesinden çok trendin üretim kabiliyetindeki değişime dayanır.\n3.10 Range ve Geçiş Piyasası\nRange, fiyatın belirgin bir yükseliş veya düşüş dizisi kurmadan üst ve alt sınırlar arasında hareket ettiği \npiyasa durumudur. Tepeler ve dipler tam olarak aynı seviyede olmak zorunda değildir; önemli olan \nyeni ekstrem üretiminin sürekli ve yönlü olmaması, fiyatın aynı değer alanına tekrar tekrar \ndönmesidir.\nTrend yokluğu her zaman temiz range anlamına gelmez. Bazı piyasalar düzenli sınırlar üretir; bazıları \nise hem daha yüksek tepe hem daha düşük dip oluşturarak genişler veya birkaç mumda bir yapı \ndeğiştirir. Bu ikinci durum geçiş ya da choppy piyasa olabilir ve işlem açısından temiz range’den daha \nzordur.\nPiyasa durumu Yapısal görünüm Okuma yaklaşımı\nTemiz trend HH–HL veya LH–LL dizisi; belirgin impulse–pullback. Trend yönü ve protected swing izlenir.\nClean range Üst ve alt sınırlar yaklaşık sabit; orta alan tekrar ziyaret \nedilir.\nSınırlar ve range içindeki baskı izlenir.\nTransition Eski trend bozulmuş; yeni trend veya range henüz net \ndeğil.\nErken etiket yerine veri beklenir.\nChoppy / düzensiz Overlap, çok sayıda küçük kırılım, belirsiz swing \nhiyerarşisi.\nİşlem zorlanmaz; daha temiz koşul aranır.\nTablo 3.11 – Trend, range ve geçiş durumlarının ayrılması\nRange’in ortası neden zordur?\nTemiz range’in kenarları alıcı veya satıcı tepkisinin tekrarlandığı referans alanlarıdır. Orta bölgede ise \niki tarafa da mesafe sınırlı, fiyat davranışı daha rastgele ve küçük swing’ler daha fazla olabilir. Bu \nbölüm giriş stratejisi öğretmez; ancak yapısal olarak range ortasındaki sinyallerin kenarlardaki \ntepkilere göre daha az bağlam taşıdığını vurgular.",
+    "source_extract_summary": [
+      "Üç aşamalı dönüş dili Aşama Kullanılacak ifade Kanıt 1 Trend zayıflıyor Impulse kısalıyor, pullback derinleşiyor, momentum azalıyor.",
+      "2 Yapı değişimi uyarısı Protected swing karşı yönde kırılıyor; CHoCH.",
+      "3 Yeni yön teyitleniyor Karşı yönde yeni swing dizisi ve BOS."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0074",
+    "page": 74,
+    "chapter": 3,
+    "section": "3.11 — Clean, Contracting ve Expanding Range",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  59\nTransition durumunda doğru ifade\nYükseliş trendi CHoCH ile bozulduğunda hemen “düşüş trendi” demek yerine “yükseliş yapısı sona \nerdi; yeni yapı bekleniyor” denebilir. Bu dil traderı erken kesinlikten korur. Yeni LH–LL dizisi veya aşağı \nBOS oluşursa düşüş yapısı; sınırlar belirginleşirse range sınıflandırması yapılır.\nKararsız yapıyı trend diye zorlamayın\nHH + LL veya LH + HL gibi karışık diziler, çoğu zaman tek yönlü trend tanımını karşılamaz. Grafiğe yön etiketi \nvermek zorunda değilsiniz. “Yapı karışık / geçiş” geçerli ve çoğu zaman daha doğru bir sonuçtur.\n3.11 Clean, Contracting ve Expanding Range\nRange tek bir biçimde oluşmaz. İç swing’lerin davranışı, alıcı ve satıcı baskısının nasıl değiştiğine dair \nbilgi verir. Formasyon ismi ezberlemek yerine tepe ve diplerin birbirine göre hareketini okumak daha \ngenellenebilir bir yöntemdir.\nRange türü Swing davranışı Yapısal anlam\nClean box range Tepeler yaklaşık aynı, dipler yaklaşık aynı \nseviyede.\nDenge alanı; sınır reaksiyonları merkezîdir.\nYukarı baskılı range Direnç sabitken dipler yükselir veya fiyat üst \nsınıra yakın kalır.\nAlıcılar daha yüksek fiyatları kabul ediyor; yukarı \nkırılım olasılığı artabilir.\nAşağı baskılı range Destek sabitken tepeler düşer veya fiyat alt \nsınıra yakın kalır.\nSatıcılar daha düşük fiyatları kabul ediyor; aşağı kırılım \nolasılığı artabilir.\nContracting range LH + HL; aralık daralır. Volatilite sıkışır; yön henüz teyitli değildir.\nExpanding range HH + LL; aralık genişler. İki taraflı agresiflik ve yüksek belirsizlik; stop riski \nartabilir.\nTablo 3.12 – Range içi swing davranışına göre yapısal türler\nContracting range yön söylemez\nDaralan yapı, alım ve satım dalgalarının giderek küçüldüğünü gösterir. Önceki trend continuation \nolasılığını etkileyebilir; fakat yalnızca sıkışma şekli yönü garanti etmez. Kırılım yönü, kapanış, \nmomentum ve takip davranışıyla doğrulanır.\nExpanding range neden tehlikelidir?\nGenişleyen range hem daha yüksek tepeler hem daha düşük dipler üretir. Bu görünüm yüzeyde iki \nyönde de BOS benzeri sinyal oluşturabilir. Fakat düzenli HH–HL veya LH–LL dizisi yoktur. Sınırlar \ngenişlediği için geç giren traderlar iki tarafta da tuzağa düşebilir; yapının ölçeği ve kabul davranışı \nnetleşmeden trend etiketi verilmemelidir.",
+    "source_extract_summary": [
+      "Transition durumunda doğru ifade Yükseliş trendi CHoCH ile bozulduğunda hemen “düşüş trendi” demek yerine “yükseliş yapısı sona erdi; yeni yapı bekleniyor” denebilir.",
+      "Bu dil traderı erken kesinlikten korur.",
+      "Yeni LH–LL dizisi veya aşağı BOS oluşursa düşüş yapısı; sınırlar belirginleşirse range sınıflandırması yapılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0075",
+    "page": 75,
+    "chapter": 3,
+    "section": "3.12 — Başarısız Yapı, Fakeout ve Failure Test",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  60\nİç baskı değişimini okumak\nRange içinde diplerin yükselmesi, her satış dalgasının daha erken karşılandığını; tepelerin düşmesi ise \nher alım dalgasının daha erken satıldığını gösterebilir. Bu davranış kırılım ihtimalini etkiler, ancak \nsınırın gerçekten aşılıp kabul edilmesi ayrı olaydır. Baskı “hazırlık”, BOS ise “sonuç” olarak görülmelidir.\nFormasyon adından önce fiyat mantığı\nAscending triangle, descending triangle veya symmetrical triangle gibi isimler yardımcı olabilir. Fakat asıl soru \nşudur: Hangi taraf giderek daha yüksek veya daha düşük fiyatları kabul ediyor ve hangi sınır henüz korunuyor?\n3.12 Başarısız Yapı, Fakeout ve Failure Test\nBir seviye aşımı her zaman kabul edilmiş yapısal kırılım değildir. Fiyat swing veya range sınırının \nötesine çıkıp kapanışta geri dönebilir ya da kısa süre sonra tamamen eski alanın içine yerleşebilir. Bu \ndavranış başarısız kırılım, fakeout veya bağlama göre failure test olarak adlandırılabilir.\nAşama Başarılı kırılım Başarısız kırılım\nYaklaşım Seviyeye doğru artan veya yeterli momentum. Yavaşlama, aşırı fitil veya düzensiz yaklaşım olabilir.\nAşım Gövde seviye ötesinde ilerler. Çoğunlukla fitil veya kısa süreli aşım.\nKapanış Seviye ötesinde anlamlı kapanış. Yeniden eski alan içinde kapanış.\nTakip Yeni alan korunur ve hareket genişler. Sonraki mumlar kırılımı geri alır.\nGeri test Kırılan seviye yeni yönde tutulur. Fiyat eski yapıya döner veya ters yönde hızlanır.\nTablo 3.13 – Başarılı ve başarısız yapısal kırılımın karşılaştırılması\nFailure test neyi gösterir?\nRange sınırının kısa süre aşılması ve fiyatın hızla içeri dönmesi, dışarıdaki fiyatların kabul edilmediğini \ngösterir. Aşım sırasında stop emirleri tetiklenebilir ve likidite oluşabilir; ancak likidite mekanizmasının \nayrıntısı Bölüm 5’in konusudur. Bu bölüm açısından önemli olan, kapanış ve takip davranışının kırılımı \nonaylamamasıdır.\nFailed BOS ve trend zayıflaması\nTrend yönünde yeni swing aşılır fakat fiyat takip üretmez ve önceki yapıya geri dönerse kırılım kalitesi \ndüşer. Özellikle ardından protected swing’e güçlü baskı geliyorsa trend zayıflaması artar. Yine de failed \nBOS tek başına ters trend teyidi değildir; karşı yöndeki CHoCH ve yeni yapı ayrı olarak aranır.\nHacim tek başına kırılımı doğrulamaz\nYüksek hacim seviye ötesinde güçlü kapanışla birleşirse kabulü destekleyebilir. Fakat fiyat seviye ötesine çıkıp \nuzun fitille geri dönerken hacim artıyorsa, bu yüksek katılımlı reddetme de olabilir. Hacim, fiyat sonucuyla \nbirlikte okunur.",
+    "source_extract_summary": [
+      "İç baskı değişimini okumak Range içinde diplerin yükselmesi, her satış dalgasının daha erken karşılandığını; tepelerin düşmesi ise her alım dalgasının daha erken satıldığını gösterebilir.",
+      "Bu davranış kırılım ihtimalini etkiler, ancak sınırın gerçekten aşılıp kabul edilmesi ayrı olaydır.",
+      "Baskı “hazırlık”, BOS ise “sonuç” olarak görülmelidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Göreceli katılım ve hacim özellikleri",
+      "Mum geometrisi ve davranış özellikleri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0076",
+    "page": 76,
+    "chapter": 3,
+    "section": "3.14 — Piyasa Döngüsü İçinde Yapı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  61\n3.13 Fractal Yapı ve Major–Minor Ayrımı\nPiyasa yapısı fractaldır: benzer swing, impulse, pullback, trend ve range düzenleri farklı zaman \nölçeklerinde tekrar eder. Günlük grafikte tek bir pullback olarak görülen hareket, dört saatlik grafikte \ntam bir düşüş trendi; on beş dakikalık grafikte ise çok sayıda küçük trend ve range içerebilir.\nBu özellik çelişki değildir. “Günlük yükseliş, dört saatlik düşüş” ifadesi aynı hareketin farklı ölçeklerdeki \ngörevini anlatır. Sorun, hangi zaman diliminin ana bağlam ve hangisinin minor yapı olduğunu \nbelirlemeden bütün swing’leri aynı seviyede değerlendirmektir.\nKatman Görev Tipik soru\nMajor / üst yapı Ana trend veya range bağlamını belirler. Hangi yön korunuyor; hangi swing ana yapıyı \nbozar?\nOrta yapı Ana trend içindeki güncel impulse veya pullback’i \ngösterir.\nAna bağlamın hangi evresindeyiz?\nMinor / alt yapı Yakın fiyat davranışını ve erken değişimi gösterir. Pullback içinde dönüş veya devam davranışı \nbaşladı mı?\nTablo 3.14 – Fractal yapıdaki major, orta ve minor görevler\nMajor trend içinde minor CHoCH\nYükseliş trendindeki pullback, alt zaman diliminde LH–LL düşüş yapısı oluşturabilir. Bu minor düşüş \nCHoCH ile yukarı döndüğünde, major yükseliş trendinin devamı için erken işaret olabilir. Fakat alt \nzaman dilimindeki her CHoCH major dönüş anlamına gelmez. Etiket daima hangi ölçeğe ait olduğu \nbelirtilerek kullanılmalıdır: “1 saatlik bullish CHoCH, günlük yükseliş bağlamı içinde.”\nZaman dilimi sayısını artırmak her zaman faydalı değildir\nÇok fazla zaman dilimi, aynı anda çok sayıda zıt trend göstererek kararı zorlaştırabilir. Tam top-down \nsistem Bölüm 10’da kurulacaktır. Bu bölümde yeterli kural şudur: bir ana yapısal zaman dilimi seçin; \nonun bir üstünü bağlam, bir altını minor yapı olarak kullanın ve swing etiketlerini katmanlar arasında \nkarıştırmayın.\nFractal yapı keyfî swing seçme hakkı vermez\nHer zaman diliminde farklı yapı bulunması, istenen yönü destekleyen grafiği seçmek anlamına gelmez. İşlem \ntarzına göre ana zaman dilimi önceden belirlenmeli ve karar sırasında değiştirilmemelidir.\n3.14 Piyasa Döngüsü İçinde Yapı\nTrend ve range durumları daha geniş piyasa döngüsünün parçalarıdır. Yaygın piyasa döngüsü \nçerçevesi; yükseliş, tepe/dağılım, düşüş ve dip/birikim evrelerinin tekrarlandığını kabul eder. Aynı \ndöngü farklı zaman dilimlerinde daha küçük biçimde görülebilir.\nBölüm 3’ün görevi döngünün psikolojik veya Wyckoff ayrıntılarını öğretmek değildir. Burada yalnızca \nyapı diliyle bağlantı kurulur: trendin yeni ekstrem üretme kabiliyeti azalır, range oluşur, mevcut trend",
+    "source_extract_summary": [
+      "3.13 Fractal Yapı ve Major–Minor Ayrımı Piyasa yapısı fractaldır: benzer swing, impulse, pullback, trend ve range düzenleri farklı zaman ölçeklerinde tekrar eder.",
+      "Günlük grafikte tek bir pullback olarak görülen hareket, dört saatlik grafikte tam bir düşüş trendi; on beş dakikalık grafikte ise çok sayıda küçük trend ve range içerebilir.",
+      "“Günlük yükseliş, dört saatlik düşüş” ifadesi aynı hareketin farklı ölçeklerdeki görevini anlatır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0077",
+    "page": 77,
+    "chapter": 3,
+    "section": "3.15 — Yapısal Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  62\nkarşı yönde CHoCH ile bozulur ve yeni yönde BOS oluşursa döngünün yapısal evresi değişmeye \nbaşlayabilir.\nDöngü görünümü Yapısal belirtiler Temkinli ifade\nYükseliş evresi HH–HL, yukarı BOS, güçlü dipler ve zayıf tepeler. Yükseliş yapısı korunuyor.\nTepe / dağılım adayı İlerleme azalması, range, yukarı fakeout, protected low baskısı. Yükseliş zayıflıyor; dönüş henüz \nteyitli değil.\nDüşüş evresi LH–LL, aşağı BOS, güçlü tepeler ve zayıf dipler. Düşüş yapısı korunuyor.\nDip / birikim adayı Satış ilerlemesinin azalması, range, aşağı fakeout, protected high baskısı. Düşüş zayıflıyor; dönüş henüz \nteyitli değil.\nTablo 3.15 – Piyasa döngüsünü yapısal kanıtlarla ifade etmek\nDöngü şeması zamanlama aracı değildir\n“Euphoria”, “panic” veya “capitulation” gibi duygusal etiketler sonradan grafiğe kolayca \nyerleştirilebilir. Canlı piyasada tepenin veya dibin nerede tamamlandığı kesin bilinmez. Döngü \nçerçevesi büyük resmi anlamaya yardımcı olur; karar dili yine swing, trend, CHoCH, BOS, range ve teyit \nüzerinden kurulmalıdır.\nCycle bağlamı ≠ olasılık, yapı ≠ gözlenebilir kanıt\nPiyasa döngüsü “nerede olabiliriz?” sorusunu, market structure ise “fiyat şu ana kadar neyi gerçekten yaptı?” \nsorusunu cevaplar. Kitapta gözlenebilir yapısal kanıt önceliklidir.\n3.15 Yapısal Okuma İş Akışı\nMarket structure analizi, grafiğe çok sayıda HH, HL, BOS ve CHoCH etiketi eklemek değildir. Amaç, \nkarar için gerekli en az sayıda anlamlı swing’i seçmek ve mevcut yapıyı tek bir koşullu cümleyle ifade \netmektir. Aşağıdaki iş akışı her grafikte aynı sırayla uygulanabilir.\nAdım Görev Çıktı\n1 Ana ölçeği seç Bu analizde major yapı hangi zaman diliminde?\n2 Anlamlı swing’leri işaretle Son iki major tepe ve dip; minor gürültü elenir.\n3 Dalga görevini belirle Güncel hareket impulse mı, pullback mi?\n4 Yapıyı sınıflandır HH–HL, LH–LL, range, transition veya choppy.\n5 Protected ve weak tarafı belirle Hangi swing mevcut senaryoyu koruyor; hangi ekstrem hedefleniyor?\n6 Son yapısal olayı kaydet BOS, CHoCH, aşım adayı veya başarısız kırılım.\n7 Kırılım kalitesini değerlendir Kapanış, momentum, takip ve geri test.\n8 Minor yapıyı bağla Alt yapı ana bağlamı destekliyor mu, yalnızca pullback mi?\n9 Koşullu cümle kur “X seviyesi korunurken yapı Y; Z kapanışı sınıflandırmayı değiştirir.”\n10 İşlem filtresine aktar Yapı temiz değilse bekle; temizse sonraki kurulum adımına geç.",
+    "source_extract_summary": [
+      "karşı yönde CHoCH ile bozulur ve yeni yönde BOS oluşursa döngünün yapısal evresi değişmeye başlayabilir.",
+      "Döngü görünümü Yapısal belirtiler Temkinli ifade Yükseliş evresi HH–HL, yukarı BOS, güçlü dipler ve zayıf tepeler.",
+      "Tepe / dağılım adayı İlerleme azalması, range, yukarı fakeout, protected low baskısı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0078",
+    "page": 78,
+    "chapter": 3,
+    "section": "3.15 — Yapısal Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  63\nTablo 3.16 – Grafik başında on adımlı market structure iş akışı\nÖrnek koşullu yapı cümleleri\nDurum Doğru ifade\nYükseliş Son major higher low korunuyor ve fiyat yukarı BOS üretti; HH–HL yapısı devam ediyor.\nZayıflayan yükseliş Yeni high çok sınırlı, pullback derinleşiyor; yükseliş yapısı korunuyor fakat momentum zayıflıyor.\nCHoCH Protected low kapanışla kırıldı; yükseliş sona erdi, yeni düşüş trendi henüz teyitli değil.\nRange Tepeler ve dipler aynı alanlarda; yönlü swing dizisi yok, yapı range.\nKarışık yapı HH ve LL birlikte oluşuyor; genişleyen/geçiş yapısı, trend etiketi verilmiyor.\nMinor–major çatışma Günlük yapı bullish, dört saatlik hareket bearish pullback; major dönüş teyidi yok.\nTablo 3.17 – Belirsiz tahmin yerine koşullu yapısal dil\nHızlı grafik kontrol listesi\nKontrol\n□ Analiz ettiğim ana zaman dilimini belirledim.\n□ Her küçük pivot yerine anlamlı major swing’leri seçtim.\n□ Son iki tepe ve son iki dibi karşılaştırdım.\n□ Güncel hareketin impulse veya pullback görevini belirledim.\n□ Yapıyı trend, range, transition veya choppy olarak sınıflandırdım.\n□ Trend varsa protected swing ve weak ekstremi belirledim.\n□ Son olayın BOS, CHoCH, aşım adayı veya failed breakout olduğunu ayırdım.\n□ Kırılımda fitil ile kapanışı birbirine karıştırmadım.\n□ Momentum ve takip davranışını kontrol ettim.\n□ Minor yapı ile major yapıyı aynı ölçekmiş gibi kullanmadım.\n□ Yapı karışıksa yön zorlamadan beklemeyi kabul ettim.\n□ Analizi tek bir koşullu cümleyle özetledim.\nKontrol Listesi 3.1 – Market structure analizi öncesi ve sonrası kontrol\nBölümün ana kuralı\nTrend, son mumun yönü değildir. Trend; anlamlı swing’lerin oluşturduğu ve belirli bir protected swing kırılana \nkadar korunan yapısal dizidir.",
+    "source_extract_summary": [
+      "Zayıflayan yükseliş Yeni high çok sınırlı, pullback derinleşiyor; yükseliş yapısı korunuyor fakat momentum zayıflıyor.",
+      "CHoCH Protected low kapanışla kırıldı; yükseliş sona erdi, yeni düşüş trendi henüz teyitli değil.",
+      "Range Tepeler ve dipler aynı alanlarda; yönlü swing dizisi yok, yapı range."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Hareket gücü özellik ailesi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0079",
+    "page": 79,
+    "chapter": 3,
+    "section": "3.15 — Yapısal Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  64\nBölüm Özeti — Fiyat Hareketinden Yapısal Karara\nBölüm 3 fiyat hareketini tek tek mumların ötesine taşıyarak tepe–dip dizileri, impulse–pullback \ndalgaları ve yapısal kırılımlar üzerinden düzenledi. Market structure geleceği kesin olarak tahmin \netmez; mevcut trendin neyi koruduğunu, hangi olayla ilerlediğini ve hangi kırılımla bozulduğunu \ngörünür kılar.\nKavram Bölümdeki ana anlamı\nSwing high / low Fiyatın yön değiştirdiği tepe ve dip; yapısal önem ölçeğe bağlıdır.\nImpulse Ana trend yönündeki ilerleme dalgası.\nPullback Ana trende karşı geçici düzeltme dalgası.\nHH–HL Yükseliş yapısının temel tepe–dip dizisi.\nLH–LL Düşüş yapısının temel tepe–dip dizisi.\nProtected swing Mevcut trend senaryosunu koruyan, kırılım üreten taraf.\nWeak extreme Trend devamında hedeflenmesi veya aşılması beklenen tepe/dip.\nBOS Mevcut trend yönünde anlamlı swing’in kırılması; devam teyidi.\nCHoCH Yerleşik trendin karşı yönündeki ilk anlamlı kırılım; erken değişim uyarısı.\nMSS Tanımı yöntemlere göre değişen, çoğu kullanımda CHoCH benzeri terim.\nRange Yönlü HH–HL veya LH–LL dizisinin bulunmadığı değer alanı.\nFractal yapı Benzer trend ve range düzenlerinin farklı zaman ölçeklerinde tekrarlanması.\nTablo 3.18 – Bölüm 3 hızlı kavram özeti\nBölüm 3 temel sözlüğü\nTerim Tanım\nMarket structure Anlamlı swing, impulse, pullback ve kırılımların oluşturduğu fiyat haritası.\nPrice action Fiyatın yakın geçmişte ve şu anda nasıl tepki verdiğini inceleyen mikro okuma.\nSwing Bir anlamlı ekstremden diğerine gerçekleşen fiyat dalgası.\nMajor structure Ana trend veya range sınıflandırmasını belirleyen üst ölçekli yapı.\nMinor structure Major hareketin içindeki daha küçük tepe–dip dizisi.\nHigher high (HH) Önceki anlamlı tepeden daha yüksek tepe.\nHigher low (HL) Önceki anlamlı dipten daha yüksek dip.\nLower high (LH) Önceki anlamlı tepeden daha düşük tepe.\nLower low (LL) Önceki anlamlı dipten daha düşük dip.\nEQH / EQL Birbirine tolerans içinde yakın eşit tepe veya dip.\nProtected high/low Mevcut trendin korunması için kırılmaması beklenen yapısal swing.\nTransition Eski yapının bozulduğu, yeni trend veya range’in henüz teyit edilmediği durum.",
+    "source_extract_summary": [
+      "Bölüm Özeti — Fiyat Hareketinden Yapısal Karara Bölüm 3 fiyat hareketini tek tek mumların ötesine taşıyarak tepe–dip dizileri, impulse–pullback dalgaları ve yapısal kırılımlar üzerinden düzenledi.",
+      "Market structure geleceği kesin olarak tahmin etmez; mevcut trendin neyi koruduğunu, hangi olayla ilerlediğini ve hangi kırılımla bozulduğunu görünür kılar.",
+      "Kavram Bölümdeki ana anlamı Swing high / low Fiyatın yön değiştirdiği tepe ve dip; yapısal önem ölçeğe bağlıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0080",
+    "page": 80,
+    "chapter": 3,
+    "section": "3.15 — Yapısal Okuma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 3\nTrend, Price Action ve Piyasa Yapısı  •  65\nTerim Tanım\nChoppy market Overlap ve sık yön değişimi nedeniyle yapısı zor okunan piyasa.\nFakeout Seviye aşımının kabul görmeyip fiyatın eski alana dönmesi.\nFollow-through Kırılım veya tepki sonrasında beklenen yönde gelen devam davranışı.\nTablo 3.19 – Bölüm 3 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Price action ile market structure arasındaki görev farkı nedir?\n2. Yerel pivot ile major swing nasıl ayrılır?\n3. Bir hareketin impulse veya pullback olarak adlandırılması neye bağlıdır?\n4. Yükseliş trendi için neden hem HH hem HL gerekir?\n5. HH ile LL aynı anda oluşuyorsa neden düzenli trend denmez?\n6. Trend gücü ile trend yönü arasındaki fark nedir?\n7. Yükseliş yapısında protected low ve weak high neyi ifade eder?\n8. Fitille seviye aşımı ile kapanışla teyitli BOS neden ayrılır?\n9. CHoCH neden yeni trendi tek başına teyit etmez?\n10. MSS terimi neden kitapta bağımsız zorunlu sinyal yapılmadı?\n11. Derin pullback ile gerçek dönüşü ayıran ana yapısal kanıt nedir?\n12. Clean range, contracting range ve expanding range arasındaki fark nedir?\n13. Yüksek hacimli uzun fitil neden başarısız kırılım gösterebilir?\n14. Major yükseliş içinde minor düşüş yapısı nasıl mümkün olur?\n15. Bir market structure analizini tek koşullu cümleyle nasıl özetlersiniz?\nBölüm 3 tamamlandı\nArtık fiyatın yalnızca son mumuna değil, o mumun ait olduğu dalgaya, swing dizisine ve yapısal duruma \nbakabilirsiniz. Bölüm 4, bu haritanın üzerinde fiyatın tekrar tekrar tepki verdiği destek–direnç, arz–talep ve \nönemli bölgeleri kuracaktır.",
+    "source_extract_summary": [
+      "Terim Tanım Choppy market Overlap ve sık yön değişimi nedeniyle yapısı zor okunan piyasa.",
+      "Fakeout Seviye aşımının kabul görmeyip fiyatın eski alana dönmesi.",
+      "Follow-through Kırılım veya tepki sonrasında beklenen yönde gelen devam davranışı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Gelecek sızıntısız yapı ve swing motoru",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  }
+]

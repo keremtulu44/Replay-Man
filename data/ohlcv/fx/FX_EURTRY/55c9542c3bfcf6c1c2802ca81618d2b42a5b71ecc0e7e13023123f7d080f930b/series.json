@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "provider": "yahoo",
+  "asset_id": "FX_EURTRY",
+  "symbol": "EURTRY=X",
+  "category": "fx",
+  "asset_type": "fx",
+  "catalog_currency": "TRY",
+  "price_policy": {
+    "auto_adjust": false,
+    "back_adjust": false,
+    "repair": false,
+    "keepna": true,
+    "actions": true,
+    "prepost": false
+  },
+  "series_id": "55c9542c3bfcf6c1c2802ca81618d2b42a5b71ecc0e7e13023123f7d080f930b"
+}
