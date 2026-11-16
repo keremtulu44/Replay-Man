@@ -1,0 +1,28 @@
+{
+  "audit_date": "2026-11-14",
+  "status": "conditional_gap_found",
+  "checks": {
+    "pages": 109,
+    "page_numbers_complete": true,
+    "blank_dispositions": 0,
+    "atomic_claims": 319,
+    "unique_claim_ids": 319,
+    "unresolved_rows": 0,
+    "rules_total": 34,
+    "cilt2_rules": 30,
+    "missing_rule_result_directories": 0,
+    "tests_passed": 64,
+    "knowledge_audit": "passed",
+    "ohlcv_audit": "passed",
+    "ohlcv_assets": 125,
+    "ohlcv_files": 500,
+    "ohlcv_rows": 620094,
+    "ohlcv_errors": 0,
+    "ohlcv_warnings": 0
+  },
+  "acceptance_gaps": {
+    "claims_without_linked_rule": 96,
+    "claims_with_package_id_instead_of_explicit_mathematical_definition": 319
+  },
+  "conclusion": "Measurements and software checks pass, but strict claim-level rule-ID and mathematical-definition requirements are not yet fully evidenced."
+}
