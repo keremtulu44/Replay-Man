@@ -3176,10 +3176,12 @@
       "section": "12.2 — +DM ve −DM nereden gelir?",
       "atomic_source_claim": "BÖLÜM 12 ADX ve DMI: Yön ile Gücü Ayırmak ADX tek başına “fiyat yukarı mı gidiyor, aşağı mı?” demez.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P074-C02",
@@ -3189,10 +3191,12 @@
       "section": "12.2 — +DM ve −DM nereden gelir?",
       "atomic_source_claim": "Asıl görevi hareketin ne kadar güçlü olduğunu ölçmektir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P074-C03",
@@ -3202,10 +3206,12 @@
       "section": "12.2 — +DM ve −DM nereden gelir?",
       "atomic_source_claim": "Yönü anlamak için +DI ve −DI çizgilerine, daha önemlisi fiyatın kendi yapısına bakılır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P075-C01",
@@ -3215,10 +3221,12 @@
       "section": "12.3 — ADX yükselirken fiyat neden düşebilir?",
       "atomic_source_claim": "Örnek Hesap Sonuç Bar A → Bar B Önceki H=100, L=92; Yeni H=104, L=93.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P075-C02",
@@ -3228,10 +3236,12 @@
       "section": "12.3 — ADX yükselirken fiyat neden düşebilir?",
       "atomic_source_claim": "+DM=4, −DM=0 Bar B → Bar C Önceki H=104, L=93; Yeni H=103, L=88.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P075-C03",
@@ -3241,10 +3251,12 @@
       "section": "12.3 — ADX yükselirken fiyat neden düşebilir?",
       "atomic_source_claim": "+DM=0, −DM=5 TEKNİK ZİNCİR +DM / −DM → True Range → Wilder tipi yumuşatma → +DI / −DI → DX → ADX.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P076-C01",
@@ -3254,10 +3266,12 @@
       "section": "12.4 — 20 ve 25 eşikleri neden fizik yasası değildir?",
       "atomic_source_claim": "12.4 — 20 ve 25 eşikleri neden fizik yasası değildir?",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P076-C02",
@@ -3267,10 +3281,12 @@
       "section": "12.4 — 20 ve 25 eşikleri neden fizik yasası değildir?",
       "atomic_source_claim": "20 ve 25 yaygın ADX referanslarıdır; kesin sınırlar değildir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P076-C03",
@@ -3280,10 +3296,12 @@
       "section": "12.4 — 20 ve 25 eşikleri neden fizik yasası değildir?",
       "atomic_source_claim": "Enstrüman, zaman dilimi ve piyasa davranışı değiştikçe aynı eşik farklı anlam taşıyabilir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P077-C01",
@@ -3293,10 +3311,12 @@
       "section": "12.6 — ADX tepesi fiyat tepesi değildir",
       "atomic_source_claim": "12.5 — ADX’i tek eşik yerine dört hareket evresiyle okumak ADX’in yalnız 20 veya 25’in üzerinde olup olmadığına bakmak yerine seviyesi ile eğimi birlikte değerlendirilebilir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P077-C02",
@@ -3306,10 +3326,12 @@
       "section": "12.6 — ADX tepesi fiyat tepesi değildir",
       "atomic_source_claim": "Düşük + düşen Yönlü güç zayıf / düzensiz ortam olabilir Yönün ne olduğunu Düşük + yükselen Yönlü güç oluşmaya başlıyor olabilir Yeni trendin kesin başladığını Yüksek + yükselen Mevcut yönlü güç artıyor olabilir Yükseliş mi düşüş mü olduğunu Yüksek + düşen Trend artık önceki hızda güçlenmiyor Trendin bittiğini Bu dört durum, “ADX 25’in üstünde = güçlü trend” cümlesinden daha fazla bağlam taşır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P077-C03",
@@ -3319,10 +3341,12 @@
       "section": "12.6 — ADX tepesi fiyat tepesi değildir",
       "atomic_source_claim": "Kesikli 25 çizgisi yalnız referanstır; ADX’in yükselmesi veya düşmesi yönü tek başına söylemez.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P078-C01",
@@ -3332,10 +3356,12 @@
       "section": "12.7 — +DI / −DI kesişimi neden otomatik giriş değildir?",
       "atomic_source_claim": "12.7 — +DI / −DI kesişimi neden otomatik giriş değildir?",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P078-C02",
@@ -3345,10 +3371,12 @@
       "section": "12.7 — +DI / −DI kesişimi neden otomatik giriş değildir?",
       "atomic_source_claim": "DI kesişimi yukarı ve aşağı hareket arasındaki üstünlüğün değiştiğini gösterir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P078-C03",
@@ -3358,10 +3386,12 @@
       "section": "12.7 — +DI / −DI kesişimi neden otomatik giriş değildir?",
       "atomic_source_claim": "Fiyatın iyi bir bölgede olduğunu veya stopun nerede olması gerektiğini söylemez.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-012-adx-dmi"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P079-C01",
@@ -3371,10 +3401,12 @@
       "section": "13.1 — Supertrend’in temel hesabı: ATR bantları",
       "atomic_source_claim": "BÖLÜM 13 Supertrend: ATR Tabanlı Trend Takibi Supertrend tek çizgiyle sade görünür.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P079-C02",
@@ -3384,10 +3416,12 @@
       "section": "13.1 — Supertrend’in temel hesabı: ATR bantları",
       "atomic_source_claim": "Ancak çizginin yeri ATR’ye, yani fiyatın ne kadar geniş hareket ettiğine göre değişir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P079-C03",
@@ -3397,10 +3431,12 @@
       "section": "13.1 — Supertrend’in temel hesabı: ATR bantları",
       "atomic_source_claim": "Bu yüzden “renk değişti = yeni trend kesin başladı” şeklinde okunmamalıdır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P080-C01",
@@ -3410,10 +3446,12 @@
       "section": "13.3 — Supertrend yön değişimi nasıl oluşur?",
       "atomic_source_claim": "Görülen nihai Supertrend çizgisi bu bantların durum kurallarıyla filtrelenmiş halidir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P080-C02",
@@ -3423,10 +3461,12 @@
       "section": "13.3 — Supertrend yön değişimi nasıl oluşur?",
       "atomic_source_claim": "13.2 — “Çizgi fiyatı takip ediyor” anlatısının eksik tarafı Supertrend yalnız “fiyat ± ATR” değildir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P080-C03",
@@ -3436,10 +3476,12 @@
       "section": "13.3 — Supertrend yön değişimi nasıl oluşur?",
       "atomic_source_claim": "Nihai üst/alt bantlar önceki bant değerlerini koşullu biçimde koruduğu için çizgi geçmiş durumdan da etkilenir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P081-C01",
@@ -3449,10 +3491,12 @@
       "section": "13.5 — Supertrend neden doğal olarak gecikir?",
       "atomic_source_claim": "13.4 — Çarpan ve ATR dönemi neyi değiştirir?",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P081-C02",
@@ -3462,10 +3506,12 @@
       "section": "13.5 — Supertrend neden doğal olarak gecikir?",
       "atomic_source_claim": "Ayar değişimi Tipik etki Bedel Çarpan azalır Çizgi fiyata yaklaşır Daha sık yanlış sinyal / erken yön değişimi Çarpan artar Çizgi uzaklaşır Daha geç yön değişimi / daha geniş tolerans ATR dönemi kısalır Fiyat hareketliliği değişimine daha hızlı tepki Daha oynak çizgi ATR dönemi uzar Daha yumuşak fiyat hareketliliği ölçümü Piyasa ortamı değişimine daha geç tepki GEÇMİŞE AŞIRI UYUM UYARISI Geçmiş grafikte “tam dönüş noktalarını yakalayan” çarpan/ATR dönemi kombinasyonunu aramak parametre uydurmasıdır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P081-C03",
@@ -3475,10 +3521,12 @@
       "section": "13.5 — Supertrend neden doğal olarak gecikir?",
       "atomic_source_claim": "Ayar, işlem ufku ve kabul edilen gürültüyle gerekçelendirilmelidir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P082-C01",
@@ -3488,10 +3536,12 @@
       "section": "13.6 — Supertrend çizgisini stop olarak kullanmak",
       "atomic_source_claim": "Piyasa Supertrend davranışı Daha doğru okuma Düzenli trend Pozisyonu uzun süre takip edebilir Takip eden stop / piyasa ortamı filtresi için uygun Yatay piyasa Sık yön değişimi üretebilir Tek başına giriş sistemi yapma Ani fiyat hareketliliği şoku ATR genişler, bant mesafesi değişir Stop/risk mantığını ayrıca kontrol et 13.6 — Supertrend çizgisini stop olarak kullanmak Supertrend takip eden stop referansı olabilir; ancak teknik stop mesafesi ile hesap başına para riski ayrı konulardır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P082-C02",
@@ -3501,10 +3551,12 @@
       "section": "13.6 — Supertrend çizgisini stop olarak kullanmak",
       "atomic_source_claim": "Stop uzaksa pozisyon büyüklüğü buna göre ayarlanmalıdır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P082-C03",
@@ -3514,10 +3566,12 @@
       "section": "13.6 — Supertrend çizgisini stop olarak kullanmak",
       "atomic_source_claim": "MİNİ ÖRNEK Giriş 100 TL, Supertrend 92 TL ise teknik mesafe %8’dir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P083-C01",
@@ -3527,10 +3581,12 @@
       "section": "13.7 — Hangi kombinasyonlar anlamlı?",
       "atomic_source_claim": "13.7 — Hangi kombinasyonlar anlamlı?",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P083-C02",
@@ -3540,10 +3596,12 @@
       "section": "13.7 — Hangi kombinasyonlar anlamlı?",
       "atomic_source_claim": "Kombinasyon Rol ayrımı Değerlendirme Supertrend + Fiyat yapısı Otomatik trend çizgisi + gerçek fiyat yapısı Güçlü tamamlayıcı Supertrend + RSI/Stoch Trend filtresi + hareket gücü zamanlama Kullanılabilir Supertrend + Hacim/Volume Profile Trend + katılım/konum Kullanılabilir Supertrend + ATR İkisi bağımsız teyit değildir Supertrend zaten ATR içerir Supertrend + 200 MA + MACD Aynı trend bilgisinin tekrarı Çoğu sistemde gereksiz BÖLÜM SONUCU Supertrend ATR tabanlı ve gecikmeli bir trend takip aracıdır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P083-C03",
@@ -3553,10 +3611,12 @@
       "section": "13.7 — Hangi kombinasyonlar anlamlı?",
       "atomic_source_claim": "En doğal rolleri piyasa ortamı filtresi ve takip eden stop referansıdır; renk değişimi trend başlangıcı garantisi değildir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-013-supertrend"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P084-C01",
@@ -3566,10 +3626,12 @@
       "section": "14.1 — Beş bileşenin gerçek hesap mantığı",
       "atomic_source_claim": "BÖLÜM 14 Ichimoku Cloud: Beş Çizgiyi Tek Sistem Olarak Okumak Ichimoku tek bir gösterge değil, birkaç çizgiyi birlikte kullanan bir sistemdir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P084-C02",
@@ -3579,10 +3641,12 @@
       "section": "14.1 — Beş bileşenin gerçek hesap mantığı",
       "atomic_source_claim": "Çizgiler seçilen dönemlerin en yüksek ve en düşük fiyatlarının orta noktalarından türetilir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P084-C03",
@@ -3592,10 +3656,12 @@
       "section": "14.1 — Beş bileşenin gerçek hesap mantığı",
       "atomic_source_claim": "Bulut ve diğer çizgiler birlikte trendin yönünü, fiyatın konumunu ve olası destek/direnç bölgelerini okumaya yardım eder.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P085-C01",
@@ -3605,10 +3671,12 @@
       "section": "14.3 — Tenkan ve Kijun’da yalnız konuma değil eğime de bakın",
       "atomic_source_claim": "Senkou çizgileri ise bugün hesaplanan değerlerin grafikte ileriye taşınmış halidir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P085-C02",
@@ -3618,10 +3686,12 @@
       "section": "14.3 — Tenkan ve Kijun’da yalnız konuma değil eğime de bakın",
       "atomic_source_claim": "14.2 — “9 periyot hareketli ortalama” demek neden yanlıştır?",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P085-C03",
@@ -3631,10 +3701,12 @@
       "section": "14.3 — Tenkan ve Kijun’da yalnız konuma değil eğime de bakın",
       "atomic_source_claim": "SAYISAL ÖRNEK Son 9 bardaki en yüksek 112, en düşük 100 ise Tenkan = (112+100)/2 = 106’dır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P086-C01",
@@ -3644,10 +3716,12 @@
       "section": "14.6 — Ichimoku’yu tek tek sinyaller yerine tek sistem olarak okumak",
       "atomic_source_claim": "14.4 — Chikou Span’ı “gecikmeli sinyal” değil karşılaştırma katmanı olarak okuyun Chikou Span bugünkü kapanışı geçmişe kaydırarak mevcut fiyatın 26 bar önceki fiyat bölgesine göre nerede olduğunu görmeye yardım eder.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P086-C02",
@@ -3657,10 +3731,12 @@
       "section": "14.6 — Ichimoku’yu tek tek sinyaller yerine tek sistem olarak okumak",
       "atomic_source_claim": "Chikou geçmiş fiyatların belirgin biçimde üzerindeyse bugünkü kapanış geçmiş fiyat bölgesinin üzerine taşınmıştır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P086-C03",
@@ -3670,10 +3746,12 @@
       "section": "14.6 — Ichimoku’yu tek tek sinyaller yerine tek sistem olarak okumak",
       "atomic_source_claim": "Geçmiş fiyatların altındaysa bunun tersi görülür.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P087-C01",
@@ -3683,10 +3761,12 @@
       "section": "14.9 — Kumo kırılımı ve çoklu zaman dilimi",
       "atomic_source_claim": "Tenkan/Kijun kesişimi tek başına alış sinyali değildir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P087-C02",
@@ -3696,10 +3776,12 @@
       "section": "14.9 — Kumo kırılımı ve çoklu zaman dilimi",
       "atomic_source_claim": "Fiyatın buluta göre konumu, ana yapı ve diğer Ichimoku katmanları aynı bağlamda okunmalıdır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P087-C03",
@@ -3709,10 +3791,12 @@
       "section": "14.9 — Kumo kırılımı ve çoklu zaman dilimi",
       "atomic_source_claim": "14.7 — Tenkan–Kijun kesişiminin bağlamı Kumo’ya göre değişir Tenkan ile Kijun’un kesişmesi tek başına işlem sinyali değildir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P088-C01",
@@ -3722,10 +3806,12 @@
       "section": "14.11 — Ichimoku’nun üzerine neden dört trend göstergesi",
       "atomic_source_claim": "Çoklu zaman diliminde önce üst zaman dilimindeki Ichimoku görünümü, ardından alt zaman dilimindeki daha ayrıntılı fiyat davranışı incelenebilir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P088-C02",
@@ -3735,10 +3821,12 @@
       "section": "14.11 — Ichimoku’nun üzerine neden dört trend göstergesi",
       "atomic_source_claim": "Belirli zaman dilimi eşleşmeleri evrensel değildir; amaç büyük resmi giriş zamanlamasından ayırmaktır.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P088-C03",
@@ -3748,10 +3836,12 @@
       "section": "14.11 — Ichimoku’nun üzerine neden dört trend göstergesi",
       "atomic_source_claim": "14.10 — Bulut destek/direnç duvarı değildir Bulut çevresinde geçmiş reaksiyonlar görülebilir; ancak bulut geçmiş en yüksek/en düşük fiyatların orta noktalarından türetilir.",
       "target_package": "C1-P7-trend-systems",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-014-ichimoku"
+      ],
+      "mathematical_definition": "DMI: +DM=max(H-Hprev,0), -DM=max(Lprev-L,0), DI=100*Wilder(DM)/ATR, ADX=Wilder(100*|+DI--DI|/(+DI+-DI)); Supertrend=HL2±3*ATR; Ichimoku Tenkan=(HH9+LL9)/2, Kijun=(HH26+LL26)/2, SpanB=(HH52+LL52)/2. Yalnız kapanmış barlar.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P089-C01",
@@ -3761,10 +3851,12 @@
       "section": "15.2 — Merkezi Pivot Aralığı (Central Pivot Range, CPR): tek çizgi yerine",
       "atomic_source_claim": "BÖLÜM 15 Kısa Referans Araçları: Pivot Points, RS Line ve Trend Strength Index HIZLI ROL — Pivot Points önemli fiyat bölgelerini, RS Line varlığın karşılaştırma ölçütüne göre güçlü mü zayıf mı olduğunu, Trend Strength Index ise trendin ne kadar düzenli ilerlediğini gösterir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P089-C02",
@@ -3774,10 +3866,12 @@
       "section": "15.2 — Merkezi Pivot Aralığı (Central Pivot Range, CPR): tek çizgi yerine",
       "atomic_source_claim": "Üçü de yardımcı araçtır; tek başına giriş sistemi değildir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P089-C03",
@@ -3787,10 +3881,12 @@
       "section": "15.2 — Merkezi Pivot Aralığı (Central Pivot Range, CPR): tek çizgi yerine",
       "atomic_source_claim": "Ana risk: pivotları gelecek tahmini, göreli zayıflığı “ucuz”, TSI’yi de RSI veya ADX ile aynı araç sanmak.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P090-C01",
@@ -3800,10 +3896,12 @@
       "section": "15.4 — RS Line: RSI değil, karşılaştırma ölçütüne göre performans",
       "atomic_source_claim": "Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P090-C02",
@@ -3813,10 +3911,12 @@
       "section": "15.4 — RS Line: RSI değil, karşılaştırma ölçütüne göre performans",
       "atomic_source_claim": "Bu konum tek başına AL/SAT üretmez; fiyat yapısı ve diğer karar katmanları ayrıca değerlendirilmelidir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P090-C03",
@@ -3826,10 +3926,12 @@
       "section": "15.4 — RS Line: RSI değil, karşılaştırma ölçütüne göre performans",
       "atomic_source_claim": "Ardışık dönemlerin CPR bölgeleri karşılaştırıldığında merkez referans bölgesinin yukarı, aşağı veya yatay taşındığı görülebilir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P091-C01",
@@ -3839,10 +3941,12 @@
       "section": "15.5 — RS Line ile göreli güç sıralaması aynı şey değildir",
       "atomic_source_claim": "“Fiyat yükseliyor” ile “liderlik ediyor” aynı soru değildir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P091-C02",
@@ -3852,10 +3956,12 @@
       "section": "15.5 — RS Line ile göreli güç sıralaması aynı şey değildir",
       "atomic_source_claim": "EN ÖNEMLİ TEKNİK HATA “Karşılaştırma ölçütünden düşük performans = göreli olarak ucuz, almak için iyi olabilir” çıkarımı doğru değildir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P091-C03",
@@ -3865,10 +3971,12 @@
       "section": "15.5 — RS Line ile göreli güç sıralaması aynı şey değildir",
       "atomic_source_claim": "Göreli zayıflık ucuzluk kanıtı değildir; bir varlık karşılaştırma ölçütünden aylarca daha kötü performans göstermeye devam edebilir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P092-C01",
@@ -3878,10 +3986,12 @@
       "section": "15.6 — Trend Strength Index: trendin ne kadar düzenli ilerlediğini ölçer",
       "atomic_source_claim": "İkisi de göreli güç ailesindedir; ancak hesapları ve çıktıları aynı değildir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P092-C02",
@@ -3891,10 +4001,12 @@
       "section": "15.6 — Trend Strength Index: trendin ne kadar düzenli ilerlediğini ölçer",
       "atomic_source_claim": "Bu nedenle bir RS çizgisi ile “RS 90” gibi bir göreli güç puanını aynı gösterge sanmayın.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P092-C03",
@@ -3904,10 +4016,12 @@
       "section": "15.6 — Trend Strength Index: trendin ne kadar düzenli ilerlediğini ölçer",
       "atomic_source_claim": "Göreli liderlik mutlak yükseliş gerektirmez Genel piyasa düşerken bir varlık daha az düşüyor, yatay kalıyor veya pozitif kalabiliyorsa karşılaştırma ölçütüne göre göreli güç gösterebilir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P093-C01",
@@ -3917,10 +4031,12 @@
       "section": "15.7 — Kısa referans araçları için rol matrisi",
       "atomic_source_claim": "Araç Ana soru Temel çıktı RSI Son kazanç/kayıp hareket gücü dengesi nasıl?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P093-C02",
@@ -3930,10 +4046,12 @@
       "section": "15.7 — Kısa referans araçları için rol matrisi",
       "atomic_source_claim": "0 … 100 hareket gücü osilatörü NEDEN TSI + ADX AYNI ŞEY DEĞİL?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P093-C03",
@@ -3943,10 +4061,12 @@
       "section": "15.7 — Kısa referans araçları için rol matrisi",
       "atomic_source_claim": "TSI fiyatın zaman içinde ne kadar düzenli ilerlediğine, ADX ise yukarı ve aşağı yönlü hareket arasındaki farkın ne kadar belirgin olduğuna bakar.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P094-C01",
@@ -3956,10 +4076,12 @@
       "section": "15.7 — Kısa referans araçları için rol matrisi",
       "atomic_source_claim": "Araç Soru Rol RS Line Varlık karşılaştırma ölçütüne göre lider mi?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P094-C02",
@@ -3969,10 +4091,12 @@
       "section": "15.7 — Kısa referans araçları için rol matrisi",
       "atomic_source_claim": "Göreli performans Trend Strength Index Fiyat zamana karşı ne kadar düzenli trend ediyor?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P094-C03",
@@ -3982,10 +4106,12 @@
       "section": "15.7 — Kısa referans araçları için rol matrisi",
       "atomic_source_claim": "Trend tutarlılığı ARA KAVRAM Hesaplanan Araçlardan Çizim Geometrisine Geçiş İlk on beş bölümde çoğunlukla fiyat, hacim veya zaman serisinden hesaplanan araçları inceledik.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-015-pivot-cpr"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P095-C01",
@@ -3995,10 +4121,12 @@
       "section": "16.1 — Destek ve direnç: çizgiden önce bölge düşünün",
       "atomic_source_claim": "BÖLÜM 16 Trend Çizgileri, Yatay Seviyeler ve Kanallar Çizgi çizmek kolaydır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P095-C02",
@@ -4008,10 +4136,12 @@
       "section": "16.1 — Destek ve direnç: çizgiden önce bölge düşünün",
       "atomic_source_claim": "Zor olan, hangi iki noktanın neden seçildiğini ve çizginin neyi kanıtlamadığını bilmektir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P095-C03",
@@ -4021,10 +4151,12 @@
       "section": "16.1 — Destek ve direnç: çizgiden önce bölge düşünün",
       "atomic_source_claim": "HIZLI ROL — Ana görev: fiyat hareketini çizgiler ve bölgelerle daha kolay okumak.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P096-C01",
@@ -4034,10 +4166,12 @@
       "section": "16.2 — Seviyeyi temas sayısıyla değil, fiyatın verdiği tepkiyle değerlendirin",
       "atomic_source_claim": "SAYISAL ÖRNEK Dört belirgin reaksiyon 99,80 / 100,20 / 100,40 / 100,00 seviyelerinde oluşsun.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P096-C02",
@@ -4047,10 +4181,12 @@
       "section": "16.2 — Seviyeyi temas sayısıyla değil, fiyatın verdiği tepkiyle değerlendirin",
       "atomic_source_claim": "“Doğru destek 100,00’dır” demek gereksiz hassasiyettir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P096-C03",
@@ -4060,10 +4196,12 @@
       "section": "16.2 — Seviyeyi temas sayısıyla değil, fiyatın verdiği tepkiyle değerlendirin",
       "atomic_source_claim": "99,60–100,50 gibi önceden tanımlanmış bir reaksiyon bölgesi dağılımı daha dürüst temsil eder.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P097-C01",
@@ -4073,10 +4211,12 @@
       "section": "16.3 — Trend çizgisinin asıl problemi: iki nokta her zaman bir doğru",
       "atomic_source_claim": "Bu nedenle: bölgenin dışına çıkış ≠ bölgenin dışında kabul.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P097-C02",
@@ -4086,10 +4226,12 @@
       "section": "16.3 — Trend çizgisinin asıl problemi: iki nokta her zaman bir doğru",
       "atomic_source_claim": "Kısa ihlal ve hızlı geri dönüş, ilk kırılımın devam edemediğini gösteren ayrı bir fiyat davranışıdır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P097-C03",
@@ -4099,10 +4241,12 @@
       "section": "16.3 — Trend çizgisinin asıl problemi: iki nokta her zaman bir doğru",
       "atomic_source_claim": "Yine de otomatik dönüş sinyali değildir; fiyat yapısı ayrıca değerlendirilmelidir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P098-C01",
@@ -4112,10 +4256,12 @@
       "section": "16.6 — Trend çizgisinde temas sıklığı ve yeniden test davranışı",
       "atomic_source_claim": "16.4 — Trend çizgisi aslında çoğu zaman bir “trend alanı”dır Trend çizgisini tek ve kesin bir sınır yerine dar bir referans alanı olarak düşünmek çoğu durumda daha sağlıklıdır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P098-C02",
@@ -4125,10 +4271,12 @@
       "section": "16.6 — Trend çizgisinde temas sıklığı ve yeniden test davranışı",
       "atomic_source_claim": "Özellikle fitil çizgiyi aşıp kapanış yeniden alan içinde kaldığında, yalnız temasa değil kapanışa ve sonraki fiyat davranışına bakın.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P098-C03",
@@ -4138,10 +4286,12 @@
       "section": "16.6 — Trend çizgisinde temas sıklığı ve yeniden test davranışı",
       "atomic_source_claim": "YANLIŞ / DOĞRU YANLIŞ: “Fitil çizginin altına indi → yükseliş trendi bitti.” DOĞRU: “Trend referans alanı ihlal edildi.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P099-C01",
@@ -4151,10 +4301,12 @@
       "section": "16.7 — Ekrandaki açı bir piyasa sabiti değildir",
       "atomic_source_claim": "Ardışık temaslar arasındaki süre kısalıyor, fiyat çizgiden eskisi kadar uzaklaşamıyor ve çizginin çevresinde daha fazla zaman geçiriyorsa fiyatın çizgiden önceki kadar güçlü uzaklaşmadığı görülür.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P099-C02",
@@ -4164,10 +4316,12 @@
       "section": "16.7 — Ekrandaki açı bir piyasa sabiti değildir",
       "atomic_source_claim": "Bu yapı kırılım garantisi değildir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P099-C03",
@@ -4177,10 +4331,12 @@
       "section": "16.7 — Ekrandaki açı bir piyasa sabiti değildir",
       "atomic_source_claim": "Daha doğru okuma, mevcut trend çizgisi geometrisinin reaksiyon gücünün zayıfladığıdır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P100-C01",
@@ -4190,10 +4346,12 @@
       "section": "16.8 — Paralel Kanal: ikinci çizgiyi bağımsız uydurmayın",
       "atomic_source_claim": "16.8 — Paralel Kanal: ikinci çizgiyi bağımsız uydurmayın Paralel Kanal iki bağımsız trend çizgisinden oluşmaz.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P100-C02",
@@ -4203,10 +4361,12 @@
       "section": "16.8 — Paralel Kanal: ikinci çizgiyi bağımsız uydurmayın",
       "atomic_source_claim": "İlk sınır eğimi tanımlar; karşı sınır aynı eğim korunarak paralel taşınır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P100-C03",
@@ -4216,10 +4376,12 @@
       "section": "16.8 — Paralel Kanal: ikinci çizgiyi bağımsız uydurmayın",
       "atomic_source_claim": "Böylece iki kenarı da geçmiş fiyata ayrı ayrı uydurma riski azaltılır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P101-C01",
@@ -4229,10 +4391,12 @@
       "section": "16.10 — Çoklu zaman diliminde çizim sırası",
       "atomic_source_claim": "16.9 — Yatay seviye, trend çizgisi ve yapı birlikte nasıl kullanılır?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P101-C02",
@@ -4242,10 +4406,12 @@
       "section": "16.10 — Çoklu zaman diliminde çizim sırası",
       "atomic_source_claim": "Önce belirgin tepe/diplerle fiyat yapısını okuyun; ardından destek/direnç bölgelerini ve gerekiyorsa trend kanalını ekleyin.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P101-C03",
@@ -4255,10 +4421,12 @@
       "section": "16.10 — Çoklu zaman diliminde çizim sırası",
       "atomic_source_claim": "Çizim konumu gösterir, giriş ise fiyatın o bölgede verdiği davranışla doğrulanmalıdır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P102-C01",
@@ -4268,10 +4436,12 @@
       "section": "16.11 — TradingView çizim araçları: analiz değişmesin",
       "atomic_source_claim": "16.11 — TradingView çizim araçları: analiz değişmesin TradingView araçları analiz yönteminin yerine geçmez; yalnız çizimin yanlışlıkla kaymasını azaltır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P102-C02",
@@ -4281,10 +4451,12 @@
       "section": "16.11 — TradingView çizim araçları: analiz değişmesin",
       "atomic_source_claim": "Mıknatıs (Magnet), çizimleri kilitleme, kopyalama ve bar-kapanış alarmını bu amaçla kullanın.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P102-C03",
@@ -4294,10 +4466,12 @@
       "section": "16.11 — TradingView çizim araçları: analiz değişmesin",
       "atomic_source_claim": "Araç Faydalı kullanım Dikkat Magnet (Mıknatıs) Başlangıç noktasını gerçek OHLC değerine daha hassas bağlamak Güçlü mıknatıs yanlış noktaya yapışırsa kontrol et Lock Drawings (Çizimleri Kilitle) Analiz bittikten sonra başlangıç noktalarının kazara kaymasını önlemek Yanlış çizimi kilitlemek onu doğru yapmaz Clone (Kopyala) Aynı eğim ile paralel kanal oluşturmak Kopyayı bağımsız eğmek kanal mantığını bozar Bar-kapanış alarmı Çizgi/bölge ihlalini ekran başında beklemeden izlemek Alarm = işlem emri değildir",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P103-C01",
@@ -4307,10 +4481,12 @@
       "section": "16.12 — Çizim yaparken 8 soruluk kontrol",
       "atomic_source_claim": "16.12 — Çizim yaparken 8 soruluk kontrol  Bu çizimin görevi ne: yön, konum, sınır mı; yoksa yalnız görsel açıklama mı?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P103-C02",
@@ -4320,10 +4496,12 @@
       "section": "16.12 — Çizim yaparken 8 soruluk kontrol",
       "atomic_source_claim": " Başlangıç noktaları anlamlı dip/tepelerden mi seçildi, yoksa çizgiyi güzel göstermek için mi?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P103-C03",
@@ -4333,10 +4511,12 @@
       "section": "16.12 — Çizim yaparken 8 soruluk kontrol",
       "atomic_source_claim": " Grafiğin sağ tarafını kapatsaydım aynı başlangıç noktalarını seçer miydim?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-016-support-resistance"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P104-C01",
@@ -4346,10 +4526,12 @@
       "section": "17.1 — Retracement aslında neyi hesaplar?",
       "atomic_source_claim": "BÖLÜM 17 Fibonacci Ailesi: Oran, Başlangıç Noktası ve Projeksiyon Fibonacci tek başına al-sat sinyali üretmez.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P104-C02",
@@ -4359,10 +4541,12 @@
       "section": "17.1 — Retracement aslında neyi hesaplar?",
       "atomic_source_claim": "Seçtiğiniz belirgin fiyat hareketini belirli oranlara böler.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P104-C03",
@@ -4372,10 +4556,12 @@
       "section": "17.1 — Retracement aslında neyi hesaplar?",
       "atomic_source_claim": "Bu nedenle asıl analiz, çizgiden önce “hangi fiyat hareketini neden ölçüyorum?” sorusuyla başlar.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P105-C01",
@@ -4385,10 +4571,12 @@
       "section": "17.1 — Retracement aslında neyi hesaplar?",
       "atomic_source_claim": "17.1 — Retracement aslında neyi hesaplar?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P106-C01",
@@ -4398,10 +4586,12 @@
       "section": "17.4 — Başlangıç noktası seçimi: en öznel karar",
       "atomic_source_claim": "17.2 — Fibonacci oranları matematiksel olarak nereden gelir?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P106-C02",
@@ -4411,10 +4601,12 @@
       "section": "17.4 — Başlangıç noktası seçimi: en öznel karar",
       "atomic_source_claim": "Fibonacci dizisi şu mantıkla ilerler: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89...",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P106-C03",
@@ -4424,10 +4616,12 @@
       "section": "17.4 — Başlangıç noktası seçimi: en öznel karar",
       "atomic_source_claim": "Her yeni sayı kendisinden önceki iki sayının toplamıdır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P107-C01",
@@ -4437,10 +4631,12 @@
       "section": "17.5 — 0,618’e temas neden giriş işareti değildir?",
       "atomic_source_claim": "Başlangıç Yapıyı başlatan anlamlı dip/tepe İstenen Fib seviyesi çıksın diye birkaç bar kaydırılır Bitiş Ana hareketin önceden belirlenebilir karşı uç noktası Sonraki fiyatı daha iyi yakalayan fitil seçilir Test Sağ taraf kapalıyken aynı başlangıç noktası seçilebilir Gelecek fiyat görüldükten sonra ayarlanır Şekil 17.2 — Başlangıç noktasının yalnız birkaç bar veya fiyat birimi kayması bile 0,618 seviyesini değiştirir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P107-C02",
@@ -4450,10 +4646,12 @@
       "section": "17.5 — 0,618’e temas neden giriş işareti değildir?",
       "atomic_source_claim": "KENDİNE SOR Grafiğin sağ tarafını kapatsaydım bu iki başlangıç noktasını yine seçer miydim?",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P107-C03",
@@ -4463,10 +4661,12 @@
       "section": "17.5 — 0,618’e temas neden giriş işareti değildir?",
       "atomic_source_claim": "Cevap hayırsa, çizim analizden çok geriye dönük uyuma yaklaşmıştır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P108-C01",
@@ -4476,10 +4676,12 @@
       "section": "17.7 — Trend-Based Extension: hedef değil, projeksiyon",
       "atomic_source_claim": "YANLIŞ / DOĞRU YANLIŞ: “0,618 geldi, AL.” DOĞRU: “Ana yapı yükseliş; anlamlı hareketin 0,50–0,618 bölgesindeyiz.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P108-C02",
@@ -4489,10 +4691,12 @@
       "section": "17.7 — Trend-Based Extension: hedef değil, projeksiyon",
       "atomic_source_claim": "Şimdi fiyat burada yeniden yukarı yönlü yapı veya hareket gücü üretiyor mu?” 17.6 — Fibonacci kümelenmesi: farklı ölçümlerin aynı bölgede buluşması Farklı, önceden gerekçelendirilmiş fiyat hareketlerine çizilen Fibonacci seviyeleri aynı bölgeye yaklaşabilir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P108-C03",
@@ -4502,10 +4706,12 @@
       "section": "17.7 — Trend-Based Extension: hedef değil, projeksiyon",
       "atomic_source_claim": "Örneğin bir hareketin %50 seviyesi ile başka bir hareketin %78,6 seviyesi birbirine yakınsa Fibonacci kümelenmesi oluşur.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P109-C01",
@@ -4515,10 +4721,12 @@
       "section": "17.9 — Fibonacci zaman araçları: fiyat değil zaman ekseni",
       "atomic_source_claim": "SAYISAL ÖRNEK A=100, B=160, C=130 olsun.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P109-C02",
@@ -4528,10 +4736,12 @@
       "section": "17.9 — Fibonacci zaman araçları: fiyat değil zaman ekseni",
       "atomic_source_claim": "1,272 projeksiyon: 130 + (60×1,272) = 206,32.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P109-C03",
@@ -4541,10 +4751,12 @@
       "section": "17.9 — Fibonacci zaman araçları: fiyat değil zaman ekseni",
       "atomic_source_claim": "1,618 projeksiyon: 130 + (60×1,618) = 227,08.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P110-C01",
@@ -4554,10 +4766,12 @@
       "section": "17.10 — En iyi kombinasyonlar ve tekrar riski",
       "atomic_source_claim": "TEKNİK SORUN Fiyat seviyesi ile zaman bölgesini aynı şeymiş gibi yorumlamak hatadır.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P110-C02",
@@ -4567,10 +4781,12 @@
       "section": "17.10 — En iyi kombinasyonlar ve tekrar riski",
       "atomic_source_claim": "Fibonacci zaman aracı yalnız belirli bar/tarih çevresini gözlem penceresi olarak işaretler; kesin olay üretmez.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P110-C03",
@@ -4580,10 +4796,12 @@
       "section": "17.10 — En iyi kombinasyonlar ve tekrar riski",
       "atomic_source_claim": "17.10 — En iyi kombinasyonlar ve tekrar riski Kombinasyon Rol ayrımı Değerlendirme Fib + Fiyat yapısı Fib = konum; Fiyat yapısı = davranış/bozulma Güçlü tamamlayıcı Fib + AVWAP Fib = oran; AVWAP = hacim ağırlıklı maliyet/konum Faydalı örtüşme; giriş işareti ayrı Fib + Volume Profile Fib = geometri; VP = fiyat seviyelerine göre hacim yoğunluğu Farklı veri sınıfları Fib + RSI / hareket gücü Fib = nerede; RSI = hareket gücü ne yapıyor Giriş işareti desteği olabilir Fib + Pitchfork İkisi de çizim ve hedef bölgesi üretir Kesişim faydalı olabilir ama iki bağımsız teyit değildir TEKRAR RİSKİ Retracement + Extension + Fib Fan aynı fiyat hareketinden türetiliyorsa, aynı bölgede birleşmeleri üç bağımsız teyit değildir.",
       "target_package": "C1-P8-level-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-017-fibonacci"
+      ],
+      "mathematical_definition": "Klasik pivot=(HprevDay+LprevDay+CprevDay)/3; S/R yalnız 2+2 teyitli swinglerden; break kapanışla seviye geçişidir; Fib r=low+r*(high-low), r∈{0.382,0.618}, anchor yalnız teyitli swing çiftidir.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P111-C01",
@@ -4593,10 +4811,12 @@
       "section": "18.2 — “1×1 = her zaman 45 derece” neden problemli?",
       "atomic_source_claim": "BÖLÜM 18 Gann Fan, Box ve Square: Fiyat ve Zaman Geometrisi Gann araçlarında en önemli konu çizginin kendisinden çok ölçek ayarıdır.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P111-C02",
@@ -4606,10 +4826,12 @@
       "section": "18.2 — “1×1 = her zaman 45 derece” neden problemli?",
       "atomic_source_claim": "Fiyat ile zamanın grafikte nasıl ölçeklendiği değişirse aynı Gann çizgisi farklı görünebilir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P111-C03",
@@ -4619,10 +4841,12 @@
       "section": "18.2 — “1×1 = her zaman 45 derece” neden problemli?",
       "atomic_source_claim": "HIZLI ROL — Ana görev: fiyat ile zamanı belirli oranlarla birlikte incelemek.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P112-C01",
@@ -4632,10 +4856,12 @@
       "section": "18.4 — Gann Box ve Square: önce alanı tanımla",
       "atomic_source_claim": "KİTAP KURALI “Grafikte tam 45° gördüm, demek 1×1 doğru” sonucunu kullanmayın.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P112-C02",
@@ -4645,10 +4871,12 @@
       "section": "18.4 — Gann Box ve Square: önce alanı tanımla",
       "atomic_source_claim": "Önce fiyat/zaman oranının nasıl tanımlandığını ve grafik ölçeğinin görünümü nasıl etkilediğini kontrol edin.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P112-C03",
@@ -4658,10 +4886,12 @@
       "section": "18.4 — Gann Box ve Square: önce alanı tanımla",
       "atomic_source_claim": "18.3 — Gann Fan’da fiyat, zaman ve ölçekleme aynı modelin parçalarıdır Gann oranı yalnız fiyat farkı değildir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P113-C01",
@@ -4671,10 +4901,12 @@
       "section": "18.5 — Gann çizgisine temas veya kırılım ne söyler?",
       "atomic_source_claim": "1 Fiyat yapısı ile büyük pivotu seç Geometri fiyat yapısından sonra gelir 2 Fiyat ve zaman ölçeğini kontrol et Görsel açı/oran yanılsamasını azaltır 3 Fan/Box/Square’ı kur Araç yalnız geometrik referans üretir 4 Fiyat davranışını gözle Temas otomatik giriş işareti değildir 5 Yapı ve ATR ile stop ve risk seviyesini tanımla Geometri stop mantığının yerine geçmez 18.5 — Gann çizgisine temas veya kırılım ne söyler?",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P113-C02",
@@ -4684,10 +4916,12 @@
       "section": "18.5 — Gann çizgisine temas veya kırılım ne söyler?",
       "atomic_source_claim": "Gann çizgisine temas seçilen fiyat-zaman geometrisine ulaşıldığını, kırılım ise bu geometrinin ihlal edildiğini gösterir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P113-C03",
@@ -4697,10 +4931,12 @@
       "section": "18.5 — Gann çizgisine temas veya kırılım ne söyler?",
       "atomic_source_claim": "Bunlar tek başına trend dönüşü değildir; fiyat yapısının bozulması ayrıca aranmalıdır.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P114-C01",
@@ -4710,10 +4946,12 @@
       "section": "18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
       "atomic_source_claim": "YANLIŞ / DOĞRU YANLIŞ: “1×1 kırıldı → SAT.” DOĞRU: “1×1 geometrisi ihlal edildi.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P114-C02",
@@ -4723,10 +4961,12 @@
       "section": "18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
       "atomic_source_claim": "Şimdi korunan yapı bozuluyor mu ve karşı yönlü fiyat davranışı oluşuyor mu?” 18.6 — Gann’da en sık yapılan hatalar Hata Neden sorun?",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P114-C03",
@@ -4736,10 +4976,12 @@
       "section": "18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
       "atomic_source_claim": "Daha güvenli yaklaşım Her küçük harekete yeni Fan Seçenek sayısı arttıkça sonradan çalışan çizgi bulunur Yalnız önceden gerekçeli büyük pivot 45° görsel açı takıntısı Eksen ölçeği açıyı değiştirir Fiyat/zaman oranı + ölçek kontrolü Çizgi teması = dönüş Geometri giriş işareti değildir Fiyat davranışı / fiyat yapısı teyidi Zaman projeksiyonu = kesin tarih Olası zaman penceresi kesin olay değildir Olası gözlem penceresi Astrolojik/numerolojik iddiayı teknik gerçek sunmak Ölçülebilir fiyat-zaman analizinden kopar Kitapta yalnız geometrik araç mantığı 18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P115-C01",
@@ -4749,10 +4991,12 @@
       "section": "18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
       "atomic_source_claim": "BÖLÜM SONUCU Gann’da sıra: fiyat yapısı → büyük pivot → fiyat/zaman oranı ve ölçek → geometri → fiyat davranışı → risk.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P115-C02",
@@ -4762,10 +5006,12 @@
       "section": "18.7 — Gann hangi araçlarla birlikte anlamlıdır?",
       "atomic_source_claim": "Geometrik çizgiyi giriş veya kesin dönüş sinyali yapmayın.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-018-gann-normalized"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P116-C01",
@@ -4775,10 +5021,12 @@
       "section": "19.1 — Classic Pitchfork’un üç pivot mantığı",
       "atomic_source_claim": "BÖLÜM 19 Andrews Pitchfork ve Varyantları: Orta Çizgi Geometrisi Pitchfork üç önemli dönüş noktası seçerek bir orta çizgi ve ona paralel sınırlar oluşturur.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P116-C02",
@@ -4788,10 +5036,12 @@
       "section": "19.1 — Classic Pitchfork’un üç pivot mantığı",
       "atomic_source_claim": "Önemli olan çok çizgi çizmek değil, seçilen üç noktanın neden anlamlı olduğunu ve bu geometrinin ne zaman artık işe yaramadığını bilmektir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P116-C03",
@@ -4801,10 +5051,12 @@
       "section": "19.1 — Classic Pitchfork’un üç pivot mantığı",
       "atomic_source_claim": "HIZLI ROL — Ana görev: üç önemli dönüş noktasından orta çizgi ve paralel sınırlar oluşturmak.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P117-C01",
@@ -4814,10 +5066,12 @@
       "section": "19.4 — Dönüş noktalarını geçmişe uydurma hatası nasıl test edilir?",
       "atomic_source_claim": "19.2 — Schiff, Modified Schiff ve Inside neden var?",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P117-C02",
@@ -4827,10 +5081,12 @@
       "section": "19.4 — Dönüş noktalarını geçmişe uydurma hatası nasıl test edilir?",
       "atomic_source_claim": "Schiff, Modified Schiff ve Inside varyantları aynı pivotlardan farklı başlangıç geometrileri üretir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P117-C03",
@@ -4840,10 +5096,12 @@
       "section": "19.4 — Dönüş noktalarını geçmişe uydurma hatası nasıl test edilir?",
       "atomic_source_claim": "Bu esneklik bazı yapılara daha iyi uyum sağlayabilir; fakat kural önceden belirlenmemişse geriye dönük uydurmayı da kolaylaştırır.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P118-C01",
@@ -4853,10 +5111,12 @@
       "section": "19.5 — Küçük pivot hatası ileri bölgelerde büyüyebilir",
       "atomic_source_claim": "Kontrol Geçerli yaklaşım Geçmişe aşırı uyum işareti A–B–C Önceden tanımlı büyük belirgin dönüş noktaları Fiyat ilerledikçe pivot kaydırmak Varyant Kullanım kuralı analizden önce belli Geçmişe en iyi oturan türü seçmek İhlal İhlali kaydet, yapı teyidini ayrı değerlendir Kırılan Pitchfork’u silip yenisini çizmek 19.5 — Küçük pivot hatası ileri bölgelerde büyüyebilir Pitchfork’un eğimi seçilen A–B–C pivotlarından türetilir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P118-C02",
@@ -4866,10 +5126,12 @@
       "section": "19.5 — Küçük pivot hatası ileri bölgelerde büyüyebilir",
       "atomic_source_claim": "Başlangıç pivotlarından biri küçük miktarda kaydırıldığında ilk bölümde fark az görünebilir; çizgi ileri uzadıkça orta çizgi ve paralel sınırlar arasındaki konum farkı büyür.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P118-C03",
@@ -4879,10 +5141,12 @@
       "section": "19.5 — Küçük pivot hatası ileri bölgelerde büyüyebilir",
       "atomic_source_claim": "Bu nedenle pivotu birkaç bar ileri veya geri taşımak yalnız başlangıç noktasını değil, ilerideki bütün geometrik alanı değiştirir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P119-C01",
@@ -4892,10 +5156,12 @@
       "section": "19.8 — Pitchfork kombinasyonları",
       "atomic_source_claim": "19.6 — Orta çizgi ve kanal dışı kırılım nasıl okunur?",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P119-C02",
@@ -4905,10 +5171,12 @@
       "section": "19.8 — Pitchfork kombinasyonları",
       "atomic_source_claim": "Orta çizgi fiyatın kesin hedefi değildir; yalnız geometrik merkez referansıdır.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P119-C03",
@@ -4918,10 +5186,12 @@
       "section": "19.8 — Pitchfork kombinasyonları",
       "atomic_source_claim": "Kanal dışı kapanış da otomatik trend dönüşü değildir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P120-C01",
@@ -4931,10 +5201,12 @@
       "section": "19.8 — Pitchfork kombinasyonları",
       "atomic_source_claim": "Pitchfork + Fibonacci Orta çizgi + oran ve hedef bölgeleri Benzer geometrik bilgi; iki ayrı teyit sayma Pitchfork + AVWAP Geometri + hacim ağırlıklı maliyet/konum Farklı veri mantığı Pitchfork + ATR Geometri + fiyat hareketliliği/risk Stopta ek pay için faydalı BÖLÜM SONUCU Önce üç anlamlı pivot, sonra Classic Pitchfork; alternatif varyant yalnız önceden tanımlı gerekçeyle.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P120-C02",
@@ -4944,10 +5216,12 @@
       "section": "19.8 — Pitchfork kombinasyonları",
       "atomic_source_claim": "Orta çizgi ve kanal sınırları konum gösterir, tek başına giriş işareti değildir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-019-pitchfork"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P121-C01",
@@ -4957,10 +5231,12 @@
       "section": "20.2 — Başlangıç ve bitiş noktaları sonucu değiştirir",
       "atomic_source_claim": "BÖLÜM 20 Doğrusal Regresyon ve İleri Ölçüm Araçları HIZLI ROL — Ana görev: regresyonla seçtiğiniz fiyat aralığının genel yönünü ve ne kadar düzenli ilerlediğini görmek; Position ve Measure araçlarıyla giriş-stop-hedef mesafelerini ölçmek.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P121-C02",
@@ -4970,10 +5246,12 @@
       "section": "20.2 — Başlangıç ve bitiş noktaları sonucu değiştirir",
       "atomic_source_claim": "Tek başına kazanma olasılığını veya gelecek fiyatı söylemez.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P121-C03",
@@ -4983,10 +5261,12 @@
       "section": "20.2 — Başlangıç ve bitiş noktaları sonucu değiştirir",
       "atomic_source_claim": "Ana risk: analiz aralığını sonradan fiyata uydurmak, Pearson R’yi kazanma oranı veya iyi R:R’yi tek başına kârlılık sanmak.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P122-C01",
@@ -4996,10 +5276,12 @@
       "section": "20.4 — Pearson R bize ne anlatır?",
       "atomic_source_claim": "KENDİNE SOR Bu regresyon aralığını neden tam burada başlatıp bitirdim?",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P122-C02",
@@ -5009,10 +5291,12 @@
       "section": "20.4 — Pearson R bize ne anlatır?",
       "atomic_source_claim": "Cevap “çizgi fiyatı daha iyi sarıyor” ise seçim geriye dönük uyuma yaklaşıyor.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P122-C03",
@@ -5022,10 +5306,12 @@
       "section": "20.4 — Pearson R bize ne anlatır?",
       "atomic_source_claim": "20.3 — Sabit aralık regresyonu ile dönem uzunluğu kullanan sürüm aynı kullanım değildir TradingView’de kullanıcının başlangıç ve bitiş noktalarını seçtiği Regresyon Trendi (Regression Trend) gibi araçlarla, belirli bir dönem uzunluğu üzerinden sürekli yeniden hesaplanan Doğrusal Regresyon Kanalı (Linear Regression Channel) göstergeleri aynı kullanım biçimine sahip değildir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P123-C01",
@@ -5035,10 +5321,12 @@
       "section": "20.6 — Regresyon matematiği ile ek gösterge sinyallerini ayırın",
       "atomic_source_claim": "Aralık değişti, R değişti Seçilen aralığa duyarlılık Önceki analiz “yanlıştı” demek zorunlu değil TEKNİK SORUN Yüksek Pearson R, sistemin çok kârlı olduğu anlamına gelmez.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P123-C02",
@@ -5048,10 +5336,12 @@
       "section": "20.6 — Regresyon matematiği ile ek gösterge sinyallerini ayırın",
       "atomic_source_claim": "R yalnızca seçtiğiniz fiyatların zaman içinde ne kadar düzgün bir çizgiye uyduğunu gösterir; stop, hedef, piyasa ortamındaki değişim ve işlem maliyetini hesaba katmaz.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P123-C03",
@@ -5061,10 +5351,12 @@
       "section": "20.6 — Regresyon matematiği ile ek gösterge sinyallerini ayırın",
       "atomic_source_claim": "20.5 — Regresyon kanalının dışına çıkmak otomatik dönüş değildir Üst banda çıkınca “çok pahalı, SAT”, alt banda inince “çok ucuz, AL” demek yanıltıcı olabilir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P124-C01",
@@ -5074,10 +5366,12 @@
       "section": "20.7 — Long/Short Position Tool: giriş, stop ve hedef mesafesini ölçmek",
       "atomic_source_claim": "Bu ek sinyaller regresyon matematiğinin zorunlu parçası değildir.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P124-C02",
@@ -5087,10 +5381,12 @@
       "section": "20.7 — Long/Short Position Tool: giriş, stop ve hedef mesafesini ölçmek",
       "atomic_source_claim": "Bir göstergeyi değerlendirirken hangi bölümün doğrusal regresyon hesabı, hangi bölümün geliştiricinin ek strateji mantığı olduğunu ayırın.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P124-C03",
@@ -5100,10 +5396,12 @@
       "section": "20.7 — Long/Short Position Tool: giriş, stop ve hedef mesafesini ölçmek",
       "atomic_source_claim": "Mevcut eğimi ileri uzatmak gelecek tahmini değildir Bazı göstergeler mevcut regresyon eğimini geleceğe doğru görsel olarak uzatır.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P125-C01",
@@ -5113,10 +5411,12 @@
       "section": "20.9 — Regresyon hangi araçlarla tamamlanır?",
       "atomic_source_claim": "20.8 — Ölçüm araçları: Measure, Price Range ve Date Range Cetvel (Measure/Ruler), Price Range ve Date Range fiyat ve zaman mesafesini ölçer.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P125-C02",
@@ -5126,10 +5426,12 @@
       "section": "20.9 — Regresyon hangi araçlarla tamamlanır?",
       "atomic_source_claim": "“64 günlük hareket +%20 sürdü” bilgisini vermeleri, sonraki hareketin de aynı süre ve büyüklükte olacağını göstermez.",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P125-C03",
@@ -5139,10 +5441,12 @@
       "section": "20.9 — Regresyon hangi araçlarla tamamlanır?",
       "atomic_source_claim": "Measure / Ruler (Cetvel) Fiyat değişimi, bar/zaman mesafesi Gelecek hareket tahmini Price Range (Fiyat Aralığı) İki fiyat arasındaki fark / yüzde Destek-direncin geçerliliği Date Range (Tarih Aralığı) İki nokta arasındaki zaman/bar sayısı Döngünün tekrar edeceği garantisi Long/Short Position Tool Giriş-stop-hedef senaryosu ve R:R Kazanma oranı / beklenti 20.9 — Regresyon hangi araçlarla tamamlanır?",
       "target_package": "C1-P9-drawing-tools",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-020-regression-channel"
+      ],
+      "mathematical_definition": "OLS50 kanal: y=a*t+b, band=fit±2*std(residual); Pitchfork vekili son üç alternating teyitli pivotun A-C doğrusu; Gann normalize slope=(C-C[t-20])/(20*ATR14). Ekran açısı kullanılmaz.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P126-C01",
@@ -5152,10 +5456,13 @@
       "section": "21.1 — Beş soruluk rol çakışması testi",
       "atomic_source_claim": "BÖLÜM 21 Profesyonel Kombinasyon Sistemi: Araçlardan Karar Sistemine İyi bir sistem çok sayıda gösterge kullanan sistem değildir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P126-C02",
@@ -5165,10 +5472,13 @@
       "section": "21.1 — Beş soruluk rol çakışması testi",
       "atomic_source_claim": "Her aracın ayrı bir soruya cevap verdiği, aynı bilgiyi tekrar eden araçların çıkarıldığı ve gerektiğinde “işlem yok” diyebilen sade bir karar sistemidir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P126-C03",
@@ -5178,10 +5488,13 @@
       "section": "21.1 — Beş soruluk rol çakışması testi",
       "atomic_source_claim": "HIZLI ÇERÇEVE — Önce piyasa ortamını ve yönü belirleyin.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P127-C01",
@@ -5191,10 +5504,13 @@
       "section": "21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur",
       "atomic_source_claim": "ÇIKARMA TESTİ Bir indikatörü eklemeden önce “ne katıyor?” diye sormak yeterli değildir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P127-C02",
@@ -5204,10 +5520,13 @@
       "section": "21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur",
       "atomic_source_claim": "Daha güçlü soru şudur: “Bu indikatörü çıkarırsam hangi karar aşamasını artık veremiyorum?” Cevap yoksa araç yalnız görsel güven hissi üretiyor olabilir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P127-C03",
@@ -5217,10 +5536,13 @@
       "section": "21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur",
       "atomic_source_claim": "21.2 — Üç çizgi aynı şeyi söylüyorsa üç teyit yoktur RSI, Stochastic ve Stoch RSI aynı yönde hareket ettiğinde üç ayrı teyit varmış gibi görünebilir; ancak aynı hareket gücü ailesinden bilgi taşırlar ve Stoch RSI doğrudan RSI’dan türetilir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P128-C01",
@@ -5230,10 +5552,13 @@
       "section": "21.3 — Örnek sistem 1: trend içi geri çekilme",
       "atomic_source_claim": "Zayıf yığın Sorun Daha temiz alternatif RSI + Stochastic + Stoch RSI Benzer hareket gücü bilgisi Tek hareket gücü aracı + Fiyat yapısı + ATR 20/50/200 EMA + MACD + Supertrend Aynı trend bilgisinin yoğun tekrarı Tek piyasa ortamı filtresi + konum + risk ATR + Bollinger bant genişliği + Bollinger Fiyat hareketliliğini üç biçimde saymak Bollinger sıkışması + fiyat yapısı/hacim; ATR yalnız riskte VRVP + FRVP aynı aralık Aynı profil ailesi Tek profil + Fiyat yapısı / AVWAP 21.3 — Örnek sistem 1: trend içi geri çekilme Trend içi geri çekilmede amaç fiyatı “ucuz” diye otomatik almak değildir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P128-C02",
@@ -5243,10 +5568,13 @@
       "section": "21.3 — Örnek sistem 1: trend içi geri çekilme",
       "atomic_source_claim": "Önce yön ve korunması gereken yapı belirlenir; ardından uygun konumda hareket gücünün yeniden trend yönüne dönmesi beklenir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P128-C03",
@@ -5256,10 +5584,13 @@
       "section": "21.3 — Örnek sistem 1: trend içi geri çekilme",
       "atomic_source_claim": "Stop, sinyalden değil işlem fikrinin bozulduğu yapısal seviyeden belirlenir; ATR yalnız gerektiğinde hareket genişliğine göre ek pay bırakmaya yardım eder.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P129-C01",
@@ -5269,10 +5600,13 @@
       "section": "21.4 — Örnek sistem 2: düşük fiyat hareketliliğinden kırılım",
       "atomic_source_claim": "Aşama Örnek araç Sorduğu soru Bağlam / yön Fiyat yapısı veya tek MA Ana trend hâlâ yukarı mı?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P129-C02",
@@ -5282,10 +5616,13 @@
       "section": "21.4 — Örnek sistem 2: düşük fiyat hareketliliğinden kırılım",
       "atomic_source_claim": "Konum Önceki destek/direnç, AVWAP veya anlamlı geri çekilme bölgesi İşlem aramak için mantıklı yerde miyiz?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P129-C03",
@@ -5295,10 +5632,13 @@
       "section": "21.4 — Örnek sistem 2: düşük fiyat hareketliliğinden kırılım",
       "atomic_source_claim": "Giriş işareti RSI veya Stochastic Hareket gücü trend yönüne yeniden dönüyor mu?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P130-C01",
@@ -5308,10 +5648,13 @@
       "section": "21.4 — Örnek sistem 2: düşük fiyat hareketliliğinden kırılım",
       "atomic_source_claim": "Katman Örnek gözlem Yanlış çıkarım Donchian Son N mumun en yüksek seviyesinin üzerinde kapanış “Kesin trend başladı” ATR Sıkışma sonrası genişleme “Yön yukarı olmak zorunda” Hacim Göreli hacim belirgin arttı “Fiyat kesin devam eder” Fiyat yapısı / stop Kırılan aralığın içine geri kapanış “İndikatörler olumlu; stopa gerek yok”",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P131-C01",
@@ -5321,10 +5664,13 @@
       "section": "21.6 — Örnek sistem 4: geometrik işlem düzeni",
       "atomic_source_claim": "21.5 — Örnek sistem 3: konum / değer odaklı geri çekilme Volume Profile ve AVWAP aynı hacim verisini kullansa da farklı sorular sorar: biri hacmin fiyat seviyelerine dağılımını, diğeri seçilen başlangıçtan sonraki hacim ağırlıklı ortalama maliyeti gösterir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P131-C02",
@@ -5334,10 +5680,13 @@
       "section": "21.6 — Örnek sistem 4: geometrik işlem düzeni",
       "atomic_source_claim": "İkisi de fiyat davranışının yerine geçmez; yapı desteklemiyorsa POC, HVN veya AVWAP teması tek başına alış gerekçesi değildir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P131-C03",
@@ -5347,10 +5696,13 @@
       "section": "21.6 — Örnek sistem 4: geometrik işlem düzeni",
       "atomic_source_claim": "Rol Araç Doğru okuma Yapı Fiyat yapısı Yükseliş yönlü tepe-dip dizisi / korunması gereken dip Konum 1 Volume Profile VAH/VAL/POC/HVN/LVN çevresindeki kabul veya reddi izle Konum 2 AVWAP Önemli başlangıç noktasından ortalama maliyet referansı Giriş işareti RSI / fiyat davranışı Konumda hareket gücü veya fiyat yapısı dönüşü Risk ATR + işlem fikrinin bozulduğu seviye Konum seviyesi ile stop seviyesini karıştırma ÖRTÜŞME ≠ BAĞIMSIZLIK İki farklı araç aynı fiyat bölgesini işaret edebilir ve bu bölgeyi daha dikkat çekici hale getirebilir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P132-C01",
@@ -5360,10 +5712,13 @@
       "section": "21.8 — Kendi minimal sistemini kurma şablonu",
       "atomic_source_claim": "GEÇMİŞE AŞIRI UYUM ALARMI Fibonacci başlangıç noktasını, Pitchfork dönüş noktalarını ve varyantını fiyatın geçmişine en iyi oturacak şekilde art arda değiştiriyorsanız sonradan çok sayıda “kesişim” bulmak kolaylaşır.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P132-C02",
@@ -5373,10 +5728,13 @@
       "section": "21.8 — Kendi minimal sistemini kurma şablonu",
       "atomic_source_claim": "Bu durum öngörü gücünü değil, model esnekliğini gösterir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P132-C03",
@@ -5386,10 +5744,13 @@
       "section": "21.8 — Kendi minimal sistemini kurma şablonu",
       "atomic_source_claim": "21.7 — “İşlem yok” sonucunu sistemin içine yaz Her grafikte işlem bulmak zorunda değilsiniz.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P133-C01",
@@ -5399,10 +5760,13 @@
       "section": "21.9 — Sistemi kurduktan sonra: beklenen değer ve sermaye",
       "atomic_source_claim": "Alan Yazılması gereken kural Bağlam Trend veya yatay piyasa nasıl tanımlanıyor?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P133-C02",
@@ -5412,10 +5776,13 @@
       "section": "21.9 — Sistemi kurduktan sonra: beklenen değer ve sermaye",
       "atomic_source_claim": "Yön Alış veya satış yönü hangi açık koşulla belirleniyor?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P133-C03",
@@ -5425,10 +5792,13 @@
       "section": "21.9 — Sistemi kurduktan sonra: beklenen değer ve sermaye",
       "atomic_source_claim": "Konum İşlem yalnız nerede aranacak?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P134-C01",
@@ -5438,10 +5808,13 @@
       "section": "21.10 — Geçmişe aşırı uyumu kontrol edin: tek “mükemmel” ayardan",
       "atomic_source_claim": "Başa baş kazanma oranı = 1 / (1 + Ortalama Kazanç R) Örneğin 1R ortalama kazançta yaklaşık %50, 2R’de %33,3, 3R’de %25 ve 4R’de %20 kazanma oranı başa baş noktasıdır.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P134-C02",
@@ -5451,10 +5824,13 @@
       "section": "21.10 — Geçmişe aşırı uyumu kontrol edin: tek “mükemmel” ayardan",
       "atomic_source_claim": "Gerçek sistemde komisyon, emir kayması, kısmi çıkış ve değişken sonuçlar bu hesabı değiştirir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P134-C03",
@@ -5464,10 +5840,13 @@
       "section": "21.10 — Geçmişe aşırı uyumu kontrol edin: tek “mükemmel” ayardan",
       "atomic_source_claim": "Kısa dönem sonuçların dalgalanması (variance): iyi bir sistem bile bir süre kötü görünebilir Pozitif beklenen değer, işlemlerin düzenli sırayla kazanacağı anlamına gelmez.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P135-C01",
@@ -5477,10 +5856,13 @@
       "section": "21.11 — Geliştirme dönemi, test dönemi ve zaman içinde ileri test",
       "atomic_source_claim": "Bu ilke kitabın çizim araçlarında kullandığı “sağ tarafı görmeden aynı başlangıç noktasını seçebilir miydim?” disiplininin sistem optimizasyonundaki karşılığıdır: çok fazla indikatör, filtre ve parametre denenirse geçmişte iyi görünen bir kombinasyon bulmak kolaylaşır; bu, gerçek avantajın arttığını göstermez.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P135-C02",
@@ -5490,10 +5872,13 @@
       "section": "21.11 — Geliştirme dönemi, test dönemi ve zaman içinde ileri test",
       "atomic_source_claim": "21.11 — Geliştirme dönemi, test dönemi ve zaman içinde ileri test Sistemi kurarken kullanılan dönem ile onu sınamak için ayrılan dönem aynı görevi taşımaz.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P135-C03",
@@ -5503,10 +5888,13 @@
       "section": "21.11 — Geliştirme dönemi, test dönemi ve zaman içinde ileri test",
       "atomic_source_claim": "Bir modelin geliştirildiği geçmişte iyi görünmesi, daha önce kullanılmamış bir dönemde de aynı davranışı göstereceği anlamına gelmez.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P136-C01",
@@ -5516,10 +5904,13 @@
       "section": "21.12 — Kötü koşullarda dayanıklılık ve işlem sırası testi",
       "atomic_source_claim": "21.12 — Kötü koşullarda dayanıklılık ve işlem sırası testi Geçmiş veri testi (backtest) yalnız ideal koşullarda değerlendirilmemelidir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P136-C02",
@@ -5529,10 +5920,13 @@
       "section": "21.12 — Kötü koşullarda dayanıklılık ve işlem sırası testi",
       "atomic_source_claim": "Komisyonun artması, emir kaymasının büyümesi veya işlemin biraz gecikmesi gibi daha kötü koşullarda sistemin nasıl değiştiği de incelenebilir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P136-C03",
@@ -5542,10 +5936,13 @@
       "section": "21.12 — Kötü koşullarda dayanıklılık ve işlem sırası testi",
       "atomic_source_claim": "Dayanıklılık kontrolü Ne değiştirilir?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P137-C01",
@@ -5555,10 +5952,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "Bu testin ana sorusu şudur: Aynı matematiksel avantaj daha kötü bir işlem sırasıyla karşıma çıksaydı sermaye ne kadar zorlanırdı?",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P137-C02",
@@ -5568,10 +5968,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "Bu nedenle bu test özellikle kötü bir işlem sırasının sermayeyi ne kadar zorlayabileceğini ve pozisyon büyüklüğünün buna uygun olup olmadığını anlamaya yardım eder.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P137-C03",
@@ -5581,10 +5984,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "21.13 — Veri uzunluğu ile güncellik arasında denge vardır Daha uzun tarih daha fazla işlem örneği sağlar; ancak çok eski veriler güncel piyasa davranışını daha az temsil edebilir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P138-C01",
@@ -5594,10 +6000,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "değerlendirmesinde yalnız kazanan örnekleri değil, başarısız örnekleri, sermaye düşüşünü ve alınan riski de görünür tutun.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P138-C02",
@@ -5607,10 +6016,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "BÖLÜM SONUCU İyi bir sistem, yalnız geçmişte güzel görünen sistem değildir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P138-C03",
@@ -5620,10 +6032,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "Her aracın görevi açık olmalı; işlem yapılmayacak koşullar, risk sınırı ve yönetim kuralı önceden tanımlanmalıdır.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P139-C01",
@@ -5633,10 +6048,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "SON SÖZ Teknik analizde profesyonellik, daha fazla çizgi görmek değil; hangi çizginin hangi soruya cevap verdiğini, hangi koşulda başarısız olabileceğini ve hangi bilgi eksikse işlem yapmamak gerektiğini bilmektir.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     },
     {
       "claim_id": "C1-P139-C02",
@@ -5646,10 +6064,13 @@
       "section": "21.14 — Hayatta kalma yanlılığı: yalnız başarılı örneklere bakmayın",
       "atomic_source_claim": "Bu kitapta kullanılan bütün araçların ortak amacı da budur: belirsizliği yok etmek değil, belirsizlik içinde daha tutarlı karar kurmak.",
       "target_package": "C1-P10-information-families",
-      "linked_rules": [],
-      "mathematical_definition": "Henüz ilgili çalışma paketinde kesinleştirilecek.",
-      "disposition": "pending_package",
-      "coverage_state": "open"
+      "linked_rules": [
+        "BR-C1-021-information-families",
+        "BR-C1-022-decision-robustness"
+      ],
+      "mathematical_definition": "Aile olayı, ailedeki kayıtlı olayların OR birleşimidir; Jaccard(A,B)=|A∩B|/|A∪B|. Yüksek örtüşme bağımsız teyit sayılmaz; çıkarma testi marjinal katkıyı ölçer.",
+      "disposition": "tested_initial",
+      "coverage_state": "closed"
     }
   ]
 }

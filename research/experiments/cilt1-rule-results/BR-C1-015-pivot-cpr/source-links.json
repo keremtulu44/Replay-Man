@@ -1,0 +1,80 @@
+[
+  {
+    "id": "PTA-C1-2026.p0089",
+    "page": 89,
+    "chapter": 15,
+    "section": "15.2 — Merkezi Pivot Aralığı (Central Pivot Range, CPR): tek çizgi yerine",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n89 \nBÖLÜM 15 \nKısa Referans Araçları: Pivot Points, RS \nLine ve Trend Strength Index \nHIZLI ROL — Pivot Points önemli fiyat bölgelerini, RS Line varlığın karşılaştırma ölçütüne \ngöre güçlü mü zayıf mı olduğunu, Trend Strength Index ise trendin ne kadar düzenli ilerlediğini \ngösterir. Üçü de yardımcı araçtır; tek başına giriş sistemi değildir. Ana risk: pivotları gelecek \ntahmini, göreli zayıflığı “ucuz”, TSI’yi de RSI veya ADX ile aynı araç sanmak. \n  \n \n15.1 — Pivot Points: önceki dönemin fiyatlarından hesaplanan seviyeler \nPivot Points, önceki dönemin en yüksek, en düşük ve kapanış fiyatlarından yeni dönem için \nbazı seviyeler hesaplar. Bu seviyeler geleceği tahmin etmez; yalnız geçmiş fiyatlardan üretilmiş \nyardımcı seviyelerdir. \nFormül Açıklama \nP = (H + L + C) / 3 Önceki pivot döneminin en yüksek, en düşük ve kapanışı \nR1 = 2P − L İlk üst seviye \nS1 = 2P − H İlk alt seviye \nR2 = P + (H − L) İkinci üst seviye \nS2 = P − (H − L) İkinci alt seviye \n \nSAYISAL ÖRNEK \nÖnceki dönem H=112, L=96, C=105 ise P=104,33. R1=112,67; S1=96,67; R2=120,33; S2=88,33 olur. \nSeviyeler fiyatın buralarda dönmesini “öngörmez”; önceki dönemin fiyat aralığı ve kapanışından \ntüretilmiş referanslardır. \n \n15.2 — Merkezi Pivot Aralığı (Central Pivot Range, CPR): tek çizgi yerine \nmerkez bölge \nMerkezi Pivot Aralığı (Central Pivot Range, CPR), tek bir Pivot Point çizgisi yerine merkezi \npivot ve onun çevresindeki üst/alt sınırlarla bir merkez bölge oluşturur. Bu nedenle CPR’ın ana \nrolü de tahmin değil konumdur.",
+    "source_extract_summary": [
+      "BÖLÜM 15 Kısa Referans Araçları: Pivot Points, RS Line ve Trend Strength Index HIZLI ROL — Pivot Points önemli fiyat bölgelerini, RS Line varlığın karşılaştırma ölçütüne göre güçlü mü zayıf mı olduğunu, Trend Strength Index ise trendin ne kadar düzenli ilerlediğini gösterir.",
+      "Üçü de yardımcı araçtır; tek başına giriş sistemi değildir.",
+      "Ana risk: pivotları gelecek tahmini, göreli zayıflığı “ucuz”, TSI’yi de RSI veya ADX ile aynı araç sanmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0090",
+    "page": 90,
+    "chapter": 15,
+    "section": "15.4 — RS Line: RSI değil, karşılaştırma ölçütüne göre performans",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n90 \nFiyat CPR’ın üzerinde, içinde veya altında bulunabilir. Bu konum tek başına AL/SAT üretmez; \nfiyat yapısı ve diğer karar katmanları ayrıca değerlendirilmelidir. \nArdışık dönemlerin CPR bölgeleri karşılaştırıldığında merkez referans bölgesinin yukarı, aşağı \nveya yatay taşındığı görülebilir. CPR’ın yukarı taşınması önceki dönem OHLC verilerinden \ntüretilen merkez bölgenin daha yüksek fiyatlara kaydığını gösterir; fiyatın mutlaka yükseleceği \nanlamına gelmez. \nCPR genişliği dönemler arasında karşılaştırılabilir; fakat dar CPR’ı otomatik olarak “yarın \nbüyük hareket”, geniş CPR’ı “yarın yatay piyasa” tahminine dönüştürmeyin. \n15.3 — Pivot “Auto” ayarı hangi zaman dilimini kullanır? \nGrafik zaman dilimi TradingView Auto pivot zaman dilimi \n≤ 15 dakika 1D \n> 15 dakika ve < 1 gün 1W \n≥ 1 gün 1M \n \nPivotun “Auto” dönemi grafik zaman dilimine göre değişebilir. Ayrıca günlük veriyi kullanma \nseçeneği ve veri oturumları OHLC girdilerini değiştirebildiği için aynı sembolde küçük seviye \nfarkları oluşabilir. \nTEKNİK VERİ SORUNU \nHisselerde seans dışı işlemler günlük muma dahil olmayabilir; vadeli işlemlerde günlük kapanış \nuzlaşma fiyatını kullanabilir. Bu nedenle gün içi veriden türetilen OHLC ile günlük bazlı OHLC her \nzaman aynı değildir. \n \nTEKNİK HATA \nPivot seviyeleri geçmiş OHLC’den türetilir. Aralığın daralmasını gelecekteki fiyat hareketliliğinin \ndoğrudan tahmini gibi sunmayın. \n \n15.4 — RS Line: RSI değil, karşılaştırma ölçütüne göre performans \nRS Line, varlığın seçilen karşılaştırma ölçütüne göre daha iyi mi daha kötü mü performans \ngösterdiğini izler. Çizgi yükseliyorsa göreli güç, düşüyorsa göreli zayıflık vardır; bu, varlığın \nkendi fiyat trendiyle aynı soru değildir.",
+    "source_extract_summary": [
+      "Fiyat CPR’ın üzerinde, içinde veya altında bulunabilir.",
+      "Bu konum tek başına AL/SAT üretmez; fiyat yapısı ve diğer karar katmanları ayrıca değerlendirilmelidir.",
+      "Ardışık dönemlerin CPR bölgeleri karşılaştırıldığında merkez referans bölgesinin yukarı, aşağı veya yatay taşındığı görülebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0091",
+    "page": 91,
+    "chapter": 15,
+    "section": "15.5 — RS Line ile göreli güç sıralaması aynı şey değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n91 \n \nŞekil 15.1 — Varlığın fiyatı yükselirken karşılaştırma ölçütü daha hızlı yükselirse göreli performans çizgisi düşebilir. \n“Fiyat yükseliyor” ile “liderlik ediyor” aynı soru değildir. \nEN ÖNEMLİ TEKNİK HATA \n“Karşılaştırma ölçütünden düşük performans = göreli olarak ucuz, almak için iyi olabilir” çıkarımı \ndoğru değildir. Göreli zayıflık ucuzluk kanıtı değildir; bir varlık karşılaştırma ölçütünden aylarca daha \nkötü performans göstermeye devam edebilir. \n \nDurum Fiyat RS Line yorumu \nVarlık +%8, karşılaştırma ölçütü \n+%15 \nVarlık yükseliyor Göreli zayıflık; lider değil \nVarlık −%5, karşılaştırma ölçütü \n−%12 \nVarlık düşüyor Göreli güç; daha az kötü performans \nVarlık +%15, karşılaştırma \nölçütü +%5 \nVarlık yükseliyor Göreli liderlik \n \nDOĞAL KULLANIM \nRS Line = aday seçimi/liderlik filtresi. Fiyat yapısı veya MA = varlığın kendi trendi. Hacim = katılım. \nGöreli liderlik güçlü olsa bile giriş için varlığın kendi fiyat davranışı ayrıca teyit edilmelidir. \n \n15.5 — RS Line ile göreli güç sıralaması aynı şey değildir \nRS Line bir varlığın seçilen karşılaştırma ölçütüne göre göreli performansını zaman içinde çizgi \nolarak gösterir. Göreli güç sıralaması (RS Rating/Ranking) ise varlığı belirli bir hisse \nevrenindeki diğer varlıklara göre sıralayan farklı bir yöntemdir.",
+    "source_extract_summary": [
+      "“Fiyat yükseliyor” ile “liderlik ediyor” aynı soru değildir.",
+      "EN ÖNEMLİ TEKNİK HATA “Karşılaştırma ölçütünden düşük performans = göreli olarak ucuz, almak için iyi olabilir” çıkarımı doğru değildir.",
+      "Göreli zayıflık ucuzluk kanıtı değildir; bir varlık karşılaştırma ölçütünden aylarca daha kötü performans göstermeye devam edebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0092",
+    "page": 92,
+    "chapter": 15,
+    "section": "15.6 — Trend Strength Index: trendin ne kadar düzenli ilerlediğini ölçer",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n92 \nİkisi de göreli güç ailesindedir; ancak hesapları ve çıktıları aynı değildir. Bu nedenle bir RS \nçizgisi ile “RS 90” gibi bir göreli güç puanını aynı gösterge sanmayın. \nGöreli liderlik mutlak yükseliş gerektirmez \nGenel piyasa düşerken bir varlık daha az düşüyor, yatay kalıyor veya pozitif kalabiliyorsa \nkarşılaştırma ölçütüne göre göreli güç gösterebilir. Buradaki bilgi “fiyat yükseliyor” değil, \n“karşılaştırılan piyasaya göre daha dayanıklı” olmasıdır. \nGöreli liderlik hiyerarşik biçimde de incelenebilir: \ngenel piyasa → sektörler → sektör içindeki adaylar → adayın kendi fiyat yapısı. \nBu akışta RS Line giriş sinyali üretmez; hangi sektör veya varlıkların göreli olarak öne çıktığını \nbelirleyen bir seçim filtresi olarak kalır. \n15.6 — Trend Strength Index: trendin ne kadar düzenli ilerlediğini ölçer \nTrend Strength Index (TSI), kapanışların zaman/bar sırasıyla ne kadar düzenli doğrusal ilişki \nkurduğunu ölçmeye çalışır. Değer +1’e yaklaştıkça düzenli yükseliş, −1’e yaklaştıkça düzenli \ndüşüş, 0’a yaklaştıkça daha düzensiz hareket görülür. \nFORMÜL MANTIĞI \nTSI ≈ corr(Close, BarIndex). Bar sırası doğrusal ilerler; kapanışlar da düzenli yükselirse korelasyon \n+1’e, düzenli düşerse −1’e, düzensizleşirse 0’a yaklaşır. TSI yönle birlikte trendin doğrusal tutarlılığını \nölçer. \n \n \nŞekil 15.2 — Basit eğitim dizileri: düzenli yükseliş r≈+1, düzenli düşüş r≈−1, düzensiz seri 0’a daha yakındır. TSI’nin \nmantığı RSI veya MA kesişim değildir. \nAraç Ana soru Temel çıktı \nTrend Strength Index Fiyat zaman boyunca ne kadar düzenli doğrusal trend \nediyor? \n−1 … +1 Pearson ilişki \nkatsayısı \nADX Yukarı ve aşağı hareket arasındaki fark ne kadar \nbelirgin? \n0 … 100, yön körü güç",
+    "source_extract_summary": [
+      "İkisi de göreli güç ailesindedir; ancak hesapları ve çıktıları aynı değildir.",
+      "Bu nedenle bir RS çizgisi ile “RS 90” gibi bir göreli güç puanını aynı gösterge sanmayın.",
+      "Göreli liderlik mutlak yükseliş gerektirmez Genel piyasa düşerken bir varlık daha az düşüyor, yatay kalıyor veya pozitif kalabiliyorsa karşılaştırma ölçütüne göre göreli güç gösterebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0093",
+    "page": 93,
+    "chapter": 15,
+    "section": "15.7 — Kısa referans araçları için rol matrisi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n93 \nAraç Ana soru Temel çıktı \nRSI Son kazanç/kayıp hareket gücü dengesi nasıl? 0 … 100 hareket gücü \nosilatörü \n \nNEDEN TSI + ADX AYNI ŞEY DEĞİL? \nTSI ve ADX aynı şeyi ölçmez. TSI fiyatın zaman içinde ne kadar düzenli ilerlediğine, ADX ise yukarı \nve aşağı yönlü hareket arasındaki farkın ne kadar belirgin olduğuna bakar. İkisini birlikte kullanmadan \nönce gerçekten iki ayrı ölçüme ihtiyaç olup olmadığını sorgulayın. \n \n15.7 — Kısa referans araçları için rol matrisi \nAraç Ana rol İyi eşleşme Kaçınılacak \nyorum \nPivot Points Konum / hedef / reaksiyon alanı Hareket gücü veya fiyat yapısı “Gelecekteki fiyat \nhareketliliği tahmini” \nRS Line Göreli liderlik / seçim filtresi Mutlak trend + hacim “Zayıfsa ucuzdur” \nTrend Strength Index Trend düzenliliği / piyasa ortamı ATR veya fiyat yapısı “RSI-benzeri \nortalama” \n \nBÖLÜM SONUCU \nPivot Points konum, RS Line göreli liderlik, Trend Strength Index trend düzenliliği sağlar. Bunları \nyalnız karar sisteminde eksik olan görevi tamamlıyorsa ekleyin. \n \nARA ÖZET — Bölüm 12–15: hangi araç hangi soruyu çözüyor? \nAraç Soru Rol \nADX/DMI Trend ne kadar güçlü ve hangi taraf daha baskın? Güç / baskın taraf \nSupertrend ATR tabanlı takip çizgisi hangi tarafta? Trend takip / takip eden \nstop \nIchimoku Farklı denge ufukları ve bulut nasıl hizalanıyor? Trend / konum / denge \nPivot Points Önceki OHLC’den türeyen referans seviyeler nerede? Konum",
+    "source_extract_summary": [
+      "Araç Ana soru Temel çıktı RSI Son kazanç/kayıp hareket gücü dengesi nasıl?",
+      "0 … 100 hareket gücü osilatörü NEDEN TSI + ADX AYNI ŞEY DEĞİL?",
+      "TSI fiyatın zaman içinde ne kadar düzenli ilerlediğine, ADX ise yukarı ve aşağı yönlü hareket arasındaki farkın ne kadar belirgin olduğuna bakar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0094",
+    "page": 94,
+    "chapter": 15,
+    "section": "15.7 — Kısa referans araçları için rol matrisi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n94 \nAraç Soru Rol \nRS Line Varlık karşılaştırma ölçütüne göre lider mi? Göreli performans \nTrend Strength Index Fiyat zamana karşı ne kadar düzenli trend ediyor? Trend tutarlılığı \n \nARA KAVRAM \nHesaplanan Araçlardan Çizim Geometrisine \nGeçiş \nİlk on beş bölümde çoğunlukla fiyat, hacim veya zaman serisinden hesaplanan araçları \ninceledik. Bundan sonraki bölümlerde analistin seçtiği başlangıç noktası, pivot, ölçek ve veri \naralığı sonucu doğrudan etkiler. Bu nedenle kişisel seçim ve geriye dönük uyum riski daha \ngörünür hâle gelir. \nGEÇİŞ KURALI \nHer araca tek ve açık bir görev verin. Fiyat yapısı zaten yönü açıklıyorsa yeni çizim araçlarını yönü \nyeniden kanıtlamak için değil; konum, geometri veya projeksiyon sorusunu cevaplamak için \nkullanın.",
+    "source_extract_summary": [
+      "Araç Soru Rol RS Line Varlık karşılaştırma ölçütüne göre lider mi?",
+      "Göreli performans Trend Strength Index Fiyat zamana karşı ne kadar düzenli trend ediyor?",
+      "Trend tutarlılığı ARA KAVRAM Hesaplanan Araçlardan Çizim Geometrisine Geçiş İlk on beş bölümde çoğunlukla fiyat, hacim veya zaman serisinden hesaplanan araçları inceledik."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

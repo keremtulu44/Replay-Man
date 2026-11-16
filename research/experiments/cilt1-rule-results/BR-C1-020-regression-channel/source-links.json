@@ -1,0 +1,67 @@
+[
+  {
+    "id": "PTA-C1-2026.p0121",
+    "page": 121,
+    "chapter": 20,
+    "section": "20.2 — Başlangıç ve bitiş noktaları sonucu değiştirir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n121 \nBÖLÜM 20 \nDoğrusal Regresyon ve İleri Ölçüm \nAraçları \nHIZLI ROL — Ana görev: regresyonla seçtiğiniz fiyat aralığının genel yönünü ve ne kadar \ndüzenli ilerlediğini görmek; Position ve Measure araçlarıyla giriş-stop-hedef mesafelerini \nölçmek. Tek başına kazanma olasılığını veya gelecek fiyatı söylemez. Ana risk: analiz aralığını \nsonradan fiyata uydurmak, Pearson R’yi kazanma oranı veya iyi R:R’yi tek başına kârlılık \nsanmak. İyi eşleşme: fiyat yapısı + ATR. \n20.1 — Regresyon çizgisi neyi gösterir? \nDoğrusal regresyon, seçtiğiniz fiyatlara en iyi uyan düz çizgiyi hesaplar. Üst ve alt bantlar bu \nçizginin çevresinde oluşturulur. Paralel Kanalı siz çizgi eğimine göre kurarsınız; regresyon ise \nfiyatların çizgiye ne kadar düzenli uyduğunu hesaplar. \n \nŞekil 20.1 — Aynı fiyat serisinde elle çizilmiş kanal ekseni ile istatistiksel regresyon ana çizgi farklı olabilir. \nSAYISAL ÖRNEK \nFiyatlar 100, 102, 104, 106, 108 gibi neredeyse kusursuz doğrusal artıyorsa regresyon eğimi yaklaşık \n+2 birim/bar ve Pearson |R| değeri 1’e yakın olur. Fiyatlar aynı toplam getiriyi daha düzensiz yol \nizleyerek üretirse eğim benzer kalabilir ama doğrusal uyum zayıflar. \n \n20.2 — Başlangıç ve bitiş noktaları sonucu değiştirir \nRegresyonun hesabı matematiksel olsa da hangi fiyat aralığının kullanılacağını siz seçersiniz. \nBaşlangıcı veya bitişi birkaç mum değiştirmek çizginin eğimini, bantları ve Pearson R değerini \ndeğiştirebilir. Bu yüzden aralık, sonucu görmeden önce belirlenmelidir.",
+    "source_extract_summary": [
+      "BÖLÜM 20 Doğrusal Regresyon ve İleri Ölçüm Araçları HIZLI ROL — Ana görev: regresyonla seçtiğiniz fiyat aralığının genel yönünü ve ne kadar düzenli ilerlediğini görmek; Position ve Measure araçlarıyla giriş-stop-hedef mesafelerini ölçmek.",
+      "Tek başına kazanma olasılığını veya gelecek fiyatı söylemez.",
+      "Ana risk: analiz aralığını sonradan fiyata uydurmak, Pearson R’yi kazanma oranı veya iyi R:R’yi tek başına kârlılık sanmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0122",
+    "page": 122,
+    "chapter": 20,
+    "section": "20.4 — Pearson R bize ne anlatır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n122 \n \nŞekil 20.2 — Aynı veri üzerinde iki farklı başlangıç/bitiş aralığı farklı regresyon eğimleri üretir. \nKENDİNE SOR \nBu regresyon aralığını neden tam burada başlatıp bitirdim? Cevap “çizgi fiyatı daha iyi sarıyor” ise \nseçim geriye dönük uyuma yaklaşıyor. \n \n20.3 — Sabit aralık regresyonu ile dönem uzunluğu kullanan sürüm aynı \nkullanım değildir \nTradingView’de kullanıcının başlangıç ve bitiş noktalarını seçtiği Regresyon Trendi \n(Regression Trend) gibi araçlarla, belirli bir dönem uzunluğu üzerinden sürekli yeniden \nhesaplanan Doğrusal Regresyon Kanalı (Linear Regression Channel) göstergeleri aynı kullanım \nbiçimine sahip değildir. \nSabit/örneklem seçilen regresyonda analiz aralığını kullanıcı belirler. Dönem uzunluğu kullanan \ngöstergede ise hesap için bir dönem uzunluğu parametresi kullanılır ve gösterge zaman \nilerledikçe seçilen pencereye göre yenilenir. \nBu ayrım önemlidir çünkü “regresyon çizgisi” adı aynı olsa bile örneklemin nasıl seçildiği \nsonucu doğrudan değiştirir. \n20.4 — Pearson R bize ne anlatır? \nGözlem Makul yorum Yanlış sonuç \n|R| 1’e yakın Seçilen fiyat aralığında doğrusal ilişki \ngüçlü \nStratejinin kazanma olasılığı yüksek \n|R| düşük Fiyat doğrusal trend çizgisine zayıf \nuyuyor \nPiyasa kesin yatay \nR işareti / eğim aynı yönde Doğrusal ilişkinin yönü hakkında bilgi \nverir \nTek başına alış/satış yönlü sinyal",
+    "source_extract_summary": [
+      "KENDİNE SOR Bu regresyon aralığını neden tam burada başlatıp bitirdim?",
+      "Cevap “çizgi fiyatı daha iyi sarıyor” ise seçim geriye dönük uyuma yaklaşıyor.",
+      "20.3 — Sabit aralık regresyonu ile dönem uzunluğu kullanan sürüm aynı kullanım değildir TradingView’de kullanıcının başlangıç ve bitiş noktalarını seçtiği Regresyon Trendi (Regression Trend) gibi araçlarla, belirli bir dönem uzunluğu üzerinden sürekli yeniden hesaplanan Doğrusal Regresyon Kanalı (Linear Regression Channel) göstergeleri aynı kullanım biçimine sahip değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0123",
+    "page": 123,
+    "chapter": 20,
+    "section": "20.6 — Regresyon matematiği ile ek gösterge sinyallerini ayırın",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n123 \nAralık değişti, R değişti Seçilen aralığa duyarlılık Önceki analiz “yanlıştı” demek zorunlu \ndeğil \n \nTEKNİK SORUN \nYüksek Pearson R, sistemin çok kârlı olduğu anlamına gelmez. R yalnızca seçtiğiniz fiyatların zaman \niçinde ne kadar düzgün bir çizgiye uyduğunu gösterir; stop, hedef, piyasa ortamındaki değişim ve \nişlem maliyetini hesaba katmaz. \n \n20.5 — Regresyon kanalının dışına çıkmak otomatik dönüş değildir \nÜst banda çıkınca “çok pahalı, SAT”, alt banda inince “çok ucuz, AL” demek yanıltıcı olabilir. \nGüçlü yeni bir hareket başladığında fiyat bir süre bandın dışında ilerleyebilir. Bu yüzden bant dışına \nçıkmak, fiyatın hemen ortalamaya döneceği anlamına gelmez. \n \nŞekil 20.3 — Fiyatın istatistiksel üst bandın üzerine çıkması, hemen ortalamaya dönmek zorunda olduğu anlamına gelmez. \nGüçlü trendde fiyat bandın dışında ilerlemeye devam edebilir. \nAraç Ana çizgi nasıl oluşur? Bant neye göre? \nRegresyon çizgisi Seçilen fiyat aralığına uyan doğrusal \nçizgi \nAna çizgi çevresi standart sapma \nBollinger Bands Kayan pencere hareketli ortalaması Kayan pencere fiyat standart sapması \nParalel Kanal Kullanıcının çizdiği eğim/geometri Kullanıcı belirler; istatistiksel olmak \nzorunda değil \n \n20.6 — Regresyon matematiği ile ek gösterge sinyallerini ayırın \n“Doğrusal Regresyon Kanalı (Linear Regression Channel)” adı taşıyan, topluluk tarafından \ngeliştirilen özel göstergeler standart regresyon çizgisi ve sapma bantlarının üzerine renkli \nmumlar, dönüş işaretleri veya projeksiyon okları gibi ek kurallar koyabilir.",
+    "source_extract_summary": [
+      "Aralık değişti, R değişti Seçilen aralığa duyarlılık Önceki analiz “yanlıştı” demek zorunlu değil TEKNİK SORUN Yüksek Pearson R, sistemin çok kârlı olduğu anlamına gelmez.",
+      "R yalnızca seçtiğiniz fiyatların zaman içinde ne kadar düzgün bir çizgiye uyduğunu gösterir; stop, hedef, piyasa ortamındaki değişim ve işlem maliyetini hesaba katmaz.",
+      "20.5 — Regresyon kanalının dışına çıkmak otomatik dönüş değildir Üst banda çıkınca “çok pahalı, SAT”, alt banda inince “çok ucuz, AL” demek yanıltıcı olabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0124",
+    "page": 124,
+    "chapter": 20,
+    "section": "20.7 — Long/Short Position Tool: giriş, stop ve hedef mesafesini ölçmek",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n124 \nBu ek sinyaller regresyon matematiğinin zorunlu parçası değildir. Bir göstergeyi \ndeğerlendirirken hangi bölümün doğrusal regresyon hesabı, hangi bölümün geliştiricinin ek \nstrateji mantığı olduğunu ayırın. \nMevcut eğimi ileri uzatmak gelecek tahmini değildir \nBazı göstergeler mevcut regresyon eğimini geleceğe doğru görsel olarak uzatır. Bu çizgi \nbağımsız bir fiyat tahmin modeli değil, mevcut eğimin ileriye uzatılmış halidir. \n“Çizgi yukarı projekte edildi” ile “gelecek fiyat yukarı tahmin edildi” aynı ifade değildir. \nRegresyon hâlâ seçilen geçmiş örneklemin doğrusal eğimini ölçer. \n20.7 — Long/Short Position Tool: giriş, stop ve hedef mesafesini ölçmek \nPosition Tool giriş, stop ve hedef mesafelerini ve potansiyel risk/ödül oranını gösterir. Stop ve hedef \nkullanıcı tarafından belirlendiği için araç kazanma oranını veya stratejinin beklentisini hesaplamaz. \nSAYISAL ÖRNEK \nGiriş 100, stop 95, hedef 112: risk = 5, potansiyel ödül = 12, R:R = 12/5 = 2,4. Fakat işlem düzeni \nyalnız %25 kazanıyorsa basit beklenti (maliyetleri yok sayarak) = 0,25×12 − 0,75×5 = −0,75 birimdir. \nR:R iyi görünebilir ama olasılık ayrı problemdir. \n \n \nŞekil 20.4 — Position Tool tanımlanan stop/hedef mesafesini ölçer; kazanma olasılığını hesaplamaz. \nTEKNİK AYRIM \nStop seviyesi ile pozisyon büyüklüğü aynı şey değildir. Stop “işlem fikri nerede bozulur?”; pozisyon \nbüyüklüğü ise “bu stop mesafesinde hesabımın ne kadarını riske atıyorum?” sorusunu cevaplar.",
+    "source_extract_summary": [
+      "Bu ek sinyaller regresyon matematiğinin zorunlu parçası değildir.",
+      "Bir göstergeyi değerlendirirken hangi bölümün doğrusal regresyon hesabı, hangi bölümün geliştiricinin ek strateji mantığı olduğunu ayırın.",
+      "Mevcut eğimi ileri uzatmak gelecek tahmini değildir Bazı göstergeler mevcut regresyon eğimini geleceğe doğru görsel olarak uzatır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  },
+  {
+    "id": "PTA-C1-2026.p0125",
+    "page": 125,
+    "chapter": 20,
+    "section": "20.9 — Regresyon hangi araçlarla tamamlanır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n125 \n20.8 — Ölçüm araçları: Measure, Price Range ve Date Range \nCetvel (Measure/Ruler), Price Range ve Date Range fiyat ve zaman mesafesini ölçer. “64 günlük \nhareket +%20 sürdü” bilgisini vermeleri, sonraki hareketin de aynı süre ve büyüklükte olacağını \ngöstermez. \nAraç Ne verir? Ne vermez? \nMeasure / Ruler (Cetvel) Fiyat değişimi, bar/zaman mesafesi Gelecek hareket tahmini \nPrice Range (Fiyat Aralığı) İki fiyat arasındaki fark / yüzde Destek-direncin geçerliliği \nDate Range (Tarih Aralığı) İki nokta arasındaki zaman/bar sayısı Döngünün tekrar edeceği garantisi \nLong/Short Position Tool Giriş-stop-hedef senaryosu ve R:R Kazanma oranı / beklenti \n \n20.9 — Regresyon hangi araçlarla tamamlanır? \nKombinasyon Rol ayrımı Not \nRegresyon + Fiyat yapısı Regresyonun gösterdiği yön/konum + \nfiyat yapısındaki bozulma \nEn temiz kullanım \nRegresyon + ATR Trend içindeki konum + güncel hareket \ngenişliği/risk \nBant genişliği ile ATR aynı şey \ndeğildir \nRegresyon + Volume Profile Seçilen zaman aralığındaki trend + \nfiyat seviyelerine göre hacim dağılımı \nFarklı veri sınıfları \nRegresyon + RSI Trend içindeki konum + hareket gücü Rol ayrımı açık olmalı \nRegresyon + MA eğimi İki trend temsili Bilgi tekrarına yaklaşabilir \n \nBÖLÜM SONUCU \nRegresyon, seçtiğiniz fiyat aralığındaki genel yönü ve doğrusal düzeni gösterir; pozisyon ve ölçüm \naraçları ise tanımladığınız senaryonun mesafelerini ölçer. Hiçbiri tek başına işlem yönünü, kazanma \nolasılığını veya gelecek fiyatı belirlemez.",
+    "source_extract_summary": [
+      "20.8 — Ölçüm araçları: Measure, Price Range ve Date Range Cetvel (Measure/Ruler), Price Range ve Date Range fiyat ve zaman mesafesini ölçer.",
+      "“64 günlük hareket +%20 sürdü” bilgisini vermeleri, sonraki hareketin de aynı süre ve büyüklükte olacağını göstermez.",
+      "Measure / Ruler (Cetvel) Fiyat değişimi, bar/zaman mesafesi Gelecek hareket tahmini Price Range (Fiyat Aralığı) İki fiyat arasındaki fark / yüzde Destek-direncin geçerliliği Date Range (Tarih Aralığı) İki nokta arasındaki zaman/bar sayısı Döngünün tekrar edeceği garantisi Long/Short Position Tool Giriş-stop-hedef senaryosu ve R:R Kazanma oranı / beklenti 20.9 — Regresyon hangi araçlarla tamamlanır?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır."
+  }
+]

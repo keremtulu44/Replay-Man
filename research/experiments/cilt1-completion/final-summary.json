@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "packages_complete": 12,
+  "pages": 139,
+  "atomic_claims": 403,
+  "unresolved_claims": 0,
+  "rules": 22,
+  "software_tests": "66 passed",
+  "knowledge_audit": "passed",
+  "ohlcv_audit": "passed"
+}

@@ -1,0 +1,11 @@
+{
+  "costs": [
+    0,
+    0.001,
+    0.0025,
+    0.005
+  ],
+  "multiple_testing": "all variants retained; no winner selected on test",
+  "same_bar_target_stop": "ambiguous",
+  "decision": "pooled small edges are cost-sensitive; family contribution must be judged incrementally"
+}

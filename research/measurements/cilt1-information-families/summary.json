@@ -1,0 +1,11 @@
+{
+  "families": [
+    "trend",
+    "momentum",
+    "volatility",
+    "volume",
+    "structure",
+    "drawing"
+  ],
+  "decision": "same-family and high-overlap confirmations are not independent"
+}
