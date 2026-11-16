@@ -1,0 +1,6 @@
+domain,status,required_fields
+rates_bonds,external_data_required,10
+fundamentals,external_data_required,14
+crypto_derivatives,external_data_required,10
+options,external_data_required,18
+arbitrage_execution,external_data_required,16

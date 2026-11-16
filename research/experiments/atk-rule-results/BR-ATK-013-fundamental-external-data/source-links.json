@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0373",
+    "page": 373,
+    "chapter": 18,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 18\nTemel Analiz, Değerleme ve Portföy \nOluşturma\nİş modelinden finansal tablolara, değerleme aralığından portföy kararına",
+    "source_extract_summary": [
+      "BÖLÜM 18 Temel Analiz, Değerleme ve Portföy Oluşturma İş modelinden finansal tablolara, değerleme aralığından portföy kararına"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0374",
+    "page": 374,
+    "chapter": 18,
+    "section": "18.1 — Temel Analizin Sorusu: İyi İş mi, İyi Fiyat",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  359\nBu Bölümün Amacı\nTeknik analiz fiyatın ne yaptığını ve piyasa katılımcılarının davranışını grafikten okumaya çalışır. Temel \nanaliz ise bir şirketin ekonomik olarak ne ürettiğini, bu üretimin finansal tablolara nasıl yansıdığını ve \nbugün ödenen fiyatın bu kaliteye göre makul olup olmadığını araştırır.\nBu bölümün hedefi yüzlerce oran ezberletmek değildir. Önce şirketin nasıl para kazandığını anlayacak, \nsonra gelir tablosu, bilanço ve nakit akışını tek hikâye olarak birleştirecek; büyüme, marj, borç ve nakit \nkalitesini inceleyecek; en son değerleme ile portföy kararına geçeceğiz.\nBÖLÜM SONUNDA\n• Temel analiz ile fiyat zamanlamasının farklı görevlerini ayırabileceksiniz.\n• Şirketin iş modeli ve araştırma tezini kısa bir kartta yazabileceksiniz.\n• Üç finansal tabloyu dönem ve tarih farkıyla okuyabileceksiniz.\n• Revenue, gross profit, net income, EPS, CFO ve FCF ilişkisini kurabileceksiniz.\n• Büyüme ile büyüme kalitesini ayırabileceksiniz.\n• P/E, P/S, P/B, PEG ve EV/EBITDA oranlarını bağlam içinde kullanabileceksiniz.\n• Fair value’yu tek sayı değil senaryo aralığı olarak değerlendirebileceksiniz.\n• Screener, ETF, DCA ve portföy ağırlıklarını risk sistemi içinde kullanabileceksiniz.\n18.1 Temel Analizin Sorusu: İyi İş mi, İyi Fiyat \nmı?\nFundamental analysis (şirketin finansal performansını, rekabet konumunu ve ekonomik çevresini \ninceleyerek değer tahmini üretme), iki ayrı soruyu birlikte sorar: “Bu işletme kaliteli mi?” ve “Bu kalite \niçin bugün ödenen fiyat makul mü?” Yalnız ilk soruya cevap vermek iyi şirketi; iki soruya birlikte cevap \nvermek ise olası iyi yatırımı araştırır.\nSoru Aradığım kanıt Tek başına yeterli olmayan\nŞirket nasıl para kazanıyor? Ürün/hizmet, müşteri, fiyatlama ve maliyet \nyapısı.\nPopüler marka veya güçlü grafik.\nBüyüme sürdürülebilir mi? Revenue, birim hacim, fiyat, marj ve nakit \ngelişimi.\nTek çeyreklik yüksek büyüme.\nFinansal yapı dayanıklı mı? Nakit, vade, borç, CFO ve yatırım ihtiyacı. Yalnız toplam borç sayısı.\nFiyat makul mü? Oranlar, senaryo değerlemesi ve margin of \nsafety.\nTek platformun fair value kutusu.\nPortföye uygun mu? Mevcut yoğunlaşma, korelasyon, ağırlık ve \nzaman ufku.\nŞirketin tek başına iyi görünmesi.\nTablo 18.1 – Temel analizin beş sorusu\nEYLEM DİLİ\nBir şirketi incelemeye başladığımda grafiği tamamen yok saymam; fakat önce şirketin ne sattığını, \nmüşterisinin kim olduğunu ve gelirin hangi motorlardan geldiğini yazarım. Fiyatı ancak işin \nkalitesini anladıktan sonra değerleme sorusuna taşırım.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Teknik analiz fiyatın ne yaptığını ve piyasa katılımcılarının davranışını grafikten okumaya çalışır.",
+      "Temel analiz ise bir şirketin ekonomik olarak ne ürettiğini, bu üretimin finansal tablolara nasıl yansıdığını ve bugün ödenen fiyatın bu kaliteye göre makul olup olmadığını araştırır.",
+      "Bu bölümün hedefi yüzlerce oran ezberletmek değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0375",
+    "page": 375,
+    "chapter": 18,
+    "section": "18.1 — Temel Analizin Sorusu: İyi İş mi, İyi Fiyat",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  360\nDOĞRU BİLİNEN YANLIŞ\nMit: Harika şirket her fiyattan iyi yatırımdır.\nGerçeklik: Gelecekteki iyi sonuçlar bugünkü fiyata fazlasıyla yansımışsa kaliteli şirket zayıf getiri \nveya yüksek drawdown üretebilir.\nŞekil 18.1 – Temel analiz karar zinciri\nUygulama Görseli 18.1 – Aynı şirket için iş kalitesi yüksekken pahalı fiyat ve daha makul fiyat dönemlerinin \nkarşılaştırıldığı gerçek grafik ve finansal veri ekranı. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Harika şirket her fiyattan iyi yatırımdır.",
+      "Gerçeklik: Gelecekteki iyi sonuçlar bugünkü fiyata fazlasıyla yansımışsa kaliteli şirket zayıf getiri veya yüksek drawdown üretebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0376",
+    "page": 376,
+    "chapter": 18,
+    "section": "18.3 — Üç Finansal Tabloyu Tek Hikâye Olarak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  361\n18.2 İş Modeli, Rekabet Konumu ve Araştırma \nTezi\nFinancial statements sonucu gösterir; iş modeli sonucun nasıl üretildiğini açıklar. Bu nedenle \nrakamlara geçmeden önce şirketin gelir motorunu, maliyet yapısını, müşteri yoğunlaşmasını ve \nsermaye ihtiyacını anlamaya çalışırım.\nAraştırma alanı Ekranda / raporda aradığım Tez sorusu\nGelir modeli Ürün, abonelik, komisyon, reklam veya \nproje geliri.\nGelir tekrar eden mi, tek seferlik mi?\nMüşteri ve pazar Müşteri türü, coğrafya, sektör ve pazar \nbüyüklüğü.\nTek müşteri veya ülkeye bağımlılık var mı?\nFiyatlama gücü Fiyat artışı, churn, hacim ve gross margin. Maliyet artışı müşteriye aktarılabiliyor mu?\nRekabet avantajı Marka, ağ etkisi, maliyet avantajı, veri, \nlisans veya dağıtım.\nAvantaj rakiplerce kolay kopyalanabilir mi?\nSermaye ihtiyacı CapEx, stok, işletme sermayesi ve borç. Büyümek için sürekli dış kaynak gerekiyor \nmu?\nYönetim ve tahsis R&D, satın alma, temettü, buyback ve borç \nkullanımı.\nYönetim sermayeyi verimli dağıtıyor mu?\nTablo 18.2 – İş modeli araştırma kartı\nEKRANDA NE ARIYORUM?\n• Şirket sunumunda gelir segmentleri ve coğrafi dağılım.\n• Yıllık raporda ana riskler ve müşteri/tedarikçi yoğunlaşması.\n• Son üç–beş dönemde satış, hacim ve fiyat değişimi.\n• R&D, satış-pazarlama ve CapEx’in revenue içindeki payı.\n• Yönetimin söylediği büyüme nedeni ile tabloların gösterdiği nedenin uyumu.\nVAKA ANALİZİ — BÜYÜME NEREDEN GELDİ?\nTemsili Delta Yazılım’ın revenue’su %30 büyüyor. İlk bakışta güçlü görünür. Dipnotlarda büyümenin \nyarısının satın alınan bir şirketten, diğer yarısının fiyat artışından geldiğini; müşteri sayısının ise \nyatay kaldığını görüyorum. “Organik büyüme güçlü” demek yerine büyüme bileşenlerini ayırır, \nentegrasyon maliyeti ve müşteri tutma oranını izlerim.\n18.3 Üç Finansal Tabloyu Tek Hikâye Olarak \nOkumak\nIncome statement (belirli dönemde revenue, gider ve kâr akışını gösterme), balance sheet (belirli \ntarihte varlık, borç ve özkaynak durumunu gösterme) ve cash flow statement (dönem içinde nakdin \nnereden gelip nereye gittiğini gösterme) aynı işletmenin üç farklı görünümüdür.",
+    "source_extract_summary": [
+      "18.2 İş Modeli, Rekabet Konumu ve Araştırma Tezi Financial statements sonucu gösterir; iş modeli sonucun nasıl üretildiğini açıklar.",
+      "Bu nedenle rakamlara geçmeden önce şirketin gelir motorunu, maliyet yapısını, müşteri yoğunlaşmasını ve sermaye ihtiyacını anlamaya çalışırım.",
+      "Araştırma alanı Ekranda / raporda aradığım Tez sorusu Gelir modeli Ürün, abonelik, komisyon, reklam veya proje geliri."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0377",
+    "page": 377,
+    "chapter": 18,
+    "section": "18.3 — Üç Finansal Tabloyu Tek Hikâye Olarak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  362\nTablo Zaman yapısı Ana soru Çapraz kontrol\nGelir tablosu Dönem: çeyrek veya yıl Şirket ne kadar sattı ve \nmuhasebe kârı üretti?\nNet income, CFO’ya dönüşüyor \nmu?\nBilanço Belirli tarih: dönem sonu \nfotoğrafı\nŞirket neye sahip, ne borçlu ve \nözkaynak ne?\nBorç ve işletme sermayesi nakit \nakışını nasıl etkiliyor?\nNakit akışı Dönem: nakit hareketleri Operasyon gerçek nakit \nüretiyor mu; nakit nereye \nharcanıyor?\nCapEx ve finansman büyümeyi \nnasıl finanse ediyor?\nTablo 18.3 – Üç finansal tablonun görev ayrımı\nEYLEM DİLİ\nBir tabloda olumlu rakam gördüğümde diğer iki tabloda karşılığını ararım. Net kâr artıyorsa \noperasyon nakdi ve alacaklar; revenue büyüyorsa stok ve işletme sermayesi; borç düşüyorsa nakit \nçıkışı ve vade yapısı kontrol edilir.",
+    "source_extract_summary": [
+      "Bilanço Belirli tarih: dönem sonu fotoğrafı Şirket neye sahip, ne borçlu ve özkaynak ne?",
+      "Borç ve işletme sermayesi nakit akışını nasıl etkiliyor?",
+      "Nakit akışı Dönem: nakit hareketleri Operasyon gerçek nakit üretiyor mu; nakit nereye harcanıyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0378",
+    "page": 378,
+    "chapter": 18,
+    "section": "18.4 — Gelir Tablosu: Revenue’dan Net Income’a",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  363\nŞekil 18.2 – Üç finansal tablo köprüsü\nUygulama Görseli 18.2 – Aynı şirketin gelir tablosu, bilanço ve nakit akışından seçilmiş satırların oklarla \nbirbirine bağlandığı gerçek rapor ekranı. Temsilî eğitim şeması.\n18.4 Gelir Tablosu: Revenue’dan Net Income’a\nGelir tablosunu yukarıdan aşağıya okurum. Revenue veya top line (ürün ve hizmet satışlarından gelen \ntoplam gelir) başlangıçtır; cost of goods sold / cost of sales çıkarıldığında gross profit, operasyon \ngiderleri ve diğer kalemler çıkarıldığında net income veya bottom line oluşur.",
+    "source_extract_summary": [
+      "18.4 Gelir Tablosu: Revenue’dan Net Income’a Gelir tablosunu yukarıdan aşağıya okurum.",
+      "Revenue veya top line (ürün ve hizmet satışlarından gelen toplam gelir) başlangıçtır; cost of goods sold / cost of sales çıkarıldığında gross profit, operasyon giderleri ve diğer kalemler çıkarıldığında net income veya bottom line oluşur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0379",
+    "page": 379,
+    "chapter": 18,
+    "section": "18.4 — Gelir Tablosu: Revenue’dan Net Income’a",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  364\nSatır Aksiyon tanımı Kontrol\nRevenue Satış hacmi × fiyat ve segment bileşimini \nincelemek.\nBüyüme organik mi, kur etkisi veya satın \nalma mı?\nCOGS / Cost of sales Üretim veya hizmet sunumunun doğrudan \nmaliyetini bulmak.\nMaliyet revenue’dan hızlı mı artıyor?\nGross profit Revenue − COGS ile üretim ekonomisini \ngörmek.\nGross margin trendi ve sektör \nkarşılaştırması.\nOperating expenses R&D, satış-pazarlama ve yönetim \ngiderlerini ayırmak.\nGider büyümesi geleceğe yatırım mı, \nverimsizlik mi?\nOperating income Ana faaliyetin finansman/vergi öncesi \nsonucunu izlemek.\nTek seferlik kalemlerden arındırılmış mı?\nNet income Faiz, vergi ve diğer kalemler sonrası \nmuhasebe kârını görmek.\nCFO, hisse sayısı ve tek seferlik gelirle \nçapraz kontrol.\nEPS Net income’ın hisse başına düşen payını \nizlemek.\nBuyback veya yeni hisse ihracı EPS’yi nasıl \ndeğiştirdi?\nTablo 18.4 – Gelir tablosunu okuma sırası\nEKRANDA NE ARIYORUM?\n• En az üç yıllık veya sekiz–on iki çeyreklik revenue trendi.\n• Gross profit ve operating income’ın revenue’ya göre gelişimi.\n• Tek seferlik gelir/gider, yeniden yapılandırma ve varlık satışları.\n• Net income ile diluted EPS arasındaki farkı açıklayan hisse sayısı.\n• Yönetim beklentisi ile gerçekleşen sonuç arasındaki sapma.\nDOĞRU BİLİNEN YANLIŞ\nMit: Revenue ve net income yükseliyorsa şirket kesin güçleniyordur.\nGerçeklik: Satın alma, fiyat artışı, tek seferlik gelir, borçla finanse edilen büyüme veya hisse \nseyrelmesi aynı sonucu farklı kalitede üretebilir.",
+    "source_extract_summary": [
+      "Satır Aksiyon tanımı Kontrol Revenue Satış hacmi × fiyat ve segment bileşimini incelemek.",
+      "Büyüme organik mi, kur etkisi veya satın alma mı?",
+      "COGS / Cost of sales Üretim veya hizmet sunumunun doğrudan maliyetini bulmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0380",
+    "page": 380,
+    "chapter": 18,
+    "section": "18.5 — Bilanço: Varlık, Borç, Özkaynak ve Likidite",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  365\nŞekil 18.3 – Gelir tablosu şelalesi\n18.5 Bilanço: Varlık, Borç, Özkaynak ve Likidite\nBilanço bir dönem akışı değil, belirli tarihin fotoğrafıdır. Temel eşitlik assets = liabilities + shareholders’ \nequity biçimindedir. Varlığın miktarı kadar kalitesi ve ne kadar hızlı nakde dönebileceği; borcun miktarı \nkadar vadesi ve maliyeti önemlidir.\nBilanço alanı Ne gösterir? Risk sorusu\nCash and equivalents En likit kaynaklar. Operasyon ve kısa vadeli borç için yeterli \nmi?\nAccounts receivable Müşterilerden alınacak tutar. Revenue artarken alacak daha hızlı mı \nbüyüyor?\nInventory Satılmayı veya kullanılmayı bekleyen stok. Stok şişiyor, değer düşüklüğü riski artıyor \nmu?\nProperty / equipment Üretim ve operasyon varlıkları. Bakım ve yeni CapEx ihtiyacı ne?\nIntangibles / goodwill Satın alma, marka, patent ve diğer maddi \nolmayan değerler.\nDeğer düşüklüğü veya aşırı satın alma \nprimi riski var mı?\nCurrent liabilities Yakın vadeli yükümlülükler. Kısa vadeli varlık ve CFO ile karşılanabiliyor \nmu?\nLong-term debt Uzun vadeli finansman yükümlülüğü. Faiz, vade ve yeniden finansman riski ne?\nEquity Varlıklar sonrası hissedara kalan muhasebe \ndeğeri.\nBuyback, zarar veya seyrelme trendi nasıl?\nTablo 18.5 – Bilanço kalite kontrolü\nVAKA ANALİZİ — REVENUE BÜYÜRKEN BİLANÇO BOZULUYOR\nTemsili Orion Perakende’nin satışları %18 artıyor; fakat accounts receivable %45, inventory %50 \nbüyüyor ve kısa vadeli borç yükseliyor. Büyümeyi doğrudan olumlu saymam. Tahsilat süresi, stok \ndevir hızı ve operasyon nakdini kontrol eder; büyümenin nakit bağlayıp bağlamadığını yazarım.",
+    "source_extract_summary": [
+      "Temel eşitlik assets = liabilities + shareholders’ equity biçimindedir.",
+      "Varlığın miktarı kadar kalitesi ve ne kadar hızlı nakde dönebileceği; borcun miktarı kadar vadesi ve maliyeti önemlidir.",
+      "Risk sorusu Cash and equivalents En likit kaynaklar."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0381",
+    "page": 381,
+    "chapter": 18,
+    "section": "18.6 — Nakit Akışı: Kârın Nakit Kalitesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  366\nDOĞRU BİLİNEN YANLIŞ\nMit: Çok varlığı olan şirket finansal olarak güçlüdür.\nGerçeklik: Tahsil edilemeyen alacak, satılamayan stok veya değer düşüklüğüne uğrayan goodwill \nyüksek varlık toplamını düşük kaliteli hâle getirebilir.\n18.6 Nakit Akışı: Kârın Nakit Kalitesi\nCash flow statement; operating, investing ve financing cash flow bölümlerini ayırır. Muhasebe kârı \nönemli olsa da işletmenin borç ödemesi, yatırım yapması, temettü dağıtması veya hisse geri alması \niçin nakit gerekir.\nNakit akışı bölümü Ana içerik Yorum\nOperating cash flow — CFO Müşteriden tahsilat, tedarikçi, ücret ve ana \noperasyon nakdi.\nİşletmenin günlük faaliyetleri nakit \nüretiyor mu?\nInvesting cash flow — CFI CapEx, varlık/satın alma ve yatırım satışları. Büyüme için ne kadar sermaye gerekiyor?\nFinancing cash flow — CFF Borç, hisse ihracı, temettü ve buyback. Nakit açığı veya fazlası nasıl finanse \nediliyor?\nFree cash flow — FCF Genellikle CFO − CapEx yaklaşımı. Operasyon ve gerekli yatırımlar sonrası \nesnek nakit kalıyor mu?\nTablo 18.6 – Nakit akışı görevleri\nFCF tanımı veri sağlayıcısına göre değişebilir. Bazı yalnız property, plant and equipment CapEx’ini; \nbazıları daha geniş yatırım kalemlerini kullanabilir. Bu nedenle formülü ve dönemi doğrulamadan iki \nşirketi karşılaştırmam.\nEKRANDA NE ARIYORUM?\n• Net income ile CFO’nun aynı yönde ve benzer kalitede ilerleyip ilerlemediği.\n• Alacak, stok ve diğer işletme sermayesi değişimlerinin nakde etkisi.\n• CapEx’in bakım mı, kapasite büyümesi mi olduğu.\n• Borçlanma veya hisse ihracı olmadan operasyonun kendini finanse edip etmediği.\n• FCF’in dönemler arasında tutarlılığı ve yönetimin kullanım tercihi.\nDOĞRU BİLİNEN YANLIŞ\nMit: Net income pozitifse şirket nakit üretir.\nGerçeklik: Tahakkuk muhasebesi nedeniyle kâr ile nakit farklılaşabilir. Uzun süre net income \nyükselirken CFO zayıflıyorsa tahsilat, stok, tek seferlik kalem ve muhasebe tahminleri incelenir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Çok varlığı olan şirket finansal olarak güçlüdür.",
+      "Gerçeklik: Tahsil edilemeyen alacak, satılamayan stok veya değer düşüklüğüne uğrayan goodwill yüksek varlık toplamını düşük kaliteli hâle getirebilir.",
+      "18.6 Nakit Akışı: Kârın Nakit Kalitesi Cash flow statement; operating, investing ve financing cash flow bölümlerini ayırır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0382",
+    "page": 382,
+    "chapter": 18,
+    "section": "18.7 — Earnings, EPS ve Büyümenin Kalitesi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  367\nŞekil 18.4 – Bilanço ve nakit kalitesi\n18.7 Earnings, EPS ve Büyümenin Kalitesi\nGrowth yalnız “yüzde kaç arttı?” sorusu değildir. Revenue, earnings, EPS ve FCF’in hangi nedenle, \nhangi sermaye ihtiyacıyla ve ne kadar sürdürülebilir biçimde büyüdüğünü incelerim.\nBüyüme türü Kalite kontrolü Olası sorun\nRevenue growth Hacim, fiyat, yeni müşteri, kur ve satın \nalma ayrımı.\nTek seferlik fiyat artışı veya edinilmiş gelir.\nNet income growth Marj, faiz, vergi ve tek seferlik kalem \nayrımı.\nMaliyet kesintisiyle geçici kâr artışı.\nEPS growth Net income ve diluted share count birlikte. Buyback ile EPS artarken toplam kâr yatay \nolabilir.\nFCF growth CFO, CapEx ve işletme sermayesi bileşimi. Yatırımı kısmakla geçici FCF artışı.\nCAGR Birden çok yılın bileşik büyüme hızını \nözetlemek.\nBaşlangıç/bitiş yılı seçimi ara dalgalanmayı \ngizleyebilir.\nTablo 18.7 – Büyümenin kalite katmanları\nEYLEM DİLİ\nBüyüme oranını gördüğümde pay ve paydayı açarım. Revenue büyümesi için satış bileşenini; EPS \nbüyümesi için hisse sayısını; FCF büyümesi için CapEx ve işletme sermayesini kontrol ederim.\nVAKA ANALİZİ — EPS BÜYÜDÜ AMA İŞ BÜYÜMEDİ\nTemsili Atlas Holding’in net income’ı yatay, fakat şirket hisselerinin %12’sini geri aldığı için EPS \nyükseliyor. EPS büyümesini işletme büyümesi diye yazmam. Buyback’in hangi fiyattan, hangi nakit \nveya borçla yapıldığını ve özkaynağa etkisini incelerim.",
+    "source_extract_summary": [
+      "Revenue, earnings, EPS ve FCF’in hangi nedenle, hangi sermaye ihtiyacıyla ve ne kadar sürdürülebilir biçimde büyüdüğünü incelerim.",
+      "Büyüme türü Kalite kontrolü Olası sorun Revenue growth Hacim, fiyat, yeni müşteri, kur ve satın alma ayrımı.",
+      "Tek seferlik fiyat artışı veya edinilmiş gelir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0383",
+    "page": 383,
+    "chapter": 18,
+    "section": "18.9 — Borç, Likidite ve Finansal Sağlık",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  368\n18.8 Margins, ROE ve ROA ile Kârlılık\nMargin oranları revenue’nun ne kadarının farklı kâr katmanlarında kaldığını; return ratios ise şirketin \nsermaye veya varlığı ne kadar verimli kullandığını özetler. Karşılaştırmayı aynı şirketin geçmişi ve \nbenzer iş modeli olan şirketlerle yaparım.\nMetrik Basit formül Ne sorar? Sınır\nGross margin (Revenue − COGS) ÷ Revenue Üretim/hizmet ekonomisi ne \nkadar güçlü?\nSektörler arasında doğal olarak \nçok farklıdır.\nNet profit margin Net income ÷ Revenue Tüm giderler sonrası satışın ne \nkadarı kâr?\nTek seferlik kalem ve vergi \netkisi olabilir.\nROE Net income ÷ ortalama equity Hissedar sermayesi ne kadar \nverimli?\nBorç veya düşük equity oranı \nyükseltebilir.\nROA Net income ÷ ortalama assets Varlıklar kâr üretmekte ne \nkadar verimli?\nAsset-light ve asset-heavy \nsektörler karşılaştırılmaz.\nTablo 18.8 – Kârlılık metrikleri\nDOĞRU BİLİNEN YANLIŞ\nMit: En yüksek ROE’ye sahip şirket en kaliteli şirkettir.\nGerçeklik: Yüksek borç, büyük buyback veya düşük/negatif özkaynak ROE’yi bozabilir. ROE; borç, \nCFO, marj ve sermaye tahsisiyle birlikte okunur.\nEKRANDA NE ARIYORUM?\n• Marjların üç–beş yıllık yönü ve oynaklığı.\n• Revenue büyürken gross ve net margin’in korunup korunmadığı.\n• ROE artışının net income’dan mı, equity düşüşünden mi geldiği.\n• ROA’nın sektör sermaye yoğunluğuyla uyumu.\n• Rakiplerle karşılaştırmada aynı muhasebe dönemi ve benzer iş modeli.\n18.9 Borç, Likidite ve Finansal Sağlık\nBorç tek başına kötü değildir; şirketin borcu hangi maliyetle, hangi vadede ve hangi nakit üretme \nkapasitesiyle taşıdığı önemlidir. Faiz oranı ve yeniden finansman koşulları değiştiğinde aynı borç \nseviyesi farklı risk üretebilir.\nKontrol Ne ölçer? Alarm\nCash vs short-term obligations Yakın vadeli ödeme kapasitesi. Kısa vadeli yükümlülük artarken nakit/CFO \ndüşüyor.\nDebt maturity Borçların hangi yıllarda yenileneceği. Tek dönemde yoğun vade ve zayıf kredi \nkoşulu.\nInterest burden Faiz giderinin operasyon kârı ve nakde \nyükü.\nFaiz gideri kârdan hızlı büyüyor.\nDebt-to-equity / leverage Borç ile özkaynak ilişkisi. Sektör dışı karşılaştırma veya negatif \nequity.",
+    "source_extract_summary": [
+      "18.8 Margins, ROE ve ROA ile Kârlılık Margin oranları revenue’nun ne kadarının farklı kâr katmanlarında kaldığını; return ratios ise şirketin sermaye veya varlığı ne kadar verimli kullandığını özetler.",
+      "Karşılaştırmayı aynı şirketin geçmişi ve benzer iş modeli olan şirketlerle yaparım.",
+      "Sınır Gross margin (Revenue − COGS) ÷ Revenue Üretim/hizmet ekonomisi ne kadar güçlü?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0384",
+    "page": 384,
+    "chapter": 18,
+    "section": "18.10 — Valuation Ratios: P/E, P/S, P/B, PEG ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  369\nKontrol Ne ölçer? Alarm\nCurrent ratio benzeri likidite ölçüleri Kısa vadeli varlık/borç dengesi. Stok ve alacak kalitesi zayıfken oran \nyanıltıcı.\nCFO / FCF coverage Borcu operasyon nakdiyle taşıma \nkapasitesi.\nBorç ödemesi yeni borç veya hisse ihracına \nbağımlı.\nTablo 18.9 – Finansal sağlık kontrolü\nDOĞRU BİLİNEN YANLIŞ\nMit: Borçsuz şirket her zaman borçlu şirketten daha iyidir.\nGerçeklik: Uygun maliyetli ve yönetilebilir borç verimli yatırımı destekleyebilir. Asıl soru borcun \ngetiri üretip üretmediği ve kötü senaryoda taşınıp taşınamayacağıdır.\nVAKA ANALİZİ — UCUZ ŞİRKET, PAHALI BORÇ\nTemsili Mira Sanayi 7× P/E ile ucuz görünüyor. Fakat borcun büyük kısmı bir yıl içinde yenilenecek, \nfaiz gideri iki katına çıkmış ve CFO düşüyor. Düşük P/E’yi alım nedeni değil araştırma alarmı sayar; \nborç vadesi ve kâr tahminini stres senaryosunda yeniden hesaplarım.\n18.10 Valuation Ratios: P/E, P/S, P/B, PEG ve \nEV/EBITDA\nValuation ratio (piyasa fiyatını earnings, sales, book value veya işletme kârı gibi bir temel ölçüyle \nkarşılaştırma), göreli değerleme aracıdır. Oran şirketin kendi geçmişi, benzer şirketler, büyüme, marj \nve bilanço kalitesiyle birlikte anlam kazanır.\nOran Basit anlam Daha yararlı olduğu bağlam Ana tuzak\nP/E Fiyat ÷ EPS; bir birim earnings \niçin ödenen fiyat.\nPozitif ve görece istikrarlı \nearnings.\nDöngüsel zirve kârı veya tek \nseferlik gelir.\nP/S Piyasa değeri ÷ revenue. Kârı henüz zayıf ama revenue \nmodeli karşılaştırılabilir \nşirketler.\nDüşük marj ve yüksek nakit \nyakımı.\nP/B Piyasa değeri ÷ book value. Banka, sigorta ve maddi varlık \nağırlıklı sektörler.\nMaddi olmayan değer ve varlık \nkalitesi.\nPEG P/E’nin beklenen earnings \ngrowth ile ilişkilendirilmesi.\nBenzer büyüme varsayımı olan \nşirketler.\nTahmin hatası ve büyümenin \nsürdürülemezliği.\nEV/EBITDA İşletme değeri ile \nfaiz/vergi/amortisman öncesi \nkâr ilişkisi.\nBorç yapısı farklı şirketleri \nkarşılaştırma.\nCapEx, işletme sermayesi ve \ngerçek nakit ihtiyacını gizleme.",
+    "source_extract_summary": [
+      "Alarm Current ratio benzeri likidite ölçüleri Kısa vadeli varlık/borç dengesi.",
+      "Stok ve alacak kalitesi zayıfken oran yanıltıcı.",
+      "CFO / FCF coverage Borcu operasyon nakdiyle taşıma kapasitesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Gereksinim, semantik test ve sürümleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0385",
+    "page": 385,
+    "chapter": 18,
+    "section": "18.11 — Intrinsic/Fair Value ve Margin of Safety",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  370\nTablo 18.10 – Değerleme oranlarının görev ayrımı\nEKRANDA NE ARIYORUM?\n• Trailing ve forward oran ayrımı; kullanılan earnings döneminin tarihi.\n• Sektör medyanı ve şirketin kendi tarihsel aralığı.\n• Negatif veya olağandışı earnings nedeniyle oranın anlamsız olup olmadığı.\n• Orandaki değişimin fiyat mı, payda mı kaynaklı olduğu.\n• Büyüme, marj ve borcun rakiplerle uyumu.\nDOĞRU BİLİNEN YANLIŞ\nMit: P/E 10’un altındaysa ucuz, 30’un üstündeyse pahalıdır.\nGerçeklik: Sektör, faiz ortamı, büyüme, kâr kalitesi ve döngü farklıdır. Aynı P/E iki şirkette tamamen \nfarklı risk ve değer ifade edebilir.\n18.11 Intrinsic/Fair Value ve Margin of Safety\nIntrinsic value veya fair value (gelecekte beklenen ekonomik faydayı belirli varsayımlarla bugünkü \ndeğere çeviren tahmin), şirketin üzerinde yazan gizli ve değişmez fiyat değildir. Model; revenue \ngrowth, margin, cash flow, sermaye ihtiyacı, iskonto oranı ve terminal varsayımlara duyarlıdır.\nSenaryo Varsayım dili Çıktı kullanımı\nBear / zayıf Daha düşük büyüme, marj baskısı, daha \nyüksek sermaye maliyeti.\nAşağı risk ve bilanço dayanıklılığı.\nBase / temel Mevcut kanıtlarla en makul orta \nvarsayımlar.\nAna değerleme aralığı.\nBull / güçlü Daha iyi büyüme, marj ve sermaye \nverimliliği.\nBeklentinin fiyata ne kadar yansıdığını test \netmek.\nTablo 18.11 – Değerleme senaryoları\nMargin of safety (değerleme hatası ve belirsizlik için tahmini değer ile ödenen fiyat arasında bırakılan \ntampon), yalnız “fair value − fiyat” farkı değildir. Değerleme kalitesi, bilanço riski, işin öngörülebilirliği \nve alternatif getiri de tampon ihtiyacını etkiler.\nEYLEM DİLİ\nFair value çıktısını gördüğümde önce yöntemi, veri tarihini ve varsayımları açarım. Tek sayı yerine \nbear–base–bull aralığı yazar, hangi değişkenin sonucu en çok değiştirdiğini kaydederim.\nDOĞRU BİLİNEN YANLIŞ\nMit: Fiyat fair value’nun altındaysa hisse ucuzdur ve yükselmelidir.\nGerçeklik: Değerleme tahmini yanlış olabilir, şirketin beklentileri bozulabilir veya risk primi artabilir. \nMargin of safety riski azaltmayı amaçlar; sonucu garanti etmez.",
+    "source_extract_summary": [
+      "• Trailing ve forward oran ayrımı; kullanılan earnings döneminin tarihi.",
+      "• Sektör medyanı ve şirketin kendi tarihsel aralığı.",
+      "• Negatif veya olağandışı earnings nedeniyle oranın anlamsız olup olmadığı."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Makro olayların endeks ve varlık grupları üzerindeki etkisi",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0386",
+    "page": 386,
+    "chapter": 18,
+    "section": "18.11 — Intrinsic/Fair Value ve Margin of Safety",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  371\nŞekil 18.5 – Kalite–değerleme matrisi",
+    "source_extract_summary": [],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0387",
+    "page": 387,
+    "chapter": 18,
+    "section": "18.12 — Stock Screening: Filtre, Karar Değildir",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  372\nUygulama Görseli 18.3 – Aynı şirket için bear, base ve bull fair value aralığı ile piyasa fiyatının gösterildiği \ngerçek değerleme ekranı. Temsilî eğitim şeması.\n18.12 Stock Screening: Filtre, Karar Değildir\nStock screener (geniş şirket evrenini seçilen finansal ve piyasa koşullarıyla daraltma), araştırma \nsüresini azaltır. Screener “en iyi hisseyi” bulmaz; belirli kurallara uyan şirketleri aday listesine taşır.\nFiltre ailesi Örnek soru Dikkat\nEvren Hangi ülke, borsa, sektör, büyüklük ve \nlikidite?\nRaporlama standardı ve veri erişimi farklı \nolabilir.\nBüyüme Revenue, EPS veya FCF büyümesi hangi \ndönemlerde pozitif?\nTek dönem ve baz etkisi.\nKârlılık Gross/net margin, ROE veya ROA nasıl? Borç, sektör ve tek seferlik kalem.\nFinansal sağlık Borç, nakit, likidite ve CFO yeterli mi? Toplam skor alt bileşenleri gizleyebilir.\nDeğerleme P/E, P/S, P/B veya EV/EBITDA hangi \naralıkta?\nUcuzluk nedeni ve tahmin kalitesi.\nKalite doğrulama Dipnot, denetçi, hisse sayısı ve veri tarihi? Veri hatası ve survivorship bias.\nTablo 18.12 – Screener filtresi tasarlamak\nVAKA ANALİZİ — 2.000 ŞİRKETTEN 12 ADAYA\nÖnce likit ve raporları erişilebilir şirket evrenini seçerim. Sonra pozitif üç yıllık revenue büyümesi, \npozitif CFO, yönetilebilir borç ve sektörüne göre makul değerleme filtreleri uygularım. Kalan 12 \nşirketi “alım listesi” değil; iş modeli, dipnot ve senaryo değerlemesi yapılacak araştırma kuyruğu \nolarak kaydederim.\nDOĞRU BİLİNEN YANLIŞ\nMit: Çok fazla filtre kullanmak daha iyi hisseleri garanti eder.\nGerçeklik: Filtreler geçmiş veriye aşırı uyum sağlayabilir, farklı sektörleri haksız eleyebilir ve nadir \nama önemli riskleri göremez.",
+    "source_extract_summary": [
+      "Uygulama Görseli 18.3 – Aynı şirket için bear, base ve bull fair value aralığı ile piyasa fiyatının gösterildiği gerçek değerleme ekranı.",
+      "18.12 Stock Screening: Filtre, Karar Değildir Stock screener (geniş şirket evrenini seçilen finansal ve piyasa koşullarıyla daraltma), araştırma süresini azaltır.",
+      "Screener “en iyi hisseyi” bulmaz; belirli kurallara uyan şirketleri aday listesine taşır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0388",
+    "page": 388,
+    "chapter": 18,
+    "section": "18.13 — ETF ve Gerçek Çeşitlendirme",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  373\nŞekil 18.6 – Stock screening hunisi\n18.13 ETF ve Gerçek Çeşitlendirme\nETF — exchange-traded fund (tek işlemle bir endeks, sektör, ülke, tahvil veya başka varlık sepetine \nmaruz kalma), portföy kurmayı kolaylaştırabilir. Ancak her ETF aynı ölçüde geniş, likit, düşük maliyetli \nveya çeşitlendirilmiş değildir.\nETF kontrolü Ekranda aradığım Risk\nEndeks / yöntem Fon hangi kurala göre hangi varlıkları \nseçiyor?\nAdı geniş görünürken dar tema taşıyabilir.\nAğırlıklandırma Piyasa değeri, eşit ağırlık veya başka \nyöntem.\nİlk birkaç holding toplam riski domine \nedebilir.\nHoldings ve sektör Üst şirketler, sektör ve ülke dağılımı. Birden fazla ETF aynı şirketleri tekrar \ntaşıyabilir.\nExpense ratio ve işlem maliyeti Yıllık fon maliyeti, spread ve komisyon. Küçük fark uzun sürede bileşikleşir.\nLikidite / yapı İşlem hacmi, fon büyüklüğü ve takip farkı. Geniş spread veya kapanma riski.\nPara birimi / vergi Fon, underlying ve yatırımcı para birimi. Kur ve vergi sonucu değiştirebilir.\nTablo 18.13 – ETF due diligence\nDOĞRU BİLİNEN YANLIŞ\nMit: Üç farklı ETF aldığımda otomatik olarak çeşitlendirilmiş olurum.\nGerçeklik: ETF’lerin üst holdings ve sektör ağırlıkları aynıysa görünürde üç ürün, gerçekte tek \nyoğun risk taşıyabilirsiniz.\nEYLEM DİLİ\nETF adını okumakla yetinmem. Endeks metodolojisini, ilk on holdingi, yoğunlaşmayı, maliyeti ve \nportföyümde zaten bulunan pozisyonlarla örtüşmeyi kontrol ederim.",
+    "source_extract_summary": [
+      "Ancak her ETF aynı ölçüde geniş, likit, düşük maliyetli veya çeşitlendirilmiş değildir.",
+      "ETF kontrolü Ekranda aradığım Risk Endeks / yöntem Fon hangi kurala göre hangi varlıkları seçiyor?",
+      "Adı geniş görünürken dar tema taşıyabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0389",
+    "page": 389,
+    "chapter": 18,
+    "section": "18.14 — Portföy Kurma, DCA ve Rebalancing",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  374\n18.14 Portföy Kurma, DCA ve Rebalancing\nPortföy oluşturmak çok sayıda ürün toplamak değil; farklı risk kaynaklarına ne kadar ağırlık \nverileceğini belirlemektir. Core–satellite yaklaşımında çekirdek bölüm daha geniş ve düşük karar yükü \ntaşıyan fonlardan; uydu bölüm ise seçilmiş şirket veya temalardan oluşabilir. Bu bir şablondur, \nevrensel yüzde kuralı değildir.\nPortföy kararı Soru Kayıt\nAmaç ve ufuk Para ne zaman kullanılacak; kayıp \nkapasitesi ne?\nHedef, süre ve likidite ihtiyacı.\nVarlık dağılımı Hisse, ETF, nakit ve diğer varlıkların rolü \nne?\nHedef ağırlık aralığı.\nTek pozisyon riski Bir şirket veya tema portföyü ne kadar \netkiler?\nMaksimum ağırlık ve tez riski.\nKorelasyon / örtüşme Pozisyonlar aynı faktörden mi etkileniyor? Sektör, ülke, para birimi ve holdings \nmatrisi.\nDCA Hangi takvim ve tutarla yatırım yapılacak? Otomatik plan ve durdurma koşulu.\nRebalancing Hedef ağırlığa ne zaman dönülecek? Takvim, eşik, vergi ve maliyet.\nTez izleme Hangi finansal koşul pozisyonu değiştirir? Revenue, margin, debt, FCF ve valuation \nalarmı.\nTablo 18.14 – Portföy karar kartı\nDollar-cost averaging — DCA (belirli takvimde sabit veya planlı tutarla düzenli alım), tek seferde yanlış \nzamanlama riskini yayar. Ancak iş tezi bozulan veya kalıcı değer kaybı yaşayan varlıkta “düştükçe \nalmak” kaybı büyütebilir. DCA planının yatırım tezi ve portföy ağırlık sınırı olmalıdır.\nDOĞRU BİLİNEN YANLIŞ\nMit: DCA her varlıkta ve her düşüşte güvenlidir.\nGerçeklik: DCA yalnız zamanlama riskini dağıtır; şirket riski, değerleme riski ve kalıcı sermaye \nkaybını ortadan kaldırmaz.\nVAKA ANALİZİ — CORE–SATELLITE PORTFÖY\nTemsili yatırımcı çekirdekte geniş bir ETF, uydu bölümünde dört araştırılmış şirket taşımak istiyor. \nÖnce ETF’nin zaten bu şirketleri hangi ağırlıkta içerdiğini kontrol eder. Aynı teknoloji riskinin iki kez \ntaşındığını görürse uydu ağırlığını azaltır; DCA tutarını hedef ağırlıklara göre dağıtır ve üç ayda bir \ntez/ağırlık incelemesi yapar.",
+    "source_extract_summary": [
+      "18.14 Portföy Kurma, DCA ve Rebalancing Portföy oluşturmak çok sayıda ürün toplamak değil; farklı risk kaynaklarına ne kadar ağırlık verileceğini belirlemektir.",
+      "Core–satellite yaklaşımında çekirdek bölüm daha geniş ve düşük karar yükü taşıyan fonlardan; uydu bölüm ise seçilmiş şirket veya temalardan oluşabilir.",
+      "Bu bir şablondur, evrensel yüzde kuralı değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Mum geometrisi ve davranış özellikleri",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0390",
+    "page": 390,
+    "chapter": 18,
+    "section": "18.15 — Tam Temel Analiz ve Portföy İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  375\nŞekil 18.7 – Portföy, DCA ve rebalans sistemi\nUygulama Görseli 18.4 – Core ETF, uydu hisseler, sektör/ülke ağırlıkları ve DCA katkılarının gösterildiği \ngerçek portföy tablosu. Temsilî eğitim şeması.\n18.15 Tam Temel Analiz ve Portföy İş Akışı\nTemel analiz kararını tek oran veya tek platform puanı yerine aşağıdaki sıralı süreçle uygularım.\nAşama Yazacağım soru Çıktı\n1  Evren Hangi piyasa, sektör ve raporlama kalitesi? Araştırılabilir şirket/ETF listesi.\n2  İş modeli Şirket nasıl para kazanır ve ana risk nedir? Kısa araştırma tezi.",
+    "source_extract_summary": [
+      "18.15 Tam Temel Analiz ve Portföy İş Akışı Temel analiz kararını tek oran veya tek platform puanı yerine aşağıdaki sıralı süreçle uygularım.",
+      "Aşama Yazacağım soru Çıktı 1 Evren Hangi piyasa, sektör ve raporlama kalitesi?",
+      "Araştırılabilir şirket/ETF listesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0391",
+    "page": 391,
+    "chapter": 18,
+    "section": "18.15 — Tam Temel Analiz ve Portföy İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  376\nAşama Yazacağım soru Çıktı\n3  Tablolar Revenue, kâr, bilanço ve nakit ne söylüyor? Üç tablo köprüsü.\n4  Kalite Büyüme, marj, ROE/ROA ve FCF ne kadar \nsürdürülebilir?\nKalite ve kırmızı bayrak kartı.\n5  Sağlık Borç, vade, likidite ve sermaye ihtiyacı \nnasıl?\nStres senaryosu.\n6  Değerleme Oranlar ve bear/base/bull değer aralığı ne? Margin of safety ve varsayımlar.\n7  Portföy Mevcut pozisyonlarla ağırlık ve korelasyon \nuyumlu mu?\nAğırlık / no-invest kararı.\n8  Uygulama Tek sefer, DCA veya izleme planı ne? Takvim ve emir planı.\n9  İzleme Hangi veri tezi güçlendirir veya iptal eder? Rapor alarmı ve inceleme günlüğü.\nTablo 18.15 – Tam temel analiz iş akışı\nVaka 1 — Düşük P/E mi, Value Trap mi?\nAdım Temsili gözlem Karar\nScreener P/E 8; sektör medyanı 16. Ucuz aday, henüz yatırım değil.\nGelir tablosu Revenue yatay; net income varlık \nsatışından yükselmiş.\nEarnings kalitesi zayıf.\nBilanço Kısa vadeli borç ve stok hızla artıyor. Finansal sağlık riski.\nNakit CFO negatif; FCF iki yıldır zayıf. Muhasebe kârı nakde dönüşmüyor.\nDeğerleme Normalleştirilmiş earnings ile P/E 15’e \nçıkıyor.\nUcuzluk büyük ölçüde kayboluyor.\nSonuç Tez için borç ve CFO iyileşmesi gerekir. İzle / no-invest.\nTablo 18.16 – Value trap vaka akışı\nVaka 2 — Kaliteli Şirket, Pahalı Fiyat\nKanıt Olumlu Sınır\nİş modeli Tekrarlayan gelir ve güçlü müşteri tutma. Büyüme beklentisi fiyata yansımış olabilir.\nFinansallar Yükselen revenue, margin ve FCF; düşük \nborç.\nÇok yüksek valuation multiple.\nSenaryolar Bear/base/bull değer aralığı mevcut fiyatın \naltında/çevresinde.\nMargin of safety yok.\nPortföy Sektör ağırlığı zaten yüksek. Kaliteye rağmen yeni pozisyon \nyoğunlaşmayı artırıyor.\nSonuç Şirket araştırma listesinde kalır. Fiyat/varsayım değişmeden alım yapılmaz.\nTablo 18.17 – İyi şirket ile iyi fiyat ayrımı\nEYLEM DİLİ\nSon kararı “şirket iyi/kötü” diye bitirmem. “İş kalitesi”, “finansal sağlık”, “değerleme”, “portföy \nuyumu” ve “izlenecek iptal koşulu” alanlarını ayrı ayrı doldururum.",
+    "source_extract_summary": [
+      "Aşama Yazacağım soru Çıktı 3 Tablolar Revenue, kâr, bilanço ve nakit ne söylüyor?",
+      "4 Kalite Büyüme, marj, ROE/ROA ve FCF ne kadar sürdürülebilir?",
+      "5 Sağlık Borç, vade, likidite ve sermaye ihtiyacı nasıl?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Şekil yerine ölçülebilir davranış dizileri"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0392",
+    "page": 392,
+    "chapter": 18,
+    "section": "18.15 — Tam Temel Analiz ve Portföy İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  377\nHızlı Başvuru\nGördüğüm İlk kontrol Varsayılan eylem\nRevenue hızlı büyüyor Kaynak, margin, alacak, stok ve CFO Büyüme kalitesini ayır.\nNet income yükseliyor Tek seferlik kalem, CFO ve hisse sayısı Kârı nakitle doğrula.\nROE çok yüksek Borç, buyback ve equity seviyesi Verimlilik mi kaldıraç mı ayır.\nP/E çok düşük Normalleştirilmiş earnings ve borç Value trap ihtimalini araştır.\nFair value yüksek upside gösteriyor Model, tarih, varsayım ve senaryolar Tek sayıya güvenme.\nETF satın alınacak Endeks, holdings, yoğunlaşma ve maliyet Portföy örtüşmesini kontrol et.\nDCA planlanıyor Tez, hedef ağırlık ve durdurma koşulu Takvimi risk bütçesine bağla.\nÜnlü yatırımcı holdingi görülüyor Rapor tarihi, ağırlık, gecikme ve hedge Araştırma fikri; kör kopyalama yok.\nAI/screener aday verdi Kaynak, veri tarihi, tablolar ve değerleme İnsan denetimli derin araştırma.\nTablo 18.18 – Hızlı başvuru\nTemel Analiz Kontrol Listesi\n Şirketin gelir modeli ve ana segmentleri tek paragrafta açıklandı.\n Gelir tablosu, bilanço ve nakit akışı aynı dönemlerle karşılaştırıldı.\n Revenue, earnings, EPS ve FCF büyümesinin kaynakları ayrıldı.\n Marj ve return metrics sektör ve geçmiş bağlamında incelendi.\n Borç vadesi, faiz yükü, likidite ve CFO birlikte kontrol edildi.\n Tek seferlik kalem, hisse seyrelmesi, buyback ve satın alma etkisi not edildi.\n Değerleme oranlarının pay ve paydası doğrulandı.\n Fair value için bear/base/bull varsayımları yazıldı.\n Margin of safety sonucu garanti değil hata tamponu olarak kullanıldı.\n Screener ve AI sonucu yatırım değil aday listesi olarak kaydedildi.\n ETF holdings, maliyet, yoğunlaşma ve portföy örtüşmesi kontrol edildi.\n DCA ve rebalans planı tez, hedef ağırlık ve maliyetle birlikte yazıldı.\n Tezi iptal edecek finansal koşullar belirlendi.\nTemel Sözlük\nTerim Aksiyon tanımı\nFundamental analysis İş modeli, finansallar ve ekonomik bağlamdan değer/kalite \nhipotezi üretmek.\nIncome statement Bir dönemde revenue’dan net income’a kâr akışını izlemek.\nBalance sheet Belirli tarihte assets, liabilities ve equity durumunu kontrol etmek.\nCash flow statement Operasyon, yatırım ve finansman nakit hareketlerini ayırmak.\nRevenue / top line Müşteriden gelen toplam satış gelirini ve bileşenlerini incelemek.\nGross profit Revenue’dan doğrudan üretim maliyetini çıkararak ürün \nekonomisini görmek.\nNet income / bottom line Tüm gider ve vergiler sonrası muhasebe kârını izlemek.",
+    "source_extract_summary": [
+      "Hızlı Başvuru Gördüğüm İlk kontrol Varsayılan eylem Revenue hızlı büyüyor Kaynak, margin, alacak, stok ve CFO Büyüme kalitesini ayır.",
+      "Net income yükseliyor Tek seferlik kalem, CFO ve hisse sayısı Kârı nakitle doğrula.",
+      "ROE çok yüksek Borç, buyback ve equity seviyesi Verimlilik mi kaldıraç mı ayır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Gereksinim, semantik test ve sürümleme",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0393",
+    "page": 393,
+    "chapter": 18,
+    "section": "18.15 — Tam Temel Analiz ve Portföy İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  378\nTerim Aksiyon tanımı\nEPS Net income’ın diluted hisse başına payını ve hisse sayısı etkisini \nizlemek.\nCFO Ana operasyonun gerçek nakit üretimini değerlendirmek.\nFCF Operasyon nakdi sonrası gerekli sermaye yatırımından kalan esnek \nnakdi izlemek.\nGross / net margin Revenue’nun farklı kâr katmanlarında kalan oranını karşılaştırmak.\nROE / ROA Özkaynak ve varlıkların kâr üretme verimliliğini, borç/sektör \nbağlamıyla okumak.\nP/E Fiyatı earnings per share ile karşılaştırıp kârın kalitesini ayrıca \nkontrol etmek.\nP/S Fiyatı sales ile karşılaştırıp margin ve nakit yakımını ayrıca kontrol \netmek.\nP/B Piyasa değerini book value ile karşılaştırıp varlık kalitesini \nincelemek.\nPEG P/E’yi beklenen growth ile ilişkilendirip tahmin riskini not etmek.\nEV/EBITDA İşletme değerini operasyon kâr göstergesiyle karşılaştırıp CapEx ve \nborcu ayrıca incelemek.\nIntrinsic / fair value Varsayımlara bağlı bear/base/bull değer tahmini üretmek.\nMargin of safety Tahmin hatası ve belirsizlik için fiyat ile değer arasında tampon \naramak.\nStock screener Geniş evreni kurallarla daraltıp araştırma adayı üretmek.\nETF Bir endeks veya varlık sepetine tek ürünle maruz kalırken holdings \nve maliyeti doğrulamak.\nDiversification Şirket, sektör, ülke, para birimi ve faktör risklerini gerçekten \ndağıtmak.\nDCA Planlı takvim/tutarla alım yaparak giriş zamanlamasını yaymak.\nRebalancing Portföyü hedef ağırlıklara, tez ve maliyetleri dikkate alarak geri \ntaşımak.\nTablo 18.19 – Bölüm 18 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Temel analiz hangi iki ana soruyu birlikte sorar?\n2. İyi şirket neden her fiyattan iyi yatırım değildir?\n3. İş modeli analizi finansal tablolardan önce neden yapılır?\n4. Gelir tablosu ile bilanço arasındaki zaman farkı nedir?\n5. Nakit akış tablosu net income’dan hangi açıdan ayrılır?\n6. Revenue büyümesinin kalitesi nasıl kontrol edilir?\n7. Gross profit ve gross margin hangi farklı bilgileri verir?\n8. Operating expenses artışı hangi iki farklı anlama gelebilir?\n9. Net income neden CFO ile çapraz kontrol edilir?\n10. Accounts receivable revenue’dan hızlı büyürse ne araştırılır?\n11. Inventory artışı neden hem fırsat hem risk olabilir?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı EPS Net income’ın diluted hisse başına payını ve hisse sayısı etkisini izlemek.",
+      "CFO Ana operasyonun gerçek nakit üretimini değerlendirmek.",
+      "FCF Operasyon nakdi sonrası gerekli sermaye yatırımından kalan esnek nakdi izlemek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0394",
+    "page": 394,
+    "chapter": 18,
+    "section": "18.15 — Tam Temel Analiz ve Portföy İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 18\nTemel Analiz, Değerleme ve Portföy Oluşturma  •  379\n12. Assets = liabilities + equity eşitliği neyi anlatır?\n13. Operating, investing ve financing cash flow nasıl ayrılır?\n14. FCF tanımı neden veri sağlayıcısına göre doğrulanmalıdır?\n15. EPS büyümesi hangi durumda işletme büyümesini abartabilir?\n16. CAGR hangi bilgiyi özetler, hangi bilgiyi gizleyebilir?\n17. Gross margin sektörler arasında neden doğrudan karşılaştırılmaz?\n18. Yüksek ROE hangi borç veya equity etkisiyle yanıltıcı olabilir?\n19. Borç analizinde miktar dışında hangi üç özellik incelenir?\n20. Düşük P/E neden value trap olabilir?\n21. P/S hangi durumda yararlı, hangi durumda tehlikelidir?\n22. P/B hangi sektörlerde daha anlamlı olabilir?\n23. PEG oranının ana tahmin riski nedir?\n24. EV/EBITDA hangi nakit ihtiyacını gizleyebilir?\n25. Fair value neden tek doğru sayı değildir?\n26. Margin of safety neyi azaltmayı amaçlar, neyi garanti etmez?\n27. Stock screener sonucu neden yatırım kararı değildir?\n28. ETF etiketi neden otomatik çeşitlendirme anlamına gelmez?\n29. DCA hangi riski yayar, hangi riski ortadan kaldırmaz?\n30. Core–satellite portföy yaklaşımının görev ayrımı nedir?\n31. Ünlü yatırımcı holdingleri neden kör kopyalanmamalıdır?\n32. Tam temel analiz iş akışının dokuz aşaması nelerdir?33. Bölüm 18’in Bölüm 19’a bıraktığı ana konular nelerdir?",
+    "source_extract_summary": [
+      "Assets = liabilities + equity eşitliği neyi anlatır?",
+      "Operating, investing ve financing cash flow nasıl ayrılır?",
+      "FCF tanımı neden veri sağlayıcısına göre doğrulanmalıdır?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  }
+]

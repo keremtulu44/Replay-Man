@@ -1,0 +1,4 @@
+dimension,rows,disposition
+cross_market,5439,context_dependent
+session_weekday,3600,context_dependent
+rates_bonds,0,external_data_required

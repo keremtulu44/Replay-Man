@@ -1,0 +1,819 @@
+[
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0395",
+    "page": 395,
+    "chapter": 19,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve \nKaldıraç\nAğ ve varlık mantığından güvenli emir, custody ve kaldıraç yönetimine",
+    "source_extract_summary": [
+      "BÖLÜM 19 Kripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç Ağ ve varlık mantığından güvenli emir, custody ve kaldıraç yönetimine"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0396",
+    "page": 396,
+    "chapter": 19,
+    "section": "19.1 — Kripto İşlemini Katmanlarına Ayırmak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  381\nBu Bölümün Amacı\nKripto grafiği diğer finansal grafikler gibi fiyat, hacim ve yapı üretir; fakat işlemin operasyon katmanı \nbelirgin biçimde farklıdır. Aynı BTC etiketi bir borsada spot varlık, başka bir panelde perpetual futures \nsözleşmesi, bir wallet’ta on-chain bakiye veya bir ETF içinde dolaylı maruz kalma anlamına gelebilir.\nBu bölümün amacı blockchain mühendisliği öğretmek veya coin tavsiyesi vermek değildir. Hangi \nvarlığı, hangi pair ile, hangi venue ve ürün üzerinde işlem yaptığınızı doğrulayacak; fonlama, custody, \nemir, kaldıraç ve güvenlik adımlarını tek çalışma akışına bağlayacaksınız.\nBÖLÜM SONUNDA\n• Ağ, varlık, pair, venue ve ürün katmanlarını birbirinden ayırabileceksiniz.\n• Bitcoin, Ethereum, coin, token, altcoin ve stablecoin rollerini karşılaştırabileceksiniz.\n• Supply, market cap ve FDV verilerini birim fiyat yanılgısına düşmeden okuyabileceksiniz.\n• BTC/USDT gibi pair’lerde base ve quote görevini açıklayabileceksiniz.\n• CEX, DEX, TradingView ve wallet görevlerini ayırabileceksiniz.\n• KYC, deposit, withdrawal, network ve custody kontrollerini uygulayabileceksiniz.\n• Spot ile futures/perpetual ürünleri ve liquidation riskini ayırabileceksiniz.\n• Market, limit ve stop emirlerinde spread, depth ve slippage etkisini kontrol edebileceksiniz.\n• Kripto işlemini teknik analiz kadar operasyon güvenliğiyle de kaydedebileceksiniz.\n19.1 Kripto İşlemini Katmanlarına Ayırmak\nCrypto trade’i tek bir “coin alım satımı” olarak görmem. Önce ağ, sonra varlık, pair, işlem venue’sü, \nürün, emir ve custody katmanlarını ayrı ayrı yazarım. Bir katmandaki hata diğer katmandaki doğru \nanalizi geçersiz kılabilir.\nKatman Sorduğum soru Örnek çıktı\nAğ İşlem hangi blockchain veya ledger \nüzerinde sonuçlanıyor?\nBitcoin network, Ethereum network veya \nplatform içi kayıt.\nVarlık Ne alıp satıyorum; coin mi, token mı, \nstablecoin mi?\nBTC, ETH, USDT veya başka token.\nPair Varlık hangi quote karşısında ölçülüyor? BTC/USDT veya ETH/BTC.\nVenue / feed Fiyat ve emir hangi borsa ya da havuzda \noluşuyor?\nCEX order book veya DEX liquidity pool.\nÜrün Varlığın kendisi mi, sözleşme mi? Spot BTC veya BTC perpetual futures.\nEmir Nasıl dolmak istiyorum? Market, limit veya stop.\nCustody Anahtar ve çekim yetkisi kimde? Exchange custody veya self-custody wallet.\nTablo 19.1 – Kripto işleminin yedi katmanı\nEYLEM DİLİ\nGrafiği açtığımda yalnız BTCUSDT yazısını okumam. Exchange adı, spot/futures etiketi, timeframe, \nquote asset ve veri kaynağını not ederim. Emirden önce aynı bilgiyi borsa panelinde ikinci kez \ndoğrularım.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Kripto grafiği diğer finansal grafikler gibi fiyat, hacim ve yapı üretir; fakat işlemin operasyon katmanı belirgin biçimde farklıdır.",
+      "Aynı BTC etiketi bir borsada spot varlık, başka bir panelde perpetual futures sözleşmesi, bir wallet’ta on-chain bakiye veya bir ETF içinde dolaylı maruz kalma anlamına gelebilir.",
+      "Bu bölümün amacı blockchain mühendisliği öğretmek veya coin tavsiyesi vermek değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0397",
+    "page": 397,
+    "chapter": 19,
+    "section": "19.1 — Kripto İşlemini Katmanlarına Ayırmak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  382\nDOĞRU BİLİNEN YANLIŞ\nMit: BTC grafiği her platformda aynı ürünü ve aynı fiyatı gösterir.\nGerçeklik: Exchange feed, quote asset, spot/futures sözleşmesi ve likidite yapısı fiyatı ve \nuygulamayı değiştirebilir.\nŞekil 19.1 – Kripto işleminin katmanları\nUygulama Görseli 19.1 – TradingView symbol bilgisinde exchange, pair ve spot/perpetual etiketinin; borsa \nemir panelinde aynı alanların işaretlendiği gerçek ekran karşılaştırması. Temsilî eğitim şeması.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: BTC grafiği her platformda aynı ürünü ve aynı fiyatı gösterir.",
+      "Gerçeklik: Exchange feed, quote asset, spot/futures sözleşmesi ve likidite yapısı fiyatı ve uygulamayı değiştirebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0398",
+    "page": 398,
+    "chapter": 19,
+    "section": "19.3 — Bitcoin, Ethereum, Coin, Token ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  383\n19.2 Blockchain, Ağ ve Merkeziyetsizlik \nDerecesi\nBlockchain (işlemleri sıralı kayıt yapısında tutan ve network katılımcıları tarafından doğrulanan dijital \nledger), kripto varlığın hangi kayıt ve transfer ortamında yaşadığını açıklar. Cryptography (bilgiyi ve \nyetkiyi matematiksel anahtarlarla doğrulama) kayıt güvenliğinin parçalarından biridir; fakat kullanıcı \nhatasını veya kötü platform seçimini otomatik olarak geri almaz.\nKavram Aksiyon tanımı İşlem açısından soru\nLedger / blockchain İşlemlerin hangi kayıt sistemi üzerinde \ntutulduğunu doğrulamak.\nTransfer on-chain mi, yalnız borsa içi \nbakiye hareketi mi?\nNode / validator Network kurallarını doğrulayan katılımcı \nyapısını anlamak.\nKontrol az sayıda katılımcıda yoğunlaşıyor \nmu?\nDecentralization Kontrol, doğrulama ve yönetim gücünün \nne kadar dağıldığını incelemek.\n“Merkeziyetsiz” etiketi hangi ölçüte \ndayanıyor?\nConfirmation / finality Transferin kabul edilmesi için gereken ağ \nonaylarını izlemek.\nBorsa kaç confirmation sonrası bakiyeyi \naçıyor?\nNetwork fee On-chain işlemi gerçekleştirme maliyetini \nkontrol etmek.\nTutar için fee orantısız mı; ağ yoğun mu?\nTablo 19.2 – Ağ katmanı kontrolü\nEKRANDA NE ARIYORUM?\n• Deposit veya withdrawal ekranında seçilen network adı.\n• Minimum çekim, network fee ve beklenen confirmation bilgisi.\n• Token’ın farklı ağlarda aynı ticker ile sunulup sunulmadığı.\n• Transfer geçmişinde transaction ID / hash ve durum.\n• Borsa içi transfer ile on-chain transferin ayrı seçenek olup olmadığı.\nDOĞRU BİLİNEN YANLIŞ\nMit: Blockchain işlemi olduğuna göre yanlış adrese gönderim de otomatik geri döner.\nGerçeklik: Kripto transferlerinde geri alma mekanizması ağ, platform ve karşı taraf koşullarına \nbağlıdır; kullanıcı transferi göndermeden önce varlık, network ve adresi doğrulamalıdır.\n19.3 Bitcoin, Ethereum, Coin, Token ve \nStablecoin\nBütün kripto varlıkları aynı ekonomik göreve sahip değildir. Bitcoin çoğunlukla payment/store-of-value \nanlatısıyla; Ethereum gibi smart-contract platformları uygulama ve network kullanım ekonomisiyle; \nstablecoin’ler ise bir fiat değere yakın kalma hedefiyle kullanılır. Altcoin, Bitcoin dışındaki geniş varlık \nkümesini ifade eden şemsiye terimdir.",
+    "source_extract_summary": [
+      "19.2 Blockchain, Ağ ve Merkeziyetsizlik Derecesi Blockchain (işlemleri sıralı kayıt yapısında tutan ve network katılımcıları tarafından doğrulanan dijital ledger), kripto varlığın hangi kayıt ve transfer ortamında yaşadığını açıklar.",
+      "Cryptography (bilgiyi ve yetkiyi matematiksel anahtarlarla doğrulama) kayıt güvenliğinin parçalarından biridir; fakat kullanıcı hatasını veya kötü platform seçimini otomatik olarak geri almaz.",
+      "Kavram Aksiyon tanımı İşlem açısından soru Ledger / blockchain İşlemlerin hangi kayıt sistemi üzerinde tutulduğunu doğrulamak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0399",
+    "page": 399,
+    "chapter": 19,
+    "section": "19.3 — Bitcoin, Ethereum, Coin, Token ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  384\nKategori Temel görev / anlatı Araştırma sorusu\nBitcoin / payment-type coin Transfer, kıtlık ve store-of-value kullanımı. Arz kuralı, network güvenliği, likidite ve \ncustody nasıl?\nSmart-contract platform Uygulama, token, işlem ücreti ve network \nactivity.\nKullanım, ücret, validator ve rekabet yapısı \nne?\nToken Başka bir network üzerinde çalışan dijital \nvarlık veya hak.\nContract, utility, supply ve holder \nyoğunluğu ne?\nAltcoin Bitcoin dışındaki geniş coin/token kümesi. Kategori değil; projenin gerçek görevi ne?\nMeme coin Topluluk ve dikkat kaynaklı yüksek \nhareketli varlık.\nLikidite, concentration, utility ve event riski \nne?\nStablecoin Bir fiat veya referans değere yakın kalmayı \nhedefleyen crypto asset.\nPeg, backing/issuer, redemption, venue ve \nliquidity riski ne?\nTablo 19.3 – Kripto varlık türleri\nSTABLECOIN KONTROLÜ\n• Hangi referans değere bağlı kalmayı hedefliyor?\n• Backing veya mekanizma nasıl açıklanıyor?\n• İhraççı, platform ve redemption koşulları nedir?\n• İşlem pair’inde quote olarak mı, geçici park alanı olarak mı kullanılıyor?\n• Fiyat 1 birimden saparsa plan ne?\nDOĞRU BİLİNEN YANLIŞ\nMit: Stablecoin, banka hesabındaki doların blockchain üzerindeki risksiz kopyasıdır.\nGerçeklik: Stablecoin’in değere yakın kalması bir tasarım ve piyasa hedefidir; backing, ihraççı, \nliquidity, platform ve teknik risk ayrıca incelenir.",
+    "source_extract_summary": [
+      "Kategori Temel görev / anlatı Araştırma sorusu Bitcoin / payment-type coin Transfer, kıtlık ve store-of-value kullanımı.",
+      "Arz kuralı, network güvenliği, likidite ve custody nasıl?",
+      "Smart-contract platform Uygulama, token, işlem ücreti ve network activity."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Konum ve seviye yaşam döngüsü",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0400",
+    "page": 400,
+    "chapter": 19,
+    "section": "19.4 — Tokenomics, Supply, Market Cap ve FDV",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  385\nŞekil 19.2 – Kripto varlık sınıfları\nUygulama Görseli 19.2 – BTC, ETH, USDT ve temsili altcoin için network, kullanım, supply ve market \nbilgilerini yan yana gösteren veri ekranı. Temsilî eğitim şeması.\n19.4 Tokenomics, Supply, Market Cap ve FDV\nTokenomics (bir coin veya token’ın arz, dağıtım, kullanım ve teşvik kurallarını inceleme), “birim fiyat \nucuz mu?” sorusundan önce gelir. Market cap yaklaşık olarak price × circulating supply; FDV ise fiyatın \nbelirtilen maksimum veya fully diluted supply ile çarpımını kullanır. Bu iki sayı aynı şeyi anlatmaz.",
+    "source_extract_summary": [
+      "19.4 Tokenomics, Supply, Market Cap ve FDV Tokenomics (bir coin veya token’ın arz, dağıtım, kullanım ve teşvik kurallarını inceleme), “birim fiyat ucuz mu?” sorusundan önce gelir.",
+      "Market cap yaklaşık olarak price × circulating supply; FDV ise fiyatın belirtilen maksimum veya fully diluted supply ile çarpımını kullanır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Dalga ve piyasa döngüsü modellerini test edilebilir varyantlara ayırma"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0401",
+    "page": 401,
+    "chapter": 19,
+    "section": "19.5 — Trading Pair: Base, Quote ve Fiyat",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  386\nMetrik Ne ölçer? Ana risk\nCirculating supply Piyasada dolaşımda olduğu bildirilen \nmiktar.\nVeri tanımı ve kilitli/bridge varlık farkı.\nMax / total supply Protokol veya kaynakta belirtilen toplam \nsınır.\nKural değişimi, mint/burn ve belirsiz üst \nsınır.\nMarket cap Price × circulating supply ile yaklaşık \nmevcut piyasa değeri.\nLikiditeyi veya tüm arzın aynı fiyattan \nsatılabilirliğini göstermez.\nFDV Price × fully diluted/max supply ile teorik \ngeniş arz değeri.\nGelecek unlock ve dilution zamanlaması.\nUnlock / emission Yeni token’ın dolaşıma girme takvimi. Yeni supply mevcut talebi aşabilir.\nHolder concentration Arzın büyük cüzdanlarda yoğunlaşması. Satış, governance ve likidite riski.\nUtility / demand Token’a neden ihtiyaç duyulduğunu \naçıklamak.\nKullanım anlatısı gerçek demand \nüretmeyebilir.\nTablo 19.4 – Tokenomics kontrol kartı\nVAKA ANALİZİ — “0,02 DOLARLIK COIN ÇOK UCUZ”\nTemsili token 0,02 USDT’den işlem görüyor; fakat circulating supply 50 milyar, FDV çok yüksek ve \naltı ay içinde büyük unlock var. Birim fiyatı düşük olduğu için “100 kat kolay” demem. Market cap, \nfuture dilution, holder concentration ve order-book depth’i kontrol ederim.\nDOĞRU BİLİNEN YANLIŞ\nMit: Bir coin’in birim fiyatı düşükse piyasa değeri de küçüktür ve yükselmesi daha kolaydır.\nGerçeklik: Birim fiyat arzdan bağımsız okunamaz; market cap, FDV ve liquidity potansiyel hareket \nalanını daha anlamlı gösterir.\n19.5 Trading Pair: Base, Quote ve Fiyat \nOkuması\nTrading pair (bir varlığın başka bir varlık cinsinden fiyatını gösterme), her kripto emrinin temelidir. \nBTC/USDT pair’inde BTC base asset; USDT quote asset’tir. Ekrandaki fiyat, bir BTC almak için kaç USDT \ngerektiğini gösterir.\nPair Base Quote Fiyat yükselirse\nBTC/USDT BTC USDT BTC, USDT karşısında değer \nkazanır.\nETH/USDT ETH USDT ETH, USDT karşısında değer \nkazanır.\nETH/BTC ETH BTC ETH, BTC’ye göre relatif olarak \ngüçlenir.\nBTC/USD BTC USD BTC, fiat USD karşısında değer \nkazanır.",
+    "source_extract_summary": [
+      "Ana risk Circulating supply Piyasada dolaşımda olduğu bildirilen miktar.",
+      "Veri tanımı ve kilitli/bridge varlık farkı.",
+      "Max / total supply Protokol veya kaynakta belirtilen toplam sınır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Konum ve seviye yaşam döngüsü",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Kullanıcının OB/FVG sistemi için kaynak ve olay bağlantısı",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0402",
+    "page": 402,
+    "chapter": 19,
+    "section": "19.6 — CEX, DEX, Broker ve Analiz Platformu",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  387\nTablo 19.5 – Base ve quote okuması\nEKRANDA NE ARIYORUM?\n• Pair’in tam adı ve quote asset.\n• Spot/futures etiketi ve sözleşme tipi.\n• Exchange veya data feed adı.\n• Tick size, quantity step ve minimum notional.\n• Pair’in 24 saatlik hacmi, spread’i ve order-book depth’i.\nVAKA ANALİZİ — DOĞRU YÖN, YANLIŞ PAIR\nETH’nin BTC’ye göre güçleneceğini düşünüyorum; fakat ETH/USDT grafiğini izliyorum. ETH, USD \nkarşısında yükselirken BTC daha hızlı yükselirse ETH/BTC düşebilir. Tezimi “ETH genel olarak \nyükselecek” yerine hangi quote’a göre relatif güç beklediğimi yazarım.\nŞekil 19.3 – Trading pair, base ve quote\n19.6 CEX, DEX, Broker ve Analiz Platformu \nAyrımı\nCentralized exchange / CEX (hesap, emir defteri ve çoğu zaman platform custody ile işlem sağlama), \ndecentralized exchange / DEX (wallet bağlantısı ve on-chain liquidity pool veya smart contract \nüzerinden takas sağlama), broker ve chart platform aynı görevde değildir.\nAraç Ana görev Başlıca kontrol\nCEX Account, order book, fiat/crypto funding \nve custody hizmeti.\nJurisdiction, KYC, fee, withdrawal, security \nve counterparty.\nDEX Wallet üzerinden on-chain swap veya \nliquidity etkileşimi.\nNetwork, gas, smart-contract, token \ncontract ve slippage.",
+    "source_extract_summary": [
+      "• Spot/futures etiketi ve sözleşme tipi.",
+      "• Tick size, quantity step ve minimum notional.",
+      "• Pair’in 24 saatlik hacmi, spread’i ve order-book depth’i."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0403",
+    "page": 403,
+    "chapter": 19,
+    "section": "19.6 — CEX, DEX, Broker ve Analiz Platformu",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  388\nAraç Ana görev Başlıca kontrol\nWallet Private key/seed veya platform yetkisiyle \nvarlık erişimini yönetmek.\nCustody modeli, backup ve doğru network.\nTradingView / chart platform Feed, chart, indicator, alert ve analysis. Symbol, exchange, spot/futures ve \ngecikme.\nBroker / gateway Belirli ürün ve piyasalara emir erişimi. Gerçek underlying mı, CFD/derivative mı?\nTablo 19.6 – Kripto araçlarının görev ayrımı\nDOĞRU BİLİNEN YANLIŞ\nMit: TradingView’de BTC grafiğini açmak veya wallet bağlamak, işlemin hangi borsada ve hangi \ncustody altında gerçekleştiğini önemsiz kılar.\nGerçeklik: Analiz, execution ve custody ayrı sistemlerdir; her birinin veri, erişim ve karşı taraf riski \nfarklıdır.",
+    "source_extract_summary": [
+      "Araç Ana görev Başlıca kontrol Wallet Private key/seed veya platform yetkisiyle varlık erişimini yönetmek.",
+      "Custody modeli, backup ve doğru network.",
+      "TradingView / chart platform Feed, chart, indicator, alert ve analysis."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0404",
+    "page": 404,
+    "chapter": 19,
+    "section": "19.7 — Hesap, KYC, Yetki ve Borsa Seçimi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  389\nŞekil 19.4 – CEX, DEX ve wallet görevleri\nUygulama Görseli 19.3 – CEX order book, DEX swap ve self-custody wallet ana ekranlarının kişisel bilgi \niçermeyen görev karşılaştırması. Temsilî eğitim şeması.\n19.7 Hesap, KYC, Yetki ve Borsa Seçimi\nKYC / Know Your Customer (platformun kimlik ve uygunluk doğrulaması yapması), borsanın ürün ve \nçekim yetkileriyle bağlantılı olabilir. Doğrulama süresi, belge türü ve erişilebilir ürünler ülke ve \nplatforma göre değişebileceği için tek bir platform ekranı evrensel kural olarak kabul edilmemelidir.",
+    "source_extract_summary": [
+      "19.7 Hesap, KYC, Yetki ve Borsa Seçimi KYC / Know Your Customer (platformun kimlik ve uygunluk doğrulaması yapması), borsanın ürün ve çekim yetkileriyle bağlantılı olabilir.",
+      "Doğrulama süresi, belge türü ve erişilebilir ürünler ülke ve platforma göre değişebileceği için tek bir platform ekranı evrensel kural olarak kabul edilmemelidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0405",
+    "page": 405,
+    "chapter": 19,
+    "section": "19.8 — Fonlama, Deposit–Withdrawal ve Network",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  390\nBorsa seçim alanı Soracağım soru Kırmızı bayrak\nYetki / jurisdiction Platform benim ülkemde hangi hizmetleri \nsunuyor?\nÜrün erişimi ve çekim koşulları belirsiz.\nKYC ve privacy Hangi veri isteniyor, kim saklıyor, erişim \nnasıl korunuyor?\nSahte doğrulama linki veya resmi olmayan \nuygulama.\nSecurity 2FA, withdrawal whitelist, session/device \nkontrolü var mı?\nYalnız SMS ve zayıf parola kullanımı.\nFee schedule Maker/taker, deposit/withdrawal ve \nfunding maliyetleri nedir?\nBonus dili ücretleri görünmez kılıyor.\nLiquidity İlgili pair’de gerçek volume, spread ve \ndepth nasıl?\nYüksek görünen volume ama zayıf fill.\nWithdrawal Network, limit, bekleme ve risk kontrolleri \nnasıl?\nÇekim uzun süre kapalı veya açıklamasız.\nProduct scope Spot, futures, margin veya diğer ürünler \nayrı mı?\nSpot bakiyesi ile futures margin’i \nkarıştırmak.\nTablo 19.7 – Borsa seçim ve hesap kontrolü\nEKRANDA NE ARIYORUM?\n• URL ve uygulamanın resmi kaynağı.\n• Account security, login history ve active sessions.\n• KYC status ve ürün erişim sınırları.\n• Fee schedule ve withdrawal ücret tablosu.\n• Spot, funding ve derivatives wallet bakiyelerinin ayrı gösterimi.\nVAKA ANALİZİ — BONUS YERİNE TOPLAM MALİYET\nBir borsa yüksek kayıt bonusu sunuyor; fakat kullandığım pair’de spread geniş, withdrawal fee \nyüksek ve futures funding pahalı. Platformu promosyonla değil; execution, güvenlik, ürün, çekim \nve toplam maliyetle karşılaştırırım.\n19.8 Fonlama, Deposit–Withdrawal ve Network \nSeçimi\nFunding (hesaba fiat veya crypto değer aktarma), crypto deposit/withdrawal sırasında varlık, network \nve adresin birlikte doğrulanmasını gerektirir. Aynı USDT ticker’ı birden fazla network üzerinde \nbulunabilir; gönderen ve alan tarafın aynı ağı desteklemesi zorunludur.\nAdım Kontrol Neden\nVarlık BTC, ETH, USDT veya diğer token tam adı. Benzer ticker veya wrapped asset hatası.\nNetwork Gönderen ve alan platformun desteklediği \naynı ağ.\nYanlış ağ bakiyenin otomatik \ngörünmemesine yol açabilir.\nAddress Kopyalanan adresin ilk/son karakterleri ve \nformatı.\nClipboard malware veya eksik karakter \nriski.",
+    "source_extract_summary": [
+      "Borsa seçim alanı Soracağım soru Kırmızı bayrak Yetki / jurisdiction Platform benim ülkemde hangi hizmetleri sunuyor?",
+      "Ürün erişimi ve çekim koşulları belirsiz.",
+      "KYC ve privacy Hangi veri isteniyor, kim saklıyor, erişim nasıl korunuyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Göreceli katılım ve hacim özellikleri",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0406",
+    "page": 406,
+    "chapter": 19,
+    "section": "19.8 — Fonlama, Deposit–Withdrawal ve Network",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  391\nAdım Kontrol Neden\nMemo / tag Platform istiyorsa doğru ek alan. Bazı ortak adres sistemlerinde hesaba \nyönlendirme için gerekir.\nFee / minimum Network fee, platform fee ve minimum \nwithdrawal.\nKüçük tutarda maliyet orantısız olabilir.\nTest transfer Önce küçük tutar ve başarılı credit \nkontrolü.\nBüyük operasyon hatasını sınırlamak.\nRecord Transaction ID/hash, saat, network ve \nekran görüntüsü.\nDestek ve muhasebe takibi.\nTablo 19.8 – Kripto transfer kontrolü\nDOĞRU BİLİNEN YANLIŞ\nMit: Adres doğruysa network seçimi önemli değildir.\nGerçeklik: Varlığın aynı ticker’ı farklı network’lerde taşınabilir; gönderen ve alan sistemin network \nuyumu ayrıca doğrulanmalıdır.",
+    "source_extract_summary": [
+      "Adım Kontrol Neden Memo / tag Platform istiyorsa doğru ek alan.",
+      "Bazı ortak adres sistemlerinde hesaba yönlendirme için gerekir.",
+      "Fee / minimum Network fee, platform fee ve minimum withdrawal."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0407",
+    "page": 407,
+    "chapter": 19,
+    "section": "19.9 — Wallet, Custody, Private Key ve Seed",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  392\nŞekil 19.5 – Transfer kontrol zinciri\nUygulama Görseli 19.4 – Deposit ekranında coin, network, address, memo ve confirmation alanlarının; \nwithdrawal ekranında fee ve minimum tutarın işaretlendiği gerçek örnek. Temsilî eğitim şeması.\n19.9 Wallet, Custody, Private Key ve Seed \nPhrase\nWallet (blockchain üzerindeki adres ve anahtarlarla etkileşimi yöneten araç), coin’leri fiziksel dosya \ngibi içine koymaz; erişim ve işlem imzalama yetkisini yönetir. Custody sorusu “Bakiyeyi nerede \ngörüyorum?” değil, “İşlem yetkisini sağlayan anahtar veya hesap kontrolü kimde?” sorusudur.",
+    "source_extract_summary": [
+      "19.9 Wallet, Custody, Private Key ve Seed Phrase Wallet (blockchain üzerindeki adres ve anahtarlarla etkileşimi yöneten araç), coin’leri fiziksel dosya gibi içine koymaz; erişim ve işlem imzalama yetkisini yönetir.",
+      "Custody sorusu “Bakiyeyi nerede görüyorum?” değil, “İşlem yetkisini sağlayan anahtar veya hesap kontrolü kimde?” sorusudur."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0408",
+    "page": 408,
+    "chapter": 19,
+    "section": "19.10 — Hesap ve Cüzdan Güvenlik Protokolü",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  393\nModel Kontrol kimde? Avantaj / sorumluluk\nExchange custody Platform account ve iç kontrol sistemi. Kolay execution; counterparty, withdrawal \nve account riskini kabul etmek.\nHot self-custody wallet Private key/seed kullanıcıda, internet bağlı \ncihazda.\nHızlı kullanım; phishing, malware ve onay \nriski.\nHardware / cold wallet Anahtar çevrimdışı veya özel cihazda \nkorunur.\nUzun vadeli saklama; backup, fiziksel \nerişim ve işlem doğrulama sorumluluğu.\nSmart-contract wallet Yetki akıllı sözleşme kurallarıyla \nyönetilebilir.\nEk kontrol seçenekleri; contract ve \nrecovery tasarım riski.\nTablo 19.9 – Custody modelleri\nPRIVATE KEY VE SEED GÜVENLİĞİ\n• Private key veya seed phrase hiçbir kişiye, destek görevlisine ya da web formuna verilmez.\n• Seed’in ekran görüntüsü veya bulut notu gibi kolay kopyalanabilir yerde tutulması ayrıca risk \nüretir.\n• Wallet işlemi onaylanırken address, network, token ve harcama yetkisi okunur.\n• Recovery yöntemi küçük tutarla ve güvenli ortamda test edilir.\n• Büyük tutar ile aktif trading bakiyesi aynı custody politikasında tutulmak zorunda değildir.\nDOĞRU BİLİNEN YANLIŞ\nMit: Self-custody her durumda otomatik olarak daha güvenlidir.\nGerçeklik: Counterparty riskini azaltabilir; fakat anahtar kaybı, phishing, yanlış imza ve backup \nhatası sorumluluğunu kullanıcıya taşır.\n19.10 Hesap ve Cüzdan Güvenlik Protokolü\nKripto güvenliği tek parola adımı değildir. Kimlik avı, sahte uygulama, kötü cihaz oturumu, yanlış \nwallet approval ve sosyal mühendislik birbirinden farklı saldırı yollarıdır. İşlem stratejisi kadar erişim \nstratejisi de yazılı olmalıdır.\nGüvenlik katmanı Varsayılan kontrol Olay sonrası\nURL / app Bookmark veya resmi mağaza; domain’i \nkarakter karakter kontrol.\nŞüpheli oturumları kapat, parolayı güvenli \ncihazdan değiştir.\nPassword Benzersiz ve uzun parola; parola yöneticisi. Aynı parola kullanılan diğer hesapları da \ndeğiştir.\n2FA Mümkünse authenticator/security key; \nbackup code güvenli saklama.\n2FA reset ve account freeze prosedürünü \nbil.\nEmail Ayrı güçlü parola ve 2FA; forwarding/filter \nkontrolü.\nLogin history ve recovery seçeneklerini \nincele.\nWithdrawal Whitelist, delay ve yeni adres bildirimi. Çekimleri durdurma ve support incident \nkaydı.\nDevice / session Aktif cihaz ve API key listesi. Bilinmeyen session/API key’i iptal et.\nWallet approval Contract, spender ve amount kontrolü. Gereksiz approvals’ı revoke et; varlığı \ngüvenli adrese taşı.",
+    "source_extract_summary": [
+      "Avantaj / sorumluluk Exchange custody Platform account ve iç kontrol sistemi.",
+      "Kolay execution; counterparty, withdrawal ve account riskini kabul etmek.",
+      "Hot self-custody wallet Private key/seed kullanıcıda, internet bağlı cihazda."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Model sonucu ile uygulama hatasını ayıran deney günlüğü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0409",
+    "page": 409,
+    "chapter": 19,
+    "section": "19.11 — Spot Trading: Varlık, Bakiye ve Emir",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  394\nTablo 19.10 – Kripto güvenlik protokolü\nDOĞRU BİLİNEN YANLIŞ\nMit: 2FA açık olduğu için hesap tamamen güvendedir.\nGerçeklik: 2FA önemli bir katmandır; phishing, email compromise, kötü API key, SIM saldırısı veya \nyanlış wallet imzası gibi diğer riskleri tek başına kapatmaz.\nVAKA ANALİZİ — “DESTEK GÖREVLİSİ” SEED İSTİYOR\nBir mesaj, hesabımdaki sorunu çözmek için seed phrase veya screen-share istiyor. İşlemi durdurur, \nmesajdaki linki kullanmadan resmi uygulamaya girer ve resmi support kanalını kendim açarım. \nSeed isteyen iletişimi güvenlik olayı sayarım; hiçbir açıklama bunu normalleştirmez.\n19.11 Spot Trading: Varlık, Bakiye ve Emir \nUygulaması\nSpot market (varlığın kendisinin belirli pair üzerinden alınıp satılması), futures sözleşmesinden daha \nbasit görünür; fakat pair, fee, custody ve fill hataları hâlâ mümkündür. Spot bakiyesi borsa içinde \n“funding”, “spot” veya başka wallet bölümlerinde ayrı tutulabilir.\nAlan Ne kontrol edilir? Hata örneği\nAvailable balance Emir için kullanılabilir base/quote miktarı. Toplam bakiye var ama spot wallet’a \naktarılmamış.\nOrder book Bid/ask, spread ve depth. Büyük market order beklenenden kötü \nortalama fiyata dolar.\nQuantity / notional Coin miktarı veya quote tutarı. 100 USDT ile 100 BTC quantity alanını \nkarıştırmak.\nMaker/taker fee Limit emrin maker olacağı garanti mi? Marketable limit taker olarak dolar.\nMinimums Min quantity, step ve minimum notional. Emir küçük olduğu için reddedilir.\nOpen order / fill Emrin ne kadarı doldu? Kısmi fill’i tam pozisyon sanmak.\nCustody plan Trading bakiyesi borsada ne kadar \nkalacak?\nUzun vadeli tutarı sürekli aktif hesapta \nbırakmak.\nTablo 19.11 – Spot emir paneli kontrolü\nEKRANDA NE ARIYORUM?\n• Spot etiketi ve doğru pair.\n• Bid, ask, spread ve yakın order-book depth.\n• Quantity birimi ile total/notional birimi.\n• Estimated fee ve fill ortalaması.\n• Open orders, order history ve trade history ayrımı.",
+    "source_extract_summary": [
+      "Gerçeklik: 2FA önemli bir katmandır; phishing, email compromise, kötü API key, SIM saldırısı veya yanlış wallet imzası gibi diğer riskleri tek başına kapatmaz.",
+      "VAKA ANALİZİ — “DESTEK GÖREVLİSİ” SEED İSTİYOR Bir mesaj, hesabımdaki sorunu çözmek için seed phrase veya screen-share istiyor.",
+      "İşlemi durdurur, mesajdaki linki kullanmadan resmi uygulamaya girer ve resmi support kanalını kendim açarım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0410",
+    "page": 410,
+    "chapter": 19,
+    "section": "19.12 — Futures, Perpetual, Margin ve Funding",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  395\nVAKA ANALİZİ — MARKET ORDER SLIPPAGE\nTemsili altcoin’de ekranda son fiyat 1,00 USDT; fakat ask tarafı ince ve 10.000 USDT’lik market buy \nfarklı kademeleri tüketiyor. Gerçek average fill 1,04 oluyor. Teknik stop mesafem ve R:R emrin \nardından bozuluyor. Emirden önce depth ve tahmini slippage kontrolü yaparım.\n19.12 Futures, Perpetual, Margin ve Funding\nFutures contract (belirli koşullarla underlying fiyatını izleyen türev sözleşme) varlığın kendisi değildir. \nPerpetual futures (sabit expiration olmadan çalışan yaygın kripto türevi), spot fiyata yakınlığı korumak \niçin funding payment gibi mekanizmalar kullanabilir. Ürün şartları borsaya göre değişir.\nKavram Aksiyon tanımı Kontrol\nUnderlying / index Sözleşmenin hangi spot veya index fiyatını \nizlediğini bulmak.\nMark price, last price ve index price \nayrımı.\nMargin Pozisyonu destekleyen teminatı görmek. Isolated mı cross mu; hangi bakiye riskte?\nLeverage Notional exposure’ı teminata göre \nbüyütmek.\nGerçek risk ve liquidation mesafesi.\nPerpetual Expiration olmayan sözleşme türünü \ntanımak.\nFunding zamanı ve oranı.\nFunding payment Long–short dengesi için periyodik \nödeme/alım.\nPozisyon süresi boyunca toplam maliyet.\nMark price Liquidation/PNL hesabında kullanılabilen \nreferans fiyat.\nLast price ile fark.\nContract size Bir contract veya quantity’nin exposure \nanlamı.\nCoin-margined ve stablecoin-margined \nfarkı.\nTablo 19.12 – Futures ve perpetual terimleri\nDOĞRU BİLİNEN YANLIŞ\nMit: Futures panelinde BTC long açınca spot BTC satın almış olurum.\nGerçeklik: Futures pozisyonu, BTC fiyatını izleyen sözleşme exposure’ıdır; custody, funding, margin \nve liquidation koşulları spot sahiplikten farklıdır.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — MARKET ORDER SLIPPAGE Temsili altcoin’de ekranda son fiyat 1,00 USDT; fakat ask tarafı ince ve 10.000 USDT’lik market buy farklı kademeleri tüketiyor.",
+      "Teknik stop mesafem ve R:R emrin ardından bozuluyor.",
+      "Emirden önce depth ve tahmini slippage kontrolü yaparım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0411",
+    "page": 411,
+    "chapter": 19,
+    "section": "19.13 — Leverage, Liquidation ve Stop İlişkisi",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  396\nŞekil 19.6 – Spot, futures ve liquidation ayrımı\nUygulama Görseli 19.5 – Aynı exchange’de BTC spot ve BTC perpetual symbol bilgilerinin; mark, index, \nfunding, leverage ve liquidation alanlarıyla karşılaştırıldığı gerçek ekran. Temsilî eğitim şeması.\n19.13 Leverage, Liquidation ve Stop İlişkisi\nLeverage, yön tahminini iyileştirmez; aynı sermaye ile daha büyük notional exposure oluşturur. \nPozisyon büyüdükçe aynı fiyat hareketinin para etkisi artar ve borsanın teminatı korumak için \nhesapladığı liquidation seviyesi yaklaşabilir.",
+    "source_extract_summary": [
+      "19.13 Leverage, Liquidation ve Stop İlişkisi Leverage, yön tahminini iyileştirmez; aynı sermaye ile daha büyük notional exposure oluşturur.",
+      "Pozisyon büyüdükçe aynı fiyat hareketinin para etkisi artar ve borsanın teminatı korumak için hesapladığı liquidation seviyesi yaklaşabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0412",
+    "page": 412,
+    "chapter": 19,
+    "section": "19.14 — Kriptoda Emir, Likidite, Volatilite ve Feed",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  397\nSıra Yapılacak Yanlış sıra\n1  Teknik geçersizlik Setup’ın bozulduğu fiyatı grafikten \nbelirlemek.\nÖnce leverage seçip stopu ona uydurmak.\n2  Risk bütçesi Bölüm 13’e göre kabul edilen para kaybını \nbelirlemek.\nBütün available margin’i kullanmak.\n3  Pozisyon büyüklüğü Stop mesafesi ve maliyetle quantity \nhesaplamak.\nLeverage slider’ını quantity sanmak.\n4  Margin modu Isolated/cross etkisini ve riskteki bakiyeyi \nanlamak.\nCross ile tüm bakiyeyi istemeden riske \natmak.\n5  Liquidation kontrolü Liquidation teknik stopun ötesinde ve \nanlamlı tamponla mı?\nStop liquidation’dan sonra kalıyor.\n6  Funding / fee Taşıma süresindeki maliyeti eklemek. Yalnız entry fee’ye bakmak.\nTablo 19.13 – Kaldıraçlı işlem sırası\nEYLEM DİLİ\nLeverage’ı “kaç kat kazanırım?” diye seçmem. Önce stop ve risk tutarını belirler, gerekli quantity’yi \nhesaplar; leverage’ı yalnız margin kullanımını düzenleyen son ayar olarak kontrol ederim.\nDOĞRU BİLİNEN YANLIŞ\nMit: Liquidation fiyatı stop-loss görevi görür; ayrıca stop koymaya gerek yoktur.\nGerçeklik: Liquidation, teminat yetersizliğinde platformun pozisyonu zorla kapatma sınırıdır. Teknik \nstop, setup bozulduğunda liquidation’dan önce çalışmalıdır.\nVAKA ANALİZİ — STOP LIQUIDATION’IN ALTINDA\nTemsili BTC long setup’ında teknik stop %6 aşağıda; seçtiğim yüksek leverage liquidation’ı %3 \naşağıya getiriyor. Teknik tez bozulmadan pozisyon zorla kapanabilir. Quantity veya leverage’ı \ndüşürür, margin modunu kontrol ederim; bunu stopu yukarı çekerek sahte hassasiyetle çözmem.\n19.14 Kriptoda Emir, Likidite, Volatilite ve Feed \nRiski\nMarket, limit ve stop emirlerinin temel mantığı değişmez; kriptoda 24/7 işlem, parçalı venue yapısı, \naltcoin liquidity’si ve farklı contract/feed seçenekleri uygulama riskini büyütebilir. Aynı grafik setup’ı \nyüksek hacimli BTC pair’i ile ince order book’lu küçük token’da aynı fill kalitesini üretmez.\nKonu Kriptoya özgü kontrol Eylem\nMarket order Spread, depth ve hızlı fiyat değişimi. Average fill ve slippage sınırı yaz.\nLimit order Kuyruk, kısmi fill ve marketable limit. No-fill ve partial-fill senaryosu hazırla.\nStop order Trigger price: last, mark veya index olabilir. Borsa sözleşmesindeki trigger kaynağını \ndoğrula.\n24/7 market Hafta sonu/uyku saatlerinde liquidity ve \nizleme.\nAlarm, stop ve operasyon sorumluluğunu \nönceden belirle.",
+    "source_extract_summary": [
+      "Sıra Yapılacak Yanlış sıra 1 Teknik geçersizlik Setup’ın bozulduğu fiyatı grafikten belirlemek.",
+      "Önce leverage seçip stopu ona uydurmak.",
+      "2 Risk bütçesi Bölüm 13’e göre kabul edilen para kaybını belirlemek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0413",
+    "page": 413,
+    "chapter": 19,
+    "section": "19.15 — Tam Kripto İşlem ve Operasyon İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  398\nKonu Kriptoya özgü kontrol Eylem\nExchange feed Aynı pair farklı venue’de farklı wick/hacim \nüretebilir.\nAna execution venue feed’ini referans al.\nSpot–futures basis Sözleşme spot fiyattan ayrışabilir. Basis/funding ve mark price kontrolü yap.\nNews / listing Ani volatility ve trading halt/delisting riski. Event takvimi ve borsa duyurularını izle.\nPrice difference Venue, fee, inventory ve latency farkı. Arbitraj sanmadan net maliyet ve \nexecution kontrol et.\nTablo 19.14 – Kripto emir ve piyasa davranışı\nDOĞRU BİLİNEN YANLIŞ\nMit: Kripto 24/7 açık olduğu için işlem fırsatı ve liquidity her zaman aynıdır.\nGerçeklik: Katılım, spread, depth, haber etkisi ve borsa operasyonu günün ve haftanın farklı \nbölümlerinde değişebilir.\nBORSALAR ARASI FİYAT FARKI\nAynı varlık farklı venue’lerde kısa süre farklı fiyatlanabilir. Bu fark; transfer süresi, fee, gas, spread, \nslippage, order-book depth, veri hatası ve karşı taraf riskinden arındırılmadan kâr değildir. \nStratejinin ayrıntısı Bölüm 24’te ele alınacaktır.\n19.15 Tam Kripto İşlem ve Operasyon İş Akışı\nKripto işlem planını teknik analiz ve operasyon güvenliği olarak iki ayrı kontrol listesine bölmem; ikisini \ntek zincirde uygularım. Çünkü doğru setup yanlış pair’de, yanlış network’te veya kontrolsüz futures \nmargin’iyle sermayeyi koruyamaz.\nAşama Yazılacak kontrol Çıktı\n1  Varlık Network, coin/token türü, supply ve temel \ngörev.\nVarlık kimliği.\n2  Pair Base, quote ve relatif fiyat tezi. Doğru symbol/pair.\n3  Venue Exchange/DEX, feed, liquidity, fee ve \naccess.\nExecution venue.\n4  Ürün Spot mı, futures/perpetual mı? Sözleşme ve custody tanımı.\n5  Güvenlik KYC, URL, 2FA, session, API ve withdrawal. Güvenli account state.\n6  Funding/custody Bakiye yeri, network, wallet ve çekim planı. Operasyon planı.\n7  Teknik setup Context, entry, invalidation ve target. İşlem tezi.\n8  Risk Quantity, leverage, margin, fee, funding ve \nliquidation.\nUygulanabilir risk kartı.\n9  Emir Order type, trigger, fill ve no-fill planı. Order ticket.\n10  İzleme/kayıt Fill, fee, PNL, transfer, incident ve \nscreenshot.\nİşlem günlüğü.",
+    "source_extract_summary": [
+      "Konu Kriptoya özgü kontrol Eylem Exchange feed Aynı pair farklı venue’de farklı wick/hacim üretebilir.",
+      "Ana execution venue feed’ini referans al.",
+      "Spot–futures basis Sözleşme spot fiyattan ayrışabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Deney ve strateji kartı",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0414",
+    "page": 414,
+    "chapter": 19,
+    "section": "19.15 — Tam Kripto İşlem ve Operasyon İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  399\nTablo 19.15 – Tam kripto işlem akışı\nVaka 1 — BTC/USDT Spot İşlemi\nAdım Temsili gözlem Karar\nKimlik Ana execution venue’de BTC/USDT spot, \nyüksek liquidity.\nPair ve spot etiketi doğrulandı.\nFon USDT spot wallet’ta; withdrawal \ngerekmiyor.\nNetwork riski yok, custody riski var.\nSetup Üst TF trend, orta TF pullback; kapanış \ntrigger bekleniyor.\nTeknik plan Bölüm 12 kurallarıyla.\nEmir Limit entry; partial/no-fill senaryosu. Kovalama yok.\nRisk Stop teknik seviyede; quantity Bölüm 13’e \ngöre.\nLeverage kullanılmıyor.\nSonrası Fill, fee ve custody süresi kayda alınır. Uzun vadeli bakiye ayrı custody planına \ntaşınabilir.\nTablo 19.16 – Spot işlem vaka akışı\nVaka 2 — ETH/USDT Perpetual İşlemi\nAdım Temsili gözlem Risk kapısı\nÜrün ETH/USDT perpetual; mark/index/funding \nalanları mevcut.\nSpot ETH sahipliği değildir.\nTez Alt TF short setup, üst TF direnç bölgesi. Trigger yoksa işlem yok.\nMargin Isolated seçildi; riskteki margin tanımlı. Cross kullanılmayacak.\nQuantity Teknik stop ve risk bütçesiyle hesaplandı. Leverage quantity yerine geçmez.\nLiquidation Teknik stopun belirgin ötesinde. Stop liquidation’dan önce çalışır.\nTaşıma Funding zamanı işlem süresine denk \ngeliyor.\nNet expectancy’ye maliyet eklenir.\nTablo 19.17 – Perpetual futures vaka akışı\nEYLEM DİLİ\nKripto emir ticket’ını doldurmadan önce “Ne alıyorum?”, “Neye karşı fiyatlanıyor?”, “Hangi venue \nve ürün?”, “Anahtar/custody kimde?” ve “Zorunlu kapanış nerede?” sorularını cevaplarım. Bu beş \nsorudan biri belirsizse işlemi bekletirim.",
+    "source_extract_summary": [
+      "Fon USDT spot wallet’ta; withdrawal gerekmiyor.",
+      "Network riski yok, custody riski var.",
+      "Setup Üst TF trend, orta TF pullback; kapanış trigger bekleniyor."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Deney ve strateji kartı",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0415",
+    "page": 415,
+    "chapter": 19,
+    "section": "19.15 — Tam Kripto İşlem ve Operasyon İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  400\nŞekil 19.7 – Tam kripto işlem ve operasyon akışı\nUygulama Görseli 19.6 – Varlık–pair–venue–ürün–güvenlik–risk–emir–kayıt alanlarını içeren doldurulmuş \ntemsili kripto işlem kartı. Temsilî eğitim şeması.\nHızlı Başvuru\nGördüğüm İlk kontrol Varsayılan eylem\nBTCUSDT symbol Exchange, spot/futures ve quote asset Kimliği doğrulamadan analiz yok.\n0,01 fiyatlı token Supply, market cap, FDV ve liquidity “Ucuz” etiketi kullanma.\nStablecoin bakiye Peg, issuer/backing, venue ve withdrawal Risksiz nakit sayma.",
+    "source_extract_summary": [
+      "Hızlı Başvuru Gördüğüm İlk kontrol Varsayılan eylem BTCUSDT symbol Exchange, spot/futures ve quote asset Kimliği doğrulamadan analiz yok.",
+      "0,01 fiyatlı token Supply, market cap, FDV ve liquidity “Ucuz” etiketi kullanma.",
+      "Stablecoin bakiye Peg, issuer/backing, venue ve withdrawal Risksiz nakit sayma."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0416",
+    "page": 416,
+    "chapter": 19,
+    "section": "19.15 — Tam Kripto İşlem ve Operasyon İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  401\nGördüğüm İlk kontrol Varsayılan eylem\nDeposit adresi Varlık, network, address, memo ve fee Küçük test transferi.\nExchange wallet Custody ve withdrawal yetkisi Uzun vadeli ve trading bakiyesini ayır.\nFutures paneli Contract, margin, funding ve mark price Spot sahipliği gibi davranma.\nYüksek leverage Stop, quantity, margin modu ve liquidation Leverage’ı son ayar yap.\nMarket order Spread, depth ve slippage Average fill’i önceden tahmin et.\nFarklı borsa fiyatı Fee, transfer, latency, liquidity ve veri Net maliyet olmadan arbitraj deme.\n24/7 işlem İzleme, alarm, liquidity ve event Her saat işlem zorunlu değil.\nTablo 19.18 – Hızlı başvuru\nKripto İşlem Kontrol Listesi\n Varlık, network ve token contract/kimlik bilgisi doğrulandı.\n Pair’in base ve quote asset’i yazıldı.\n Exchange/feed ile spot, futures veya perpetual etiketi doğrulandı.\n Borsa yetkisi, KYC status, fee ve withdrawal koşulları kontrol edildi.\n Account, email, 2FA, session, API ve withdrawal güvenliği gözden geçirildi.\n Deposit/withdrawal gerekiyorsa network, address, memo ve test transferi uygulandı.\n Custody modeli ve bakiyenin borsada kalma süresi planlandı.\n Spot/futures product terms, mark/index/funding alanları okundu.\n Teknik stop önce, quantity ve leverage sonra belirlendi.\n Liquidation teknik stopun ötesinde ve margin modu bilinçli seçildi.\n Order type, trigger source, partial/no-fill ve slippage senaryosu yazıldı.\n 24/7 izleme sorumluluğu alarm ve stop ile planlandı.\n Fill, fee, funding, order ID, transfer hash ve incident notu kaydedildi.\nTemel Sözlük\nTerim Aksiyon tanımı\nBlockchain / ledger İşlemlerin hangi network kayıt sistemi üzerinde tutulduğunu \ndoğrulamak.\nCryptography Yetki ve verinin matematiksel anahtarlarla doğrulanma mantığını \ntanımak.\nNode / validator Network kurallarını doğrulayan katılımcı yapısını incelemek.\nCoin Kendi network’ünün yerel varlığını tanımlamak.\nToken Başka bir network üzerindeki contract ile temsil edilen varlığı \ntanımlamak.\nAltcoin Bitcoin dışındaki geniş coin/token kümesini isimlendirmek; tek \nkalite sınıfı saymamak.\nStablecoin Referans değere yakın kalmayı hedefleyen crypto asset’in peg ve \nbacking riskini kontrol etmek.\nTokenomics Supply, distribution, unlock, utility ve incentive kurallarını \nincelemek.",
+    "source_extract_summary": [
+      "Gördüğüm İlk kontrol Varsayılan eylem Deposit adresi Varlık, network, address, memo ve fee Küçük test transferi.",
+      "Exchange wallet Custody ve withdrawal yetkisi Uzun vadeli ve trading bakiyesini ayır.",
+      "Futures paneli Contract, margin, funding ve mark price Spot sahipliği gibi davranma."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0417",
+    "page": 417,
+    "chapter": 19,
+    "section": "19.15 — Tam Kripto İşlem ve Operasyon İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  402\nTerim Aksiyon tanımı\nMarket cap Price × circulating supply ile yaklaşık mevcut piyasa değerini \ngörmek.\nFDV Price × fully diluted supply ile gelecekteki arz varsayımını görmek.\nTrading pair Base asset’in quote asset cinsinden fiyatını okumak.\nCEX Account ve order book üzerinden merkezi platform \nexecution/custody hizmeti kullanmak.\nDEX Wallet ve smart contract üzerinden on-chain swap yapmak.\nWallet Address ve anahtarlarla blockchain işlemi imzalama/erişim aracını \nyönetmek.\nCustody İşlem yetkisini sağlayan anahtar veya hesap kontrolünün kimde \nolduğunu belirlemek.\nPrivate key / seed phrase Self-custody erişim sırrını korumak ve kimseyle paylaşmamak.\nKYC Platformun müşteri kimliği ve uygunluğunu doğrulama sürecini \ntamamlamak.\nDeposit / withdrawal Değeri hesaba alma veya dışarı gönderme işleminde \nvarlık/network/adres kontrolü yapmak.\nSpot Varlığın kendisini belirli pair üzerinden alıp satmak.\nFutures / perpetual Underlying fiyatı izleyen sözleşme exposure’ını yönetmek.\nMargin Kaldıraçlı pozisyonu destekleyen teminatı izlemek.\nLeverage Notional exposure’ı teminata göre büyütürken kayıp ve liquidation \nriskini hesaplamak.\nLiquidation Teminat yetersizliğinde platformun pozisyonu zorla kapatma \nsınırını izlemek.\nFunding Perpetual long/short dengesi için oluşabilen periyodik taşıma \nödemesini hesaplamak.\nMark price PNL veya liquidation hesabında kullanılan referans fiyatı last/index \nfiyattan ayırmak.\nSlippage Beklenen fiyat ile gerçekleşen average fill farkını ölçmek.\nTablo 19.19 – Bölüm 19 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Kripto işleminin yedi temel katmanı nelerdir?\n2. Aynı BTC ticker’ı hangi nedenlerle farklı ürün veya risk taşıyabilir?\n3. Blockchain ile borsa içi bakiye kaydı nasıl ayrılır?\n4. Merkeziyetsizlik neden evet/hayır etiketi değildir?\n5. Bitcoin ile smart-contract platformlarının görevleri nasıl ayrılır?\n6. Coin ile token arasındaki temel network farkı nedir?\n7. Altcoin neden tek bir ekonomik kategori değildir?\n8. Stablecoin’in peg hedefi neden risksiz dolar anlamına gelmez?\n9. Tokenomics hangi arz ve kullanım sorularını içerir?\n10. Market cap ile FDV hangi farklı arz varsayımını kullanır?",
+    "source_extract_summary": [
+      "Terim Aksiyon tanımı Market cap Price × circulating supply ile yaklaşık mevcut piyasa değerini görmek.",
+      "FDV Price × fully diluted supply ile gelecekteki arz varsayımını görmek.",
+      "Trading pair Base asset’in quote asset cinsinden fiyatını okumak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Konum ve seviye yaşam döngüsü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0418",
+    "page": 418,
+    "chapter": 19,
+    "section": "19.15 — Tam Kripto İşlem ve Operasyon İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 19\nKripto Piyasaları, Borsalar, Cüzdanlar ve Kaldıraç  •  403\n11. Düşük birim fiyat neden ucuzluk kanıtı değildir?\n12. BTC/USDT pair’inde base ve quote hangileridir?\n13. ETH/BTC yükselirken hangi relatif güç değişimi gerçekleşir?\n14. CEX, DEX, wallet ve chart platformun görevleri nasıl ayrılır?\n15. KYC ve ürün erişimi neden ülke/platforma göre kontrol edilir?\n16. Borsa seçiminde bonus dışında hangi yedi alan incelenir?\n17. Kripto transferinde varlık, network ve address neden birlikte doğrulanır?\n18. Memo/tag hangi operasyon sorununu çözebilir?\n19. Test transferi hangi riski sınırlar?\n20. Exchange custody ile self-custody arasındaki yetki farkı nedir?\n21. Private key veya seed phrase neden support ile paylaşılmaz?\n22. 2FA hangi riskleri azaltır, hangilerini tek başına çözmez?\n23. Spot markette available balance ile total balance neden farklı olabilir?\n24. Market order neden son ekrandaki tek fiyattan dolmayabilir?\n25. Futures pozisyonu neden spot varlık sahipliği değildir?\n26. Perpetual sözleşmede funding hangi maliyeti yaratabilir?\n27. Mark price ile last price neden ayrılmalıdır?\n28. Leverage seçimi neden pozisyon büyüklüğü hesabından sonra gelir?\n29. Liquidation neden stop-loss yerine kullanılmaz?\n30. Cross ve isolated margin hangi risk alanını değiştirir?\n31. 24/7 piyasa neden her saatte eşit işlem kalitesi sağlamaz?\n32. Borsalar arası fiyat farkı hangi maliyet ve risklerle azalabilir?\n33. Tam kripto işlem iş akışının on aşaması nelerdir?34. Bölüm 19’un Bölüm 20’ye bıraktığı ana konular nelerdir?",
+    "source_extract_summary": [
+      "Düşük birim fiyat neden ucuzluk kanıtı değildir?",
+      "BTC/USDT pair’inde base ve quote hangileridir?",
+      "ETH/BTC yükselirken hangi relatif güç değişimi gerçekleşir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0439",
+    "page": 439,
+    "chapter": 21,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI\nBÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma \nStratejileri\nSözleşme hakkından hedge maliyeti ve çıkış planına",
+    "source_extract_summary": [
+      "BÖLÜM 21 Opsiyonlar, Hedge ve Portföy Koruma Stratejileri Sözleşme hakkından hedge maliyeti ve çıkış planına"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0440",
+    "page": 440,
+    "chapter": 21,
+    "section": null,
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  425\nBu Bölümün Amacı\nOpsiyonlar, küçük bir premium karşılığında dayanak varlık üzerinde koşullu bir hak satın almaya; \nhedge ise mevcut bir riskin etkisini başka bir pozisyonla azaltmaya yarar. Bu iki araç aynı değildir: her \nopsiyon hedge değildir, her hedge de opsiyonla kurulmaz.\nBu bölümde önce sözleşmeyi okuyacak, long call ve long put sonuçlarını vade sonu matematiğiyle \nkuracak, sonra protective put, direct hedge, pozisyon azaltma ve çeşitlendirmeyi aynı risk sorusu \nüzerinde karşılaştıracağız. Amaç kazancı büyütmekten önce, hangi kaybın hangi maliyetle \nsınırlandığını görünür kılmaktır.\nBÖLÜM SONUNDA\n Option sözleşmesindeki underlying, multiplier, strike, premium ve expiration \nalanlarını okuyabileceksiniz.\n Long call ve long put için maksimum kayıp ve vade sonu başabaş hesabı \nyapabileceksiniz.\n ITM/ATM/OTM ile intrinsic/time value ayrımını kurabileceksiniz.\n Theta’nın option alıcısına karşı çalışan zaman maliyetini yorumlayabileceksiniz.\n Stop, hedge, pozisyon azaltma ve çeşitlendirmeyi görevlerine göre ayırabileceksiniz.\n Protective put ve direct hedge’in toplam portföy sonucunu nasıl değiştirdiğini \nokuyabileceksiniz.\n Hedge oranı, basis, funding, korelasyon ve maliyet risklerini kontrol edebileceksiniz.\n Hedge’i açma, sürdürme, kapatma ve kaydetme planı oluşturabileceksiniz.\nKAPSAM NOTU\nBu bölümün ana opsiyon kaynağı option alıcısının long call ve long put işlemleridir. Çıplak call/put \nsatışı ve karmaşık çok bacaklı stratejiler farklı ve bazı durumlarda çok büyük riskler taşır; burada \nuygulama stratejisi olarak öğretilmez.",
+    "source_extract_summary": [
+      "Bu Bölümün Amacı Opsiyonlar, küçük bir premium karşılığında dayanak varlık üzerinde koşullu bir hak satın almaya; hedge ise mevcut bir riskin etkisini başka bir pozisyonla azaltmaya yarar.",
+      "Bu iki araç aynı değildir: her opsiyon hedge değildir, her hedge de opsiyonla kurulmaz.",
+      "Bu bölümde önce sözleşmeyi okuyacak, long call ve long put sonuçlarını vade sonu matematiğiyle kuracak, sonra protective put, direct hedge, pozisyon azaltma ve çeşitlendirmeyi aynı risk sorusu üzerinde karşılaştıracağız."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0441",
+    "page": 441,
+    "chapter": 21,
+    "section": "21.1 — Opsiyon ve Hedge’i Aynı Şey Sanmamak",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  426\nŞekil 21.1 – Opsiyon sözleşmesinin temel alanları\nUYGULAMA GÖREVİ\nKullandığınız platformun option chain ekranında underlying, expiration, strike, call/put, bid–ask, \npremium ve multiplier alanlarını bulun ve numaralandırın.\n21.1 Opsiyon ve Hedge’i Aynı Şey Sanmamak\nOption (opsiyon), alıcıya dayanak varlığı belirli strike fiyatından belirli tarihe kadar veya tarihte alma \nya da satma hakkı veren; fakat bunu yapma zorunluluğu getirmeyen sözleşmedir. Hedge (ana \npozisyona zıt veya dengeleyici maruziyet ekleyerek belirli riski azaltma), bir amaçtır. Long put bir \nhedge aracı olabilir; aynı put yalnız yön spekülasyonu için de alınabilir.\nKavram Ana görev Yanlış eşitleme\nOption Koşullu hak ve asimetrik payoff oluşturmak. Her option işlemi hedge değildir.\nHedge Belirli portföy riskini azaltmak. Hedge stopun veya kârın eş anlamlısı değildir.\nSpeculation Beklenen yön/hareketten getiri aramak. Sınırlı kayıp, yüksek olasılık anlamına gelmez.\nInsurance benzetmesi Premium ödeyerek aşağı yönü sınırlama fikrini anlatmak. Gerçek sigorta gibi tam ve maliyetsiz tazmin garanti etmez.\nTablo 21.1 – Opsiyon ve hedge görev ayrımı\nEKRANDA NE ARIYORUM?\n Bu işlem mevcut pozisyonu mu koruyor, bağımsız yön bahsi mi?\n Korunacak risk fiyat düşüşü mü, volatilite mi, gap mi, belirli olay mı?\n Ana pozisyonun tezi bozulursa yine de açık tutmak istiyor muyum?\n Koruma süresi ne kadar; option expiration bu süreyi kapsıyor mu?\n Başarıyı tek hedge kârıyla mı, toplam portföy kaybıyla mı ölçeceğim?\nDOĞRU BİLİNEN YANLIŞ\nMit: Opsiyon kullanmak otomatik olarak riski azaltır.\nGerçeklik: Long option kaybı primle sınırlayabilir; fakat yanlış strike, kısa vade, yüksek premium \nveya spekülatif boyut toplam riski artırabilir.",
+    "source_extract_summary": [
+      "21.1 Opsiyon ve Hedge’i Aynı Şey Sanmamak Option (opsiyon), alıcıya dayanak varlığı belirli strike fiyatından belirli tarihe kadar veya tarihte alma ya da satma hakkı veren; fakat bunu yapma zorunluluğu getirmeyen sözleşmedir.",
+      "Hedge (ana pozisyona zıt veya dengeleyici maruziyet ekleyerek belirli riski azaltma), bir amaçtır.",
+      "Long put bir hedge aracı olabilir; aynı put yalnız yön spekülasyonu için de alınabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0442",
+    "page": 442,
+    "chapter": 21,
+    "section": "21.3 — Long Call: Yükseliş Hakkı ve Sınırları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  427\n21.2 Opsiyon Sözleşmesinin Anatomisi\nBir option işlemi yön seçmeden önce sözleşme okuma işidir. Underlying (option değerinin bağlı \nolduğu dayanak), contract multiplier (bir kontratın kaç birim dayanağa karşılık geldiği), strike (hakkın \nkullanılacağı fiyat), expiration (sözleşmenin son geçerlilik tarihi), premium (option kontratının birim \nfiyatı) ve settlement/deliverable birlikte doğrulanır.\nAlan Aksiyon sorusu Risk\nUnderlying Hangi hisse, ETF, endeks, futures veya başka ürün? Benzer ticker veya farklı ürün.\nCall / put Alma hakkı mı, satma hakkı mı? Yön ve payoff karışıklığı.\nMultiplier Premium ve payoff kaç birimle çarpılacak? Maliyet ve riskin 100× veya başka katsayıyla yanlış hesaplanması.\nStrike Hakkın kullanım fiyatı ne? Yakın/uzak strike’ın moneyness ve premium etkisi.\nExpiration Sözleşme ne zaman sona eriyor? Tez doğru olsa bile zamanın yetmemesi.\nStyle / exercise Hangi tarihlerde exercise mümkün? Ürüne göre American/European farkı.\nSettlement Cash settlement mı physical delivery mi? Vade sonunda beklenmeyen pozisyon veya nakit ihtiyacı.\nBid–ask / volume Çıkış için yeterli likidite var mı? Geniş spread ve kötü fill.\nTablo 21.2 – Sözleşme okuma kartı\nDOĞRU BİLİNEN YANLIŞ\nMit: Bir opsiyon kontratı her zaman 100 hisseyi temsil eder.\nGerçeklik: ABD hisse opsiyonlarında 100 yaygındır; adjusted contracts, endeks, futures ve diğer \nürünlerde multiplier ve settlement değişebilir.\nVAKA ANALİZİ — 2 DOLARLIK OPTION GERÇEKTE KAÇ DOLAR?\nOption chain’de premium 2,00 görünüyor. Multiplier 100 ise bir kontrat için brüt premium \n200’dür; multiplier 50 ise 100’dür. Komisyon ve bid–ask maliyeti ayrıca eklenir. İşleme girmeden \nticket üzerindeki total debit ve maximum loss alanlarını doğrularım.\n21.3 Long Call: Yükseliş Hakkı ve Sınırları\nLong call (premium ödeyerek dayanağı strike’dan alma hakkı satın alma), bullish bir yön görüşü veya \nmevcut short pozisyona karşı koruma için kullanılabilir. Alıcı option’ı kullanmak zorunda değildir; \nsözleşmeyi vade öncesi piyasada satabilir, kullanabilir veya değersiz sona ermesine izin verebilir. \nKullanım ve otomatik exercise kuralları broker/ürüne göre doğrulanır.\nLong call alanı Vade sonu mantığı\nIntrinsic value max(Dayanak fiyatı − Strike, 0)\nNet sonuç / pay max(S − K, 0) − ödenen premium\nBaşabaş Strike + pay başına premium\nMaksimum sözleşme kaybı Ödenen premium × multiplier; ücretler ayrıca\nYukarı potansiyel Dayanak yükseldikçe teorik olarak artar; likidite ve vade koşulları vardır\nTablo 21.3 – Long call vade sonu haritası",
+    "source_extract_summary": [
+      "21.2 Opsiyon Sözleşmesinin Anatomisi Bir option işlemi yön seçmeden önce sözleşme okuma işidir.",
+      "Underlying (option değerinin bağlı olduğu dayanak), contract multiplier (bir kontratın kaç birim dayanağa karşılık geldiği), strike (hakkın kullanılacağı fiyat), expiration (sözleşmenin son geçerlilik tarihi), premium (option kontratının birim fiyatı) ve settlement/deliverable birlikte doğrulanır.",
+      "Alan Aksiyon sorusu Risk Underlying Hangi hisse, ETF, endeks, futures veya başka ürün?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0443",
+    "page": 443,
+    "chapter": 21,
+    "section": "21.4 — Long Put: Düşüş Hakkı ve Sınırları",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  428\nEKRANDA NE ARIYORUM?\n Tezin gerçekleşmesi için yalnız yön mü, ayrıca süre ve büyüklük de gerekiyor mu?\n Strike ve expiration hedef hareketle uyumlu mu?\n Premiumun yüzde kaçı spread nedeniyle anında kaybediliyor?\n Başabaş fiyatı yakın teknik hedefin ötesinde mi?\n Kontrat sayısı sıfıra gidebilecek toplam premiuma göre mi seçildi?\nDOĞRU BİLİNEN YANLIŞ\nMit: Call alırsam fiyat biraz yükseldiğinde mutlaka kâr ederim.\nGerçeklik: Dayanak yükselse bile hareket yetersiz, geç veya volatilite düşüşüyle birlikteyse option \nfiyatı zarar yazabilir. Vade sonu başabaş yalnız strike + premiumdır.\n21.4 Long Put: Düşüş Hakkı ve Sınırları\nLong put (premium ödeyerek dayanağı strike’dan satma hakkı satın alma), bearish yön görüşü veya \nlong varlığın aşağı yönünü sınırlama amacıyla kullanılabilir. Protective put kullanımında amaç putun \ntek başına kârı değil, dayanakla birlikte toplam portföy tabanıdır.\nLong put alanı Vade sonu mantığı\nIntrinsic value max(Strike − Dayanak fiyatı, 0)\nNet sonuç / pay max(K − S, 0) − ödenen premium\nBaşabaş Strike − pay başına premium\nMaksimum sözleşme kaybı Ödenen premium × multiplier; ücretler ayrıca\nAşağı potansiyel Dayanak sıfıra kadar düşebildiği için intrinsic kazanç strike ile sınırlıdır\nTablo 21.4 – Long put vade sonu haritası\nVAKA ANALİZİ — PUT BAŞABAŞI\nStrike 100, pay başına premium 3 olan long put için vade sonu başabaş 97’dir. Dayanak 98’de \nkapanırsa put ITM olabilir; fakat intrinsic value 2 olduğu için ödenen 3 premiumu karşılamaz ve net \nsonuç hâlâ −1/pay olur. “ITM = net kâr” değildir.\nDOĞRU BİLİNEN YANLIŞ\nMit: Long putun kârı call gibi teorik olarak sınırsızdır.\nGerçeklik: Dayanak fiyatı sıfırın altına normal koşullarda inemediği için long putun vade sonu \nintrinsic potansiyeli strike ile sınırlıdır.",
+    "source_extract_summary": [
+      " Tezin gerçekleşmesi için yalnız yön mü, ayrıca süre ve büyüklük de gerekiyor mu?",
+      " Strike ve expiration hedef hareketle uyumlu mu?",
+      " Premiumun yüzde kaçı spread nedeniyle anında kaybediliyor?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0444",
+    "page": 444,
+    "chapter": 21,
+    "section": "21.5 — ITM, ATM, OTM ve Değer Bileşenleri",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  429\nŞekil 21.2 – Long call ve long put vade sonu payoff haritası\n21.5 ITM, ATM, OTM ve Değer Bileşenleri\nMoneyness, dayanak fiyatının strike’a göre konumunu ifade eder. Call için S > K olduğunda ITM; put \niçin S < K olduğunda ITM’dir. ATM, fiyatın strike’a yakın olduğu bölgedir. OTM option intrinsic value \ntaşımaz; fakat vade ve belirsizlik nedeniyle time value taşıyabilir.\nDurum Call Put Net kâr hakkında ne söyler?\nITM S > K S < K\nIntrinsic value vardır; premium \nve maliyet sonrası net kâr \ngaranti değildir.\nATM S ≈ K S ≈ K Intrinsic az/yok; time value ve volatilite etkisi yüksek olabilir.\nOTM S < K S > K Intrinsic yoktur; option yine time value taşıyabilir.\nTablo 21.5 – Moneyness karşılaştırması\nIntrinsic value, option bugün kullanım açısından ne kadar ekonomik değer taşıyor sorusunu; time \nvalue ise vade sonuna kadar daha avantajlı hâle gelme olasılığı için ödenen kısmı temsil eder. Basit \nayrım: option premium ≈ intrinsic value + time value. Piyasa mikro yapısı ve model varsayımları \nnedeniyle gerçek fiyatlama daha karmaşıktır.\nDOĞRU BİLİNEN YANLIŞ\nMit: OTM option ucuz, ITM option pahalıdır; dolayısıyla OTM daha iyi fırsattır.\nGerçeklik: Ucuz premium çoğu zaman daha düşük gerçekleşme olasılığı ve daha yüksek zaman \nkaybı riski taşır. Seçim yalnız nominal fiyatla yapılmaz.",
+    "source_extract_summary": [
+      "Call için S > K olduğunda ITM; put için S < K olduğunda ITM’dir.",
+      "ATM, fiyatın strike’a yakın olduğu bölgedir.",
+      "OTM option intrinsic value taşımaz; fakat vade ve belirsizlik nedeniyle time value taşıyabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0445",
+    "page": 445,
+    "chapter": 21,
+    "section": "21.6 — Premium, Expiration ve Theta",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  430\nŞekil 21.3 – ITM, ATM, OTM ve prim bileşenleri\n21.6 Premium, Expiration ve Theta\nPremium yalnız yön görüşünün fiyatı değildir. Dayanak fiyatı, strike, kalan süre, beklenen volatilite, \nfaiz/taşıma, temettü ve arz–talep option fiyatını etkileyebilir. Theta, zaman geçtikçe optionın time \nvalue kaybetme eğilimini anlatır; bu kayıp sabit hızda olmak zorunda değildir.\nDeğişken Long option alıcısı açısından\nKalan süre azalır Diğer her şey aynıysa time value baskı görebilir.\nVade yaklaşır Theta etkisi özellikle ATM optionlarda hızlanabilir.\nBeklenen volatilite yükselir Option premiumu artabilir; yön doğru olmasa bile piyasa değeri değişebilir.\nBeklenen volatilite düşer Yön doğru olsa bile option fiyatı baskı görebilir.\nGeniş bid–ask Giriş ve çıkışta görünmeyen maliyet büyür.\nYakın olay / earnings Premium yüksek olabilir; olay sonrası volatilite düşüşü riski vardır.\nTablo 21.6 – Premium ve zaman riski\nEKRANDA NE ARIYORUM?\n Expiration tez süresini gerçekten kapsıyor mu?\n Premiumun ne kadarı intrinsic, ne kadarı time value?\n Option chain’de bid–ask spread toplam primin yüzde kaçı?\n Yakın olay nedeniyle implied volatility olağandışı yüksek mi?\n Vade yaklaşırken planım hold, roll, sat veya exercise seçeneklerinden hangisi?",
+    "source_extract_summary": [
+      "Dayanak fiyatı, strike, kalan süre, beklenen volatilite, faiz/taşıma, temettü ve arz–talep option fiyatını etkileyebilir.",
+      "Theta, zaman geçtikçe optionın time value kaybetme eğilimini anlatır; bu kayıp sabit hızda olmak zorunda değildir.",
+      "Değişken Long option alıcısı açısından Kalan süre azalır Diğer her şey aynıysa time value baskı görebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Replay sonrası gerçekçi emir ve maliyet simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Konum ve seviye yaşam döngüsü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0446",
+    "page": 446,
+    "chapter": 21,
+    "section": "21.7 — Vade Sonu Başabaş ve Kâr/Zarar Haritası",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  431\nDOĞRU BİLİNEN YANLIŞ\nMit: Theta her gün aynı miktarda premium siler.\nGerçeklik: Zaman değeri doğrusal erimez; moneyness, volatilite ve vade yapısı sonucu değiştirir. \nTheta anlık duyarlılık ölçüsüdür, kesin günlük zarar takvimi değildir.\nŞekil 21.4 – Theta ve zaman değerinin kavramsal erimesi\n21.7 Vade Sonu Başabaş ve Kâr/Zarar Haritası\nBaşabaş formülü option alıcısının vade sonu payoff’unu anlamak için kullanılır. Long call için K + \npremium; long put için K − premiumdur. Multiplier, toplam para sonucunu hesaplamak için pay başına \ndeğeri kontrat büyüklüğüyle çarpar.\nÖrnek Hesap Vade sonu yorum\nCall: K=50, premium=2 BE = 52 S=55 ise net 3/pay; 100 multiplierda 300, ücret öncesi.\nCall: K=50, premium=2 S=50 Intrinsic 0; premiumun tamamı kayıp.\nPut: K=100, premium=3 BE = 97 S=95 ise net 2/pay; 100 multiplierda 200, ücret öncesi.\nPut: K=100, premium=3 S=100 Intrinsic 0; premiumun tamamı kayıp.\nTablo 21.7 – Vade sonu başabaş örnekleri\nÖNEMLİ ZAMAN AYRIMI\nVade öncesi option piyasa değeri yalnız intrinsic value değildir. Kalan süre ve volatilite nedeniyle \nlong call, dayanak henüz strike + premiumu aşmadan; long put da strike − premiumun altına \ninmeden kârlı satılabilir. Başabaş formülü vade sonu için kullanılır.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Theta her gün aynı miktarda premium siler.",
+      "Gerçeklik: Zaman değeri doğrusal erimez; moneyness, volatilite ve vade yapısı sonucu değiştirir.",
+      "Theta anlık duyarlılık ölçüsüdür, kesin günlük zarar takvimi değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0447",
+    "page": 447,
+    "chapter": 21,
+    "section": "21.8 — Opsiyon İşleminde Risk Bütçesi ve",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  432\n21.8 Opsiyon İşleminde Risk Bütçesi ve \nSözleşme Sayısı\nLong option işleminde “premium küçük” ifadesi risk hesabı değildir. Toplam debit = premium × \nmultiplier × kontrat sayısı + ücretlerdir. Sözleşmenin değersiz sona erebileceğini varsayarak kontrat \nsayısını önceden tanımlanan risk bütçesine göre seçerim.\nAdım Formül / kontrol\n1  Risk bütçesi Hesap özkaynağı × işlem için izin verilen risk oranı veya sabit para sınırı.\n2  Bir kontrat brüt maliyeti Premium × multiplier.\n3  Etkili kontrat riski Brüt maliyet + komisyon + giriş/çıkış spread varsayımı + kur/operasyon maliyeti.\n4  Kontrat sayısı Risk bütçesi ÷ etkili kontrat riski; aşağı yuvarla.\n5  Portföy kontrolü Aynı event, sektör veya endekse bağlı diğer option/pozisyonları ekle.\nTablo 21.8 – Long option sözleşme sayısı\nVAKA ANALİZİ — UCUZ OPTION, BÜYÜK TOPLAM RİSK\nPremium 0,40 görünür. Multiplier 100 ise kontrat başına brüt maliyet 40’tır. Trader “ucuz” diyerek \n50 kontrat alırsa 2.000 birim brüt premium riski taşır. Nominal premium değil toplam debit ve \nportföy risk kümesi önemlidir.\nDOĞRU BİLİNEN YANLIŞ\nMit: Long optionda maksimum kayıp prim olduğu için pozisyon boyutu önemli değildir.\nGerçeklik: Sınırlı kayıp, küçük kayıp anlamına gelmez. Çok sayıda kontrat veya tekrar eden OTM \noption alımları hesabı ciddi biçimde aşındırabilir.",
+    "source_extract_summary": [
+      "21.8 Opsiyon İşleminde Risk Bütçesi ve Sözleşme Sayısı Long option işleminde “premium küçük” ifadesi risk hesabı değildir.",
+      "Toplam debit = premium × multiplier × kontrat sayısı + ücretlerdir.",
+      "Sözleşmenin değersiz sona erebileceğini varsayarak kontrat sayısını önceden tanımlanan risk bütçesine göre seçerim."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0448",
+    "page": 448,
+    "chapter": 21,
+    "section": "21.10 — Protective Put ile Aşağı Yön Tabanı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  433\n21.9 Stop, Hedge, Pozisyon Azaltma ve Nakit\nKoruma ihtiyacı oluştuğunda ilk çözüm her zaman yeni bir türev pozisyon değildir. Stop tezi \nsonlandırır; pozisyon azaltma directional exposure’ı doğrudan düşürür; nakit taşımak riski ve \nkarmaşıklığı azaltır; hedge ise ana pozisyonu korurken karşı maruziyet ve yeni maliyet ekler.\nAraç Ana görev Maliyet / risk Uygun soru\nStop-loss Yanlış tezi kapatmak. Gap/slippage; yeniden giriş ihtimali. Ana tez artık geçerli mi?\nPozisyon azaltma Maruziyeti doğrudan düşürmek. Fırsat maliyeti, vergi/komisyon. Bu kadar büyüklük taşımam gerekiyor mu?\nNakit Yeni risk eklemeden toplam riski azaltmak. Enflasyon/fırsat maliyeti. Koruma için karmaşık ürüne gerek var mı?\nHedge Ana pozisyonu açık tutup belirli riski azaltmak. Prim, spread, funding, basis, margin, yönetim. Tez geçerli ama geçici risk mi var?\nÇeşitlendirme Farklı risk sürücülerine dağılım. Krizde korelasyon yükselmesi. Tek olaya aşırı bağımlı mıyım?\nTablo 21.9 – Koruma araçlarının görev ayrımı\nDOĞRU BİLİNEN YANLIŞ\nMit: Stop sık çalışıyorsa stop yerine hedge kullanmak daha iyidir.\nGerçeklik: Stop sorunu yanlış seviye, boyut veya setup kalitesi olabilir. Hedge, hatalı trade’i \nkapatmamak için kullanılırsa maliyetli çift pozisyona dönüşür.\nŞekil 21.5 – Stop, hedge ve nakit/azaltma görevleri\n21.10 Protective Put ile Aşağı Yön Tabanı\nProtective put, long dayanak pozisyonuna long put ekleyerek belirli vade boyunca aşağı yön tabanı \nkurar. Put strike altındaki kaybı dengelemeye başlar; premium toplam getiriyi aşağı çeker. Bu yapı, \nlong varlığın yukarı yönünü açık bırakırken sigorta maliyeti öder.\nKarar alanı Soru\nKorunan miktar Put multiplier × kontrat sayısı long pozisyonun kaç birimini kapsıyor?\nStrike Ne kadar kaybı kendim taşımaya razıyım? Daha yüksek strike genellikle daha pahalıdır.\nExpiration Korunacak olay veya dönem ne kadar sürüyor?\nPremium Portföy değerinin yüzde kaçı koruma maliyeti?\nLikidite Bid–ask, volume/open interest ve çıkış mümkün mü?",
+    "source_extract_summary": [
+      "21.9 Stop, Hedge, Pozisyon Azaltma ve Nakit Koruma ihtiyacı oluştuğunda ilk çözüm her zaman yeni bir türev pozisyon değildir.",
+      "Stop tezi sonlandırır; pozisyon azaltma directional exposure’ı doğrudan düşürür; nakit taşımak riski ve karmaşıklığı azaltır; hedge ise ana pozisyonu korurken karşı maruziyet ve yeni maliyet ekler.",
+      "Araç Ana görev Maliyet / risk Uygun soru Stop-loss Yanlış tezi kapatmak."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0449",
+    "page": 449,
+    "chapter": 21,
+    "section": "21.11 — Direct Hedge: Short, Futures ve Ters Ürün",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  434\nKarar alanı Soru\nÇıkış Olay geçince satılacak mı, vade sonuna mı taşınacak, roll mu edilecek?\nTablo 21.10 – Protective put tasarım kartı\nVAKA ANALİZİ — UZUN VADELİ METAL POZİSYONU\nUzun vadeli gümüş tezim sürüyor; iki aylık makro olay döneminde sert düşüş riskini azaltmak \nistiyorum. Önce portföyün hangi kısmını koruyacağımı, dayanakla uyumlu option ürününü, strike \nve expirationı seçerim. Premiumu “kaybedilecek sigorta maliyeti” olarak bütçeler; olay sonrası \nputu kapatma veya roll koşulunu önceden yazarım. Ürün dayanakla tam eşleşmiyorsa basis ve \ncurrency riskini ayrıca kaydederim.\nDOĞRU BİLİNEN YANLIŞ\nMit: Protective put portföyü zarardan tamamen korur.\nGerçeklik: Koruma strike, kontrat sayısı, multiplier, vade ve ürün eşleşmesi kadar çalışır. Premium, \nspread ve basis nedeniyle tam koruma oluşmayabilir.\nŞekil 21.6 – Protective put toplam payoff’u\n21.11 Direct Hedge: Short, Futures ve Ters Ürün\nDirect hedge, long pozisyona karşı aynı dayanakta veya yakın bir risk sürücüsünde short maruziyet \naçmaktır. Örneğin long endeks portföyüne karşı endeks futures short; long BTC spot pozisyona karşı \nBTC perpetual short düşünülebilir. Ancak aynı isim, kusursuz eşleşme anlamına gelmez.\nAraç Avantaj Ana risk\nAynı dayanak futures short Yönsel maruziyeti hızlı ve ayarlanabilir azaltır. Margin, liquidation, basis, funding ve vade/roll.\nShort ETF / inverse product Bazı hesaplarda operasyonel kolaylık. Tracking error, daily reset ve ürün yapısı.\nİlgili endeks short Çok hisseli portföye geniş koruma. Beta ve sektör ağırlığı mismatch’i.\nİlgili varlık short Ortak ekonomik sürücüye karşı koruma adayı. Korelasyon kırılması ve basis riski.",
+    "source_extract_summary": [
+      "Karar alanı Soru Çıkış Olay geçince satılacak mı, vade sonuna mı taşınacak, roll mu edilecek?",
+      "Önce portföyün hangi kısmını koruyacağımı, dayanakla uyumlu option ürününü, strike ve expirationı seçerim.",
+      "Premiumu “kaybedilecek sigorta maliyeti” olarak bütçeler; olay sonrası putu kapatma veya roll koşulunu önceden yazarım."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Referans ve işlem simülasyonu varsayımları",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Endeks/FX/maden/enerji olay ve lead-lag araştırması",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0450",
+    "page": 450,
+    "chapter": 21,
+    "section": "21.11 — Direct Hedge: Short, Futures ve Ters Ürün",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  435\nTablo 21.11 – Direct hedge araçları\nEKRANDA NE ARIYORUM?\n Long ve hedge ürününün fiyat sürücüsü gerçekten aynı mı?\n Notional değerler aynı para biriminde mi?\n Futures mark price, funding, margin ve liquidation ne?\n Hedge ürününde günlük reset veya vade/roll etkisi var mı?\n Ana pozisyon yükselirse hedge ne kadar kârı götürecek?",
+    "source_extract_summary": [
+      " Long ve hedge ürününün fiyat sürücüsü gerçekten aynı mı?",
+      " Notional değerler aynı para biriminde mi?",
+      " Futures mark price, funding, margin ve liquidation ne?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Kriptoya özgü veri, saklama ve piyasa yapısı farkları",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0451",
+    "page": 451,
+    "chapter": 21,
+    "section": "21.12 — Hedge Oranı, Basis ve Mismatch Riski",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  436\nDOĞRU BİLİNEN YANLIŞ\nMit: Long pozisyon kadar short açarsam risk tamamen sıfırlanır.\nGerçeklik: Beta/delta, multiplier, basis, currency, timing ve maliyet farkları nedeniyle notional \neşitlik ekonomik risk eşitliği olmayabilir.\n21.12 Hedge Oranı, Basis ve Mismatch Riski\nHedge ratio, hedge maruziyetinin korunan pozisyon maruziyetine oranını ifade eder. Basit notional \noran başlangıç kontrolüdür: hedge notional ÷ korunan notional. Fakat farklı dayanaklarda beta, delta \nveya tarihsel ilişki nedeniyle ekonomik oran değişebilir.\nDurum Sonuç Kontrol\nUnder-hedge Düşüşte koruma yetersiz kalır. Korunan notional ve sensitivity yeniden hesaplanır.\nFull notional hedge Yönsel risk büyük ölçüde azalabilir. Basis ve ürün farkı hâlâ vardır.\nOver-hedge Portföy net short hâle gelebilir. Hedge kâr aracı olmaya başladı mı?\nCross-hedge Benzer fakat aynı olmayan dayanak kullanılır. Rolling correlation, beta, currency ve stress dönemleri.\nOption hedge Delta zamanla ve fiyatla değişebilir. Statik kontrat sayısı koruma oranını sabit tutmaz.\nTablo 21.12 – Hedge oranı ve mismatch\nBASIS RİSKİ\nHedge ürünü ile korunan pozisyon arasındaki fiyat farkının beklenmedik değişmesine basis risk \ndenir. Aynı ekonomik hikâyeye bağlı iki ürün, tam aynı zamanda ve aynı oranda hareket etmek \nzorunda değildir.",
+    "source_extract_summary": [
+      "DOĞRU BİLİNEN YANLIŞ Mit: Long pozisyon kadar short açarsam risk tamamen sıfırlanır.",
+      "Gerçeklik: Beta/delta, multiplier, basis, currency, timing ve maliyet farkları nedeniyle notional eşitlik ekonomik risk eşitliği olmayabilir.",
+      "21.12 Hedge Oranı, Basis ve Mismatch Riski Hedge ratio, hedge maruziyetinin korunan pozisyon maruziyetine oranını ifade eder."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0452",
+    "page": 452,
+    "chapter": 21,
+    "section": "21.14 — Hedge Maliyeti, Geçersizlik ve Kapatma",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  437\nVAKA ANALİZİ — XAGTRYG CROSS-HEDGE\nXAGTRYG pozisyonunu yalnız XAGUSD short ile korumak gümüş dolar bacağını azaltabilir; USDTRY \nbacağı açık kalır. XAGTRYG ≈ XAGUSD × USDTRY ilişkisi nedeniyle hedge hedefini önce “metal fiyatı \nmı, TL kur riski mi, ikisi mi?” diye ayırırım. Tek bacakla tüm TL fiyat riskinin kapandığını varsaymam.\n21.13 Çeşitlendirme ve Korelasyonun Sınırları\nDiversification, doğrudan karşı pozisyon açmak yerine portföyü farklı risk sürücülerine dağıtır. \nCorrelation coefficient iki getiri serisinin seçilen lookback içindeki birlikte hareketini özetler; \nnedensellik, gelecekteki ilişki veya kriz koruması garantisi vermez.\nKorelasyon gözlemi Doğru yorum Yanlış sonuç\n+1’e yakın Seçilen dönemde benzer yönde hareket eğilimi. Her zaman aynı gider.\n0’a yakın Doğrusal birlikte hareket zayıf. Bağımsız veya risksizdir.\n−1’e yakın Seçilen dönemde zıt yönde hareket eğilimi. Kesin hedge olur.\nRejim değişimi İlişki enflasyon, likidite, kriz ve politika ile değişebilir. Geçmiş katsayı sabit kalır.\nTablo 21.13 – Korelasyonun doğru kullanımı\nEKRANDA NE ARIYORUM?\n Korelasyon price değil return serisi üzerinden mi hesaplanıyor?\n Lookback ve timeframe yatırım ufkumla uyumlu mu?\n Normal dönem ve stres döneminde sonuç farklı mı?\n İki ürün aynı currency, sektör veya liquidity faktörüne mi bağlı?\n Çeşitlendirme görünen sembol sayısını mı, gerçek risk sürücülerini mi artırıyor?\nDOĞRU BİLİNEN YANLIŞ\nMit: Negatif korelasyonlu varlık bulursam portföyüm korunur.\nGerçeklik: Korelasyon değişebilir; hedge büyüklüğü, volatilite, likidite ve drawdown zamanlaması \nfarklı olabilir. Çeşitlendirme olasılıksal risk azaltımıdır.\n21.14 Hedge Maliyeti, Geçersizlik ve Kapatma\nHedge yalnız açılış kararı değildir. Ne kadar süre tutulacağı, hangi olayda gereksiz hâle geleceği ve nasıl \nkapatılacağı yazılmazsa koruma kalıcı getiri sürüklenmesine dönüşebilir. Başarılı hedge, tek başına kâr \neden değil toplam portföy kaybını hedeflenen maliyet içinde azaltandır.\nMaliyet / risk Örnek\nPremium ve theta Protective putun zaman içinde değer kaybetmesi.\nBid–ask ve komisyon Giriş/çıkışta doğrudan kayıp.\nFunding / carry / roll Futures veya short pozisyonun taşıma maliyeti.\nBasis / tracking error Hedge ve dayanak arasındaki ilişki bozulması.\nMargin / liquidation Hedge doğru yönde bile teminat baskısı yaratabilir.\nOpportunity cost Ana pozisyon yükselirken hedge getiriyi azaltır.\nVergi / operasyon Satış, exercise, assignment veya farklı hesap sonuçları.\nTablo 21.14 – Hedge maliyetleri\nHedge kapatma tetikleyicisi Eylem\nKorunan olay sona erdi Hedge ihtiyacı yeniden ölçülür; otomatik açık bırakılmaz.\nAna tez bozuldu Hedge’i büyütmek yerine ana pozisyon kapatma değerlendirilir.\nRisk seviyesi düştü Hedge kademeli veya tamamen azaltılır.\nHedge hedefi aşıldı Over-hedge ve net short riski kontrol edilir.",
+    "source_extract_summary": [
+      "VAKA ANALİZİ — XAGTRYG CROSS-HEDGE XAGTRYG pozisyonunu yalnız XAGUSD short ile korumak gümüş dolar bacağını azaltabilir; USDTRY bacağı açık kalır.",
+      "XAGTRYG ≈ XAGUSD × USDTRY ilişkisi nedeniyle hedge hedefini önce “metal fiyatı mı, TL kur riski mi, ikisi mi?” diye ayırırım.",
+      "Tek bacakla tüm TL fiyat riskinin kapandığını varsaymam."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0453",
+    "page": 453,
+    "chapter": 21,
+    "section": "21.15 — Tam Portföy Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  438\nHedge kapatma tetikleyicisi Eylem\nExpiration yaklaştı Kapat, exercise, allow expire veya roll seçenekleri ürün kuralıyla incelenir.\nBasis/korelasyon bozuldu Koruma aracı değiştirilir veya pozisyon azaltılır.\nTablo 21.15 – Hedge geçersizlik ve çıkış kartı\nDOĞRU BİLİNEN YANLIŞ\nMit: Hedge para kaybediyorsa başarısızdır.\nGerçeklik: Ana pozisyon yükselirken hedge maliyet yazabilir; bu, sigortanın çalışmadığı anlamına \ngelmez. Değerlendirme toplam portföy sonucu ve önceden tanımlı risk azaltımıyla yapılır.\n21.15 Tam Portföy Koruma İş Akışı\nKoruma kararı aşağıdaki sırayla uygulanır. Araç seçimi ilk değil dördüncü adımdır; önce risk ve ana tez \ntanımlanır.\nAşama Eylem Çıktı\n1  Ana pozisyon Dayanak, miktar, maliyet, zaman ufku ve tez. Korunan varlık kartı.\n2  Risk Fiyat düşüşü, gap, olay, volatilite, currency veya likidite riski. Tek cümlelik risk tanımı.\n3  Tez kapısı Risk geçici mi, ana tez bozuldu mu? Kapat / azalt / hedge kararı.\n4  Araç Stop, cash reduction, put, short futures veya çeşitlendirme. En sade uygun araç.\n5  Boyut Notional, multiplier, beta/delta, currency ve maximum loss. Hedge oranı.\n6  Süre Olay tarihi, expiration, vade ve roll ihtiyacı. Zaman uyumu.\n7  Maliyet Premium, spread, commission, funding, tax ve fırsat maliyeti. Toplam koruma bütçesi.\n8  Geçersizlik Hedge ne zaman gereksiz veya yanlış? Kapatma koşulu.\n9  Uygulama Paper/limit order, fill ve margin kontrolü. Açık hedge kaydı.\n10  İzleme Toplam portföy delta/notional, basis ve korelasyon. Under/over-hedge alarmı.\n11  Kapat / roll Olay sonu, tez değişimi veya expiration. Net sonuç ve sonraki karar.\nTablo 21.16 – Tam hedge iş akışı\nTAM VAKA — UZUN VADELİ PORTFÖYÜ KISA VADELİ RİSKTEN KORUMA\n Ana portföy: uzun vadeli hisse/ETF sepeti; tez sürüyor.\n Risk: belirli makro karar haftasında kısa süreli geniş gap ve volatilite.\n İlk seçenek: pozisyon azaltmanın vergi ve strateji etkisi değerlendirilir.\n Protective put seçilirse dayanak uyumu, multiplier, strike, expiration ve toplam \npremium bütçesi yazılır.\n Direct hedge seçilirse endeks/futures beta, notional, margin, funding ve basis kontrol \nedilir.\n Hedge başarısı tek bacak kârıyla değil, portföyün hedef drawdown altında kalmasıyla \nölçülür.\n Olay sona erdiğinde hedge otomatik açık bırakılmaz; ana tez ve volatilite yeniden \ndeğerlendirilir.\nDOĞRU BİLİNEN YANLIŞ\nMit: En profesyonel portföy en karmaşık hedge’i kullanır.\nGerçeklik: Pozisyon azaltmak veya nakit taşımak aynı hedefi daha düşük maliyet ve operasyon \nriskiyle karşılıyorsa daha iyi çözüm olabilir.",
+    "source_extract_summary": [
+      "Hedge kapatma tetikleyicisi Eylem Expiration yaklaştı Kapat, exercise, allow expire veya roll seçenekleri ürün kuralıyla incelenir.",
+      "Basis/korelasyon bozuldu Koruma aracı değiştirilir veya pozisyon azaltılır.",
+      "Gerçeklik: Ana pozisyon yükselirken hedge maliyet yazabilir; bu, sigortanın çalışmadığı anlamına gelmez."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0454",
+    "page": 454,
+    "chapter": 21,
+    "section": "21.15 — Tam Portföy Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  439\nŞekil 21.7 – Tam portföy koruma iş akışı\nUYGULAMA GÖREVİ\nBir hedge günlüğü şablonunda ana pozisyon, risk olayı, araç, kontrat/multiplier, hedge oranı, \npremium/funding, vade, kapatma tetikleyicisi ve toplam portföy sonucunu ayrı alanlara kaydedin.\nHızlı Başvuru\nGördüğüm durum İlk kontrol Varsayılan eylem\nOption premium çok düşük Multiplier, OTM mesafe, spread ve expiration Toplam debit ve sıfıra gitme riskini hesapla.\nOption ITM Ödenen premium ve vade sonu başabaş ITM’yi net kâr sanma.\nDayanak beklenen yönde gidiyor ama \noption düşüyor Time decay ve volatilite Vade öncesi fiyatlama bileşenlerini kontrol et.\nStop sık çalışıyor Setup, invalidation ve size Hedge’i stopun kaçış yolu yapma.\nProtective put pahalı Strike, vade, miktar ve alternatif azaltma Koruma maliyetini portföy yüzdesiyle karşılaştır.\nDirect hedge açılacak Notional/beta, basis, margin ve funding Under/over-hedge sınırı yaz.\nNegatif korelasyon görüldü Lookback, timeframe ve stres dönemi Kalıcı hedge varsayma.\nHedge zarar yazıyor Ana pozisyon ve toplam portföy sonucu Hedeflenen risk azaltımı gerçekleşiyor mu bak.\nOlay sona erdi Geçersizlik ve expiration Hedge’i kapat/azalt/roll kararına geçir.\nTablo 21.17 – Hızlı başvuru\nOpsiyon ve Hedge Kontrol Listesi\n Underlying, call/put, multiplier, strike, expiration, settlement ve likidite doğrulandı.\n Premiumun pay başına mı kontrat toplamı mı olduğu açık.\n Long call/put başabaş hesabının vade sonu olduğu not edildi.\n ITM/ATM/OTM ile net kâr birbirine karıştırılmadı.\n Intrinsic ve time value ayrıldı; theta ve volatilite riski değerlendirildi.\n Toplam debit, ücret ve spread risk bütçesine eklendi.\n Hedge kullanılacaksa ana tez hâlâ geçerli ve risk geçici olarak tanımlandı.\n Stop, pozisyon azaltma, nakit ve hedge seçenekleri karşılaştırıldı.\n Protective putta korunan miktar, strike, expiration ve premium bütçesi yazıldı.",
+    "source_extract_summary": [
+      "Hızlı Başvuru Gördüğüm durum İlk kontrol Varsayılan eylem Option premium çok düşük Multiplier, OTM mesafe, spread ve expiration Toplam debit ve sıfıra gitme riskini hesapla.",
+      "Option ITM Ödenen premium ve vade sonu başabaş ITM’yi net kâr sanma.",
+      "Dayanak beklenen yönde gidiyor ama option düşüyor Time decay ve volatilite Vade öncesi fiyatlama bileşenlerini kontrol et."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0455",
+    "page": 455,
+    "chapter": 21,
+    "section": "21.15 — Tam Portföy Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  440\n Direct hedge’de notional, beta/delta, basis, currency, funding ve margin kontrol edildi.\n Korelasyon farklı lookback ve stres dönemlerinde incelendi.\n Hedge açılışından önce geçersizlik, kapatma ve roll koşulu belirlendi.\n Başarı tek hedge bacağıyla değil toplam portföy kaybıyla ölçülecek.\nTemel Sözlük\nTerim Aksiyon tanımı\nOption Belirli strike ve tarihte dayanağı alma/satma hakkının sözleşmesini okumak.\nUnderlying Option değerinin bağlı olduğu varlık veya sözleşmeyi doğrulamak.\nCall Dayanağı strike’dan alma hakkı satın almak.\nPut Dayanağı strike’dan satma hakkı satın almak.\nStrike Hakkın kullanılabileceği fiyatı belirlemek.\nPremium Option için pay başına fiyatı multiplier ile çarpıp toplam debit hesaplamak.\nExpiration Sözleşmenin sona ereceği tarihi tez süresiyle eşleştirmek.\nMultiplier Bir kontratın kaç dayanak birimini temsil ettiğini doğrulamak.\nITM / ATM / OTM Dayanak ile strike konumunu intrinsic value açısından sınıflandırmak.\nIntrinsic value Bugün kullanımın ekonomik değerini max(S−K,0) veya max(K−S,0) ile görmek.\nTime value Premiumun intrinsic dışındaki, kalan süre ve belirsizlikle ilişkili kısmını izlemek.\nTheta Diğer koşullar aynıyken zaman geçişine option değerinin duyarlılığını izlemek.\nBreak-even Vade sonunda call için K+premium, put için K−premium seviyesini hesaplamak.\nProtective put Long dayanağa long put ekleyerek belirli süre ve strike için aşağı yön tabanı kurmak.\nDirect hedge Ana pozisyona karşı short veya dengeleyici maruziyet açmak.\nHedge ratio Hedge maruziyetini korunan maruziyete oranlamak ve mismatch’i ölçmek.\nBasis risk Hedge ürünü ile korunan pozisyon arasındaki fiyat ilişkisinin bozulma riskini izlemek.\nCorrelation Seçilen return serilerinin dönemsel birlikte hareketini ölçmek; sabit kabul etmemek.\nRoll Yaklaşan vadedeki hedge’i kapatıp daha ileri vadeye taşımayı değerlendirmek.\nTotal portfolio result Hedge ve ana pozisyonu birlikte değerlendirerek koruma başarısını ölçmek.\nTablo 21.18 – Bölüm 21 temel sözlüğü\nBölüm Sonu Kontrol Soruları\n1. Option ile hedge hangi farklı görevleri yapar?\n2. Option alıcısına verilen “right but not obligation” ne demektir?\n3. Underlying ve multiplier neden birlikte doğrulanır?\n4. Bir kontrat neden her üründe 100 birim kabul edilmemelidir?\n5. Long callın vade sonu intrinsic value formülü nedir?\n6. Long putun vade sonu intrinsic value formülü nedir?\n7. Long call ve long put için maksimum sözleşme kaybı nasıl hesaplanır?\n8. Long callın vade sonu başabaşı nasıl hesaplanır?\n9. Long putun vade sonu başabaşı nasıl hesaplanır?\n10. Başabaş formülü neden vade öncesi option kârını tam açıklamaz?\n11. ITM olmak neden net kâr garantisi değildir?\n12. ATM ve OTM optionlarda time value neden önemlidir?",
+    "source_extract_summary": [
+      " Direct hedge’de notional, beta/delta, basis, currency, funding ve margin kontrol edildi.",
+      " Korelasyon farklı lookback ve stres dönemlerinde incelendi.",
+      " Hedge açılışından önce geçersizlik, kapatma ve roll koşulu belirlendi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  },
+  {
+    "id": "ATK-TR-D1.0-2026-08.p0456",
+    "page": 456,
+    "chapter": 21,
+    "section": "21.15 — Tam Portföy Koruma İş Akışı",
+    "source_excerpt": "ANA TRADING KİTABI  |  BÖLÜM 21\nOpsiyonlar, Hedge ve Portföy Koruma Stratejileri  •  441\n13. Premiumun intrinsic ve time value bileşenleri nasıl ayrılır?\n14. Theta neden sabit günlük kayıp takvimi değildir?\n15. Dayanak doğru yönde giderken long option neden zarar yazabilir?\n16. Toplam debit ve etkili kontrat riski nasıl hesaplanır?\n17. Sınırlı maksimum kayıp neden pozisyon boyutunu önemsiz yapmaz?\n18. Stop, pozisyon azaltma, nakit ve hedge hangi farklı görevleri yapar?\n19. Hedge hangi durumda kötü trade’i kapatmamanın bahanesine dönüşür?\n20. Protective put toplam payoff’u nasıl değiştirir?\n21. Protective putta strike seçimi hangi trade-off’u yaratır?\n22. Direct hedge hangi araçlarla kurulabilir?\n23. Notional olarak eşit long ve short neden ekonomik olarak tam eşleşmeyebilir?\n24. Hedge ratio neyi ölçer?\n25. Basis risk nedir?\n26. XAGTRYG pozisyonunu yalnız XAGUSD ile hedge etmek hangi riski açık bırakabilir?\n27. Diversification ile direct hedge nasıl ayrılır?\n28. Correlation coefficient neden nedensellik veya gelecek garantisi değildir?\n29. Stres döneminde korelasyon neden değişebilir?\n30. Hedge maliyetinin ana bileşenleri nelerdir?\n31. Hedge zarar yazarken yine de başarılı olabilir mi?\n32. Hedge hangi koşullarda kapatılır veya roll edilir?\n33. Tam portföy koruma iş akışının sırası nedir?34. Bölüm 21’in Bölüm 22 ve 23’e bıraktığı konular nelerdir?",
+    "source_extract_summary": [
+      "Premiumun intrinsic ve time value bileşenleri nasıl ayrılır?",
+      "Theta neden sabit günlük kayıp takvimi değildir?",
+      "Dayanak doğru yönde giderken long option neden zarar yazabilir?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Korunma ve göreceli değer stratejilerinin gelecekteki modülü",
+      "Opsiyon ve türev ürünlerin ayrı fiyat/risk semantiği",
+      "Referans ve işlem simülasyonu varsayımları",
+      "Eşzamanlı sinyallerin portföy ve yoğunlaşma etkisi"
+    ]
+  }
+]

@@ -4,11 +4,11 @@ import csv,json
 ROOT=Path('research');OUT=ROOT/'experiments/atk-completion';CARDS=ROOT/'knowledge/processed/ATK-TR-D1.0-2026-08-cards.jsonl'
 PACK={1:'ATK-P1-coverage',2:'ATK-P2-price-action',3:'ATK-P2-price-action',4:'ATK-P3-zones-liquidity',5:'ATK-P3-zones-liquidity',6:'ATK-P4-patterns',7:'ATK-P5-volume-indicators',8:'ATK-P5-volume-indicators',9:'ATK-P6-measurement-geometry',10:'ATK-P7-multi-timeframe',11:'ATK-P8-strategy-schema',12:'ATK-P8-strategy-schema',13:'ATK-P9-risk',14:'ATK-P10-process',15:'ATK-P11-data-replay',16:'ATK-P12-ai-governance',17:'ATK-P13-cycle-cross-market-time',18:'ATK-P14-fundamentals',19:'ATK-P15-crypto-options',20:'ATK-P13-cycle-cross-market-time',21:'ATK-P15-crypto-options',22:'ATK-P13-cycle-cross-market-time',23:'ATK-P9-risk',24:'ATK-P16-arbitrage-final'}
 RULES={
-2:['BR-024-single-candle-geometry','BR-025-multi-candle-sequences','BR-026-pressure-loss'],3:['BR-001-confirmed-swing','BR-002-close-break','BR-004-acceptance','BR-006-failure','BR-028-breakout-lifecycle-details'],
+1:['BR-ATK-015-integrated-research-architecture'],2:['BR-024-single-candle-geometry','BR-025-multi-candle-sequences','BR-026-pressure-loss'],3:['BR-001-confirmed-swing','BR-002-close-break','BR-004-acceptance','BR-006-failure','BR-028-breakout-lifecycle-details'],
 4:['BR-C1-015-pivot-cpr','BR-C1-016-support-resistance','BR-031-location-context'],5:['BR-007-probe-rejection','BR-021-formations','BR-028-breakout-lifecycle-details'],
 6:['BR-024-single-candle-geometry','BR-025-multi-candle-sequences','BR-021-formations'],7:['BR-C1-009-relative-volume','BR-C1-010-vwap-avwap','BR-C1-011-volume-profile'],
 8:['BR-C1-002-moving-averages','BR-C1-003-rsi','BR-C1-004-stochastic','BR-C1-005-macd','BR-C1-006-atr','BR-C1-007-bollinger','BR-C1-012-adx-dmi','BR-C1-013-supertrend','BR-C1-014-ichimoku','BR-C1-021-information-families'],
-9:['BR-C1-017-fibonacci','BR-C1-018-gann-normalized','BR-C1-019-pitchfork','BR-C1-020-regression-channel','BR-C1-022-decision-robustness'],10:['BR-018-multi-timeframe','BR-032-volume-mtf'],11:['BR-ATK-007-strategy-setup-schema'],12:['BR-ATK-007-strategy-setup-schema'],13:['BR-ATK-008-risk-boundary'],14:['BR-ATK-009-journal-process'],15:['BR-ATK-010-data-replay-contract'],16:['BR-ATK-011-ai-governance'],23:['BR-ATK-008-risk-boundary']}
+9:['BR-C1-017-fibonacci','BR-C1-018-gann-normalized','BR-C1-019-pitchfork','BR-C1-020-regression-channel','BR-C1-022-decision-robustness'],10:['BR-018-multi-timeframe','BR-032-volume-mtf'],11:['BR-ATK-007-strategy-setup-schema'],12:['BR-ATK-007-strategy-setup-schema'],13:['BR-ATK-008-risk-boundary'],14:['BR-ATK-009-journal-process'],15:['BR-ATK-010-data-replay-contract'],16:['BR-ATK-011-ai-governance'],17:['BR-ATK-012-cycle-cross-market-time'],18:['BR-ATK-013-fundamental-external-data'],19:['BR-ATK-014-crypto-options-hedge'],20:['BR-ATK-012-cycle-cross-market-time'],21:['BR-ATK-014-crypto-options-hedge'],22:['BR-ATK-012-cycle-cross-market-time'],23:['BR-ATK-008-risk-boundary'],24:['BR-ATK-015-integrated-research-architecture']}
 FORM={
 'ATK-P1-coverage':'Kaynak/terminoloji; ayrı finansal olay formülü uygulanmaz.',
 'ATK-P2-price-action':'R=H-L; B=|C-O|; wick ve close-location oranları; teyitli pivot p ancak p+right kapanınca bilinir; yapı durumu teyitli HH/HL/LH/LL; break/acceptance/failure kapanış-temelli yaşam döngüsüdür.',
@@ -22,12 +22,16 @@ FORM={
 'ATK-P10-process':'Karar kalitesi outcome kullanılmadan plan alanlarının tamamlığı ve rule_violation ile puanlanır; psikoloji iddiası finansal sinyal değil process_rule/not_ohlcv_testable.',
 'ATK-P11-data-replay':'Görünürlük closed_bars_only; pivot confirmed_position; HTF last_completed_asof; deney kimliği code_version+rule_version+parameter_set+data_snapshot_hash.',
 'ATK-P12-ai-governance':'Her AI önerisi source+assumptions+data_requirements+validation_status+limitations taşır; future leakage, fabricated result, silent post-result rule change ve negatif sonuç silme yasaktır.',
+'ATK-P13-cycle-cross-market-time':'event return, XU100/GSPC/USDTRY/altın/Brent as-of getirileri, session/weekday ve rejim bantlarında ölçülür; tahvil/makro değerleri publication_known_at ile birleştirilir veya external_data_required.',
+'ATK-P14-fundamentals':'Finansal veri period_end ile değil filing known_at ile birleştirilir; growth/margin/FCF/net_debt/valuation yalnız point-in-time filing verisi gelince hesaplanır; mevcut durumda external_data_required.',
+'ATK-P15-crypto-options':'Funding/OI/on-chain venue+instrument+timestamp; opsiyon chain snapshot strike/expiry/bid/ask/IV/Greeks point-in-time ister. Veri yokken performans iddiası yok; payoff yalnız referans matematiğidir.',
+'ATK-P16-arbitrage-final':'net_edge=sell_bid*(1-sell_fee)-buy_ask*(1+buy_fee)-transfer_cost-funding_or_borrow-slippage; aynı varlık/settlement/network/product ve senkron yürütülebilir büyüklük kapıları zorunlu. Nihai karar zinciri çapraz kitap kanıt matrisidir.',
 }
 
 def main():
  OUT.mkdir(parents=True,exist_ok=True);cards=[json.loads(x) for x in CARDS.read_text().splitlines()];pages=[];claims=[];un=[];cross=[]
  for c in cards:
-  ch=c.get('chapter');pack=PACK.get(ch,'ATK-P1-coverage');done=ch in RULES;front=c['page_kind']=='front_matter';disp='reference_only' if front else ('tested_crossbook_or_new' if done else 'pending_package');state='closed' if front or done else 'open';rules=RULES.get(ch,[])
+  ch=c.get('chapter');pack=PACK.get(ch,'ATK-P1-coverage');done=ch in RULES;front=c['page_kind']=='front_matter';disp='reference_only' if front else (('external_data_required' if ch in {18,19,20,21,24} else 'tested_crossbook_or_new') if done else 'pending_package');state='closed' if front or done else 'open';rules=RULES.get(ch,[])
   pages.append({'page':c['page'],'card_id':c['id'],'chapter':ch,'section':c.get('section'),'target_package':pack,'disposition':disp,'coverage_state':state,'linked_rule_ids':'|'.join(rules),'source_summary':' '.join(c['source_extract_summary'])})
   for rid in rules:cross.append({'source_card':c['id'],'page':c['page'],'chapter':ch,'target_package':pack,'linked_rule_id':rid,'link_type':'cross_book_existing_result'})
   atoms=c['source_extract_summary'] or [c.get('section') or 'reference']
@@ -38,5 +42,5 @@ def main():
  (OUT/'atk-claim-registry.json').write_text(json.dumps({'schema_version':1,'source_id':'ATK-TR-D1.0-2026-08','claims':claims},ensure_ascii=False,indent=2)+'\n')
  for name,rows,fields in [('atk-unresolved-claims.csv',un,['claim_id','page','target_package','next_action']),('cross-book-rule-map.csv',cross,['source_card','page','chapter','target_package','linked_rule_id','link_type'])]:
   with (OUT/name).open('w',newline='') as f:w=csv.DictWriter(f,fields,lineterminator='\n');w.writeheader();w.writerows(rows)
- summary={'pages':len(pages),'atomic_claims':len(claims),'packages_completed':list(range(1,13)),'cross_book_links':len(cross),'unresolved_claims':len(un),'blank_dispositions':sum(not x['disposition'] for x in pages)};(OUT/'coverage-summary.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
+ summary={'pages':len(pages),'atomic_claims':len(claims),'packages_completed':list(range(1,17)),'cross_book_links':len(cross),'unresolved_claims':len(un),'blank_dispositions':sum(not x['disposition'] for x in pages)};(OUT/'coverage-summary.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()
