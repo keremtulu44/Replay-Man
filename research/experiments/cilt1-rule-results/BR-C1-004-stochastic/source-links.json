@@ -1,0 +1,117 @@
+[
+  {
+    "id": "PTA-C1-2026.p0022",
+    "page": 22,
+    "chapter": 4,
+    "section": "4.1 — Stochastic sayısı nereden gelir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n22 \nBÖLÜM 4 \nStochastic ve Stochastic RSI \nBu iki gösterge 0–100 arasında gidip geldiği için “osilatör” olarak adlandırılır. Önce \nneyi ölçtüklerini ayırın; 80 ve 20 seviyelerini otomatik al-sat düğmesine çevirmeyin. \n  \n \nHIZLI ROL — Ana görev: Stochastic ile fiyatın son aralığın neresinde kapandığını, Stoch RSI \nile RSI’nın kendi aralığındaki yerini görmek. Tek başına trend dönüşünü göstermez. Ana risk: \n80/20’yi otomatik al-sat sanmak ve benzer bilgileri ayrı teyitler gibi saymak. İyi eşleşme: fiyat \nyapısı + tek trend filtresi. \n4.1 — Stochastic sayısı nereden gelir? \nStochastic’in temel fikri çok somuttur: Seçilen geriye bakılan dönem penceresinde kapanış, en \ndüşük ile en yüksek değer arasındaki aralığın neresinde? Kapanış aralığın üst bölümüne \nyaklaştıkça değer 100’e; alt bölümüne yaklaştıkça 0’a yaklaşır. \nFORMÜL MANTIĞI \n%K = 100 × (Kapanış − N periyotluk en düşük) / (N periyotluk en yüksek − N periyotluk en düşük). \nBuradaki kritik ayrıntı, karşılaştırmanın tek bir mumla değil seçilen geriye bakılan dönem penceresinin \nyüksek-düşük aralığıyla yapılmasıdır. \n \n \nŞekil 4.1 — Basitleştirilmiş sayısal örnek: seçilen aralığın en düşüğü 50, en yükseği 100 ve kapanış 90 ise %K = 80 \nolur. \nSAYISAL ÖRNEK \nEn yüksek 100, en düşük 50, kapanış 90 olsun. Kapanış düşükten 40 birim yukarıdadır; toplam aralık \n50 birimdir. 40 / 50 = 0,80; ×100 = 80. “80” burada fiyatın pahalı olduğunu değil, kapanışın seçilen \naralığın üst bölümünde olduğunu anlatır.",
+    "source_extract_summary": [
+      "BÖLÜM 4 Stochastic ve Stochastic RSI Bu iki gösterge 0–100 arasında gidip geldiği için “osilatör” olarak adlandırılır.",
+      "Önce neyi ölçtüklerini ayırın; 80 ve 20 seviyelerini otomatik al-sat düğmesine çevirmeyin.",
+      "HIZLI ROL — Ana görev: Stochastic ile fiyatın son aralığın neresinde kapandığını, Stoch RSI ile RSI’nın kendi aralığındaki yerini görmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0023",
+    "page": 23,
+    "chapter": 4,
+    "section": "4.4 — 80 neden otomatik SAT, 20 neden otomatik AL değildir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n23 \n4.2 — %K ve %D çizgileri aynı şeyi göstermez \nStochastic çoğu platformda iki çizgiyle gösterilir. %K ana ve daha hızlı çizgidir. %D ise \n%K’nın yumuşatılmış biçimidir; klasik kullanımda %K’nın hareketli ortalaması olarak \nhesaplanır. \nBu nedenle %K–%D kesişimi iki bağımsız gösterge kesişimi değildir. Daha hızlı Stochastic \nhareketinin kendi yumuşatılmış haline göre yön değiştirmesini gösterir. \n%K, fiyat değişimine daha hızlı tepki verdiği için daha fazla kısa dönem dalgalanması taşır. %D \nbu dalgalanmanın bir kısmını süzer fakat daha geç tepki verir. \nKesişim tek başına evrensel AL/SAT sinyali değildir. Yatay piyasada aralık içindeki dönüşler \ndaha kullanılabilir olabilirken güçlü trendlerde karşı-trend kesişimler sıklaşabilir. Trend \nbağlamında kesişim, trend dönüşünden çok geri çekilme sonrasında hareket gücünün yeniden \nana yöne dönüp dönmediğini izlemek için kullanılabilir. \n4.3 — Hızlı, Yavaş ve Tam Stochastic: fark ölçümde değil, yumuşatmadadır \nHızlı, Yavaş ve Tam Stochastic sürümleri farklı bir temel ölçümü değil, yumuşatma ve \nayarlanabilirlik düzeyini anlatır. Tepki hızı arttıkça gösterge fiyat değişimine daha çabuk \nkarşılık verir; bunun karşılığında kısa dönem gürültüsüne duyarlılık artar. \nSürüm Yapı Tepki Temel fark \nHızlı (Fast) Ham %K + onun yumuşatılmış %D’si En hızlı Daha fazla sinyal ve gürültü \nYavaş (Slow) Hızlı yapının ek yumuşatılmış biçimi Daha sakin Daha az gürültü, daha geç tepki \nTam (Full) Geriye bakış, %K ve %D yumuşatması ayrı ayarlanır Ayara bağlı Esneklik artar; “daha doğru” olmaz \nTEKNİK AYRIM — DAHA HIZLI ≠ DAHA DOĞRU \nDaha düşük/yumuşatması az ayarlar daha hızlı tepki verir; daha fazla yumuşatma ise daha yavaş \nve daha sakin bir çizgi üretir. Bu, “iyi–kötü” ayrımı değil hassasiyet–gürültü dengesidir. \n4.4 — 80 neden otomatik SAT, 20 neden otomatik AL değildir? \n80/20 seviyeleri konumu gösterir, dönüş zorunluluğunu değil. Güçlü bir trendde Stochastic \nuzun süre uç bölgede kalabilir; bu yüzden ilk temas otomatik işlem sinyali değildir.",
+    "source_extract_summary": [
+      "4.2 — %K ve %D çizgileri aynı şeyi göstermez Stochastic çoğu platformda iki çizgiyle gösterilir.",
+      "%D ise %K’nın yumuşatılmış biçimidir; klasik kullanımda %K’nın hareketli ortalaması olarak hesaplanır.",
+      "Bu nedenle %K–%D kesişimi iki bağımsız gösterge kesişimi değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0024",
+    "page": 24,
+    "chapter": 4,
+    "section": "4.5 — Trend içi geri çekilme kullanımının mantığı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n24 \n \nŞekil 4.2 — Yükseliş devam ederken Stochastic uzun süre 80 bölgesinde kalabilir. İlk 80 teması otomatik satış işareti \ndeğildir. \nTEKNİK SORUN — “AŞIRI ALIM” KELİMESİ \n“Aşırı alım” ifadesi psikolojik olarak “artık düşmeli” çağrışımı yapar. Stochastic’in matematiği ise \nyalnız kapanışın yakın dönem aralığında yüksek bir konumda olduğunu söyler. Matematikte dönüş \nzorunluluğu yoktur. \n \n4.5 — Trend içi geri çekilme kullanımının mantığı \nÖnce trend/piyasa ortamı belirlenir; Stochastic daha sonra geri çekilmenin zamanlamasını izler. \nYükseliş trendinde 20 çevresi “ucuzluk” değil, kapanışın yakın dönem aralığının alt bölümüne \nçekildiğini gösterir; giriş için fiyat teyidi gerekir. \nBağlam Stochastic okuması Doğru soru Yanlış refleks \nGüçlü yükseliş 80 üzerinde Hareket gücü güçlü mü, trend sürüyor \nmu? \n“80 oldu, satış yönlü \nişlem.” \nYükselişte geri \nçekilme \n20 çevresi Geri çekilme olgunlaşıyor mu; fiyat \nteyidi var mı? \n“20 oldu, kesin al.” \nGüçlü düşüş 20 altında Satış yönlü hareket gücü güçlü mü? “Aşırı satım → hemen \nal.” \nYatay piyasa 20/80 dönüşleri Sınırlar ve yapı bu dönüşü \ndestekliyor mu? \nBu tür bir göstergeyi tek \nbaşına işlem sistemi \nyapmak",
+    "source_extract_summary": [
+      "İlk 80 teması otomatik satış işareti değildir.",
+      "TEKNİK SORUN — “AŞIRI ALIM” KELİMESİ “Aşırı alım” ifadesi psikolojik olarak “artık düşmeli” çağrışımı yapar.",
+      "Stochastic’in matematiği ise yalnız kapanışın yakın dönem aralığında yüksek bir konumda olduğunu söyler."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0025",
+    "page": 25,
+    "chapter": 4,
+    "section": "4.6 — Stochastic RSI neden daha hassastır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n25 \n \nAYAR UYARISI \nK=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir. Bu değerler “Stochastic’in doğru ayarı” \ndeğildir. Ayar, strateji ve zaman dilimiyle birlikte değerlendirilmelidir. \n \n4.6 — Stochastic RSI neden daha hassastır? \nStochastic RSI fiyat aralığını değil, RSI’nın kendi yakın dönem aralığını 0–100 arasında \nyeniden ölçekler. Bu yüzden RSI’nın mutlak seviyesi çok değişmese bile, RSI kendi son dönem \naralığının üst veya alt ucuna hızla yaklaştığında Stoch RSI 0 veya 100 bölgelerine daha hızlı \ngidebilir. \nFORMÜL MANTIĞI \nStoch RSI = 100 × (Güncel RSI − N periyotluk en düşük RSI) / (N periyotluk en yüksek RSI − N \nperiyotluk en düşük RSI). Bu formül, Stoch RSI’nın doğrudan RSI’dan türetildiğini açıkça gösterir. \n \nSAYISAL ÖRNEK — AYNI RSI, FARKLI YORUM \nSon 14 periyotta RSI 40 ile 70 arasında dolaşmış ve güncel RSI 64 olsun. Stoch RSI = \n(64−40)/(70−40)×100 = 80. RSI 64 klasik 70 eşiğinin altında iken Stoch RSI 80 olabilir. Çelişki \nyoktur: iki araç farklı sorular sorar. RSI hareket gücü seviyesini, Stoch RSI ise RSI’nın kendi yakın \ndönem aralığındaki konumunu gösterir. \n \n \nŞekil 4.3 — Aynı sentetik fiyat serisinde Stoch RSI, RSI’ya göre daha hızlı 0/100 uçlarına hareket eder. Daha hassas \nolmak daha az yanlış sinyal anlamına gelmez.",
+    "source_extract_summary": [
+      "AYAR UYARISI K=20, D=1 gibi ayarlar yalnız bir kullanım tercihi olabilir.",
+      "Bu değerler “Stochastic’in doğru ayarı” değildir.",
+      "Ayar, strateji ve zaman dilimiyle birlikte değerlendirilmelidir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0026",
+    "page": 26,
+    "chapter": 4,
+    "section": "4.9 — 50 orta çizgisi ne anlatır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n26 \n4.7 — Daha hassas = daha iyi değildir \nStoch RSI’nın yüksek hassasiyeti daha erken tepki sağlayabilir; aynı özellik yatay veya \ngürültülü piyasada daha fazla yanlış sinyal üretir. Daha hızlı tepki, daha yüksek doğruluk \ndeğildir. \nAraç Neyi 0–100 aralığına \ndönüştürür? \nTipik özellik Ana risk \nRSI Pozitif/negatif fiyat değişimlerinden \ntüretilen hareket gücü \nDaha yumuşak hareket \ngücü okuması \n70/30’u dönüş emri \nsanmak \nStochastic Kapanışın fiyatın en yüksek-en \ndüşük aralığındaki konumu \nYatay piyasadaki konuma \nduyarlı \n80/20’de trende karşı \nişlem \nStoch RSI RSI’nın kendi en yüksek-en düşük \naralığındaki konumu \nDaha hassas / daha hızlı Gürültü ve RSI ile bilgi \ntekrarı \n \n4.8 — Klasik ve gizli Stochastic uyumsuzluğu \nKlasik yükseliş yönlü uyumsuzlukta fiyat daha düşük dip oluştururken Stochastic daha yüksek \ndip oluşturur. Klasik düşüş yönlü uyumsuzlukta fiyat daha yüksek tepe oluştururken Stochastic \ndaha düşük tepe oluşturur. Bu yapılar mevcut hareketin Stochastic tarafından önceki kadar \ngüçlü teyit edilmediğini gösterebilir; dönüş zamanı vermez. \nGizli yükseliş yönlü uyumsuzlukta yükseliş yapısı içinde fiyat daha yüksek dip, Stochastic daha \ndüşük dip oluşturur. Gizli düşüş yönlü uyumsuzlukta düşüş yapısı içinde fiyat daha düşük tepe, \nStochastic daha yüksek tepe oluşturur. \nAna ayrım şudur: klasik uyumsuzluk mevcut hareketin zayıflamasına ilişkin uyarı üretirken \ngizli uyumsuzluk daha çok mevcut trend içindeki geri çekilme davranışıyla birlikte okunur. Her \niki durumda da fiyat yapısı göstergenin önünde tutulmalıdır. \n4.9 — 50 orta çizgisi ne anlatır? \nStochastic 50’nin üzerindeyse kapanış seçilen yüksek–düşük aralığının üst yarısındadır; 50’nin \naltındaysa alt yarısındadır. 20/80 seviyeleri aralığın uçlarını, 50 seviyesi ise hangi yarıda \nbulunulduğunu gösterir. \nTek bir 50 kesişimi bağımsız işlem sinyali değildir. Yatay piyasada 20/80 ve %K–%D dönüşleri \nöne çıkabilirken güçlü trendlerde göstergenin uç bölgelerde uzun süre kalması normaldir. Bu \nnedenle aynı Stochastic değeri farklı piyasa ortamlarında farklı ağırlık taşır. \nStoch RSI’da da benzer bir 50 okuması yapılabilir; ancak burada ölçülen fiyatın değil RSI’nın \nkendi yakın dönem aralığıdır. Stoch RSI’nın %D çizgisi daha yumuşak bir görünüm için \nkullanılabilir. Bu tercih yeni bilgi üretmez; aynı türevin daha fazla yumuşatılmış halidir.",
+    "source_extract_summary": [
+      "4.7 — Daha hassas = daha iyi değildir Stoch RSI’nın yüksek hassasiyeti daha erken tepki sağlayabilir; aynı özellik yatay veya gürültülü piyasada daha fazla yanlış sinyal üretir.",
+      "Daha hızlı tepki, daha yüksek doğruluk değildir.",
+      "Araç Neyi 0–100 aralığına dönüştürür?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Pullback, ikinci deneme ve devam kalitesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0027",
+    "page": 27,
+    "chapter": 4,
+    "section": "4.10 — Üç osilatörü üst üste koymak neden sorun?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n27 \n4.10 — Üç osilatörü üst üste koymak neden sorun? \nÜç araç aynı formülü kullanmaz; ancak aynı karar katmanında yoğunlaşır ve Stoch RSI \ndoğrudan RSI’dan türetilir. Bu nedenle eşzamanlı sinyalleri üç bağımsız teyit değildir. \nTEKRAR RİSKİ — GÖRÜNÜRDE 3, GERÇEKTE 1 SINIF \nRSI + Stoch + Stoch RSI kullanırsanız üç ayrı panel görürsünüz; fakat üç ayrı türde bilgi elde etmiş \nolmazsınız. Daha dengeli örnek: fiyat yapısı + tek bir hareket gücü göstergesi + ATR ile fiyat \nhareketliliği ve risk. \n \nKombinasyon Bilgi dağılımı Karar \nStochastic + Fiyat yapısı Hareket gücü + fiyat yapısı Güçlü tamamlayıcılık \nStochastic + MA Zamanlama + trend filtresi Roller ayrılırsa mantıklı \nStoch RSI + ATR Hareket gücü + fiyat hareketliliği/risk Farklı sınıflar \nRSI + Stoch RSI Benzer hareket gücü bilgisi Yüksek tekrar riski \nRSI + Stoch + Stoch RSI Üç hareket gücü paneli Gereksiz yığılma riski \n \nBÖLÜM SONUCU \nStochastic’i “80/20 dönüş sistemi” olarak değil, kapanışın yakın dönem fiyat aralığındaki konumu \nolarak okuyun. Stoch RSI ise fiyatın değil RSI’nın aralığını ölçer. İkisi de trend/piyasa ortamı ve fiyat \nyapısından bağımsız kullanıldığında kolayca yanıltabilir.",
+    "source_extract_summary": [
+      "4.10 — Üç osilatörü üst üste koymak neden sorun?",
+      "Üç araç aynı formülü kullanmaz; ancak aynı karar katmanında yoğunlaşır ve Stoch RSI doğrudan RSI’dan türetilir.",
+      "Bu nedenle eşzamanlı sinyalleri üç bağımsız teyit değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  }
+]

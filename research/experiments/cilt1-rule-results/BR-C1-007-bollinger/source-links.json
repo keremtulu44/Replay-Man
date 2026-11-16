@@ -1,0 +1,134 @@
+[
+  {
+    "id": "PTA-C1-2026.p0043",
+    "page": 43,
+    "chapter": 7,
+    "section": "7.1 — Üç bant neyi temsil eder?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n43 \nBÖLÜM 7 \nBollinger Bands: Ortalama ve Fiyat \nHareketliliği \nBollinger bantlarına “fiyat banda değdi, şimdi dönmeli” diye bakmayın. Bantlar, \nfiyatın kendi ortalaması çevresinde ne kadar dar veya geniş hareket ettiğini görmeye \nyarayan bir çerçevedir. \n  \n \nHIZLI ROL — Ana görev: fiyatın ortalama çevresinde ne kadar dar veya geniş hareket ettiğini \ngörmek. Tek başına yön veya dönüş söylemez. Ana risk: üst banda gelince SAT, alt banda \ngelince AL demek veya sıkışmanın mutlaka yukarı kırılacağını sanmak. İyi eşleşme: fiyat yapısı \n+ hacim; ATR risk için. \n7.1 — Üç bant neyi temsil eder? \nBileşen Klasik yapı Rol \nOrta bant Genellikle 20 SMA Dinamik ortalama referansı \nÜst bant Orta + 2 standart sapma Ortalama çevresindeki üst bant \nAlt bant Orta − 2 standart sapma Ortalama çevresindeki alt bant \n \nTEKNİK AYRINTI — STANDART SAPMA NE DEMEKTİR? \nStandart sapma “fiyat ne kadar pahalı?” sorusunu değil, seçtiğiniz dönemde fiyatların ortalama \nçevresine ne kadar yayıldığını ölçer. Dağılım büyürse bantlar genişler; dağılım küçülürse bantlar \ndaralır.",
+    "source_extract_summary": [
+      "BÖLÜM 7 Bollinger Bands: Ortalama ve Fiyat Hareketliliği Bollinger bantlarına “fiyat banda değdi, şimdi dönmeli” diye bakmayın.",
+      "Bantlar, fiyatın kendi ortalaması çevresinde ne kadar dar veya geniş hareket ettiğini görmeye yarayan bir çerçevedir.",
+      "HIZLI ROL — Ana görev: fiyatın ortalama çevresinde ne kadar dar veya geniş hareket ettiğini görmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0044",
+    "page": 44,
+    "chapter": 7,
+    "section": "7.3 — Üst banda temas neden otomatik SAT değildir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n44 \n \nŞekil 7.1 — Beş değerlik basitleştirilmiş eğitim örneği: 98, 99, 100, 101, 102 ortalaması 100; standart sapma yaklaşık \n1,41. ±2σ aralığı yaklaşık 97,17–102,83. \nNEDEN 5 VERİ KULLANDIK? \nGerçek Bollinger ayarı çoğunlukla daha uzun bir pencere kullanır; burada amaç yalnız standart \nsapmanın ne yaptığını görünür kılmaktır. Küçük örnek hesap kolaylığı içindir, strateji parametresi \ndeğildir. \n \n7.2 — %B: bant içindeki konumu tek sayıya dönüştürmek \n%B, fiyatın Bollinger bantlarına göre nerede bulunduğunu sayısallaştırır. Temel okuma \nşöyledir: \n%B = 1 → fiyat üst bantta \n%B = 0,5 → fiyat orta bantta \n%B = 0 → fiyat alt bantta \n%B > 1 → fiyat üst bandın üzerinde \n%B < 0 → fiyat alt bandın altında \nBu değer “pahalı–ucuz” ölçümü değildir. Fiyatın mevcut Bollinger yapısı içindeki göreli \nkonumunu nicel hale getirir. \n7.3 — Üst banda temas neden otomatik SAT değildir? \nÜst banda temas, fiyatın ortalamadan belirgin biçimde uzaklaştığını gösterir; formülde dönüş \nşartı yoktur. Güçlü yükselişte fiyat üst bant boyunca ilerleyebilir.",
+    "source_extract_summary": [
+      "Gerçek Bollinger ayarı çoğunlukla daha uzun bir pencere kullanır; burada amaç yalnız standart sapmanın ne yaptığını görünür kılmaktır.",
+      "Küçük örnek hesap kolaylığı içindir, strateji parametresi değildir.",
+      "7.2 — %B: bant içindeki konumu tek sayıya dönüştürmek %B, fiyatın Bollinger bantlarına göre nerede bulunduğunu sayısallaştırır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Deney ve strateji kartı"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0045",
+    "page": 45,
+    "chapter": 7,
+    "section": "7.4 — Bant sıkışması neyi söyler?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n45 \n \nŞekil 7.2 — Sentetik eğitim örneğinde fiyat güçlü yükseliş boyunca üst banda yakın ilerliyor. İlk temas otomatik satış \ndeğildir. \nTEKNİK SORUN — “2 STANDART SAPMA = AŞIRI DEĞER” \nİki standart sapma, fiyatın “adil değerden aşırı uzak ve dönmek zorunda” olduğu anlamına gelmez. \nBollinger bir değerleme modeli değil, ortalama çevresindeki dağılımı gösteren bir bant sistemidir. \n \n7.4 — Bant sıkışması neyi söyler? \nBantların daralması, fiyatın son dönemde daha dar dağıldığını gösterir; buna bant sıkışması \ndenir. Sıkışma yönü söylemez, yalnız fiyat hareketliliğinin azaldığını gösterir. \n \nŞekil 7.3 — Bantlar daraldıktan sonra fiyat hareketi yeniden genişleyebilir. Ancak sıkışmanın kendisi yönü önceden \nsöylemez.",
+    "source_extract_summary": [
+      "TEKNİK SORUN — “2 STANDART SAPMA = AŞIRI DEĞER” İki standart sapma, fiyatın “adil değerden aşırı uzak ve dönmek zorunda” olduğu anlamına gelmez.",
+      "Bollinger bir değerleme modeli değil, ortalama çevresindeki dağılımı gösteren bir bant sistemidir.",
+      "Bantların daralması, fiyatın son dönemde daha dar dağıldığını gösterir; buna bant sıkışması denir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0046",
+    "page": 46,
+    "chapter": 7,
+    "section": "7.5 — Bant Genişliği (BandWidth): sıkışmadan genişlemeye hareketlilik",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n46 \nGözlem Doğru yorum Yanlış yorum \nBantlar daralıyor Fiyat hareketliliği/dağılım daralıyor “Yukarı kırılım geliyor.” \nBantlar genişliyor Hareket genişliği artıyor “Trend kesin güçlü.” \nFiyat üst bantta Üst bant bölgesinde “Aşırı alım → satış yönlü işlem.” \nFiyat alt bantta Alt bant bölgesinde “Ucuz → hemen al.” \n \n7.5 — Bant Genişliği (BandWidth): sıkışmadan genişlemeye hareketlilik \ndöngüsü \nBant Genişliği (BandWidth), üst ve alt Bollinger bantları arasındaki genişliği ayrı bir seri \nhalinde izlemeye yarar. Bant Genişliği düşerken bantlar daralır; yükselirken genişler. \nSıkışmayı yalnız “bantlar dar görünüyor” diye değerlendirmek yerine, Bant Genişliği’nin \nenstrümanın kendi geçmişindeki konumuna bakılabilir. Sıra dışı derecede düşük Bant Genişliği \nsıkışma rejimini, sıra dışı derecede yüksek Bant Genişliği ise geniş hareketlilik rejimini gösterir. \nKullanılan tarih penceresi bir strateji ayarıdır; tek bir evrensel sayı yoktur. \nDüşük Bant Genişliği tek başına yön vermez. Ancak Bant Genişliği çok düşük bir bölgeden \nyeniden yükselmeye başladığında fiyat hareketliliğinin genişleme evresine geçtiği görülebilir. \nSıkışma, genişleme ve aşırı genişleme aynı döngünün farklı evreleridir \nBollinger yapısı kabaca şu fiyat hareketliliği döngüsüyle okunabilir: \nsıkışma → Bant Genişliği tabanı → genişleme → yüksek Bant Genişliği / aşırı genişleme → \ndaralma \nBurada ölçülen yön değil, hareket genişliğidir. Yüksek Bant Genişliği sonrasında hareketlilik \nazalabilir; fakat bu mutlaka trendin tersine döneceği anlamına gelmez. Sonuç ters hareket, \nyataylaşma veya kısa bir sakinleşme sonrasında aynı trendin devamı olabilir.",
+    "source_extract_summary": [
+      "Gözlem Doğru yorum Yanlış yorum Bantlar daralıyor Fiyat hareketliliği/dağılım daralıyor “Yukarı kırılım geliyor.” Bantlar genişliyor Hareket genişliği artıyor “Trend kesin güçlü.” Fiyat üst bantta Üst bant bölgesinde “Aşırı alım → satış yönlü işlem.” Fiyat alt bantta Alt bant bölgesinde “Ucuz → hemen al.” 7.5 — Bant Genişliği (BandWidth): sıkışmadan genişlemeye hareketlilik döngüsü Bant Genişliği (BandWidth), üst ve alt Bollinger bantları arasındaki genişliği ayrı bir seri halinde izlemeye yarar.",
+      "Bant Genişliği düşerken bantlar daralır; yükselirken genişler.",
+      "Sıkışmayı yalnız “bantlar dar görünüyor” diye değerlendirmek yerine, Bant Genişliği’nin enstrümanın kendi geçmişindeki konumuna bakılabilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Deney ve strateji kartı",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0047",
+    "page": 47,
+    "chapter": 7,
+    "section": "7.9 — Bollinger + ATR birlikte kullanılabilir mi?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n47 \nŞekil 7.4 — Bant Genişliği temsili döngüsü: sıkışma, genişleme, aşırı genişleme ve daralma yön değil hareketlilik \nevreleridir. \n7.6 — İlk bant kırılımı gerçek yön olmak zorunda değildir: sahte ilk kırılım \nSıkışma sonrasında fiyat önce bantlardan birinin dışına çıkabilir fakat orada kalıcı olamayarak \nyeniden bantların içine dönebilir. Daha sonraki belirgin hareket ilk kırılımın ters yönünde \ngelişebilir. Bu davranış Bollinger literatüründe “Head Fake” olarak da adlandırılır; burada sahte \nilk kırılım ifadesini kullanacağız. \nBu nedenle “sıkışma bitti ve ilk dışa hareket oldu” bilgisi tek başına gerçek kırılım teyidi \ndeğildir. Fiyatın bant dışında kabul görüp görmediği ayrıca izlenmelidir. \nTEKNİK AYRIM \nBanda temas, bandın dışında kapanış ve sonrasında yeniden bandın içine kapanış üç farklı \nolaydır. Özellikle hızlı geri dönüş, ilk genişlemenin devam edemediğini gösteren ayrı bir fiyat \ndavranışıdır. \n7.7 — %B uyumsuzluğu \nFiyat yeni bir daha düşük dip oluştururken ikinci dipteki %B değeri ilk diptekinden daha yüksek \nkalabilir. Bu durumda fiyat mutlak olarak yeni dip üretmiş olsa da Bollinger bantlarına göre \ngöreli konumu önceki dip kadar zayıf değildir. \nBu gözlem tek başına dönüş sinyali değildir. Fiyat yapısı ve sonraki davranışla birlikte \ndeğerlendirilmelidir. \n7.8 — Orta bant destek/direnç midir? \nOrta bant bir hareketli ortalamadır. Trend içinde geri çekilme referansı olabilir; fakat \ndestek/direnç garantisi değildir. Geçmişte çalışmış olması bir sonraki temasın da çalışacağını \nkanıtlamaz. \nBÖLÜM 2 İLE BAĞLANTI \nBollinger’ın orta bandı zaten hareketli ortalama içerir. Bu yüzden grafiğe ayrıca çok sayıda MA \neklemek çoğu zaman yeni bilgi üretmez; önce orta bandın zaten hangi rolü üstlendiğini kontrol edin. \n \n7.9 — Bollinger + ATR birlikte kullanılabilir mi? \nEvet; görevleri ayırmak şartıyla. Bollinger bant genişliği sıkışmayı gösterirken ATR stop/risk \nmesafesinde kullanılabilir. İkisini iki bağımsız fiyat hareketliliği teyidi gibi saymayın. \nKombinasyon Mantıklı görev ayrımı Tekrar riski \nBB + Fiyat yapısı Bant yapısı + fiyat yapısı Düşük \nBB + Hacim Bant sıkışması/kırılım koşulu + katılım Düşük",
+    "source_extract_summary": [
+      "7.6 — İlk bant kırılımı gerçek yön olmak zorunda değildir: sahte ilk kırılım Sıkışma sonrasında fiyat önce bantlardan birinin dışına çıkabilir fakat orada kalıcı olamayarak yeniden bantların içine dönebilir.",
+      "Daha sonraki belirgin hareket ilk kırılımın ters yönünde gelişebilir.",
+      "Bu davranış Bollinger literatüründe “Head Fake” olarak da adlandırılır; burada sahte ilk kırılım ifadesini kullanacağız."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Konum ve seviye yaşam döngüsü",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0048",
+    "page": 48,
+    "chapter": 7,
+    "section": "7.9 — Bollinger + ATR birlikte kullanılabilir mi?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n48 \nKombinasyon Mantıklı görev ayrımı Tekrar riski \nBB + RSI/Stoch Bant konumu + hareket gücü Orta; dönüş otomatiğine dikkat \nBB + ATR Bant sıkışması koşulu + risk/stop Orta; ikisi de fiyat hareketliliği \nBB + Bollinger bant \ngenişliği + ATR \nÜç fiyat hareketliliği görünümü Yüksek",
+    "source_extract_summary": [
+      "Kombinasyon Mantıklı görev ayrımı Tekrar riski BB + RSI/Stoch Bant konumu + hareket gücü Orta; dönüş otomatiğine dikkat BB + ATR Bant sıkışması koşulu + risk/stop Orta; ikisi de fiyat hareketliliği BB + Bollinger bant genişliği + ATR Üç fiyat hareketliliği görünümü Yüksek"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0049",
+    "page": 49,
+    "chapter": 7,
+    "section": "7.10 — Bollinger için pratik karar akışı",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n49 \n7.10 — Bollinger için pratik karar akışı \nAdım Soru Bollinger’ın rolü \n1. Piyasa \nortamı \nTrend mi, yatay piyasa mı? Bant boyunca ilerleme ve dönüş \nyorumu değişir \n2. Dağılım Bantlar dar mı, geniş mi? Fiyat hareketliliği koşulu \n3. Konum Fiyat hangi banda yakın? Tek başına giriş işareti değil \n4. Giriş \nişareti \nFiyat yapısı/hacim teyidi var mı? Yönü başka katmandan al \n5. Risk Stop mesafesi ne olmalı? ATR/yapı ile tamamla \n \nBÖLÜM SONUCU \nBollinger Bands’i “üst bant sat, alt bant al” sistemi değil; ortalama + standart sapma bantları + bant \ngenişliği olarak okuyun. Sıkışma yön vermez, banda temas da tek başına dönüş emri değildir.",
+    "source_extract_summary": [
+      "7.10 — Bollinger için pratik karar akışı Adım Soru Bollinger’ın rolü 1.",
+      "Piyasa ortamı Trend mi, yatay piyasa mı?",
+      "Bant boyunca ilerleme ve dönüş yorumu değişir 2."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  }
+]

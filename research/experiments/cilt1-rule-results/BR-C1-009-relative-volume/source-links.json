@@ -1,0 +1,75 @@
+[
+  {
+    "id": "PTA-C1-2026.p0056",
+    "page": 56,
+    "chapter": 9,
+    "section": "9.2 — Göreli Hacim (Relative Volume, RVOL): hacim kendi normaline göre",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n56 \nBÖLÜM 9 \nHacim (Volume): Katılımı Okumak \nHacmi “fiyat yükselecek mi?” göstergesi olarak kullanmayın. Hacim bize fiyat \nhareketine ne kadar işlem aktivitesinin eşlik ettiğini gösterir. \n  \n \nHIZLI ROL — Ana görev: fiyat hareketine ne kadar işlem aktivitesinin eşlik ettiğini görmek. \nTek başına yönü, alıcıların mı satıcıların mı üstün olduğunu veya hareketin devam edeceğini \nsöylemez. Ana risk: yüksek hacmi otomatik yükseliş sinyali sanmak. İyi eşleşme: fiyat yapısı \nveya kırılım aracı. \n9.1 — Hacim (Volume) ne ölçer, ne ölçmez? \nSoru Hacim yardımcı olur \nmu? \nNeden? \nİşlem aktivitesi arttı mı? Evet Doğrudan hacim verisine bakar \nHareketin yönü ne? Hayır Aynı yüksek hacim yükselişte de düşüşte de olabilir \nAlıcılar mı satıcılar mı kesin \nkazandı? \nTek başına hayır Toplam hacim yön/agresyon ayrımı yapmaz \nKırılıma katılım var mı? Bağlama göre evet Kırılımdaki aktiviteyi geçmişle kıyaslayabilir \nFiyat kesin devam eder mi? Hayır Katılım olasılık bağlamıdır, garanti değil \n \nTEKNİK SORUN — HACİM YÖN DEĞİLDİR \n10 milyon birim hacim görmek “10 milyon alıcı” demek değildir. Gerçekleşen her işlemde bir alıcı ve \nbir satıcı vardır. Toplam hacim, işlemlerin ne kadar yoğun olduğunu söyler; yönlü karar için fiyat \ndavranışı ve gerekiyorsa daha ayrıntılı fiyat/işlem verisi gerekir. \n \n9.2 — Göreli Hacim (Relative Volume, RVOL): hacim kendi normaline göre \nne kadar sıra dışı? \nToplam hacim “ne kadar işlem aktivitesi var?” sorusunu cevaplar. Göreli Hacim (Relative \nVolume, RVOL) ise güncel hacmi aynı enstrümanın normal hacmiyle karşılaştırır.",
+    "source_extract_summary": [
+      "BÖLÜM 9 Hacim (Volume): Katılımı Okumak Hacmi “fiyat yükselecek mi?” göstergesi olarak kullanmayın.",
+      "Hacim bize fiyat hareketine ne kadar işlem aktivitesinin eşlik ettiğini gösterir.",
+      "HIZLI ROL — Ana görev: fiyat hareketine ne kadar işlem aktivitesinin eşlik ettiğini görmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0057",
+    "page": 57,
+    "chapter": 9,
+    "section": "9.4 — Yüksek hacim neden bazen yanıltır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n57 \nRVOL oran gibi okunabilir. Örneğin RVOL = 3, güncel hacmin kullanılan normal hacim \nreferansının yaklaşık üç katı olduğunu ifade eder. Böylece mutlak hacmi yüksek olan bir \nenstrüman ile bugün kendi normalinin çok üzerinde işlem gören bir enstrüman ayrılabilir. \nRVOL’un kullandığı “normal” hacim penceresi platforma veya göstergeye göre değişebilir. Bu \nnedenle değeri kullanmadan önce normal hacmin hangi geçmiş pencereye göre hesaplandığını \nkontrol edin. \n9.3 — Kırılımda hacim ne ekler? \nİki kırılım aynı fiyat hareketini yapabilir ama katılım düzeyi farklı olabilir. Göreli yüksek hacim \ndaha yoğun aktiviteyi gösterir; kırılımın başarılı olacağını garanti etmez. \n \nŞekil 9.1 — İki senaryoda fiyat kırılımı benzer. A senaryosunda aktivite belirgin artıyor; B’de kırılım daha düşük \nkatılımla gerçekleşiyor. Bu fark sonuç garantisi değil, kanıt kalitesi farkıdır. \nSAYISAL ÖRNEK \nSon 20 barın tipik hacmini 1,0 milyon varsayalım. Kırılım A’da hacim 1,8 milyon; Kırılım B’de 0,6 \nmilyon olsun. A’da geçmişe göre daha güçlü katılım kanıtı vardır. Ancak “1,8× hacim = başarılı \nkırılım” diye evrensel eşik yoktur. \n \n9.4 — Yüksek hacim neden bazen yanıltır? \nDurum Hacim gözlemi Daha doğru okuma \nDirençte sert satış Çok yüksek Yoğun iki taraflı işlem olabilir; otomatik yükseliş yönlü \ndeğil",
+    "source_extract_summary": [
+      "Örneğin RVOL = 3, güncel hacmin kullanılan normal hacim referansının yaklaşık üç katı olduğunu ifade eder.",
+      "Böylece mutlak hacmi yüksek olan bir enstrüman ile bugün kendi normalinin çok üzerinde işlem gören bir enstrüman ayrılabilir.",
+      "RVOL’un kullandığı “normal” hacim penceresi platforma veya göstergeye göre değişebilir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0058",
+    "page": 58,
+    "chapter": 9,
+    "section": "9.5 — Fiyat hareketi ile hacmi birlikte okuyun",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n58 \nDurum Hacim gözlemi Daha doğru okuma \nKırılım Yüksek Katılım artmış olabilir; fiyat kabulü/yeniden test yine \nizlenir \nYatay piyasa içi çalkantı Yüksek Aktivite fazla ama net yön yok \nTrend devamı Azalan Katılım zayıflıyor olabilir; hemen dönüş demek değildir \n \nNEDEN “YÜKSEK HACİM = DEVAM” KURALI ZAYIFTIR? \nYüksek hacim kâr realizasyonu, panik, haber tepkisi veya iki taraflı yoğun işlem sırasında da \ngörülebilir. Hacim sonucu değil, aktiviteyi ölçer; fiyat tepkisi ayrıca okunmalıdır. \n \n9.5 — Fiyat hareketi ile hacmi birlikte okuyun \nHacim işlem aktivitesini, fiyat barının ne kadar ilerlediği ise bu aktivitenin fiyat üzerindeki \nsonucunu gösterir. İkisini birlikte okumak yalnız “hacim yüksek mi?” sorusundan daha fazla \nbilgi verir. \nFiyat hareketi Hacim Okuma \nGeniş Yüksek \nYüksek hacme geniş fiyat hareketi eşlik ediyor; devam \ngarantisi değildir. \nDar Düşük Düşük hacme dar fiyat hareketi eşlik ediyor. \nGeniş Düşük Fiyat belirgin ilerlerken hacim görece zayıf; hareketin desteği sorgulanabilir. \nDar Yüksek Yüksek hacme rağmen fiyat az ilerliyor; bu sıkışmanın nedeni ayrıca incelenir. \nBu çerçeveye “akıllı para kesin alıyor/satıyor” gibi gözlenemeyen nedensellikler \neklenmemelidir. Ölçülen şey fiyat hareketi ile işlem aktivitesinin birbirine göre davranışıdır. \nTek bar yerine fiyat–hacim dizisini izlemek \nTek bir fiyat–hacim uyumsuzluğu dönüş emri değildir. Ardışık barlarda fiyat hareketi \ngenişlerken hacmin de büyümesi, iki değişkenin birlikte genişlediğini gösterebilir. Buna karşılık \nfiyat ilerlemeyi sürdürürken hacmin bar bar azalması gibi bir uyumsuzluk birkaç gözlem \nboyunca devam ederse uyarının ağırlığı artabilir. \nBulunduğu yer de önemlidir. Aynı yüksek hacim + dar fiyat hareketi davranışı trend ortasında, \nönemli destek çevresinde veya büyük direnç altında aynı ağırlıkta okunmamalıdır. Fiyat yapısı \nve konum ayrı katmanlar olarak korunmalıdır.",
+    "source_extract_summary": [
+      "Durum Hacim gözlemi Daha doğru okuma Kırılım Yüksek Katılım artmış olabilir; fiyat kabulü/yeniden test yine izlenir Yatay piyasa içi çalkantı Yüksek Aktivite fazla ama net yön yok Trend devamı Azalan Katılım zayıflıyor olabilir; hemen dönüş demek değildir NEDEN “YÜKSEK HACİM = DEVAM” KURALI ZAYIFTIR?",
+      "Yüksek hacim kâr realizasyonu, panik, haber tepkisi veya iki taraflı yoğun işlem sırasında da görülebilir.",
+      "Hacim sonucu değil, aktiviteyi ölçer; fiyat tepkisi ayrıca okunmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Konum ve seviye yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0059",
+    "page": 59,
+    "chapter": 9,
+    "section": "9.7 — Hacim ile Volume Profile aynı şey değildir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n59 \n9.6 — Hacim verisinin kendisini kontrol edin \n“Hacim” verisi her piyasa ve veri sağlayıcısında aynı şeyi temsil etmeyebilir. Önce sembolün \nhangi hacim verisini sunduğunu doğrulayın; farklı veri akışlarındaki ham hacim sayılarını \ndoğrudan karşılaştırmayın. \nTEKNİK KONTROL LİSTESİ \nHangi borsa/veri akışı? Hacim gerçek işlem adedi, kontrat/adet veya başka bir aktivite göstergesi mi? \nZaman dilimi değişince nasıl toplulaştırılıyor? Hacim sinyali kurmadan önce veri tanımını doğrulayın. \n \n9.7 — Hacim ile Volume Profile aynı şey değildir \nAraç Nasıl gösterir? Ana soru \nKlasik hacim (Volume) Zaman boyunca barlar “Bu bar/dönemde aktivite ne kadar?” \nVolume Profile Fiyat seviyeleri boyunca dağılım “Seçili aralıkta hacim hangi fiyatlarda \ntoplandı?” \n \nBÖLÜM SONUCU \nHacim en doğal olarak katılımı ölçer. Yön veya giriş işaretini fiyat yapısı/kırılım verir; hacim \nhareketin ne kadar aktiviteyle desteklendiğini gösterir. Yüksek hacmi devam, düşük hacmi başarısızlık \ngarantisine çevirmeyin.",
+    "source_extract_summary": [
+      "9.6 — Hacim verisinin kendisini kontrol edin “Hacim” verisi her piyasa ve veri sağlayıcısında aynı şeyi temsil etmeyebilir.",
+      "Önce sembolün hangi hacim verisini sunduğunu doğrulayın; farklı veri akışlarındaki ham hacim sayılarını doğrudan karşılaştırmayın.",
+      "TEKNİK KONTROL LİSTESİ Hangi borsa/veri akışı?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Göreceli katılım ve hacim özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Referans ve işlem simülasyonu varsayımları"
+    ]
+  }
+]

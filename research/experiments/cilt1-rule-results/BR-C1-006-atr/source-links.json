@@ -1,0 +1,119 @@
+[
+  {
+    "id": "PTA-C1-2026.p0037",
+    "page": 37,
+    "chapter": 6,
+    "section": "6.1 — Gerçek hareket aralığı (True Range): neden yalnız mum boyu",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n37 \nBÖLÜM 6 \nATR: Yön Değil, Hareket Genişliği \nATR’yi “fiyat nereye gidecek?” sorusu için kullanmayın. ATR’nin işi daha basittir: \nfiyatın son dönemde ne kadar geniş hareket ettiğini ölçer ve stop mesafesi gibi risk \nkararlarına yardımcı olur. \n  \n \nHIZLI ROL — Ana görev: fiyatın ne kadar geniş hareket ettiğini görmek ve stop mesafesini \nayarlamaya yardım etmek. Tek başına yön veya giriş sinyali vermez. Ana risk: ATR yükselince \nfiyatın da yükseleceğini veya düşük ATR’den sonra kesin kırılım geleceğini sanmak. İyi \neşleşme: fiyat yapısı + Donchian. \n6.1 — Gerçek hareket aralığı (True Range): neden yalnız mum boyu \nyetmez? \nBir mumun yüksek-düşük farkı, önceki kapanışla yeni mum arasında fiyat boşluğu varsa \nhareketin tamamını göstermez. Gerçek hareket aralığı (True Range), şu üç mesafenin en \nbüyüğünü alır: en yüksek−en düşük, en yüksek−önceki kapanış ve en düşük−önceki kapanış. \nBu değer o barın True Range’idir. \nFORMÜL MANTIĞI \nTR = max(En Yüksek − En Düşük, |En Yüksek − Önceki Kapanış|, |En Düşük − Önceki Kapanış|). \n“Mutlak fark” kullanılması yönü siler; çünkü ATR’nin görevi yukarı/aşağı yönü değil hareket \ngenişliğini ölçmektir. \n \n \nŞekil 6.1 — Önceki kapanış 100, yeni mum 104–108 aralığında ise mumun kendi boyu 4 olsa da fiyat boşluğu dahil \ngerçek hareket genişliği 8’dir.",
+    "source_extract_summary": [
+      "BÖLÜM 6 ATR: Yön Değil, Hareket Genişliği ATR’yi “fiyat nereye gidecek?” sorusu için kullanmayın.",
+      "ATR’nin işi daha basittir: fiyatın son dönemde ne kadar geniş hareket ettiğini ölçer ve stop mesafesi gibi risk kararlarına yardımcı olur.",
+      "HIZLI ROL — Ana görev: fiyatın ne kadar geniş hareket ettiğini görmek ve stop mesafesini ayarlamaya yardım etmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0038",
+    "page": 38,
+    "chapter": 6,
+    "section": "6.4 — Ham ATR neden iki farklı varlık arasında doğrudan karşılaştırılmaz?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n38 \nSAYISAL ÖRNEK \nÖnceki kapanış 100, en yüksek 108, en düşük 104. En yüksek−en düşük=4; |108−100|=8; |104−100|=4. \nTrue Range = 8. Yalnız mum boyuna bakılsaydı hareketin yarısı görünmezdi. \n \n6.2 — ATR’deki ortalama ne yapar? \nATR tek bir barın True Range değerini değil, True Range serisinin dönemsel ve yumuşatılmış \nölçümünü izler. Böylece tek bar şokunun etkisi azalırken kalıcı genişleme veya daralma daha \ngörünür olur. \nTEKNİK AYRINTI \nATR’yi yalnız basit aritmetik ortalama gibi düşünmeyin. True Range serisi zaman içinde yumuşatılır; \nplatformdaki yumuşatma yöntemi ayara göre değişebilir. \n \n6.3 — ATR yükseliyor: ne söyleyebilir, ne söyleyemez? \nGözlem Söylenebilir Söylenemez \nATR yükseliyor Son dönem gerçek hareket genişliği artıyor “Yükseliş yönlü.” \nATR düşüyor Hareket genişliği daralıyor “Fiyat kesin yatay kalacak.” \nATR çok yüksek Fiyat hareketliliği yüksek/geniş “Tepe oluştu.” \nATR çok düşük Fiyat hareketliliği düşük/dar “Kırılım kesin geliyor.” \n \nKRİTİK TEKNİK SORUN — ATR ≠ PARA AKIŞI \nATR artışını “piyasaya para/spekülasyon geri geliyor” diye yorumlamak desteklenmeyen bir \nnedenselliktir. ATR’nin formülünde sermaye girişi, alıcı-satıcı agresyonu veya hacim yoktur; yalnız \nfiyat hareket genişliği vardır. \n \n6.4 — Ham ATR neden iki farklı varlık arasında doğrudan karşılaştırılmaz? \nATR fiyat birimiyle ölçüldüğü için varlığın fiyat seviyesine bağlıdır. 20 TL’lik ve 200 TL’lik \niki varlıkta 1 TL ATR aynı göreli hareketi ifade etmez. Varlıklar arası karşılaştırmada ATR \nyüzdesi gibi göreli ölçüler daha anlamlıdır.",
+    "source_extract_summary": [
+      "SAYISAL ÖRNEK Önceki kapanış 100, en yüksek 108, en düşük 104.",
+      "En yüksek−en düşük=4; |108−100|=8; |104−100|=4.",
+      "Yalnız mum boyuna bakılsaydı hareketin yarısı görünmezdi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Veri sözleşmesi ve mum özellikleri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0039",
+    "page": 39,
+    "chapter": 6,
+    "section": "6.5 — ATR stop için nasıl kullanılır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n39 \n \nŞekil 6.2 — İki varlığın ham ATR’si 1 TL olsa da ilkinde yaklaşık %5, ikincisinde %0,5 göreli hareket anlamına gelir. \nKÜÇÜK HESAP \nATR% ≈ ATR / Fiyat × 100. 20 TL fiyat ve 1 TL ATR → %5. 200 TL fiyat ve 1 TL ATR → %0,5. \nHam sayı aynı, göreli risk aynı değil. \n \n6.5 — ATR stop için nasıl kullanılır? \nATR stop mesafesini güncel fiyat hareketliliğine uyarlamakta yararlıdır; ancak “giriş − 1 ATR \n= doğru stop” diye evrensel bir kural yoktur. Önce işlem fikrinin bozulduğu yapısal seviye \nbelirlenir, sonra gerekirse ATR ile hareket alanı eklenir. \n \nŞekil 6.3 — Yapısal dip önce belirlenir; ATR için bırakılan ek pay stopun tam seviyeye sıkışmasını azaltabilir. ATR, \nişlem fikrinin bozulduğu seviyenin yerine geçmez. \nYaklaşım Avantaj Risk \nSadece belirgin fiyat \nhareketi altı \nYapısal mantık açık Normal fiyat hareketliliğiyle kolay \nsüpürülebilir",
+    "source_extract_summary": [
+      "KÜÇÜK HESAP ATR% ≈ ATR / Fiyat × 100.",
+      "Ham sayı aynı, göreli risk aynı değil.",
+      "6.5 — ATR stop için nasıl kullanılır?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0040",
+    "page": 40,
+    "chapter": 6,
+    "section": "6.7 — Düşük ATR ve kırılım beklentisi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n40 \nYaklaşım Avantaj Risk \nSadece 1×ATR Otomatik ve kolay İşlem fikrinin bozulduğu seviyeyle \nilişkili olmayabilir \nYapı + ATR ek payı Yapı ve fiyat hareketliliğini birleştirir Katsayı yine test/strateji gerektirir \n \n“1 ATR” VE “2 ATR” SİHİRLİ SAYI DEĞİLDİR \nKatsayı büyüdükçe stop genişler, pozisyon büyüklüğü aynı tutulursa parasal risk de artar. Profesyonel \nkullanımda stop mesafesi ile pozisyon büyüklüğü birlikte ele alınmalıdır. \n \n6.6 — Başlangıç stopu ile takip eden stop aynı görev değildir \nBaşlangıç stopunun yeri 6.5’teki gibi önce işlem fikrinin bozulduğu seviyeye göre belirlenir. \nBurada ek soru, bu sınırın normal fiyat hareketi içinde gereğinden fazla yakın kalıp \nkalmadığıdır. \nStop normal fiyat hareketinin çok içinde kalıyorsa fiyat yapısı bozulmadan da çalışabilir. ATR, \nyapısal stopun güncel hareket genişliğiyle uyumunu kontrol etmeye yardım eder; stopun yerini \ntek başına belirlemez. \nATR tabanlı takip eden stop ve Chandelier Exit \nBaşlangıç stopu ile takip eden stop aynı görev değildir. Başlangıç stopu işlem fikrinin ilk risk \nsınırını tanımlar; takip eden stop ise fiyat trend yönünde ilerledikçe açık pozisyonun yönetim \nsınırını taşır. \nATR tabanlı takip eden stopta mesafe güncel ATR’ye bağlıdır. Fiyat hareketliliği yükselirse \nATR ve stop mesafesi genişleyebilir; hareketlilik düşerse mesafe daralabilir. Katsayı büyüdükçe \nstop fiyata daha fazla hareket alanı bırakır. Hesap riski sabit tutulacaksa daha geniş stop daha \nküçük pozisyon büyüklüğü gerektirir. \nChandelier Exit bu yaklaşımın otomatik çizgi biçimindeki uygulamalarından biridir. Yeni \nbağımsız teyit göstergesi olarak değil, ATR’nin pozisyon yönetimine uygulanmış bir biçimi \nolarak değerlendirilmelidir. \nTEKNİK AYRIM — OLAĞAN DIŞI HAREKET ≠ DÖNÜŞ \nGüncel hareket birkaç ATR büyüklüğüne ulaştığında fiyat kendi son dönem normaline göre \nolağan dışı geniş hareket etmiş olabilir. Bu bilgi “çok yükseldi, SAT” veya “çok düştü, AL” \nanlamına gelmez. Dönüş için fiyat yapısı ve fiyat davranışı ayrıca gerekir. \n6.7 — Düşük ATR ve kırılım beklentisi \nDüşük ATR, piyasanın sakinleştiğini gösterebilir ve kırılım öncesi bir koşul filtresi olarak \nkullanılabilir. Yön vermez; yönlü giriş işareti için fiyat yapısı veya Donchian gibi ayrı bir \nkırılım aracı gerekir.",
+    "source_extract_summary": [
+      "Yaklaşım Avantaj Risk Sadece 1×ATR Otomatik ve kolay İşlem fikrinin bozulduğu seviyeyle ilişkili olmayabilir Yapı + ATR ek payı Yapı ve fiyat hareketliliğini birleştirir Katsayı yine test/strateji gerektirir “1 ATR” VE “2 ATR” SİHİRLİ SAYI DEĞİLDİR Katsayı büyüdükçe stop genişler, pozisyon büyüklüğü aynı tutulursa parasal risk de artar.",
+      "Profesyonel kullanımda stop mesafesi ile pozisyon büyüklüğü birlikte ele alınmalıdır.",
+      "6.6 — Başlangıç stopu ile takip eden stop aynı görev değildir Başlangıç stopunun yeri 6.5’teki gibi önce işlem fikrinin bozulduğu seviyeye göre belirlenir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0041",
+    "page": 41,
+    "chapter": 6,
+    "section": "6.10 — ATR penceresi ve zaman dilimi “normal” tanımını değiştirir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n41 \nDOĞRU ÇEVİRİ \nDüşük ATR = sakin piyasa. Donchian/fiyat yapısı kırılımı = yönlü giriş işareti. İlki yön vermez; \nikincisi kırılımı gösterir. \n \n6.8 — ATR’yi tek sayı yerine fiyat hareketliliği rejimi olarak okumak \nPiyasanın hareket genişliği zaman içinde sabit değildir. Düşük fiyat hareketliliği dönemlerini \ngenişleme, yüksek hareketlilik ve yeniden sakinleşme dönemleri izleyebilir. ATR bu değişimin \nyönünü değil, hareket genişliğinin hangi evrede olduğunu izlemeye yardım eder. \nATR uzun süre düşüyorsa fiyatın tipik hareket genişliği daralıyor; daha sonra yükselmeye \nbaşlıyorsa hareket genişliği yeniden büyüyor olabilir. Bu süreç yukarı veya aşağı yönde \ngerçekleşebilir. Dolayısıyla fiyat hareketliliği rejimi ile fiyat yönü ayrı tutulmalıdır. \nGüncel ATR ayrıca enstrümanın kendi geçmiş ATR değerleriyle karşılaştırılabilir. Tarihsel \nolarak sıra dışı derecede düşük ATR, piyasanın kendi yakın geçmişine göre sıkıştığını gösterir; \nhangi yönde kırılacağını söylemez. \n6.9 — Hareketi ATR birimiyle ifade etmek \nAynı yüzde hareket iki farklı enstrümanda aynı büyüklükte davranış anlamına gelmeyebilir. \nBunun yerine güncel hareket, enstrümanın kendi ATR’sine bölünerek “normal” hareket \ngenişliğine göre ifade edilebilir: \nHareket büyüklüğü / ATR \nÖrneğin 0,5 ATR’lik bir hareket son dönem tipik genişliğin yaklaşık yarısı, 2 ATR’lik bir \nhareket ise tipik genişliğin yaklaşık iki katıdır. Bu oran yön veya dönüş söylemez; yalnız \nhareketin enstrümanın kendi son dönem davranışına göre sıradan mı, olağan dışı mı olduğunu \ngösterir. \nBu yaklaşım “%5 düştü, çok büyük hareket” gibi sabit yüzde yorumlarının neden her piyasada \naynı anlama gelmediğini açıklar. \n6.10 — ATR penceresi ve zaman dilimi “normal” tanımını değiştirir \nATR periyodu değiştiğinde normal hareket hesabında kullanılan geçmiş uzunluğu da değişir. \nDaha kısa pencere yakın dönem değişikliklerine daha hızlı tepki verir; daha uzun pencere daha \ngeniş bir geçmiş davranışı yansıtır. Bu nedenle farklı ATR periyotları aynı anda farklı fiyat \nhareketliliği resimleri gösterebilir. \nATR ayrıca hesaplandığı zaman diliminin bar davranışını temsil eder. Günlük ATR günlük \nbarların, saatlik ATR saatlik barların hareket genişliğine referans verir. Üst zaman dilimindeki \nATR’yi alt zaman dilimi stopuna mekanik olarak kopyalamak stopu işlem ufkuna göre anlamsız \nhale getirebilir. \nBir enstrümanın ATR profili de kalıcı özellik değildir. Haber, bilanço, büyük fiyat boşluğu veya \nbaşka bir rejim değişimi son dönem hareket genişliğini değiştirebilir. ATR geçmişi ölçtüğü için \nyeni rejimin ilk aşamalarında eski ortalama yeni davranışı gecikmeli yansıtabilir.",
+    "source_extract_summary": [
+      "DOĞRU ÇEVİRİ Düşük ATR = sakin piyasa.",
+      "Donchian/fiyat yapısı kırılımı = yönlü giriş işareti.",
+      "İlki yön vermez; ikincisi kırılımı gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Kapanmış bar semantiğiyle periyot senkronizasyonu",
+      "İnsan uygulama ve süreç değerlendirmesi",
+      "İkinci seviye referans ve gelecekteki genişleme",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0042",
+    "page": 42,
+    "chapter": 6,
+    "section": "6.11 — ATR hangi araçlarla tamamlanır?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n42 \n6.11 — ATR hangi araçlarla tamamlanır? \nKombinasyon Rol dağılımı Değerlendirme \nATR + Fiyat yapısı Fiyat hareketliliği/risk + yapısal seviye Çok güçlü \nATR + Donchian Fiyat hareketliliği koşulu + kırılım tetiği Çok güçlü \nATR + RSI/Stoch Risk/koşul + hareket gücü zamanlama Tamamlayıcı \nATR + MACD Fiyat hareketliliği + hareket gücü Tamamlayıcı \nATR + Supertrend ATR + ATR-tabanlı trend çizgisi Bağımsız iki teyit değildir \nATR + Bollinger İki farklı fiyat hareketliliği ölçümü Görev ayrımı yoksa tekrar \n \nBÖLÜM SONUCU \nATR yön değil hareket genişliği aracıdır. En doğal rolleri fiyat hareketliliğini ölçmek, yapısal stopa \ngerektiğinde ek pay bırakmak ve kırılım öncesi sıkışma/genişlemeyi izlemektir. ATR’den para akışı \nveya kırılım yönü çıkarmayın.",
+    "source_extract_summary": [
+      "6.11 — ATR hangi araçlarla tamamlanır?",
+      "Kombinasyon Rol dağılımı Değerlendirme ATR + Fiyat yapısı Fiyat hareketliliği/risk + yapısal seviye Çok güçlü ATR + Donchian Fiyat hareketliliği koşulu + kırılım tetiği Çok güçlü ATR + RSI/Stoch Risk/koşul + hareket gücü zamanlama Tamamlayıcı ATR + MACD Fiyat hareketliliği + hareket gücü Tamamlayıcı ATR + Supertrend ATR + ATR-tabanlı trend çizgisi Bağımsız iki teyit değildir ATR + Bollinger İki farklı fiyat hareketliliği ölçümü Görev ayrımı yoksa tekrar BÖLÜM SONUCU ATR yön değil hareket genişliği aracıdır.",
+      "En doğal rolleri fiyat hareketliliğini ölçmek, yapısal stopa gerektiğinde ek pay bırakmak ve kırılım öncesi sıkışma/genişlemeyi izlemektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Kırılım/kabul/başarısızlık durum makinesi",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  }
+]

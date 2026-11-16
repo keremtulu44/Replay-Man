@@ -1,0 +1,133 @@
+[
+  {
+    "id": "PTA-C1-2026.p0015",
+    "page": 15,
+    "chapter": 3,
+    "section": "3.2 — RSI sayısı matematiksel olarak nereden gelir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n15 \nBÖLÜM 3 \nRSI: Aşırı Alım / Aşırı Satımın Ötesi \n70 ve 30 seviyelerini otomatik satış ve alış düğmesi gibi kullanmayın. Önce RSI’nın \nfiyat hareketinin gücü hakkında ne söylediğini anlayın. \n  \n \nHIZLI ROL — Ana görev: fiyat hareketinin ne kadar güçlü olduğunu görmek. Tek başına \nfiyatın ucuz, pahalı veya dönmek üzere olduğunu söylemez. Ana risk: 70’i otomatik SAT, 30’u \notomatik AL sanmak. İyi eşleşme: fiyat yapısı + önemli fiyat bölgesi + ATR. \n3.1 — RSI ne ölçer, ne ölçmez? \nRSI ne sağlar? RSI ne sağlamaz? \n0–100 aralığında hareket gücü davranışı Gerçek ekonomik değer / ucuzluk \nPozitif ve negatif hareketlerin göreli dengesi Hacim \nHareket gücü güçlenmesi/zayıflaması Fiyat hareketliliği \nUyumsuzluk ve hareket gücü uyarısı Kesin dönüş zamanı \n \nTEKNİK SORUN — HAREKET GÜCÜ İLE FİYAT HAREKETLİLİĞİNİ KARIŞTIRMAK \nRSI yüksek olabilir fakat fiyat düzenli ve dar aralıklarla yükseliyor olabilir. Tersi de mümkündür: fiyat \niki yönde sert dalgalanır, fiyat hareketliliği yüksektir fakat net hareket gücü zayıftır. Bu nedenle RSI \nile ATR aynı şeyi ölçmez. \n \n3.2 — RSI sayısı matematiksel olarak nereden gelir? \nRSI’nın temelinde, seçilen dönem içindeki ortalama yükselişler ile ortalama düşüşlerin \nkarşılaştırılması vardır. Önce bu iki değerin oranı hesaplanır: \nRS = Ortalama Yükseliş / Ortalama Düşüş \nArdından bu oran 0–100 aralığına dönüştürülür: \nRSI = 100 − [100 / (1 + RS)] \nOrtalama yükselişler ortalama düşüşlere göre büyüdükçe RS ve buna bağlı olarak RSI yükselir. \nOrtalama düşüşlerin ağırlığı arttıkça RSI düşer.",
+    "source_extract_summary": [
+      "BÖLÜM 3 RSI: Aşırı Alım / Aşırı Satımın Ötesi 70 ve 30 seviyelerini otomatik satış ve alış düğmesi gibi kullanmayın.",
+      "Önce RSI’nın fiyat hareketinin gücü hakkında ne söylediğini anlayın.",
+      "HIZLI ROL — Ana görev: fiyat hareketinin ne kadar güçlü olduğunu görmek."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0016",
+    "page": 16,
+    "chapter": 3,
+    "section": "3.3 — 70 neden otomatik SAT değildir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n16 \nBu hesap önemli bir ayrımı gösterir: RSI fiyatın ekonomik olarak ucuz veya pahalı olduğunu \nhesaplamaz. Son dönemdeki yukarı ve aşağı hareketlerin birbirine göre ne kadar güçlü \nolduğunu sayısallaştırır. \nTEKNİK AYRINTI — FORMÜLÜ NEDEN BİLİYORUZ? \nFormülü ezberlemek gerekmez. Önemli olan RSI’nın içinde şirket değeri, hacim veya fiyatın \n“olması gereken” seviyesi bulunmadığını görmektir. RSI’nın yükselmesi, seçilen dönemde \npozitif hareketlerin göreli ağırlığının arttığını gösterir. \n3.3 — 70 neden otomatik SAT değildir? \nGüçlü yükselişlerde yüksek RSI değeri, fiyatın “artık düşmek zorunda” olduğundan çok pozitif \nhareket gücünün güçlü olduğuna işaret edebilir. Bu nedenle aşırı alım ifadesi dönüş garantisi \nolarak okunmamalıdır. \n \nŞekil 3.1a — Sentetik örnek: güçlü yükseliş eğilimi. \n \nŞekil 3.1b — RSI güçlü yükselişte uzun süre 70 çevresinde veya üzerinde kalabilir. 70’e ilk temas otomatik satış işareti \ndeğildir. \nÖRNEK İŞLEM HATASI \nRSI 70’e ilk çıktığında satış yönlü işlem açtığınızı düşünün. Trend güçlenmeye devam ederse RSI \nyüksek kalırken fiyat yeni tepeler üretebilir. Sorun RSI’nın “yanlış” olması değil, hareket gücü \ngöstergesinin dönüş sinyali gibi kullanılmasıdır.",
+    "source_extract_summary": [
+      "Bu hesap önemli bir ayrımı gösterir: RSI fiyatın ekonomik olarak ucuz veya pahalı olduğunu hesaplamaz.",
+      "Son dönemdeki yukarı ve aşağı hareketlerin birbirine göre ne kadar güçlü olduğunu sayısallaştırır.",
+      "TEKNİK AYRINTI — FORMÜLÜ NEDEN BİLİYORUZ?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Göreceli katılım ve hacim özellikleri"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0017",
+    "page": 17,
+    "chapter": 3,
+    "section": "3.6 — Uyumsuzluk (divergence): uyarı var, kesin zaman yok",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n17 \n \n3.4 — 30 neden otomatik AL değildir? \nGüçlü düşüş trendinde RSI uzun süre düşük bölgede kalabilir. “RSI 30 altı = fiyat ucuz” ifadesi \niki ayrı kavramı karıştırır: hareket gücü zayıflığı ile değerleme. RSI şirketin ya da enstrümanın \nadil değerini ölçmez. \nTEKNİK AYRIM — AŞIRI SATIM ≠ UCUZ \nRSI 25, yalnız son dönem negatif hareketlerin göreli olarak güçlü olduğunu söyler. “Bu fiyat ucuzdur” \ndemek için RSI’nın içinde bulunmayan bir değerleme bilgisi eklemiş olursunuz. \n \n3.5 — Trend içi geri çekilmede RSI’nın daha kontrollü rolü \nRSI, trend ve konum belirlendikten sonra geri çekilmenin zayıflayıp yeniden güçlenmesini \nizlemek için daha tutarlı kullanılır. Giriş için fiyatın yeniden trend yönünde davranması gerekir. \nAşama Araç / gözlem RSI’nın görevi \n1. Bağlam Fiyat yapısı veya tek trend filtresi Yok \n2. Konum Destek/direnç, AVWAP, Volume Profile vb. Yok \n3. Hareket gücü RSI geri çekiliyor / yeniden güçleniyor Ana rol \n4. Giriş işareti Fiyat yapısı yeniden trend yönüne dönüyor RSI tek başına değil \n5. Risk Yapısal stop + gerekirse ATR RSI’nın görevi değil \n \n3.6 — Uyumsuzluk (divergence): uyarı var, kesin zaman yok \nFiyat yeni bir tepe yaparken RSI daha düşük tepe oluşturuyorsa hareket gücü teyidi zayıflıyor \nolabilir. Bu bir uyarıdır; dönüşün zamanını vermez ve trend uyumsuzluk sonrasında da sürebilir.",
+    "source_extract_summary": [
+      "3.4 — 30 neden otomatik AL değildir?",
+      "Güçlü düşüş trendinde RSI uzun süre düşük bölgede kalabilir.",
+      "“RSI 30 altı = fiyat ucuz” ifadesi iki ayrı kavramı karıştırır: hareket gücü zayıflığı ile değerleme."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Teknik olayları temel bağlamla ilişkilendirecek ikinci katman",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0018",
+    "page": 18,
+    "chapter": 3,
+    "section": "3.7 — RSI çalışma aralığının kayması (Range Shift)",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n18 \n \nŞekil 3.2a — Fiyat daha yüksek tepe oluşturuyor. \n \nŞekil 3.2b — Hareket gücü daha düşük tepe oluşturuyor. Bu bir uyarıdır; kendi başına giriş zamanlaması değildir. \nNEDEN TEKNİK OLARAK ÖNEMLİ? \nUyumsuzluk “fiyat ve hareket gücü aynı hızda ilerlemiyor” bilgisidir. Buradan “fiyat şimdi dönecek” \nsonucu çıkarmak ikinci ve kanıtlanmamış bir varsayım ekler. Dönüş için yapı veya başka fiyat teyidi \naranmalıdır. \n \n3.7 — RSI çalışma aralığının kayması (Range Shift) \nRSI her piyasa ortamında aynı alt ve üst bölgeler arasında hareket etmek zorunda değildir. \nGüçlü yükseliş dönemlerinde göstergenin çalışma aralığı yukarı, güçlü düşüş dönemlerinde ise \naşağı kayabilir. Bu davranış çalışma aralığı kayması (Range Shift) olarak adlandırılır. \nBu nedenle yalnız tek bir RSI değerine değil, göstergenin son dönemde hangi bölgelerde tekrar \ntekrar dip ve tepe oluşturduğuna da bakılabilir. Yükseliş ortamında RSI yüksek bölgelerde daha \nuzun süre kalabilir; düşüş ortamında tepki yükselişleri daha aşağı seviyelerde sonlanabilir. \nBuradaki amaç 70 ve 30 yerine yeni sabit sayılar koymak değildir. “Artık 70 değil 80 \nkullanılmalı” demek aynı hatayı başka bir eşiğe taşır. Asıl soru, RSI’nın bütün çalışma \naralığının zaman içinde yukarı mı, aşağı mı kaydığıdır.",
+    "source_extract_summary": [
+      "Bu bir uyarıdır; kendi başına giriş zamanlaması değildir.",
+      "Uyumsuzluk “fiyat ve hareket gücü aynı hızda ilerlemiyor” bilgisidir.",
+      "Buradan “fiyat şimdi dönecek” sonucu çıkarmak ikinci ve kanıtlanmamış bir varsayım ekler."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0019",
+    "page": 19,
+    "chapter": 3,
+    "section": "3.9 — Gizli yükseliş uyumsuzluğu: fiyat yapısı zayıflığa rağmen korunuyor",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n19 \n \nŞekil 3.3 — Temsili RSI çalışma aralığı kayması: sabit 30/70 eşiklerinden çok, göstergenin tekrar eden dip ve tepe \nbölgelerinin zaman içinde nasıl yer değiştirdiği izlenir. \nÖNEMLİ AYRIM \nÇalışma aralığı kayması bir giriş işareti değildir. Piyasa ortamındaki hareket gücü davranışını \nsınıflandırmaya yardım eder; işlem kararı için fiyat yapısı ve fiyat davranışı ayrıca \ndeğerlendirilmelidir. \n3.8 — Başarısız salınım (Failure Swing): RSI’nın kendi tepe ve dip yapısını \nokumak \nUyumsuzlukta fiyat ile RSI karşılaştırılır. Başarısız salınımda (Failure Swing) ise öncelikle \nRSI’nın kendi içinde oluşturduğu kısa dönem tepe ve dip dizisi izlenir. \nYükseliş yönlü örnekte RSI önce düşük bölgeye iner, ardından toparlanarak bir ara tepe \noluşturur. Sonraki geri çekilmede ilk zayıflığı yeniden üretemez ve daha sonra önceki RSI \ntepesinin üzerine çıkar. Buradaki bilgi yalnız “30’dan döndü” değildir; RSI’nın kendi yapısında \naşağı yönlü hareketin devam edememesi ve kısa dönem yapının yukarı kırılmasıdır. \nDüşüş yönlü örnekte bunun tersi izlenir: RSI yüksek bölgeden geri çekilir, bir ara dip oluşturur; \nsonraki yükseliş önceki gücü yeniden üretemez ve RSI daha sonra kendi önceki dibinin altına \niner. \nTEK BAŞINA GİRİŞ DEĞİLDİR \nRSI’nın kendi yapısındaki kırılım, fiyat yapısındaki kırılımın yerine geçmez. Başarısız salınım \nhareket gücü tarafında ek bilgi üretir; işlem için fiyat davranışı ayrıca kontrol edilmelidir. \n3.9 — Gizli yükseliş uyumsuzluğu: fiyat yapısı zayıflığa rağmen korunuyor \nmu? \nGizli yükseliş uyumsuzluğunda fiyat daha yüksek dip oluştururken RSI daha düşük dip \noluşturur. RSI geri çekilmede daha zayıf görünmesine rağmen fiyat önceki dip seviyesini \nkaybetmez ve yükseliş yapısını korur.",
+    "source_extract_summary": [
+      "ÖNEMLİ AYRIM Çalışma aralığı kayması bir giriş işareti değildir.",
+      "Piyasa ortamındaki hareket gücü davranışını sınıflandırmaya yardım eder; işlem kararı için fiyat yapısı ve fiyat davranışı ayrıca değerlendirilmelidir.",
+      "3.8 — Başarısız salınım (Failure Swing): RSI’nın kendi tepe ve dip yapısını okumak Uyumsuzlukta fiyat ile RSI karşılaştırılır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Kırılım/kabul/başarısızlık durum makinesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0020",
+    "page": 20,
+    "chapter": 3,
+    "section": "3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n20 \nBu yapı grafiğin herhangi bir yerinde aynı anlama gelmez. Öncesinde yükseliş yönlü fiyat \nyapısının bulunması gerekir. Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın \ndaha yüksek dip yapısını korumasıdır. \nFiyat önceki dibi kaybeder ve daha düşük dip oluşturursa bu gizli yükseliş uyumsuzluğunun \ntemel şartı ortadan kalkar. \nUYUMSUZLUK = GİRİŞ DEĞİLDİR \nBu yapı da tek başına giriş işareti değildir; hazırlık ve bağlam bilgisi verir. Giriş için fiyatın \nyeniden trend yönünde davranması gerekir. \n3.10 — Parametre ve seviye stratejiye aittir \nRSI(10), 30 üzeri giriş veya 60 üzeri çıkış gibi kurallar belirli strateji tercihleri olabilir; RSI’nın \nevrensel doğru ayarı değildir. Bir parametreyi genel kural haline getirmek için yalnız geçmişte \niyi görünmesi yeterli değildir. \nSAYISAL ÖRNEK — AYNI GÖSTERGE, FARKLI GÖREV \nRSI(14) bir belirgin fiyat hareketi stratejisinde daha yumuşak davranırken daha kısa bir periyot kısa \nvadeli harekete daha hassas olabilir. Hassasiyet arttığında daha erken sinyal kadar daha fazla gürültü \nde beklenir. “Daha hızlı” ile “daha iyi” aynı şey değildir. \n \n3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi? \nHayır. Üçü de hareket gücü/osilatör ailesindedir. Özellikle Stochastic RSI doğrudan RSI’nın \nkendi yakın dönem aralığındaki konumunu ölçer; yani RSI’nın türevidir. Bu nedenle RSI + \nStoch RSI iki bağımsız veri katmanı gibi sayılamaz. \nKombinasyon Rol Risk \nRSI + Stoch RSI Hareket gücü + RSI’dan türeyen benzer \nbilgi \nÇok yüksek tekrar \nRSI + Stochastic Aynı türden iki hareket gücü göstergesi Yüksek benzerlik \nRSI + MACD Farklı matematik, fakat ikisi de hareket \ngücü bilgisi taşır \nRol ayrımı gerekir \nRSI + Fiyat yapısı Hareket gücü + doğrudan fiyat yapısı Daha tamamlayıcı \nRSI + ATR Hareket gücü + fiyat hareketliliği/risk Daha tamamlayıcı",
+    "source_extract_summary": [
+      "Bu yapı grafiğin herhangi bir yerinde aynı anlama gelmez.",
+      "Öncesinde yükseliş yönlü fiyat yapısının bulunması gerekir.",
+      "Asıl bilgi “RSI düştü” değil, RSI’daki zayıflığa rağmen fiyatın daha yüksek dip yapısını korumasıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "İkinci seviye referans ve gelecekteki genişleme"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0021",
+    "page": 21,
+    "chapter": 3,
+    "section": "3.11 — RSI + Stochastic + Stoch RSI: üç teyit mi?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n21 \nBÖLÜM SONUCU \nRSI’yı “70/30 sinyal makinesi” olarak kullanmak yerine, önceden tanımlanmış yapı ve konum içinde \nhareket gücü katmanı olarak kullanın. Uyumsuzluk uyarıdır; aşırı alım/aşırı satım ise dönüş garantisi \ndeğildir.",
+    "source_extract_summary": [
+      "BÖLÜM SONUCU RSI’yı “70/30 sinyal makinesi” olarak kullanmak yerine, önceden tanımlanmış yapı ve konum içinde hareket gücü katmanı olarak kullanın.",
+      "Uyumsuzluk uyarıdır; aşırı alım/aşırı satım ise dönüş garantisi değildir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Hareket gücü özellik ailesi",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri"
+    ]
+  }
+]

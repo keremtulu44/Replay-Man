@@ -1,0 +1,168 @@
+[
+  {
+    "id": "PTA-C1-2026.p0006",
+    "page": 6,
+    "chapter": 1,
+    "section": "1.1 — İndikatörün adı değil, görevi önemlidir",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n6 \nBÖLÜM 1 \nİndikatörleri Doğru Kullanma Mantığı \nBir indikatörü öğrenmeden önce, ondan hangi bilgiyi istemeniz gerektiğini öğrenin. \n  \n \nGrafiğe indikatör eklemek kolaydır. Zor olan, her aracın hangi soruya cevap verdiğini ve hangi \nsoruya cevap veremediğini bilmektir. RSI, ATR, hareketli ortalama, Volume Profile ve ADX \naynı tür bilgi üretmez. Hepsini tek bir “AL/SAT teyidi” başlığı altında toplamak, farklı \ngörevleri birbirine karıştırır. \nBU BÖLÜMÜN ANA FİKRİ \nÖnce soru, sonra araç. “Hangi indikatörü ekleyeyim?” yerine “Yön mü, hareket gücü mu, fiyat \nhareketliliği mi, konum mu, katılım mı ölçmek istiyorum?” diye sorun. \n \nKARAR MİMARİSİ \nBu kitap boyunca her aracı şu zincirdeki yerine göre okuyun: Bağlam → Yön/Piyasa ortamı → Konum \n→ Giriş işareti → Risk → Yönetim. Bir araç hangi aşamayı değiştiriyor? Aynı görevi başka bir araç \nzaten yapıyorsa yeni bilgi eklemiyor olabilir. \n \n1.1 — İndikatörün adı değil, görevi önemlidir \nProfesyonel bir sistemde her araç açık bir role sahip olmalıdır. Bir araç grafikte bulunuyor fakat \nhangi kararı değiştirdiği açıklanamıyorsa, büyük olasılıkla görsel gürültüdür. \nBilgi sınıfı Sorduğu soru Örnek araç Tek başına söylemez \nPiyasa ortamı / \nyön \nPiyasa hangi yönde ve hangi \nortamda? \nMA, yapı, Ichimoku Giriş zamanını \nHareket gücü Hareket hızlanıyor mu, \nzayıflıyor mu? \nRSI, Stochastic, \nMACD \nFiyat hareketliliğini \nFiyat hareketliliği \n/ risk \nPiyasa ne kadar hareket ediyor? ATR, Bollinger \ngenişliği \nYönü \nKonum / değer \nreferansı \nFiyat nerede? VWAP, AVWAP, \nVolume Profile \nDönüş garantisini",
+    "source_extract_summary": [
+      "BÖLÜM 1 İndikatörleri Doğru Kullanma Mantığı Bir indikatörü öğrenmeden önce, ondan hangi bilgiyi istemeniz gerektiğini öğrenin.",
+      "Grafiğe indikatör eklemek kolaydır.",
+      "Zor olan, her aracın hangi soruya cevap verdiğini ve hangi soruya cevap veremediğini bilmektir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Göreceli katılım ve hacim özellikleri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Sonuç ve daha sonraki yürütme simülasyonu"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0007",
+    "page": 7,
+    "chapter": 1,
+    "section": "1.3 — Üç indikatör aynı şeyi söylüyorsa üç teyit yoktur",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n7 \nBilgi sınıfı Sorduğu soru Örnek araç Tek başına söylemez \nKatılım / hacim Harekete aktivite eşlik ediyor \nmu? \nVolume Devam garantisini \nYapı Belirgin dönüş ve kırılım \ndavranışı ne? \nFiyat yapısı, S/R Hareketin ne kadar \ngüçlendiğini/zayıfladığını \n \n1.2 — Bağlam, konum, giriş işareti ve risk aynı şey değildir \nBir sistemde “işleme uygun ortam” ile “şimdi giriş yap” kararı ayrılmalıdır. Örneğin fiyatın 200 \nEMA üzerinde olması bir koşul olabilir; AVWAP çevresine geri çekilmesi konumu \ntanımlayabilir; yapısal kırılım giriş işareti olabilir; ATR ise risk mesafesine yardım edebilir. \nAdım Örnek Yanlış yorum \nBağlam / koşul Fiyat uzun dönem trend filtresinin üzerinde “Hemen al.” \nKonum Fiyat AVWAP / destek bölgesine geldi “Seviyeye değdi, kesin döner.” \nGiriş işareti Fiyat yeniden trend yönünde yapı oluşturdu Giriş işareti oluşmadan önceden \npozisyon açmak \nRisk Stop yapısal seviyenin altında; ATR için bırakılan ek \npay kontrol edildi \nATR’yi yön tahmini gibi kullanmak \n \nTEKNİK SORUN — SİNYALİN GÖREVİ KARIŞIYOR \nAynı göstergeyi hem “trend filtresi”, hem “giriş”, hem “stop”, hem de “çıkış” olarak kullanırsanız \nsistemde hangi parçanın gerçekten işe yaradığını test etmek zorlaşır. Önce tek ana görev tanımlayın. \n \n1.3 — Üç indikatör aynı şeyi söylüyorsa üç teyit yoktur \nTeyit sayısını yalnız ekrandaki gösterge sayısıyla ölçmek yanıltıcıdır. Bilgi bağımsızlığı daha \nönemlidir. RSI, Stochastic ve Stochastic RSI birlikte düşük seviyedeyse üç ayrı veri kaynağı \noluşmaz; aynı hareket gücü ailesinin farklı dönüşümlerini izliyor olabilirsiniz. \nSAYISAL DÜŞÜNCE DENEYİ \nKararınızın büyük bölümü aynı kapanış fiyatlarından türetiliyorsa, üç farklı gösterge kullanmak yeni \nbilgi eklemeyebilir. Aynı hareketi üç farklı ekranda görmüş olursunuz. Bu yüzden “üç teyit” demek \nyerine “aynı bilginin üç farklı görünümü” demek daha doğrudur.",
+    "source_extract_summary": [
+      "Bilgi sınıfı Sorduğu soru Örnek araç Tek başına söylemez Katılım / hacim Harekete aktivite eşlik ediyor mu?",
+      "Volume Devam garantisini Yapı Belirgin dönüş ve kırılım davranışı ne?",
+      "Fiyat yapısı, S/R Hareketin ne kadar güçlendiğini/zayıfladığını 1.2 — Bağlam, konum, giriş işareti ve risk aynı şey değildir Bir sistemde “işleme uygun ortam” ile “şimdi giriş yap” kararı ayrılmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0008",
+    "page": 8,
+    "chapter": 1,
+    "section": "1.5 — Ayarları geçmişe uydurma riski (geçmişe aşırı uyum)",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n8 \nKombinasyon Rol dağılımı Değerlendirme \nRSI + Stoch + Stoch RSI Hareket gücü + hareket gücü + hareket gücü Yüksek tekrar riski \nMA + MACD kesişim Trend bilgisi + MA farkından gelen benzer \ntrend/hareket gücü bilgisi \nKısmi tekrar \nMA + RSI + ATR Yön + hareket gücü + fiyat hareketliliği/risk Daha tamamlayıcı \nFiyat yapısı + AVWAP + RSI Yapı + konum + hareket gücü Daha bağımsız bilgi \n \n1.4 — “Klasik kural” neden bazen bozulur? \nTeknik analiz eğitimlerinde kısa kurallar işe yarar: “RSI 70 üstü aşırı alım”, “ADX 25 üstü \ngüçlü trend”, “fiyat 200 MA üstünde yükseliş yönlü”. Sorun, bu cümleleri her piyasada geçerli \nyasa gibi kullanmaktır. Aynı kural trendli piyasada, yatay piyasada veya hareketliliğin çok \narttığı bir dönemde farklı sonuç verebilir. \nÖRNEK — RSI 70 \nGüçlü bir yükselişte RSI 70’in üzerinde uzun süre kalabilir. Bu nedenle 70 seviyesi “satış düğmesi” \ndeğil, yüksek hareket gücü bölgesidir. Dönüş için ayrıca fiyat davranışı gerekir. \n \nÖRNEK — ATR YÜKSELİYOR \nATR yükseliş ya da düşüş yönü söylemez. Sert düşüşte de ATR yükselebilir. “ATR arttı, para piyasaya \ngeliyor ve fiyat yükselecek” çıkarımı ölçülen değişkene uymayan bir nedensellik kurar. \n \nÖRNEK — ADX YÜKSELİYOR \nADX trend gücünü anlatır. Fiyat düşerken ADX yükselebilir; çünkü güçlenen şey aşağı trend olabilir. \n“ADX yükseldi = yükseliş yönlü” yorumunda yön ve güç birbirine karıştırılır. \n \n1.5 — Ayarları geçmişe uydurma riski (geçmişe aşırı uyum) \nVarsayılan parametreler kutsal değildir. Ancak geçmiş grafiğe en iyi oturan değeri bulana kadar \nayar değiştirmek de profesyonel optimizasyon değildir. Bu yöntem geçmişe aşırı uyum \nyaratabilir. \nTEKNİK ÖRNEK — 14 MÜ 10 MU? \nBir RSI stratejisinde 14 periyot iyi görünmedi diye 13, 12, 11 ve 10 denenip yalnız geçmişte en çok \nkazandıran ayar seçilirse, bulunan sonuç geleceğe değil geçmiş örneklere uyarlanmış olabilir. \nParametre değişikliği için işlem süresi, zaman dilimi ve test mantığı gibi gerekçe gerekir.",
+    "source_extract_summary": [
+      "Kombinasyon Rol dağılımı Değerlendirme RSI + Stoch + Stoch RSI Hareket gücü + hareket gücü + hareket gücü Yüksek tekrar riski MA + MACD kesişim Trend bilgisi + MA farkından gelen benzer trend/hareket gücü bilgisi Kısmi tekrar MA + RSI + ATR Yön + hareket gücü + fiyat hareketliliği/risk Daha tamamlayıcı Fiyat yapısı + AVWAP + RSI Yapı + konum + hareket gücü Daha bağımsız bilgi 1.4 — “Klasik kural” neden bazen bozulur?",
+      "Teknik analiz eğitimlerinde kısa kurallar işe yarar: “RSI 70 üstü aşırı alım”, “ADX 25 üstü güçlü trend”, “fiyat 200 MA üstünde yükseliş yönlü”.",
+      "Sorun, bu cümleleri her piyasada geçerli yasa gibi kullanmaktır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Araştırma doğrulama ve future-leak denetimi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0009",
+    "page": 9,
+    "chapter": 1,
+    "section": "1.6 — Minimal sistem testi",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n9 \n1.6 — Minimal sistem testi \nYeni bir indikatör eklemeden önce şu testi uygulayın: \n Bu araç hangi soruyu cevaplıyor? \n Aynı bilgiyi başka bir araç zaten veriyor mu? \n Bu aracı kaldırırsam karar mantığım gerçekten zayıflıyor mu? \n Gösterge yalnız koşul mu veriyor, yoksa gerçek giriş işareti mi? \n Yanlış olduğu piyasa ortamını biliyor muyum? \nBÖLÜM SONUCU \nProfesyonel grafik, en çok indikatörü taşıyan grafik değildir. İyi grafik; her aracın rolünün belli \nolduğu, aynı bilgiyi tekrar etmeyen ve fiyat yapısını görünmez hale getirmeyen grafiktir.",
+    "source_extract_summary": [
+      "1.6 — Minimal sistem testi Yeni bir indikatör eklemeden önce şu testi uygulayın:  Bu araç hangi soruyu cevaplıyor?",
+      " Aynı bilgiyi başka bir araç zaten veriyor mu?",
+      " Bu aracı kaldırırsam karar mantığım gerçekten zayıflıyor mu?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": []
+  },
+  {
+    "id": "PTA-C1-2026.p0010",
+    "page": 10,
+    "chapter": 2,
+    "section": "2.1 — SMA ile EMA arasındaki fark",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n10 \nBÖLÜM 2 \nHareketli Ortalamalar: SMA, EMA ve \nKesişim \nAynı fiyatı farklı hızlarda yumuşatan bu çizgileri “geleceği bilen araçlar” gibi değil, \nfiyat değiştikten sonra tepki veren yön göstergeleri olarak okuyun. \n  \n \nHIZLI ROL — Ana görev: trendin genel yönünü görmek ve geri çekilmelerde ortalamayı takip \netmek. Tek başına “şimdi gir” demez. Ana risk: geç tepki vermesi ve yatay piyasada sık yanlış \nkesişim üretmesi. İyi eşleşme: fiyat yapısı + RSI/ATR. \n2.1 — SMA ile EMA arasındaki fark \nÖzellik SMA EMA \nFiyatlara verdiği \nönem \nSon fiyatlara eşit önem verir Yeni fiyatlara daha fazla önem verir \nTepki hızı Daha yavaş hareket eder Fiyat değişimine daha hızlı tepki verir \nKısa hareketlere \nduyarlılık \nKüçük dalgalanmaları daha fazla süzer Küçük hareketlerden daha çabuk etkilenir \nHangisi daha iyi? Daha güvenilir olduğu anlamına gelmez “Daha iyi” değil; daha hızlıdır ama küçük \nhareketlerden daha çabuk etkilenir \n \nARADAKİ FARK NEREDEN GELİYOR? \nSMA, son belirli sayıdaki fiyatın ortalamasını alır. EMA da bir ortalamadır; ancak son fiyatlara daha \nfazla önem verir. Bu nedenle fiyat aniden değiştiğinde EMA daha hızlı hareket eder. Bunun \nkarşılığında kısa süreli ve önemsiz hareketlerden de daha çabuk etkilenebilir. \n \nSAYISAL ÖRNEK — EŞİT AĞIRLIK \nSon 5 kapanış 100, 102, 101, 105 ve 112 olsun. SMA(5) = (100 + 102 + 101 + 105 + 112) / 5 = 104,0. \nSon fiyat 112 olmasına rağmen ortalama hâlâ 104’tür. Bu fark “gecikme” dediğimiz yapının basit \nsonucudur.",
+    "source_extract_summary": [
+      "BÖLÜM 2 Hareketli Ortalamalar: SMA, EMA ve Kesişim Aynı fiyatı farklı hızlarda yumuşatan bu çizgileri “geleceği bilen araçlar” gibi değil, fiyat değiştikten sonra tepki veren yön göstergeleri olarak okuyun.",
+      "HIZLI ROL — Ana görev: trendin genel yönünü görmek ve geri çekilmelerde ortalamayı takip etmek.",
+      "Ana risk: geç tepki vermesi ve yatay piyasada sık yanlış kesişim üretmesi."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0011",
+    "page": 11,
+    "chapter": 2,
+    "section": "2.2 — 20, 50 ve 200 periyot: gelenek, doğa yasası değil",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n11 \n \nŞekil 2.1 — Aynı periyotta EMA yeni fiyat hareketine SMA’dan daha hızlı tepki verir. Hız, tek başına daha yüksek \ndoğruluk değildir. \n2.2 — 20, 50 ve 200 periyot: gelenek, doğa yasası değil \n20, 50 ve 200 gibi periyotlar yaygın referanslardır; ancak “200 MA üstü = her zaman yükseliş \ntrendi” kuralı fiyat yapısını tek çizgiye indirger. MA, trend yapısının yerine değil, trend filtresi \nolarak kullanılmalıdır. \nTEKNİK SORUN — PERİYOT KUTSALLAŞTIRMA \nBir periyodun yaygın kullanılması onun her piyasada aynı tepkiyi vereceğini göstermez. 200 günlük \nortalama ile 200 adet 5 dakikalık bar, aynı “ekonomik zamanı” ölçmez. Periyot daima zaman dilimi ve \nişlem süresiyle birlikte düşünülmelidir.",
+    "source_extract_summary": [
+      "Hız, tek başına daha yüksek doğruluk değildir.",
+      "2.2 — 20, 50 ve 200 periyot: gelenek, doğa yasası değil 20, 50 ve 200 gibi periyotlar yaygın referanslardır; ancak “200 MA üstü = her zaman yükseliş trendi” kuralı fiyat yapısını tek çizgiye indirger.",
+      "MA, trend yapısının yerine değil, trend filtresi olarak kullanılmalıdır."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "İnsan uygulama ve süreç değerlendirmesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0012",
+    "page": 12,
+    "chapter": 2,
+    "section": "2.5 — 50/200 (Golden Cross) kesişimi neden gecikir?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n12 \n2.3 — Hareketli ortalamaya tek bir görev verin \nGörev Ne için kullanılır? Tek başına giriş \nverir mi? \nTrend filtresi İşlemleri ana yönle aynı tarafta aramaya yardım eder. Hayır \nGeri çekilme bölgesi Fiyat ortalamaya yaklaştığında izlenecek bölgeyi gösterir. Hayır \nTakip eden stop İşlem açıldıktan sonra çıkış için referans olabilir. Hayır; yönetim için \nkullanılır \nKesişim Hızlı ortalama yavaş ortalamayı geçtiğinde yön değişimini \ntakip eder. \nOlabilir; ama \ngecikebilir \n \nNEDEN SORUN OLUR? \nAynı EMA’yı hem yön, hem giriş, hem destek hem de stop için kullanırsanız bütün kararları tek \nçizgiye bağlamış olursunuz. EMA yanlış sinyal verdiğinde sistemin tamamı etkilenebilir. Bu yüzden \nhareketli ortalamaya bir ana görev verin. \n \n2.4 — Dinamik destek: temas değil, bağlam \nEMA çevresindeki tekrar eden tepkiler, çizginin fiyatı “taşıdığı” anlamına gelmez. EMA trend \niçindeki geri çekilmelerde yalnızca bir referans bölgesidir; temas tek başına giriş değildir. \nYANLIŞ / DOĞRU \nYanlış: “EMA’ya değdi, al.” Doğru: “Trend var; fiyat referans bölgesine çekildi. Şimdi yapının ve \nhareket gücünün yeniden trend yönüne dönüp dönmediğine bak.” \n \n2.5 — 50/200 (Golden Cross) kesişimi neden gecikir? \nKesişim için hızlı ortalamanın önce fiyat hareketine tepki verip yavaş ortalamayı aşması \ngerekir. Bu yüzden kesişim çoğu zaman hareket başladıktan sonra gelir; gecikme hesap \nyapısının doğal sonucudur.",
+    "source_extract_summary": [
+      "2.3 — Hareketli ortalamaya tek bir görev verin Görev Ne için kullanılır?",
+      "Trend filtresi İşlemleri ana yönle aynı tarafta aramaya yardım eder.",
+      "Hayır Geri çekilme bölgesi Fiyat ortalamaya yaklaştığında izlenecek bölgeyi gösterir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Konum ve seviye yaşam döngüsü",
+      "Giriş sonrası çıkış, kısmi yönetim ve pozisyon yaşam döngüsü",
+      "Pullback, ikinci deneme ve devam kalitesi"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0013",
+    "page": 13,
+    "chapter": 2,
+    "section": "2.6 — Yatay piyasada neden sık yanlış sinyal oluşur?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n13 \n \nŞekil 2.2 — Temsili hızlı/yavaş MA kesişimi: fiyatın dipten dönmesi ile kesişim aynı anda olmak zorunda değildir. \n50/200 kesişiminde de aynı gecikme sorunu görülür. \nTEKNİK AYRINTI — 50/200 (GOLDEN CROSS) \n50/200 kesişimi “trend birazdan başlayacak” demek değildir. İki ortalamanın kesişebilmesi için fiyatın \nyeterli süre ve mesafe boyunca hareket etmiş olması gerekir. Bu yüzden Golden Kesişim erken tahmin \ndeğil, gecikmeli trend teyididir. \n \n2.6 — Yatay piyasada neden sık yanlış sinyal oluşur? \nYatay piyasada hızlı ve yavaş ortalamalar sık sık kesişebilir. Her kesişimi yeni trend saymak, \nart arda kısa ömürlü işlemlere ve küçük kayıplara yol açabilir. \n \nŞekil 2.3 — Yatay piyasada hızlı/yavaş ortalamalar çok sayıda kesişim üretir. Dikey işaretler potansiyel sık yanlış \nsinyal bölgelerini gösterir.",
+    "source_extract_summary": [
+      "50/200 kesişiminde de aynı gecikme sorunu görülür.",
+      "TEKNİK AYRINTI — 50/200 (GOLDEN CROSS) 50/200 kesişimi “trend birazdan başlayacak” demek değildir.",
+      "İki ortalamanın kesişebilmesi için fiyatın yeterli süre ve mesafe boyunca hareket etmiş olması gerekir."
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  },
+  {
+    "id": "PTA-C1-2026.p0014",
+    "page": 14,
+    "chapter": 2,
+    "section": "2.7 — Hangi kombinasyonlar faydalı, hangileri gereksiz tekrar?",
+    "source_excerpt": "PROFESYONEL TEKNİK ANALİZ ARAÇLARI \n14 \nTEKNİK SORUN — PİYASA ORTAMINI GÖRMEZDEN GELMEK \nKesişim sistemi trend takip etmek için tasarlanmışsa, yatay piyasada da aynı başarıyı beklemek tasarım \nhatasıdır. Çözüm “daha iyi kesişim periyodu” aramak değil, sistemin hangi piyasa ortamında çalıştığını \ntanımlamaktır. \n \n2.7 — Hangi kombinasyonlar faydalı, hangileri gereksiz tekrar? \nKombinasyon Her araç ne yapıyor? Değerlendirme \nMA + RSI MA yönü, RSI hareket gücünü gösterir. İyi tamamlayıcı \nMA + ATR MA yönü, ATR fiyatın ne kadar hareket \nettiğini gösterir ve stop/risk mesafesine \nyardımcı olur. \nİyi tamamlayıcı \nMA + AVWAP MA genel yönü, AVWAP seçilen \nbaşlangıçtan sonraki hacim ağırlıklı ortalama \nfiyatı gösterir. \nFarklı görevler \nMA kesişimi + MACD \nkesişimi \nİkisi de hareketli ortalamalardan türediği \niçin benzer bilgi verir. \nTekrar riski \nBirden çok MA + Supertrend Hepsi trendi farklı biçimde gösterir. Gereksiz kalabalık \n \nBÖLÜM SONUCU \nHareketli ortalamada asıl soru “hangi periyot en iyi?” değildir. Önce onu ne için kullanacağınızı \nbelirleyin: yönü görmek, geri çekilmeyi izlemek, çıkışı takip etmek veya kesişim sinyali almak. Aynı \nortalamaya bütün görevleri yüklemeyin.",
+    "source_extract_summary": [
+      "TEKNİK SORUN — PİYASA ORTAMINI GÖRMEZDEN GELMEK Kesişim sistemi trend takip etmek için tasarlanmışsa, yatay piyasada da aynı başarıyı beklemek tasarım hatasıdır.",
+      "Çözüm “daha iyi kesişim periyodu” aramak değil, sistemin hangi piyasa ortamında çalıştığını tanımlamaktır.",
+      "2.7 — Hangi kombinasyonlar faydalı, hangileri gereksiz tekrar?"
+    ],
+    "inference": "Bu sayfa, kesin uygulama kuralı değil; ilişkili bilgi aileleri ve karar rolleri için kaynak kaydıdır.",
+    "possible_uses": [
+      "Klasik indikatörlerin rol, bilgi ailesi ve tekrar envanteri",
+      "Hareket gücü özellik ailesi",
+      "Sonuç ve daha sonraki yürütme simülasyonu",
+      "Risk normalizasyonu ve volatilite rejimi",
+      "Bağlam ve piyasa rejimi sınıflaması"
+    ]
+  }
+]

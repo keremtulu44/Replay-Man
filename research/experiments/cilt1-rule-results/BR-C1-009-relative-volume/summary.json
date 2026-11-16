@@ -1,0 +1,14 @@
+{
+  "events": 356969,
+  "assets": 107,
+  "event_types": [
+    "rvol_high_up",
+    "rvol_high_down",
+    "vwap_cross_up",
+    "vwap_cross_down",
+    "avwap_cross_up",
+    "avwap_cross_down",
+    "low_volume_progress_loss"
+  ],
+  "raw_events_not_versioned": "Deterministic generator plus complete aggregates retained to avoid oversized Git artifacts."
+}

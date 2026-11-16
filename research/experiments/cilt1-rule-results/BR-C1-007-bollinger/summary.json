@@ -1,0 +1,16 @@
+{
+  "events": 475850,
+  "assets": 125,
+  "event_types": [
+    "bb_break_up",
+    "bb_break_down",
+    "bb_reentry_up",
+    "bb_reentry_down",
+    "bb_squeeze",
+    "bb_expansion",
+    "keltner_squeeze",
+    "atr_expansion",
+    "atr_contraction"
+  ],
+  "raw_events_not_versioned": "Deterministic generator plus complete aggregates retained to avoid oversized Git artifacts."
+}

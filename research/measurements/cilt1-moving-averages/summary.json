@@ -1,0 +1,15 @@
+{
+  "events": 698098,
+  "assets": 125,
+  "event_types": [
+    "sma_cross_up",
+    "sma_cross_down",
+    "ema_cross_up",
+    "ema_cross_down",
+    "price_above_sma200",
+    "price_below_sma200",
+    "ma_bull_stack",
+    "ma_bear_stack"
+  ],
+  "raw_events_not_versioned": "Deterministic generator plus complete aggregates retained to avoid oversized Git artifacts."
+}
