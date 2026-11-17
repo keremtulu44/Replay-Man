@@ -1,0 +1,27 @@
+{
+  "frames": {
+    "1h": {
+      "benchmark_bars": 2242,
+      "eligible_windows": 2215,
+      "targets": 110
+    },
+    "4h": {
+      "benchmark_bars": 498,
+      "eligible_windows": 471,
+      "targets": 110
+    }
+  },
+  "sources": 7,
+  "input_files": 228,
+  "conditions": [
+    "down0",
+    "up0",
+    "down2",
+    "up2",
+    "down4",
+    "up4"
+  ],
+  "bar_count": 10,
+  "train_end": "2026-07-01T00:00:00Z",
+  "validation_end": "2026-09-01T00:00:00Z"
+}

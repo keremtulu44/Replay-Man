@@ -1,0 +1,45 @@
+{
+  "frames": {
+    "1h": {
+      "benchmark_bars": 2242,
+      "eligible_windows": 2215,
+      "fixed_windows": 223,
+      "targets": 110
+    },
+    "4h": {
+      "benchmark_bars": 498,
+      "eligible_windows": 471,
+      "fixed_windows": 48,
+      "targets": 110
+    }
+  },
+  "sources": 7,
+  "input_files": 228,
+  "bar_count": 10,
+  "conditions": [
+    "all",
+    "up4",
+    "down4",
+    "up2",
+    "down2",
+    "flat1"
+  ],
+  "responses": [
+    "same",
+    "after"
+  ],
+  "samples": [
+    "all_bars",
+    "fixed_nonoverlap",
+    "shock_episode"
+  ],
+  "jump_filters": [
+    "all",
+    "no_jump10 (post hoc sensitivity)"
+  ],
+  "train_end": "2026-07-01T00:00:00Z",
+  "validation_end": "2026-09-01T00:00:00Z",
+  "example": "USD Brent >= 4% and TUPRS same 10 bars <= -3%",
+  "example_matches_overlapping": 26,
+  "limitations": "observational; observed splits; overlapping windows; nominal closes; no execution or causal claims"
+}
