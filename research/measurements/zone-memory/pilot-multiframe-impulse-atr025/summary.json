@@ -1,0 +1,31 @@
+{
+  "status": "exploratory_pilot",
+  "symbols": [
+    "BIST_ASELS",
+    "BIST_THYAO",
+    "BIST_TUPRS",
+    "BIST_AKBNK",
+    "BIST_BIMAS",
+    "BIST_AEFES"
+  ],
+  "intervals": [
+    "1h",
+    "2h",
+    "4h",
+    "1d"
+  ],
+  "geometry": "impulse",
+  "zone_method": "atr",
+  "tolerance": 0.25,
+  "exit_closes": 2,
+  "swing": [
+    2,
+    2
+  ],
+  "series": 24,
+  "zone_events": 1837,
+  "visits": 23634,
+  "visit_events": 235213,
+  "outcomes": 118170,
+  "notice": "Betimleyici pilot; dönem/baz/bağımlılık kontrolü yapılmamıştır."
+}

@@ -1,0 +1,13 @@
+{
+  "pilot": "research/measurements/zone-memory/pilot-4h-sloped-pct050",
+  "pilot_visits_sha256": "c3f6252934b10b7d16fe889ca833fd21a37dd8f31fa040ec9e516921f3b87dae",
+  "pilot_outcomes_sha256": "466c9e853ec6c093ce43b772c7923d688e2455c640d57398f5d70d0de7101220",
+  "pilot_manifest_sha256": "5870c5ff4d2e4578058c802b100baadc303e41ec1b087802f9504d8f8efda0a3",
+  "movement_code_sha256": "8655a479603c5ae85b8098719216a2be22fdac59df3a7d3f29053aad84d07439",
+  "tool_code_sha256": "169eef69f4975c352f60d1ec8a1c123b67037ed7b946e1e2c48692fe31271dc5",
+  "visits": 8329,
+  "feature_status": {
+    "observed": 8329
+  },
+  "notice": "Betimleyici pilot; nedensel etki veya indikatör başarısı göstermez."
+}

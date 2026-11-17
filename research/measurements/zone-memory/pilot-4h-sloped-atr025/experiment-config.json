@@ -1,0 +1,35 @@
+{
+  "geometry": "sloped",
+  "sloped_anchor_min": 8,
+  "sloped_anchor_max": 80,
+  "sloped_max_anchors_per_kind": 3,
+  "method": "atr",
+  "tolerance": 0.25,
+  "exit_closes": 2,
+  "swing_left": 2,
+  "swing_right": 2,
+  "horizons": [
+    1,
+    3,
+    5,
+    10,
+    20
+  ],
+  "symbols": [
+    "BIST_ASELS",
+    "BIST_THYAO",
+    "BIST_TUPRS"
+  ],
+  "intervals": [
+    "4h"
+  ],
+  "python": "3.11.2",
+  "pandas": "3.1.1",
+  "code_sha256": {
+    "measure_zone_memory.py": "9577a7ab4fa02ebd49b5c20d9753a53057a4630825e015aedd732c3ede28cbc0",
+    "zone_memory.py": "16064b9cce4fd9c06c2c606762708949d0d7f861bf0111c9e7ef450cfa0d56bb",
+    "swings.py": "b60892cb2c32c9bcd035af3e4282a71315dde088aee6d585dba3252376023838",
+    "replay.py": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+    "sloped_zones.py": "0cf420b9d770022a843d68726e10a8aaedbddc31707e5af264a6c08ad758db52"
+  }
+}

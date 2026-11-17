@@ -1,0 +1,15 @@
+{
+  "pilot": "research/measurements/zone-memory/pilot-4h-pct050",
+  "pilot_visits_sha256": "191928333c4f8584b0fc160495bfc3e5ca90efa25b7fe5a57dae8441b1e33768",
+  "pilot_outcomes_sha256": "3dc4d3e0e4d5532b0fbdef00ef155871899600e7b46e1bd990436180a4b53b87",
+  "pilot_manifest_sha256": "5870c5ff4d2e4578058c802b100baadc303e41ec1b087802f9504d8f8efda0a3",
+  "movement_code_sha256": "8655a479603c5ae85b8098719216a2be22fdac59df3a7d3f29053aad84d07439",
+  "tool_code_sha256": "169eef69f4975c352f60d1ec8a1c123b67037ed7b946e1e2c48692fe31271dc5",
+  "visits": 1452,
+  "feature_status": {
+    "observed": 1446,
+    "unknown": 3,
+    "insufficient_history": 3
+  },
+  "notice": "Betimleyici pilot; nedensel etki veya indikatör başarısı göstermez."
+}
