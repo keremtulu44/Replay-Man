@@ -1,0 +1,27 @@
+{
+  "sources": 18,
+  "input_files": 219,
+  "frames": {
+    "1h": {
+      "benchmark_bars": 2242,
+      "windows": 2215,
+      "targets": 100
+    },
+    "4h": {
+      "benchmark_bars": 498,
+      "windows": 471,
+      "targets": 100
+    }
+  },
+  "rows": 345600,
+  "overview_rows": 43200,
+  "source_categories": [
+    "bist_indices",
+    "global_indices",
+    "fx"
+  ],
+  "unit": "native",
+  "excluded": [
+    "volume"
+  ]
+}

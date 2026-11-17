@@ -1,0 +1,13 @@
+{
+  "input_files": 204,
+  "candidate_variant_rows": 104696,
+  "signals": 26174,
+  "targets": 100,
+  "ambiguities": 294,
+  "missing_outcome": 1549,
+  "splits": [
+    "train",
+    "validation",
+    "test"
+  ]
+}
