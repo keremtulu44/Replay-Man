@@ -1,0 +1,17 @@
+{
+  "status": "exploratory",
+  "assets": 100,
+  "event_count": 5765,
+  "horizons": [
+    10,
+    20,
+    40
+  ],
+  "input_manifest_sha256": "bdcb3085d7312b385af4ddf2ca84a93d6a422301981f15b097a9f2dccec80d54",
+  "reference_events_sha256": "d31f68b5e4b0168a89c8f659af5658a9ffcd55bca8deb07245ad00983cdaf950",
+  "code_sha256": "9f19eacba64e0e81b7e18862dab96bf3e180695d75bc5be08269b46eefcddde7",
+  "lifecycle_sha256": "a51c138496cf94ec5d2e20d6e939344d860bcc35c4f05eb10944f1e5c2a5282d",
+  "scanner_sha256": "16064b9cce4fd9c06c2c606762708949d0d7f861bf0111c9e7ef450cfa0d56bb",
+  "loader_sha256": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+  "note": "Tam pencere ve bölüm sansürü; sayım aynı bölgenin ilk sonraki ziyaretini izler; temas sırası OHLC ile bilinmez."
+}

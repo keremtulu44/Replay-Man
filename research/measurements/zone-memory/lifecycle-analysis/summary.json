@@ -1,0 +1,48 @@
+{
+  "inputs": [
+    {
+      "path": "research/measurements/zone-memory/lifecycle-horizontal/events.csv.xz",
+      "sha256": "d31f68b5e4b0168a89c8f659af5658a9ffcd55bca8deb07245ad00983cdaf950",
+      "events": 35823
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-horizontal-hourly/events.csv.xz",
+      "sha256": "e238da771ea38c8660479698b5ca12e4d706c24a8e1d3ffa0c0167f3fae551d6",
+      "events": 182799
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-dwell/events.csv.xz",
+      "sha256": "7b9e28052b0ccadf74c8cdd378e0ca6811cd157eabdc059226a6d544750195d9",
+      "events": 18040
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-dwell-hourly/events.csv.xz",
+      "sha256": "e60f9378d17b0f4a07f27bbf5c12aa7a2de29b0b01ab8ebc6f1715e14b102a6b",
+      "events": 123378
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-impulse/events.csv.xz",
+      "sha256": "d5f48f3dde2d1fb1e44d4ea2fc1c55fc7ad579d78d0e4eb6f2b5430564d14920",
+      "events": 20838
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-impulse-hourly/events.csv.xz",
+      "sha256": "e23d57a818af2e81dd2ef033c503b668204674e6931f31753b1bdcf5cfc28aae",
+      "events": 133455
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-sloped/events.csv.xz",
+      "sha256": "36ab1f0c4dc48914814628caf947bc069451678bbacf808daf08a59af3617cfb",
+      "events": 57799
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-sloped-hourly/events.csv.xz",
+      "sha256": "0a758b5206c5c0f619d1046f6c5025719467980e40df01661a44e3dac64dfad8",
+      "events": 42498
+    }
+  ],
+  "draws": 500,
+  "seed": 20261117,
+  "code_sha256": "2e3bc827efec03fda2cd3227748bdb1757692b6639400a7fdc9d1b34f36ad6fa",
+  "notice": "Karşılaştırmalar eşleştirilmiş/nedensel değildir; gruplar farklı olaylardır ve haftalık bootstrap bağımlılığın tamamını çözmez."
+}

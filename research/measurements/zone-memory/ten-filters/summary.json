@@ -1,0 +1,48 @@
+{
+  "status": "exploratory_post_hoc",
+  "intervals": [
+    "1d",
+    "4h"
+  ],
+  "filters": {
+    "F01": "previous_gap_11plus",
+    "F02": "touches_3plus",
+    "F03": "visit_duration_5plus",
+    "F04": "approach_toward_1atr_5bar",
+    "F05": "approach_progress_rising",
+    "F06": "approach_efficiency_atleast_060",
+    "F07": "band_width_le_1atr",
+    "F08": "exit_progress_atleast_half_atr",
+    "F09": "visit_has_both_bounds_bar",
+    "F10": "at_least_3_prior_visits"
+  },
+  "inputs": [
+    {
+      "path": "research/measurements/zone-memory/lifecycle-horizontal/events.csv.xz",
+      "sha256": "d31f68b5e4b0168a89c8f659af5658a9ffcd55bca8deb07245ad00983cdaf950",
+      "manifest_sha256": "bdcb3085d7312b385af4ddf2ca84a93d6a422301981f15b097a9f2dccec80d54"
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-dwell/events.csv.xz",
+      "sha256": "7b9e28052b0ccadf74c8cdd378e0ca6811cd157eabdc059226a6d544750195d9",
+      "manifest_sha256": "bdcb3085d7312b385af4ddf2ca84a93d6a422301981f15b097a9f2dccec80d54"
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-impulse/events.csv.xz",
+      "sha256": "d5f48f3dde2d1fb1e44d4ea2fc1c55fc7ad579d78d0e4eb6f2b5430564d14920",
+      "manifest_sha256": "bdcb3085d7312b385af4ddf2ca84a93d6a422301981f15b097a9f2dccec80d54"
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-sloped/events.csv.xz",
+      "sha256": "36ab1f0c4dc48914814628caf947bc069451678bbacf808daf08a59af3617cfb",
+      "manifest_sha256": "bdcb3085d7312b385af4ddf2ca84a93d6a422301981f15b097a9f2dccec80d54"
+    }
+  ],
+  "records": 80252,
+  "draws": 500,
+  "seed": 20261117,
+  "source_sha256": "3a807a0caea8805e4afbf5dc0b2fe6aa2728288bc491bbbc3f0f478cd3e3a8d6",
+  "bootstrap_sha256": "2e3bc827efec03fda2cd3227748bdb1757692b6639400a7fdc9d1b34f36ad6fa",
+  "bar_loader_sha256": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+  "warning": "Tarihsel veri önceden incelendi; alt gruplar bağımsız/eşleştirilmiş değil, çoklu deneme düzeltmesi yok."
+}

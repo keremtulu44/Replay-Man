@@ -1,0 +1,33 @@
+{
+  "status": "post_hoc_exploratory",
+  "intervals": [
+    "1d",
+    "4h"
+  ],
+  "inputs": [
+    {
+      "path": "research/measurements/zone-memory/lifecycle-horizontal/events.csv.xz",
+      "sha256": "d31f68b5e4b0168a89c8f659af5658a9ffcd55bca8deb07245ad00983cdaf950",
+      "records": 35823
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-dwell/events.csv.xz",
+      "sha256": "7b9e28052b0ccadf74c8cdd378e0ca6811cd157eabdc059226a6d544750195d9",
+      "records": 18040
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-impulse/events.csv.xz",
+      "sha256": "d5f48f3dde2d1fb1e44d4ea2fc1c55fc7ad579d78d0e4eb6f2b5430564d14920",
+      "records": 20838
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-sloped/events.csv.xz",
+      "sha256": "36ab1f0c4dc48914814628caf947bc069451678bbacf808daf08a59af3617cfb",
+      "records": 57799
+    }
+  ],
+  "draws": 500,
+  "code_sha256": "bb3d2d6f411d5aac1b66b6b80c74576a85dc042dde3a059d108a412248e32cde",
+  "comparison_code_sha256": "2e3bc827efec03fda2cd3227748bdb1757692b6639400a7fdc9d1b34f36ad6fa",
+  "caution": "Etiketler bilindiğinde olay sonu, gruplar eşleşmemiş, veriler daha önce incelenmiş, çoklu deneme var."
+}

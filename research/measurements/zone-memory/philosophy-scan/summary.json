@@ -1,0 +1,46 @@
+{
+  "status": "exploratory_post_hoc",
+  "input_events": 858671,
+  "kind_counts": {
+    "egimli": 342167,
+    "yatay": 225899,
+    "hizli_cikis": 151731,
+    "oyalanma": 138874
+  },
+  "inputs": [
+    {
+      "kind": "yatay",
+      "path": "research/measurements/zone-memory/universe-horizontal/events.csv.gz",
+      "sha256": "76522d8c798283d7457e3b11d6304c99b74b0bf6f745c0e0e6d1ca49dcfa1de2",
+      "eligible_representatives": 225899
+    },
+    {
+      "kind": "oyalanma",
+      "path": "research/measurements/zone-memory/universe-dwell/events.csv.gz",
+      "sha256": "aa1ca5f05e8c0327a425acb1b56f0fba1c1e322e37e5bb0004cf0b7c6782aebf",
+      "eligible_representatives": 138874
+    },
+    {
+      "kind": "hizli_cikis",
+      "path": "research/measurements/zone-memory/universe-impulse/events.csv.gz",
+      "sha256": "94cf683201eecf94fdb65656cbb297dbb6a7b3ca0a110f0e80b8c09f0d1c1eeb",
+      "eligible_representatives": 151731
+    },
+    {
+      "kind": "egimli",
+      "path": "research/measurements/zone-memory/universe-sloped/events.csv.gz",
+      "sha256": "c3efd3b83254dc4b7fede27e279fbac88af82977704d2bd7c9877cdccfe66040",
+      "eligible_representatives": 57322
+    },
+    {
+      "kind": "egimli",
+      "path": "research/measurements/zone-memory/universe-sloped-hourly/events.csv.gz",
+      "sha256": "6fe15ef0201cfc06f9cff4b90a92ee08c4eaf0b7b6707ceadd049219d652b273",
+      "eligible_representatives": 284845
+    }
+  ],
+  "bootstrap_draws": 500,
+  "bootstrap_seed": 20261117,
+  "method_sha256": "1fc3b6ae0aadcc3929272ef79b7d9c7a112bd2cdf5406c7ee458106ed0af5698",
+  "notice": "Aynı mum/hisse ve aynı yön eşleşmelerinde ileri getiri aynıdır; bağımsız kanıt sayılmaz. Haftalık bootstrap tüm bağımlılığı çözmez."
+}

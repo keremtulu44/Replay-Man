@@ -1,0 +1,61 @@
+{
+  "status": "descriptive_pilot",
+  "assets": [
+    "BIST_ASELS",
+    "BIST_THYAO",
+    "BIST_TUPRS"
+  ],
+  "interval": "4h",
+  "inputs": [
+    {
+      "path": "research/measurements/zone-memory/pilot-4h-atr025/visits.csv.gz",
+      "sha256": "0fb7c7627c44965faca2f1da6af2372487084812236ffbc905f28173e086fc4b"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-4h-atr025/visit-events.csv.gz",
+      "sha256": "e96b987b2b5752845d03a49069edc236dbc7a4942a93fc4eef1a91daf99ae2fa"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-4h-atr025/input-manifest.csv",
+      "sha256": "5870c5ff4d2e4578058c802b100baadc303e41ec1b087802f9504d8f8efda0a3"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-multiframe-dwell-atr025/visits.csv.gz",
+      "sha256": "af742c719226860fdb5c20b935250f20487aa12ddfa50e75605095d9ff0c9b8d"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-multiframe-dwell-atr025/visit-events.csv.gz",
+      "sha256": "75421e8c28ee35765192bd06f89d77cb21877bae990d5e6c728a915a383dfdaf"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-multiframe-dwell-atr025/input-manifest.csv",
+      "sha256": "49e06408ddf981c569103a2843384f79c9216489e33435a5654b60bbf901215e"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-multiframe-impulse-atr025/visits.csv.gz",
+      "sha256": "b2d6878100d7239ace164461c56efad1a44d539a6bca06b8ec7fdbb687d6bba4"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-multiframe-impulse-atr025/visit-events.csv.gz",
+      "sha256": "93beba59c9a53db33118c98ba175aa2e10aa0f0d1bafdf66f6584649eac11993"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-multiframe-impulse-atr025/input-manifest.csv",
+      "sha256": "49e06408ddf981c569103a2843384f79c9216489e33435a5654b60bbf901215e"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-4h-sloped-atr025/visits.csv.gz",
+      "sha256": "6bb6d65c66f35d86a432edc91e0911734669d476a70391854a613bf2c630e319"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-4h-sloped-atr025/visit-events.csv.gz",
+      "sha256": "3b558511a63c8e15a1d348b460e14a5e8e43e095c5f22bdb982827ca8bb5b22b"
+    },
+    {
+      "path": "research/measurements/zone-memory/pilot-4h-sloped-atr025/input-manifest.csv",
+      "sha256": "5870c5ff4d2e4578058c802b100baadc303e41ec1b087802f9504d8f8efda0a3"
+    }
+  ],
+  "code_sha256": "14fc3beb99736d5bc33e5486a4e0c8a22917e92c2dafdcdbb8d97ca4a36cfb8f",
+  "notice": "Kapanış yönü vekildir. Türler ve ziyaretler bağımsız değil; yüzde genellemesi yapılamaz."
+}

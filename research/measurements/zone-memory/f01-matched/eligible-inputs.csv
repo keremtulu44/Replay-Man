@@ -1,0 +1,7 @@
+split,pattern,events,assets
+test,cross_then_same,160,73
+test,same_then_same,212,79
+train,cross_then_same,241,83
+train,same_then_same,347,96
+validation,cross_then_same,136,70
+validation,same_then_same,228,86

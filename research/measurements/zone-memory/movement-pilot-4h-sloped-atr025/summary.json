@@ -1,0 +1,13 @@
+{
+  "pilot": "research/measurements/zone-memory/pilot-4h-sloped-atr025",
+  "pilot_visits_sha256": "6bb6d65c66f35d86a432edc91e0911734669d476a70391854a613bf2c630e319",
+  "pilot_outcomes_sha256": "3f07721a97f095f2f94b6f5968d3a26e4e2f3cb8669c8049f2961f9d0e1a8f2a",
+  "pilot_manifest_sha256": "5870c5ff4d2e4578058c802b100baadc303e41ec1b087802f9504d8f8efda0a3",
+  "movement_code_sha256": "8655a479603c5ae85b8098719216a2be22fdac59df3a7d3f29053aad84d07439",
+  "tool_code_sha256": "169eef69f4975c352f60d1ec8a1c123b67037ed7b946e1e2c48692fe31271dc5",
+  "visits": 8334,
+  "feature_status": {
+    "observed": 8334
+  },
+  "notice": "Betimleyici pilot; nedensel etki veya indikatör başarısı göstermez."
+}

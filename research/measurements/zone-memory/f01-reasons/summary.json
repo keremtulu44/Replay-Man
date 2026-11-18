@@ -1,0 +1,33 @@
+{
+  "status": "exploratory_post_hoc",
+  "inputs": [
+    {
+      "path": "research/measurements/zone-memory/lifecycle-horizontal/events.csv.xz",
+      "sha256": "d31f68b5e4b0168a89c8f659af5658a9ffcd55bca8deb07245ad00983cdaf950"
+    },
+    {
+      "path": "research/measurements/zone-memory/f01-censoring/cohort.csv.xz",
+      "sha256": "38413becaf06e8c036382d98beb7500cf7eb9e100f931a9e7422da7a5a32b482"
+    },
+    {
+      "path": "research/measurements/zone-memory/lifecycle-horizontal/input-manifest.csv",
+      "sha256": "bdcb3085d7312b385af4ddf2ca84a93d6a422301981f15b097a9f2dccec80d54"
+    },
+    {
+      "path": "research/measurements/zone-memory/f01-matched/pairs.csv",
+      "sha256": "ce199bded219df6a892cefa1effd0aa082c8ba53b8955e0a58d3f0336aeebd28"
+    },
+    {
+      "path": "research/measurements/zone-memory/ten-filters/features.csv.xz",
+      "sha256": "176999eb2fbc9aafc035b7852ef24f022ce4a1163d10478db73598ded4020a33"
+    }
+  ],
+  "records": 5765,
+  "code_sha256": "34b6ef2811faa5d9018f3069719b1d9a5ab39e23440bda71a65fba93fc159688",
+  "lifecycle_sha256": "a51c138496cf94ec5d2e20d6e939344d860bcc35c4f05eb10944f1e5c2a5282d",
+  "scanner_sha256": "16064b9cce4fd9c06c2c606762708949d0d7f861bf0111c9e7ef450cfa0d56bb",
+  "loader_sha256": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+  "comparison_sha256": "2e3bc827efec03fda2cd3227748bdb1757692b6639400a7fdc9d1b34f36ad6fa",
+  "censor_logic_sha256": "9f19eacba64e0e81b7e18862dab96bf3e180695d75bc5be08269b46eefcddde7",
+  "warning": "İlk beş bar landmark; yalnız 20 bar tam pencere; hiçbir neden/işlem sinyali kanıtlanmaz."
+}

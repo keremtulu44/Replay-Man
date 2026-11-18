@@ -1,0 +1,9 @@
+mode,kind,visits,assets,same_side,opposite_side,unknown,censored,touch_3plus,both_boundaries_ambiguous,outside_then_inside_close,revisit_yes,revisit_no,revisit_censored_or_unknown
+all,egimli,8334,3,4197,2651,1459,27,2250,4858,1263,5548,2618,168
+all,hizli_cikis,901,3,635,235,20,11,439,96,221,605,256,40
+all,oyalanma,578,3,457,98,4,19,345,1,163,370,171,37
+all,yatay,1210,3,683,367,158,2,378,610,220,837,349,24
+one_per_bar,egimli,1262,3,726,336,195,5,341,666,179,849,391,22
+one_per_bar,hizli_cikis,487,3,363,106,12,6,226,33,119,335,134,18
+one_per_bar,oyalanma,349,3,284,55,1,9,205,0,105,228,105,16
+one_per_bar,yatay,766,3,454,212,98,2,244,346,149,550,203,13

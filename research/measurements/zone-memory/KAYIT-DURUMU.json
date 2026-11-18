@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "csv_manifest_files": 30,
+  "json_summaries_scanned": 40,
+  "recorded_hash_references_checked": 3804,
+  "unique_referenced_files": 444,
+  "price_and_benchmark_files": 404,
+  "research_files": 239,
+  "code_plan_test_files": 40,
+  "manifest_files_including_status": 684,
+  "issues": [],
+  "scope": "Kaynak manifestlerinde belirtilen dosya hashleri ve araştırma kayıtlarının envanteri; veri doğruluğu, tüm tarihsel kod sürümleri veya GitHub yedeği değildir."
+}

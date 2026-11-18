@@ -1,0 +1,4 @@
+interval,progress_group,visits,assets,median_return_5bar,positive_fraction_5bar,median_approach_direction_return_5bar,positive_approach_direction_fraction_5bar
+4h,falling,597,3,0.005943536404160454,0.5460636515912898,-0.004180602006689016,0.4489112227805695
+4h,rising,599,3,0.002538071065989911,0.5325542570951586,0.0,0.4974958263772955
+4h,unchanged,1,1,0.06913996627318708,1.0,-0.06913996627318708,0.0

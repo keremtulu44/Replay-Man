@@ -1,0 +1,14 @@
+{
+  "pilot": "research/measurements/zone-memory/pilot-multiframe-dwell-atr025",
+  "pilot_visits_sha256": "af742c719226860fdb5c20b935250f20487aa12ddfa50e75605095d9ff0c9b8d",
+  "pilot_outcomes_sha256": "0bc043cb477319dc47c3fc1df4c9afe7909240bbaa1109517c2669640b05a0c3",
+  "pilot_manifest_sha256": "49e06408ddf981c569103a2843384f79c9216489e33435a5654b60bbf901215e",
+  "features_sha256": "d8ceef7c8490c461a8d6fdd037da0604dd22fd99bfc4f45aff0c8702f1197175",
+  "movement_code_sha256": "8655a479603c5ae85b8098719216a2be22fdac59df3a7d3f29053aad84d07439",
+  "tool_code_sha256": "d8be6793c8df8234739e00ab9bf6198b4253afd25710c3f915ca03680a33175f",
+  "visits": 19826,
+  "feature_status": {
+    "observed": 19826
+  },
+  "notice": "Betimleyici pilot; nedensel etki veya indikatör başarısı göstermez."
+}

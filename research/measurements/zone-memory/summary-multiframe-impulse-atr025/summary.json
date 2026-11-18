@@ -1,0 +1,28 @@
+{
+  "pilot": "research/measurements/zone-memory/pilot-multiframe-impulse-atr025",
+  "movement": "research/measurements/zone-memory/movement-multiframe-impulse-atr025",
+  "pilot_visits_sha256": "b2d6878100d7239ace164461c56efad1a44d539a6bca06b8ec7fdbb687d6bba4",
+  "pilot_outcomes_sha256": "7535c5ed1a2d5063813b4f2408c6e363ec4c6503c3365b5505e62adeeac5213b",
+  "movement_features_sha256": "764e2e84518e2e0053ce93a437103f13298a816d021d11f58c3ebe9e0ac0ea02",
+  "code_sha256": "477e28c0ff020627d7a43285e5a5d90a5557bb3ef6e3cd9d622ade4f0d3f99b7",
+  "input_visits": 23634,
+  "unique_asset_interval_positions": 9683,
+  "bar_label_split_boundaries": [
+    {
+      "split": "train",
+      "start_inclusive": "2025-11-13 21:00:00+00:00",
+      "end_exclusive": "2026-06-20 17:06:00+00:00"
+    },
+    {
+      "split": "validation",
+      "start_inclusive": "2026-06-20 17:06:00+00:00",
+      "end_exclusive": "2026-09-01 15:48:00+00:00"
+    },
+    {
+      "split": "test",
+      "start_inclusive": "2026-09-01 15:48:00+00:00",
+      "end_exclusive": "2026-11-13 14:30:00.000000001+00:00"
+    }
+  ],
+  "warning": "Bar etiketlerine göre dönemleme; sonuç penceresi sınırı aşarsa dışlanır. Daha önce incelenmiş veri, bağımsız test değildir."
+}

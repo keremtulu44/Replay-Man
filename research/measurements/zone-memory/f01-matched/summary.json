@@ -1,0 +1,21 @@
+{
+  "status": "post_hoc_exploratory",
+  "input_path": "research/measurements/zone-memory/lifecycle-horizontal/events.csv.xz",
+  "input_sha256": "d31f68b5e4b0168a89c8f659af5658a9ffcd55bca8deb07245ad00983cdaf950",
+  "input_manifest_sha256": "bdcb3085d7312b385af4ddf2ca84a93d6a422301981f15b097a9f2dccec80d54",
+  "code_sha256": "8192326d643f977c3b1a17c5cbd19b396662b5854678e613a2a19fe125229b98",
+  "loader_sha256": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+  "bar_distance_min": 6,
+  "bar_distance_max": 40,
+  "vol_ratio_control_to_case": [
+    0.75,
+    1.3333333333333333
+  ],
+  "width_ratio_control_to_case": [
+    0.5,
+    2.0
+  ],
+  "bootstrap_draws": 1000,
+  "seed": 20261117,
+  "note": "Aynı hisse, dönem ve yön; 11+ bar gecikme; greedy sonuç kullanmayan eşleştirme; kontrol gelecek veya geçmiş zamanda olabilir."
+}
