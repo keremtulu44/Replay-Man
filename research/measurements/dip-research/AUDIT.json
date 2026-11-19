@@ -1,0 +1,26 @@
+{
+  "audited_at_utc": "2026-11-19T14:59:59.996385+00:00",
+  "scope": "artifact integrity and sample arithmetic; not provider independence or performance proof",
+  "sources": {
+    "internal": {
+      "signals": 5785,
+      "outcomes": 23140,
+      "matched_signals": 1331,
+      "observed": 20332,
+      "censored_or_unknown": 2808,
+      "input_files_verified": 202,
+      "spot_checked_observed_outcomes": 200,
+      "status": "passed"
+    },
+    "external": {
+      "signals": 4965,
+      "outcomes": 19860,
+      "matched_signals": 1565,
+      "observed": 19555,
+      "censored_or_unknown": 305,
+      "input_files_verified": 68,
+      "spot_checked_observed_outcomes": 200,
+      "status": "passed"
+    }
+  }
+}

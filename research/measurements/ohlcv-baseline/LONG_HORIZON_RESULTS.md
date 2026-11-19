@@ -1,5 +1,7 @@
 # Uzun Ufuk ve Zaman-Dışı Doğrulama Sonuçları
 
+> **Tarihsel arşiv uyarısı (19.11.2026):** Bu çalışmada zaman bölümü olay sırasıyla belirlenmiş ve ileri ufukların bölüm sınırını aşması engellenmemiştir; endeks her ufukta hisseyle gerçek bitiş etiketi yerine bağımsız satır kaydırmasıyla eşlenmiştir. Mevcut 100 hisse için 4s olası pencere taramasında bitiş uyumsuzluğu görülmemiş olsa da bu, bütün bölümler için bağımsız test veya gerçekleşebilir giriş kanıtı değildir. [Genel denetim](../general-review/README.md) 4s aşağı acceptance adayını tekil hisse/bar, dönem içi tam ufuk ve sonraki/gecikmeli açılışla yeniden ölçer. Aşağıdaki “en sağlam kontrol” ve `%0,6–1,4 beklenen avantaj` yorumları **geri çekilmiştir**; eski sonuçlar tarihsel kayıt olarak korunur.
+
 ## Yönetici özeti
 
 Mevcut arşiv yaklaşık bir yıllık veri içerdiği için çok yıllı “uzun dönem” sonucu üretmek dürüstçe mümkün değildir. Bu turda yapılabilecek en sağlam kontrol uygulanmıştır:
@@ -29,7 +31,7 @@ Ham sonuç “aşağı kırılım güçlü” derken benchmark sonrası 20 bar a
 
 ## En düzenli aday — 4h aşağı acceptance, 60 bar
 
-60 adet tamamlanmış 4h bar BIST seans yapısında yaklaşık birkaç hafta ile bir ay arası piyasa süresine karşılık gelir; kesin takvim süresi tatil ve eksik barlara göre değişir.
+60 adet tamamlanmış 4h barın takvim süresi seansa, tatile ve eksik barlara bağlıdır. Mevcut serilerde çoğunlukla günde yaklaşık iki tam 4h bar bulunduğundan bu süre yaklaşık 30 işlem gününe yaklaşabilir; kesin bir ay varsayılmamalıdır.
 
 | Zaman bölümü | Geçerli olay | XU100-aşırı medyan | Aşırı pozitif oran |
 |---|---:|---:|---:|
@@ -37,7 +39,7 @@ Ham sonuç “aşağı kırılım güçlü” derken benchmark sonrası 20 bar a
 | Doğrulama `%20` | 853 | **%0,63** | **%50,88** |
 | Test `%20` | 582 | **%1,40** | **%54,64** |
 
-Üç bölümde de medyan pozitif kalmıştır. Eğitimden doğrulamaya düşüş büyüktür; bu nedenle beklenen avantaj eğitim sonucu olan `%2,83` değil, doğrulama/testte görülen yaklaşık `%0,6–1,4` brüt aralığı olarak ele alınmalıdır.
+Üç bölümde de eski hesapta medyan pozitif kalmıştır. **Geri çekilen eski yorum:** doğrulama/testte görülen yaklaşık `%0,6–1,4` brüt aralığı bir “beklenen avantaj” olarak ele alınmamalıdır. Daha sıkı, farklı örnekli yeniden ölçüm ve sınırlamaları [genel denetimde](../general-review/README.md) yer alır.
 
 ### Yakın kopya: follow-through
 

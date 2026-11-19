@@ -1,0 +1,13 @@
+interval,period,entry,horizon,metric,n_no_support,n_support,weeks,median_difference,ci_low,ci_high,valid_draws
+1d,external_history,delayed_open,10,fixed_return,1271,895,182,0.006378588040117039,-0.004075426563210452,0.013941355519520665,2000
+1d,external_history,delayed_open,10,excess_return,0,0,0,,,,0
+1d,external_history,delayed_open,10,trade_lower,1271,895,182,-0.0006356255558749302,-0.0069286925827236,0.006851303532938465,2000
+1d,external_history,delayed_open,20,fixed_return,1253,884,180,-0.0016098998084937977,-0.016914687390605986,0.012558610967813157,2000
+1d,external_history,delayed_open,20,excess_return,0,0,0,,,,0
+1d,external_history,delayed_open,20,trade_lower,1253,884,180,-0.0017639309728386121,-0.005103027411133579,0.0007741757478070307,2000
+1d,external_history,next_open,10,fixed_return,1271,895,182,-0.0022615136694701388,-0.010438916702305834,0.006371040588722499,2000
+1d,external_history,next_open,10,excess_return,0,0,0,,,,0
+1d,external_history,next_open,10,trade_lower,1271,895,182,-0.0036851354535555325,-0.023671974357143844,0.0011388213449190178,2000
+1d,external_history,next_open,20,fixed_return,1253,884,180,-0.0014907456980297606,-0.016451695767831714,0.010705702067231773,2000
+1d,external_history,next_open,20,excess_return,0,0,0,,,,0
+1d,external_history,next_open,20,trade_lower,1253,884,180,-0.004021993087447662,-0.00903952124449548,-0.0010465372440573606,2000

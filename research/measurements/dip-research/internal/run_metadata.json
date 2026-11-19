@@ -1,0 +1,42 @@
+{
+  "source": "internal",
+  "generated_at_utc": "2026-11-19T14:48:22.688428+00:00",
+  "external_commit": null,
+  "python": "3.11.2",
+  "pandas": "3.1.1",
+  "numpy": "2.4.6",
+  "code_sha256": {
+    "research/measurements/dip-research/PLAN.md": "e2389e3ef9013394ff60711f5f05d2a65142ad407c97067925a818997e6f1fbb",
+    "replayman/dip_research.py": "8ff9cb4502d85c06ce40b8ade95ff41ecb57515ac2fc9a8953c02f353aa01d4c",
+    "replayman/swings.py": "5fe51e8e4a5cecd29aabe6d219deffd4024f3dd6fca835eba309af687d7d2b78",
+    "replayman/zone_memory.py": "16064b9cce4fd9c06c2c606762708949d0d7f861bf0111c9e7ef450cfa0d56bb",
+    "replayman/replay.py": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+    "tools/measure_dip_pilot.py": "e3638850e92280283c66904dea5fbe72a09cbfc7f5c01091c60d040340cb246e"
+  },
+  "input_series": 200,
+  "input_assets": 100,
+  "variant_signal_rows": 5785,
+  "outcome_rows": 23140,
+  "reference_pivots": 4135,
+  "incomplete_rows_dropped": 25025,
+  "floating_point_repairs": 0,
+  "periods": [
+    {
+      "name": "train",
+      "start": "1899-12-31T22:03:04+00:00",
+      "end_exclusive": "2026-06-30T21:00:00+00:00"
+    },
+    {
+      "name": "validation",
+      "start": "2026-06-30T21:00:00+00:00",
+      "end_exclusive": "2026-08-31T21:00:00+00:00"
+    },
+    {
+      "name": "historical_test",
+      "start": "2026-08-31T21:00:00+00:00",
+      "end_exclusive": "2026-12-31T21:00:00+00:00"
+    }
+  ],
+  "forward_claim": false,
+  "warning": "Exploratory history; no portfolio or independent prospective validation."
+}

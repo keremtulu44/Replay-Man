@@ -19,6 +19,20 @@ def test_pivot_is_published_only_at_confirmation_bar():
     assert high.confirmed_ts == bars.loc[4, "ts_utc"]
 
 
+def test_equal_extrema_use_documented_rightmost_and_can_reproduce_legacy():
+    bars = frame([5, 6, 8, 8, 7, 6], lows=[5, 4, 2, 2, 3, 4])
+    rightmost = confirmed_swings(bars, config=SwingConfig(2, 2))
+    leftmost = confirmed_swings(bars, config=SwingConfig(2, 2, tie_break="leftmost"))
+    for kind in ("high", "low"):
+        new = rightmost.query("kind == @kind").iloc[0]
+        old = leftmost.query("kind == @kind").iloc[0]
+        assert (new.pivot_position, new.confirmed_position) == (3, 5)
+        assert (old.pivot_position, old.confirmed_position) == (2, 4)
+    # No rightmost pivot exists at the previous bar; it cannot leak backwards.
+    prefix = confirmed_swings(bars.iloc[:5], config=SwingConfig(2, 2))
+    assert prefix.empty
+
+
 def test_future_after_confirmation_does_not_change_old_events():
     bars = frame([1, 2, 5, 3, 2, 4, 3, 2, 8])
     prefix = confirmed_swings(bars.iloc[:7], config=SwingConfig(2, 2))

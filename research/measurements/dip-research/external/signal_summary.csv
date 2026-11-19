@@ -1,0 +1,5 @@
+interval,period,variant,signals,assets,weeks,label_known,label_censored,matched_signals,precision,reference_pivots,covered_pivots,pivot_coverage,median_delay_bars
+1d,external_history,A_all,2183,68,184,2180,3,754,0.3458715596330275,3577,754,0.21079116578138105,0.0
+1d,external_history,A_no_support,1277,68,172,1275,2,449,0.35215686274509805,3577,449,0.12552418227565,0.0
+1d,external_history,B_support,906,68,160,905,1,305,0.3370165745856354,3577,305,0.08526698350573106,0.0
+1d,external_history,C_confirmed,599,68,162,595,4,57,0.0957983193277311,3577,57,0.015935141179759575,1.0

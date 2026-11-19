@@ -2,6 +2,8 @@
 
 Araştırma/replay tasarım kaynakları, sürümlü kitap kataloğu ve kavram haritası [`research/library/README.md`](research/library/README.md) altında tutulur.
 
+> **19 Kasım 2026 araştırma güncellemesi:** [Genel sonuç denetimi](research/measurements/general-review/README.md), [dip pilotu](research/measurements/dip-research/RESULTS.md) ve [P6 karşı genişleme nedensellik düzeltmesi](research/measurements/p6-causal/README.md) eklendi. Bunlar işlem veya portföy kârlılığı kanıtı değildir; ileri test henüz veri beklemektedir. Eski swing tabanlı raporlar önceki `leftmost` eşit uç kuralıyla üretilmiş olabilir; yeni varsayılan `rightmost` olup eski kural açıkça seçilebilir.
+
 BIST odaklı replay/araştırma havuzu için **tek Python komutuyla çalışan**, beklemeli, yeniden denemeli ve kaldığı yerden devam eden veri indirici.
 
 Bu sürümün kapsamı:

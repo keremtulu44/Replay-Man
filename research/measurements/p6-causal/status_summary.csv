@@ -1,0 +1,7 @@
+interval,period,failures,assets,confirmed,not_confirmed,censored,median_delay
+1d,historical_test,699,100,508,151,40,1.0
+1d,train,1755,100,1367,354,34,1.0
+1d,validation,569,98,392,99,78,1.0
+4h,historical_test,1279,100,1025,212,42,1.0
+4h,train,3670,100,2893,746,31,1.0
+4h,validation,1129,100,843,230,56,1.0

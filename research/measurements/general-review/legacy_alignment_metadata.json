@@ -1,0 +1,12 @@
+{
+  "generated_at_utc": "2026-11-19T15:32:10.326683+00:00",
+  "plan_sha256": "1b9b1dd65732b3ff031414895aa0026315d1561575b566665c6ec085417820a6",
+  "tool_sha256": "8a203a180faaddb25dbad86c333bd17ac55e4f7035bb6bb11ceaf3322f86cb85",
+  "replay_sha256": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+  "input_manifest_sha256": "b52c5fc46893aeb96442d50fe9ac746ee3c56853d1cda9a7fbef9704a0257fa9",
+  "output_sha256": {
+    "legacy_alignment_assets.csv": "610a58884b3deeabecbd0eb11dcb20a0daec2e17c8adfdcd264561977e079f60",
+    "legacy_alignment_summary.csv": "d85a6640390557cd73eb9b66753e26ad53795232d417dccef98fa2a23ce1efe7"
+  },
+  "warning": "These are all possible complete stock windows, not realized event counts."
+}

@@ -1,0 +1,25 @@
+{
+  "events": 2137,
+  "assets": 68,
+  "weeks": 180,
+  "event_weighted_net_mean": 0.003464522482737653,
+  "net_median": -0.03267201862855268,
+  "net_positive_rate": 0.3986897519887693,
+  "asset_equal_weight_net_mean": 0.0036560314491174604,
+  "asset_positive_fraction": 0.6176470588235294,
+  "week_equal_weight_net_mean": 0.007707224120394815,
+  "week_positive_fraction": 0.5222222222222223,
+  "top_one_percent_events": 22,
+  "top_one_percent_share_of_positive_sum": 0.05715284562327971,
+  "net_mean_after_removing_top_one_percent": 0.0016594466963217882,
+  "bootstrap_mean_ci_low": -0.0020854661262306225,
+  "bootstrap_mean_ci_high": 0.011357177285974449,
+  "bootstrap_valid_draws": 2000,
+  "leave_one_year_out": {
+    "2022": 0.0028230849303238523,
+    "2023": 0.005272072181728915,
+    "2024": 0.0013269817027029625,
+    "2025": 0.004492346824435548
+  },
+  "warning": "Post-hoc concentration diagnostics; neither a portfolio nor an independently validated result."
+}

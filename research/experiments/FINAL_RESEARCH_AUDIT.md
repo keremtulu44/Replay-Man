@@ -2,6 +2,8 @@
 
 Denetim tarihi: 2026-11-14
 
+> **Sonradan metodoloji düzeltmesi:** Aşağıdaki `PASSED`, kitap/kural/kayıt ve çalıştırılmış veri denetiminin kapsam bütünlüğüdür; sinyallerin nedensel, kârlı veya bağımsız doğrulanmış olduğu anlamına gelmez. P6'daki failure anı ileri-bilgi hatası düzeltilmiş ve eski sonuç geri çekilmiştir. Çeşitli eski olay çalışmalarında XU100 bitiş hizalaması ve dönemler arası sonuç penceresi ayrıca sorunludur. Güncel inceleme: [`../measurements/general-review/`](../measurements/general-review/).
+
 ## Sonuç
 
 **PASSED**

@@ -1,0 +1,30 @@
+{
+  "generated_at_utc": "2026-11-19T15:33:27.094513+00:00",
+  "input_files_verified": 202,
+  "python": "3.11.2",
+  "pandas": "3.1.1",
+  "numpy": "2.4.6",
+  "horizon": 60,
+  "assumed_round_trip_cost": 0.0025,
+  "code_sha256": {
+    "research/measurements/general-review/PLAN.md": "1b9b1dd65732b3ff031414895aa0026315d1561575b566665c6ec085417820a6",
+    "replayman/acceptance_review.py": "f9f1fcf97e9ea4247b0c3063a6406ade4ea5f6c186d09073e03a1a059b9e0a79",
+    "replayman/general_review.py": "7e4067139cf24a82cff1c1e84bc9b61141304fa1c6712010a56bf37fba6c85a5",
+    "replayman/p6_causal.py": "1fe6e39ec3849e6984e42931a2d45feb93dd11bc7d8f23f01a751afbd88517e3",
+    "replayman/dip_research.py": "8ff9cb4502d85c06ce40b8ade95ff41ecb57515ac2fc9a8953c02f353aa01d4c",
+    "replayman/structure.py": "337fd2fb8d9ea37ff3f2439af20e3260f424edf27ed1247ef1ccae41b0bf5a8e",
+    "replayman/swings.py": "5fe51e8e4a5cecd29aabe6d219deffd4024f3dd6fca835eba309af687d7d2b78",
+    "replayman/replay.py": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+    "tools/measure_dip_pilot.py": "e3638850e92280283c66904dea5fbe72a09cbfc7f5c01091c60d040340cb246e",
+    "tools/review_acceptance_candidate.py": "fb3f18da1edf2a8a5ad57779d5189b9875b1ea45ac40e2f5b2c57d7fc7e9b66c"
+  },
+  "source_file_sha256": {
+    "research/measurements/dip-research/internal/input_manifest.csv": "b52c5fc46893aeb96442d50fe9ac746ee3c56853d1cda9a7fbef9704a0257fa9"
+  },
+  "output_file_sha256": {
+    "acceptance_events.csv": "b5ca37e259cb7a9c5113009795aea61a11306b801b4992bfab5c13d29d0947e9",
+    "acceptance_inventory.csv": "e2446611f082c4671aaf9177b44cec2036abd1ead8c65d9d8aa808b906e7457d",
+    "acceptance_summary.csv": "bc67d285ba918a3b6e868d2fb835ee4aab1c20f8c6cea01a6b8b16f71481d86f"
+  },
+  "warning": "Post-hoc, historic, deduplicated directional event proxy; short access and execution unverified."
+}

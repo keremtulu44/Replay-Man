@@ -1,0 +1,48 @@
+{
+  "generated_at_utc": "2026-11-19T15:17:52.791962+00:00",
+  "dip": {
+    "audited_at_utc": "2026-11-19T15:17:48.006763+00:00",
+    "scope": "artifact integrity and sample arithmetic; not provider independence or performance proof",
+    "sources": {
+      "internal": {
+        "signals": 5785,
+        "outcomes": 23140,
+        "matched_signals": 1331,
+        "observed": 20332,
+        "censored_or_unknown": 2808,
+        "input_files_verified": 202,
+        "spot_checked_observed_outcomes": 200,
+        "status": "passed"
+      },
+      "external": {
+        "signals": 4965,
+        "outcomes": 19860,
+        "matched_signals": 1565,
+        "observed": 19555,
+        "censored_or_unknown": 305,
+        "input_files_verified": 68,
+        "spot_checked_observed_outcomes": 200,
+        "status": "passed"
+      }
+    }
+  },
+  "p6": {
+    "audited_at_utc": "2026-11-19T15:17:52.739333+00:00",
+    "status": "passed",
+    "input_files_verified": 202,
+    "failures": 9101,
+    "confirmed": 7028,
+    "paired_horizon_rows": 14056,
+    "sampled_rows": 200,
+    "sampled_method_arithmetic_checks": 560,
+    "scope": "artifact arithmetic and timing; not independent market validation or causal efficacy"
+  },
+  "forward": {
+    "freeze_verified": true,
+    "files": 202,
+    "snapshot_hash_verified": true,
+    "status": "blocked_data",
+    "equity_bars": 0
+  },
+  "scope": "Matematik, zaman ve hash; sağlayıcı bağımsızlığı/işlem kanıtı değildir."
+}

@@ -1,0 +1,43 @@
+{
+  "generated_at_utc": "2026-11-19T15:32:41.150253+00:00",
+  "python": "3.11.2",
+  "pandas": "3.1.1",
+  "numpy": "2.4.6",
+  "draws": 2000,
+  "block_calendar_weeks": 5,
+  "cost_per_trade": 0.0025,
+  "code_sha256": {
+    "research/measurements/general-review/PLAN.md": "1b9b1dd65732b3ff031414895aa0026315d1561575b566665c6ec085417820a6",
+    "replayman/general_review.py": "7e4067139cf24a82cff1c1e84bc9b61141304fa1c6712010a56bf37fba6c85a5",
+    "replayman/dip_research.py": "8ff9cb4502d85c06ce40b8ade95ff41ecb57515ac2fc9a8953c02f353aa01d4c",
+    "replayman/swings.py": "5fe51e8e4a5cecd29aabe6d219deffd4024f3dd6fca835eba309af687d7d2b78",
+    "replayman/zone_memory.py": "16064b9cce4fd9c06c2c606762708949d0d7f861bf0111c9e7ef450cfa0d56bb",
+    "replayman/replay.py": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+    "tools/measure_dip_pilot.py": "e3638850e92280283c66904dea5fbe72a09cbfc7f5c01091c60d040340cb246e",
+    "tools/review_general_results.py": "44b00bcd7d23bebca8645d65972f48ee1c2f7ec5eb2614fae3f91fc502555ef7"
+  },
+  "source_file_sha256": {
+    "research/measurements/dip-research/internal/signals.csv": "924b34edd615ac8a2d084c0d235804ab0f4ffb780158fdab203eb281f3de58cb",
+    "research/measurements/dip-research/internal/outcomes.csv": "99359b98eabe1b32ae8a68356384ea6d63d5ebd04fc774b68fe4bde31d5638cb",
+    "research/measurements/dip-research/internal/reference_pivots.csv": "45bdb96cd97bd20af8fd70ee5dd87aa78bc675ec736358e81df96105450b917e",
+    "research/measurements/dip-research/internal/input_manifest.csv": "b52c5fc46893aeb96442d50fe9ac746ee3c56853d1cda9a7fbef9704a0257fa9",
+    "research/measurements/dip-research/external/signals.csv": "f8f8670355e7500289593c8c7b5fd6d80ef7fe8848a47ef4b1e4b061ae457b34",
+    "research/measurements/dip-research/external/outcomes.csv": "292a120d986c12f1b34e1dc7f17499c37f65884c15a4650a76a4acdc0589d3f5",
+    "research/measurements/dip-research/external/reference_pivots.csv": "39a84e52ad2fd4674414317bc97efb9b656200e5dd92a7cf1d6b94af5767269d",
+    "research/measurements/dip-research/external/input_manifest.csv": "d87c96b9271e45df7ac38645924b3d45d19e6c198a7022ddcacb2c73ecf98201",
+    "research/measurements/p6-causal/paired_events.csv": "404b88a783d57f9f9fe34f33bf076158955ede9aacca451773b9de484a164f22",
+    "research/measurements/p6-causal/input_manifest.csv": "b52c5fc46893aeb96442d50fe9ac746ee3c56853d1cda9a7fbef9704a0257fa9"
+  },
+  "output_file_sha256": {
+    "control_matches.csv": "cbcf25d86cf82a9d33b8da7d5abc4aba2ae8de396bbd215a4a95aeacab2e6914",
+    "control_pairs.csv": "eb8475ecddabdba1f4a661ca1cd84893bacece168991ead618262b8ad36172ef",
+    "control_summary.csv": "85c95026c412fd032f977a63a1b43d0b771ac1147aea89bee626f8b28ee0fb97",
+    "p6_same_end_pairs.csv": "65ea853d89a0c7bb7c6a6d3125708349d37d154bafc31306f9869b2a38049bd4",
+    "p6_same_end_summary.csv": "d14f4ae1a62fd6656ea3b299ccb8c76228b483227845d14126532d6626f513ea",
+    "external_annual.csv": "6297f75e1a73977c0f77ad00b2b73e10c7b1e8382db8fbc591227376221e038b",
+    "external_assets.csv": "baafb18649b3053996cda66de97690e2c526165ba01377aabef6b331ab88a349",
+    "external_weeks.csv": "b1074d62b731f8da97fb5b81a05fe7db82948233e5287c820e349b1d2b0352dc",
+    "external_stability.json": "1e02ce7979595046c59403dfa4728926f330d338d8f84167bb23130b0a21718c"
+  },
+  "warning": "Post-hoc exploration only; same provider, no portfolio or independent forward claim."
+}

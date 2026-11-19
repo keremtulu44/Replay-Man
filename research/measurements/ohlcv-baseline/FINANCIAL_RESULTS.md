@@ -1,5 +1,7 @@
 # Yapı Olayları — İlk Finansal Sonuç Raporu
 
+> **19.11.2026 notu:** Bu eski 1s ham olay tablosu çoklu seviyeleri ve örtüşen pencereleri içerebilir; yönlü fiyat farkı piyasa-aşırı veya uygulanabilir işlem getirisi değildir. Yeni endeks hizalaması taraması 1s için yapılmadı. Güncel sınırlamalar ve daha sıkı 4s/günlük kontroller: [genel sonuç denetimi](../general-review/README.md).
+
 ## Raporun niteliği
 
 Bu rapor BIST 100 hisselerinin 1 saatlik serilerine odaklanan **keşifsel olay çalışmasıdır**. Getiriler olay kapanışından sonraki sabit bar ufkudur; emir girişi, spread, komisyon, slippage veya portföy çakışması içermez. Bu nedenle backtest kârı veya işlem tavsiyesi değildir.

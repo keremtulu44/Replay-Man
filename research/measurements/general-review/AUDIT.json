@@ -1,0 +1,44 @@
+{
+  "audited_at_utc": "2026-11-19T15:41:50.233035+00:00",
+  "status": "passed",
+  "audit_tool_sha256": "0a66c5351eb3c2f51f39ce0b09d43bd075f4eba496b30cae6c855aa38184dcc6",
+  "source_files_verified": {
+    "internal": 202,
+    "external": 68,
+    "p6": 202
+  },
+  "matching": {
+    "prior_a": 4693,
+    "prior_pairs": 1826,
+    "prior_next_open_observed": 1628,
+    "prior_control_windows_containing_the_later_a": 1628,
+    "same_time_a": 4693,
+    "same_time_pairs": 3870,
+    "matching_sample_checked": 200,
+    "sampled_label_checks": 400,
+    "aligned_event_pairs_sampled": 200,
+    "sampled_price_checks": 400,
+    "sampled_trade_bound_checks": 400
+  },
+  "p6": {
+    "same_end_events": 5974,
+    "sample_checked": 200
+  },
+  "acceptance": {
+    "events": 5786,
+    "sampled_events": 200,
+    "sampled_entry_arithmetic": 208,
+    "sampled_assets_replayed_for_both_tie_rules": 10
+  },
+  "external": {
+    "observed_events": 2137,
+    "assets": 68,
+    "observed_weeks": 180
+  },
+  "legacy_alignment": {
+    "stock_windows": 207547,
+    "old_mismatches": 5395,
+    "sampled_asset_horizon_rows": 20
+  },
+  "scope": "Artifact integrity and selected arithmetic, not independent source, causal advantage or actual execution."
+}

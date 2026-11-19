@@ -1,5 +1,7 @@
 # Cilt 2 P4 — Baskı Kaybı ve Hareket Kalitesi
 
+> **Tarihsel arşiv uyarısı (19.11.2026):** Olay-sıralı bölümler sonuç ufkunu bölüm içinde zorunlu tutmaz ve XU100 bağımsız satır kaydırmasıyla eşlenir; özellikle günlük bitiş etiketleri farklı olabilir. Sonuçlar kapanış başlangıçlı/maliyetsiz keşiftir, bağımsız ileri test veya gerçek işlem değildir. [Genel denetim](../general-review/README.md).
+
 ## Kapsam
 
 1.350.145 örtüşebilen olay; 125 varlık ve dört periyot. Gövde küçülmesi, ilerleme küçülmesi, örtüşme artışı, ikili/üçlü birleşimler ve güçlü karşı mum teyidi; 0,60 ve 0,80 oran eşikleriyle ölçüldü.

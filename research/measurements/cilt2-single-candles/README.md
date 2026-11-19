@@ -1,5 +1,7 @@
 # Cilt 2 P2 — Tek Mum Geometrisi
 
+> **Tarihsel arşiv uyarısı (19.11.2026):** Olay-sıralı bölümler sonuç ufkunu bölüm içinde zorunlu tutmaz ve XU100 bağımsız satır kaydırmasıyla eşlenir; özellikle günlük bitiş etiketleri farklı olabilir. Sonuçlar kapanış başlangıçlı/maliyetsiz keşiftir, bağımsız ileri test veya gerçek işlem değildir. [Genel denetim](../general-review/README.md).
+
 ## Kapsam
 
 125 varlık ve dört periyotta 912.810 örtüşebilen geometrik varyant olayı ölçüldü. Olaylar bağımsız değildir; aynı mum farklı pin eşiklerine ve fitil reddi tanımına aynı anda girebilir.

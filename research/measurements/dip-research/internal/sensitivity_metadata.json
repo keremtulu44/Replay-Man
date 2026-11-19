@@ -1,0 +1,13 @@
+{
+  "generated_at_utc": "2026-11-19T14:59:17.374161+00:00",
+  "source": "internal",
+  "method": "post-hoc sensitivity, not a preregistered result",
+  "tool_sha256": "718fb6a8fe9bbc5be4716bb1b1344145c936106ad179e3d2d95ab5162d230ee9",
+  "outcomes_sha256": "99359b98eabe1b32ae8a68356384ea6d63d5ebd04fc774b68fe4bde31d5638cb",
+  "inputs_manifest_sha256": "b52c5fc46893aeb96442d50fe9ac746ee3c56853d1cda9a7fbef9704a0257fa9",
+  "output_sha256": {
+    "paired_delay_summary.csv": "db05e16e252d99298b9282ad0053e0b4cb2d646ee5094bcbd310c4bc0c001b72",
+    "daily_action_window_flags.csv": "5a029571adeaca4edb56382fec699e6415a740ceddc8e0936059636278e61d30",
+    "daily_action_window_summary.csv": "5f1aaf692d82a41dc933f816b8a5461835f74dfebafc0c7a65a8d0f083399e7b"
+  }
+}

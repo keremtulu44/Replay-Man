@@ -99,7 +99,8 @@ def structure_events(bars: pd.DataFrame, features: pd.DataFrame, swings: pd.Data
 def attach_event_outcomes(events: pd.DataFrame, bars: pd.DataFrame, horizons: tuple[int, ...] = (1, 3, 5, 10, 20)) -> pd.DataFrame:
     """Yapı olaylarına yön düzeltilmiş ileri getiri, MFE ve MAE ekler."""
     result = events.copy()
-    reversal_events = {"probe_rejection", "failure"}
+    # Counter expansion is a separate event known at its own closing bar.
+    reversal_events = {"probe_rejection", "failure", "counter_expansion"}
     result["thesis_direction"] = [
         ("down" if row["direction"] == "up" else "up") if row["event"] in reversal_events else row["direction"]
         for row in events.to_dict("records")
@@ -107,20 +108,24 @@ def attach_event_outcomes(events: pd.DataFrame, bars: pd.DataFrame, horizons: tu
     close = bars.close.to_numpy(float)
     high, low = bars.high.to_numpy(float), bars.low.to_numpy(float)
     for horizon in horizons:
-        returns, mfe, mae = [], [], []
+        if horizon < 1:
+            raise ValueError("Sonuç ufku pozitif olmalı")
+        returns, mfe, mae, end_times = [], [], [], []
         for event in events.to_dict("records"):
             pos = int(event["event_position"])
             thesis_direction = ("down" if event["direction"] == "up" else "up") if event["event"] in reversal_events else event["direction"]
             sign = 1 if thesis_direction == "up" else -1
             if pos + horizon >= len(bars):
-                returns.append(np.nan); mfe.append(np.nan); mae.append(np.nan); continue
+                returns.append(np.nan); mfe.append(np.nan); mae.append(np.nan); end_times.append(pd.NaT); continue
             entry = close[pos]
             returns.append(sign * (close[pos + horizon] / entry - 1))
             future_high = high[pos + 1:pos + horizon + 1].max() / entry - 1
             future_low = low[pos + 1:pos + horizon + 1].min() / entry - 1
             mfe.append(future_high if sign == 1 else -future_low)
             mae.append(future_low if sign == 1 else -future_high)
+            end_times.append(bars.ts_utc.iloc[pos + horizon])
         result[f"directional_return_{horizon}"] = returns
         result[f"directional_mfe_{horizon}"] = mfe
         result[f"directional_mae_{horizon}"] = mae
+        result[f"outcome_end_ts_{horizon}"] = pd.to_datetime(end_times, utc=True)
     return result

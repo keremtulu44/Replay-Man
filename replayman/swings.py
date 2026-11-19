@@ -12,20 +12,25 @@ class SwingConfig:
     left: int = 2
     right: int = 2
     price_tolerance_atr: float = 0.10
+    tie_break: str = "rightmost"
 
     def __post_init__(self) -> None:
         if self.left < 1 or self.right < 1:
             raise ValueError("Swing sol/sağ gücü en az 1 olmalı")
         if self.price_tolerance_atr < 0:
             raise ValueError("Fiyat toleransı negatif olamaz")
+        if self.tie_break not in {"rightmost", "leftmost"}:
+            raise ValueError("tie_break rightmost veya leftmost olmalı")
 
 
 def confirmed_swings(bars: pd.DataFrame, features: pd.DataFrame | None = None, *, config: SwingConfig = SwingConfig(), level: str = "minor") -> pd.DataFrame:
     """Pivotları ancak sağ taraftaki teyit barları kapandıktan sonra yayımlar.
 
     `pivot_position` geometrik tepe/dip barıdır; `confirmed_position` olayın ilk
-    bilinebildiği bardır. Eşit uçlarda en sağdaki aday tercih edilir: pivot,
-    soldaki değerlere kesin; sağdakilere eşit veya üstün olmalıdır.
+    bilinebildiği bardır. Varsayılan `rightmost` eşit uçların en sağdakini seçer:
+    pivot sol pencereye eşit olabilir, sağ pencereden kesin üstün olmalıdır.
+    Önceki araştırmaları yeniden üretmek için `tie_break="leftmost"` seçilebilir;
+    eski sürümün açıklamasına rağmen uyguladığı kural buydu.
     """
     required = {"ts_utc", "high", "low", "close"}
     missing = required - set(bars.columns)
@@ -43,9 +48,15 @@ def confirmed_swings(bars: pd.DataFrame, features: pd.DataFrame | None = None, *
         left_slice = slice(pivot - config.left, pivot)
         right_slice = slice(pivot + 1, confirmed + 1)
         candidates: list[tuple[str, float]] = []
-        if highs[pivot] > highs[left_slice].max() and highs[pivot] >= highs[right_slice].max():
+        if config.tie_break == "rightmost":
+            is_high = highs[pivot] >= highs[left_slice].max() and highs[pivot] > highs[right_slice].max()
+            is_low = lows[pivot] <= lows[left_slice].min() and lows[pivot] < lows[right_slice].min()
+        else:
+            is_high = highs[pivot] > highs[left_slice].max() and highs[pivot] >= highs[right_slice].max()
+            is_low = lows[pivot] < lows[left_slice].min() and lows[pivot] <= lows[right_slice].min()
+        if is_high:
             candidates.append(("high", highs[pivot]))
-        if lows[pivot] < lows[left_slice].min() and lows[pivot] <= lows[right_slice].min():
+        if is_low:
             candidates.append(("low", lows[pivot]))
         for kind, price in candidates:
             previous = last_price[kind]
@@ -69,10 +80,10 @@ def confirmed_swings(bars: pd.DataFrame, features: pd.DataFrame | None = None, *
     return pd.DataFrame(rows, columns=_columns())
 
 
-def multi_level_swings(bars: pd.DataFrame, features: pd.DataFrame | None = None) -> pd.DataFrame:
-    """İlk nesil minor (2+2) ve major (5+5) swing hiyerarşisi."""
-    minor = confirmed_swings(bars, features, config=SwingConfig(2, 2), level="minor")
-    major = confirmed_swings(bars, features, config=SwingConfig(5, 5), level="major")
+def multi_level_swings(bars: pd.DataFrame, features: pd.DataFrame | None = None, *, tie_break: str = "rightmost") -> pd.DataFrame:
+    """Minor (2+2) ve major (5+5) swing; eski eşitlik kuralı seçilebilir."""
+    minor = confirmed_swings(bars, features, config=SwingConfig(2, 2, tie_break=tie_break), level="minor")
+    major = confirmed_swings(bars, features, config=SwingConfig(5, 5, tie_break=tie_break), level="major")
     return pd.concat([minor, major], ignore_index=True).sort_values(["confirmed_position", "level", "kind"]).reset_index(drop=True)
 
 

@@ -1,0 +1,34 @@
+{
+  "generated_at_utc": "2026-11-19T15:37:34.861018+00:00",
+  "python": "3.11.2",
+  "pandas": "3.1.1",
+  "numpy": "2.4.6",
+  "code_sha256": {
+    "research/measurements/general-review/PLAN.md": "1b9b1dd65732b3ff031414895aa0026315d1561575b566665c6ec085417820a6",
+    "replayman/contemporaneous_control.py": "d6cfe7612b7887c499de83b4e1f73443fde3074f4db25aad6d5ba8f29789632f",
+    "replayman/general_review.py": "7e4067139cf24a82cff1c1e84bc9b61141304fa1c6712010a56bf37fba6c85a5",
+    "replayman/dip_research.py": "8ff9cb4502d85c06ce40b8ade95ff41ecb57515ac2fc9a8953c02f353aa01d4c",
+    "replayman/swings.py": "5fe51e8e4a5cecd29aabe6d219deffd4024f3dd6fca835eba309af687d7d2b78",
+    "replayman/zone_memory.py": "16064b9cce4fd9c06c2c606762708949d0d7f861bf0111c9e7ef450cfa0d56bb",
+    "replayman/replay.py": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+    "tools/measure_dip_pilot.py": "e3638850e92280283c66904dea5fbe72a09cbfc7f5c01091c60d040340cb246e",
+    "tools/review_general_results.py": "44b00bcd7d23bebca8645d65972f48ee1c2f7ec5eb2614fae3f91fc502555ef7",
+    "tools/compare_dip_contemporaneous.py": "ba1587b494fa9a22a285430aa6816ed3e7fd234c33aedbc4226a27f1d651cc9d"
+  },
+  "source_file_sha256": {
+    "research/measurements/dip-research/internal/signals.csv": "924b34edd615ac8a2d084c0d235804ab0f4ffb780158fdab203eb281f3de58cb",
+    "research/measurements/dip-research/internal/outcomes.csv": "99359b98eabe1b32ae8a68356384ea6d63d5ebd04fc774b68fe4bde31d5638cb",
+    "research/measurements/dip-research/internal/reference_pivots.csv": "45bdb96cd97bd20af8fd70ee5dd87aa78bc675ec736358e81df96105450b917e",
+    "research/measurements/dip-research/internal/input_manifest.csv": "b52c5fc46893aeb96442d50fe9ac746ee3c56853d1cda9a7fbef9704a0257fa9",
+    "research/measurements/dip-research/external/signals.csv": "f8f8670355e7500289593c8c7b5fd6d80ef7fe8848a47ef4b1e4b061ae457b34",
+    "research/measurements/dip-research/external/outcomes.csv": "292a120d986c12f1b34e1dc7f17499c37f65884c15a4650a76a4acdc0589d3f5",
+    "research/measurements/dip-research/external/reference_pivots.csv": "39a84e52ad2fd4674414317bc97efb9b656200e5dd92a7cf1d6b94af5767269d",
+    "research/measurements/dip-research/external/input_manifest.csv": "d87c96b9271e45df7ac38645924b3d45d19e6c198a7022ddcacb2c73ecf98201"
+  },
+  "output_file_sha256": {
+    "contemporaneous_matches.csv": "3bf232ed744ec6fb125a41700ea3e1b1d58cf36738d2f5add46ef95417b3ab87",
+    "contemporaneous_pairs.csv": "f82334f86fcb4b999841e209a3b22d4c7a48b10340c954c48ff24856e296567e",
+    "contemporaneous_summary.csv": "439e2542853c86be8e94be523ec13c5f1839a7fa43d68e5ea81a8e684feed887"
+  },
+  "warning": "Post-hoc observational cross-asset matching, not independent forward or causal efficacy."
+}

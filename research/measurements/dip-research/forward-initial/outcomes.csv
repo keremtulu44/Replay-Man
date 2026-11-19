@@ -1,0 +1,1 @@
+signal_id,asset_id,interval,period,variant,signal_ts,entry,horizon,status,entry_ts,first_observed_at_utc,entry_label_ts,registered_before_entry_label

@@ -1,5 +1,7 @@
 # Kitap Kuralları — Ölçüm, Sonuç ve Kaynak Bağlantısı
 
+> **19.11.2026 metodoloji uyarısı:** Aşağıdaki eski aday/kararlar geçmiş kayıtlarıdır; bazı çalışmalarda XU100 bitiş etiketleri veya bölüm sınırları yeniden denetlenmelidir. Eski 4s/60-bar acceptance adayının daha sıkı ve farklı örnekli incelemesi, bağımsız veya uygulanabilir bir avantajı doğrulamamıştır. P6 için gelecekle seçilmiş eski `continue` kararı geri çekilmiştir. [Genel sonuç denetimi](../../measurements/general-review/README.md).
+
 ## Kayıt politikası
 
 Bu rapordaki her kural `registry.json` içinde benzersiz kimliğe sahiptir. Her kural klasöründe:
@@ -68,7 +70,7 @@ bulunur. Rapor özetler; CSV'ler azaltılmamış sonuç tablolarını korur.
 
 **Olumsuz sonuç:** 4h kısa 20 bar testte benchmark sonrası medyan -%0,77 ve pozitif oran %44,52. Günlük 20 bar doğrulama da -%0,12'dir. Kural “her ufukta çalışıyor” değildir.
 
-**Karar:** `devam_et` — şu anki ana araştırma adayı, fakat yalnız 4h/60-bar aşağı varyantında.
+**Tarihsel karar:** Eski `devam_et`, yalnızca araştırma adayı olarak tutulmuştu; daha sıkı [yeniden inceleme](../../measurements/general-review/README.md) işlem avantajını doğrulamamıştır. Bağımsız ileri veri ve uygulanabilir short koşulları olmadan işlem kararı değildir.
 
 ## BR-005 — Retest ve seviyenin tutulması
 
@@ -296,9 +298,11 @@ XU100, GSPC, USDTRY, altın ve Brent geçmiş bağlamları bağlandı; bütün o
 
 ## BR-028 — Kırılım yaşam döngüsü ayrıntıları
 
+> **Düzeltme (19.11.2026):** Aşağıdaki karşı genişleme alt-grubu failure anında geleceğe bakılarak seçilmiştir; endeks bitiş etiketinde de uyumsuzluk olabilir. Sayılar geçmişe dönük betimlemedir, uygulanabilir avantaj değildir; alttaki `continue` kararı geri çekilmiştir. Nedensel ölçüm için [`../../measurements/p6-causal/`](../../measurements/p6-causal/) ve [`../../measurements/cilt2-lifecycle/`](../../measurements/cilt2-lifecycle/) uyarısına bakın.
+
 556.255 olay seviye yaşı, deneme sayısı, dışarıda kalma, retest yaklaşma/geri alma ve failure derinliğiyle zenginleştirildi; 11 tek-faktör parametre varyantı ölçüldü. Çıplak olay havuzu parametre komşuluğunda çoğunlukla yazı-turaya yakındır. Failure sonrası karşı genişleme olan grup 4h BIST'te eğitim/doğrulama/testte yaklaşık %0,07 / %1,51 / %1,91 medyanla pozitif ayrıştı; olmayan grup testte -%3,88.
 
-**Karar:** Çıplak yaşam döngüsü `context_required`; failure sonrası karşı genişleme `continue`.
+**Tarihsel karar (geri çekildi):** Çıplak yaşam döngüsü `context_required`; failure sonrası karşı genişleme için eski `continue`, ileri bilgi sızıntısı nedeniyle geçerli değildir.
 
 ## BR-029–BR-034 — Cilt 2 nihai paketleri
 

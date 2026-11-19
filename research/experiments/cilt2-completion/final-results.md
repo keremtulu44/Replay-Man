@@ -1,5 +1,7 @@
 # Cilt 2 Nihai Deneysel Sonuç
 
+> **Tarihsel yorum uyarısı (19.11.2026):** Aşağıdaki paket sayıları ve kararlar araştırma kaydıdır; konum veya başka bir filtrenin nedensel, kârlı ek değer taşıdığını kanıtlamaz. Eski endeks/bölümleme sınırları ve yeni kontroller için [genel denetime](../../measurements/general-review/README.md) bakın.
+
 C2-P1–P12 tamamlandı. 109/109 sayfa nihai disposition aldı; kaynak özetleri atomik claim kayıtlarına ayrıldı. OB/FVG kullanıcının sistemi gelene kadar `deferred_ob_fvg`; olumsuz, yazı-tura, veri-uygunsuz ve yetersiz örnek sonuçları korunmuştur.
 
 ## Paket sonuçları
@@ -20,8 +22,8 @@ C2-P1–P12 tamamlandı. 109/109 sayfa nihai disposition aldı; kaynak özetleri
 
 ## Korunan güçlü adaylar
 
-Failure sonrası karşı genişleme üç zaman bölümünde pozitif ayrışmıştır; ancak tekilleştirme/maliyet sonrası ileri doğrulama adayıdır. Bazı contracted kırılım, three-crows ve MTF alt grupları olumlu olsa da örnek ve dönem koşulları nedeniyle evrensel kural ilan edilmemiştir.
+Failure sonrası karşı genişlemenin eski üç dönemli ayrışması **failure anında bilinmeyen gelecekteki teyitle seçilmişti**; eski `ileri doğrulama adayı` yorumu geri çekildi. Ayrı teyit barı ve sonraki açılışla nedensel inceleme için [`../../measurements/p6-causal/`](../../measurements/p6-causal/) bakın. Bazı contracted kırılım, three-crows ve MTF alt grupları olumlu olsa da örnek ve dönem koşulları nedeniyle evrensel kural ilan edilmemiştir.
 
 ## Nihai yorum
 
-Cilt 2'nin ortak sonucu, mum veya şekil adından çok nedensel teyit, konum, kabul/failure zinciri ve veri uygunluğunun önemli olduğudur. Genel havuzlarda çoğu iddia benchmark ve maliyet sonrasında yazı-turaya yaklaşır.
+Cilt 2 araştırmasında mum veya şekil adının yanı sıra nedensel teyit, konum, kabul/failure zinciri ve veri uygunluğu incelenmesi gereken bağlamlar olarak belirlenmiştir; bunların her birinin getiriyi iyileştirdiği kanıtlanmış değildir. Genel havuzlarda çoğu iddia benchmark ve maliyet sonrasında yazı-turaya yaklaşır; eski benchmark ve maliyet sözleşmeleri ayrıca gözden geçirilmelidir.

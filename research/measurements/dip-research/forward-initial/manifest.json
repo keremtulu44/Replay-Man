@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "status": "blocked_data",
+  "freeze_sha256": "f12aa46492999b17d422cbf0c88e1334aa8965c48c7c9f742918a7f3a555161e",
+  "previous_manifest_sha256": null,
+  "recorded_at_utc": "2026-11-19T14:55:26.493470+00:00",
+  "as_of_utc": "2026-11-19T14:55:26.493470+00:00",
+  "forward_start_utc": "2026-11-19T21:00:00+00:00",
+  "forward_equity_bars": 0,
+  "signal_rows": 0,
+  "timely_observed_outcome_rows": 0,
+  "series_prefixes": {
+    "BIST_AEFES|1d": {
+      "rows": 251,
+      "sha256": "cc6c1ce9c4298dbe37eea407db04ad4b42eb5d7f4e5853737f680b42f6504f98"
+    },
+    "BIST_AEFES|4h": {
+      "rows": 498,
+      "sha256": "94066980f38127eca3497d7bfdc7e6c7debfef18b6f5b24233f304c496257c77"
+    },
+    "BIST_AGHOL|1d": {
+      "rows": 251,
+      "sha256": "9a5314d1d9d9d40a40f80ae872d7f73ea02644a770eb53c01ee485197a699e1f"
+    },
+    "BIST_AGHOL|4h": {
+      "rows": 498,
+      "sha256": "4b19f71e688ccfef3d4a88da94be04645c3d2714368d761700f63d6f1ae2ecf3"
+    },
+    "BIST_AHGAZ|1d": {
+      "rows": 251,
+      "sha256": "7f59b73acb2e62942e45bac646450d94941479c38048c3a0736f41f39be6101b"
+    },
+    "BIST_AHGAZ|4h": {
+      "rows": 498,
+      "sha256": "2ecacd2283b468e847dc4a9bc683a858323c78700ecee9d0a346c2dc1322bce1"
+    },
+    "BIST_AKBNK|1d": {
+      "rows": 251,
+      "sha256": "a87849a56189b2015dc5536f8928c3d7163702d575b67d9626e834bc4028f4fd"
+    },
+    "BIST_AKBNK|4h": {
+      "rows": 498,
+      "sha256": "e26915abf36c7fc58cb07c29eb27d28348863a5216a9f1c8b9b268f008cc5314"
+    },
+    "BIST_AKCNS|1d": {
+      "rows": 251,
+      "sha256": "8a91cb3fb90812c230a10f6336a2b6b8c3dc6449fb9378b542583d942e0d3960"
+    },
+    "BIST_AKCNS|4h": {
+      "rows": 498,
+      "sha256": "a45ebcdd4d39ae56e99ada0d6074f2046420b0aeb95709b374f042b93c12b28c"
+    },
+    "BIST_AKFYE|1d": {
+      "rows": 251,
+      "sha256": "de4b5512168a9b17d7a053e83ff9e13da42cdaa2e56cd2c3c2b61c3120431c4c"
+    },
+    "BIST_AKFYE|4h": {
+      "rows": 498,
+      "sha256": "30da60a05ac2c1d33c75f3ed4c9bda04a2e0ebcc6409898e7705b701f9fc27a0"
+    },
+    "BIST_AKSA|1d": {
+      "rows": 251,
+      "sha256": "0339e55db4acfa3926f20f96b3aa204948c00438dfe65d35b50980bc4b6afc2c"
+    },
+    "BIST_AKSA|4h": {
+      "rows": 498,
+      "sha256": "74841a9b072ca53f0d89ee8313b9bc476194b503f885eca8231e5a5d706a053b"
+    },
+    "BIST_AKSEN|1d": {
+      "rows": 251,
+      "sha256": "ceab78620383057803d9059deb849e686639058d5429f1af805b33ffaa33768e"
+    },
+    "BIST_AKSEN|4h": {
+      "rows": 498,
+      "sha256": "08082ec5cd83a3fffa96ebf16b59dee8989b68246b4a2897b4aed97b84bfe4cf"
+    },
+    "BIST_ALARK|1d": {
+      "rows": 251,
+      "sha256": "94c04892fadaaecc2a305196e8fc472c83203d36e5c34f683272cec3bac648a4"
+    },
+    "BIST_ALARK|4h": {
+      "rows": 498,
+      "sha256": "82c265dbb915ea11f5b8ec1c6f94c4ab1ad18445e7c536ba664fe9942ebe9011"
+    },
+    "BIST_ALBRK|1d": {
+      "rows": 251,
+      "sha256": "33a49be20b2de0ed12cb7959e01b039b5521cecae0924c27874a14bee1e708df"
+    },
+    "BIST_ALBRK|4h": {
+      "rows": 498,
+      "sha256": "14f33f50e8ff6604a5b838317d2ee24f2980006ffc04a5b3a6e46b18624f5d56"
+    },
+    "BIST_ALTNY|1d": {
+      "rows": 251,
+      "sha256": "ac98f6b1b800b4d1e2f19f50b423e680f3acde7384d92389bf59f9bc760674ac"
+    },
+    "BIST_ALTNY|4h": {
+      "rows": 498,
+      "sha256": "1266431de33372230e1a16ca75c95aa71fb41c3361a5659e433c0ac937e6d3a1"
+    },
+    "BIST_ANHYT|1d": {
+      "rows": 251,
+      "sha256": "f6411ff02f6fea96c3114275940573cff335d7f5effddf3832f1e9e297759ee9"
+    },
+    "BIST_ANHYT|4h": {
+      "rows": 498,
+      "sha256": "166f6dd5ebf237c9712e0139301c0f5179c24742b0a9cc70efa26f70ea8772dd"
+    },
+    "BIST_ANSGR|1d": {
+      "rows": 251,
+      "sha256": "904e133a0ae67a1d12a2625bd216393314a36fc72d7fa68dfd35e21c0129b5cd"
+    },
+    "BIST_ANSGR|4h": {
+      "rows": 498,
+      "sha256": "46cec003a1ef09461463fee8750203aba1d3fc5b61c930cfe102d54011b00ef8"
+    },
+    "BIST_ARCLK|1d": {
+      "rows": 251,
+      "sha256": "b79256703a1ca738585cc08405ad2ae4574686bff5a13d2985fb8aaef77ca220"
+    },
+    "BIST_ARCLK|4h": {
+      "rows": 498,
+      "sha256": "10c238c14d6459f44b7a89068ae987082e4d948ab712c6bc3e3b0485169a4474"
+    },
+    "BIST_ASELS|1d": {
+      "rows": 251,
+      "sha256": "a0fd45ccd520033e190408033d4dc541c3c4f158dc333a6251ffdf0afecce43f"
+    },
+    "BIST_ASELS|4h": {
+      "rows": 498,
+      "sha256": "2f66f931eb5b63b2c6b2e5819a4fd283b7873bb45f381154bb9fe9822c1742f5"
+    },
+    "BIST_ASTOR|1d": {
+      "rows": 251,
+      "sha256": "ea0b88bff1561a312f0562acf7e1f68cf02a5ad23a8d26b9285891e3420180e2"
+    },
+    "BIST_ASTOR|4h": {
+      "rows": 498,
+      "sha256": "6f02dbafcc9712cdcdf978ca79b1822005284e0297e5ddab8cc5c05163f89728"
+    },
+    "BIST_AYGAZ|1d": {
+      "rows": 251,
+      "sha256": "3a59a918ccbc83b15eee0cbfe4c0d891f0ec6447f6d5d400fc300ae070d5d89d"
+    },
+    "BIST_AYGAZ|4h": {
+      "rows": 498,
+      "sha256": "1d7346f9402a9dc6e5b1cd7957f55029f4053900a9abd64902789e0bc6fd2559"
+    },
+    "BIST_BERA|1d": {
+      "rows": 251,
+      "sha256": "2226b5237ddc8c47ddb9503f9d6f7f2aea880eb27e0949a16d7be6a6c21c54c6"
+    },
+    "BIST_BERA|4h": {
+      "rows": 498,
+      "sha256": "890dca2959a8359d7602bd2abc8c4b6db27c299ffa3a2aadda63d47dc92931f6"
+    },
+    "BIST_BIMAS|1d": {
+      "rows": 251,
+      "sha256": "21a930ef476d64e7d627258d6e020dcba7db2df2d9b5e5dae37a9106ece4ad2b"
+    },
+    "BIST_BIMAS|4h": {
+      "rows": 498,
+      "sha256": "9c85e6e338046f757f79e03826585a1372d1dc5df29fba8ee11739d10a03b06d"
+    },
+    "BIST_BINHO|1d": {
+      "rows": 251,
+      "sha256": "f316a780081bb22994cc04b8562fdeadc57b2f5eb279c6945b1aa3bf4a6cd45e"
+    },
+    "BIST_BINHO|4h": {
+      "rows": 498,
+      "sha256": "672dc8cbb29f1dd15db6383e9faded3392d3f49b6d8b5c927d6d98232265c79e"
+    },
+    "BIST_BRSAN|1d": {
+      "rows": 251,
+      "sha256": "ee8a8845679d086d9648ed001298e89a693a87a3aa3c852c6ef4122130213291"
+    },
+    "BIST_BRSAN|4h": {
+      "rows": 498,
+      "sha256": "10dd3fb8208932bd9efe029e661b829ccd1a4c4b0ea1fbaed947b345fb1c4151"
+    },
+    "BIST_BRYAT|1d": {
+      "rows": 251,
+      "sha256": "b77f56b930a1035ee735934eb1ec15dabc80d71d3844b67b47fa3a7d55a57211"
+    },
+    "BIST_BRYAT|4h": {
+      "rows": 498,
+      "sha256": "bd9fa74f8dafb155087041e058fab15e7b366f3945dd453ae61af643ddbd85c3"
+    },
+    "BIST_BTCIM|1d": {
+      "rows": 251,
+      "sha256": "a82ed0bb8974ea60c44944939fa0bb673a384d40721bfd9c65f402fd2abed059"
+    },
+    "BIST_BTCIM|4h": {
+      "rows": 498,
+      "sha256": "35c78fcb160e2b94d803e83cf7b2569e2daa4b144a2470825382ddfc869c9dee"
+    },
+    "BIST_CANTE|1d": {
+      "rows": 251,
+      "sha256": "837fe51df8e888edf12bd90ac201a450c4c457e3f50c93d948019452ff121c05"
+    },
+    "BIST_CANTE|4h": {
+      "rows": 498,
+      "sha256": "87bbf8fd876ebe3ef28f4352f48cc7b77b058554493c36f6a933327bef03e9b3"
+    },
+    "BIST_CCOLA|1d": {
+      "rows": 251,
+      "sha256": "dd07cf9b455a9d6ea8565fc7f084cf192c5f2197d0600c924a145c26a1f0470b"
+    },
+    "BIST_CCOLA|4h": {
+      "rows": 498,
+      "sha256": "11a58d64dc04dd708c79d5141d6b7c73dbcdd83e23f71e9b07a1ab9f67eaeb57"
+    },
+    "BIST_CIMSA|1d": {
+      "rows": 251,
+      "sha256": "481d9eda07418b60fa7244cf6205c9fd4887f3d09dafe3b2933cfc954408a313"
+    },
+    "BIST_CIMSA|4h": {
+      "rows": 498,
+      "sha256": "21102932162cc6a5503c7452d21c44a3d50797ed0722a32352604d24078c0ccf"
+    },
+    "BIST_CVKMD|1d": {
+      "rows": 251,
+      "sha256": "90ecf52ed1a6b76527bc1439654deb180d2d4b02bb0368570b5669740c451aa2"
+    },
+    "BIST_CVKMD|4h": {
+      "rows": 498,
+      "sha256": "fb06069742e0becefb176533a9f35e91f0350f8efba740a2de4f73168f83388c"
+    },
+    "BIST_CWENE|1d": {
+      "rows": 251,
+      "sha256": "71943b4bd62896826fbce2265c3d141e55b4678e63534128e377c7c1d207429f"
+    },
+    "BIST_CWENE|4h": {
+      "rows": 498,
+      "sha256": "ac244a5905d9ee9983e139c367458da6b44e81313f4ac9257afb69d17c252338"
+    },
+    "BIST_DOAS|1d": {
+      "rows": 251,
+      "sha256": "25a14c726d26e17037b50eb339516240524c521e7962b7970b0ddebefff486a3"
+    },
+    "BIST_DOAS|4h": {
+      "rows": 498,
+      "sha256": "a807e78e3c635c26423ec3dd73f4f58453125af51250addd07541c58cfa786c8"
+    },
+    "BIST_DOHOL|1d": {
+      "rows": 251,
+      "sha256": "a7c8e3d492e0a5a6b89e57ed4482ebee21deb5909eff3c3fa3a7c48c936d8ef1"
+    },
+    "BIST_DOHOL|4h": {
+      "rows": 498,
+      "sha256": "fc7bbeb578bd02b36d4ea9b89e95af9497d24e7ec37a69ba972dc073a9d45734"
+    },
+    "BIST_ECILC|1d": {
+      "rows": 251,
+      "sha256": "cf78a5256db2570519d48780320857ca006378099d987527775d15a03da93dac"
+    },
+    "BIST_ECILC|4h": {
+      "rows": 498,
+      "sha256": "20a396bd8d0c363892aea7999de556df0470d0051156adc610a79df3f81fb0b1"
+    },
+    "BIST_ECZYT|1d": {
+      "rows": 251,
+      "sha256": "091f882a638dcc3d7ccdc07bff54582223b6f0ac9a9db5c2f23ccd5be49a1ee5"
+    },
+    "BIST_ECZYT|4h": {
+      "rows": 498,
+      "sha256": "070451567237fdf3500e28ae3ee4c73a2d1f49ff8f8d72440930a676e860d45f"
+    },
+    "BIST_EGEEN|1d": {
+      "rows": 251,
+      "sha256": "4fa3f93312c320c6b53456489edceb9f239f0c3259e4d8835d67f6fd8fbc4856"
+    },
+    "BIST_EGEEN|4h": {
+      "rows": 498,
+      "sha256": "4cf50807e969a1ec0f71be73e8c54594901fb1f5c1388f7ad69228b7c8aec843"
+    },
+    "BIST_EGGUB|1d": {
+      "rows": 251,
+      "sha256": "54340c9f02ff2bbbb2c55f12597b3cc47ded76dc84a0008748b29621e90ba476"
+    },
+    "BIST_EGGUB|4h": {
+      "rows": 498,
+      "sha256": "727c2beaae2c2f1e5606a1ddf29a7be60b0d5dc7501988da2ea37f7ff5f3df98"
+    },
+    "BIST_EKGYO|1d": {
+      "rows": 251,
+      "sha256": "4febc85285fa450a041910f252c358dce917ec9027207a5a51f66e6277e74db9"
+    },
+    "BIST_EKGYO|4h": {
+      "rows": 498,
+      "sha256": "3af67b467ef0ba5b9ceb1256bc276460565039d4feb493ee9ed86e43482c67a5"
+    },
+    "BIST_ENERY|1d": {
+      "rows": 251,
+      "sha256": "315c743a2c6d3c5a4de53cc8d0042eabdabe0ae502ce81efec2ae4945b7956b7"
+    },
+    "BIST_ENERY|4h": {
+      "rows": 498,
+      "sha256": "4cfe935ef075fb5ebd6d2f638c4aaee912c90ef36c78862a649c29909145d748"
+    },
+    "BIST_ENJSA|1d": {
+      "rows": 251,
+      "sha256": "337b6c25f91d0c1653f7c7d3f56af8f74ff090153251b48a4875388526c80798"
+    },
+    "BIST_ENJSA|4h": {
+      "rows": 498,
+      "sha256": "54b26b8ee156a53468ae1918c04c06f43903dc81962f4a94ac473c09db595068"
+    },
+    "BIST_ENKAI|1d": {
+      "rows": 251,
+      "sha256": "e5a69254be96fadcab307027f4eb217839247d58da34ef6916103dd8041523f6"
+    },
+    "BIST_ENKAI|4h": {
+      "rows": 498,
+      "sha256": "3345449b13ae2a806ce6a39cd2571362101aa69c18cb6f2b367dd3cc31d0a600"
+    },
+    "BIST_ENTRA|1d": {
+      "rows": 251,
+      "sha256": "7ac4973c14939be69979860acb67521a3b92a619b3ab4553b59f0a19781faa39"
+    },
+    "BIST_ENTRA|4h": {
+      "rows": 498,
+      "sha256": "a910d0c29e21feba18a895ea816310192545c6efa10225ef268b68cf55e7505e"
+    },
+    "BIST_EREGL|1d": {
+      "rows": 251,
+      "sha256": "fa13b047a85ec43ea691da76ea47be9518f0ff143bcf2b2f2df049add5b65095"
+    },
+    "BIST_EREGL|4h": {
+      "rows": 498,
+      "sha256": "e3a6a281ae44a35af757d583e2247976f47174726f5cc07e7dc1fa039e69e3b3"
+    },
+    "BIST_EUREN|1d": {
+      "rows": 251,
+      "sha256": "ff1dda7356fbc6d0486660c156695c8a1293c59b603daff19c457f50f1958e5b"
+    },
+    "BIST_EUREN|4h": {
+      "rows": 498,
+      "sha256": "f6e0206da592e1d27480a4dd86046a5b5c26f9a5558a157b2fc41f93cb480ded"
+    },
+    "BIST_FENER|1d": {
+      "rows": 251,
+      "sha256": "c9751930521b99d883052f2fa3acd7c0fed03bf0a82672c002ea6b3de9a19f60"
+    },
+    "BIST_FENER|4h": {
+      "rows": 498,
+      "sha256": "37fc11cd6822df6388d96c2cd1063a5735f4532648a5070ce713696830a0ba90"
+    },
+    "BIST_FROTO|1d": {
+      "rows": 251,
+      "sha256": "316f7e7a118db53bf724af3d1f5ba9ee74117952dd1989a58adf06ce3b0684bf"
+    },
+    "BIST_FROTO|4h": {
+      "rows": 498,
+      "sha256": "310a160511df4212f55171645305271d6b09f7d3938a069aa6776f18c64bc97b"
+    },
+    "BIST_GARAN|1d": {
+      "rows": 251,
+      "sha256": "3567bb9b17220a7323f22224871121c9ed4a9252d6bc03e1568277031280ca52"
+    },
+    "BIST_GARAN|4h": {
+      "rows": 498,
+      "sha256": "d98bc03c3cafdb24ec232dda49eb9eb15020ccea04c341ef447c59bace23deee"
+    },
+    "BIST_GLRMK|1d": {
+      "rows": 251,
+      "sha256": "de9acaabd3142868b9947517408695fa2f980c2a2fc8fa03c9ac1451e4917bc7"
+    },
+    "BIST_GLRMK|4h": {
+      "rows": 498,
+      "sha256": "0caa0c2bef7f8c9e9119301c9b20173593bc34e03342e47de59fc8ad96f88c9d"
+    },
+    "BIST_GLYHO|1d": {
+      "rows": 251,
+      "sha256": "b404b3cfda68e2397e6c20fb62a09a58dc730e2363e71cdbb3e525d2dffe9a5d"
+    },
+    "BIST_GLYHO|4h": {
+      "rows": 498,
+      "sha256": "2933dc053fd6999313a60c0b09b95fd8c0de40984078f6889d323da65c45f667"
+    },
+    "BIST_GRSEL|1d": {
+      "rows": 251,
+      "sha256": "b35fa3d32f3236d334072f29db185ac799bf41ed2951d775760e22900d4fbaa9"
+    },
+    "BIST_GRSEL|4h": {
+      "rows": 498,
+      "sha256": "f53e7313ee073f109238775db48babf9284c269b20d13caf64b8570df45fbc11"
+    },
+    "BIST_GUBRF|1d": {
+      "rows": 251,
+      "sha256": "282c737ac07ba197d7da48af8f769d34c7f0c29874ce15497936ed8e3558bc25"
+    },
+    "BIST_GUBRF|4h": {
+      "rows": 498,
+      "sha256": "5376da0b88b05ea676dd48fd9bfa049a280ea6b925623c6a49ae059baf39449c"
+    },
+    "BIST_GWIND|1d": {
+      "rows": 251,
+      "sha256": "d10ae65599fe5e7af09fa31d633173f49da863e5f8e5b0715a5d109fac9c2f0f"
+    },
+    "BIST_GWIND|4h": {
+      "rows": 498,
+      "sha256": "234a33da7d667ac00bd3760977118c123827a640dfa8fce0933e3307602101db"
+    },
+    "BIST_HALKB|1d": {
+      "rows": 251,
+      "sha256": "a2cc229f3344068af25d57f575897bfe0509024f5acda5d985c3d1ac6f7db9f1"
+    },
+    "BIST_HALKB|4h": {
+      "rows": 498,
+      "sha256": "0b84c508e2a5c285f16040b2652323ec2774c8f37883e878a8d3253023822ca7"
+    },
+    "BIST_HEKTS|1d": {
+      "rows": 251,
+      "sha256": "a6564d44650e6fe6eebc45a4bb652aaeec6a416857c720bbabfb31e54416d7e6"
+    },
+    "BIST_HEKTS|4h": {
+      "rows": 498,
+      "sha256": "424e806a07661f6df70599552c8decabef90cf4c2419d6cff2839e244d3dbd43"
+    },
+    "BIST_ISCTR|1d": {
+      "rows": 251,
+      "sha256": "dae5d5a7b68e890abae6b1702d2095021d584a70380c9167004fe0ccac0697e2"
+    },
+    "BIST_ISCTR|4h": {
+      "rows": 498,
+      "sha256": "699e46b1bd7243558ace591b9435d612b3d1beba91e0120d231c9a7b2aafdf4f"
+    },
+    "BIST_ISDMR|1d": {
+      "rows": 251,
+      "sha256": "09bc3e9728dc2621ac7a2cfbee3d4024991cbdb1cfb881d74a41d54debe476fe"
+    },
+    "BIST_ISDMR|4h": {
+      "rows": 498,
+      "sha256": "497102795a14e8aa3fa25641f3a7866df53a0cf1ffce23934eb51a6d5443025c"
+    },
+    "BIST_ISMEN|1d": {
+      "rows": 251,
+      "sha256": "d3ecc3231d35afc473ffa75b4a7c36c26158593b002dcc839b98a45639ac4107"
+    },
+    "BIST_ISMEN|4h": {
+      "rows": 498,
+      "sha256": "816f7291aac8a5717452702830f1590acfa8a3016d08a9586e74adb52428c17f"
+    },
+    "BIST_KARSN|1d": {
+      "rows": 251,
+      "sha256": "c5f3db4b691b44c7374eb7b083b7acc8709093082d68a1530320267e22b5db68"
+    },
+    "BIST_KARSN|4h": {
+      "rows": 498,
+      "sha256": "479231135a5cef90baaed66fd90c968820e873b0cb6a3966d15545a1a5a9ff0f"
+    },
+    "BIST_KATMR|1d": {
+      "rows": 251,
+      "sha256": "7ff345e75ff2f7136e0fdced6e4b0e3963a57de7b9841e27fbdaadeab9e29662"
+    },
+    "BIST_KATMR|4h": {
+      "rows": 498,
+      "sha256": "fc51f4f90096146296202017bfa257a3c3d509a410d4604105c1a0db504a2921"
+    },
+    "BIST_KCAER|1d": {
+      "rows": 251,
+      "sha256": "5d0c4512844364b3c5e39e146172c79a16861f6bb5adda0410e841f990d8c9ba"
+    },
+    "BIST_KCAER|4h": {
+      "rows": 498,
+      "sha256": "80067cddd1c1fa65302797f221a6ec0d510cdbd228003fb313f5f7bcc6e6220c"
+    },
+    "BIST_KCHOL|1d": {
+      "rows": 251,
+      "sha256": "b76900a0b0cc87dd4d0491aa5ddaa8c4df24d4329d9b1653d5e082299f50474c"
+    },
+    "BIST_KCHOL|4h": {
+      "rows": 498,
+      "sha256": "62c281e8a2998f06cbf45dc5a30638f0750c93ca9527fee803efbc3d93e6b464"
+    },
+    "BIST_KORDS|1d": {
+      "rows": 251,
+      "sha256": "4589afc4f13636608a37b717061a04fc93a09dbca5eee2492bdcde482ab5303e"
+    },
+    "BIST_KORDS|4h": {
+      "rows": 498,
+      "sha256": "d9a2dc5589ec763cee4215c9caeb4769cbab921fb9fb32acd2af134201d128ff"
+    },
+    "BIST_KRDMD|1d": {
+      "rows": 251,
+      "sha256": "115291bd677704c99eb0c3d7dee211beb9b0fcf47b3577f0a4ae9d1c773643b1"
+    },
+    "BIST_KRDMD|4h": {
+      "rows": 498,
+      "sha256": "c7b0e0682e5bb514e263ff4db8c5cdf180d96db09b5f04d5cc8eb0c33afb5cc0"
+    },
+    "BIST_LMKDC|1d": {
+      "rows": 251,
+      "sha256": "1c1a2e589850ed348f8d04444ae44f8ed823ee8a0434424e4f9b301e990a815f"
+    },
+    "BIST_LMKDC|4h": {
+      "rows": 498,
+      "sha256": "f9b2081242920e84169bed38a0eda12a7a5e2c19bffec2ec96b248e33a5649e9"
+    },
+    "BIST_MAVI|1d": {
+      "rows": 251,
+      "sha256": "36050730ca5a9297a7652eb971107caf8f504f989ee96c5bb4dc57f5496212c0"
+    },
+    "BIST_MAVI|4h": {
+      "rows": 498,
+      "sha256": "4ff9f598c19e81ff6bb1b6460660d644894d2561f1c83534934b9401b4b1ba04"
+    },
+    "BIST_MGROS|1d": {
+      "rows": 251,
+      "sha256": "6cf7090f635d65097ca2079d96eed9d4f3958b246d6783d74463aca4a010375f"
+    },
+    "BIST_MGROS|4h": {
+      "rows": 498,
+      "sha256": "b21c87517a46f6397642f372f9cef9214df24a54bc1b148f68d8362f828dd017"
+    },
+    "BIST_MPARK|1d": {
+      "rows": 251,
+      "sha256": "5b301e9574e1e23703016f07a1e625b77ea16a77d46b5e04322dac77a157feb8"
+    },
+    "BIST_MPARK|4h": {
+      "rows": 498,
+      "sha256": "20a067d3c98eedb3dc5e827f0cac2b4fe77af71b8311656c7121e0761a00373c"
+    },
+    "BIST_OBAMS|1d": {
+      "rows": 251,
+      "sha256": "c2ffc584a44aa9d8063e5e94c1e76142d9f7a9c9563f944984fffa6f870d9a36"
+    },
+    "BIST_OBAMS|4h": {
+      "rows": 498,
+      "sha256": "364f4faa99be6ed60d0b022864ea0d3639e2efe8a85fb8f6a7a3649240f94c4f"
+    },
+    "BIST_ODAS|1d": {
+      "rows": 251,
+      "sha256": "6755156bb112d764e2140c3ab88a3fd57c0a7fe40854aec8c4cda3b2beebc5a8"
+    },
+    "BIST_ODAS|4h": {
+      "rows": 498,
+      "sha256": "cac1a5a14ae957bf7ee5349af0fd76c154965914c39ecea3e27cea2eecdcb71c"
+    },
+    "BIST_OTKAR|1d": {
+      "rows": 251,
+      "sha256": "288759ff004b2c4391534102f601adf9f7126ec12f25bc617aba4d69b1db8798"
+    },
+    "BIST_OTKAR|4h": {
+      "rows": 498,
+      "sha256": "86892a14b17d84090abf8c475f444cc3955b66661f132ac2b3e4ba936f2889b9"
+    },
+    "BIST_OYAKC|1d": {
+      "rows": 251,
+      "sha256": "b4bf9028d0d56bcc449e033396ca2d66d360614c153a2605d534fd2f2168dcaa"
+    },
+    "BIST_OYAKC|4h": {
+      "rows": 498,
+      "sha256": "041a2c7f7276a611f77c393688d0b80b5d7f20f2dae67aafca196a51b63d1405"
+    },
+    "BIST_PAHOL|1d": {
+      "rows": 246,
+      "sha256": "e7628ce3ab32560391e954b22192bf05c9b76fbccead2542cc2b6daf2200dde1"
+    },
+    "BIST_PAHOL|4h": {
+      "rows": 488,
+      "sha256": "4f6cfdedff91ade32907b75dda526749f558757bb46c9fd579c9f627bbe594b7"
+    },
+    "BIST_PETKM|1d": {
+      "rows": 251,
+      "sha256": "0d4946cf8f5805f4ac6fdbcfb6ec2547560b1ee31da7c9bbce887f0582df36c3"
+    },
+    "BIST_PETKM|4h": {
+      "rows": 498,
+      "sha256": "c247859eea082cce08b40fc10ac406b49e357bb98078aa5e0782c560537595de"
+    },
+    "BIST_PGSUS|1d": {
+      "rows": 251,
+      "sha256": "7937b0ab63ecb76160a1dffb19450f01d2913b062cc885af1e4e798cacbf280e"
+    },
+    "BIST_PGSUS|4h": {
+      "rows": 498,
+      "sha256": "e293d738ef888005aaa4c91c0cb683240e6162d4649514fa818f5228a67b9849"
+    },
+    "BIST_RGYAS|1d": {
+      "rows": 251,
+      "sha256": "0d4bad3ebe13e51aa4ad6731d4fa82dd1d30ffd2fe198a04959229ce5c130509"
+    },
+    "BIST_RGYAS|4h": {
+      "rows": 498,
+      "sha256": "0e6186299b4f3ad8735a33e041892320240ab70aa81e0030882cf1e1aae47a7a"
+    },
+    "BIST_RYSAS|1d": {
+      "rows": 251,
+      "sha256": "1259d14a3c9118d205cbee235109331f1795b700fec8c04a3018a2ac28f2d57c"
+    },
+    "BIST_RYSAS|4h": {
+      "rows": 498,
+      "sha256": "6b426836cdba4c3e900752dc9b261ec5ab816fb894a646ff10fd372d7150a393"
+    },
+    "BIST_SAHOL|1d": {
+      "rows": 251,
+      "sha256": "18d44a4f07b3648a53eb2b26daee572c31ce2329e877d7154a4befca3be6071f"
+    },
+    "BIST_SAHOL|4h": {
+      "rows": 498,
+      "sha256": "8b592576fea29a814528272cd2532cdce7f5ed512630ab39d91e198646c04e63"
+    },
+    "BIST_SASA|1d": {
+      "rows": 251,
+      "sha256": "4d3d8d2bb5485b81db6ccea4932c045e743dc7b7ff26b57e7f0f31e2647c8cb5"
+    },
+    "BIST_SASA|4h": {
+      "rows": 498,
+      "sha256": "01924770a7e988782b79ba9bde54750aff9ca1072551cf413e0e30fd63480bf4"
+    },
+    "BIST_SISE|1d": {
+      "rows": 251,
+      "sha256": "61f9ac0625d622f403e9f5df984a91fcf49a046348b31b2afd167e579d18e418"
+    },
+    "BIST_SISE|4h": {
+      "rows": 498,
+      "sha256": "9db218c1e1f990520c4648ba86e570b65cb9941f06bb0597d4377b8cc73dda67"
+    },
+    "BIST_SNGYO|1d": {
+      "rows": 251,
+      "sha256": "f445e186cbde65a21fa98d15f63cd5a88422027eb0cdf85084da6f81f19661b2"
+    },
+    "BIST_SNGYO|4h": {
+      "rows": 498,
+      "sha256": "bd78dda413478e2c3a25034a5109a3eac7d1bf6766a63900465c2f00f052a81c"
+    },
+    "BIST_SOKM|1d": {
+      "rows": 251,
+      "sha256": "181f80d54d6a509aaa982d41d8e08fd3571e30687e13dd9d09019f010224ad98"
+    },
+    "BIST_SOKM|4h": {
+      "rows": 498,
+      "sha256": "cac823407a62202885fe05facc6ed1710a9884a9f485cb564301b8e825efe9a3"
+    },
+    "BIST_TABGD|1d": {
+      "rows": 251,
+      "sha256": "7b4d4cab7754f808c0bfef4a7bae934d68d4b7e1c41b8185355111649c994c1b"
+    },
+    "BIST_TABGD|4h": {
+      "rows": 498,
+      "sha256": "7992863ebd2a399577c84874cfe0b6c22b0b11cc46ac48e8d0904ebd61d1af42"
+    },
+    "BIST_TAVHL|1d": {
+      "rows": 251,
+      "sha256": "fd1aa0076ffaa72fb4cd275b9dc6550b75d3e274ced19e2307b5a6337caf12e4"
+    },
+    "BIST_TAVHL|4h": {
+      "rows": 498,
+      "sha256": "3bfbab413d3adefa777da00f4454bec852a3973a0633be9a0f6fe4993bbc012f"
+    },
+    "BIST_TCELL|1d": {
+      "rows": 251,
+      "sha256": "dc2886ccb007b54884c71eefc74109b498a8bc5821cad06aed0c588966fbceb1"
+    },
+    "BIST_TCELL|4h": {
+      "rows": 498,
+      "sha256": "ff99a1bf78358bf29085f898a193dbc682dc9c814d584c22d3736035122c856c"
+    },
+    "BIST_TCKRC|1d": {
+      "rows": 251,
+      "sha256": "717e4987bb1168802ecae8f47b0ffd687e04ee006d5ec56724846e49087ce160"
+    },
+    "BIST_TCKRC|4h": {
+      "rows": 498,
+      "sha256": "663a777b490dbdf992fffd7934c6ec5d50d662e48c73fe9e488462691da21cf9"
+    },
+    "BIST_THYAO|1d": {
+      "rows": 251,
+      "sha256": "c5e1fbb2ead5909ce4cba9a854bc33c76d0d14aa9611ed068cf4c642065c0855"
+    },
+    "BIST_THYAO|4h": {
+      "rows": 498,
+      "sha256": "8f791059afcfb3d40e422d6c88a433d381ccdb39a278da72d3ce626e02233b98"
+    },
+    "BIST_TKFEN|1d": {
+      "rows": 251,
+      "sha256": "bdf4a3712984141e1a335384a771dbda0df092641cca9b29dfea47d6abb53bd5"
+    },
+    "BIST_TKFEN|4h": {
+      "rows": 498,
+      "sha256": "163197d975efa98725f4d5908b5fa5e9142e1210ad8db4d59b36124ce409f084"
+    },
+    "BIST_TOASO|1d": {
+      "rows": 251,
+      "sha256": "edb3b915bb9e7c0d23cc945b1f9342ef9bee1274c4d42b240ca59be84eab560d"
+    },
+    "BIST_TOASO|4h": {
+      "rows": 498,
+      "sha256": "bd581ec60b7a89f981b4d1645cf7b6e2fedd446b8ee45bc76a350bfba0de9425"
+    },
+    "BIST_TRALT|1d": {
+      "rows": 251,
+      "sha256": "e0c02a7ee32d0f9f0b893b9e5e232f0f02e18138073288fcc7167eee2d06bfc6"
+    },
+    "BIST_TRALT|4h": {
+      "rows": 486,
+      "sha256": "868ea8f66798aedd76e91fbb4801f9de6783ee8d36380b44eab13321e6725b01"
+    },
+    "BIST_TRENJ|1d": {
+      "rows": 251,
+      "sha256": "1a17b61fd24968e65a664c01d6ec5f6dd4e57effa86cffded21723c613ca5f63"
+    },
+    "BIST_TRENJ|4h": {
+      "rows": 486,
+      "sha256": "3d72df5bdb8cf0401e4ce522a0435042120444723bb70e5f7e7c4df644206668"
+    },
+    "BIST_TRGYO|1d": {
+      "rows": 251,
+      "sha256": "823c3a2409ea80a62f7c1f7196f12d86143b6c2ac4dd41011f6f2085eafeeb90"
+    },
+    "BIST_TRGYO|4h": {
+      "rows": 498,
+      "sha256": "7fa414e36df3ef6eb095abfc46dea68d3ae0770b194722b53c01c853ed48f1db"
+    },
+    "BIST_TRMET|1d": {
+      "rows": 251,
+      "sha256": "92e66b0dabda444b74ecf6ac2e8d89de37e9f0813b55c035ba5b894a3df1c885"
+    },
+    "BIST_TRMET|4h": {
+      "rows": 486,
+      "sha256": "70f3516061644f892bf8c133c64a54d6721e454d62350b29195a70248ddf554b"
+    },
+    "BIST_TSKB|1d": {
+      "rows": 251,
+      "sha256": "c8a8a348465413f8d102e599edb922402d7dabe0d317882cb19f83dc807491fc"
+    },
+    "BIST_TSKB|4h": {
+      "rows": 498,
+      "sha256": "cf4801d661f24e7374edbf33499626e094e087e402794fff9dea96e839fa0d03"
+    },
+    "BIST_TTKOM|1d": {
+      "rows": 251,
+      "sha256": "5d77c5d96c9bf4d4047f60b963164e1d02197f4a1fd24435f741838c5ff6aadc"
+    },
+    "BIST_TTKOM|4h": {
+      "rows": 498,
+      "sha256": "1be2f66c22add3db0b32aa7799649b7cdc877245842a12f0d10e6d0b63c232ce"
+    },
+    "BIST_TTRAK|1d": {
+      "rows": 251,
+      "sha256": "c4f3b156b94d8a12fb6bf4357e4dac0b5ba4e68e653d8402d6c4067f5a3ef2af"
+    },
+    "BIST_TTRAK|4h": {
+      "rows": 498,
+      "sha256": "f303a782bf9bbd8279651803341bb571bcd3cd438295d760f668a6c68cbf7b22"
+    },
+    "BIST_TUKAS|1d": {
+      "rows": 251,
+      "sha256": "181c17a30b5e3cb0ae6117fb0c737c3ba750f5b43391a28118348bc9f89f7d94"
+    },
+    "BIST_TUKAS|4h": {
+      "rows": 498,
+      "sha256": "1f4e2b3cd3f75226178a2a65c67f56bcb8bd9bfbc4721c098b82ba7674cf2419"
+    },
+    "BIST_TUPRS|1d": {
+      "rows": 251,
+      "sha256": "604dcb862c911938d7c062ee926b62020dfc02aaade126777543d425a48dc758"
+    },
+    "BIST_TUPRS|4h": {
+      "rows": 498,
+      "sha256": "22d838e48a25a1bd29e06808c65114738ee3835127dddd0fcdc1a1c87f697372"
+    },
+    "BIST_TURSG|1d": {
+      "rows": 251,
+      "sha256": "856f0bae0d146abbd5a8039bec223d6a405d14adde1a7c9c2479127928bd4f8f"
+    },
+    "BIST_TURSG|4h": {
+      "rows": 498,
+      "sha256": "b92bc949d73d9ce820b887b3fa79269b9e083a5808571f4a2f03f291b97e8993"
+    },
+    "BIST_ULKER|1d": {
+      "rows": 251,
+      "sha256": "c45c3191efbfb5944644086e45d6e75194ccd9d8fcdd1e7cde3d50cbad70e700"
+    },
+    "BIST_ULKER|4h": {
+      "rows": 498,
+      "sha256": "fc2b292d58feb49184d26d0b13dabdb00a422e7d943161096fd9e6aab504ceed"
+    },
+    "BIST_VAKBN|1d": {
+      "rows": 251,
+      "sha256": "c4e409a947ca02e2665dae463c570959b2cd72c546864a39fb0e2163c7ba967b"
+    },
+    "BIST_VAKBN|4h": {
+      "rows": 498,
+      "sha256": "3b38ffe65c60cb23f3140cbaa7d633f2c269adb445fbe874c1fbcde5f4daa4e8"
+    },
+    "BIST_VESTL|1d": {
+      "rows": 251,
+      "sha256": "6282558d1a8e8f145d9bf09ae07910a5ef45711a11a6e05e9be0a7484dd55011"
+    },
+    "BIST_VESTL|4h": {
+      "rows": 498,
+      "sha256": "7d750b272d4ea1f9a3d86071786c38c7dbe5708c2d428d0807109ceed20513a4"
+    },
+    "BIST_YKBNK|1d": {
+      "rows": 251,
+      "sha256": "16d5c152892a0ce21289e5f2884bebdefa3ed8d748b26f26bc5dfd83b3ec8793"
+    },
+    "BIST_YKBNK|4h": {
+      "rows": 498,
+      "sha256": "fab12a949efcd9896d35c5dd32e47ca17f5e35df11c9a4665d0129962bf6a766"
+    },
+    "BIST_ZOREN|1d": {
+      "rows": 251,
+      "sha256": "ce1ed16eaf405e4ec1be58cc1e2257c2b643c01e062c04b0f233e2ad7649eb2c"
+    },
+    "BIST_ZOREN|4h": {
+      "rows": 498,
+      "sha256": "badfe997002be282b5200435dfd47dbace201743622b982f18005118f190dd09"
+    },
+    "IDX_XU100|1d": {
+      "rows": 250,
+      "sha256": "8cb012bc53a9a87046ab7ec5d70b3c054394f07001f92859f56ffae39e366e51"
+    },
+    "IDX_XU100|4h": {
+      "rows": 498,
+      "sha256": "31d45b87d1d79d13b01e84ddef0e03a4c8d39b06d70610247571ba7b34f30714"
+    }
+  },
+  "files_sha256": {
+    "signals.csv": "169b7ce3949a525c8d70b122a8b3ef7bc6d5fa45badffef2880ff15bf3c57e47",
+    "outcomes.csv": "62f3dc69fb2773f4bac5847e69bff1b183bf60ef01bcc1d5e709c22817425755",
+    "reference_pivots.csv": "b736bcc112bb21ca4ad6914c336e00f0ae8796cb4d9f00af9906a63eb23ec386",
+    "confirmation_status.csv": "8742f90d0dcb02bcbcd479e480c1074e6370c908293951a5a140ab111b5d07e0",
+    "series_coverage.csv": "22627dcccef76d7a0876faab186ff1717ce791416fe463c214e300c827486344",
+    "new_input_manifest.csv": "a3c2ce15f6e6f043ee65483fac3dc7ac96bae735cdb9279e1ac4f4b6ad14dc73"
+  },
+  "external_timestamp_attestation": false,
+  "warning": "No automatic success or execution claim. Local time/hash and timestamps require independent verification."
+}

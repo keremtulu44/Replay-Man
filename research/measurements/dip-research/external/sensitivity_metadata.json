@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-11-19T14:59:17.486834+00:00",
+  "source": "external",
+  "method": "post-hoc sensitivity, not a preregistered result",
+  "tool_sha256": "718fb6a8fe9bbc5be4716bb1b1344145c936106ad179e3d2d95ab5162d230ee9",
+  "outcomes_sha256": "292a120d986c12f1b34e1dc7f17499c37f65884c15a4650a76a4acdc0589d3f5",
+  "inputs_manifest_sha256": "d87c96b9271e45df7ac38645924b3d45d19e6c198a7022ddcacb2c73ecf98201",
+  "output_sha256": {
+    "paired_delay_summary.csv": "2cf8bb4eb30d79ae765176221b6ae8a646a8a73a2c64dff1a87d24a4bdfbf8c4"
+  }
+}

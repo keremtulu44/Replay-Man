@@ -2,6 +2,8 @@
 
 Bu indeks, mevcut araştırma sonuçlarını tek yerden bulmak içindir. Sonuçlar **tarihsel ölçümlerdir**; canlı indikatör, emir veya alım/satım önerisi değildir. Genel bağlam sisteminin sonraki aşamaları ve mevcut durumu [plan dosyasında](../plans/genel-baglam-sistemi.md) açıklanır. Kullanıcı tercihiyle hacim kapsam dışındadır.
 
+> **19 Kasım 2026 metodoloji uyarısı:** Eski olay çalışmalarının bir kısmı XU100'ü hisse bitiş tarihi yerine endeksin bağımsız `shift(-h)` satırıyla eşler; günlükte tarihler farklı olabilir. Eski olay-sıralı bölümler sonuç penceresinin bölüm sınırını aşmasını da her zaman engellemez. Kapanış başlangıçlı/maliyetsiz sonuçlar gerçekleşebilir işlem kanıtı değildir. P6 ve yeni dip pilotu düzeltilmiş sözleşmeyle ayrıdır; [genel sonuç denetimini](general-review/README.md) ve her çalışmanın yöntemini kullanın.
+
 ## Endeksler ve döviz
 
 - [Kaynak bazında arşiv](market-context/kaynak-arsivi/README.md): 10 BIST endeksi, 6 küresel gösterge ve 2 kur için ayrı, filtrelenebilir hisse CSV'leri.

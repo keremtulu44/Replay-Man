@@ -1,5 +1,7 @@
 # İlk/İkinci Deneme ve Yeni Uç Ölçümü
 
+> **Tarihsel arşiv uyarısı (19.11.2026):** Eski endeks kıyası bağımsız bar kaydırmasıyla kurulmuştur; özellikle günlük hisse/endeks bitiş etiketleri farklı olabilir. Olay-sıralı bölümlerde sonuç ufku sonraki bölüme taşabilir. Sinyal kapanışından ölçülen ve maliyetsiz bu sayılar bağımsız ileri veya uygulanabilir işlem kanıtı değildir. [Genel denetim](../general-review/README.md).
+
 ## Kaynak fikri
 
 Cilt 2 Bölüm 9–10: ikinci deneme, beklenen yeni uç, başarısız yeni dip/tepe ve iki hareket bacağının kalitesini karşılaştırma.

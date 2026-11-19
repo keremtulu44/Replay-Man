@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-11-19T15:00:31.291575+00:00",
+  "input_series": 200,
+  "failures": 9101,
+  "confirmed": 7028,
+  "not_confirmed": 1792,
+  "censored": 281,
+  "paired_horizon_rows": 14056,
+  "python": "3.11.2",
+  "pandas": "3.1.1",
+  "numpy": "2.4.6",
+  "code_sha256": {
+    "research/measurements/dip-research/PLAN.md": "e2389e3ef9013394ff60711f5f05d2a65142ad407c97067925a818997e6f1fbb",
+    "replayman/dip_research.py": "8ff9cb4502d85c06ce40b8ade95ff41ecb57515ac2fc9a8953c02f353aa01d4c",
+    "replayman/p6_causal.py": "1fe6e39ec3849e6984e42931a2d45feb93dd11bc7d8f23f01a751afbd88517e3",
+    "replayman/lifecycle.py": "8e80b205aff18f69f4c964f8fda464068d7e04eb9f4f2d1532b3ad7176d22496",
+    "replayman/structure.py": "337fd2fb8d9ea37ff3f2439af20e3260f424edf27ed1247ef1ccae41b0bf5a8e",
+    "replayman/swings.py": "5fe51e8e4a5cecd29aabe6d219deffd4024f3dd6fca835eba309af687d7d2b78",
+    "replayman/replay.py": "562f71ffc879ba59da43ee70c8df07a6aba902d4e97773366754f9cd3e930b9d",
+    "tools/measure_dip_pilot.py": "e3638850e92280283c66904dea5fbe72a09cbfc7f5c01091c60d040340cb246e",
+    "tools/measure_p6_causal.py": "75bfdbd1e5d118a85b737ffa66459919665b869ca264a9e347c6f367661ca263"
+  },
+  "warning": "Failure-close group selection uses future confirmation; not a signal. Historical only."
+}

@@ -1,5 +1,7 @@
 # Cilt 2 P6 — Kırılım Yaşam Döngüsü Ayrıntıları
 
+> **Tarihsel arşiv — işlem sinyali olarak geçersiz:** Aşağıdaki karşı genişleme grubu, failure kapanışında henüz bilinmeyen sonraki 10 bardaki olaya göre seçilmiştir. Ayrıca günlük XU100 bazı olaylarda hisseyle farklı bitiş etiketine hizalanmıştır. Bu nedenle aşağıdaki `%0,07 / %1,51 / %1,91` ve `continue` kararı uygulanabilir veya bağımsız performans kanıtı **değildir**. Eski sayılar denetim izi olarak korunmuştur. Düzeltilmiş ölçüm: [`../p6-causal/`](../p6-causal/). Kod artık karşı genişlemeyi ayrı ve teyit kapanışında yayımlar; `tools.measure_cilt2_lifecycle` tarihsel CSV'leri ezmez.
+
 ## Kapsam
 
 556.255 yaşam döngüsü olayı, 125 varlık ve dört periyot. 50.566 failure sonrası karşı genişleme tespit edildi. Olaylara seviye kimliği, deneme sayısı, dışarıda kalma süresi, retest yaklaşma hızı, geri alma oranı, eski alana giriş derinliği ve karşı genişleme zamanı eklendi.
@@ -10,12 +12,12 @@ BIST 4h üzerinde baseline yanında tolerans 0,05/0,20 ATR, acceptance 1/3 kapan
 
 ## Failure sonrası karşı genişleme
 
-4h BIST failure olaylarında karşı genişleme olan grup üç zaman bölümünde pozitif medyan taşıdı: eğitim yaklaşık `%0,07`, doğrulama `%1,51`, test `%1,91`. Testte 573 hazır alt-grup gözlemi; karşı genişleme olmayan grup testte `-%3,88` ve belirgin zayıf. Çok boyutlu tablodaki alt gruplar nedeniyle bu sayılar doğrudan bağımsız işlem sayısı değildir, ancak işaret ayrımı güçlüdür.
+Eski, **gelecekle seçilmiş** 4h BIST failure alt grubunun medyanları eğitim/doğrulama/test için yaklaşık `%0,07 / %1,51 / %1,91`; testte 573 hazır alt-grup gözlemi ve seçilmeyenlerde `-%3,88` idi. Bu sayılar denetim izi olarak bırakılmıştır; failure anında bilinebilir bir ayrım veya bağımsız işlem sonucu değildir.
 
 ## Karar
 
 - Çıplak close-break/acceptance/retest/failure: parametre komşuluğunda `chance_like/context_required`.
-- Failure sonrası karşı genişleme: `continue`, tam olay tekilleştirmesi ve maliyet testi gerekli.
+- Failure sonrası karşı genişleme: eski `continue` kararı **geri çekildi**; yalnız teyit sonrası, nedensel ve maliyetli yeni ölçüm değerlendirilebilir.
 - Deneme sayısı, dışarıda kalma ve retest kalitesi: ayrıntılı tabloda korunur; tek bir evrensel eşik henüz seçilmez.
 
 ## Dosyalar
